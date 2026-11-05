@@ -1,0 +1,1216 @@
+{
+  "metadata": {
+    "batch": "Batch 9 (Pages 41 to 46 - Final Chapter)",
+    "document_title": "Ground Handling Training Manual Rev 1 (SSW ReadyToFly)",
+    "source_pdf": "Ground handling V1.pdf",
+    "image_folder": "Ground handling - Images V1/",
+    "tts_config": {
+      "sinhala_teacher_voice": {
+        "voice_locale": "si-LK",
+        "voice_type": "native_sinhala_teacher",
+        "role": "friendly_expert_instructor"
+      },
+      "japanese_native_voice": {
+        "voice_locale": "ja-JP",
+        "voice_type": "native_japanese_professional",
+        "role": "standard_aviation_pronunciation"
+      }
+    }
+  },
+  "pages": [
+    {
+      "page_number": 41,
+      "page_title_sinhala": "Reference A: ජපානයේ සිට ගුවන් ගමන් ක්‍රියාත්මක වන ප්‍රධාන විදේශීය ගුවන් තොටුපළ 3-Letter කේත (A සිට S දක්වා)",
+      "page_title_japanese": "A. 日本からの便が飛んでいるおもな海外の空港のスリーレター・コード (1)",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P41_S01",
+          "content_type": "reference_codes_table",
+          "japanese": {
+            "original_kanji": "日本からの便が飛んでいるおもな海外の空港のスリーレター・コード",
+            "furigana": "日(に)本(ほん)からの便(びん)が飛(と)んでいるおもな海(かい)外(がい)の空(くう)港(こう)のスリーレター・コード",
+            "romaji": "Nihon kara no bin ga tonde iru omo na kaigai no kuukou no surii retaa koudo"
+          },
+          "english": "Major overseas airport 3-letter IATA codes served by flights from Japan (Part 1).",
+          "sinhala": "ජපානයේ සිට සෘජු ගුවන් ගමන් ක්‍රියාත්මක වන ලෝකයේ ප්‍රධාන ජාත්‍යන්තර ගුවන් තොටුපළ අකුරු 3 කේත (IATA 3-Letter Codes) - 1 කොටස.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, මෙන්න විභාගයේදී අනිවාර්යයෙන්ම ලකුණු 5ක් 10ක් ගන්න පුළුවන් තැන! 41 වෙනි පිටුවේ තියෙන්නේ ජපානයත් එක්ක ගුවන් ගමන් තියෙන ලෝකයේ ප්‍රධාන ගුවන් තොටුපළවල අකුරු 3 කේත (3-Letter Codes). ලංකාවේ කොළඹට කියන්නේ CMB (Colombo). ලන්ඩන් වලට LHR (Heathrow), පැරිස් වලට CDG (Charles de Gaulle), නිව්යෝර්ක් වලට JFK, සිංගප්පූරුවට SIN, බැංකොක් වලට BKK, ඩුබායි වලට DXB. බෑග් ටැග් එකක මේ අකුරු 3 දැක්ක ගමන් රට සහ ගුවන් තොටුපළ හඳුනාගන්න පුළුවන් වෙන්න ඕනෙ!",
+            "japanese_tts_text": "日本からの便が飛んでいる海外の主要空港スリーレターコード一覧です。"
+          }
+        }
+      ],
+      "reference_data": [
+        {
+          "code": "AKL",
+          "japanese": "オークランド",
+          "furigana": "おーくらんど",
+          "country": "ニュージーランド (නවසීලන්තය)"
+        },
+        {
+          "code": "AMS",
+          "japanese": "アムステルダム・スキポール",
+          "furigana": "あむすてるだむ・すきぽーる",
+          "country": "オランダ (නෙදර්ලන්තය)"
+        },
+        {
+          "code": "ANC",
+          "japanese": "アンカレッジ",
+          "furigana": "あんかれっじ",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "ARN",
+          "japanese": "ストックホルム",
+          "furigana": "すとっくほるむ",
+          "country": "スウェーデン (ස්වීඩනය)"
+        },
+        {
+          "code": "ATL",
+          "japanese": "アトランタ・ハーツフィールド",
+          "furigana": "あとらんた・はーつふぃーるど",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "BKK",
+          "japanese": "バンコク",
+          "furigana": "ばんこく",
+          "country": "タイ (තායිලන්තය)"
+        },
+        {
+          "code": "BLR",
+          "japanese": "ベンガルール",
+          "furigana": "べんがるーる",
+          "country": "インド (ඉන්දියාව)"
+        },
+        {
+          "code": "BOM",
+          "japanese": "ムンバイ（ボンベイ）",
+          "furigana": "むんばい（ぼんべい）",
+          "country": "インド (ඉන්දියාව)"
+        },
+        {
+          "code": "BOS",
+          "japanese": "ボストン",
+          "furigana": "ぼすとん",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "BRU",
+          "japanese": "ブリュッセル",
+          "furigana": "ぶりゅっせる",
+          "country": "ベルギー (බෙල්ජියම)"
+        },
+        {
+          "code": "BUD",
+          "japanese": "ブタペスト",
+          "furigana": "ぶたぺすと",
+          "country": "ハンガリー (හංගේරියාව)"
+        },
+        {
+          "code": "CAI",
+          "japanese": "カイロ",
+          "furigana": "かいろ",
+          "country": "エジプト (ඊජිප්තුව)"
+        },
+        {
+          "code": "CAN",
+          "japanese": "広州",
+          "furigana": "こうしゅう",
+          "country": "中国 (චීනය)"
+        },
+        {
+          "code": "CCU",
+          "japanese": "コルカタ",
+          "furigana": "こるかた",
+          "country": "インド (ඉන්දියාව)"
+        },
+        {
+          "code": "CDG",
+          "japanese": "パリ・シャルル・ド・ゴール",
+          "furigana": "ぱり・しゃるる・ど・ごーる",
+          "country": "フランス (ප්‍රංශය)"
+        },
+        {
+          "code": "CGK",
+          "japanese": "ジャカルタ・スカルノ・ハッタ",
+          "furigana": "じゃかるた・すかるの・やった",
+          "country": "インドネシア (ඉන්දුනීසියාව)"
+        },
+        {
+          "code": "CHC",
+          "japanese": "クライストチャーチ",
+          "furigana": "くらいすとちゃーち",
+          "country": "ニュージーランド (නවසීලන්තය)"
+        },
+        {
+          "code": "CMB",
+          "japanese": "コロンボ",
+          "furigana": "ころんぼ",
+          "country": "スリランカ (ශ්‍රී ලංකාව)"
+        },
+        {
+          "code": "CNS",
+          "japanese": "ケアンズ",
+          "furigana": "けあんず",
+          "country": "オーストラリア (ඕස්ට්‍රේලියාව)"
+        },
+        {
+          "code": "CPH",
+          "japanese": "コペンハーゲン",
+          "furigana": "こぺんはーげん",
+          "country": "デンマーク (ඩෙන්මාර්කය)"
+        },
+        {
+          "code": "CTU",
+          "japanese": "成都",
+          "furigana": "せいと",
+          "country": "中国 (චීනය)"
+        },
+        {
+          "code": "CVG",
+          "japanese": "シンシナティ",
+          "furigana": "しんしなてぃ",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "DAC",
+          "japanese": "ダッカ",
+          "furigana": "だっか",
+          "country": "バングラディッシュ (බංග්ලාදේශය)"
+        },
+        {
+          "code": "DCA",
+          "japanese": "ワシントン・ロナルド・レーガン",
+          "furigana": "わしんとん・ろなるど・れーがん",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "DEL",
+          "japanese": "デリー・インディラ・ガンディ",
+          "furigana": "でりー・いんでぃら・がんでぃ",
+          "country": "インド (ඉන්දියාව)"
+        },
+        {
+          "code": "DEN",
+          "japanese": "デンバー",
+          "furigana": "でんばー",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "DFW",
+          "japanese": "ダラス・フォートワース",
+          "furigana": "だらす・ふぉーとわーす",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "DLC",
+          "japanese": "大連",
+          "furigana": "だいれん",
+          "country": "中国 (චීනය)"
+        },
+        {
+          "code": "DME",
+          "japanese": "ドモジェドヴォ",
+          "furigana": "どもじぇどゔぉ",
+          "country": "ロシア (රුසියාව)"
+        },
+        {
+          "code": "DTW",
+          "japanese": "デトロイト・メトロポリタン",
+          "furigana": "でとろいと・めとろぽりたん",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "DUS",
+          "japanese": "デュッセルドルフ",
+          "furigana": "でゅっせるどるふ",
+          "country": "ドイツ (ජර්මනිය)"
+        },
+        {
+          "code": "DXB",
+          "japanese": "ドバイ",
+          "furigana": "どばい",
+          "country": "アラブ首長国連邦 (ඩුබායි / එක්සත් අරාබි එමීර්)"
+        },
+        {
+          "code": "FCO",
+          "japanese": "ローマ・フィウミチーノ",
+          "furigana": "ろーま・ふぃうみちーの",
+          "country": "イタリア (ඉතාලිය)"
+        },
+        {
+          "code": "FRA",
+          "japanese": "フランクフルト・マイン",
+          "furigana": "ふらんくふると・まいん",
+          "country": "ドイツ (ජර්මනිය)"
+        },
+        {
+          "code": "GIG",
+          "japanese": "リオデジャネイロ",
+          "furigana": "りおでじゃねいろ",
+          "country": "ブラジル (බ්‍රසීලය)"
+        },
+        {
+          "code": "GMP",
+          "japanese": "ソウル・金浦",
+          "furigana": "そうる・きんぽ",
+          "country": "韓国 (දකුණු කොරියාව)"
+        },
+        {
+          "code": "GUM",
+          "japanese": "グアム",
+          "furigana": "ぐあむ",
+          "country": "アメリカ (ගුවාම් / ඇමරිකාව)"
+        },
+        {
+          "code": "GVA",
+          "japanese": "ジュネーブ",
+          "furigana": "じゅねーぶ",
+          "country": "スイス (ස්විට්සර්ලන්තය)"
+        },
+        {
+          "code": "HAN",
+          "japanese": "ハノイ・ノイバイ",
+          "furigana": "はのい・のいばい",
+          "country": "ベトナム (වියට්නාමය)"
+        },
+        {
+          "code": "HEL",
+          "japanese": "ヘルシンキ",
+          "furigana": "へるしんき",
+          "country": "フィンランド (ෆින්ලන්තය)"
+        },
+        {
+          "code": "HGH",
+          "japanese": "杭州・蕭山",
+          "furigana": "こうしゅう・しょうざん",
+          "country": "中国 (චීනය)"
+        },
+        {
+          "code": "HKG",
+          "japanese": "香港",
+          "furigana": "ほんこん",
+          "country": "香港 (හොංකොං)"
+        },
+        {
+          "code": "HNL",
+          "japanese": "ホノルル",
+          "furigana": "ほのるる",
+          "country": "アメリカ (හොනොලුලු / හවායි)"
+        },
+        {
+          "code": "IAD",
+          "japanese": "ワシントン・ダレス",
+          "furigana": "わしんとん・だれす",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "IAH",
+          "japanese": "ヒューストン",
+          "furigana": "ひゅーすとん",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "ICN",
+          "japanese": "ソウル・仁川",
+          "furigana": "そうる・いんちょん",
+          "country": "韓国 (දකුණු කොරියාව)"
+        },
+        {
+          "code": "ISB",
+          "japanese": "イスラマバード",
+          "furigana": "いすらまばーど",
+          "country": "パキスタン (පාකිස්තානය)"
+        },
+        {
+          "code": "IST",
+          "japanese": "イスタンブール・アタテュルク",
+          "furigana": "いすたんぶーる・あたてゅるく",
+          "country": "トルコ (තුර්කිය)"
+        },
+        {
+          "code": "JFK",
+          "japanese": "ニューヨーク・ジョン・F・ケネディ",
+          "furigana": "にゅーよーく・じょん・えふ・けねでぃ",
+          "country": "アメリカ (නිව්යෝර්ක් / ඇමරිකාව)"
+        },
+        {
+          "code": "KOA",
+          "japanese": "ハワイ島・コナ",
+          "furigana": "はわいとう・こな",
+          "country": "アメリカ (හවායි)"
+        },
+        {
+          "code": "KUL",
+          "japanese": "クアラルンプール",
+          "furigana": "くあらるんぷーる",
+          "country": "マレーシア (මැලේසියාව)"
+        },
+        {
+          "code": "LAS",
+          "japanese": "ラスベガス・マッカラン",
+          "furigana": "らすべがす・まっからん",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "LAX",
+          "japanese": "ロサンゼルス",
+          "furigana": "ろさんぜるす",
+          "country": "アメリカ (ලොස් ඇන්ජලීස්)"
+        },
+        {
+          "code": "LHR",
+          "japanese": "ロンドン・ヒースロー",
+          "furigana": "ろんどん・ひーすろー",
+          "country": "イギリス (ලන්ඩන් හීත්‍රෝ / බ්‍රිතාන්‍යය)"
+        },
+        {
+          "code": "MAA",
+          "japanese": "チェンナイ",
+          "furigana": "ちぇんない",
+          "country": "インド (ඉන්දියාව)"
+        },
+        {
+          "code": "MAD",
+          "japanese": "マドリード・バラハス",
+          "furigana": "まどりーど・ばらはす",
+          "country": "スペイン (ස්පාඤ්ඤය)"
+        },
+        {
+          "code": "MEL",
+          "japanese": "メルボルン",
+          "furigana": "めるぼるん",
+          "country": "オーストラリア (ඕස්ට්‍රේලියාව)"
+        },
+        {
+          "code": "MEX",
+          "japanese": "メキシコシティー",
+          "furigana": "めきしこしていー",
+          "country": "メキシコ (මෙක්සිකෝව)"
+        },
+        {
+          "code": "MNL",
+          "japanese": "マニラ・ニノイ・アキノ",
+          "furigana": "まにら・にのい・あきの",
+          "country": "フィリピン (පිලිපීනය)"
+        },
+        {
+          "code": "MSP",
+          "japanese": "ミネアポリス・セントポール",
+          "furigana": "みねあぽりす・せんとぽーる",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "MUC",
+          "japanese": "ミュンヘン",
+          "furigana": "みゅんへん",
+          "country": "ドイツ (ජර්මනිය)"
+        },
+        {
+          "code": "MXP",
+          "japanese": "ミラノ・マルペンサ",
+          "furigana": "みらの・まるぺんさ",
+          "country": "イタリア (ඉතාලිය)"
+        },
+        {
+          "code": "ORD",
+          "japanese": "シカゴ・オヘア",
+          "furigana": "しかご・おへあ",
+          "country": "アメリカ (චිකාගෝ)"
+        },
+        {
+          "code": "PEK",
+          "japanese": "北京",
+          "furigana": "ぺきん",
+          "country": "中国 (බීජිං / චීනය)"
+        },
+        {
+          "code": "PEN",
+          "japanese": "ペナン",
+          "furigana": "ぺなん",
+          "country": "マレーシア (මැලේසියාව)"
+        },
+        {
+          "code": "PER",
+          "japanese": "パース",
+          "furigana": "ぱーす",
+          "country": "オーストラリア (ඕස්ට්‍රේලියාව)"
+        },
+        {
+          "code": "PHX",
+          "japanese": "フェニックス",
+          "furigana": "ふぇにっくす",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "PNH",
+          "japanese": "プノンペン",
+          "furigana": "ぷのんぺん",
+          "country": "カンボジア (කාම්බෝජය)"
+        },
+        {
+          "code": "PPT",
+          "japanese": "パペーテ・ファアア",
+          "furigana": "ぱぺーて・ふぁああ",
+          "country": "タヒチ (ටහිටි)"
+        },
+        {
+          "code": "PUS",
+          "japanese": "釜山・金海",
+          "furigana": "ぷさん・きめ",
+          "country": "韓国 (බුසාන් / දකුණු කොරියාව)"
+        },
+        {
+          "code": "PVG",
+          "japanese": "上海・浦東",
+          "furigana": "しゃんはい・ぷーどん",
+          "country": "中国 (ෂැංහයි පුඩොං / චීනය)"
+        },
+        {
+          "code": "RGN",
+          "japanese": "ヤンゴン・ミンガラドン",
+          "furigana": "やんごん・みんがらどん",
+          "country": "ミャンマー (මියන්මාරය)"
+        },
+        {
+          "code": "SAN",
+          "japanese": "サンディエゴ",
+          "furigana": "さんでぃえご",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "SEA",
+          "japanese": "シアトル・タコマ",
+          "furigana": "しあとる・たこま",
+          "country": "アメリカ (සියැටල්)"
+        },
+        {
+          "code": "SFO",
+          "japanese": "サンフランシスコ",
+          "furigana": "さんふらんしすこ",
+          "country": "アメリカ (සැන් ෆ්‍රැන්සිස්කෝ)"
+        },
+        {
+          "code": "SGN",
+          "japanese": "ホーチミン・タンソンニャット",
+          "furigana": "ほーちみん・たんそんなっと",
+          "country": "ベトナム (හෝචිමින් / වියට්නාමය)"
+        },
+        {
+          "code": "SHA",
+          "japanese": "上海・虹橋",
+          "furigana": "しゃんはい・ほんちゃお",
+          "country": "中国 (ෂැංහයි හොංකියාවෝ / චීනය)"
+        },
+        {
+          "code": "SHE",
+          "japanese": "瀋陽",
+          "furigana": "しんよう",
+          "country": "中国 (චීනය)"
+        }
+      ]
+    },
+    {
+      "page_number": 42,
+      "page_title_sinhala": "Reference A (ඉතිරි කොටස): ප්‍රධාන විදේශීය ගුවන් තොටුපළ 3-Letter කේත (S සිට Z දක්වා)",
+      "page_title_japanese": "A. 海外の空港のスリーレター・コード (2)",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P42_S01",
+          "content_type": "reference_codes_table",
+          "japanese": {
+            "original_kanji": "海外の主要空港スリーレター・コード（続き）",
+            "furigana": "海(かい)外(がい)の主(しゅ)要(よう)空(くう)港(こう)スリーレター・コード（続(つづ)き）",
+            "romaji": "Kaigai no shuyou kuukou surii retaa koudo (tsuzuki)"
+          },
+          "english": "Major overseas airport 3-letter IATA codes (Part 2: SIN to ZRH).",
+          "sinhala": "ප්‍රධාන ජාත්‍යන්තර ගුවන් තොටුපළ අකුරු 3 කේත (ඉතිරි කොටස: SIN සිට ZRH දක්වා).",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න ඉතිරි විදේශ ගුවන් තොටුපළවල්: SIN කියන්නේ සිංගප්පූරුව, SYD කියන්නේ සිඩ්නි (ඕස්ට්‍රේලියාව), TPE කියන්නේ තායිපේ (තායිවානය), YVR කියන්නේ වැන්කුවර් (කැනඩාව), ZRH කියන්නේ සූරිච් (ස්විට්සර්ලන්තය). මේවා බෑග් ටැග් වල නිතරම දකින්න ලැබෙන ප්‍රධාන කේත!",
+            "japanese_tts_text": "シンガポール、シドニー、台北、バンクーバー、チューリッヒなどの空港コードです。"
+          }
+        }
+      ],
+      "reference_data": [
+        {
+          "code": "SIN",
+          "japanese": "シンガポール",
+          "furigana": "しんがぽーる",
+          "country": "シンガポール (සිංගප්පූරුව)"
+        },
+        {
+          "code": "SJC",
+          "japanese": "サンノゼ",
+          "furigana": "さんのぜ",
+          "country": "アメリカ (ඇමරිකාව)"
+        },
+        {
+          "code": "SVO",
+          "japanese": "モスクワ・シェレメチボ",
+          "furigana": "もすくわ・しぇれめちぼ",
+          "country": "ロシア (මොස්කව් / රුසියාව)"
+        },
+        {
+          "code": "SYD",
+          "japanese": "シドニー・キングスフォードスミス",
+          "furigana": "しどにー・きんぐすふぉーどすみす",
+          "country": "オーストラリア (සිඩ්නි / ඕස්ට්‍රේලියාව)"
+        },
+        {
+          "code": "SZX",
+          "japanese": "深圳",
+          "furigana": "しんせん",
+          "country": "中国 (ෂෙන්සෙන් / චීනය)"
+        },
+        {
+          "code": "TAO",
+          "japanese": "青島",
+          "furigana": "ちんたお",
+          "country": "中国 (චීනය)"
+        },
+        {
+          "code": "TPE",
+          "japanese": "台北（桃園）",
+          "furigana": "たいぺい（とうえん）",
+          "country": "台湾 (තායිපේ ටෝයුවාන් / තායිවානය)"
+        },
+        {
+          "code": "TSA",
+          "japanese": "台北（松山）",
+          "furigana": "たいぺい（そんしゃん）",
+          "country": "台湾 (තායිපේ සොංෂාන් / තායිවානය)"
+        },
+        {
+          "code": "TSN",
+          "japanese": "天津",
+          "furigana": "てんしん",
+          "country": "中国 (චීනය)"
+        },
+        {
+          "code": "VIE",
+          "japanese": "ウィーン",
+          "furigana": "うぃーん",
+          "country": "オーストリア (ඔස්ට්‍රියාව)"
+        },
+        {
+          "code": "VVO",
+          "japanese": "ウラジオストック",
+          "furigana": "うらじおすとっく",
+          "country": "ロシア (ව්ලැඩිවොස්ටොක් / රුසියාව)"
+        },
+        {
+          "code": "WUH",
+          "japanese": "武漢",
+          "furigana": "ぶかん",
+          "country": "中国 (වුහාන් / චීනය)"
+        },
+        {
+          "code": "XIY",
+          "japanese": "西安",
+          "furigana": "せいあん",
+          "country": "中国 (ෂියාන් / චීනය)"
+        },
+        {
+          "code": "XMN",
+          "japanese": "厦門",
+          "furigana": "あもい",
+          "country": "中国 (ෂියාමෙන් / චීනය)"
+        },
+        {
+          "code": "YVR",
+          "japanese": "バンクーバー",
+          "furigana": "ばんくーばー",
+          "country": "カナダ (වැන්කුවර් / කැනඩාව)"
+        },
+        {
+          "code": "YYZ",
+          "japanese": "トロント・ピアソン",
+          "furigana": "とろんと・ぴあそん",
+          "country": "カナダ (ටොරොන්ටෝ / කැනඩාව)"
+        },
+        {
+          "code": "ZRH",
+          "japanese": "チューリッヒ",
+          "furigana": "ちゅーりっひ",
+          "country": "スイス (සූරිච් / ස්විට්සර්ලන්තය)"
+        }
+      ]
+    },
+    {
+      "page_number": 43,
+      "page_title_sinhala": "Reference B: ජපානයේ ප්‍රධාන ගුවන් තොටුපළ 3-Letter කේත (Domestic Airport Codes)",
+      "page_title_japanese": "B. 日本のおもな空港のスリーレター・コード",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P43_S01",
+          "content_type": "japan_airports_table",
+          "japanese": {
+            "original_kanji": "日本のおもな空港のスリーレター・コード",
+            "furigana": "日(に)本(ほん)のおもな空(くう)港(こう)のスリーレター・コード",
+            "romaji": "Nihon no omo na kuukou no surii retaa koudo"
+          },
+          "english": "Major Japanese domestic airport 3-letter IATA codes.",
+          "sinhala": "ජපානයේ සියලුම ප්‍රධාන ගුවන් තොටුපළ අකුරු 3 කේත (Japanese Airport Codes).",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, ජපානයේ Ground Handling විභාගයට අනිවාර්යයෙන්ම එන ප්‍රධානම ජපන් එයාර්පෝට් කේත මෙන්න! ටෝකියෝ හනෙදා = HND, නරීතා = NRT, ඔසාකා කන්සායි = KIX, ඔසාකා ඉතාමි = ITM, නගෝයා චූබු = NGO, ෆුකුඕකා = FUK, සපෝරෝ චිතෝසේ = CTS, ඔකිනාවා නහා = OKA. මේ කේත 8 අනිවාර්යයෙන්ම කටපාඩමින් තියෙන්න ඕනෙ!",
+            "japanese_tts_text": "羽田はHND、成田はNRT、関西はKIX、伊丹はITM、中部はNGO、福岡はFUK、新千歳はCTS、那覇はOKAです。"
+          }
+        }
+      ],
+      "reference_data": [
+        {
+          "code": "AKJ",
+          "japanese": "旭川",
+          "furigana": "あさひかわ",
+          "prefecture": "北海道 (හොක්කයිඩෝ)"
+        },
+        {
+          "code": "AOJ",
+          "japanese": "青森",
+          "furigana": "あおもり",
+          "prefecture": "青森県 (අඔමොරි)"
+        },
+        {
+          "code": "ASJ",
+          "japanese": "奄美",
+          "furigana": "あまみ",
+          "prefecture": "鹿児島県 (කගොෂිමා)"
+        },
+        {
+          "code": "AXT",
+          "japanese": "秋田",
+          "furigana": "あきた",
+          "prefecture": "秋田県 (අකිතා)"
+        },
+        {
+          "code": "CTS",
+          "japanese": "新千歳",
+          "furigana": "しんちとせ",
+          "prefecture": "北海道 (සපෝරෝ - ෂින් චිතෝසේ)"
+        },
+        {
+          "code": "FKS",
+          "japanese": "福島",
+          "furigana": "ふくしま",
+          "prefecture": "福島県 (ෆුකුෂිමා)"
+        },
+        {
+          "code": "FSZ",
+          "japanese": "静岡",
+          "furigana": "しずおか",
+          "prefecture": "静岡県 (ෂිසුඕකා)"
+        },
+        {
+          "code": "FUK",
+          "japanese": "福岡",
+          "furigana": "ふくおか",
+          "prefecture": "福岡県 (ෆුකුඕකා)"
+        },
+        {
+          "code": "HIJ",
+          "japanese": "広島",
+          "furigana": "ひろしま",
+          "prefecture": "広島県 (හිරෝෂිමා)"
+        },
+        {
+          "code": "HKD",
+          "japanese": "函館",
+          "furigana": "はこだて",
+          "prefecture": "北海道 (හකොදාතේ)"
+        },
+        {
+          "code": "HND",
+          "japanese": "東京国際（羽田）",
+          "furigana": "とうきょうこくさい（はねだ）",
+          "prefecture": "東京都 (ටෝකියෝ හනෙදා)"
+        },
+        {
+          "code": "ISG",
+          "japanese": "石垣",
+          "furigana": "いしがき",
+          "prefecture": "沖縄県 (ඉෂිගාකි)"
+        },
+        {
+          "code": "ITM",
+          "japanese": "大阪国際（伊丹）",
+          "furigana": "おおさかこくさい（いたみ）",
+          "prefecture": "大阪府 (ඔසාකා ඉතාමි)"
+        },
+        {
+          "code": "KIX",
+          "japanese": "関西国際",
+          "furigana": "かんさいこくさい",
+          "prefecture": "大阪府 (කන්සායි ජාත්‍යන්තර)"
+        },
+        {
+          "code": "KMJ",
+          "japanese": "熊本",
+          "furigana": "くまもと",
+          "prefecture": "熊本県 (කුමමොතෝ)"
+        },
+        {
+          "code": "KOJ",
+          "japanese": "鹿児島",
+          "furigana": "かごしま",
+          "prefecture": "鹿児島県 (කගොෂිමා)"
+        },
+        {
+          "code": "NGO",
+          "japanese": "中部国際（セントレア）",
+          "furigana": "ちゅうぶこくさい",
+          "prefecture": "愛知県 (නගෝයා චූබු සෙන්ට්‍රෙයා)"
+        },
+        {
+          "code": "NGS",
+          "japanese": "長崎",
+          "furigana": "ながさき",
+          "prefecture": "長崎県 (නාගසාකි)"
+        },
+        {
+          "code": "NRT",
+          "japanese": "成田国際",
+          "furigana": "なりたこくさい",
+          "prefecture": "千葉県 (ටෝකියෝ නරීතා)"
+        },
+        {
+          "code": "OIT",
+          "japanese": "大分",
+          "furigana": "おおいた",
+          "prefecture": "大分県 (ඔයිතා)"
+        },
+        {
+          "code": "OKA",
+          "japanese": "那覇",
+          "furigana": "なは",
+          "prefecture": "沖縄県 (ඔකිනාවා නහා)"
+        },
+        {
+          "code": "OKJ",
+          "japanese": "岡山",
+          "furigana": "おかやま",
+          "prefecture": "岡山県 (ඔකයාමා)"
+        },
+        {
+          "code": "SDJ",
+          "japanese": "仙台",
+          "furigana": "せんだい",
+          "prefecture": "宮城県 (සෙන්දායි)"
+        },
+        {
+          "code": "TAK",
+          "japanese": "高松",
+          "furigana": "たかまつ",
+          "prefecture": "香川県 (තකමට්සු)"
+        },
+        {
+          "code": "TOY",
+          "japanese": "富山",
+          "furigana": "とやま",
+          "prefecture": "富山県 (තොයාමා)"
+        },
+        {
+          "code": "UBJ",
+          "japanese": "山口宇部",
+          "furigana": "やまぐちうべ",
+          "prefecture": "山口県 (යමගුචි උබේ)"
+        },
+        {
+          "code": "UKB",
+          "japanese": "神戸",
+          "furigana": "こうべ",
+          "prefecture": "兵庫県 (කෝබේ)"
+        },
+        {
+          "code": "WKJ",
+          "japanese": "稚内",
+          "furigana": "わっかない",
+          "prefecture": "北海道 (වක්කනායි)"
+        },
+        {
+          "code": "YGJ",
+          "japanese": "米子",
+          "furigana": "よなご",
+          "prefecture": "鳥取県 (යොනාගෝ)"
+        }
+      ]
+    },
+    {
+      "page_number": 44,
+      "page_title_sinhala": "Reference C: ලෝකයේ ප්‍රධාන ගුවන් සමාගම් කේත (Airline 2-Letter, 3-Letter & Prefix Codes)",
+      "page_title_japanese": "C. 世界のおもな航空会社エアライン・コード",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P44_S01",
+          "content_type": "world_airlines_table",
+          "japanese": {
+            "original_kanji": "世界のおもな航空会社エアライン・コード（ツーレター、スリーレター、Prefix）",
+            "furigana": "世(せ)界(かい)のおもな航(こう)空(くう)会(がい)社(しゃ)エアライン・コード（ツーレター、スリーレター、Prefix）",
+            "romaji": "Sekai no omo na koukuugaisha earain koudo (Tsuu retaa, Surii retaa, Prefix)"
+          },
+          "english": "Major global airline IATA/ICAO 2-letter, 3-letter, and 3-digit AWB Prefix codes.",
+          "sinhala": "ලෝකයේ ප්‍රධාන ගුවන් සමාගම්වල 2-Letter, 3-Letter සහ Air Waybill (AWB) Prefix ඉලක්කම් 3 කේත.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, Cargo Waybill එකක මුලින්ම තියෙන ඉලක්කම් 3 තමයි Airline Prefix එක. උදාහරණයකට Emirates ගුවන් සේවයේ කේතය EK / UAE / Prefix 176. Singapore Airlines SQ / SIA / Prefix 618. United Airlines UA / UAL / Prefix 016. Cathay Pacific CX / CPA / Prefix 160. මේ ප්‍රධාන ගුවන් සමාගම්වල Prefix අංක විභාගයේදී ගැලපීමට අහනවා!",
+            "japanese_tts_text": "世界の主要航空会社の2レターコード、3レターコード、プレフィックス番号一覧です。"
+          }
+        }
+      ],
+      "reference_data": [
+        {
+          "two_letter": "AA",
+          "three_letter": "AAL",
+          "prefix": "001",
+          "name": "アメリカン航空 (American Airlines)",
+          "country": "アメリカ"
+        },
+        {
+          "code": "AC",
+          "three_letter": "ACA",
+          "prefix": "014",
+          "name": "エア・カナダ (Air Canada)",
+          "country": "カナダ"
+        },
+        {
+          "code": "AF",
+          "three_letter": "AFR",
+          "prefix": "057",
+          "name": "エールフランス航空 (Air France)",
+          "country": "フランス"
+        },
+        {
+          "code": "BA",
+          "three_letter": "BAW",
+          "prefix": "125",
+          "name": "英国航空 (British Airways)",
+          "country": "イギリス"
+        },
+        {
+          "code": "BR",
+          "three_letter": "EVA",
+          "prefix": "695",
+          "name": "エバー航空 (EVA Air)",
+          "country": "台湾"
+        },
+        {
+          "code": "CA",
+          "three_letter": "CCA",
+          "prefix": "999",
+          "name": "中国国際航空 (Air China)",
+          "country": "中国"
+        },
+        {
+          "code": "CI",
+          "three_letter": "CAL",
+          "prefix": "297",
+          "name": "中華航空 (China Airlines)",
+          "country": "台湾"
+        },
+        {
+          "code": "CX",
+          "three_letter": "CPA",
+          "prefix": "160",
+          "name": "キャセイパシフィック航空 (Cathay Pacific)",
+          "country": "香港"
+        },
+        {
+          "code": "CZ",
+          "three_letter": "CSN",
+          "prefix": "784",
+          "name": "中国南方航空 (China Southern)",
+          "country": "中国"
+        },
+        {
+          "code": "DL",
+          "three_letter": "DAL",
+          "prefix": "006",
+          "name": "デルタ航空 (Delta Air Lines)",
+          "country": "アメリカ"
+        },
+        {
+          "code": "EK",
+          "three_letter": "UAE",
+          "prefix": "176",
+          "name": "エミレーツ航空 (Emirates)",
+          "country": "アラブ首長国連邦"
+        },
+        {
+          "code": "EY",
+          "three_letter": "ETD",
+          "prefix": "607",
+          "name": "エティハド航空 (Etihad Airways)",
+          "country": "アラブ首長国連邦"
+        },
+        {
+          "code": "FX",
+          "three_letter": "FDX",
+          "prefix": "023",
+          "name": "フェデックス (FedEx Express)",
+          "country": "アメリカ"
+        },
+        {
+          "code": "GA",
+          "three_letter": "GIA",
+          "prefix": "126",
+          "name": "ガルーダ・インドネシア航空 (Garuda Indonesia)",
+          "country": "インドネシア"
+        },
+        {
+          "code": "KE",
+          "three_letter": "KAL",
+          "prefix": "180",
+          "name": "大韓航空 (Korean Air)",
+          "country": "韓国"
+        },
+        {
+          "code": "KL",
+          "three_letter": "KLM",
+          "prefix": "074",
+          "name": "KLMオランダ航空 (KLM)",
+          "country": "オランダ"
+        },
+        {
+          "code": "LH",
+          "three_letter": "DLH",
+          "prefix": "020",
+          "name": "ルフトハンザドイツ航空 (Lufthansa)",
+          "country": "ドイツ"
+        },
+        {
+          "code": "MH",
+          "three_letter": "MAS",
+          "prefix": "232",
+          "name": "マレーシア航空 (Malaysia Airlines)",
+          "country": "マレーシア"
+        },
+        {
+          "code": "MU",
+          "three_letter": "CES",
+          "prefix": "781",
+          "name": "中国東方航空 (China Eastern)",
+          "country": "中国"
+        },
+        {
+          "code": "OZ",
+          "three_letter": "AAR",
+          "prefix": "988",
+          "name": "アシアナ航空 (Asiana Airlines)",
+          "country": "韓国"
+        },
+        {
+          "code": "PR",
+          "three_letter": "PAL",
+          "prefix": "079",
+          "name": "フィリピン航空 (Philippine Airlines)",
+          "country": "フィリピン"
+        },
+        {
+          "code": "QF",
+          "three_letter": "QFA",
+          "prefix": "081",
+          "name": "カンタス航空 (Qantas)",
+          "country": "オーストラリア"
+        },
+        {
+          "code": "QR",
+          "three_letter": "QTR",
+          "prefix": "157",
+          "name": "カタール航空 (Qatar Airways)",
+          "country": "カタール"
+        },
+        {
+          "code": "SQ",
+          "three_letter": "SIA",
+          "prefix": "618",
+          "name": "シンガポール航空 (Singapore Airlines)",
+          "country": "シンガポール"
+        },
+        {
+          "code": "TG",
+          "three_letter": "THA",
+          "prefix": "217",
+          "name": "タイ国際航空 (Thai Airways)",
+          "country": "タイ"
+        },
+        {
+          "code": "UA",
+          "three_letter": "UAL",
+          "prefix": "016",
+          "name": "ユナイテッド航空 (United Airlines)",
+          "country": "アメリカ"
+        },
+        {
+          "code": "5X",
+          "three_letter": "UPS",
+          "prefix": "406",
+          "name": "ユナイテッド・パーセル・サービス (UPS)",
+          "country": "アメリカ"
+        }
+      ]
+    },
+    {
+      "page_number": 45,
+      "page_title_sinhala": "Reference D: ජපානයේ ප්‍රධාන ගුවන් සමාගම් කේත (Japanese Airlines: ANA, JAL, etc.)",
+      "page_title_japanese": "D. 日本のおもな航空会社エアライン・コード",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P45_S01",
+          "content_type": "japan_airlines_table",
+          "japanese": {
+            "original_kanji": "日本のおもな航空会社エアライン・コード（ツーレター、スリーレター、Prefix）",
+            "furigana": "日(に)本(ほん)のおもな航(こう)空(くう)会(がい)社(しゃ)エアライン・コード（ツーレター、スリーレター、Prefix）",
+            "romaji": "Nihon no omo na koukuugaisha earain koudo (Tsuu retaa, Surii retaa, Prefix)"
+          },
+          "english": "Major Japanese domestic airline codes (2-Letter, 3-Letter, and AWB Prefix codes).",
+          "sinhala": "ජපානයේ ප්‍රධාන ගුවන් සමාගම් කේත (2-Letter, 3-Letter සහ Prefix අංක).",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න ජපානයේ SSW විභාගයට අනිවාර්යයෙන්ම එන සුපිරිම කොටස ළමයි! ජපානයේ ලොකුම සමාගම් දෙක: 1. 全日本空輸 (ANA): 2-Letter code එක NH, 3-Letter code එක ANA, Prefix එක 205! 2. 日本航空 (JAL): 2-Letter code එක JL, 3-Letter code එක JAL, Prefix එක 131! මේ අගයන් දෙක අනිවාර්යයෙන්ම විභාගයේ තියෙනවා: NH = 205, JL = 131. ඒ වගේම Skymark (BC/SKY), StarFlyer (7G/SFJ/922), Peach (MM/APJ), AirDo (HD/ADO) හොඳින් බලාගන්න!",
+            "japanese_tts_text": "全日空（ANA）はNH、プレフィックス205。日本航空（JAL）はJL、プレフィックス131です。"
+          }
+        }
+      ],
+      "reference_data": [
+        {
+          "two_letter": "NH",
+          "three_letter": "ANA",
+          "prefix": "205",
+          "name": "全日本空輸 (All Nippon Airways - ANA)",
+          "type": "Full Service Carrier (FSC)"
+        },
+        {
+          "two_letter": "JL",
+          "three_letter": "JAL",
+          "prefix": "131",
+          "name": "日本航空 (Japan Airlines - JAL)",
+          "type": "Full Service Carrier (FSC)"
+        },
+        {
+          "two_letter": "BC",
+          "three_letter": "SKY",
+          "prefix": "-",
+          "name": "スカイマークエアラインズ (Skymark Airlines)",
+          "type": "Domestic"
+        },
+        {
+          "two_letter": "7G",
+          "three_letter": "SFJ",
+          "prefix": "922",
+          "name": "スターフライヤー (StarFlyer)",
+          "type": "Domestic"
+        },
+        {
+          "two_letter": "HD",
+          "three_letter": "ADO",
+          "prefix": "-",
+          "name": "AIRDO (エア・ドゥ)",
+          "type": "Hokkaido Domestic"
+        },
+        {
+          "two_letter": "6J",
+          "three_letter": "SNJ",
+          "prefix": "-",
+          "name": "ソラシドエア (Solaseed Air)",
+          "type": "Kyushu Domestic"
+        },
+        {
+          "two_letter": "MM",
+          "three_letter": "APJ",
+          "prefix": "-",
+          "name": "ピーチ・アビエーション (Peach Aviation)",
+          "type": "LCC (Low Cost Carrier)"
+        },
+        {
+          "two_letter": "GK",
+          "three_letter": "JJP",
+          "prefix": "-",
+          "name": "ジェットスター・ジャパン (Jetstar Japan)",
+          "type": "LCC (Low Cost Carrier)"
+        },
+        {
+          "two_letter": "IJ",
+          "three_letter": "SJO",
+          "prefix": "-",
+          "name": "スプリング・ジャパン（春秋航空日本）",
+          "type": "LCC"
+        },
+        {
+          "two_letter": "KZ",
+          "three_letter": "NCA",
+          "prefix": "933",
+          "name": "日本貨物航空 (Nippon Cargo Airlines)",
+          "type": "Dedicated Cargo"
+        },
+        {
+          "two_letter": "NQ",
+          "three_letter": "AJX",
+          "prefix": "-",
+          "name": "エアージャパン (Air Japan)",
+          "type": "International / ANA Group"
+        },
+        {
+          "two_letter": "NU",
+          "three_letter": "JTA",
+          "prefix": "353",
+          "name": "日本トランスオーシャン航空 (JTA)",
+          "type": "Okinawa / JAL Group"
+        },
+        {
+          "two_letter": "ZG",
+          "three_letter": "TZP",
+          "prefix": "-",
+          "name": "ZIPAIR Tokyo",
+          "type": "International LCC / JAL Group"
+        }
+      ]
+    },
+    {
+      "page_number": 46,
+      "page_title_sinhala": "Rev 1 Ground Handling සම්පූර්ණ විෂය නිර්දේශ සමාලෝචනය (Course Complete)",
+      "page_title_japanese": "グランドハンドリング Rev 1 全章総括",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P46_S01",
+          "content_type": "course_summary",
+          "japanese": {
+            "original_kanji": "特定技能評価試験（空港グランドハンドリング）Rev 1 テキスト完了。",
+            "furigana": "特(とく)定(てい)技(ぎ)能(のう)評(ひょう)価(か)試(し)験(けん)（空(くう)港(こう)グランドハンドリング）Rev 1 テキスト完(かん)了(りょう)。",
+            "romaji": "Tokutei Ginou Hyouka Shiken (Kuukou Gurando Handoringu) Rev 1 Tekisuto Kanryou."
+          },
+          "english": "Ground Handling Rev 1 Textbook Complete: Comprehensive coverage of pages 1 to 46.",
+          "sinhala": "විශේෂිත නිපුණතා (SSW) ගුවන් තොටුපළ බිම් මෙහෙයුම් හැසිරවීමේ Rev 1 විෂය නිර්දේශයේ පිටු 46 ම සම්පූර්ණ විය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "සුභ පැතුම් ළමයි! අපි Ground Handling Rev 1 පොතේ පිටු 46 ම කිසිම අඩුවක් නැතුව සම්පූර්ණයෙන්ම ඉගෙන ගෙන ඉවර කළා. GSE වාහන, Ramp ආරක්ෂාව, ULD බහාලුම්, බෑග් වර්ග කිරීම, කැබින් පිරිසිදු කිරීම සහ Airport/Airline කේත දැන් ඔයාලට පැහැදිලියි. මේ පාඩම් ටික ආයෙ ආයෙ අහලා හොඳින් පුහුණු වෙන්න. විභාගය අනිවාර්යයෙන්ම ඉහළින්ම පාස් වෙන්න පුළුවන්!",
+            "japanese_tts_text": "空港グランドハンドリングのテキストが完了しました。試験合格を目指して頑張りましょう！"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "完了",
+          "furigana": "かんりょう",
+          "romaji": "Kanryou",
+          "english": "Completion",
+          "sinhala": "සම්පූර්ණ වීම / අවසන් වීම"
+        },
+        {
+          "japanese": "合格",
+          "furigana": "ごうかく",
+          "romaji": "Goukaku",
+          "english": "Passing the Exam",
+          "sinhala": "විභාගය සමත් වීම"
+        }
+      ]
+    }
+  ]
+}

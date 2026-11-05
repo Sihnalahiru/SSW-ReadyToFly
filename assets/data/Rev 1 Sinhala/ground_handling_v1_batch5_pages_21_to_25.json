@@ -1,0 +1,371 @@
+{
+  "metadata": {
+    "batch": "Batch 5 (Pages 21 to 25)",
+    "document_title": "Ground Handling Training Manual Rev 1 (SSW ReadyToFly)",
+    "source_pdf": "Ground handling V1.pdf",
+    "image_folder": "Ground handling - Images V1/",
+    "tts_config": {
+      "sinhala_teacher_voice": {
+        "voice_locale": "si-LK",
+        "voice_type": "native_sinhala_teacher",
+        "role": "friendly_expert_instructor"
+      },
+      "japanese_native_voice": {
+        "voice_locale": "ja-JP",
+        "voice_type": "native_japanese_professional",
+        "role": "standard_aviation_pronunciation"
+      }
+    }
+  },
+  "pages": [
+    {
+      "page_number": 21,
+      "page_title_sinhala": "පටවන භාණ්ඩ හැසිරවීමේ මූලික නීති 10 (Loading Rules)",
+      "page_title_japanese": "E. 搭載物の取り扱いルール (10箇条)",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P21_S01",
+          "content_type": "core_handling_rules",
+          "japanese": {
+            "original_kanji": "(1) 搭載物は、ていねいに取り扱い、損傷を与えないようにする。(2) 搭載区分および行き先を確認し、誤送しないようにする。(3) 取り付けてあるタグ、ラベル、ステッカ類に従い、正しく取り扱う。(4) 搭載物の授受および搭載・取り卸しに際して、物件の状態と数量を確認し、報告しなければならない。(5) 搭載物に損傷、変形、汚損等の異状がある場合は、関係部門に報告しなければならない。",
+            "furigana": "(1) 搭(とう)載(さい)物(もの)は、ていねいに取(とり)扱(あつか)い、損(そん)傷(しょう)を与(あた)えないようにする。(2) 搭(とう)載(さい)区(く)分(ぶん)および行(ゆ)き先(さき)を確(かく)認(にん)し、誤(ご)送(そう)しないようにする。(3) 取(とり)付(つ)けてあるタグ、ラベル、ステッカ類(るい)に従(したが)い、正(ただ)しく取(とり)扱(あつか)う。(4) 搭(とう)載(さい)物(ぶつ)の授(じゅ)受(じゅ)および搭(とう)載(さい)・取(と)り卸(おろ)しに際(さい)して、物(ぶっ)件(けん)の状(じょう)態(たい)と数(すう)量(りょう)を確(かく)認(にん)し、報(ほう)告(こく)しなければならない。(5) 搭(とう)載(さい)物(ぶつ)に損(そん)傷(しょう)、変(へん)形(けい)、汚(お)損(そん)等(とう)の異(い)状(じょう)がある場(ば)合(あい)は、関(かん)係(けい)部(ぶ)門(もん)に報(ほう)告(こく)しなければならない。",
+            "romaji": "(1) Tousaimono wa, teinei ni toriatsukai, sonshou wo ataenai you ni suru. (2) Tousai kubun oyobi yukisaki wo kakunin shi, gosou shinai you ni suru. (3) Toritsukete aru tagu, raberu, sutekkarui ni shitagai, tadashiku toriatsukau. (4) Tousaibutsu no juju oyobi tousai, torioroshi ni saishite, bukken no joutai to suuryou wo kakunin shi, houkoku shinakereba naranai. (5) Tousaibutsu ni sonshou, henkei, oson tou no ijou ga aru baai wa, kankei bumon ni houkoku shinakereba naranai."
+          },
+          "english": "(1) Handle all loaded cargo/baggage with extreme care to prevent damage. (2) Cross-check loading category and destination to prevent misrouting. (3) Follow all attached tags, labels, and stickers strictly. (4) When receiving, loading, or unloading items, verify condition and quantity, reporting promptly. (5) If any damage, deformation, or soiling is discovered, immediately report to the relevant department.",
+          "sinhala": "(1) පටවන භාණ්ඩ ප්‍රවේශමෙන් හසුරුවන්න සහ හානි නොකරන්න. (2) වැරදි තැනකට යැවීම වැළැක්වීමට කාණ්ඩය සහ ගමනාන්තය පරීක්ෂා කරන්න. (3) අමුණා ඇති ටැග්, ලේබල් සහ ස්ටිකර් උපදෙස් අනුව නිසි ලෙස හසුරුවන්න. (4) භාණ්ඩ භාරගැනීමේදී, පැටවීමේදී හෝ බෑමේදී භාණ්ඩවල තත්ත්වය සහ ප්‍රමාණය තහවුරු කර වාර්තා කරන්න. (5) භාණ්ඩවලට හානිවීම්, විරූපීවීම් හෝ කිලිටිවීම් ඇත්නම් වහාම අදාළ අංශයට වාර්තා කරන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, 21 වෙනි පිටුවේ තියෙන්නේ බඩු පටවන හැම කෙනෙක්ම අකුරටම රකින්න ඕනෙ මූලික නීති රීති ටිකක්. එකක් තමයි බඩු විසි කරන්න බෑ, ප්‍රවේශමෙන් තියන්න ඕනෙ. ටැග් එක බලලා වැරදි රටකට නොයවා හරියටම යවන්න ඕනෙ. බෑග් එකක් කැඩිලා හරි තෙමිලා හරි දැක්කොත් 'මේක මම කරපු එකක් නෙමෙයිනේ' කියලා නිකන් ඉන්න බෑ, වහාම අදාළ Section එකට වාර්තා කරන්නම ඕනෙ!",
+            "japanese_tts_text": "搭載物はていねいに取り扱い、損傷を与えない。行き先を確認し、損傷があれば関係部門に報告する。"
+          }
+        },
+        {
+          "section_id": "P21_S02",
+          "content_type": "safety_and_weather_rules",
+          "japanese": {
+            "original_kanji": "(6) 搭載物は指定場所以外に搭載してはならない。(7) 搭載物の運搬に際しては、脱落、転倒等が生じないような適切な処置を施さなければならない。必要な場合は監視者を配置しなければならない。(8) 風雨等の天候の場合は、必ず防水処置を行い、物件に雨水が浸入しないようにする。(9) 特殊搭載物は、定められた方法で搭載されなければならない。(10) 作業終了時は、装着機材の周辺にゴミ等の散乱がないか点検する。",
+            "furigana": "(6) 搭(とう)載(さい)物(ぶつ)は指(し)定(てい)場(ば)所(しょ)以(い)外(がい)に搭(とう)載(さい)してはならない。(7) 搭(とう)載(さい)物(ぶつ)の運(うん)搬(ぱん)に際(さい)しては、脱(だつ)落(らく)、転(てん)倒(とう)等(とう)が生(しょう)じないような適(てき)切(せつ)な処(しょ)置(ち)を施(ほどこ)さなければならない。必(ひつ)要(よう)な場(ば)合(あい)は監(かん)視(し)者(しゃ)を配(はい)置(ち)しなければならない。(8) 風(ふう)雨(う)等(とう)の天(てん)候(こう)の場(ば)合(あい)は、必(かなら)ず防(ぼう)水(すい)処(しょ)置(ち)を行(おこな)い、物(ぶっ)件(けん)に雨(あま)水(みず)が浸(しん)入(にゅう)しないようにする。(9) 特(とく)殊(しゅ)搭(とう)載(さい)物(ぶつ)は、定(さだ)められた方(ほう)法(ほう)で搭(とう)載(さい)されなければならない。(10) 作(さ)業(ぎょう)終(しゅう)了(りょう)時(じ)は、装(そう)着(ちゃく)機(き)材(ざい)の周(しゅう)辺(へん)にゴミ等(とう)の散(さん)乱(らん)がないか点(てん)検(けん)する。",
+            "romaji": "(6) Tousaibutsu wa shitei basho igai ni tousai shite wa naranai. (7) Tousaibutsu no unpan ni saishite wa, datsuraku, tentou tou ga shoujinai you na tekisetsu na shochi wo hodokosanakereba naranai. Hitsuyou na baai wa kanshisha wo haichi shinakereba naranai. (8) Fuuu tou no tenkou no baai wa, kanarazu bousui shochi wo okonai, bukken ni amamizu ga shinnyuu shinai you ni suru. (9) Tokushu tousaibutsu wa, sadamerareta houhou de tousai sarenakereba naranai. (10) Sagyou shuuryouji wa, souchaku kizai no shuuhen ni gomi tou no sanran ga nai ka tenken suru."
+          },
+          "english": "(6) Do not load items into any compartment other than the designated location. (7) When transporting items, take proper measures to prevent falls or tipping over; post a safety monitor when required. (8) In foul weather like rain or strong wind, always apply waterproof tarping to keep rainwater out. (9) Special loads must be restrained according to prescribed procedures. (10) At operation completion, inspect surrounding equipment to ensure no garbage or debris (FOD) is left behind.",
+          "sinhala": "(6) නියමිත ස්ථානය හැර වෙනත් තැනක භාණ්ඩ පටවා නොගත යුතුය. (7) භාණ්ඩ ප්‍රවාහනය කිරීමේදී ඒවා බිමට වැටීම හෝ පෙරළීම වැළැක්වීමට නිසි පියවර ගත යුතු අතර අවශ්‍ය විටක නිරීක්ෂකයෙකු (Monitor) යෙදවිය යුතුය. (8) වැසි හෝ තද සුළං ඇති විට, භාණ්ඩ තුළට ජලය කාන්දු නොවන ලෙස ජල ආරක්ෂිත ආවරණ (Waterproof sheets) යොදන්න. (9) විශේෂ භාණ්ඩ නියමිත නීතිරීති අනුවම පැටවිය යුතුය. (10) වැඩ අවසන් වූ විට උපකරණ අවට කුණු කසළ (FOD) නොමැති බව පරීක්ෂා කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "වැදගත්ම නීතියක් තමයි නියම කරපු තැන ඇරෙන්න වෙන තැන්වල බඩු දාන්න බෑ කියන එක. වැස්ස දවසට අනිවාර්යයෙන්ම Water-proof ආවරණ දාලා බඩු වහන්න ඕනෙ. ඒ වගේම වැඩේ ඉවර වුණාම උපකරණ වටේ කුණු කෑල්ලක්වත් (FOD) දාලා යන්න බෑ, ඒක එන්ජින් වලට ඇදිලා ගිහින් ලොකු අනතුරු වෙන්න පුළුවන්!",
+            "japanese_tts_text": "指定場所以外に搭載しない。風雨時は防水処置を行い、作業後はゴミの散乱がないか点検する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "誤送",
+          "furigana": "ごそう",
+          "romaji": "Gosou",
+          "english": "Misdirection / Misrouting",
+          "sinhala": "වැරදි ස්ථානයකට යැවීම"
+        },
+        {
+          "japanese": "脱落・転倒",
+          "furigana": "だつらく・てんとう",
+          "romaji": "Datsuraku / Tentou",
+          "english": "Falling off / Overturning",
+          "sinhala": "ගිලිහී වැටීම / පෙරළීම"
+        },
+        {
+          "japanese": "防水処置",
+          "furigana": "ぼうすいしょち",
+          "romaji": "Bousui Shochi",
+          "english": "Waterproofing Protection",
+          "sinhala": "ජල ආරක්ෂිත ආවරණ යෙදීම"
+        },
+        {
+          "japanese": "散乱",
+          "furigana": "さんらん",
+          "romaji": "Sanran",
+          "english": "Scattering / Littering (FOD risk)",
+          "sinhala": "කුණු කසළ විසිරී තිබීම"
+        }
+      ]
+    },
+    {
+      "page_number": 22,
+      "page_title_sinhala": "5. 機体作業: පානීය ජල සේවාව (Water Service) සහ ජල කාන්දු පරීක්ෂාව",
+      "page_title_japanese": "5. 機体作業: A. ウォータ・サービス (給水作業と水漏れ点検)",
+      "mapped_images": [
+        "Ground handling - Images V1/117.jpg",
+        "Ground handling - Images V1/122.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P22_S01",
+          "content_type": "water_service_intro",
+          "japanese": {
+            "original_kanji": "A. ウォータ・サービス (Water Service)：この作業は、乗客が飲料水として、また手洗い水として水を使用するのに備え、飛行前に航空機胴体部分に装備されている水タンクに水を補給する作業のことである。行先・機種・出発日で給水量が変わるので、基本情報の確認は重要である。特定の搭載量が指定されたときは、水量計によって給水量を確認する。",
+            "furigana": "A. ウォータ・サービス：この作(さ)業(ぎょう)は、乗(じょう)客(きゃく)が飲(いん)料(りょう)水(すい)として、また手(て)洗(あら)い水(みず)として水(みず)を使(し)用(よう)するのに備(そな)え、飛(ひ)行(こう)前(まえ)に航(こう)空(くう)機(き)胴(どう)体(たい)部(ぶ)分(ぶん)に装(そう)備(び)されている水(みず)タンクに水(みず)を補(ほ)給(きゅう)する作(さ)業(ぎょう)のことである。行(ゆ)き先(さき)・機(き)種(しゅ)・出(しゅっ)発(ぱつ)日(び)で給(きゅう)水(すい)量(りょう)が変(か)わるので、基(き)本(ほん)情(じょう)報(ほう)の確(かく)認(にん)は重(じゅう)要(よう)である。特(とく)定(てい)の搭(とう)載(さい)量(りょう)が指(し)定(てい)されたときは、水(すい)量(りょう)計(けい)によって給(きゅう)水(すい)量(りょう)を確(かく)認(にん)する。",
+            "romaji": "A. Wootaa saabisu (Water Service): Kono sagyou wa, joukyaku ga inryousui to shite, mata tearaimizu to shite mizu wo shiyou suru no ni sonae, hikou mae ni koukuuki doutai bubun ni soubi sarete iru mizu tanku ni mizu wo hokyuu suru sagyou no koto de aru. Yukisaki, kishu, shuppatsubi de kyuusuiryou ga kawaru node, kihon jouhou no kakunin wa juuyou de aru. Tokutei no tousairyou ga shitei sareta toki wa, suiryoukei ni yotte kyuusuiryou wo kakunin suru."
+          },
+          "english": "A. Water Service (Figures 117, 122): Refilling the potable water tank inside the aircraft fuselage prior to flight for passenger drinking and lavatory handwashing. The required quantity varies based on route, aircraft model, and date; verify basic flight info. Check water meters when a specific load is designated.",
+          "sinhala": "A. පානීය ජල සේවාව (රූප 117, 122): මගීන්ගේ පානීය ජලය සහ අත් සේදීමේ අවශ්‍යතා සඳහා පියාසර කිරීමට පෙර ගුවන් යානයේ බඳෙහි ඇති ජල ටැංකියට ජලය පිරවීමයි. ගමනාන්තය, ගුවන් යානා වර්ගය සහ දිනය අනුව අවශ්‍ය ජල ප්‍රමාණය වෙනස් වන බැවින් මූලික තොරතුරු පරීක්ෂා කිරීම අත්‍යවශ්‍ය වේ. නියමිත ජල ප්‍රමාණයක් නියම කළ විට ජල මීටරය (Water gauge) මඟින් පරීක්ෂා කරන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, පින්තූර 117 සහ 122 බලන්න. යානය යට තියෙන Water Service Panel එකට හෝස් එක සවි කරලා තමයි වතුර පුරවන්නේ. මෙතනදී මතක තියාගන්න, හැම යානයටම එකම ගානට වතුර පුරවන්නේ නෑ! දුර ගමනක් නම් (Long haul) වතුර ගොඩක් ඕනෙ, කෙටි ගමනක් නම් වතුර අඩුවෙන් ඕනෙ. ඒක Water meter එකෙන් බලාගෙන හරියටම පුරවන්න ඕනෙ.",
+            "japanese_tts_text": "ウォータ・サービスは、飛行前に胴体部の水タンクに水を補給する作業である。"
+          }
+        },
+        {
+          "section_id": "P22_S02",
+          "content_type": "water_leakage_hazard",
+          "japanese": {
+            "original_kanji": "注意！給水後は、給水バルブ・オーバフロー・バルブを閉め、給水口から給水ホースを取り外して、給水口から水漏れがないことを確認する。給水口から水漏れがあると、高空で気温が低下して漏れた水が凍り付き、氷となって部品を破損したり、地上に落下することもあるので、非常に重要な確認事項である。最後に給水口アクセス・パネルを閉める。",
+            "furigana": "注(ちゅう)意(い)！給(きゅう)水(すい)後(ご)は、給(きゅう)水(すい)バルブ・オーバフロー・バルブを閉(し)め、給(きゅう)水(すい)口(ぐち)から給(きゅう)水(すい)ホースを取(とり)り外(はず)して、給(きゅう)水(すい)口(ぐち)から水(みず)漏(も)れがないことを確(かく)認(にん)する。給(きゅう)水(すい)口(ぐち)から水(みず)漏(も)れがあると、高(こう)空(くう)で気(き)温(おん)が低(てい)下(か)して漏(も)れた水(みず)が凍(こお)り付(つ)き、氷(こおり)となって部(ぶ)品(ひん)を破(は)損(そん)したり、地(ち)上(じょう)に落(らっ)下(か)することもあるので、非(ひ)常(じょう)に重(じゅう)要(よう)な確(かく)認(にん)事(じ)項(こう)である。最(さい)後(ご)に給(きゅう)水(すい)口(ぐち)アクセス・パネルを閉(し)める。",
+            "romaji": "Chuui! Kyuusuigo wa, kyuusui barubu, oobafuroo barubu wo shime, kyuusuikuchi kara kyuusui hoosu wo torihazushite, kyuusuikuchi kara mizumore ga nai koto wo kakunin suru. Kyuusuikuchi kara mizumore ga aru to, koukuu de kion ga teika shite moreta mizu ga kooritsuki, koori to natte buhin wo hason shitari, chijou ni rakka suru koto mo aru node, hijou ni juuyou na kakunin jikou de aru. Saigo ni kyuusuikuchi akusesu paneru wo shimeru."
+          },
+          "english": "Caution! After servicing, close the fill valve and overflow valve, disconnect the hose, and verify absolutely zero water leakage from the service port. If water leaks, freezing temperatures at high altitudes will turn it into ice, risking aircraft structural damage or hazardous falling ice chunks to the ground; this is a critically vital verification. Finally, close the service access panel.",
+          "sinhala": "අවවාදයයි! ජලය සැපයීමෙන් පසු, ජල සැපයුම් කපාටය (Water fill valve) සහ පිටාර කපාටය (Overflow valve) වසා, හෝස් එක ගලවා, ජලය කාන්දු නොවන බව අනිවාර්යයෙන්ම තහවුරු කරන්න. ජලය කාන්දු වුවහොත්, උඩ අහසේදී අධික ශීතල නිසා එම ජලය අයිස් බවට පත්වී යානයේ කොටස් බිඳ දැමීමට හෝ බිමට පතිත වීමට ඉඩ ඇත. එබැවින් මෙය අතිශයින්ම වැදගත් පරීක්ෂාවකි. අවසානයේ ජල ප්‍රවේශ පියන (Access panel) වසන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න විභාගයේ අනිවාර්ය ප්‍රශ්නයක්: වතුර පුරවලා ඉවර වෙලා ජල කාන්දුවක් තියෙනවද කියලා බලන්නේ ඇයි? උඩ අහසේදී උෂ්ණත්වය සෙල්සියස් අංශක සෘණ ගණන් වලට බහිනවා. එතකොට කාන්දු වෙන වතුර අයිස් ගල් බවට පත්වෙලා යානයේ කෑලි කඩන්න හරි, පොළොවට අයිස් කුට්ටි කඩාගෙන වැටෙන්න හරි පුළුවන්! ඒ නිසා වතුර බිංදුවක්වත් ලීක් වෙන්න බෑ, Access panel එක තදින් වහන්න ඕනෙ!",
+            "japanese_tts_text": "給水後は水漏れがないことを確認する。漏れた水が高空で凍結し、部品破損や氷の落下の恐れがある。"
+          }
+        },
+        {
+          "section_id": "P22_S03",
+          "content_type": "water_car_gse",
+          "japanese": {
+            "original_kanji": "① 給水車（ウォータ・カー: Water Car）：航空機に飲料水を供給するための車両で、水タンク（約4,000ℓ）、給排水ホース、給水装置（最大圧力 3.0kg/c㎡）で構成される。ほとんどのものが自走式である。",
+            "furigana": "① 給(きゅう)水(すい)車(しゃ)（ウォータ・カー）：航(こう)空(くう)機(き)に飲(いん)料(りょう)水(すい)を供(きょう)給(きゅう)するための車(しゃ)両(りょう)で、水(みず)タンク（約(やく)4,000ℓ）、給(きゅう)排(はい)水(すい)ホース、給(きゅう)水(すい)装(そう)置(ち)（最(さい)大(だい)圧(あつ)力(りょく) 3.0kg/c㎡）で構(こう)成(せい)される。ほとんどのものが自(じ)走(そう)式(しき)である。",
+            "romaji": "1. Kyuusuisha (Wootaa kaa: Water Car): Koukuuki ni inryousui wo kyoukyuu suru tame no sharyou de, mizu tanku (yaku yonsen rippou meetoru), kyuuhaisui hoosu, kyuusui souchi (saidai atsuryoku san ten zero kiro guramu maishiheihoo senchi meetoru) de kousei sareru. Hotondo no mono ga jisoushiki de aru."
+          },
+          "english": "1. Water Truck (Figure 122): Self-propelled vehicle used to supply potable water, equipped with a water tank (approx. 4,000 liters), supply/drain hoses, and a water pumping system operating at a maximum pressure of 3.0 kg/cm².",
+          "sinhala": "1. පානීය ජල රථය (Water Car - රූපය 122): ගුවන් යානාවලට පානීය ජලය සැපයීම සඳහා වන ස්වයං ධාවන රථයකි. ලීටර් 4,000ක පමණ ජල ටැංකියක්, හෝස් සහ උපරිම පීඩනය 3.0 kg/cm² වන ජල පොම්ප පද්ධතියකින් සමන්විතය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "Water Car එකේ ධාරිතාව ලීටර් 4000ක් විතර වෙනවා. උපරිම පීඩනය 3.0 kg/cm². මේ අගයන් මතක තියාගන්න ළමයි.",
+            "japanese_tts_text": "給水車は水タンク約4000リットル、給水装置最大圧力3.0kg/cm2で構成される。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "飲料水",
+          "furigana": "いんりょうすい",
+          "romaji": "Inryousui",
+          "english": "Potable Water / Drinking Water",
+          "sinhala": "පානීය ජලය"
+        },
+        {
+          "japanese": "水漏れ",
+          "furigana": "みずもれ",
+          "romaji": "Mizumore",
+          "english": "Water Leakage",
+          "sinhala": "ජල කාන්දුව"
+        },
+        {
+          "japanese": "凍り付く",
+          "furigana": "こおりつく",
+          "romaji": "Kooritsuku",
+          "english": "Freeze up (Ice formation)",
+          "sinhala": "මිදී අයිස් බවට පත්වීම"
+        }
+      ]
+    },
+    {
+      "page_number": 23,
+      "page_title_sinhala": "අපජල රථය (Wastewater Car) සහ වැසිකිලි සේවාව (Lavatory Service)",
+      "page_title_japanese": "排水車とラバトリー・サービスの仕組み",
+      "mapped_images": [
+        "Ground handling - Images V1/123.jpg",
+        "Ground handling - Images V1/124.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P23_S01",
+          "content_type": "wastewater_car",
+          "japanese": {
+            "original_kanji": "② 排水車 (Wastewater Car)：航空機に搭載されている飲料水は、1日以上溜め置きできないため夜間に入れ替えを実施するが、その際に飲料水を抜くために使用する排水タンクを装備した自走式の車両である。",
+            "furigana": "② 排(はい)水(すい)車(しゃ)：航(こう)空(くう)機(き)に搭(とう)載(さい)されている飲(いん)料(りょう)水(すい)は、1日(にち)以(い)上(じょう)溜(た)め置(お)きできないため夜(や)間(かん)に入(い)れ替(か)えを実(じっ)施(し)するが、その際(さい)に飲(いん)料(りょう)水(すい)を抜(ぬ)くために使(し)用(よう)する排(はい)水(すい)タンクを装(そう)備(び)した自(じ)走(そう)式(しき)の車(しゃ)両(りょう)である。",
+            "romaji": "2. Haisuisha (Wastewater Car): Koukuuki ni tousai sarete iru inryousui wa, ichinichi ijou tameoki dekinai tame yakan ni irekae wo jisshi suru ga, sono sai ni inryousui wo nuku tame ni shiyou suru haisui tanku wo soubi shita jisoushiki no sharyou de aru."
+          },
+          "english": "2. Wastewater Car (Figure 123): Drinking water loaded on an aircraft cannot be kept stored for more than one day and must be replaced at night; this self-propelled vehicle has a drainage tank used to drain stagnant water.",
+          "sinhala": "2. අපජල රථය (Wastewater Car - රූපය 123): ගුවන් යානයේ ඇති පානීය ජලය දිනකට වඩා ගබඩා කර තැබිය නොහැකි බැවින් රාත්‍රියේදී එය ඉවත් කර අලුත් ජලය පිරවිය යුතුය. එම පරණ ජලය ඉවත් කරගැනීමට මෙම ජලාපවහන රථය භාවිත කරයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 123 බලන්න. ගුවන් යානයක තියෙන පානීය ජලය දවසකට වඩා (1 day) තියන්න බෑ සෞඛ්‍ය හේතූන් මත. ඒ නිසා රෑට ඒ වතුර ඔක්කොම Drain කරලා අලුත් වතුර පුරවනවා. ඒ පරණ වතුර අදින්නේ මේ Wastewater Car එකෙන්.",
+            "japanese_tts_text": "飲料水は1日以上溜め置きできないため、夜間に排水車で抜いて入れ替える。"
+          }
+        },
+        {
+          "section_id": "P23_S02",
+          "content_type": "lavatory_service_process",
+          "japanese": {
+            "original_kanji": "B. ラバトリー・サービス (Lavatory Service)：航空機のラバトリー（化粧室）数や汚水タンクの大きさは、機種や国内線・国際線の違い（飛行距離の違い）、最大旅客搭乗数によって違いがある。機内ラバトリーの汚水・汚物は、飛行中には専用タンクに溜められて、着陸後機外に排出される。ラバトリー・サービスは、到着後にまず汚水タンクに溜まった汚水・汚物を機外に排出し、次にタンク内の汚れを水で洗い落とし、最後にタンク内に所定量の水と殺菌消臭剤を入れることで終了する作業である。",
+            "furigana": "B. ラバトリー・サービス：航(こう)空(くう)機(き)のラバトリー（化(け)粧(しょう)室(しつ)）数(すう)や汚(お)水(すい)タンクの大(おお)きさは、機(き)種(しゅ)や国(こく)内(ない)線(せん)・国(こく)際(さい)線(せん)の違(ちが)い（飛(ひ)行(こう)距(きょ)離(り)の違(ちが)い）、最(さい)大(だい)旅(りょ)客(かく)搭(とう)乗(じょう)数(すう)によって違(ちが)いがある。機(き)内(ない)ラバトリーの汚(お)水(すい)・汚(お)物(ぶつ)は、飛(ひ)行(こう)中(ちゅう)には専(せん)用(よう)タンクに溜(た)められて、着(ちゃく)陸(りく)後(ご)機(き)外(がい)に排(はい)出(しゅつ)される。ラバトリー・サービスは、到(とう)着(ちゃく)後(ご)にまず汚(お)水(すい)タンクに溜(た)まった汚(お)水(すい)・汚(お)物(ぶつ)を機(き)外(がい)に排(はい)出(しゅつ)し、次(つぎ)にタンク内(ない)の汚(よご)れを水(みず)で洗(あら)い落(お)とし、最(さい)後(ご)にタンク内(ない)に所(しょ)定(てい)量(りょう)の水(みず)と殺(さっ)菌(きん)消(しょう)臭(しゅう)剤(ざい)を入(い)れることで終(しゅう)了(りょう)する作(さ)業(ぎょう)である。",
+            "romaji": "B. Rabatorii saabisu (Lavatory Service): Koukuuki no rabatorii (keshoushitsu) suu ya osuitanku no ookisa wa, kishu ya kokunaisen, kokusaisen no chigai (hikou kyori no chigai), saidai ryokaku toujousuu ni yotte chigai ga aru. Kinai rabatorii no osui, obutsu wa, hikouchuu ni wa sen'you tanku ni tamerarete, chakuriku go kigai ni haishutsu sareru. Rabatorii saabisu wa, touchakugo ni mazu osuitanku ni tamatta osui, obutsu wo kigai ni haishutsu shi, tsugi ni tankunai no yogore wo mizu de araiotoshi, saigo ni tankunai ni shoteiryou no mizu to sakkin shoushuuzai wo ireru koto de shuuryou suru sagyou de aru."
+          },
+          "english": "B. Lavatory Service (Figure 124): Toilet counts and waste tank volumes vary by aircraft size and flight distance. Waste accumulated during flight in dedicated tanks is serviced post-landing. The procedure: 1. Drain waste to the Lavatory Truck. 2. Flush and clean the tank interior with rinse water. 3. Recharge with a pre-set amount of flush water and chemical disinfectant/deodorizer.",
+          "sinhala": "B. වැසිකිලි සේවාව (Lavatory Service - රූපය 124): ගුවන් යානාවල වැසිකිලි ගණන සහ අපද්‍රව්‍ය ටැංකියේ ප්‍රමාණය යානා මාදිලිය හා පියාසර දුර අනුව වෙනස් වේ. පියාසර අතරතුර ටැංකියේ එකතු වන අපද්‍රව්‍ය ගොඩබෑමෙන් පසු ඉවත් කරනු ලැබේ. පියවර 3: 1. අපද්‍රව්‍ය එළියට ඇද ඉවත් කිරීම 2. ටැංකිය වතුරෙන් සෝදා පිරිසිදු කිරීම 3. නියමිත ප්‍රමාණයට ජලය සහ විෂබීජ නාශක දුගඳ නසන රසායනික දියර (Deodorant/Disinfectant) පිරවීම.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 124 බලන්න. Lavatory Service එකේ පියවර 3 අහනවා: මුලින්ම අපද්‍රව්‍ය එළියට අදිනවා (Drain). ඊළඟට ටැංකිය වතුරෙන් හෝදනවා (Rinse). තුන්වෙනුව ඊළඟ ගමනට අවශ්‍ය වතුරයි විෂබීජ නාශක ඖෂධයි (Sakkin Shoushuuzai) නියමිත ගානට පුරවනවා. මේ පිළිවෙළ මතක තියාගන්න!",
+            "japanese_tts_text": "ラバトリー・サービスは、汚水排出、タンク内水洗い、殺菌消臭剤投入の順で終了する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "排水車",
+          "furigana": "はいすいしゃ",
+          "romaji": "Haisuisha",
+          "english": "Wastewater Truck",
+          "sinhala": "ජලාපවහන / අපජල රථය"
+        },
+        {
+          "japanese": "汚水・汚物",
+          "furigana": "おすい・おぶつ",
+          "romaji": "Osui / Obutsu",
+          "english": "Sewage / Toilet Waste",
+          "sinhala": "අපජලය සහ වැසිකිලි අපද්‍රව්‍ය"
+        },
+        {
+          "japanese": "殺菌消臭剤",
+          "furigana": "さっきんしょうしゅうざい",
+          "romaji": "Sakkin Shoushuuzai",
+          "english": "Disinfectant & Deodorant Chemical",
+          "sinhala": "විෂබීජ නාශක සහ දුගඳ නසන රසායනික ද්‍රව්‍ය"
+        }
+      ]
+    },
+    {
+      "page_number": 24,
+      "page_title_sinhala": "වැසිකිලි සේවා රථය (Lavatory Car) සහ කැබින් වායුසමීකරණය (PCA) හෝස් සම්බන්ධ කිරීම",
+      "page_title_japanese": "ラバトリー・カーの仕様と機内空調サービス（PCA）",
+      "mapped_images": [
+        "Ground handling - Images V1/125.jpg",
+        "Ground handling - Images V1/126.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P24_S01",
+          "content_type": "lavatory_car_specs",
+          "japanese": {
+            "original_kanji": "① 汚水車（ラバトリー・カー: Lavatory Car）：航空機の汚水タンクから汚水・汚物を抜き取り、その後タンク内洗浄する車両で、汚水用タンク（約2,000ℓ）と清水用タンク（約2,000ℓ）、給排出ホースと給水装置（最大圧力 3.0kg/c㎡）で構成される。",
+            "furigana": "① 汚(お)水(すい)車(しゃ)（ラバトリー・カー）：航(こう)空(くう)機(き)の汚(お)水(すい)タンクから汚(お)水(すい)・汚(お)物(ぶつ)を抜(ぬ)き取(と)り、その後(ご)タンク内(ない)洗(せん)浄(じょう)する車(しゃ)両(りょう)で、汚(お)水(すい)用(よう)タンク（約(やく)2,000ℓ）と清(しみ)水(ず)用(よう)タンク（約(やく)2,000ℓ）、給(きゅう)排(はい)出(しゅつ)ホースと給(きゅう)水(すい)装(そう)置(ち)（最(さい)大(だい)圧(あつ)力(りょく) 3.0kg/c㎡）で構(こう)成(せい)される。",
+            "romaji": "1. Osuisha (Rabatorii kaa: Lavatory Car): Koukuuki no osuitanku kara osui, obutsu wo nukitori, sonogo tankunai senjou suru sharyou de, osuiyou tanku (yaku nisen rippou meetoru) to shimizuyou tanku (yaku nisen rippou meetoru), kyuuhaishutsu hoosu to kyuusui souchi (saidai atsuryoku san ten zero kiro guramu maishiheihoo senchi meetoru) de kousei sareru."
+          },
+          "english": "1. Lavatory Service Truck (Figure 125): Empties and sanitizes aircraft toilet waste tanks. Contains a waste tank (approx. 2,000 liters) and a clean flush water tank (approx. 2,000 liters), fitted with suction/drain hoses and a 3.0 kg/cm² pump.",
+          "sinhala": "1. වැසිකිලි සේවා රථය (Lavatory Car - රූපය 125): ගුවන් යානයේ වැසිකිලි ටැංකිය හිස් කර සෝදා පිරිසිදු කරන රථයකි. මෙහි අපද්‍රව්‍ය ටැංකියක් (ලීටර් 2,000ක් පමණ) සහ පිරිසිදු ජල ටැංකියක් (ලීටර් 2,000ක් පමණ), හෝස් සහ උපරිම පීඩනය 3.0 kg/cm² වන පොම්ප පද්ධතියක් ඇත.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 125 තියෙන්නේ Lavatory Car එක. මේකෙ ටැංකි දෙකක් තියෙනවා: අපද්‍රව්‍ය එන ටැංකිය ලීටර් 2000යි, සෝදන පිරිසිදු වතුර ටැංකියත් ලීටර් 2000යි. පීඩනය 3.0 kg/cm². මේ සංඛ්‍යා මතක තියාගන්න ළමයි.",
+            "japanese_tts_text": "ラバトリー・カーは汚水用タンク約2000リットルと清水用タンク約2000リットルで構成される。"
+          }
+        },
+        {
+          "section_id": "P24_S02",
+          "content_type": "pca_hose_connection",
+          "japanese": {
+            "original_kanji": "C. 機内空調サービス（低圧空気）: エプロン舗装の下に地上空調供給設備が設置されており、駐機するスポットに埋め込まれたエアコン・ピットと称する空気取り出し口を利用する。地上空調供給設備より、空調供給用の太いホースを全部出しねじれを直してから機体側カップリングのアクセス・パネル付近に移動させる。注意！接続する時に空調供給用の太いホースがねじれていると空気を十分に送り込めなかったり、機体のカップリングを破損してしまう恐れがあるので十分注意する必要がある。",
+            "furigana": "C. 機(き)内(ない)空(くう)調(ちょう)サービス（低(てい)圧(あつ)空(くう)気(き)）: エプロン舗(ほ)装(そう)の下(した)に地(ち)上(じょう)空(くう)調(ちょう)供(きょう)給(きゅう)設(せつ)備(び)が設(せっ)置(ち)されており、駐(ちゅう)機(き)するスポットに埋(う)め込(こ)まれたエアコン・ピットと称(しょう)する空(くう)気(き)取(と)り出(だ)し口(ぐち)を利(り)用(よう)する。地(ち)上(じょう)空(くう)調(ちょう)供(きょう)給(きゅう)設(せつ)備(び)より、空(くう)調(ちょう)供(きょう)給(きゅう)用(よう)の太(ふと)いホースを全(ぜん)部(ぶ)出(だ)しねじれを直(なお)してから機(き)体(たい)側(がわ)カップリングのアクセス・パネル付(ふ)近(きん)に移(い)動(どう)させる。注(ちゅう)意(い)！接(せつ)続(ぞく)する時(とき)に空(くう)調(ちょう)供(きょう)給(きゅう)用(よう)の太(ふと)いホースがねじれていると空(くう)気(き)を十(じゅう)分(ぶん)に送(おく)り込(こ)めなかったり、機(き)体(たい)のカップリングを破(は)損(そん)してしまう恐(おそ)れがあるので十(じゅう)分(ぶん)注(ちゅう)意(い)する必(ひつ)要(よう)がある。",
+            "romaji": "C. Kinai kuuchou saabisu (Teiatsu kuuki): Epuron hosoushita no chijou kuuchou kyoukyuu setsubi ga secchi sarete ori, chuuki suru supotto ni umekomareta eakon pitto to shousuru kuuki toridashiguchi wo riyou suru. Chijou kuuchou kyoukyuu setsubi yori, kuuchou kyoukyuuyou no futoi hoosu wo zenbu dashi nejire wo naoshite kara kitai gawa kappuringu no akusesu paneru fukin ni idou saseru. Chuui! Setsuzoku suru toki ni kuuchou kyoukyuuyou no futoi hoosu ga nejirete iru to kuuki wo juubun ni okorikomenakattari, kitai no kappuringu wo hason shite shimau osore ga aru node juubun chuui suru hitsuyou ga aru."
+          },
+          "english": "C. Cabin Air Conditioning Service - Low Pressure Air / PCA (Figure 126): Ground conditioned air supply systems are built under the apron pavement; use the air outlet receptacle pit embedded at the spot (Air Conditioning Pit). Pull the large-diameter air duct hose completely out, untwist all kinks, and move it near the aircraft fuselage coupling panel. Caution! If the duct hose is twisted when connected, insufficient airflow will be delivered or the aircraft fuselage coupling connector may be damaged.",
+          "sinhala": "C. කැබින් වායුසමීකරණ සේවාව (අඩු පීඩන වාතය - රූපය 126): ඇප්‍රන් පදික වේදිකාව යට භූගත වායුසමීකරණ පද්ධතියක් ඇති අතර, නැවතුම් අංගනයේ ඇති වායුසමීකරණ වළ (Air Conditioning Pit) මඟින් වාතය ලබාගනී. හෝස් එක සම්පූර්ණයෙන්ම පිටතට ඇද, එහි ඇති ඇඹරුම් (Nejire) සම්පූර්ණයෙන්ම දිගහැර කෙළින් කර යානයේ කප්ලිං එක අසලට ගෙන යන්න. අවවාදයයි! හෝස් එක ඇඹරී තිබියදී සවි කළහොත් ප්‍රමාණවත් වාතය නොලැබී යාම හෝ යානයේ කප්ලිං එකට හානි සිදුවිය හැක.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 126 බලන්න. යානයට Air Condition දෙන්න බිම තියෙන Pit එකෙන් මහත හෝස් එකක් අදිනවා. මෙන්න මේ හෝස් එක ඇදලා, ඇඹරිලා තියෙන තැන් (Nejire) ඔක්කොම දිගඇරලා කෙලින් කරන්න ඕනෙ. නැත්නම් හෝස් එකේ හුළං හිරවෙලා යානයේ Coupling එක කැඩෙන්න පුළුවන්!",
+            "japanese_tts_text": "空調ホースのねじれを直してから機体に接続する。ねじれはカップリング破損の原因となる。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "エアコン・ピット",
+          "furigana": "えあこん・ぴっと",
+          "romaji": "Eakon Pitto",
+          "english": "Air Conditioning Ground Pit",
+          "sinhala": "භූගත වායුසමීකරණ වළ (Pit)"
+        },
+        {
+          "japanese": "ねじれ",
+          "furigana": "ねじれ",
+          "romaji": "Nejire",
+          "english": "Twist / Kink",
+          "sinhala": "ඇඹරුම / නැවීම"
+        },
+        {
+          "japanese": "カップリング",
+          "furigana": "かっぷりんぐ",
+          "romaji": "Kappuringu",
+          "english": "Aircraft Air Coupling Connector",
+          "sinhala": "හෝස් එක සම්බන්ධ කරන කප්ලිං අගුල"
+        }
+      ]
+    },
+    {
+      "page_number": 25,
+      "page_title_sinhala": "කැබින් දොරවල් විවෘත කිරීමේ නීතිය සහ භූගත වායුසමීකරණ පද්ධතියේ ක්‍රියාකාරිත්වය",
+      "page_title_japanese": "空調装置作動前の扉開放確認と地上空調供給設備",
+      "mapped_images": [
+        "Ground handling - Images V1/127.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P25_S01",
+          "content_type": "pca_operation_safety_door_open",
+          "japanese": {
+            "original_kanji": "次に機体側アクセス・パネルを開き、カップリングと空調供給用の太いホースを接続する。ホース接続後、地上空調供給設備のコントロール・パネルにある所定のスイッチを入れ空気を機内に送り込む。航空機のカップリングの場所や個数は、機種によって異なるが1～2個が普通である。ただし、結合させる金具サイズはほぼ全機種とも同様である。また、空気の出口を作るため、空調装置を働かせる前に、機体の扉が開いていることを確認しておくことが重要である。",
+            "furigana": "次(つぎ)に機(き)体(たい)側(がわ)アクセス・パネルを開(ひら)き、カップリングと空(くう)調(ちょう)供(きょう)給(きゅう)用(よう)の太(ふと)いホースを接(せつ)続(ぞく)する。ホース接(せつ)続(ぞく)後(ご)、地(ち)上(じょう)空(くう)調(ちょう)供(きょう)給(きゅう)設(せつ)備(び)のコントロール・パネルにある所(しょ)定(てい)のスイッチを入(い)れ空(くう)気(き)を機(き)内(ない)に送(おく)り込(こ)む。航(こう)空(くう)機(き)のカップリングの場(ば)所(しょ)や個(こ)数(すう)は、機(き)種(しゅ)によって異(こと)なるが1～2個(こ)が普(ふ)通(つう)である。ただし、結(けつ)合(ごう)させる金(かな)具(ぐ)サイズはほぼ全(ぜん)機(き)種(しゅ)とも同(どう)様(よう)である。また、空(くう)気(き)の出(で)口(ぐち)を作(つく)るため、空(くう)調(ちょう)装(そう)置(ち)を働(はたら)かせる前(まえ)に、機(き)体(たい)の扉(とびら)が開(ひら)いていることを確(かく)認(にん)しておくことが重(じゅう)要(よう)である。",
+            "romaji": "Tsugi ni kitai gawa akusesu paneru wo hiraki, kappuringu to kuuchou kyoukyuuyou no futoi hoosu wo setsuzoku suru. Hoosu setsuzoku go, chijou kuuchou kyoukyuu setsubi no kontorooru paneru ni aru shotei no suicchi wo ire kuuki wo kinai ni okorikomu. Koukuuki no kappuringu no basho ya kosuu wa, kishu ni yotte kotonaru ga ikko kara nikko ga futsuu de aru. Tadashi, ketsugou saseru kanagu saizu wa hobo zenkishu tomo douyou de aru. Mata, kuuki no deguchi wo tsukuru tame, kuuchou souchi wo hatarakaseru mae ni, kitai no tobira ga aite iru koto wo kakunin shite oku koto ga juuyou de aru."
+          },
+          "english": "Next, open the aircraft access panel and connect the large PCA hose coupling. Once connected, turn on the designated switch on the ground control panel to blow air into the cabin. Couplings usually number 1 to 2 depending on aircraft type, though coupling hardware size is standardized across nearly all models. Crucially, before starting the air conditioner, always verify that an aircraft cabin door is OPEN to provide an air exhaust outlet.",
+          "sinhala": "මීළඟට, යානයේ ප්‍රවේශ පියන විවෘත කර වායුසමීකරණ හෝස් එක සම්බන්ධ කරන්න. සම්බන්ධ කළ පසු පාලක පුවරුවේ ස්විචය ක්‍රියාත්මක කර වාතය යානය තුළට යවන්න. යානය අනුව කප්ලිං 1ක් හෝ 2ක් ඇති අතර ලෝහ උපාංගවල ප්‍රමාණය සියලුම මාදිලි සඳහා බොහෝ දුරට සමාන වේ. තවද, වාතය පිටවීමට මාර්ගයක් සකසා ගැනීම සඳහා, වායුසමීකරණය ක්‍රියාත්මක කිරීමට පෙර ගුවන් යානයේ දොරක් විවෘතව ඇත්දැයි තහවුරු කර ගැනීම අතිශයින් වැදගත් වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න මේක විභාග ප්‍රශ්නයක් ළමයි: Air Condition හෝස් එක දාලා ස්විච් එක On කරන්න කලින් යානයේ දොරවල් (Tobira) ඇරලා තියෙනවද කියලා බලන්නේ ඇයි? එළියෙන් තදින් හුළං ගහද්දී ඒ හුළං එළියට යන්න Outlet එකක් තියෙන්න ඕනෙ, නැත්නම් යානය ඇතුලේ වායු පීඩනය වැඩි වෙනවා! ඒ නිසා දොර ඇරලා තියෙනවා කියලා තහවුරු කරගෙනමයි PCA එක දාන්න ඕනෙ.",
+            "japanese_tts_text": "空気の出口を作るため、空調装置を働かせる前に機体の扉が開いていることを確認する。"
+          }
+        },
+        {
+          "section_id": "P25_S02",
+          "content_type": "ground_air_supply_system",
+          "japanese": {
+            "original_kanji": "① 地上空調供給設備 (Ground Air Conditioning Supply Equipment): 空港ビル内のエネルギー供給施設（地域冷暖房プラント）等で作られた冷水（夏）または蒸気（冬）等を各スポットへ送り、エプロン舗装の下にある空調機（熱交換器、送風機等）によって空気を冷やしたり（夏）温めたり（冬）する。こうしてスポットで作られた冷たい空気や暖かい空気は、エアコン・ピットと称する空気取り出し口から空調供給用の太いホースを通して航空機に供給される。",
+            "furigana": "① 地(ち)上(じょう)空(くう)調(ちょう)供(きょう)給(きゅう)設(せつ)備(び): 空(くう)港(こう)ビル内(ない)のエネルギー供(きょう)給(きゅう)施(し)設(せつ)（地(ち)域(いき)冷(れい)暖(だん)房(ぼう)プラント）等(とう)で作(つく)られた冷(れい)水(すい)（夏(なつ)）または蒸(じょう)気(き)（冬(ふゆ)）等(とう)を各(かく)スポットへ送(おく)り、エプロン舗(ほ)装(そう)の下(した)にある空(くう)調(ちょう)機(き)（熱(ねつ)交(こう)換(かん)器(き)、送(そう)風(ふう)機(き)等(とう)）によって空(くう)気(き)を冷(ひ)やしたり（夏(なつ)）温(あたた)めたり（冬(ふゆ)）する。こうしてスポットで作(つく)られた冷(つめ)たい空(くう)気(き)や暖(あたた)かい空(くう)気(き)は、エアコン・ピットと称(しょう)する空(くう)気(き)取(と)り出(だ)し口(ぐち)から空(くう)調(ちょう)供(きょう)給(きゅう)用(よう)の太(ふと)いホースを通(とお)して航(こう)空(くう)機(き)に供(きょう)給(きゅう)される。",
+            "romaji": "1. Chijou kuuchou kyoukyuu setsubi (Ground Air Conditioning Supply Equipment): Kuukou biru nai no enerugii kyoukyuu shisetsu (chiiki reidanbou puranto) tou de tsukurareta reisui (natsu) matawa jouki (fuyu) tou wo kaku supotto e okuri, epuron hosoushita ni aru kuuchouki (netsukou kanki, soufuuki tou) ni yotte kuuki wo hiyashitari (natsu) atatame tari (fuyu) suru. Koushite supotto de tsukurareta tsumetai kuuki ya atatakai kuuki wa, eakon pitto to shousuru kuuki toridashiguchi kara kuuchou kyoukyuuyou no futoi hoosu wo tooshite koukuuki ni kyoukyuu sareru."
+          },
+          "english": "1. Ground Air Conditioning Supply Equipment (Figure 127): Chilled water (summer) or steam (winter) produced by airport central thermal energy plants is piped to each spot. Heat exchangers and blowers under the apron pavement cool or heat the ambient air, sending conditioned air through the pit hose into the aircraft.",
+          "sinhala": "1. භූගත වායුසමීකරණ සැපයුම් උපකරණ (රූපය 127): ගුවන් තොටුපළ ගොඩනැගිල්ලේ ශක්ති සැපයුම් මධ්‍යස්ථානය මඟින් නිපදවන ශීත කළ ජලය (ගිම්හානයේදී) හෝ වාෂ්ප (ශීත ඍතුවේදී) එක් එක් අංගනයට (Spot) යවයි. ඇප්‍රන් පදික වේදිකාවට යටින් ඇති තාප හුවමාරු යන්ත්‍ර මඟින් සකසන සිසිල් හෝ උණුසුම් වාතය, වායුසමීකරණ වළ (Air conditioning pit) හරහා හෝස් එක දිගේ යානයට සපයයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 127 බලන්න. ගුවන් තොටුපළේ ප්‍රධාන Plant එකෙන් ගිම්හානයට සීතල වතුරත්, ශීත කාලයට උණුසුම් වාෂ්පත් ඇප්‍රන් එක යටින් එවනවා. ඒකෙන් හදන හුළඟ තමයි මේ හෝස් එක දිගේ යානය ඇතුළට ගිහින් මගීන්ට හොඳ සනීප පරිසරයක් දෙන්නේ.",
+            "japanese_tts_text": "地上空調供給設備は、エプロン下のエアコン・ピットから太いホースを通して航空機に冷気・暖気を供給する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "空気の出口",
+          "furigana": "くうきのでぐち",
+          "romaji": "Kuuki no Deguchi",
+          "english": "Air Exhaust Outlet",
+          "sinhala": "වාතය පිටවීමේ මාර්ගය"
+        },
+        {
+          "japanese": "冷気・暖気",
+          "furigana": "れいき・だんき",
+          "romaji": "Reiki / Danki",
+          "english": "Chilled Air / Warm Air",
+          "sinhala": "සිසිල් වාතය / උණුසුම් වාතය"
+        },
+        {
+          "japanese": "熱交換器",
+          "furigana": "ねつこうかんき",
+          "romaji": "Netsukoukanki",
+          "english": "Heat Exchanger",
+          "sinhala": "තාප හුවමාරු යන්ත්‍රය"
+        }
+      ]
+    }
+  ]
+}

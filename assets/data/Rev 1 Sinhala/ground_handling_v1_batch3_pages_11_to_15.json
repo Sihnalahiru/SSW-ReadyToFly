@@ -1,0 +1,379 @@
+{
+  "metadata": {
+    "batch": "Batch 3 (Pages 11 to 15)",
+    "document_title": "Ground Handling Training Manual Rev 1 (SSW ReadyToFly)",
+    "source_pdf": "Ground handling V1.pdf",
+    "image_folder": "Ground handling - Images V1/",
+    "tts_config": {
+      "sinhala_teacher_voice": {
+        "voice_locale": "si-LK",
+        "voice_type": "native_sinhala_teacher",
+        "role": "friendly_expert_instructor"
+      },
+      "japanese_native_voice": {
+        "voice_locale": "ja-JP",
+        "voice_type": "native_japanese_professional",
+        "role": "standard_aviation_pronunciation"
+      }
+    }
+  },
+  "pages": [
+    {
+      "page_number": 11,
+      "page_title_sinhala": "ගුවන් යානා හැසිරවීමේ සැකැස්ම (Airplane Servicing Arrangement - Model 777-300)",
+      "page_title_japanese": "Figure 4 航空機ハンドリング配置図 (Model 777-300)",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P11_S01",
+          "content_type": "servicing_diagram",
+          "japanese": {
+            "original_kanji": "Figure 4 AIRPLANE SERVICING ARRANGEMENT - TYPICAL TURNAROUND (MODEL 777-300)",
+            "furigana": "Figure 4 AIRPLANE SERVICING ARRANGEMENT - TYPICAL TURNAROUND (MODEL 777-300)",
+            "romaji": "Figure 4 Eapurein Saabishingu Arenjimento - Tipikaru Taan'araundo (Moderu 777-300)"
+          },
+          "english": "Figure 4: Airplane Servicing Arrangement - Typical Turnaround Layout (Model Boeing 777-300)",
+          "sinhala": "රූපය 4: ගුවන් යානයක් නැවතුම් අංගනයේ ඇති විට සිදුකරන සේවා උපකරණ සැකැස්ම - සාමාන්‍ය හැසිරවීම (Model Boeing 777-300)",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, 11 වෙනි පිටුවේ තියෙන්නේ බෝයිං 777-300 වගේ දැවැන්ත ගුවන් යානයක් වටා එක එක භූමි උපකරණ ස්ථානගත වෙන සම්පූර්ණ Blueprint එක. බලන්න: ඉදිරිපස වම් පැත්තෙන් Passenger Boarding Bridges හෙවත් මගී පාලම් දෙකක් සම්බන්ධ වෙනවා. දකුණු පැත්තෙන් Container High Lift Loaders දෙකක් ඉදිරිපස සහ පසුපස Lower-deck cargo doors වලට සවි වෙනවා. යානයේ පිටුපසින් Belt Loader එක Bulk cargo door එකටත්, Lavatory Car සහ Water Car එක පසුපසින්ද, ඉදිරිපස රෝදය අසල Towing Tractor එකත් සූදානම්ව තියෙනවා. මේ හැම උපකරණයකටම නියමිත පිහිටීමක් තියෙනවා, එකක්වත් පටලවගන්න බෑ!",
+            "japanese_tts_text": "ボーイング777-300型機の駐機中における地上支援機材の典型的な配置図。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "駐機",
+          "furigana": "ちゅうき",
+          "romaji": "Chuuki",
+          "english": "Aircraft Parking",
+          "sinhala": "යානය නවත්වා තැබීම"
+        },
+        {
+          "japanese": "配置図",
+          "furigana": "はいちず",
+          "romaji": "Haichizu",
+          "english": "Arrangement / Layout Diagram",
+          "sinhala": "ස්ථානගත කිරීමේ සටහන"
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "page_title_sinhala": "ගුවන් යානාවල ප්‍රධාන භාණ්ඩ මැදිරි වර්ග 2 (කන්ටේනර් මැදිරිය සහ බල්ක් මැදිරිය)",
+      "page_title_japanese": "貨物室の種類（コンテナ室とバルク貨物室）",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P12_S01",
+          "content_type": "cargo_compartment_types",
+          "japanese": {
+            "original_kanji": "航空機にはさまざまな機種があるが、大型旅客機では以下の2種類の貨物室がある機種が多い。(1) 航空機専用のULD (Unit Load Device) をそのまま積載できるコンテナ室と呼ばれる貨物室。(2) ひとつひとつ手で積み卸しをするバルク貨物室（バラ積み貨物室）と呼ばれる貨物室。",
+            "furigana": "航(こう)空(くう)機(き)にはさまざまな機(き)種(しゅ)があるが、大(おお)型(がた)旅(りょ)客(かく)機(き)では以(い)下(か)の2種(しゅ)類(るい)の貨(か)物(もつ)室(しつ)がある機(き)種(しゅ)が多(おお)い。(1) 航(こう)空(くう)機(き)専(せん)用(よう)のULDをそのまま積(せき)載(さい)できるコンテナ室(しつ)と呼(よ)ばれる貨(か)物(もつ)室(しつ)。(2) ひとつひとつ手(て)で積(つ)み卸(おろ)しをするバルク貨(か)物(もつ)室(しつ)（バラ積(づ)み貨(か)物(もつ)室(しつ)）と呼(よ)ばれる貨(か)物(もつ)室(しつ)。",
+            "romaji": "Koukuuki ni wa samazama na kishu ga aru ga, oogata ryokakuki dewa ika no nishurui no kamotsushitsu ga aru kishu ga ooi. (1) Koukuuki sen'you no ULD wo sonomama sekisai dekiru kontena-shitsu to yobareru kamotsushitsu. (2) Hitotsu hitotsu te de tsumioroshi wo suru baruku kamotsushitsu (barazumi kamotsushitsu) to yobareru kamotsushitsu."
+          },
+          "english": "While there are various aircraft types, most large passenger aircraft have two types of cargo holds: (1) Container compartment, where specialized ULDs are directly loaded. (2) Bulk cargo compartment, where baggage and cargo are loaded and unloaded piece by piece by hand.",
+          "sinhala": "ගුවන් යානා වල විවිධ මාදිලි ඇත, නමුත් බොහෝ විශාල මගී ගුවන් යානා වල ප්‍රධාන වශයෙන් භාණ්ඩ මැදිරි වර්ග දෙකක් ඇත: (1) ගුවන් යානා සඳහාම නිර්මාණය කර ඇති ULD බහාලුම් සෘජුවම පැටවිය හැකි 'කන්ටේනර් මැදිරිය' (Container Compartment). (2) එකින් එක අතින් පටවන සහ බාන 'බල්ක් භාණ්ඩ මැදිරිය' (Bulk Cargo Compartment).",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි මේ කොටස විභාගයට ගොඩක් වැදගත්! ලොකු මගී ගුවන් යානාවල බඩු දාන කාමර වර්ග දෙකක් තියෙනවා: එකක් තමයි කන්ටේනර් පිටින්ම දාන Container Room එක. දෙවෙනි එක තමයි එකින් එක අතින් උස්සලා පටවන Bulk Room එක. Bulk එකට Barazumi කියලත් කියනවා.",
+            "japanese_tts_text": "大型旅客機では、コンテナ室とバルク貨物室（バラ積み貨物室）の2種類の貨物室がある。"
+          }
+        },
+        {
+          "section_id": "P12_S02",
+          "content_type": "compartment_locations_and_gse",
+          "japanese": {
+            "original_kanji": "コンテナ室は、主翼の前方部と後方部の2か所に区分されている。コンテナ室への搭降載、すなわちULD単位の積み卸し作業においては、ハイリフト・ローダと呼ばれる特殊車両が使用される。一方、バルク貨物室への搭降載については、ベルト・ローダと呼ばれるベルトコンベアが付いた特殊車両を使用し、積み卸しは手作業で実施する。ハイリフト・ローダ、ベルト・ローダはいずれも機側作業専用である。",
+            "furigana": "コンテナ室(しつ)は、主(しゅ)翼(よく)の前(ぜん)方(ぽう)部(ぶ)と後(こう)方(ほう)部(ぶ)の2か所(しょ)に区(く)分(ぶん)されている。コンテナ室(しつ)への搭(とう)降(こう)載(さい)、すなわちULD単(たん)位(い)の積(つ)み卸(おろ)し作(さ)業(ぎょう)においては、ハイリフト・ローダと呼(よ)ばれる特(とく)殊(しゅ)車(しゃ)両(りょう)が使(し)用(よう)される。一(いっ)方(ぽう)、バルク貨(か)物(もつ)室(しつ)への搭(とう)降(こう)載(さい)については、ベルト・ローダと呼(よ)ばれるベルトコンベアが付(つ)いた特(とく)殊(しゅ)車(しゃ)両(りょう)を使(し)用(よう)し、積(つ)み卸(おろ)しは手(て)作(さ)業(ぎょう)で実(じっ)施(し)する。ハイリフト・ローダ、ベルト・ローダはいずれも機(き)側(そく)作(さ)業(ぎょう)専(せん)用(よう)である。",
+            "romaji": "Kontena-shitsu wa, shuyoku no zenpoubu to kouhoubu no nikasho ni kubun sarete iru. Kontena-shitsu e no toukousai, sunawachi ULD tan'i no tsumioroshi sagyou ni oite wa, hairifuto rooda to yobareru tokushu sharyou ga shiyou sareru. Ippou, baruku kamotsushitsu e no toukousai ni tsuite wa, beruto rooda to yobareru beruto konbeya ga tsuita tokushu sharyou wo shiyou shi, tsumioroshi wa te-sagyou de jisshi suru. Hairifuto rooda, beruto rooda wa izure mo kisoku sagyou sen'you de aru."
+          },
+          "english": "Container compartments are divided into two sections: forward and aft of the main wing. For container holds, specialized vehicles called High-Lift Loaders are used to load/unload ULDs. For bulk holds, specialized vehicles with conveyor belts called Belt Loaders are used, and handling is done manually. Both High-Lift Loaders and Belt Loaders are dedicated solely for aircraft-side operations.",
+          "sinhala": "කන්ටේනර් මැදිරිය ප්‍රධාන පියාපත් වලට ඉදිරියෙන් (Forward) සහ පසුපසින් (Aft) ස්ථාන දෙකක පිහිටා ඇත. කන්ටේනර් මැදිරියට ULD පැටවීම සඳහා High-Lift Loader නම් විශේෂ රථය භාවිත වේ. බල්ක් මැදිරියට බඩු පැටවීම සඳහා බෙල්ට් එකක් සහිත Belt Loader රථය භාවිත කරන අතර බඩු අතින් පැටවීම සිදු කරයි. මෙම රථ දෙකම යානය අසල මෙහෙයුම් සඳහා පමණක්ම වෙන්වූ ඒවා වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "විභාගයට අහනවා Container හෝල්ඩ් එක තියෙන්නේ කොහෙද කියලා? පියාපත් වලට ඉදිරියෙන් සහ පියාපත් වලට පිටුපසින්. කන්ටේනර් පටවන්නේ High-Lift Loader එකෙන්. බල්ක් හෝල්ඩ් එකට පටවන්නේ Belt Loader එකෙන්. මේ දෙකම වැඩ කරන්නේ ගුවන් යානය ළඟ විතරයි, භාණ්ඩ ගබඩාවට මේවා යන්නේ නෑ!",
+            "japanese_tts_text": "コンテナ室へはハイリフト・ローダ、バルク貨物室へはベルト・ローダを使用し、いずれも機側作業専用である。"
+          }
+        },
+        {
+          "section_id": "P12_S03",
+          "content_type": "ramp_transport_vehicles",
+          "japanese": {
+            "original_kanji": "手荷物・貨物・郵便物をコンテナで収納、搭載する場合、機側までの運搬車としてコンテナ・ドーリと呼ばれる台車を使用する。バルク扱いとして搭載する場合は通常のトラック車両、もしくはバルク専用のバルク・カートと呼ばれる荷台付台車を使用する。",
+            "furigana": "手(て)荷(に)物(もつ)・貨(か)物(もつ)・郵(ゆう)便(びん)物(ぶつ)をコンテナで収(しゅう)納(のう)、搭(とう)載(さい)する場(ば)合(あい)、機(き)側(そく)までの運(うん)搬(ぱん)車(しゃ)としてコンテナ・ドーリと呼(よ)ばれる台(だい)車(しゃ)を使(し)用(よう)する。バルク扱(あつか)いとして搭(とう)載(さい)する場(ば)合(あい)は通(つう)常(じょう)のトラック車(しゃ)両(りょう)、もしくはバルク専(せん)用(よう)のバルク・カートと呼(よ)ばれる荷(に)台(だい)付(つき)台(だい)車(しゃ)を使(し)用(よう)する。",
+            "romaji": "Tenimotsu, kamotsu, yuubinbutsu wo kontena de shuunou, tousai suru baai, kisoku made no unpansha to shite kontena doorii to yobareru daisha wo shiyou suru. Baruku atsukai to shite tousai suru baai wa tsuujou no torakku sharyou, moshikuwa baruku sen'you no baruku kaato to yobareru nidaitsuki daisha wo shiyou suru."
+          },
+          "english": "When transporting baggage, cargo, and mail in containers to the aircraft, wheeled platforms called container dollies are used. When transported as bulk, standard trucks or dedicated wheeled carts called bulk carts are used.",
+          "sinhala": "ගමන් මලු, භාණ්ඩ සහ තැපැල් කන්ටේනර් මඟින් ගුවන් යානය අසලට ප්‍රවාහනය කිරීම සඳහා 'කන්ටේනර් ඩොලි' (Container Dolly) භාවිත කරයි. තොග (Bulk) වශයෙන් පටවන විට සාමාන්‍ය ට්‍රක් රථ හෝ බල්ක් කරත්ත (Bulk Cart) භාවිත කරයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ගබඩාවේ ඉඳන් යානය ගාවට කන්ටේනර් අදින්න පාවිච්චි කරන්නේ Container Dolly. තනි බෑග් ටික ගෙනියන්න පාවිච්චි කරන්නේ Bulk Cart හෝ ට්‍රක් රථයි.",
+            "japanese_tts_text": "コンテナ運搬にはコンテナ・ドーリを使用し、バルク扱いにはトラックやバルク・カートを使用する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "主翼",
+          "furigana": "しゅよく",
+          "romaji": "Shuyoku",
+          "english": "Main Wing",
+          "sinhala": "ප්‍රධාන පියාපත"
+        },
+        {
+          "japanese": "ハイリフト・ローダ",
+          "furigana": "はいりふと・ろーだ",
+          "romaji": "Hairifuto Rooda",
+          "english": "High-Lift Loader",
+          "sinhala": "හයි-ලිෆ්ට් ලෝඩරය"
+        },
+        {
+          "japanese": "ベルト・ローダ",
+          "furigana": "べると・ろーだ",
+          "romaji": "Beruto Rooda",
+          "english": "Belt Loader",
+          "sinhala": "බෙල්ට් ලෝඩරය"
+        },
+        {
+          "japanese": "機側",
+          "furigana": "きそく",
+          "romaji": "Kisoku",
+          "english": "Aircraft-side / Ramp-side",
+          "sinhala": "ගුවන් යානය අසල"
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "page_title_sinhala": "GSE උපකරණ: ටෝවින් ට්‍රැක්ටරය (TT) සහ ට්‍රක් රථ",
+      "page_title_japanese": "A. GSE (地上支援機材): ① トーイング・トラクタ (TT車) と ② トラック",
+      "mapped_images": [
+        "Ground handling - Images V1/91.jpg",
+        "Ground handling - Images V1/92.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P13_S01",
+          "content_type": "towing_tractor_intro",
+          "japanese": {
+            "original_kanji": "(1) トーイング・トラクタ（TT車）：コンテナ・ドーリ、パレット・ドーリ、バルク・カート、車輪付機材の非自走式車両を牽引する車両である。",
+            "furigana": "(1) トーイング・トラクタ（TT車(しゃ)）：コンテナ・ドーリ、パレット・ドーリ、バルク・カート、車(しゃ)輪(りん)付(づ)け機(き)材(ざい)の非(ひ)自(じ)走(そう)式(しき)車(しゃ)両(りょう)を牽(けん)引(いん)する車(しゃ)両(りょう)である。",
+            "romaji": "(1) Tooingu torakutaa (TT sha): Kontena doorii, paretto doorii, baruku kaato, sharinzuke kizai no hijisoushiki sharyou wo ken'in suru sharyou de aru."
+          },
+          "english": "(1) Towing Tractor (TT): A specialized tractor used to tow unpowered wheeled equipment such as container dollies, pallet dollies, bulk carts, and wheeled GSE.",
+          "sinhala": "(1) ටෝවින් ට්‍රැක්ටරය (TT Car - රූපය 91): කන්ටේනර් ඩොලි, පැලට් ඩොලි, බල්ක් කරත්ත සහ රෝද සහිත ස්වයං ධාවනය නොවන උපකරණ අදින ප්‍රධාන වාහනයයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 91 බලන්න ළමයි. මේ සුදු පාට පොඩි වාහනය තමයි Towing Tractor හෙවත් TT car කියන්නේ. රෝද තියෙන එන්ජින් නැති ඩොලි සහ කරත්ත අදින්නේ මෙන්න මෙයාගෙන් තමයි.",
+            "japanese_tts_text": "トーイング・トラクタ（TT車）は、コンテナ・ドーリやバルク・カートを牽引する車両である。"
+          }
+        },
+        {
+          "section_id": "P13_S02",
+          "content_type": "tt_safety_rules",
+          "japanese": {
+            "original_kanji": "注意！i TT車に牽引されたドーリやカートは、カーブを曲がるとき、遠心力が働くため、思わぬところでドーリやカートが接近することがあるので、作業員は十分に注意しなければならない。ii カートを切り離して作業を行う場合は、カートのブレーキを完全に施し、作業員の危険防止を図らなければならない。",
+            "furigana": "注(ちゅう)意(い)！i TT車(しゃ)に牽(けん)引(いん)されたドーリやカートは、カーブを曲(ま)がるとき、遠(えん)心(しん)力(りょく)が働(はたら)くため、思(おも)わぬところでドーリやカートが接(せっ)近(きん)することがあるので、作(さ)業(ぎょう)員(いん)は十(じゅう)分(ぶん)注(ちゅう)意(い)しなければならない。ii カートを切(き)りはなして作(さ)業(ぎょう)を行(おこな)う場(ば)合(あい)は、カートのブレーキを完(かん)全(ぜん)に施(ほどこ)し、作(さ)業(ぎょう)員(いん)の危(き)険(けん)防(ぼう)止(し)を図(はか)らなければならない。",
+            "romaji": "Chuui! i TT sha ni ken'in sareta doorii ya kaato wa, kaabu wo magaru toki, enshinryoku ga hataraku tame, omowanu tokoro de doorii ya kaato ga sekkin suru koto ga aru node, sagyouin wa juubun chuui shinakereba naranai. ii Kaato wo kirihanashite sagyou wo okonau baai wa, kaato no bureeki wo kanzen ni hodokoshi, sagyouin no kiken boushi wo hakaranakereba naranai."
+          },
+          "english": "Caution! 1. When dollies or carts towed by a TT round a curve, centrifugal force causes them to swing outwards unexpectedly; ground workers must exercise extreme vigilance. 2. When uncoupling carts for work, engage the cart brakes completely to ensure worker safety.",
+          "sinhala": "අවවාදයයි! 1. TT රථයකින් ඇදගෙන යන ඩොලි හෝ කරත්ත වංගු ගැනීමේදී කේන්ද්‍රාපසාරී බලය නිසා පිටතට පැද්දී අනපේක්ෂිත ලෙස සේවකයින් දෙසට ළඟා විය හැකි බැවින් දැඩි අවධානයෙන් සිටිය යුතුය. 2. කරත්තය ට්‍රැක්ටරයෙන් වෙන් කර වැඩ කරන විට, අනතුරු වැළැක්වීමට කරත්තයේ තිරිංග (Brakes) සම්පූර්ණයෙන්ම ක්‍රියාත්මක කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න විභාගයේ ප්‍රශ්න පත්‍රවල නිතරම අහන Safety Rules දෙකක්! TT එක හැරෙනකොට පිටිපස්සෙන් බැඳලා තියෙන ඩොලි පැද්දිලා ඇඟට එන්න පුළුවන් Enshinryoku (කේන්ද්‍රාපසාරී බලය) නිසා. ඒ වගේම TT එකෙන් ගලවපු ගමන්ම කරත්තයේ Handbrake එක අනිවාර්යයෙන්ම දාන්න ඕනෙ!",
+            "japanese_tts_text": "カーブを曲がるとき遠心力が働くため注意する。切り離す場合はブレーキを完全に施す。"
+          }
+        },
+        {
+          "section_id": "P13_S03",
+          "content_type": "ramp_truck",
+          "japanese": {
+            "original_kanji": "(2) トラック (Truck)：航空機に搭載するバラ積みの手荷物、貨物などを運搬する車両で、一般トラック、テールゲート付トラック、荷台内コンベア付トラックなどがある。",
+            "furigana": "(2) トラック：航(こう)空(くう)機(き)に搭(とう)載(さい)するバラ積(づ)みの手(て)荷(に)物(もつ)、貨(か)物(もつ)などを運(うん)搬(ぱん)する車(しゃ)両(りょう)で、一(いっ)般(ぱん)トラック、テールゲート付(つき)トラック、荷(に)台(だい)内(ない)コンベア付(つき)トラックなどがある。",
+            "romaji": "(2) Torakku (Truck): Koukuuki ni tousai suru barazumi no tenimotsu, kamotsu nado wo unpan suru sharyou de, ippan torakku, teerugeeto-tsuki torakku, nidainai konbeya-tsuki torakku nado ga aru."
+          },
+          "english": "(2) Truck: Vehicles used to transport loose baggage and bulk cargo to the aircraft, including standard flatbed trucks, tailgate-lift trucks, and truck beds equipped with built-in conveyors.",
+          "sinhala": "(2) ට්‍රක් රථ (රූපය 92): යානයට පටවන තනි ගමන් මලු සහ භාණ්ඩ ප්‍රවාහනය කරන රථ වේ. සාමාන්‍ය ට්‍රක්, හයිඩ්‍රොලික් ටේල්ගේට් සහිත ට්‍රක් සහ බඳ තුළ කන්වේයර් පටි සහිත ට්‍රක් රථ මේ අතර වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 92 තියෙන්නේ සාමාන්‍ය ගුවන් තොටුපළ ට්‍රක් රථයක්. බල්ක් බෑග් සහ විශේෂ භාණ්ඩ යානය ළඟට අරන් යන්න මේවා පාවිච්චි කරනවා.",
+            "japanese_tts_text": "トラックは、航空機に搭載するバラ積みの手荷物や貨物を運搬する車両である。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "牽引",
+          "furigana": "けんいん",
+          "romaji": "Ken'in",
+          "english": "Towing / Hauling",
+          "sinhala": "ඇදගෙන යාම"
+        },
+        {
+          "japanese": "遠心力",
+          "furigana": "えんしんりょく",
+          "romaji": "Enshinryoku",
+          "english": "Centrifugal Force",
+          "sinhala": "කේන්ද්‍රාපසාරී බලය"
+        },
+        {
+          "japanese": "切り離す",
+          "furigana": "きりはなす",
+          "romaji": "Kirihanasu",
+          "english": "Uncouple / Disconnect",
+          "sinhala": "වෙන් කිරීම / ගැලවීම"
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "page_title_sinhala": "GSE උපකරණ: කන්ටේනර් ඩොලි (Container Dolly) සහ පැලට් ඩොලි (Pallet Dolly)",
+      "page_title_japanese": "③ ドーリの種類：コンテナ・ドーリとパレット・ドーリ",
+      "mapped_images": [
+        "Ground handling - Images V1/93.jpg",
+        "Ground handling - Images V1/94.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P14_S01",
+          "content_type": "container_dolly",
+          "japanese": {
+            "original_kanji": "① コンテナ・ドーリ (Container Dolly)：航空機下部室専用コンテナの運搬用の非自走式車両で、トーイング・トラクタによって牽引される。種類としては、(a) 標準タイプ (LD-3コンテナ1台) (b) LD-3 (-45含む) LD-4コンテナ兼用タイプ (c) LD-11コンテナ専用タイプ (LD-3コンテナ2台搭載可能) 等がある。上面には移送ローラを備え、ターンテーブルベッドが回転する。",
+            "furigana": "① コンテナ・ドーリ：航(こう)空(くう)機(き)下(か)部(ぶ)室(しつ)専(せん)用(よう)コンテナの運(うん)搬(ぱん)用(よう)の非(ひ)自(じ)走(そう)式(しき)車(しゃ)両(りょう)で、トーイング・トラクタによって牽(けん)引(いん)される。種(しゅ)類(るい)としては、(a) 標(ひょう)準(じゅん)タイプ (LD-3コンテナ1台(だい)) (b) LD-3 (-45含(ふく)む) LD-4コンテナ兼(けん)用(よう)タイプ (c) LD-11コンテナ専(せん)用(よう)タイプ (LD-3コンテナ2台(だい)搭(とう)載(さい)可(か)能(のう)) 等(とう)がある。上(じょう)面(めん)には移(い)送(そう)ローラを備(そな)え、ターンテーブルベッドが回(かい)転(てん)する。",
+            "romaji": "1. Kontena doorii (Container Dolly): Koukuuki kabushitsu sen'you kontena no unpan'you no hijisoushiki sharyou de, tooingu torakutaa ni yotte ken'in sareru. Shurui to shite wa, (a) Hyoujun taipu (LD-3 kontena ichidai) (b) LD-3 (-45 fukumu) LD-4 kontena ken'you taipu (c) LD-11 kontena sen'you taipu (LD-3 kontena nidai tousai kanou) tou ga aru. Joumen ni wa isou roora wo sonae, taan teeburu beddo ga kaiten suru."
+          },
+          "english": "1. Container Dolly (Figure 93): An unpowered trailer towed by a Towing Tractor used to carry lower-deck containers. Types include: (a) Standard single LD-3 container dolly (b) Dual-purpose LD-3/LD-4 dolly (c) Long LD-11 dolly (holds two LD-3s). The deck is fitted with transfer rollers and a 360-degree rotating turntable bed.",
+          "sinhala": "1. කන්ටේනර් ඩොලි (රූපය 93): ටෝවින් ට්‍රැක්ටරයකින් අදිනු ලබන, පහළ බහාලුම් ප්‍රවාහනය කරන රෝද සහිත වේදිකාවකි. වර්ග: (a) සම්මත LD-3 කන්ටේනර් 1ක ඩොලි (b) LD-3 සහ LD-4 දෙකටම භාවිත කළ හැකි ඩොලි (c) LD-11 හෝ LD-3 කන්ටේනර් 2ක් පැටවිය හැකි දිගු ඩොලි. මෙහි උඩ තට්ටුවේ රෝලර් ඇති අතර මැද පීඨිකාව (Turntable) කරකැවිය හැක.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 93 බලන්න ළමයි. මේක තමයි Container Dolly එක. උඩින් රෝලර් සවි කරලා තියෙන්නේ කන්ටේනර් එක තල්ලු කරලා කරකවන්න ලේසි වෙන්නයි (Turntable). LD-3 එකක් දාන ඒවයි, LD-3 දෙකක් දාන්න පුළුවන් දිග ඒවයි තියෙනවා.",
+            "japanese_tts_text": "コンテナ・ドーリは上面に移送ローラを備え、ターンテーブルが回転する。"
+          }
+        },
+        {
+          "section_id": "P14_S02",
+          "content_type": "pallet_dolly",
+          "japanese": {
+            "original_kanji": "② パレット・ドーリ (Pallet Dolly)：貨物機および下部貨物室用のパレット（最大96in × 125in）を運搬する非自走式車両で、トーイング・トラクタによって牽引される。荷台上面は移送ローラ、キャスタまたはボールベアリングを備え、搭降載方向に縦取り型と横取り型があり、ドーリ上面が回転できるものもある。各種コンテナ積載も可能なようにストッパを設けたものもある。",
+            "furigana": "② パレット・ドーリ：貨(か)物(もつ)機(き)および下(か)部(ぶ)貨(か)物(もつ)室(しつ)用(よう)のパレット（最(さい)大(だい)96in × 125in）を運(うん)搬(ぱん)する非(ひ)自(じ)走(そう)式(しき)車(しゃ)両(りょう)で、トーイング・トラクタによって牽(けん)引(いん)される。荷(に)台(だい)上(じょう)面(めん)は移(い)送(そう)ローラ、キャスタまたはボールベアリングを備(そな)え、搭(とう)降(こう)載(さい)方(ほう)向(こう)に縦(たて)取(ど)り型(がた)と横(よこ)取(ど)り型(がた)があり、ドーリ上(じょう)面(めん)が回(かい)転(てん)できるものもある。各(かく)種(しゅ)コンテナ積(せき)載(さい)も可(か)能(のう)なようにストッパを設(もう)けたものもある。",
+            "romaji": "2. Paretto doorii (Pallet Dolly): Kamotsuki oyobi kabu kamotsushitsuyou no paretto (saidai 96 inchi kakeru 125 inchi) wo unpan suru hijisoushiki sharyou de, tooingu torakutaa ni yotte ken'in sareru. Nidai joumen wa isou roora, kyasuta matawa booru bearingu wo sonae, toukousai houkou ni tatedorigata to yokodorigata ga ari, doorii joumen ga kaiten dekiru mono mo aru. Kakushu kontena sekisai mo kanou na you ni sutoppa wo mouketa mono mo aru."
+          },
+          "english": "2. Pallet Dolly (Figure 94): Unpowered trailer towed by a Towing Tractor to carry cargo pallets up to 96\" × 125\". Decks feature transfer rollers, casters, or ball bearings, available in longitudinal or lateral feed types. Equipped with pallet stops and lock latches.",
+          "sinhala": "2. පැලට් ඩොලි (රූපය 94): උපරිම වශයෙන් අඟල් 96 × 125 ප්‍රමාණයේ විශාල පැලට් ප්‍රවාහනය කරන, ට්‍රැක්ටරයකින් අදින රථයකි. මෙහි මතුපිට රෝලර්, කැස්ටර් හෝ බෝල බෙයාරිං ඇති අතර දිග අතට (සිරස්) හෝ හරස් අතට පැටවිය හැකි වර්ග තිබේ. පැලට් පෙරළීම වැළැක්වීමට නැවතුම් අගුල් (Stoppers) සවි කර ඇත.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 94 තියෙන්නේ Pallet Dolly එකක්. මේක කන්ටේනර් ඩොලියට වඩා පළලින් වැඩියි. අඟල් 96 ගුණ කිරීම 125 විශාල පැලට් මේකෙ ගෙනියන්න පුළුවන්. පැලට් එක එළියට විසි නොවෙන්න Stopper එකක් දාලා තියෙනවා.",
+            "japanese_tts_text": "パレット・ドーリは最大96インチ×125インチのパレットを運搬する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "移送ローラ",
+          "furigana": "いそうろーら",
+          "romaji": "Isou Roora",
+          "english": "Transfer Rollers",
+          "sinhala": "භාණ්ඩ චලනය කරන රෝලර්"
+        },
+        {
+          "japanese": "ストッパ",
+          "furigana": "すとっぱ",
+          "romaji": "Sutoppa",
+          "english": "Stopper / Restraint Latch",
+          "sinhala": "නැවතුම් අගුල (Stopper)"
+        },
+        {
+          "japanese": "縦取り型・横取り型",
+          "furigana": "たてどりがた・よこどりがた",
+          "romaji": "Tatedorigata / Yokodorigata",
+          "english": "Longitudinal / Lateral Feed Type",
+          "sinhala": "සිරස් අතට / තිරස් අතට පටවන වර්ගය"
+        }
+      ]
+    },
+    {
+      "page_number": 15,
+      "page_title_sinhala": "GSE උපකරණ: බල්ක් කරත්ත (Bulk Cart), හයි-ලිෆ්ට් ලෝඩරය සහ බෙල්ට් ලෝඩරය",
+      "page_title_japanese": "③ バルク・カート、④ ハイリフト・ローダ、⑤ ベルト・ローダ",
+      "mapped_images": [
+        "Ground handling - Images V1/95.jpg",
+        "Ground handling - Images V1/96.jpg",
+        "Ground handling - Images V1/97.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P15_S01",
+          "content_type": "bulk_cart_details",
+          "japanese": {
+            "original_kanji": "③ バルク・カート (Bulk Cart): 航空機のバルク貨物室に搭載する手荷物、貨物や、犬、猫等の生き物を運搬する非自走式車両で、バゲージ・カート、カーゴ・カートとも呼ばれる。一般にボックス型（3方向がパネルで、積み込み口には貨物落下防止用ネット、天井には雨天シートを備えたもの、またははね上げ式の屋根兼入り口扉を備えたもの）であり、トーイング・トラクタにより牽引される。",
+            "furigana": "③ バルク・カート: 航(こう)空(くう)機(き)のバルク貨(か)物(もつ)室(しつ)に搭(とう)載(さい)する手(て)荷(に)物(もつ)、貨(か)物(もつ)や、犬(いぬ)、猫(ねこ)等(とう)の生(い)き物(もの)を運(うん)搬(ぱん)する非(ひ)自(じ)走(そう)式(しき)車(しゃ)両(りょう)で、バゲージ・カート、カーゴ・カートとも呼(よ)ばれる。一(いっ)般(ぱん)にボックス型(がた)（3方(ほう)向(こう)がパネルで、積(つ)み込(こ)み口(ぐち)には貨(か)物(もつ)落(らっ)下(か)防(ぼう)止(し)用(よう)ネット、天(てん)井(じょう)には雨(う)天(てん)シートを備(そな)えたもの、またははね上(あ)げ式(しき)の屋(や)根(ね)兼(けん)入(い)り口(ぐち)扉(とびら)を備(そな)えたもの）であり、トーイング・トラクタにより牽(けん)引(いん)される。",
+            "romaji": "3. Baruku kaato (Bulk Cart): Koukuuki no baruku kamotsushitsu ni tousai suru tenimotsu, kamotsu ya, inu, neko tou no ikimono wo unpan suru hijisoushiki sharyou de, bageeji kaato, kaago kaato tomo yobareru. Ippan ni bokkusu gata (sanpoukou ga paneru de, tsumikomiguchi ni wa kamotsu rakka boushiyou netto, tenjou ni wa uten shiito wo sonaeta mono, matawa haneageshiki no yane ken iriguchi tobira wo sonaeta mono) de ari, tooingu torakutaa ni yori ken'in sareru."
+          },
+          "english": "3. Bulk Cart (Figure 95): Unpowered cart towed by a TT to carry loose baggage, cargo, and live animals (AVI: dogs/cats) to the bulk hold. Enclosed on 3 sides with cargo netting to prevent items falling out and a waterproof canopy for rainy weather.",
+          "sinhala": "3. බල්ක් කරත්තය (රූපය 95): බල්ක් මැදිරියට පටවන තනි ගමන් මලු, භාණ්ඩ සහ බල්ලන්/බළලුන් වැනි සතුන් ගෙනියන රෝද සහිත කරත්තයකි. බඩු වැටීම වැළැක්වීමට ආරක්ෂිත දැලක්ද (Net), වැස්සෙන් ආරක්ෂා වීමට ආවරණයක්ද (Rain sheet) සහිතය. ටෝවින් ට්‍රැක්ටරයෙන් අදිනු ලබයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 95 බලන්න. මේක පෙට්ටියක් වගේ වහලයක් තියෙන කරත්තයක්. වැස්ස වෙලාවට බෑග් තෙමෙන්නේ නැති වෙන්න මේකේ දාලා වහනවා. බල්ලෝ, පූසෝ වගේ සත්තු ගෙනියන්නෙත් මේ Bulk Cart එකේ තමයි.",
+            "japanese_tts_text": "バルク・カートは、手荷物や生き物を運搬するボックス型の車両である。"
+          }
+        },
+        {
+          "section_id": "P15_S02",
+          "content_type": "high_lift_loader_details",
+          "japanese": {
+            "original_kanji": "④ ハイリフト・ローダ (High-Lift Loader): 航空機下部（ロア・デッキ）貨物室や上部（メイン・デッキ）貨物室へのULDの搭降載に使用する車両で、機材のローダ幅は60.4in、96in、125inの3種類がある。",
+            "furigana": "④ ハイリフト・ローダ: 航(こう)空(くう)機(き)下(か)部(ぶ)（ロア・デッキ）貨(か)物(もつ)室(しつ)や上(じょう)部(ぶ)（メイン・デッキ）貨(か)物(もつ)室(しつ)へのULDの搭(とう)降(こう)載(さい)に使(し)用(よう)する車(しゃ)両(りょう)で、機(き)材(ざい)のローダ幅(はば)は60.4in、96in、125inの3種(しゅ)類(るい)がある。",
+            "romaji": "4. Hairifuto rooda (High-Lift Loader): Koukuuki kabu (roa dekki) kamotsushitsu ya joubu (mein dekki) kamotsushitsu e no ULD no toukousai ni shiyou suru sharyou de, kizai no rooda haba wa 60.4 inchi, 96 inchi, 125 inchi no sanshurui ga aru."
+          },
+          "english": "4. High-Lift Loader (Figure 96): Elevating vehicle used to transfer ULDs into aircraft lower decks (belly) and main cargo decks. Platform widths are standardized into three sizes: 60.4\", 96\", and 125\".",
+          "sinhala": "4. හයි-ලිෆ්ට් ලෝඩරය (රූපය 96): යානයේ පහළ තට්ටුවට (Lower deck) සහ ඉහළ ප්‍රධාන තට්ටුවට (Main deck) ULD බහාලුම් පැටවීමට සහ බෑමට උඩට එසවෙන විශේෂ රථයකි. මෙහි වේදිකා පළල ප්‍රමාණ 3ක් ඇත: අඟල් 60.4, අඟල් 96, සහ අඟල් 125.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 96 බලන්න. මේක ලොකු කතුරු හැඩයේ හයිඩ්‍රොලික් කකුල් වලින් උඩට එසවෙන High Lift Loader රථයයි. මේකෙ පළල ප්‍රමාණ 3ක් තියෙනවා: අඟල් 60.4, 96 සහ 125. මේ අගයන් තුන විභාගයට අහනවා ළමයි!",
+            "japanese_tts_text": "ハイリフト・ローダのローダ幅は60.4インチ、96インチ、125インチの3種類がある。"
+          }
+        },
+        {
+          "section_id": "P15_S03",
+          "content_type": "belt_loader_details",
+          "japanese": {
+            "original_kanji": "⑤ ベルト・ローダ (Belt Loader): 油圧ポンプの動力でベルト・コンベヤを動かして、貨物や乗客の手荷物を航空機のバルク貨物室へ搭載したり取り卸したりする車両である。雨天時に貨物等が濡れないようキャノピを付けたものもある。",
+            "furigana": "⑤ ベルト・ローダ: 油(ゆ)圧(あつ)ポンプの動(どう)力(りょく)でベルト・コンベヤを動(うご)かして、貨(か)物(もつ)や乗(じょう)客(きゃく)の手(て)荷(に)物(もつ)を航(こう)空(くう)機(き)のバルク貨(か)物(もつ)室(しつ)へ搭(とう)載(さい)したり取(と)り卸(おろ)したりする車(しゃ)両(りょう)である。雨(う)天(てん)時(じ)に貨(か)物(もつ)等(とう)が濡(ぬ)れないようキャノピを付(つ)けたものもある。",
+            "romaji": "5. Beruto rooda (Belt Loader): Yuatsu ponpu no douryoku de beruto konbeya wo ugokashite, kamotsu ya joukyaku no tenimotsu wo koukuuki no baruku kamotsushitsu e tousai shitari torioroshitari suru sharyou de aru. Utenji ni kamotsutou ga nurenai you kyanopi wo tsuketa mono mo aru."
+          },
+          "english": "5. Belt Loader (Figure 97): Motorized vehicle operating an adjustable-height hydraulic conveyor belt to move loose baggage and cargo into the bulk hold. Some units feature a protective roof canopy to prevent rain damage.",
+          "sinhala": "5. බෙල්ට් ලෝඩරය (රූපය 97): හයිඩ්‍රොලික් මෝටරයකින් ක්‍රියාත්මක වන කන්වේයර් පටියක් ආධාරයෙන් තනි ගමන් මලු යානයේ බල්ක් මැදිරියට පටවන රථයයි. වැසි දිනවල බඩු තෙමීම වැළැක්වීමට ආවරණයක් (Canopy) සහිත මාදිලිද ඇත.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 97 තියෙන්නේ Belt Loader රථය. මේකෙ කන්වේයර් බෙල්ට් එකක් උඩට දිගු කරලා බෑග් එකින් එක කාගෝ කාමරේට යවනවා. වැස්ස වෙලාවට බෑග් තෙමෙන්නෙ නැති වෙන්න උඩින් වියනක් හෙවත් Canopy එකක් දාපු රථත් තියෙනවා.",
+            "japanese_tts_text": "ベルト・ローダは油圧ポンプの動力でベルト・コンベヤを動かし、バルク貨物室へ手荷物を搭載する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "バルク・カート",
+          "furigana": "ばるく・かーと",
+          "romaji": "Baruku Kaato",
+          "english": "Bulk Cart / Baggage Cart",
+          "sinhala": "බල්ක් කරත්තය"
+        },
+        {
+          "japanese": "ローダ幅",
+          "furigana": "ろーだはば",
+          "romaji": "Rooda Haba",
+          "english": "Loader Platform Width",
+          "sinhala": "ලෝඩර් වේදිකාවේ පළල"
+        },
+        {
+          "japanese": "キャノピ",
+          "furigana": "きゃのぴ",
+          "romaji": "Kyanopi",
+          "english": "Canopy / Weather Cover",
+          "sinhala": "වැසි ආවරණ වියන (Canopy)"
+        }
+      ]
+    }
+  ]
+}

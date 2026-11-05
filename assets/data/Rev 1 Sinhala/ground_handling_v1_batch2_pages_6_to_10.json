@@ -1,0 +1,400 @@
+{
+  "metadata": {
+    "batch": "Batch 2 (Pages 6 to 10)",
+    "document_title": "Ground Handling Training Manual Rev 1 (SSW ReadyToFly)",
+    "source_pdf": "Ground handling V1.pdf",
+    "image_folder": "Ground handling - Images V1/",
+    "tts_config": {
+      "sinhala_teacher_voice": {
+        "voice_locale": "si-LK",
+        "voice_type": "native_sinhala_teacher",
+        "role": "friendly_expert_instructor"
+      },
+      "japanese_native_voice": {
+        "voice_locale": "ja-JP",
+        "voice_type": "native_japanese_professional",
+        "role": "standard_aviation_pronunciation"
+      }
+    }
+  },
+  "pages": [
+    {
+      "page_number": 6,
+      "page_title_sinhala": "ගුවන් ගමන් මූලික තොරතුරු සහ මොනිටරය (Flight Info Monitor)",
+      "page_title_japanese": "基本情報の入手と情報モニタ",
+      "mapped_images": [
+        "Ground handling - Images V1/12.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P06_S01",
+          "content_type": "theory",
+          "japanese": {
+            "original_kanji": "到着便・出発便の基本情報は下記のものがある。情報モニタ等(Figure 1)で確認する。",
+            "furigana": "到(とう)着(ちゃく)便(びん)・出(しゅっ)発(ぱつ)便(びん)の基(き)本(ほん)情(じょう)報(ほう)は下(か)記(き)のものがある。情(じょう)報(ほう)モニタ等(とう)(Figure 1)で確(かく)認(にん)する。",
+            "romaji": "Touchakubin, shuppatsubin no kihon jouhou wa kaki no mono ga aru. Jouhou monita tou (Figure 1) de kakunin suru."
+          },
+          "english": "Basic information for arriving and departing flights includes the following items. Verify them on the information monitor (Figure 1).",
+          "sinhala": "පැමිණීමේ සහ පිටවීමේ ගුවන් ගමන් පිළිබඳ මූලික තොරතුරු පහත පරිදි වේ. තොරතුරු මොනිටරය මගින් (රූපය 1) පරීක්ෂා කර බලන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, පින්තූර අංක 12 දිහා හොඳින් බලන්න. මේක තමයි හැම ගුවන් තොටුපළකම තියෙන Flight Information Monitor එක හෙවත් තොරතුරු තිරය. වැඩ පටන් ගන්න කලින් හැම Ground Handler කෙනෙක්ම තමන් බාරව ඉන්න Flight එකේ විස්තර මේ මොනිටර් එකෙන් පරීක්ෂා කරලා තහවුරු කරගන්න ඕනෙ.",
+            "japanese_tts_text": "到着便・出発便の基本情報は下記のものがある。情報モニタ等で確認する。"
+          }
+        },
+        {
+          "section_id": "P06_S02",
+          "content_type": "monitor_elements",
+          "japanese": {
+            "original_kanji": "①フライト・ナンバ: FLT ②シップ・ナンバ: EQT ③発地、着地: FRM、TO ④時刻表 到着、出発時刻: STA、STD ⑤スポット: SPOT",
+            "furigana": "①フライト・ナンバ: FLT ②シップ・ナンバ: EQT ③発(ほっ)地(ち)、着(ちゃく)地(ち): FRM、TO ④時(じ)刻(こく)表(ひょう) 到(とう)着(ちゃく)、出(しゅっ)発(ぱつ)時(じ)刻(こく): STA、STD ⑤スポット: SPOT",
+            "romaji": "1. Furaito nanba: FLT 2. Shippu nanba: EQT 3. Hotchi, Chakuchi: FRM, TO 4. Jikokuhyou Touchaku, Shuppatsu jikoku: STA, STD 5. Supotto: SPOT"
+          },
+          "english": "1. Flight Number: FLT 2. Ship/Aircraft Registration: EQT 3. Origin and Destination: FRM, TO 4. Scheduled Time of Arrival and Departure: STA, STD 5. Parking Spot: SPOT",
+          "sinhala": "1. ගුවන් ගමන් අංකය: FLT 2. ගුවන් යානයේ ලියාපදිංචි/නෞකා අංකය: EQT 3. පිටත්වන සහ ළඟාවන ස්ථානය: FRM, TO 4. නියමිත පැමිණීමේ සහ පිටත්වීමේ වේලාව: STA, STD 5. යානය නවත්වන අංගන අංකය: SPOT",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න මේ කෙටි යෙදුම් 5 විභාගයට අනිවාර්යයෙන්ම එනවා ළමයි! FLT කියන්නේ Flight Number එක. EQT කියන්නේ Ship Number හෙවත් යානයේ අංකය. FRM කියන්නේ From, TO කියන්නේ To. STA කියන්නේ Scheduled Time of Arrival (පැමිණෙන වෙලාව), STD කියන්නේ Scheduled Time of Departure (පිටත්වන වෙලාව). SPOT කියන්නේ යානය නවත්වන තැන. මේවා කටපාඩම් කරගන්න!",
+            "japanese_tts_text": "フライト・ナンバー、シップ・ナンバー、発地、着地、時刻表、スポット。"
+          }
+        },
+        {
+          "section_id": "P06_S03",
+          "content_type": "rule_note",
+          "japanese": {
+            "original_kanji": "注意）空港や航空会社はアルファベット3レター、2レターで表される（Reference-1）。",
+            "furigana": "注(ちゅう)意(い)）空(くう)港(こう)や航(こう)空(くう)会(がい)社(しゃ)はアルファベット3レター、2レターで表(あらわ)される（Reference-1）。",
+            "romaji": "Chuui) Kuukou ya koukuugaisha wa arufabetto san retaa, tsuu retaa de arawasareru (Reference-1)."
+          },
+          "english": "Note: Airports and airlines are represented by alphabetical 3-letter codes and 2-letter codes.",
+          "sinhala": "වැදගත්: ගුවන් තොටුපළවල් අකුරු 3 කේතවලින්ද (3-Letter Code), ගුවන් සමාගම් අකුරු 2 කේතවලින්ද (2-Letter Code) නිරූපණය කෙරේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මතක තියාගන්න, තිරයේ තියෙන්නේ සම්පූර්ණ නම් නෙවෙයි. Airport එකක් නම් අකුරු 3ක කේතයක් (උදාහරණයකට HND, NRT, KIX). Airline එකක් නම් අකුරු 2ක කේතයක් (උදාහරණයකට NH කියන්නේ ANA එකට, JL කියන්නේ JAL එකට).",
+            "japanese_tts_text": "空港や航空会社はアルファベット3レター、2レターで表される。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "発地",
+          "furigana": "ほっち",
+          "romaji": "Hotchi",
+          "english": "Origin / Departure Place",
+          "sinhala": "පිටත් වන ස්ථානය"
+        },
+        {
+          "japanese": "着地",
+          "furigana": "ちゃくち",
+          "romaji": "Chakuchi",
+          "english": "Destination / Arrival Place",
+          "sinhala": "ළඟාවන ස්ථානය"
+        },
+        {
+          "japanese": "時刻表",
+          "furigana": "じこくひょう",
+          "romaji": "Jikokuhyou",
+          "english": "Timetable / Schedule",
+          "sinhala": "කාලසටහන"
+        },
+        {
+          "japanese": "スポット",
+          "furigana": "すぽっと",
+          "romaji": "Supotto",
+          "english": "Parking Spot / Gate",
+          "sinhala": "නැවතුම් අංගනය / ස්ථානය"
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "page_title_sinhala": "යානයෙන් යානයට සෘජුව භාණ්ඩ මාරු කිරීම (機移し搭載物) සහ උපදෙස් පත්‍රිකාව (Instruction Sheet)",
+      "page_title_japanese": "機移し搭載物とインストラクション・シート",
+      "mapped_images": [
+        "Ground handling - Images V1/18.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P07_S01",
+          "content_type": "transfer_process",
+          "japanese": {
+            "original_kanji": "搭載物を航空機から他の航空機に積み替える場合、一旦上屋に搬入すると間に合わないために、航空機の間で直接積み替える搭載物（機移し搭載物と呼ぶ）として扱うときは、積み替える先の航空機の基本情報も確認する。",
+            "furigana": "搭(とう)載(さい)物(ぶつ)を航(こう)空(くう)機(き)から他(ほか)の航(こう)空(くう)機(き)に積(つ)み替(か)える場(ば)合(あい)、一(いったん)旦(たん)上(うわ)屋(や)に搬(はん)入(ニュウ)すると間(ま)に合(あ)わないために、航(こう)空(くう)機(き)の間(あいだ)で直(ちょく)接(せつ)積(つ)み替(か)える搭(とう)載(さい)物(ぶつ)（機(き)移(うつ)し搭(とう)載(さい)物(ぶつ)と呼(よ)ぶ）として扱(あつか)うときは、積(つ)み替(か)える先(さき)の航(こう)空(くう)機(き)の基(き)本(ほん)情(じょう)報(ほう)も確(かく)認(にん)する。",
+            "romaji": "Tousaibutsu wo koukuuki kara hoka no koukuuki ni tsumikaeru baai, ittan uwaya ni hannyuu suru to maniawanai tame ni, koukuuki no aida de chokusetsu tsumikaeru tousaibutsu (kiutsushi tousaibutsu to yobu) to shite atukau toki wa, tsumikaeru saki no koukuuki no kihon jouhou mo kakunin suru."
+          },
+          "english": "When transferring cargo/baggage directly between aircraft because moving it to the warehouse would take too long, it is treated as direct aircraft-to-aircraft transfer load (Kiutsushi Tousaibutsu); verify the destination aircraft's basic information.",
+          "sinhala": "එක් ගුවන් යානයකින් තවත් ගුවන් යානයකට භාණ්ඩ මාරු කිරීමේදී ගබඩාව (Warehouse) හරහා ගෙන යාමට කාලය මදි වන විට, යානා දෙක අතර සෘජුවම මාරු කරනු ලබන භාණ්ඩ (機移し搭載物 - Kiutsushi Tousaibutsu) ලෙස හසුරුවන අතර, එම භාණ්ඩ පටවන අනෙක් යානයේ මූලික තොරතුරුද පරීක්ෂා කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, සමහර වෙලාවට එක යානයකින් ආපු බඩු ඊළඟ යානයට දාන්න තියෙන වෙලාව හරිම අඩුයි. ඒ වගේ වෙලාවට බඩු ගබඩාවට ගෙනියන්නේ නැතුව කෙලින්ම එක යානයකින් අනිත් යානයට මාරු කරනවා. මෙන්න මේ ක්‍රමයට ජපන් භාෂාවෙන් කියන්නේ 'Kiutsushi Tousaibutsu' (機移し搭載物) කියලා. මේ නම විභාගයට අහනවා!",
+            "japanese_tts_text": "航空機の間で直接積み替える搭載物を機移し搭載物と呼ぶ。"
+          }
+        },
+        {
+          "section_id": "P07_S02",
+          "content_type": "inter_airline_transfer",
+          "japanese": {
+            "original_kanji": "違う航空会社の航空機の間で積み替えを行う場合は、基本情報が情報モニタ等に表示されないためコントローラに確認する。",
+            "furigana": "違(ちが)う航(こう)空(くう)会(がい)社(しゃ)の航(こう)空(くう)機(き)の間(あいだ)で積(つ)み替(か)えを行(おこな)う場(ば)合(あい)は、基(き)本(ほん)情(じょう)報(ほう)が情(じょう)報(ほう)モニタ等(とう)に表(ひょう)示(じ)されないためコントローラに確(かく)認(にん)する。",
+            "romaji": "Chigau koukuugaisha no koukuuki no aida de tsumikae wo okonau baai wa, kihon jouhou ga jouhou monita tou ni hyouji sarenai tame kontoroora ni kakunin suru."
+          },
+          "english": "When performing transfers between aircraft of different airlines, information may not appear on standard flight monitors; therefore, verify directly with the controller.",
+          "sinhala": "වෙනස් ගුවන් සමාගම් දෙකක යානා අතර භාණ්ඩ මාරු කිරීමේදී, තොරතුරු මොනිටරයේ එම විස්තර නොපෙන්විය හැකි බැවින් පාලකවරයාගෙන් (Controller) අසා තහවුරු කරගත යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "සමාගම් දෙකක යානා අතර බඩු මාරු කරද්දී මොනිටර් එකේ ඒක නොපෙන්නුවොත්, ඔහේ බලාගෙන ඉන්න එපා. Controller ට කතා කරලා විස්තර හරියටම දැනගන්න ඕනෙ.",
+            "japanese_tts_text": "違う航空会社の航空機の間で積み替えを行う場合は、コントローラに確認する。"
+          }
+        },
+        {
+          "section_id": "P07_S03",
+          "content_type": "instruction_sheet_intro",
+          "japanese": {
+            "original_kanji": "(2) 搭載物情報：① 出発便の搭載計画情報は、コントローラからインストラクション・シート (Figure 2) として担当者に指示される。",
+            "furigana": "(2) 搭(とう)載(さい)物(ぶつ)情(じょう)報(ほう)：① 出(しゅっ)発(ぱつ)便(びん)の搭(とう)載(さい)計(けい)画(かく)情(じょう)報(ほう)は、コントローラからインストラクション・シート (Figure 2) として担(たん)当(とう)者(しゃ)に指(し)示(じ)される。",
+            "romaji": "Tousaibutsu jouhou: 1. Shuppatsubin no tousai keikaku jouhou wa, kontoroora kara Insutorakushon Shiito (Figure 2) to shite tantousha ni shiji sareru."
+          },
+          "english": "Loading Information: 1. Outbound loading plan information is issued to handlers by the controller via an Instruction Sheet (Figure 2).",
+          "sinhala": "පැටවීමේ තොරතුරු: 1. පිටත්වන ගුවන් යානයට භාණ්ඩ පැටවීමේ සැලැස්ම පිළිබඳ තොරතුරු, පාලකවරයා විසින් උපදෙස් පත්‍රිකාවක් හෙවත් Instruction Sheet (රූපය 18) මගින් භාරකරුට ලබාදෙයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 18 බලන්න ළමයි. මේකට තමයි කියන්නේ Instruction Sheet එක කියලා. කොයි බඩු පෙට්ටියද යානයේ කොතනටද පටවන්න ඕනෙ කියලා Controller ලියලා දෙන සම්පූර්ණ සැලැස්ම තියෙන්නේ මේ ෂීට් එකේ.",
+            "japanese_tts_text": "出発便の搭載計画情報は、コントローラからインストラクション・シートとして担当者に指示される。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "機移し搭載物",
+          "furigana": "きうつしとうさいぶつ",
+          "romaji": "Kiutsushi Tousaibutsu",
+          "english": "Direct Aircraft-to-Aircraft Transfer Load",
+          "sinhala": "යානයෙන් යානයට සෘජුව මාරු කරන භාණ්ඩ"
+        },
+        {
+          "japanese": "上屋",
+          "furigana": "うわや",
+          "romaji": "Uwaya",
+          "english": "Cargo Shed / Warehouse",
+          "sinhala": "ගුවන් තොටුපළ භාණ්ඩ ගබඩාව"
+        },
+        {
+          "japanese": "コントローラ",
+          "furigana": "こんとろーら",
+          "romaji": "Kontoroora",
+          "english": "Ramp Controller / Load Controller",
+          "sinhala": "මෙහෙයුම් පාලක නිලධාරියා"
+        },
+        {
+          "japanese": "インストラクション・シート",
+          "furigana": "いんすとらくしょん・しーと",
+          "romaji": "Insutorakushon Shiito",
+          "english": "Instruction Sheet (Loading Instruction)",
+          "sinhala": "පැටවුම් උපදෙස් පත්‍රිකාව"
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "page_title_sinhala": "උපදෙස් පත්‍රිකාවේ විස්තර (POS, ULD-ID, PCS, WGT, RMKS) සහ ULD අර්ථ දැක්වීම",
+      "page_title_japanese": "インストラクション・シートの項目とULDの定義",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P08_S01",
+          "content_type": "instruction_sheet_details",
+          "japanese": {
+            "original_kanji": "インストラクション・シートには下記のULDやばら積み搭載物の情報が記載されている。(a) 搭載ポジション: POS (b) ULDナンバ: ULD-ID (c) 個数: PCS (d) 重量: WGT (e) 特殊搭載物（危険物等）・接続搭載物（機移し搭載物を含む）: RMKS",
+            "furigana": "インストラクション・シートには下(か)記(き)のULDやばら積(づ)み搭(とう)載(さい)物(ぶつ)の情(じょう)報(ほう)が記(き)載(さい)されている。(a) 搭(とう)載(さい)ポジション: POS (b) ULDナンバ: ULD-ID (c) 個(こ)数(すう): PCS (d) 重(じゅう)量(りょう): WGT (e) 特(とく)殊(しゅ)搭(とう)載(さい)物(ぶつ)（危(き)険(けん)物(ぶつ)等(とう)）・接(せつ)続(ぞく)搭(とう)載(さい)物(ぶつ)（機(き)移(うつ)し搭(とう)載(さい)物(ぶつ)を含(ふく)む）: RMKS",
+            "romaji": "(a) Tousai pojishon: POS (b) ULD nanba: ULD-ID (c) Kosuu: PCS (d) Juuryou: WGT (e) Tokushu tousaibutsu (kikenbutsu tou), setsuzoku tousaibutsu: RMKS"
+          },
+          "english": "The Instruction Sheet contains the following ULD and bulk loading details: (a) Loading Position: POS (b) ULD Number: ULD-ID (c) Number of Pieces: PCS (d) Weight: WGT (e) Remarks / Special & Dangerous Goods: RMKS.",
+          "sinhala": "උපදෙස් පත්‍රිකාවේ පහත සඳහන් ULD සහ තොග බඩු පිළිබඳ තොරතුරු අඩංගු වේ: (a) පටවන ස්ථානය: POS (b) ULD අංකය: ULD-ID (c) ප්‍රමාණය (ගණන): PCS (d) බර: WGT (e) විශේෂ සහ අන්තරායකර භාණ්ඩ / මාරු කරන භාණ්ඩ සටහන්: RMKS.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, විභාගයේදී මේ ලකුණු 5 අනිවාර්යයෙන්ම ගලපන්න අහනවා! POS කියන්නේ Position හෙවත් යානයේ කොයි කාමරේද පටවන්නේ කියලා. ULD-ID කියන්නේ කන්ටේනර් එකේ නම්බර් එක. PCS කියන්නේ කෑලි කීයද කියලා (Pieces). WGT කියන්නේ බර (Weight). RMKS කියන්නේ Remarks හෙවත් භයානක බඩු (DGR) තියෙනවද කියලා ලියන තීරුව. මේක හොඳින් මතක තබාගන්න!",
+            "japanese_tts_text": "搭載ポジション、ULDナンバー、個数、重量、特殊搭載物備考。"
+          }
+        },
+        {
+          "section_id": "P08_S02",
+          "content_type": "uld_definition",
+          "japanese": {
+            "original_kanji": "注）ULD（Unit Load Device）: コンテナやパレットのように機体への取り付けが標準化されたもの (Figure 3)。インストラクション・シートは搭載確認のチェック・シートを兼ねている場合が多いので、規程に基づき使用する。",
+            "furigana": "注(ちゅう)）ULD（Unit Load Device）: コンテナやパレットのように機(き)体(たい)への取(と)り付(つ)けが標(ひょう)準(じゅん)化(か)されたもの (Figure 3)。インストラクション・シートは搭(とう)載(さい)確(かく)認(にん)のチェック・シートを兼(か)ねている場(ば)合(あい)が多(おお)いので、規(き)程(てい)に基(もと)づき使(し)用(よう)する。",
+            "romaji": "Chuui) ULD (Unit Load Device): Kontena ya paretto no you ni kitai e no toritsuke ga hyoujunka sareta mono (Figure 3). Insutorakushon shiito wa tousai kakunin no chekku shiito wo kanete iru baai ga ooi node, kitei ni motozuki shiyou suru."
+          },
+          "english": "Note: ULD (Unit Load Device) refers to standardized units like containers and pallets designed to lock directly into aircraft restraint systems. The Instruction Sheet often doubles as a loading verification checklist.",
+          "sinhala": "විශේෂ සටහන: ULD (Unit Load Device) යනු ගුවන් යානයේ බඳ තුළට සවි කිරීම ප්‍රමිතිගත කර ඇති කන්ටේනර් සහ පැලට් වේ. මෙම උපදෙස් පත්‍රිකාව බොහෝ විට භාණ්ඩ නිවැරදිව පැටවූ බව තහවුරු කරන චෙක්පත් (Check Sheet) එකක් ලෙසද භාවිතා කරයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ULD කියන්නේ Unit Load Device කියන එකට. ගුවන් යානාවලට බඩු දාන්නේ සාමාන්‍ය ලොරිවලට වගේ නෙවෙයි. යානයේ බිමට ලොක් කරන්න පුළුවන් විශේෂ ඇලුමිනියම් පෙට්ටි (Containers) සහ ලෑලි (Pallets) තියෙනවා. ඒවට තමයි ULD කියන්නේ.",
+            "japanese_tts_text": "ULDとは、コンテナやパレットのように機体への取り付けが標準化されたものである。"
+          }
+        },
+        {
+          "section_id": "P08_S03",
+          "content_type": "irregular_operations",
+          "japanese": {
+            "original_kanji": "(3) イレギュラー作業：給水など事前に行先別に搭載量が決まっているものや一旦定まった搭載計画の変更（天候・旅客数・整備等）が、コントローラから指示される場合がある。この場合、規程に基づき処理する。",
+            "furigana": "(3) イレギュラー作(さ)業(ぎょう)：給(きゅう)水(すい)など事(じ)前(ぜん)に行(ゆ)き先(さき)別(べつ)に搭(とう)載(さい)量(りょう)が決(き)まっているものや一(いったん)旦(たん)定(さだ)まった搭(とう)載(さい)計(けい)画(かく)の変(へん)更(こう)（天(てん)候(こう)・旅(りょ)客(かく)数(すう)・整(せい)備(び)等(とう)）が、コントローラから指(し)示(じ)される場(ば)合(あい)がある。この場(ば)合(あい)、規(き)程(てい)に基(もと)づき処(しょ)理(り)する。",
+            "romaji": "Iregyuraa sagyou: Kyuusui nado jizen ni yukisakibetsu ni tousairyou ga kimatte iru mono ya ittan sadamatta tousai keikaku no henkou (tenkou, ryokakusuu, seibi tou) ga, kontoroora kara shiji sareru baai ga aru. Kono baai, kitei ni motozuki shori suru."
+          },
+          "english": "Irregular Operations: When pre-planned loading quantities (such as water supply) or finalized loading plans are changed due to weather, passenger numbers, or maintenance, the controller issues revision orders. Follow procedures strictly.",
+          "sinhala": "අසාමාන්‍ය (හදිසි) අවස්ථාවල යෙදෙන වැඩ: කාලගුණය, මගීන් සංඛ්‍යාව හෝ නඩත්තු ගැටළු නිසා කලින් තීරණය කළ ජල ප්‍රමාණයන් හෝ පැටවුම් සැලසුම් හදිසියේ වෙනස් කිරීමට පාලකවරයා උපදෙස් දෙන අවස්ථා ඇත. එවැනි විටකදී නියමිත රෙගුලාසි අනුව කටයුතු කරන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "හදිසියේ වැස්සක් ආවොත්, මගියෙක් අඩු වුණොත් හෝ යානයේ දෝෂයක් ආවොත් පාලකවරයා හදිසි වෙනස්කම් (Irregular Operations) කරන්න කියනවා. එහෙම වෙලාවට තමන්ට හිතුමතේ වැඩ නොකර අදාළ නීති මාලාවට අනුවම කටයුතු කරන්න ඕනෙ.",
+            "japanese_tts_text": "一旦定まった搭載計画の変更がコントローラから指示される場合がある。規程に基づき処理する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "搭載ポジション",
+          "furigana": "とうさいぽじしょん",
+          "romaji": "Tousai Pojishon (POS)",
+          "english": "Loading Position",
+          "sinhala": "පැටවුම් ස්ථානය (යානය තුළ)"
+        },
+        {
+          "japanese": "個数",
+          "furigana": "こすう",
+          "romaji": "Kosuu (PCS)",
+          "english": "Number of Pieces",
+          "sinhala": "කෑලි ගණන"
+        },
+        {
+          "japanese": "重量",
+          "furigana": "じゅうりょう",
+          "romaji": "Juuryou (WGT)",
+          "english": "Weight",
+          "sinhala": "බර"
+        },
+        {
+          "japanese": "イレギュラー作業",
+          "furigana": "いれぎゅらーさぎょう",
+          "romaji": "Iregyuraa Sagyou",
+          "english": "Irregular Operations",
+          "sinhala": "අසාමාන්‍ය / හදිසි අවස්ථා මෙහෙයුම්"
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "page_title_sinhala": "ULD වර්ග හඳුනාගැනීම සඳහා හැඳින්වීම",
+      "page_title_japanese": "ULDの分類と概要",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P09_S01",
+          "content_type": "chapter_overview",
+          "japanese": {
+            "original_kanji": "代表的な航空機用コンテナ（ULD）の形状とサイズ。",
+            "furigana": "代(だい)表(ひょう)的(てき)な航(こう)空(くう)機(き)用(よう)コンテナ（ULD）の形(けい)状(じょう)とサイズ。",
+            "romaji": "Daihyouteki na koukuukiyou kontena (ULD) no keijou to saizu."
+          },
+          "english": "Representative configurations and physical base dimensions of aircraft ULD containers.",
+          "sinhala": "ගුවන් යානා සඳහා භාවිත කරන ප්‍රධාන බහාලුම්වල (ULD) හැඩතල සහ මානයන් පිළිබඳ විස්තරය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ඊළඟ පිටුවේ තියෙන්නේ ජපානයේ සහ ලෝකයේ ගුවන් සේවාවල බහුලවම භාවිත කරන ULD බහාලුම් වර්ග 3ක්. මේවායේ නම් සහ අදාළ ගුවන් යානා වර්ග විභාගයට අනිවාර්යයෙන්ම එන නිසා හොඳින් බලාගන්න.",
+            "japanese_tts_text": "代表的な航空機用コンテナの形状とサイズ。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "形状",
+          "furigana": "けいじょう",
+          "romaji": "Keijou",
+          "english": "Shape / Configuration",
+          "sinhala": "හැඩය"
+        },
+        {
+          "japanese": "寸法",
+          "furigana": "すんぽう",
+          "romaji": "Sunpou",
+          "english": "Dimensions / Base size",
+          "sinhala": "මානයන් / ප්‍රමාණය"
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "page_title_sinhala": "ප්‍රධාන ULD බහාලුම් වර්ග 3 (AKH, AKE, DQP)",
+      "page_title_japanese": "Figure 3 ULD (代表例: AKH, AKE, DQP)",
+      "mapped_images": [
+        "Ground handling - Images V1/45.jpg",
+        "Ground handling - Images V1/46.jpg",
+        "Ground handling - Images V1/47.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P10_S01",
+          "content_type": "uld_type_akh",
+          "japanese": {
+            "original_kanji": "① AKH (LD-46): ベースサイズ 60.4\" × 61.5\"。搭載可能航空機: A320/321, B767/B777, B787。",
+            "furigana": "① AKH (LD-46): ベースサイズ 60.4\" × 61.5\"。搭(とう)載(さい)可(か)能(のう)航(こう)空(くう)機(き): A320/321, B767/B777, B787。",
+            "romaji": "1. AKH (LD-46): Beesu saizu 60.4 inchi kakeru 61.5 inchi. Tousai kanou koukuuki: A320/321, B767/B777, B787."
+          },
+          "english": "1. AKH (LD-46): Base size 60.4\" × 61.5\". Compatible Aircraft: Airbus A320/A321, Boeing B767/B777/B787.",
+          "sinhala": "1. AKH (LD-46): පතුලේ ප්‍රමාණය අඟල් 60.4 × 61.5 වේ. පැටවිය හැකි ගුවන් යානා: Airbus A320/321, Boeing B767, B777, B787.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 45 බලන්න ළමයි. මේක තමයි AKH හෙවත් LD-46 කන්ටේනර් එක. මේකෙ විශේෂත්වය තමයි Airbus A320 සහ A321 කියන කුඩා පටු යානාවලටත් (Narrow-body) පැටවිය හැකි වීම. ඒ වගේම B767, B777, B787 වලටත් දාන්න පුළුවන්.",
+            "japanese_tts_text": "AKH、ベースサイズ60.4インチかける61.5インチ。A320、A321、B767、B777、B787に搭載可能。"
+          }
+        },
+        {
+          "section_id": "P10_S02",
+          "content_type": "uld_type_ake",
+          "japanese": {
+            "original_kanji": "② AKE (LD-3): ベースサイズ 60.4\" × 61.5\"。搭載可能航空機: A350, B767, B777, B787。",
+            "furigana": "② AKE (LD-3): ベースサイズ 60.4\" × 61.5\"。搭(とう)載(さい)可(か)能(のう)航(こう)空(くう)機(き): A350, B767, B777, B787。",
+            "romaji": "2. AKE (LD-3): Beesu saizu 60.4 inchi kakeru 61.5 inchi. Tousai kanou koukuuki: A350, B767, B777, B787."
+          },
+          "english": "2. AKE (LD-3): Base size 60.4\" × 61.5\". Compatible Aircraft: Airbus A350, Boeing B767/B777/B787.",
+          "sinhala": "2. AKE (LD-3): පතුලේ ප්‍රමාණය අඟල් 60.4 × 61.5 වේ. පැටවිය හැකි ගුවන් යානා: Airbus A350, Boeing B767, B777, B787.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 46 බලන්න. මේක තමයි ලෝකයේ වඩාත්ම ප්‍රසිද්ධ AKE හෙවත් LD-3 කන්ටේනර් එක! ගුවන් තොටුපළක බහුලවම දකින්න ලැබෙන්නේ මේක. හැබැයි මේක A320 කුඩා යානාවලට දාන්න බෑ, A350, B767, B777, B787 වගේ විශාල යානාවලට විතරයි පැටවිය හැක්කේ.",
+            "japanese_tts_text": "AKE、ベースサイズ60.4インチかける61.5インチ。A350、B767、B777、B787に搭載可能。"
+          }
+        },
+        {
+          "section_id": "P10_S03",
+          "content_type": "uld_type_dqp",
+          "japanese": {
+            "original_kanji": "③ DQP (LD-4): ベースサイズ 60.4\" × 96\"。搭載可能航空機: B767, B777, B787。",
+            "furigana": "③ DQP (LD-4): ベースサイズ 60.4\" × 96\"。搭(とう)載(さい)可(か)能(のう)航(こう)空(くう)機(き): B767, B777, B787。",
+            "romaji": "3. DQP (LD-4): Beesu saizu 60.4 inchi kakeru 96 inchi. Tousai kanou koukuuki: B767, B777, B787."
+          },
+          "english": "3. DQP (LD-4): Base size 60.4\" × 96\". Compatible Aircraft: Boeing B767, B777, B787.",
+          "sinhala": "3. DQP (LD-4): පතුලේ ප්‍රමාණය අඟල් 60.4 × 96 වේ. පැටවිය හැකි ගුවන් යානා: Boeing B767, B777, B787.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 47 බලන්න. මේක DQP හෙවත් LD-4 කන්ටේනර් එක. මේක අනිත් ඒවට වඩා දිගින් වැඩියි, අඟල් 96ක් දිගයි. ඒ නිසා මේක B767, B777, B787 වැනි බෝයිං විශාල යානාවලට පමණක් පැටවිය හැකියි. විභාගයට අඟල් 96 කන්ටේනරය ඇහුවොත් මතක තියාගන්න DQP!",
+            "japanese_tts_text": "DQP、ベースサイズ60.4インチかける96インチ。B767、B777、B787に搭載可能。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "ベースサイズ",
+          "furigana": "べーすさいず",
+          "romaji": "Beesu Saizu",
+          "english": "Base Dimensions",
+          "sinhala": "පතුලේ මිනුම (ප්‍රමාණය)"
+        },
+        {
+          "japanese": "搭載可能航空機",
+          "furigana": "とうさいかのうこうくうき",
+          "romaji": "Tousai Kanou Koukuuki",
+          "english": "Loadable / Compatible Aircraft",
+          "sinhala": "පැටවිය හැකි ගුවන් යානා මාදිලි"
+        }
+      ]
+    }
+  ]
+}

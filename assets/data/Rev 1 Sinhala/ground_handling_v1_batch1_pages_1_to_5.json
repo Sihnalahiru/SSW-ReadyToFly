@@ -1,0 +1,456 @@
+{
+  "metadata": {
+    "batch": "Batch 1 (Pages 1 to 5)",
+    "document_title": "Ground Handling Training Manual Rev 1 (SSW ReadyToFly)",
+    "source_pdf": "Ground handling V1.pdf",
+    "image_folder": "Ground handling - Images V1/",
+    "tts_config": {
+      "sinhala_teacher_voice": {
+        "voice_locale": "si-LK",
+        "voice_type": "native_sinhala_teacher",
+        "role": "friendly_expert_instructor"
+      },
+      "japanese_native_voice": {
+        "voice_locale": "ja-JP",
+        "voice_type": "native_japanese_professional",
+        "role": "standard_aviation_pronunciation"
+      }
+    }
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "page_title_sinhala": "මුල් පිටුව සහ හැඳින්වීම",
+      "page_title_japanese": "表紙 (特定技能評価試験)",
+      "mapped_images": [
+        "Ground handling - Images V1/0.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P01_S01",
+          "content_type": "title",
+          "japanese": {
+            "original_kanji": "特定技能評価試験",
+            "furigana": "特(とく)定(てい)技(ぎ)能(のう)評(ひょう)価(か)試(し)験(けん)",
+            "romaji": "Tokutei Ginou Hyouka Shiken"
+          },
+          "english": "Specified Skilled Worker Evaluation Test",
+          "sinhala": "විශේෂිත නිපුණතා ඇගයීම් විභාගය",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ආයුබෝවන් ළමයි! අද අපි පටන් ගන්නේ ජපානයේ Airport Ground Handling විභාගයට අදාළ පළවෙනි පාඩම. මෙතන පින්තූරයේ ඔයාලට පේනවා ඇති අපේ Ground Handling ටීම් එක වැඩ පටන් ගන්න කලින් රැස්වෙලා ඉන්න හැටි. මතක තියාගන්න, ගුවන් තොටුපළක හැම තත්පරයක්ම වටිනවා වගේම, හැමෝගෙම සහයෝගය සහ විනය තමයි වැදගත්ම දේ. අපි මේ විභාගය එක පාරින්ම ගොඩදාන්න හැම කරුණක්ම මුල ඉඳලම පැහැදිලිව ඉගෙන ගනිමු!",
+            "japanese_tts_text": "特定技能評価試験（航空分野：空港グランドハンドリング）テキスト"
+          }
+        },
+        {
+          "section_id": "P01_S02",
+          "content_type": "subtitle",
+          "japanese": {
+            "original_kanji": "航空分野：空港グランドハンドリング テキスト",
+            "furigana": "航(こう)空(くう)分(ぶん)野(や)：空(くう)港(こう)グランドハンドリング テキスト",
+            "romaji": "Koukuu bun'ya: Kuukou Gurando Handoringu Tekisuto"
+          },
+          "english": "Aviation Field: Airport Ground Handling Textbook",
+          "sinhala": "ගුවන් සේවා ක්ෂේත්‍රය: ගුවන් තොටුපළ බිම් මෙහෙයුම් හැසිරවීමේ පාඨමාලා පොත",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මේ පොතෙන් අපි ඉගෙන ගන්නේ ගුවන් යානයක් බිමට ආව වෙලාවේ ඉඳන් ආපහු උඩට යනකල් බිමදී කෙරෙන සියලුම තාක්ෂණික සහ මෙහෙයුම් කාර්යයන් ගැනයි. හොඳින් අවධානය දෙන්න.",
+            "japanese_tts_text": "グランドハンドリング"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "特定技能",
+          "furigana": "とくていぎのう",
+          "romaji": "Tokutei Ginou",
+          "english": "Specified Skilled Worker",
+          "sinhala": "විශේෂිත නිපුණතාවය"
+        },
+        {
+          "japanese": "空港",
+          "furigana": "くうこう",
+          "romaji": "Kuukou",
+          "english": "Airport",
+          "sinhala": "ගුවන් තොටුපළ"
+        },
+        {
+          "japanese": "グランドハンドリング",
+          "furigana": "ぐらんどはんどりんぐ",
+          "romaji": "Gurando Handoringu",
+          "english": "Ground Handling",
+          "sinhala": "ගොඩබිම් මෙහෙයුම් හැසිරවීම"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "page_title_sinhala": "ගුවන් යානය සහ පෙර සූදානම (ප්‍රධාන කුලුනු 3: ආරක්ෂාව, වේලාව, සුවපහසුව)",
+      "page_title_japanese": "1. 航空機と準備",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P02_S01",
+          "content_type": "theory",
+          "japanese": {
+            "original_kanji": "航空機が飛ぶには、いろいろな準備をしなくてはならない。",
+            "furigana": "航(こう)空(くう)機(き)が飛(と)ぶには、いろいろな準(じゅん)備(び)をしなくてはならない。",
+            "romaji": "Koukuuki ga tobu ni wa, iroiro na junbi wo shinakute wa naranai."
+          },
+          "english": "For an aircraft to fly, various preparations must be made.",
+          "sinhala": "ගුවන් යානයක් පියාසර කරවීමට නම්, විවිධ අංශයන්ගෙන් පෙර සූදානමක් තිබිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, ගුවන් යානයක් නිකන්ම අහසට යන්නෙ නෑ. ඒක අහසට යවන්න බිම ඉන්න අපිට ලොකු සූදානමක් කරන්න තියෙනවා.",
+            "japanese_tts_text": "航空機が飛ぶには、いろいろな準備をしなくてはならない。"
+          }
+        },
+        {
+          "section_id": "P02_S02",
+          "content_type": "theory",
+          "japanese": {
+            "original_kanji": "燃料の搭載、機内への荷物の積み込みをはじめとし、大きな旅客機になるほど、いろいろな準備とそれに要する手間がかかる。",
+            "furigana": "燃(ねん)料(りょう)の搭(とう)載(さい)、機(き)内(ない)への荷(に)物(もつ)の積(つ)み込(こ)みをはじめとし、大(おお)きな旅(りょ)客(かく)機(き)になるほど、いろいろな準(じゅん)備(び)とそれに要(よう)する手(て)間(ま)がかかる。",
+            "romaji": "Nenryou no tousai, kinai e no nimotsu no tsumikomi wo hajime to shi, ookina ryokakuki ni naru hodo, iroiro na junbi to sore ni yousuru tema ga kakaru."
+          },
+          "english": "Starting with refueling and loading baggage into the cabin, the larger the passenger aircraft, the more preparation and effort are required.",
+          "sinhala": "ඉන්ධන පිරවීම, ගුවන් යානයට ගමන් මලු පැටවීම ඇතුළුව යානය විශාල වන තරමට පෙර සූදානම සහ ඒ සඳහා ගතවන වෙහෙස වැඩි වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "විශේෂයෙන්ම යානය විශාල වෙන්න වෙන්න ඉන්ධන පුරවන්නයි, මගීන්ගේ බඩු බාහිරාදිය පටවන්නයි ලොකු කාර්ය මණ්ඩලයක් එකමුතුව වැඩ කරන්න ඕනෙ.",
+            "japanese_tts_text": "燃料の搭載、機内への荷物の積み込みをはじめとし、大きな旅客機になるほど、いろいろな準備とそれに要する手間がかかる。"
+          }
+        },
+        {
+          "section_id": "P02_S03",
+          "content_type": "core_rule",
+          "japanese": {
+            "original_kanji": "安全に、定時にかつ快適に目的地まで送らなければならない。",
+            "furigana": "安(あん)全(ぜん)に、定(てい)時(じ)にかつ快(かい)適(てき)に目(もく)的(てき)地(ち)まで送(おく)らなければならない。",
+            "romaji": "Anzen ni, teiji ni katsu kaiteki ni mokutekichi made okoranakereba naranai."
+          },
+          "english": "Passengers and cargo must be safely, punctually, and comfortably delivered to their destination.",
+          "sinhala": "එය ආරක්ෂිතව, නියමිත වේලාවට සහ සුවපහසුවෙන් ගමනාන්තය දක්වා සිදු කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න මේ කරුණු 3 තමයි ගුවන් සේවයක ජීවනාලිය: 1. Anzen හෙවත් ආරක්ෂාව, 2. Teiji හෙවත් නියමිත වේලාව, 3. Kaiteki හෙවත් සුවපහසුව. මේ තුන විභාගයට අනිවාර්යයෙන්ම අහනවා ළමයි!",
+            "japanese_tts_text": "安全に、定時にかつ快適に目的地まで送らなければならない。"
+          }
+        },
+        {
+          "section_id": "P02_S04",
+          "content_type": "safety_pillar",
+          "japanese": {
+            "original_kanji": "安全性については、危険物搭載や荷物を含めた搭載重量・重心位置の管理情報を機長に正確に伝える。作業中、機体に損傷やへこみを発見した場合は、整備士に正確に伝える。",
+            "furigana": "安(あん)全(ぜん)性(せい)については、危(き)険(けん)物(ぶつ)搭(とう)載(さい)や荷(に)物(もつ)を含(ふく)めた搭(とう)載(さい)重(じゅう)量(りょう)・重(じゅう)心(しん)位(い)置(ち)の管(かん)理(り)情(じょう)報(ほう)を機(き)長(ちょう)に正(せい)確(かく)に伝(つた)える。作(さ)業(ぎょう)中(ちゅう)、機(き)体(たい)に損(そん)傷(しょう)やへこみを発(はっ)見(けん)した場(ば)合(あい)は、整(せい)備(び)士(し)に正(せい)確(かく)に伝(つた)える。",
+            "romaji": "Anzensei ni tsuite wa, kikenbutsu tousai ya nimotsu wo fukumeta tousai juuryou, juushin ichi no kanri jouhou wo kichou ni seikaku ni tsutaeru. Sagyou chuu, kitai ni sonshou ya hekomi wo hakken shita baai wa, seibishi ni seikaku ni tsutaeru."
+          },
+          "english": "Regarding safety, accurately report weight and balance (center of gravity) including dangerous goods to the captain. If any aircraft damage or dents are found during operations, notify the maintenance mechanics accurately.",
+          "sinhala": "ආරක්ෂාව සම්බන්ධයෙන්: භාණ්ඩ හා අනතුරුදායක භාණ්ඩ පැටවීම නිසා ඇති වන ගුරුත්වාකර්ෂණ කේන්ද්‍රය සහ බර පිළිබඳ කළමනාකරණ තොරතුරු කපිතාන්වරයාට නිවැරදිව දැනුම් දෙන්න. වැඩ කරන අතරතුර ගුවන් යානයේ යම් හානියක් හෝ තැලීමක් දුටුවහොත් නඩත්තු කාර්මිකයාට වහාම නිවැරදිව දන්වන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "හොඳට මතක තියාගන්න ළමයි, යානයේ බර බෙදී යන ආකාරය කපිතාන්වරයාට කියන්නම ඕනෙ. ඒ වගේම බඩු පටවනකොට යානයේ පොඩි හරි තැලීමක් දැක්කොත් 'මේක පොඩි දෙයක්නෙ' කියලා හංගන්න එපා, වහාම Seibishi හෙවත් කාර්මික ශිල්පියාට දැනුම් දෙන්න ඕනෙ.",
+            "japanese_tts_text": "安全性については、危険物搭載や荷物を含めた搭載重量・重心位置の管理情報を機長に正確に伝える。作業中、機体に損傷やへこみを発見した場合は、整備士に正確に伝える。"
+          }
+        },
+        {
+          "section_id": "P02_S05",
+          "content_type": "punctuality_pillar",
+          "japanese": {
+            "original_kanji": "定時性については、決められた時間内で決められた準備作業を確実に実施する。快適性については、機内の良い環境を保つため清掃などを行う。",
+            "furigana": "定(てい)時(じ)性(せい)については、決(き)められた時(じ)間(かん)内(ない)で決(き)められた準(じゅん)備(び)作(さ)業(ぎょう)を確(かく)実(じつ)に実(じっ)施(し)する。快(かい)適(てき)性(せい)については、機(き)内(ない)の良(よ)い環(かん)境(きょう)を保(たも)つため清(せい)掃(そう)などを行(おこな)う。",
+            "romaji": "Teijisei ni tsuite wa, kimerareta jikan nai de kimerareta junbi sagyou wo kakujitsu ni jisshi suru. Kaitekisei ni tsuite wa, kinai no yoi kankyou wo tamotsu tame seisou nado wo okonau."
+          },
+          "english": "Regarding punctuality, reliably carry out scheduled preparations within the allotted time. Regarding comfort, conduct cleaning to maintain an excellent cabin environment.",
+          "sinhala": "නියමිත වේලාව සම්බන්ධයෙන්: නියමිත කාලය තුළ සූදානම් කිරීමේ කාර්යයන් නිසි ලෙස සිදු කරන්න. සුවපහසුව සම්බන්ධයෙන්: යානය තුළ හොඳ පරිසරයක් පවත්වා ගැනීම සඳහා පිරිසිදු කිරීම් සිදු කරන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ජපානයේ ගුවන් සේවාවල වේලාව කියන්නේ පණ වගේ දෙයක්. මිනිත්තුවක්වත් පරක්කු නොවී වැඩේ ඉවර කරන්න ඕනෙ. ඒ වගේම මගීන්ට පිරිසිදු සහ සුවපහසු මැදිරියක් ලබාදෙන්නත් ඕනෙ.",
+            "japanese_tts_text": "定時性については、決められた時間内で決められた準備作業を確実に実施する。快適性については、機内の良い環境を保つため清掃などを行う。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "危険物",
+          "furigana": "きけんぶつ",
+          "romaji": "Kikenbutsu",
+          "english": "Dangerous Goods",
+          "sinhala": "අන්තරායකර භාණ්ඩ"
+        },
+        {
+          "japanese": "重心位置",
+          "furigana": "じゅうしんいち",
+          "romaji": "Juushin Ichi",
+          "english": "Center of Gravity (CG)",
+          "sinhala": "ගුරුත්වාකර්ෂණ කේන්ද්‍රය"
+        },
+        {
+          "japanese": "整備士",
+          "furigana": "せいびし",
+          "romaji": "Seibishi",
+          "english": "Aircraft Maintenance Mechanic",
+          "sinhala": "ගුවන් යානා නඩත්තු කාර්මිකයා"
+        },
+        {
+          "japanese": "損傷",
+          "furigana": "そんしょう",
+          "romaji": "Sonshou",
+          "english": "Damage",
+          "sinhala": "හානිය / හානිවීම"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "page_title_sinhala": "Ground Handling අර්ථ දැක්වීම සහ IATA ප්‍රමිතීන්",
+      "page_title_japanese": "グランドハンドリング業務とIATA標準",
+      "mapped_images": [
+        "Ground handling - Images V1/6.jpg",
+        "Ground handling - Images V1/7.jpg",
+        "Ground handling - Images V1/8.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P03_S01",
+          "content_type": "definition",
+          "japanese": {
+            "original_kanji": "これらの地上（スポットやランプ）での作業を総称して「グランドハンドリング」業務といっている。",
+            "furigana": "これらの地(ち)上(じょう)（スポットやランプ）での作(さ)業(ぎょう)を総(そう)称(しょう)して「グランドハンドリング」業(ぎょう)務(む)といっている。",
+            "romaji": "Korera chijou (supotto ya ranpu) de no sagyou wo soushouchite 'Gurando Handoringu' gyoumu to itte iru."
+          },
+          "english": "These operations on the ground (at spots and ramps) are collectively referred to as 'Ground Handling' services.",
+          "sinhala": "භූමියෙහි (Spot සහ Ramp ප්‍රදේශයේ) සිදුවන මෙම වැඩ කටයුතු 'Ground Handling' (භූමි මෙහෙයුම් සේවා) ලෙස හැඳින්වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "දැන් බලන්න පින්තූර අංක 6, 7 සහ 8 දිහා. මේකෙ ඉන්න සේවකයෝ වැඩ කරන්නේ ගුවන් යානය නවත්වන Spot එකේ සහ Ramp කියන ප්‍රදේශවල. මෙන්න මේ භූමියේ සිදුවන සියලුම සේවාවන්ට අපි කියනවා Ground Handling කියලා.",
+            "japanese_tts_text": "これらの地上（スポットやランプ）での作業を総称して「グランドハンドリング」業務といっている。"
+          }
+        },
+        {
+          "section_id": "P03_S02",
+          "content_type": "regulations",
+          "japanese": {
+            "original_kanji": "一方、国際航空運送協会（IATA: International Air Transport Association）では、外国の空港において、他の航空会社にグランドハンドリング業務を委託する場合の契約内容の標準 (Airport Handling Manual) を作成している。",
+            "furigana": "一(いっ)方(ぽう)、国(こく)際(さい)航(こう)空(くう)運(うん)送(そう)協(きょう)会(かい)（IATA）では、外(がい)国(こく)の空(くう)港(こう)において、他(ほか)の航(こう)空(くう)会(がい)社(しゃ)にグランドハンドリング業(ぎょう)務(む)を委(い)託(たく)する場(ば)合(あい)の契(けい)約(やく)内(ない)容(よう)の標(ひょう)準(じゅん)（Airport Handling Manual）を作(さく)成(せい)している。",
+            "romaji": "Ippou, Kokusai Koukuu Unsou Kyoukai (IATA) dewa, gaikoku no kuukou ni oite, hoka no koukuugaisha ni gurando handoringu gyoumu wo itaku suru baai no keiyaku naiyou no hyoujun (Airport Handling Manual) wo sakusei shite iru."
+          },
+          "english": "Meanwhile, the International Air Transport Association (IATA) establishes standards for contracts (Airport Handling Manual) when contracting ground handling services to other airlines or handlers at foreign airports.",
+          "sinhala": "ජාත්‍යන්තර ගුවන් ප්‍රවාහන සංගමය (IATA) විසින් විදේශ ගුවන් තොටුපළවලදී වෙනත් ගුවන් සමාගම් වෙත ගොඩබිම් සේවා පවරන විට භාවිතයට සේවා විස්තර සඳහා ප්‍රමිතීන් (Airport Handling Manual) සකස් කර ඇත.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "විභාගයට නිතරම අහන කෙටි යෙදුමක් තමයි IATA කියන්නේ. ජාත්‍යන්තර ගුවන් ප්‍රවාහන සංගමය විසින් ගොඩබිම් සේවා සඳහා හදපු සම්මත අත්පොත තමයි Airport Handling Manual හෙවත් AHM කියන්නේ. මේ නම මතක තියාගන්න ළමයි!",
+            "japanese_tts_text": "国際航空運送協会（IATA）では、空港ハンドリング契約標準を作成している。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "国際航空運送協会",
+          "furigana": "こくさいこうくううんそうきょうかい",
+          "romaji": "Kokusai Koukuu Unsou Kyoukai",
+          "english": "IATA (International Air Transport Association)",
+          "sinhala": "ජාත්‍යන්තර ගුවන් ප්‍රවාහන සංගමය"
+        },
+        {
+          "japanese": "委託",
+          "furigana": "いたく",
+          "romaji": "Itaku",
+          "english": "Entrust / Outsource",
+          "sinhala": "බාහිර පාර්ශවයකට පැවරීම"
+        },
+        {
+          "japanese": "標準",
+          "furigana": "ひょうじゅん",
+          "romaji": "Hyoujun",
+          "english": "Standard",
+          "sinhala": "ප්‍රමිතිය / සම්මතය"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "page_title_sinhala": "ක්‍රියාවලි කළමනාකරණය සහ GSE සූදානම",
+      "page_title_japanese": "2. 工程管理 (こうていかんり)",
+      "mapped_images": [
+        "Ground handling - Images V1/10.jpg",
+        "Ground handling - Images V1/11.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P04_S01",
+          "content_type": "process_management",
+          "japanese": {
+            "original_kanji": "グランドハンドリングは、航空機を定時に出発させるため、予め作業順序・作業時間・作業人数を決めて作業にあたっている。",
+            "furigana": "グランドハンドリングは、航(こう)空(くう)機(き)を定(てい)時(じ)に出(しゅっ)発(ぱつ)させるため、予(あらかじ)め作(さ)業(ぎょう)順(じゅん)序(じょ)・作(さ)業(ぎょう)時(じ)間(かん)・作(さ)業(ぎょう)人(にん)数(ずう)を決(き)めて作(さ)業(ぎょう)にあたっている。",
+            "romaji": "Gurando handoringu wa, koukuuki wo teiji ni shuppatsu saseru tame, arakajime sagyou junjo, sagyou jikan, sagyou ninzuu wo kimete sagyou ni atatte iru."
+          },
+          "english": "In ground handling, to ensure on-time flight departures, work sequence, operational time, and personnel numbers are predetermined.",
+          "sinhala": "ගොඩබිම් හැසිරවීමේදී නියමිත වේලාවට ගුවන් යානය පිටත් කර හැරීම සඳහා කාර්ය පටිපාටිය, වැඩ කරන කාලය සහ සේවක සංඛ්‍යාව කල්තියා තීරණය කරනු ලැබේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "හොඳින් බලන්න පින්තූර 10 සහ 11. යානයක් බිමට ආවට පස්සේ හැමෝම එකිනෙකාට ඕන විදිහට නෙමෙයි වැඩ කරන්නේ. කලින්ම හදපු Process Management කාලසටහනකට අනුවයි සේවකයින් සහ උපකරණ යොදවන්නේ.",
+            "japanese_tts_text": "グランドハンドリングは、航空機を定時に出発させるため、予め作業順序・作業時間・作業人数を決めて作業にあたっている。"
+          }
+        },
+        {
+          "section_id": "P04_S02",
+          "content_type": "teamwork",
+          "japanese": {
+            "original_kanji": "これら多くの種類の作業は、一見バラバラに行われているように見えるが、実は標準作業工程に従って全員が次の飛行の出発時刻に向かって力を合わせている姿なのである。",
+            "furigana": "これら多(おお)くの種(しゅ)類(るい)の作(さ)業(ぎょう)は、一(いっ)見(けん)バラバラに行(おこな)われているように見(み)えるが、実(じつ)は標(ひょう)準(じゅん)作(さ)業(ぎょう)工(こう)程(てい)に従(したが)って全(ぜん)員(いん)が次(つぎ)の飛(ひ)行(こう)の出(しゅっ)発(ぱつ)時(じ)刻(こく)に向(む)かって力(ちから)を合(あ)わせている姿(すがた)なのである。",
+            "romaji": "Korera ooku no shurui no sagyou wa, ikken barabara ni okonawarete iru you ni mieru ga, jitsu wa hyoujun sagyou koutei ni shitagatte zen'in ga tsugi no hikou no shuppatsu jikoku ni mukatte chikara wo awasete iru sugata na no de aru."
+          },
+          "english": "These diverse operations may seem disconnected at first glance, but in reality, all crew members are uniting their efforts according to standard operating processes toward the next scheduled departure.",
+          "sinhala": "බැලූ බැල්මට බොහෝ වැඩ වෙන වෙනම සිදු කරන බවක් පෙනුනද, සැබවින්ම සියලුම කාර්ය මණ්ඩලය සම්මත මෙහෙයුම් ක්‍රියාවලියකට අනුව ඊළඟ ගුවන් ගමන නියමිත වේලාවට පිටත් කිරීමට එකමුතුව ශක්තිය යොදවයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "එක්කෙනෙක් ඉන්ධන පුරවනවා, තව කෙනෙක් මගී පාලම අල්ලනවා, තව කෙනෙක් බෑග් බානවා. පිටින් බලන කෙනෙකුට පේන්නේ වෙන වෙනම වැඩ කරනවා වගේ. ඒත් හැමෝගෙම එකම ඉලක්කය තමයි යානය වෙලාවට අහසට යවන එක!",
+            "japanese_tts_text": "実は標準作業工程に従って全員が次の飛行の出発時刻に向かって力を合わせている姿なのである。"
+          }
+        },
+        {
+          "section_id": "P04_S03",
+          "content_type": "gse_standby",
+          "japanese": {
+            "original_kanji": "航空機到着前から、下記の地上支援機材 (GSE: Ground Support Equipment) と係員が安全で、かつ航空機の進入に邪魔にならないところで待機している。",
+            "furigana": "航(こう)空(くう)機(き)到(とう)着(ちゃく)前(まえ)から、下(か)記(き)の地(ち)上(じょう)支(し)援(えん)機(き)材(ざい)（GSE）と係(かか)り員(いん)が安(あん)全(ぜん)で、かつ航(こう)空(くう)機(き)の進(しん)入(にゅう)に邪(じゃ)魔(ま)にならないところで待(たい)機(き)している。",
+            "romaji": "Koukuuki touchakumae kara, kaki no chijou shien kizai (GSE) to kakariin ga anzen de, katsu koukuuki no shinnyuu ni jama ni naranai tokoro de taiki shite iru."
+          },
+          "english": "Prior to aircraft arrival, Ground Support Equipment (GSE) and personnel standby in designated safe locations that do not interfere with aircraft entry.",
+          "sinhala": "ගුවන් යානා පැමිණීමට පෙර, පහත සඳහන් භූමි ආධාරක උපකරණ (GSE) සහ පිරිස් යානය පැමිණීමට බාධා නොවන ආරක්ෂිත ස්ථානයක සූදානම්ව (Standby) රැඳී සිටිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මතක තියාගන්න ළමයි, යානය ස්පොට් එකට එන්න කලින් කිසිම උපකරණයක් යානය එන පාරේ තියන්න බෑ. ආරක්ෂිත සීමාවේ (Equipment Restraint Area) තමයි සූදානම් වෙලා ඉන්න ඕනෙ.",
+            "japanese_tts_text": "航空機到着前から、地上支援機材と係員が安全な場所で待機している。"
+          }
+        },
+        {
+          "section_id": "P04_S04",
+          "content_type": "key_personnel_list",
+          "japanese": {
+            "original_kanji": "①整備士 ②乗客を案内する係員 ③マーシャラ ④貨物室からコンテナを取り出す係員 ⑤PBBを操作する係員 ⑥機内清掃係員",
+            "furigana": "①整(せい)備(び)士(し) ②乗(じょう)客(きゃく)を案(あん)内(ない)する係(かか)り員(いん) ③マーシャラ ④貨(か)物(もつ)室(しつ)からコンテナを取(と)り出(だ)す係(かか)り員(いん) ⑤PBBを操(そう)作(さ)する係(かか)り員(いん) ⑥機(き)内(ない)清(せい)掃(そう)係(かか)り員(いん)",
+            "romaji": "1. Seibishi 2. Joukyaku wo annai suru kakariin 3. Maashara 4. Kamotsushitsu kara kontena wo toridasu kakariin 5. PBB wo sousa suru kakariin 6. Kinai seisou kakariin"
+          },
+          "english": "1. Aircraft mechanic 2. Passenger guide staff 3. Marshaller 4. Cargo hold unloading staff 5. Passenger Boarding Bridge (PBB) operator 6. Cabin cleaning crew",
+          "sinhala": "1. නඩත්තු කාර්මිකයා 2. මගීන්ට මඟපෙන්වන නිලධාරියා 3. මාෂලර් (සංඥාකරු) 4. කාගෝ බහාලුම් බාන සේවකයින් 5. මගී පාලම (PBB) හසුරුවන නිලධාරියා 6. යානය පිරිසිදු කරන සේවකයින්",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න මේ 6 දෙනා තමයි යානයක් බිමට ආපු ගමන්ම වැඩ පටන් ගන්න ඉන්න ප්‍රධාන කණ්ඩායම. මේ නම් ටික ජපන් භාෂාවෙන් මතක තියාගන්න.",
+            "japanese_tts_text": "整備士、乗客案内係員、マーシャラ、コンテナ作業係員、PBB操作係員、機内清掃係員。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "地上支援機材",
+          "furigana": "ちじょうしえんきざい",
+          "romaji": "Chijou Shien Kizai",
+          "english": "GSE (Ground Support Equipment)",
+          "sinhala": "භූමි ආධාරක උපකරණ"
+        },
+        {
+          "japanese": "待機",
+          "furigana": "たいき",
+          "romaji": "Taiki",
+          "english": "Standby",
+          "sinhala": "සූදානම්ව රැඳී සිටීම"
+        },
+        {
+          "japanese": "作業工程",
+          "furigana": "さぎょうこうてい",
+          "romaji": "Sagyou Koutei",
+          "english": "Work Process / Workflow",
+          "sinhala": "වැඩ ක්‍රියාවලිය"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "page_title_sinhala": "යානය නැවැත්වීම, එන්ජින් ක්‍රියා විරහිත කිරීම සහ උපකරණ සවි කිරීම",
+      "page_title_japanese": "マーシャリングと機材装着OKサイン",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P05_S01",
+          "content_type": "marshalling",
+          "japanese": {
+            "original_kanji": "(2) マーシャラは機長に対し停止位置まで誘導し、航空機は停止する。",
+            "furigana": "(2) マーシャラは機(き)長(ちょう)に対(たい)し停(てい)止(し)位(い)置(ち)まで誘(ゆう)導(どう)し、航(こう)空(くう)機(き)は停(てい)止(し)する。",
+            "romaji": "Maashara wa kichou ni taishi teishi ichi made yuudou shi, koukuuki wa teishi suru."
+          },
+          "english": "The marshaller guides the captain to the exact parking stop line, bringing the aircraft to a halt.",
+          "sinhala": "මාෂලර් විසින් කපිතාන්වරයා සහිත යානය නැවතුම් සලකුණ දක්වා මෙහෙයවා යානය නවත්වනු ලබයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, Marshaller කියන්නේ අත් දෙකේ තියෙන සංඥා පුවරු වලින් පයිලට්ට පාර පෙන්නලා නියමිත ඉර උඩ යානය නවත්වන කෙනාටයි.",
+            "japanese_tts_text": "マーシャラは機長に対し停止位置まで誘導し、航空機は停止する。"
+          }
+        },
+        {
+          "section_id": "P05_S02",
+          "content_type": "critical_safety_signal",
+          "japanese": {
+            "original_kanji": "(3) 航空機のすべてのエンジンの停止が確認され、機材装着OKのサインが出ると、機材と係員が一斉に航空機に近づいて行く。",
+            "furigana": "(3) 航(こう)空(くう)機(き)のすべてのエンジンの停(てい)止(し)が確(かく)認(にん)され、機(き)材(ざい)装(そう)着(ちゃく)OKのサインが出(で)ると、機(き)材(ざい)と係(かか)り員(いん)が一(いっ)斉(せい)に航(こう)空(くう)機(き)に近(ちか)づいて行(い)く。",
+            "romaji": "Koukuuki no subete no enjin no teishi ga kakunin sare, kizai souchaku OK no sain ga deru to, kizai to kakariin ga issei ni koukuuki ni chikazuite iku."
+          },
+          "english": "Once all aircraft engines have completely stopped and the 'Equipment Attachment OK' signal is given, ground equipment and personnel simultaneously approach the aircraft.",
+          "sinhala": "ගුවන් යානයේ සියලුම එන්ජින් නැවතී ඇති බව තහවුරු කර, උපකරණ සවිකිරීම සඳහා OK සලකුණ (Kizai Souchaku OK) ලබා දීමෙන් පසුව, උපකරණ සහ කාර්ය මණ්ඩලය එකවරම ගුවන් යානය වෙත ළඟා වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න මේක විභාගයට අනිවාර්යයෙන්ම එන රීතියක්: යානය නැවැත්තුව ගමන්ම දුවලා යන්න පුළුවන්ද? කවදාවත් බෑ! එන්ජින් ඔක්කොම නැවතිලා, Kizai Souchaku OK කියන sign එක දුන්නට පස්සෙයි එකවරම යානය ළඟට යන්න ඕනෙ.",
+            "japanese_tts_text": "航空機のすべてのエンジンの停止が確認され、機材装着OKのサインが出ると、機材と係員が一斉に航空機に近づいて行く。"
+          }
+        },
+        {
+          "section_id": "P05_S03",
+          "content_type": "servicing_sequence",
+          "japanese": {
+            "original_kanji": "①パッセンジャ・ボーディング・ブリッジが正しい位置にセットされ、出入り口が開かれる。②貨物室付近では機材が付けられ、ドアを開いて手荷物などが入ったコンテナを取り出し始める。③後部客室出入り口に大型トラックが付けられ、機内清掃準備に取り掛かる。④飲料水サービス・カーが給水し、トイレット・サービス・カーが汚水を回収する。⑤コンテナ取り卸し後、出発便のコンテナが積み込まれる。⑥牽引車が前脚に取り付けられる。",
+            "furigana": "①PBBが正(ただ)しい位(い)置(ち)にセットされ出(で)入(い)り口(ぐち)が開(ひら)かれる。②貨(か)物(もつ)室(しつ)ドアを開(ひら)いてコンテナを取(と)り出(だ)し始(はじ)める。③後(こう)部(ぶ)ドアにト(と)ラ(ラ)ッ(ッ)ク(ク)がつき機(き)内(ない)清(せい)掃(そう)準(じゅん)備(び)に取(と)り掛(か)かる。④給(きゅう)水(すい)車(しゃ)が給(きゅう)水(すい)し、汚(お)水(すい)車(しゃ)が汚(お)水(すい)を回(かい)収(しゅう)する。⑤出(しゅっ)発(ぱつ)便(びん)のコンテナが積(つ)み込(こ)まれる。⑥牽(けん)引(いん)車(しゃ)が前(まえ)脚(あし)に取(と)り付(つ)けられる。",
+            "romaji": "1. PBB ga tadashii ichi ni setto sare deiriguchi ga hirakareru. 2. Kamotsushitsu doa wo hiraite kontena wo toridashi hajimeru. 3. Koubu doa ni torakku ga tsuki kinai seisou junbi ni torikakaru. 4. Kyuusuisha ga kyuusui shi, osuisha ga osui wo kaishuu suru. 5. Shuppatsubin no kontena ga tsumikomareru. 6. Ken'insha ga maeahi ni toritsukerareru."
+          },
+          "english": "1. PBB is docked and cabin doors opened. 2. Cargo doors open and container unloading starts. 3. Cleaning truck docks at aft door. 4. Water truck refills water; lavatory truck drains waste. 5. Outbound containers are loaded. 6. Pushback tractor attaches to nose gear.",
+          "sinhala": "1. මගී පාලම (PBB) සවි කර දොර අරියි. 2. භාණ්ඩ මැදිරියේ දොර විවෘත කර කන්ටේනර් බෑම අරඹයි. 3. පිටුපස දොරට ට්‍රක් රථය සවි කර යානය පිරිසිදු කිරීමට සැරසෙයි. 4. පානීය ජල රථයෙන් ජලය පුරවා වැසිකිලි සේවා රථයෙන් අපද්‍රව්‍ය ඉවත් කරයි. 5. පිටත්වන ගුවන් ගමනේ බහාලුම් පටවනු ලබයි. 6. යානය තල්ලු කිරීමට ට්‍රැක්ටරය ඉදිරිපස රෝදයට සවි කරයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න මේ පියවර 6 පිළිවෙළට වෙනවා. මුලින්ම මගීන් බස්සන්න පාලම දානවා, බඩු බානවා, කැබින් එක සුද්ද කරනවා, වතුර පුරවනවා, ආපහු යන බඩු පටවනවා, අන්තිමට යානය පිටත් කරන්න Pushback tractor එක සවි කරනවා. නියමයි නේද ළමයි!",
+            "japanese_tts_text": "パッセンジャ・ボーディング・ブリッジ装着、貨物取り卸し、機内清掃、給水・汚水処理、出発便搭載、牽引車装着。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "マーシャラ",
+          "furigana": "まーしゃら",
+          "romaji": "Maashara",
+          "english": "Marshaller",
+          "sinhala": "මාෂලර් (ගුවන් යානා සංඥාකරු)"
+        },
+        {
+          "japanese": "機材装着",
+          "furigana": "きざいそうちゃく",
+          "romaji": "Kizai Souchaku",
+          "english": "Equipment Attachment",
+          "sinhala": "උපකරණ යානයට සවි කිරීම"
+        },
+        {
+          "japanese": "一斉に",
+          "furigana": "いっせいに",
+          "romaji": "Issei ni",
+          "english": "Simultaneously / All at once",
+          "sinhala": "එකවරම"
+        },
+        {
+          "japanese": "前脚",
+          "furigana": "まえあし",
+          "romaji": "Maeahi (Nose Gear)",
+          "english": "Nose Landing Gear",
+          "sinhala": "යානයේ ඉදිරිපස රෝදය"
+        }
+      ]
+    }
+  ]
+}

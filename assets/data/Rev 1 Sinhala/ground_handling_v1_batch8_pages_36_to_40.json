@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "batch": "Batch 8 (Pages 36 to 40)",
+    "document_title": "Ground Handling Training Manual Rev 1 (SSW ReadyToFly)",
+    "source_pdf": "Ground handling V1.pdf",
+    "image_folder": "Ground handling - Images V1/",
+    "tts_config": {
+      "sinhala_teacher_voice": {
+        "voice_locale": "si-LK",
+        "voice_type": "native_sinhala_teacher",
+        "role": "friendly_expert_instructor"
+      },
+      "japanese_native_voice": {
+        "voice_locale": "ja-JP",
+        "voice_type": "native_japanese_professional",
+        "role": "standard_aviation_pronunciation"
+      }
+    }
+  },
+  "pages": [
+    {
+      "page_number": 36,
+      "page_title_sinhala": "මගී ආසන (Seats) සහ ගැලි (Galley) පිරිසිදු කිරීමේ පියවර",
+      "page_title_japanese": "各シートとギャレーの清掃ポイント",
+      "mapped_images": [
+        "Ground handling - Images V1/244.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P36_S01",
+          "content_type": "seat_cleaning_procedures",
+          "japanese": {
+            "original_kanji": "① 各座席ベルトは「八の字型」「一文字型」など、各航空会社の定めた形にそろえる。座席カバーが汚損しているときは処置する。② 各座席ポケット内のセット品（機内誌、非常脱出案内の説明書、安全のしおり、吐袋など）を整える。もし、汚損、破損などがあるときは交換し、あわせてポケット内にゴミや忘れ物、不審物などが無いか点検する。③ 使用済みイヤホンやヘッドホンは、新しいものと交換する。④ 肘掛け・サイドパネル・窓ガラス・テーブルが汚損しているときはふき取る。",
+            "furigana": "① 各(かく)座(ざ)席(せき)ベルトは「八(はち)の字(じ)型(がた)」「一(いち)文(もん)字(じ)型(がた)」など、各(かく)航(こう)空(くう)会(がい)社(しゃ)の定(さだ)めた形(かたち)にそろえる。座(ざ)席(せき)カバーが汚(お)損(そん)しているときは処(しょ)置(ち)する。② 各(かく)座(ざ)席(せき)ポケット内(ない)のセット品(ひん)（機(き)内(ない)誌(し)、非(ひ)常(じょう)脱(だっ)出(しゅつ)案(あん)内(ない)の説(せつ)明(めい)書(しょ)、安(あん)全(ぜん)のしおり、吐(と)袋(ぶくろ)など）を整(ととの)える。もし、汚(お)損(そん)、破(は)損(そん)などがあるときは交(こう)換(かん)し、あわせてポケット内(ない)にゴミや忘(わす)れ物(もの)、不(ふ)審(しん)物(ぶつ)などが無(な)いか点(てん)検(けん)する。③ 使(し)用(よう)済(ず)みイヤホンやヘッドホンは、新(あたら)しいものと交(こう)換(かん)する。④ 肘(ひじ)掛(か)け・サイドパネル・窓(まど)ガラス・テーブルが汚(お)損(そん)しているときはふき取(と)る。",
+            "romaji": "1. Kaku zaseki beruto wa 'hachi no ji gata', 'ichimonji gata' nado, kaku koukuugaisha no sadameta katachi ni soroeru. Zaseki kabaa ga oson shite iru toki wa shochi suru. 2. Kaku zaseki poketto nai no settohin (kinaishi, hijou dasshutsu annai no setsumeisho, anzen no shiori, tobukuro nado) wo totonoeru. Moshi, oson, hason nado ga aru toki wa koukan shi, awasete poketto nai ni gomi ya wasuremono, fushinbutsu nado ga nai ka tenken suru. 3. Shiyou-zumi iyahon ya heddohon wa, atarashii mono to koukan suru. 4. Hijikake, saido paneru, mado garasu, teeburu ga oson shite iru toki wa fukitoru."
+          },
+          "english": "1. Arrange all seatbelts into the specific airline's mandated style (e.g., 'Figure-8 cross' or 'Horizontal straight line'). Replace stained seat covers. 2. Organize seat pocket contents (in-flight magazine, safety card, airsickness bag). Replace damaged items, checking for trash, forgotten items, or suspicious objects. 3. Swap used headsets/earphones with fresh sealed sets. 4. Wipe clean armrests, side panels, windows, and tray tables if soiled.",
+          "sinhala": "1. එක් එක් ආසන පටි අදාළ ගුවන් සමාගමේ නීති අනුව '八' (හචි හැඩය) හෝ එක පෙළට සකස් කරන්න. ආසන කවර අපිරිසිදු නම් මාරු කරන්න. 2. ආසන සාක්කුවේ අයිතම (ගුවන් සඟරා, හදිසි ඉවත් වීමේ පත්‍රිකා, ආරක්ෂිත උපදෙස් පත්‍රිකා - Anzen no shiori, කෙළ බෑග්) පිළිවෙළ කරන්න. හානි වී ඇත්නම් අලුත් ඒවා දමන්න. කුණු, මගීන්ට අමතක වූ බඩු හෝ සැකකටයුතු ද්‍රව්‍ය ඇත්දැයි සාක්කුව පරීක්ෂා කරන්න. 3. පාවිච්චි කළ ඉයර්ෆෝන්/හෙඩ්ෆෝන් වෙනුවට අලුත් ඒවා තබන්න. 4. අත්වාරු, ජනෙල් වීදුරු සහ ආසන මේස පිසදමා පිරිසිදු කරන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, කැබින් එකට ගියාම ආසන පටි නිකන්ම දාලා එන්න බෑ. ජපානයේ ගුවන් සමාගම් අනුව එක්කෝ 'හචි' හැඩයට (Hachi no ji - කතිර හැඩයට) නැත්නම් හරහට (Ichimonji) නමලා තියන්න ඕනෙ. සාක්කුව අතගාලා බලන්න ඕනෙ මගියෙක්ගේ පාස්පෝට් එකක්වත් අමතක වෙලා තියෙනවද, බෝම්බ වගේ සැකකටයුතු දේවල් තියෙනවද කියලා. පරණ ඉයර්ෆෝන් අයින් කරලා අලුත් ඒවා තියන්න ඕනෙ!",
+            "japanese_tts_text": "座席ベルトを所定の形にそろえ、ポケット内のセット品を整え、忘れ物や不審物を点検する。"
+          }
+        },
+        {
+          "section_id": "P36_S02",
+          "content_type": "galley_cleaning_procedures",
+          "japanese": {
+            "original_kanji": "② ギャレー (Galley): ① ゴミ箱をギャレーから取り出し処理する。ゴミ箱をギャレーに収納した後、ドアを確実にロックする。② カウンター台および折りたたみ式テーブルに汚れがあればふく。③ 床にべたつきがあるときは、モップまたはウェスで水ぶきする。",
+            "furigana": "② ギャレー: ① ゴミ箱(ばこ)をギャレーから取(とり)り出(だ)し処(しょ)理(り)する。ゴミ箱(ばこ)をギャレーに収(しゅう)納(のう)したあ後(と)、ドアを確(かく)実(じつ)にロックする。② カウンター台(だい)および折(お)りたたみ式(しき)テーブルに汚(よご)れがあればふく。③ 床(ゆか)にべたつきがあるときは、モップまたはウェスで水(みず)ぶきする。",
+            "romaji": "2. Gyaree (Galley): 1. Gomibako wo gyaree kara toridashi shori suru. Gomibako wo gyaree ni shuunou shita ato, doa wo kakujitsu ni rokku suru. 2. Kauntaadai oyobi oritatamishiki teeburu ni yogore ga areba fuku. 3. Yuka ni betatsuki ga aru toki wa, moppu matawa wesu de mizubuki suru."
+          },
+          "english": "Galley Cleaning (Figure 244): 1. Remove and dispose of waste bins from the galley carts. After re-stowing trash bins, ensure access doors are securely latched. 2. Wipe down counters and folding service tables. 3. If galley floors are sticky from spilled drinks, wet-mop with water and rags.",
+          "sinhala": "ගැලිය (Galley - ආහාර පිළියෙල කරන කොටස - රූපය 244): 1. ගැලි කුණු කූඩ එළියට ගෙන කුණු බැහැර කරන්න. කුණු කූඩය ආපසු දැමූ පසු දොරවල් තදින් ලොක් (Lock) කරන්න. 2. කවුන්ටරය සහ නැමිය හැකි මේස පිසදමන්න. 3. බීම හැලී බිම ඇලෙන සුළු නම්, මොප් එකකින් හෝ රෙදි කඩකින් (Wess) තෙත මාත්තු කර පිසදමන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 244 බලන්න ළමයි. Galley එකේ කුණු බෑග් එක එළියට අරන් Trash car එකට දාන්න ඕනෙ. ආපහු දොර වහද්දී හරියටම Lock වුණාද කියලා බලන්න ඕනෙ. බීම හැලිලා බිම ඇලෙනවා නම් මොප් එකකින් තෙත පිහිදාන්න ඕනෙ.",
+            "japanese_tts_text": "ギャレーのゴミ箱を処理後ドアを確実にロックし、カウンターや床をきれいにふく。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "安全のしおり",
+          "furigana": "あんぜんのしおり",
+          "romaji": "Anzen no Shiori",
+          "english": "Safety Information Card",
+          "sinhala": "ආරක්ෂිත උපදෙස් පත්‍රිකාව"
+        },
+        {
+          "japanese": "ギャレー",
+          "furigana": "ぎゃれー",
+          "romaji": "Gyaree",
+          "english": "Galley (Aircraft Kitchen)",
+          "sinhala": "ගැලිය (ගුවන් යානා මුළුතැන්ගෙය)"
+        },
+        {
+          "japanese": "水ぶき",
+          "furigana": "みずぶき",
+          "romaji": "Mizubuki",
+          "english": "Wet Wiping / Mopping with water",
+          "sinhala": "තෙත රෙදි කඩකින් පිසදැමීම"
+        }
+      ]
+    },
+    {
+      "page_number": 37,
+      "page_title_sinhala": "වැසිකිලි (Lavatory) සහ පොදු කැබින් පිරිසිදු කිරීම සහ පියාසැරියෙන් පසු මෙහෙයුම්",
+      "page_title_japanese": "ラバトリー清掃・客室内清掃と飛行後作業",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P37_S01",
+          "content_type": "lavatory_cleaning_steps",
+          "japanese": {
+            "original_kanji": "③ ラバトリー: ① 隔壁、ドア（取っ手を含む）に汚れがあればふく。② 洗面台、鏡、便器に汚れがあればふく。便器にトイレットペーパー以外のものは流さない。③ ゴミ箱を取り出し処理する。処理後はゴミ箱を収めるドアのロックを確認する。④ 床をモップまたはウェスでふく。⑤ 不足しているトイレ用品を補充する。",
+            "furigana": "③ ラバトリー: ① 隔(かく)壁(へき)、ドア（取(と)っ手(て)を含(ふく)む）に汚(よご)れがあればふく。② 洗(せん)面(めん)台(だい)、鏡(かがみ)、便(べん)器(き)に汚(よご)れがあればふく。便(べん)器(き)にトイレットペーパー以(い)外(がい)のものは流(なが)さない。③ ゴミ箱(ばこ)を取(とり)り出(だ)し処(しょ)理(り)する。処(しょ)理(り)後(ご)はゴミ箱(ばこ)を収(おさ)めるドアのロックを確(かく)認(にん)する。④ 床(ゆか)をモップまたはウェスでふく。⑤ 不(ふ)足(そく)しているトイレ用(よう)品(ひん)を補(ほ)充(じゅう)する。",
+            "romaji": "3. Rabatorii: 1. Kakuheki, doa (totte wo fukumu) ni yogore ga areba fuku. 2. Senmendai, kagami, benki ni yogore ga areba fuku. Benki ni toiretto peepaa igai no mono wa nagasanai. 3. Gomibako wo toridashi shori suru. Shori go wa gomibako wo osameru doa no rokku wo kakunin suru. 4. Yuka wo moppu matawa wesu de fuku. 5. Fusoku shite iru toire youhin wo hojuu suru."
+          },
+          "english": "Lavatory Cleaning: 1. Wipe bulkheads and doors (including door handles). 2. Clean sink basins, mirrors, and toilet bowls. Never flush anything other than approved toilet paper into toilet bowls. 3. Empty and dispose of sanitary trash bins, verifying the access flap locks securely. 4. Mop or wipe down floors. 5. Restock toilet paper, soap, and amenities.",
+          "sinhala": "වැසිකිලි පිරිසිදු කිරීම: 1. බිත්ති, දොරවල් සහ දොර අගුල් (Handles) පිසදමන්න. 2. සින්ක් එක, කණ්ණාඩිය සහ කොමඩ් එක පිරිසිදු කරන්න. වැසිකිලි කඩදාසි (Toilet paper) හැර වෙනත් කිසිවක් කොමඩ් එකට දමා ෆ්ලෂ් නොකරන්න. 3. කුණු කූඩය ඉවත් කර බැහැර කරන්න; පියන නිසි ලෙස ලොක් කරන්න. 4. බිම මොප් කරන්න. 5. අඩුපාඩු ඇති වැසිකිලි ද්‍රව්‍ය නැවත පුරවන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "වැසිකිලියේ කොමඩ් එකට Toilet Paper හැර වෙන කිසිම දෙයක් දාන්න තහනම්! දොර හැන්ඩ්ල් එක පවා විසබීජ නාශක දාලා පිහදාන්න ඕනෙ. ටොයිලට් පේපර් සහ සබන් අඩු නම් අලුතින් පුරවන්න ඕනෙ (Hojuu).",
+            "japanese_tts_text": "便器にトイレットペーパー以外のものは流さない。ゴミ箱を処理し、トイレ用品を補充する。"
+          }
+        },
+        {
+          "section_id": "P37_S02",
+          "content_type": "cabin_vacuuming_and_lost_items",
+          "japanese": {
+            "original_kanji": "④ その他客室内: ① 隔壁、ドア、オーバーヘッド・ストウェージに汚れがあればふく。② 床に落ちている大きなゴミは拾い、小さなゴミは掃除機で処理する。シート下や窓側は忘れ物や不審物に注意しながら掃除機をかける。",
+            "furigana": "④ その他(ほか)客(きゃく)室(しつ)内(ない): ① 隔(かく)壁(へき)、ドア、オーバーヘッド・ストウェージに汚(よご)れがあればふく。② 床(ゆか)に落(お)ちている大(おお)きなゴミは拾(ひろ)い、小(ちい)さなゴミは掃(そう)除(じ)機(き)で処(しょ)理(り)する。シート下(した)や窓(まど)側(がわ)は忘(わす)れ物(もの)や不(ふ)審(しん)物(ぶつ)に注(ちゅう)意(い)しながら掃(そう)除(じ)機(き)をかける。",
+            "romaji": "4. Sonohoka kyakushitsunai: 1. Kakuheki, doa, oobaaheddo sutoweeji ni yogore ga areba fuku. 2. Yuka ni ochite iru ookina gomi wa hiroi, chiisana gomi wa soujiki de shori suru. Shiito shita ya madogawa wa wasuremono ya fushinbutsu ni chuui shinagara soujiki wo kakeru."
+          },
+          "english": "General Cabin Area: 1. Wipe bulkheads, exit doors, and overhead stowage bins. 2. Manually pick up large debris from the aisle, then vacuum smaller dirt. Vacuum thoroughly under seats and along window edges while carefully watching for lost property or suspicious objects.",
+          "sinhala": "පොදු කැබින් ප්‍රදේශය: 1. බිත්ති, දොරවල් සහ හිසට ඉහළින් ඇති බෑග් රාක්ක (Overhead bins) පිසදමන්න. 2. බිම වැටී ඇති ලොකු කුණු අතින් අහුලා, කුඩා කුණු වැකියුම් ක්ලීනරයෙන් පිරිසිදු කරන්න. ආසන යට සහ ජනේල පැති වැකියුම් කරන අතරතුර මගීන්ට අමතක වූ බඩු හෝ සැකකටයුතු ද්‍රව්‍ය කෙරෙහි අවධානයෙන් සිටින්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "බිම වැටුනු ලොකු කඩදාසි අතින් අහුලලා, වැකියුම් ක්ලීනර් (Soujiki) එක දාන්න ඕනෙ. ආසන යට වැකියුම් කරද්දී මගීන්ගේ බඩු වැටිලා තියෙනවද කියලා හොඳින් ඇස් යොමු කරලා බලන්න ඕනෙ.",
+            "japanese_tts_text": "大きなゴミは拾い、小さなゴミは掃除機で処理する。シート下は忘れ物や不審物に注意する。"
+          }
+        },
+        {
+          "section_id": "P37_S03",
+          "content_type": "post_flight_deep_clean",
+          "japanese": {
+            "original_kanji": "C. 飛行後作業：国内線機材において、その日の飛行を終了した後の夜間駐機時または、これに準じて駐機する場合、1日1回実施する。基本的な作業・場所は、飛行間作業と同様であるが、時間をかけて汚れているところに注意しながら全体を清掃する。また、指示がある場所は消毒液を使用する。",
+            "furigana": "C. 飛(ひ)行(こう)後(ご)作(さ)業(ぎょう)：国(こく)内(ない)線(せん)機(き)材(ざい)において、その日(ひ)の飛(ひ)行(こう)を終(しゅう)了(りょう)したあ後(と)の夜(や)間(かん)駐(ちゅう)機(き)時(じ)または、これに準(じゅん)じて駐(ちゅう)機(き)する場(ば)合(あい)、1日(にち)1回(かい)実(じっ)施(し)する。基(き)本(ほん)的(てき)な作(さ)業(ぎょう)・場(ば)所(しょ)は、飛(ひ)行(こう)間(かん)作(さ)業(ぎょう)と同(どう)様(よう)であるが、時(じ)間(かん)をかけて汚(よご)れているところに注(ちゅう)意(い)しながら全(ぜん)体(たい)を清(せい)掃(そう)する。また、指(し)示(じ)がある場(ば)所(しょ)は消(しょう)毒(どく)液(えき)を使(し)用(よう)する。",
+            "romaji": "C. Hikougo sagyou: Kokunaisen kizai ni oite, sono hi no hikou wo shuuryou shita ato no yakan chuukiji matawa, kore ni junjite chuuki suru baai, ichinichi ikkai jisshi suru. Kihonteki na sagyou, basho wa, hikoukan sagyou to douyou de aru ga, jikan wo kakete yogorete iru tokoro ni chuui shinagara zentai wo seisou suru. Mata, shiji ga aru basho wa shoudokueki wo shiyou suru."
+          },
+          "english": "C. Post-flight Cleaning (Hikougo Sagyou): Conducted once daily during overnight parking after all scheduled domestic flights finish. Follows the same scope as inter-flight cleaning, but conducted unhurriedly and thoroughly across the entire aircraft, applying disinfectant solution where mandated.",
+          "sinhala": "C. පියාසැරියෙන් පසු මෙහෙයුම් (Hikougo Sagyou): දවසේ ගුවන් ගමන් සියල්ල අවසන් වූ පසු රාත්‍රී කාලයේ දිනකට එක් වරක් (1日1回) සිදු කරනු ලබයි. මූලික පියවර ගුවන් වාර අතර පිරිසිදු කිරීමට සමාන වුවද, වැඩි කාලයක් වැය කරමින් සම්පූර්ණ යානයම ඉතා සූක්ෂමව පිරිසිදු කරන අතර නියමිත ස්ථානවල විෂබීජ නාශක දියර (Shoudokueki) භාවිත කරයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "විභාගයට අහනවා: Hikougo sagyou එක කරන්නේ දවසකට කී පාරක්ද? දිනකට එක් වරක් පමණයි (1日1回)! ඒක කරන්නේ රෑට යානය නවත්වල තියෙන වෙලාවට. එතකොට හදිස්සියක් නැති නිසා සම්පූර්ණ යානයම විෂබීජ නාශක දාලා හොඳටම පිරිසිදු කරනවා.",
+            "japanese_tts_text": "飛行後作業は夜間駐機時に1日1回実施し、時間をかけて全体を清掃し消毒液を使用する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "オーバーヘッド・ストウェージ",
+          "furigana": "おーばーへっど・すとうぇーじ",
+          "romaji": "Oobaaheddo Sutoweeji",
+          "english": "Overhead Stowage Bin",
+          "sinhala": "හිසට ඉහළින් ඇති ගමන් මලු රඳවනය"
+        },
+        {
+          "japanese": "掃除機",
+          "furigana": "そうじき",
+          "romaji": "Soujiki",
+          "english": "Vacuum Cleaner",
+          "sinhala": "වැකියුම් ක්ලීනරය"
+        },
+        {
+          "japanese": "消毒液",
+          "furigana": "しょうどくえき",
+          "romaji": "Shoudokueki",
+          "english": "Disinfectant Solution",
+          "sinhala": "විෂබීජ නාශක දියරය"
+        }
+      ]
+    },
+    {
+      "page_number": 38,
+      "page_title_sinhala": "ජාත්‍යන්තර යානා පිරිසිදු කිරීම සහ රේගු නීති (Customs Violations) සහ Lost & Found නීති",
+      "page_title_japanese": "D. 国際線作業、関税法違反と忘れ物・不審物ルール",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P38_S01",
+          "content_type": "international_cabin_and_customs_law",
+          "japanese": {
+            "original_kanji": "D. 国際線作業：国際線は出発便までの時間が長いスケジュールが多いため、作業は国内線飛行後作業と同様に行われる。国内線の作業と比べ行先別・クラス別によるポケットセット品・リネン類の座席セット入れ替え作業が加わり、また、搭載物品の種類/量とも多いため、短時間で行うには大人数で作業を実施する必要がある。なお、国際線の航空機内は、外国と同じ取り扱いを受けており、機用品の積みおろしは、税関長の指定した経路を通り、指定した方法で行わないと関税法違反となり、タバコ、酒、食品、雑誌等の物品を無断で持ち出した場合は密輸として罰せられる。従って、たとえ空き缶やゴミ等であっても定められた方法で処理しなければならない。",
+            "furigana": "D. 国(こく)際(さい)線(せん)作(さ)業(ぎょう)：国(こく)際(さい)線(せん)は出(しゅっ)発(ぱつ)便(びん)までの時(じ)間(かん)が長(なが)いスケジュールが多(おお)いため、作(さ)業(ぎょう)は国(こく)内(ない)線(せん)飛(ひ)行(こう)後(ご)作(さ)業(ぎょう)と同(どう)様(よう)に行(おこな)われる。国(こく)内(ない)線(せん)の作(さ)業(ぎょう)と比(くら)べ行(ゆ)き先(さき)別(べつ)・クラス別(べつ)によるポケットセット品(ひん)・リネン類(るい)の座(ざ)席(せき)セット入(い)れ替(か)え作(さ)業(ぎょう)が加(くわ)わり、また、搭(とう)載(さい)物(ぶっ)品(ぴん)の種(しゅ)類(るい)／量(りょう)とも多(おお)いため、短(たん)時(じ)間(かん)で行(おこな)うには大(おお)人(にん)数(ずう)で作(さ)業(ぎょう)を実(じっ)施(し)する必(ひつ)要(よう)がある。なお、国(こく)際(さい)線(せん)の航(こう)空(くう)機(き)内(ない)は、外(がい)国(こく)と同(おな)じ取(とり)り扱(あつか)いを受(う)けており、機(き)用(よう)品(ひん)の積(つ)みおろしは、税(ぜい)関(かん)長(ちょう)の指(し)定(てい)した経(けい)路(ろ)を通(とお)り、指(し)定(てい)した方(ほう)法(ほう)で行(おこな)わないと関(かん)税(ぜい)法(ほう)違(い)反(はん)となり、タバコ、酒(さけ)、食(しょく)品(ひん)、雑(ざっ)誌(し)等(とう)の物(ぶっ)品(ぴん)を無(む)断(だん)で持(も)ち出(だ)した場(ば)合(あい)は密(みつ)輸(ゆ)として罰(ばっ)せられる。従(したが)って、たとえ空(あ)き缶(かん)やゴミ等(とう)であっても定(さだ)められた方(ほう)法(ほう)で処(しょ)理(り)しなければならない。",
+            "romaji": "D. Kokusaisen sagyou: Kokusaisen wa shuppatsubin made no jikan ga nagai sukejuuru ga ooi tame, sagyou wa kokunaisen hikougo sagyou to douyou ni okonawareru. Kokunaisen no sagyou to kurabe yukisakibetsu, kurasubetsu ni yoru poketto settohin, rinenrui no zaseki setto irekae sagyou ga kuwawari, mata, tousai buppin no shurui/ryou tomo ooi tame, tanjikan de okonau ni wa ooninzuu de sagyou wo jisshi suru hitsuyou ga aru. Nao, kokusaisen no koukuukinai wa, gaikoku to onaji toriatsukai wo ukete ori, kiyouhin no tsumioroshi wa, zeikanchou no shitei shita keiro wo toori, shitei shita houhou de okonawanai to kanzeihou ihan to nari, tabako, sake, shokuhin, zasshi tou no buppin wo mudan de mochidashita baai wa mitsuyu to shite basserareru. Shitagatte, tatoe akikan ya gomi tou de atte mo sadamerareta houhou de shori shinakereba naranai."
+          },
+          "english": "International Cabin Cleaning & Customs Laws: International turnarounds have longer ground times, so cleaning is as thorough as overnight deep-cleaning. Tasks include swapping pillow covers/blankets (linens) and multi-language magazines across classes, requiring large teams. Crucial Legal Warning: An international cabin is legally considered foreign territory under customs law. In-flight items must be moved strictly via customs-approved routes. Removing liquor, cigarettes, snacks, or even magazines without customs authorization is criminal smuggling (Mitsuyu). Even empty drink cans and garbage must be disposed of via designated customs channels.",
+          "sinhala": "ජාත්‍යන්තර ගුවන් යානා පිරිසිදු කිරීම සහ රේගු නීති: ජාත්‍යන්තර යානාවල පිටත්වීමට වැඩි කාලයක් ඇති බැවින් රාත්‍රී පිරිසිදු කිරීමක් මෙන් ඉතා සවිස්තරාත්මකව කෙරේ. කොට්ට උර, බ්ලැන්කට් සහ පන්ති අනුව සඟරා මාරු කිරීමට ඇති බැවින් විශාල සේවක පිරිසක් යොදවයි. ඉතා වැදගත් රේගු නීතිය (Customs Law): ජාත්‍යන්තර යානයක් තුළ පරිසරය නීතියෙන් සලකන්නේ 'විදේශීය භූමියක්' (Foreign territory) ලෙසයි. භාණ්ඩ බෑම රේගු අධ්‍යක්ෂවරයා නියම කළ පාරෙන් පමණක් කළ යුතුය. යානයේ ඇති මත්පැන්, දුම්වැටි, කෑම බීම හෝ සඟරාවක් පවා අවසරයකින් තොරව පිටතට ගෙන ආවොත් එය 'ජාවාරමක්' (密輸 - Mitsuyu) ලෙස සලකා බරපතල දඬුවම් පමුණුවයි. හිස් ටින් සහ කුණු කසළ පවා නියමිත රේගු ක්‍රමයටම බැහැර කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි මෙන්න මේක රතු කට්ට පනින වැදගත්ම නීතියක්! ජාත්‍යන්තර යානයක් කියන්නේ ජපානය ඇතුළේ තිබ්බත් නීතියෙන් විදේශ රටක්. යානය සුද්ද කරද්දී එතන තියෙන චොකලට් එකක්, සඟරාවක්, මත්පැන් බෝතලයක් හරි සිගරට් එකක් හරි 'කවුරුත් දකින්නේ නෑනෙ' කියලා සාක්කුවේ දාගෙන එළියට ආවොත්, රේගු පනත යටතේ ජාවාරම්කරුවෙක් (Mitsuyu) කියලා පොලීසියෙන් අත්අඩංගුවට ගන්නවා! හිස් කෑන් එකක්වත් නියමිත පාරෙන් මිසක් වෙන පාරකින් එළියට ගේන්න බෑ!",
+            "japanese_tts_text": "国際線の機内は外国と同じ扱いである。無断で物品を持ち出すと密輸として罰せられる。"
+          }
+        },
+        {
+          "section_id": "P38_S02",
+          "content_type": "safety_card_lost_and_found_rules",
+          "japanese": {
+            "original_kanji": "注意！清掃作業において次の点を厳守する。i 安全のしおりは、必ず全席にその機体に合ったものがセットされていなければならない。ii 安全のしおりは、表題が見えやすいように手前にセットされなければならない。iii 座席のポケットや座席の下などで旅客の忘れ物を見つけた場合は、責任者を通して、あらかじめ決まった連絡ルートで発見の報告を行わなければならない。とくに財布・携帯電話・パスポート等の貴重品は速やかに報告する。その際、発見場所を伝えることが大切である。iv 不審物を発見した場合は、責任者に報告する。",
+            "furigana": "注(ちゅう)意(い)！清(せい)掃(そう)作(さ)業(ぎょう)において次(つぎ)の点(てん)を厳(げん)守(しゅ)する。i 安(あん)全(ぜん)のしおりは、必(かなら)ず全(ぜん)席(せき)にその機(き)体(たい)に合(あ)ったものがセットされていなければならない。ii 安(あん)全(ぜん)のしおりは、表(ひょう)題(だい)が見(み)えやすいように手(て)前(まえ)にセットされなければならない。iii 座(ざ)席(せき)のポケットや座(ざ)席(せき)の下(した)などで旅(りょ)客(かく)の忘(わす)れ物(もの)を見(み)つけた場(ば)合(あい)は、責(せき)任(にん)者(しゃ)を通(とお)して、あらかじめ決(き)まった連(れん)絡(らく)ルートで発(はっ)見(けん)の報(ほう)告(こく)を行(おこな)わなければならない。とくに財(さい)布(ふ)・携(けい)帯(たい)電(でん)話(わ)・パスポート等(とう)の貴(き)重(ちょう)品(ひん)は速(すみ)やかに報(ほう)告(こく)する。その際(さい)、発(はっ)見(けん)場(ば)所(しょ)を伝(つた)えることが大(たい)切(せつ)である。iv 不(ふ)審(しん)物(ぶつ)を発(はっ)見(けん)した場(ば)合(あい)は、責(せき)任(にん)者(しゃ)に報(ほう)告(こく)する。",
+            "romaji": "Chuui! Seisou sagyou ni oite tsugi no ten wo genshu suru. 1. Anzen no shiori wa, kanarazu zenseki ni sono kitai ni atta mono ga setto sarete inakereba naranai. 2. Anzen no shiori wa, hyoudai ga mieyasui you ni temae ni setto sarenakereba naranai. 3. Zaseki no poketto ya zaseki no shita nado de ryokaku no wasuremono wo mitsuketa baai wa, sekininsha wo tooshite, arakajime kimatta renraku ruuto de hakken no houkoku wo okonawanakereba naranai. Tokuni saifu, keitaidenwa, pasupooto tou no kichouhin wa sumiyaka ni houkoku suru. Sono sai, hakken basho wo tsutaeru koto ga taisetsu de aru. 4. Fushinbutsu wo hakken shita baai wa, sekininsha ni houkoku suru."
+          },
+          "english": "Strict Cleaning Mandates: 1. Safety Leaflet (Anzen no Shiori) matching that exact aircraft model must be present at every seat. 2. Safety leaflet title must face outward/forward so passengers can clearly see it. 3. Lost Property: If passenger items are found under seats or in pockets, report through official channels to the supervisor immediately. For valuables (wallets, phones, passports), report urgently, specifying the exact seat location where found. 4. Suspicious Objects: Report immediately to supervisor without touching.",
+          "sinhala": "පිරිසිදු කිරීමේ දැඩි නීති: 1. ආරක්ෂිත උපදෙස් පත්‍රිකාව (Anzen no shiori) අදාළ යානා මාදිලියට ගැළපෙන එකක් බව තහවුරු කර සියලුම ආසනවල අනිවාර්යයෙන් තිබිය යුතුය. 2. ආරක්ෂිත පත්‍රිකාවේ මාතෘකාව මගීන්ට පැහැදිලිව පෙනෙන පරිදි සාක්කුවේ ඉදිරියෙන්ම තැබිය යුතුය. 3. අමතක වූ බඩු (Lost property): ආසන යට හෝ සාක්කුවේ තිබී මගීන්ගේ බඩු හමු වූ විට, වහාම ප්‍රධානියා මාර්ගයෙන් නියමිත පණිවිඩ මාර්ගයෙන් වාර්තා කරන්න. විශේෂයෙන් මුදල් පසුම්බි, ජංගම දුරකථන සහ විදේශ ගමන් බලපත්‍ර (Passports) හමු වූ විට එය හමුවූ නිශ්චිත ආසන අංකය සහිතව වහාම වාර්තා කිරීම අතිශය වැදගත් වේ. 4. සැකකටයුතු යමක් (Fushinbutsu) දුටුවහොත් අත නොතබා වහාම ප්‍රධානියාට දන්වන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "විභාගයට අහනවා Safety Leaflet එක තියන්න ඕනෙ කොහොමද කියලා? ඒ යානයට අදාළ එකම වෙන්න ඕනෙ (B777 යානයට B737 කොළ දාන්න බෑ). ඒ වගේම ඒකේ නම ඉස්සරහට පේන්න තියන්න ඕනෙ. මගියෙකුගේ පාස්පෝට් එකක් හරි පෝන් එකක් හරි හම්බවුණොත් 'මම මේක අහවල් සීට් එක යටින් හොයාගත්තේ' (Hakken basho) කියලා සීට් නම්බර් එකත් එක්කම සුපර්වයිසර්ට දෙන්න ඕනෙ!",
+            "japanese_tts_text": "安全のしおりは全席に手前にセットする。貴重品の忘れ物は発見場所を速やかに報告する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "密輸",
+          "furigana": "みつゆ",
+          "romaji": "Mitsuyu",
+          "english": "Smuggling (Crime)",
+          "sinhala": "ජාවාරම් කිරීම (නීති විරෝධී ප්‍රවාහනය)"
+        },
+        {
+          "japanese": "関税法違反",
+          "furigana": "かんぜいほういはん",
+          "romaji": "Kanzeihou Ihan",
+          "english": "Customs Law Violation",
+          "sinhala": "රේගු නීති උල්ලංඝනය"
+        },
+        {
+          "japanese": "貴重品",
+          "furigana": "きちょうひん",
+          "romaji": "Kichouhin",
+          "english": "Valuables (Passport, wallet, phone)",
+          "sinhala": "වටිනා කියන ද්‍රව්‍ය"
+        },
+        {
+          "japanese": "不審物",
+          "furigana": "ふしんぶつ",
+          "romaji": "Fushinbutsu",
+          "english": "Suspicious Object",
+          "sinhala": "සැකකටයුතු වස්තුව"
+        }
+      ]
+    },
+    {
+      "page_number": 39,
+      "page_title_sinhala": "කැබින් සේවා ද්‍රව්‍ය පැටවීම (In-Flight Amenities Loading) සහ ගබඩා මෙහෙයුම්",
+      "page_title_japanese": "E. 搭載作業と F. 庫内作業",
+      "mapped_images": [
+        "Ground handling - Images V1/251.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P39_S01",
+          "content_type": "in_flight_supplies_loading",
+          "japanese": {
+            "original_kanji": "E. 搭載作業：航空機内には機用品と呼ばれる、乗客に直接または客室乗務員を通して提供する物（ヘッドホン、ブランケットなどのサービス物品。衛生管理に注意を払うトイレ用品、国際線では入国時に必要な入国提出書類などさまざまな物がある。）、あるいは、客室乗務員が使用する物などが、その用途、必要個数等に応じて機内の各所（各座席・調理室内・トイレ内・頭上収納棚等）に分けて搭載されている。定時性確保のために次便出発まで迅速に、かつ間違いのないよう所定の位置に搭載していかなければならない。機内での作業が終了したら、責任者により最終チェックが行われる。",
+            "furigana": "E. 搭(とう)載(さい)作(さ)業(ぎょう)：航(こう)空(くう)機(き)内(ない)には機(き)用(よう)品(ひん)と呼(よ)ばれる、乗(じょう)客(きゃく)に直(ちょく)接(せつ)または客(きゃく)室(しつ)乗(じょう)務(む)員(いん)を通(とお)して提(てい)供(きょう)する物(もの)（ヘッドホン、ブランケットなどのサービス物(ぶっ)品(ぴん)。衛(えい)生(せい)管(かん)理(り)に注(ちゅう)意(い)を払(はら)うトイレ用(よう)品(ひん)、国(こく)際(さい)線(せん)では入(にゅう)国(こく)時(じ)に必(ひつ)要(よう)な入(にゅう)国(こく)提(てい)出(しゅつ)書(しょ)類(るい)などさまざまな物(もの)がある。）、あるいは、客(きゃく)室(しつ)乗(じょう)務(む)員(いん)が使(し)用(よう)する物(もの)などが、その用(よう)途(と)、必(ひつ)要(よう)個(こ)数(すう)等(とう)に応(おう)じて機(き)内(ない)の各(かく)所(しょ)（各(かく)座(ざ)席(せき)・調(ちょう)理(り)室(しつ)内(ない)・トイレ内(ない)・頭(ず)上(じょう)収(しゅう)納(のう)棚(だな)等(とう)）に分(わ)けて搭(とう)載(さい)されている。定(てい)時(じ)性(せい)確(かく)保(ほ)のために次(じ)便(びん)出(しゅっ)発(ぱつ)まで迅(じん)速(そく)に、かつ間(ま)違(ちが)いのないよう所(しょ)定(てい)の位(い)置(ち)に搭(とう)載(さい)していかなければならない。機(き)内(ない)での作(さ)業(ぎょう)が終(しゅう)了(りょう)したら、責(せき)任(にん)者(しゃ)により最(さい)終(しゅう)チェックが行(おこな)われる。",
+            "romaji": "E. Tousai sagyou: Koukuukinai ni wa kiyouhin to yobareru, joukyaku ni chokusetsu matawa kyakushitsu joumuin wo tooshite teikyou suru mono (heddohon, buranketto nado no saabisu buppin. Eiseikanri ni chuui wo harau toire youhin, kokusaisen dewa nyuukokuji ni hitsuyou na nyuukoku teishutsu shorui nado samazama na mono ga aru.), aruiwa, kyakushitsu joumuin ga shiyou suru mono nado ga, sono youto, hitsuyou kosuu tou ni oujite kinai no kakusho (kaku zaseki, chourishitsunai, toirenai, zujou shuunoudana tou) ni wakete tousai sarete iru. Teijisei kakuho no tame ni jibin shuppatsu made jinsoku ni, katsu machigai no nai you shotei no ichi ni tousai shite ikanakereba naranai. Kinai de no sagyou ga shuuryou shitara, sekininsha ni yori saishuu chekku ga okonawareru."
+          },
+          "english": "In-Flight Supplies Loading (Kiyouhin - Figure 251): Loading amenities supplied directly to passengers or flight attendants (headphones, blankets, hygiene items, customs entry cards) and crew work gear into designated cabin locations (seats, galleys, lavatories, overhead bins). Handlers must work swiftly and accurately to safeguard on-time departure. Upon completion, the operation supervisor executes a final sign-off inspection.",
+          "sinhala": "කැබින් සේවා ද්‍රව්‍ය පැටවීම (රූපය 251): ගුවන් මගීන්ට සහ කාර්ය මණ්ඩලයට අවශ්‍ය හෙඩ්ෆෝන්, බ්ලැන්කට්, වැසිකිලි සනීපාරක්ෂක ද්‍රව්‍ය, සහ ජාත්‍යන්තර සංක්‍රමණ කාඩ්පත් ආදී 'ගුවන් ගමන් සේවා ද්‍රව්‍ය' (機用品 - Kiyouhin) යානයේ ආසන, ගැලි, වැසිකිලි සහ හිසට ඉහළින් ඇති රාක්කවල නිසි තැන්වල පටවනු ලැබේ. නියමිත වේලාවට පිටත්වීම සහතික කිරීම සඳහා කිසිදු වරදක් නොවන සේ ඉතා වේගයෙන් නියමිත තැන්වල තැන්පත් කළ යුතුය. වැඩ අවසන් වූ පසු ප්‍රධානියා විසින් අවසාන පරීක්ෂාව (Final check) සිදු කරයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 251 බලන්න. මේ සේවකයා ආසන සාක්කුවලට අවශ්‍ය පොත්පත් සහ පත්‍රිකා පටවනවා. හෙඩ්ෆෝන්, බ්ලැන්කට්, ඉමිග්‍රේෂන් කාඩ් මේ හැම එකකටම කියන්නේ 'Kiyouhin' (機用品) කියලා. මේවා නිවැරදි තැන්වලින් තියලා ඉවර වුණාම Supervisor ඇවිත් Final Check එක කරලා Sign කරනවා.",
+            "japanese_tts_text": "機内にはヘッドホンやブランケットなどの機用品を所定の位置に迅速に搭載し、最終チェックを行う。"
+          }
+        },
+        {
+          "section_id": "P39_S02",
+          "content_type": "warehouse_sorting_and_kitting",
+          "japanese": {
+            "original_kanji": "F. 庫内作業：外部の業者から納入される機用品は、取り扱う物品の種類別に仕分けされる。機用品は種類や数量が多いため、広いスペースの保管庫が必要になる。仕分け、袋詰めの搭載準備作業においては、機種、路線および座席数などによって搭載基準が異なるため、搭載品の種類と数量を確認して、ビニール・パックや専用キットに入れ、それらを便ごとに分けられたカートにセットしていく。いずれの作業もほとんど手作業がおもであり、1日のうち、便数が多く、作業時間に余裕のない時間帯は、大人数で実施されている。",
+            "furigana": "F. 庫(こ)内(ない)作(さ)業(ぎょう)：外(がい)部(ぶ)の業(ぎょう)者(しゃ)から納(のう)入(にゅう)される機(き)用(よう)品(ひん)は、取(とり)り扱(あつか)う物(ぶっ)品(ぴん)の種(しゅ)類(るい)別(べつ)に仕(し)分(わ)けされる。機(き)用(よう)品(ひん)は種(しゅ)類(るい)や数(すう)量(りょう)が多(おお)いため、広(ひろ)いスペースの保(ほ)管(かん)庫(こ)が必(ひつ)要(よう)になる。仕(し)分(わ)け、袋(ふくろ)詰(づ)めの搭(とう)載(さい)準(じゅん)備(び)作(さ)業(ぎょう)においては、機(き)種(しゅ)、路(ろ)線(せん)および座(ざ)席(せき)数(すう)などによって搭(とう)載(さい)基(き)準(じゅん)が異(こと)なるため、搭(とう)載(さい)品(ひん)の種(しゅ)類(るい)と数(すう)量(りょう)を確(かく)認(にん)して、ビニール・パックや専(せん)用(よう)キットに入(い)れ、それらを便(びん)ごとに分(わ)けられたカートにセットしていく。いずれの作(さ)業(ぎょう)もほとんど手(て)作(さ)業(ぎょう)がおもであり、1日(にち)のうち、便(びん)数(すう)が多(おお)く、作(さ)業(ぎょう)時(じ)間(かん)に余(よ)裕(ゆう)のない時(じ)間(かん)帯(たい)は、大(おお)人(にん)数(ずう)で実(じっ)施(し)されている。",
+            "romaji": "F. Konai sagyou: Gaibu no gyousha kara nounyuu sareru kiyouhin wa, toriatsukau buppin no shuruibetsu ni shiwake sareru. Kiyouhin wa shurui ya suuryou ga ooi tame, hiroi supeesu no hokanko ga hitsuyou ni naru. Shiwake, fukurozume no tousai junbi sagyou ni oite wa, kishu, rosen oyobi zasekisuu nado ni yotte tousai kijun ga kotonaru tame, tousaihin no shurui to suuryou wo kakunin shite, biniiru pakku ya sen'you kitto ni ire, sorera wo bin goto ni wakerareta kaato ni setto shite iku. Izure no sagyou mo hotondo te-sagyou ga omo de ari, ichinichi no uchi, binsuu ga ooku, sagyou jikan ni yoyuu no nai jikantai wa, ooninzuu de jisshi sarete iru."
+          },
+          "english": "Warehouse Operations (Konai Sagyou): Supplies delivered by external vendors are sorted by category in large warehouse holding facilities. Because loading standards vary by aircraft model, route, and seat configuration, handlers verify item types and piece counts, pack supplies into sealed plastic packs or kits, and stage them onto carts designated per flight. Most of this preparation is manual labor, staffed by large teams during peak departure banks.",
+          "sinhala": "ගබඩා අභ්‍යන්තර මෙහෙයුම් (庫内作業 - Konai Sagyou): බාහිර සැපයුම්කරුවන්ගෙන් ලැබෙන ගුවන් සේවා ද්‍රව්‍ය වර්ග අනුව විශාල ගබඩා තුළ වර්ග කර තබයි. ගුවන් යානා මාදිලිය, ගමන් මාර්ගය සහ ආසන ගණන අනුව අවශ්‍ය ද්‍රව්‍ය ප්‍රමාණය වෙනස් වන බැවින්, නිසි ගණන තහවුරු කර පොලිතීන් ඇසුරුම්වල හෝ විශේෂ කට්ටලවල බහා, එක් එක් ගුවන් වාරය සඳහා වෙන් කළ කරත්තවලට අසුරයි. මෙම කටයුතු බොහෝ දුරට අතින්ම (Manual) සිදු කරන අතර, ගුවන් ගමන් වැඩි කාර්යබහුල වේලාවන්හිදී විශාල සේවක පිරිසක් යොදවයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ගුවන් යානය ඇතුළට බඩු ගෙනියන්න කලින් ගබඩාව ඇතුළේ වෙන වැඩ කොටසට තමයි 'Konai Sagyou' කියන්නේ. Flight එකෙන් Flight එකට අවශ්‍ය හෙඩ්ෆෝන්, කොට්ට උර ගණන වෙනස්. ඒ නිසා ගබඩා සේවකයෝ මේවා කලින්ම බෑග් වලට දාලා කරත්තවලට Pack කරලා ලෑස්ති කරලා තියනවා.",
+            "japanese_tts_text": "庫内作業では機用品を種類別に仕分けし、便ごとのカートにセットしていく。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "機用品",
+          "furigana": "きようひん",
+          "romaji": "Kiyouhin",
+          "english": "In-flight Supplies / Cabin Amenities",
+          "sinhala": "ගුවන් යානා සේවා උපකරණ සහ සැපයුම්"
+        },
+        {
+          "japanese": "庫内作業",
+          "furigana": "こないさぎょう",
+          "romaji": "Konai Sagyou",
+          "english": "Warehouse / In-store Operations",
+          "sinhala": "ගබඩා අභ්‍යන්තර මෙහෙයුම්"
+        },
+        {
+          "japanese": "頭上収納棚",
+          "furigana": "ずじょうしゅうのうだな",
+          "romaji": "Zujou Shuunoudana",
+          "english": "Overhead Storage Bins",
+          "sinhala": "හිසට ඉහළින් ඇති ගමන් මලු රාක්ක"
+        }
+      ]
+    },
+    {
+      "page_number": 40,
+      "page_title_sinhala": "ගබඩා ඇසුරුම් කටයුතු සාරාංශය සහ කාල කළමනාකරණය",
+      "page_title_japanese": "庫内作業のまとめと時間管理",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P40_S01",
+          "content_type": "kitting_summary",
+          "japanese": {
+            "original_kanji": "外部の業者から納入される機用品は種類や数量が多いため、広いスペースの保管庫で仕分けされ、便ごとにカートにセットされる。便数が多く作業時間に余裕のない時間帯は、大人数で手作業で実施されている。",
+            "furigana": "外(がい)部(ぶ)の業(ぎょう)者(しゃ)から納(のう)入(にゅう)される機(き)用(よう)品(ひん)は種(しゅ)類(るい)や数(すう)量(りょう)が多(おお)いため、広(ひろ)いスペースの保(ほ)管(かん)庫(こ)で仕(し)分(わ)けされ、便(びん)ごとにカートにセットされる。便(びん)数(すう)が多(おお)く作(さ)業(ぎょう)時(じ)間(かん)に余(よ)裕(ゆう)のない時(じ)間(かん)帯(たい)は、大(おお)人(にん)数(ずう)で手(て)作(さ)業(ぎょう)で実(じっ)施(し)されている。",
+            "romaji": "Gaibu no gyousha kara nounyuu sareru kiyouhin wa shurui ya suuryou ga ooi tame, hiroi supeesu no hokanko de shiwake sare, bin goto ni kaato ni setto sareru. Binsuu ga ooku sagyou jikan ni yoyuu no nai jikantai wa, ooninzuu de te-sagyou de jisshi sarete iru."
+          },
+          "english": "Summary of Warehouse Operations: Due to the high volume and variety of supplies delivered from outside vendors, they are sorted in spacious warehouses and pre-kitted onto flight-specific carts. During peak departure periods with tight turnarounds, large teams perform this manual preparation collaboratively.",
+          "sinhala": "ගබඩා මෙහෙයුම් සාරාංශය: බාහිර සැපයුම්කරුවන්ගෙන් විශාල වශයෙන් සැපයුම් ලැබෙන බැවින්, ඒවා ගබඩා තුළ වර්ග කර එක් එක් ගුවන් ගමනට අදාළව කරත්තවලට ඇසුරුම් කෙරේ. ගුවන් වාර ගණන වැඩි කාර්යබහුල වේලාවන්හිදී විශාල පිරිසක් අතින්ම මෙම කටයුතු සිදු කරති.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, ගුවන් තොටුපළක Flight පිටත් වෙන Peak hours වලදී (උදේ සහ හවස) වැඩ කරන්න තියෙන වෙලාව හරිම අඩුයි. ඒ වෙලාවට ගබඩාවේ සේවකයෝ විශාල පිරිසක් එකතු වෙලා අත් දෙකෙන් ඉතාම කාර්යක්ෂමව මේ සැපයුම් ලෑස්ති කරනවා. Teamwork එක තමයි මෙතන ප්‍රධානම දේ!",
+            "japanese_tts_text": "便数が多い時間帯は、大人数で手作業で効率よく機用品をセットする。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "保管庫",
+          "furigana": "ほかんこ",
+          "romaji": "Hokanko",
+          "english": "Storage Facility / Warehouse",
+          "sinhala": "ගබඩා කාමරය / ගුදම"
+        },
+        {
+          "japanese": "手作業",
+          "furigana": "てさぎょう",
+          "romaji": "Te-sagyou",
+          "english": "Manual Work / By Hand",
+          "sinhala": "අතින් සිදුකරන වැඩ (මැනුවල් වැඩ)"
+        }
+      ]
+    }
+  ]
+}

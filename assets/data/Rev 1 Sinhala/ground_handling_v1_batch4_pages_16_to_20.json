@@ -1,0 +1,398 @@
+{
+  "metadata": {
+    "batch": "Batch 4 (Pages 16 to 20)",
+    "document_title": "Ground Handling Training Manual Rev 1 (SSW ReadyToFly)",
+    "source_pdf": "Ground handling V1.pdf",
+    "image_folder": "Ground handling - Images V1/",
+    "tts_config": {
+      "sinhala_teacher_voice": {
+        "voice_locale": "si-LK",
+        "voice_type": "native_sinhala_teacher",
+        "role": "friendly_expert_instructor"
+      },
+      "japanese_native_voice": {
+        "voice_locale": "ja-JP",
+        "voice_type": "native_japanese_professional",
+        "role": "standard_aviation_pronunciation"
+      }
+    }
+  },
+  "pages": [
+    {
+      "page_number": 16,
+      "page_title_sinhala": "බෙල්ට් ලෝඩර් ආරක්ෂාව සහ පෙර සූදානම රැස්වීම (Pre-Operation Briefing)",
+      "page_title_japanese": "ベルト・ローダの安全注意と事前準備ミーティング",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P16_S01",
+          "content_type": "safety_precaution",
+          "japanese": {
+            "original_kanji": "注意！i ベルト・ローダの始動に際しては、他の作業員がベルトの上に乗っていないか、また、ベルトに巻き込まれることがないか、良く確認の上、操作しなければならない。ii ベルト・コンベヤが動いているときは、ベルトの上に乗ってはいけない。また、ベルトに手袋などが巻き込まれないように注意しなければならない。",
+            "furigana": "注(ちゅう)意(い)！i ベルト・ローダの始(し)動(どう)に際(さい)しては、他(ほか)の作(さ)業(ぎょう)員(いん)がベルトの上(うえ)に乗(の)っていないか、また、ベルトに巻(ま)き込(こ)まれることがないか、良(よ)く確(かく)認(にん)の上(うえ)、操(そう)作(さ)しなければならない。ii ベルト・コンベヤが動(うご)いているときは、ベルトの上(うえ)に乗(の)ってはいけない。また、ベルトに手(て)袋(ぶくろ)などが巻(ま)き込(こ)まれないように注(ちゅう)意(い)しなければならない。",
+            "romaji": "Chuui! i Beruto rooda no shidou ni saishite wa, hoka no sagyouin ga beruto no ue ni notte inai ka, mata, beruto ni makikomareru koto ga nai ka, yoku kakunin no ue, sousa shinakereba naranai. ii Beruto konbeya ga ugoite iru toki wa, beruto no ue ni notte wa ikenai. Mata, beruto ni tebukuro nado ga makikomarenai you ni chuui shinakereba naranai."
+          },
+          "english": "Caution! 1. When starting the Belt Loader, thoroughly verify that no other workers are on the belt and that no personnel or items risk being entangled before operating. 2. Never ride or stand on the conveyor belt while it is operating. Be extremely careful that gloves and clothing do not get caught in the moving belt.",
+          "sinhala": "අවවාදයයි! 1. බෙල්ට් ලෝඩරය ක්‍රියාත්මක කිරීමට පෙර, වෙනත් කිසිදු සේවකයෙකු පටිය මත වාඩි වී හෝ නැගී නොසිටින බවත්, පටියට හසුවීමේ අවදානමක් නැති බවත් හොඳින් තහවුරු කර ක්‍රියාත්මක කළ යුතුය. 2. කන්වේයර් පටිය ක්‍රියාත්මක වන විට කිසිසේත්ම පටිය මත නොනැගිය යුතුය. තවද අත්වැසුම් හෝ ඇඳුම් පටියට හසු නොවීමට දැඩි ලෙස වගබලා ගත යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, Belt Loader එකේ වැඩ කරද්දී මේ නීති දෙක ජීවිතේටම මතක තියාගන්න! පටිය On කරන්න කලින් වටපිට බලලා කිසිම කෙනෙක් පටිය උඩ නෑ කියලා තහවුරු කරගන්න ඕනෙ. පටිය කැරකෙන වෙලාවට කවදාවත් ඒක උඩට නගින්නවත්, අත්වැසුම් (Tebukuro) පටියට අහුවෙන්න දෙන්නවත් බෑ. මේකෙන් බරපතල අනතුරු වෙන්න පුළුවන්!",
+            "japanese_tts_text": "ベルト・ローダ始動時は巻き込みがないか確認する。動いているときはベルトの上に乗ってはいけない。"
+          }
+        },
+        {
+          "section_id": "P16_S02",
+          "content_type": "pre_operation_briefing",
+          "japanese": {
+            "original_kanji": "(1) 作業責任者・コントローラおよび作業員は、事前に基本情報および搭載物情報を確認する。(2) 作業の準備：作業責任者・コントローラは、作業員全員と作業について次の要領でミーティングを行う。①取り卸しULDの台数の確認 ②搭載物、特殊搭載物の確認 ③バルク内容の確認 ④「乗り継ぎ搭載物」および「機移し搭載物」の情報確認 ⑤使用機材の確保 ⑥各作業者の役割分担 ⑦安全および注意事項の伝達",
+            "furigana": "(1) 作(さ)業(ぎょう)責(せき)任(nin)者(しゃ)・コントローラおよび作(さ)業(ぎょう)員(いん)は、事(じ)前(ぜん)に基(き)本(ほん)情(じょう)報(ほう)および搭(とう)載(さい)物(ぶつ)情(じょう)報(ほう)を確(かく)認(にん)する。(2) 作(さ)業(ぎょう)の準(じゅん)備(び)：作(さ)業(ぎょう)責(せき)任(にん)者(しゃ)・コントローラは、作(さ)業(ぎょう)員(いん)全(ぜん)員(いん)と作(さ)業(ぎょう)について次(つぎ)の要(よう)領(りょう)でミーティングを行(おこな)う。①取(と)り卸(おろ)しULDの台(だい)数(すう)の確(かく)認(にん) ②搭(とう)載(さい)物(ぶつ)、特(とく)殊(しゅ)搭(とう)載(さい)物(ぶつ)の確(かく)認(にん) ③バルク内(ない)容(よう)の確(かく)認(にん) ④「乗(の)り継(つ)ぎ搭(とう)載(さい)物(ぶつ)」および「機(き)移(うつ)し搭(とう)載(さい)物(ぶつ)」の情(じょう)報(ほう)確(かく)認(にん) ⑤使(し)用(よう)機(き)材(ざい)の確(かく)保(ほ) ⑥各(かく)作(さ)業(ぎょう)者(しゃ)の役(やく)割(わり)分(ぶん)担(たん) ⑦安(あん)全(ぜん)および注(ちゅう)意(い)事(じ)項(こう)の伝(でん)達(たつ)",
+            "romaji": "(1) Sagyou sekininsha, kontoroora oyobi sagyouin wa, jizen ni kihon jouhou oyobi tousaibutsu jouhou wo kakunin suru. (2) Sagyou no junbi: Sagyou sekininsha, kontoroora wa, sagyouin zen'in to sagyou ni tsuite tsugi no youryou de miitingu wo okonau. 1. Torioroshi ULD no daisuu no kakunin 2. Tousaibutsu, tokushu tousaibutsu no kakunin 3. Baruku naiyou no kakunin 4. 'Noritsugi tousaibutsu' oyobi 'kiutsushi tousaibutsu' no jouhou kakunin 5. Shiyou kizai no kakuho 6. Kaku sagyousha no yakuwari bantan 7. Anzen oyobi chuui jikou no dentatsu"
+          },
+          "english": "(1) The operation leader, controller, and workers must confirm flight basics and loading details in advance. (2) Pre-Operation Briefing: The operation leader/controller conducts a team meeting covering: 1. Number of ULDs to unload 2. Cargo and special cargo check 3. Bulk hold contents check 4. Transit and direct-transfer (Kiutsushi) load details 5. Allocation of required GSE 6. Role assignments for each team member 7. Safety instructions and precautions.",
+          "sinhala": "(1) කාර්යය භාර නිලධාරියා, පාලකවරයා සහ සේවකයින් මූලික තොරතුරු හා පැටවුම් තොරතුරු කලින්ම තහවුරු කරගත යුතුය. (2) පෙර සූදානම් රැස්වීම (Pre-Operation Briefing): කාර්ය භාර නිලධාරියා පහත කරුණු 7 සාකච්ඡා කරමින් සේවකයින් සමඟ රැස්වීමක් පවත්වයි: 1. බෑමට ඇති ULD ගණන 2. පටවන භාණ්ඩ සහ විශේෂ භාණ්ඩ 3. බල්ක් මැදිරියේ අන්තර්ගතය 4. සංක්‍රමණ (Transit) සහ සෘජු මාරු (Kiutsushi) භාණ්ඩ 5. භාවිත කරන GSE උපකරණ වෙන් කරගැනීම 6. කාර්ය මණ්ඩලයේ වගකීම් බෙදාදීම 7. ආරක්ෂක උපදෙස් ලබාදීම.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "වැඩ පටන් ගන්න කලින් Leader සහ Controller ඔක්කොම සේවකයෝ එකතු කරලා Pre-operation Meeting එකක් තියෙනවා. ඒකෙදි කරුණු 7ක් බලනවා: බාන්න තියෙන ULD කීයද, පටවන්න තියෙන බඩු මොනවද, බල්ක් එකේ තියෙන්නේ මොනවද, මාරු කරන බඩු (Transit/Kiutsushi) මොනවද, අවශ්‍ය GSE උපකරණ මොනවද, කවුද මොන වැඩේද කරන්නේ, සහ අන්තිමට Safety instructions මොනවද කියලා. මේ කරුණු 7 විභාගයට ගොඩක් වැදගත්!",
+            "japanese_tts_text": "作業責任者・コントローラは、作業員全員と作業についてミーティングを行う。"
+          }
+        },
+        {
+          "section_id": "P16_S03",
+          "content_type": "standby_timing",
+          "japanese": {
+            "original_kanji": "(3) 確保した機材は、スポット・インする航空機の障害にならない場所に待機させる。(4) 到着便到着の10～5分前までにすべての準備を完了し、スポットで待機する。出発便は、予め定められた作業開始時間に間に合うように搬出する。",
+            "furigana": "(3) 確(かく)保(ほ)した機(き)材(ざい)は、スポット・インする航(こう)空(くう)機(き)の障(しょう)害(がい)にならない場(ば)所(しょ)に待(たい)機(き)させる。(4) 到(とう)着(ちゃく)便(びん)到(とう)着(ちゃく)の10～5分(ふん)前(まえ)までにすべての準(じゅん)備(び)を完(かん)了(りょう)し、スポットで待(たい)機(き)する。出(しゅっ)発(ぱつ)便(びん)は、予(あらかじ)め定(さだ)められた作(さ)業(ぎょう)開(かい)始(し)時(じ)間(かん)に間(ま)に合(あ)うように搬(はん)出(しゅつ)する。",
+            "romaji": "(3) Kakuho shita kizai wa, supotto in suru koukuuki no shougai ni naranai basho ni taiki saseru. (4) Touchakubin touchaku no jippun kara gofun mae made ni subete no junbi wo kanryou shi, supotto de taiki suru. Shuppatsubin wa, arakajime sadamerareta sagyou kaishi jikan ni maniau you ni hanshutsu suru."
+          },
+          "english": "(3) Staged GSE must be parked in locations that do not obstruct the aircraft taxiing into the spot. (4) All preparations must be completely finished 10 to 5 minutes before the arrival flight touches in, and personnel must standby at the spot. For departure flights, cargo/baggage must be transported out to meet scheduled start times.",
+          "sinhala": "(3) සූදානම් කරගත් උපකරණ යානය අංගනයට ඇතුළු වීමට බාධා නොවන ස්ථානයක තැබිය යුතුය. (4) යානය පැමිණීමට මිනිත්තු 10 සිට 5 දක්වා පෙර සියලු සූදානම් කිරීම් අවසන් කර Spot එකේ සූදානම්ව (Standby) සිටිය යුතුය. පිටත්වන ගුවන් ගමන් සඳහා නියමිත වේලාවට භාණ්ඩ රැගෙන යාම සිදු කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න කාලය ගැන විභාග ප්‍රශ්නයක්: යානය එන්න කොච්චර වෙලාවකට කලින්ද සූදානම් වෙලා ඉන්න ඕනෙ? හරියටම මිනිත්තු 10ත් 5ත් අතර කාලයට කලින් (10 to 5 minutes before)! උපකරණ ඔක්කොම සූදානම් කරගෙන Spot එකේ Standby ඉන්න ඕනෙ.",
+            "japanese_tts_text": "到着便到着の10～5分前までにすべての準備を完了し、スポットで待機する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "巻き込み",
+          "furigana": "まきこみ",
+          "romaji": "Makikomi",
+          "english": "Entanglement / Getting caught",
+          "sinhala": "පටලැවීම / හසුවීම"
+        },
+        {
+          "japanese": "乗り継ぎ搭載物",
+          "furigana": "のりつぎとうさいぶつ",
+          "romaji": "Noritsugi Tousaibutsu",
+          "english": "Transit Load",
+          "sinhala": "සංක්‍රමණ භාණ්ඩ (Transit)"
+        },
+        {
+          "japanese": "役割分担",
+          "furigana": "やくわりぶんたん",
+          "romaji": "Yakuwari Bantan",
+          "english": "Division of Roles / Duty Assignment",
+          "sinhala": "වගකීම් බෙදාදීම"
+        }
+      ]
+    },
+    {
+      "page_number": 17,
+      "page_title_sinhala": "ULD පැටවීම සහ ඩොලි හැසිරවීම (ULD Loading & Dolly Operations)",
+      "page_title_japanese": "C. ULDの搭降載手順とドーリ操作",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "P17_S01",
+          "content_type": "speed_and_signals",
+          "japanese": {
+            "original_kanji": "(1) 機側でのトーイング・トラクタの速度は、5km/h以下で走行する。(2) ハイリフト・ローダ・オペレータは、トーイング・トラクタ・ドライバに対し、ハイリフト・ローダの装着が完了後、ドーリ装着OKの合図を送る。(3) トーイング・トラクタ・ドライバは、下記の事項を考慮してドーリを装着する。①到着便: コンテナの搬入順序、搬入場所、GSEの装着順序 ②出発便: 貨物室内の搭載ポジション",
+            "furigana": "(1) 機(き)側(そく)でのトーイング・トラクタの速(そく)度(ど)は、5km/h以(い)下(か)で走(そう)行(こう)する。(2) ハイリフト・ローダ・オペレータは、トーイング・トラクタ・ドライバに対(たい)し、ハイリフト・ローダの装(そう)着(ちゃく)が完(かん)了(りょう)後(ご)、ドーリ装(そう)着(ちゃく)OKの合(あい)図(ず)を送(おく)る。(3) トーイング・トラクタ・ドライバは、下(か)記(き)の事(じ)項(こう)を考(こう)慮(りょ)してドーリを装(そう)着(ちゃく)する。①到(とう)着(ちゃく)便(びん): コンテナの搬(はん)入(にゅう)順(じゅん)序(じょ)、搬(はん)入(にゅう)場(ば)所(しょ)、GSEの装(そう)着(ちゃく)順(じゅん)序(じょ) ②出(しゅっ)発(ぱつ)便(びん): 貨(か)物(もつ)室(しつ)内(ない)の搭(とう)載(さい)ポジション",
+            "romaji": "(1) Kisoku de no tooingu torakutaa no sokudo wa, gokiro meetoru maiji ika de soukou suru. (2) Hairifuto rooda opereeta wa, tooingu torakutaa doraiba ni taishi, hairifuto rooda no souchaku ga kanryou go, doorii souchaku OK no aizu wo okuru. (3) Tooingu torakutaa doraiba wa, kaki no jikou wo kouryo shite doorii wo souchaku suru. 1. Touchakubin: kontena no hannyuu junjo, hannyuu basho, GSE no souchaku junjo 2. Shuppatsubin: kamotsushitsunai no tousai pojishon"
+          },
+          "english": "(1) The speed limit for towing tractors operating ramp-side is 5 km/h or less. (2) After positioning the High-Lift Loader against the aircraft, the loader operator signals 'Dolly Docking OK' to the TT driver. (3) The TT driver docks dollies considering: for arrivals - container delivery order, destination, and GSE staging order; for departures - target cargo hold positions.",
+          "sinhala": "(1) යානය අසලදී TT ට්‍රැක්ටරයේ වේගය පැයට කි.මී. 5ක් (5 km/h) හෝ ඊට අඩු විය යුතුය. (2) High-Lift Loader ක්‍රියාකරු විසින් ලෝඩරය යානයට සවි කළ පසු ට්‍රැක්ටර් රියදුරුට 'Dolly Docking OK' සංඥාව ලබාදෙයි. (3) ට්‍රැක්ටර් රියදුරු පැමිණීම් සඳහා බහාලුම් ගෙන යාමේ අනුපිළිවෙල හා පිටත්වීම් සඳහා යානයේ පටවන ස්ථානය (POS) සලකා බලා ඩොලි සවි කරයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "වේග සීමාව කීයද ළමයි? 5 km/h ට වඩා අඩුයි! High Lift Loader එක යානයට සවි කරලා ඉවර වුණාම Loader Operator විසින් TT ඩ්‍රයිවර්ට අතින් හරි කටහඬින් හරි සංඥාවක් දෙනවා 'දැන් ඩොලිය ලං කරන්න පුළුවන්' (Dolly Souchaku OK) කියලා. ඊට පස්සෙයි ඩොලිය ලං කරන්නේ.",
+            "japanese_tts_text": "機側でのトーイング・トラクタの速度は5km/h以下で走行する。ハイリフト・ローダ装着完了後、ドーリ装着OKの合図を送る。"
+          }
+        },
+        {
+          "section_id": "P17_S02",
+          "content_type": "uld_rotation_and_transfer",
+          "japanese": {
+            "original_kanji": "(4) インストラクション・シートでULD番号および搭載ポジションを照合確認する。(5) ハイリフト・ローダに載せるコンテナを航空機貨物室の形状に適合する方向に回転させ、コンテナ進行方向ドーリ・ストッパを外す。①作業者はULD外周面・ドーリ等に異状がないか再度確認する。②ULDをドーリ上で回転させる場合は、周囲の作業者の安全を確認しながら行う。③複数での作業は、お互いに合図をし、声を掛け合うなど、連携よく実施する。④ドーリ上では、ULDを人力移送する。注意！i 重量の有るパレットは、2名以上で移送する。ii 2名以上での作業は、声を掛け合うなど、連携よく実施する。",
+            "furigana": "(4) インストラクション・シートでULD番(ばん)号(ごう)および搭(とう)載(さい)ポジションを照(しょう)合(ごう)確(かく)認(にん)する。(5) ハイリフト・ローダに乗(の)せるコンテナを航(こう)空(くう)機(き)貨(か)物(もつ)室(しつ)の形(けい)状(じょう)に適(てき)合(ごう)する方(ほう)向(こう)に回(かい)転(てん)させ、コンテナ進(しん)行(こう)方(ほう)向(こう)ドーリ・ストッパを外(はず)す。①作(さ)業(ぎょう)者(しゃ)はULD外(がい)周(しゅう)面(めん)・ドーリ等(とう)に異(い)状(じょう)がないか再(さい)度(ど)確(かく)認(にん)する。②ULDをドーリ上(じょう)で回(かい)転(てん)させる場(ば)合(あい)は、周(しゅう)囲(い)の作(さ)業(ぎょう)者(しゃ)の安(あん)全(ぜん)を確(かく)認(にん)しながら行(おこな)う。③複(ふく)数(すう)での作(さ)業(ぎょう)は、お互(たが)いに合(あい)図(ず)をし、声(こえ)を掛(か)け合(あ)うなど、連(れん)携(けい)よく実(じっ)施(し)する。④ドーリ上(じょう)では、ULDを人(じん)力(りき)移(い)送(そう)する。注(ちゅう)意(い)！i 重(じゅう)量(りょう)のあるパレットは、2名(めい)以(い)上(じょう)で移(い)送(そう)する。ii 2名(めい)以(い)上(じょう)での作(さ)業(ぎょう)は、声(こえ)を掛(か)け合(あ)うなど、連(れん)携(けい)よく実(じっ)施(し)する。",
+            "romaji": "(4) Insutorakushon shiito de ULD bangou oyobi tousai pojishon wo shougou kakunin suru. (5) Hairifuto rooda ni noseru kontena wo koukuuki kamotsushitsu no keijou ni tekigou suru houkou ni kaiten sase, kontena shinkou houkou doorii sutoppa wo hazusu. 1. Sagyousha wa ULD gaishuumen, doorii tou ni ijou ga nai ka saido kakunin suru. 2. ULD wo doorii jou de kaiten saseru baai wa, shuui no sagyousha no anzen wo kakunin shinagara okonau. 3. Fukusuu de no sagyou wa, otagai ni aizu wo shi, koe wo kakeau nado, renkei yoku jisshi suru. 4. Doorii jou dewa, ULD wo jinriki isou suru. Chuui! i Juuryou no aru paretto wa, nimei ijou de isou suru. ii Nimei ijou de no sagyou wa, koe wo kakeau nado, renkei yoku jisshi suru."
+          },
+          "english": "(4) Verify the ULD number and position against the Instruction Sheet. (5) Rotate the container on the dolly turntable to align with the aircraft cargo hold contour, then disengage the travel stopper. 1. Inspect the ULD exterior and dolly for abnormalities. 2. When rotating ULDs on dollies, confirm surrounding personnel clearance. 3. Coordinate multi-person tasks through mutual callouts. 4. Transfer ULDs manually on the dolly rollers. Caution: Heavy pallets must be pushed by 2 or more workers with coordinated voice callouts.",
+          "sinhala": "(4) උපදෙස් පත්‍රිකාවේ (Instruction Sheet) ඇති ULD අංකය සහ පටවන ස්ථානය (POS) පරීක්ෂා කරන්න. (5) කන්ටේනරය යානයේ බඳෙහි හැඩයට ගැලපෙන පරිදි ඩොලිය මත කරකවා, ගමන් දිශාවේ ඇති Stopper අගුල ඉවත් කරන්න. 1. ULD පිටත පෘෂ්ඨයේ හානි තිබේදැයි පරීක්ෂා කරන්න. 2. ඩොලිය මත කරකවන විට අවට සේවකයින්ගේ ආරක්ෂාව බලන්න. 3. එකිනෙකාට කතා කරමින් සහයෝගයෙන් වැඩ කරන්න. 4. ඩොලිය මත ULD අතින් තල්ලු කර මාරු කරන්න. අවවාදයයි: අධික බරැති පැලට් සේවකයින් දෙදෙනෙකු හෝ ඊට වැඩි පිරිසක් එක්ව කතාබස් කරමින් තල්ලු කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "කන්ටේනර් එක ඩොලියෙන් ලෝඩර් එකට දාන්න කලින්, යානයේ හැඩයට හරි යන විදිහට Turntable එකෙන් කරකවන්න ඕනෙ. ඊටපස්සේ Stopper එක අයින් කරලා අතින් තල්ලු කරනවා. මතක තියාගන්න, බර පැලට් එක පුද්ගලයෙකුට තනියෙන් තල්ලු කරන්න තහනම්! අනිවාර්යයෙන්ම දෙන්නෙක් හෝ ඊට වැඩි පිරිසක් එකතු වෙලා 'හරි, එක, දෙක, තුන, තල්ලු කරන්න!' කියලා කතාබස් කරගෙනයි කරන්න ඕනෙ.",
+            "japanese_tts_text": "インストラクション・シートでULD番号を確認する。重量のあるパレットは2名以上で声を掛け合って移送する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "照合確認",
+          "furigana": "しょうごうかくにん",
+          "romaji": "Shougou Kakunin",
+          "english": "Cross-check Verification",
+          "sinhala": "සසඳා බලා තහවුරු කිරීම"
+        },
+        {
+          "japanese": "人力移送",
+          "furigana": "じんりきいそう",
+          "romaji": "Jinriki Isou",
+          "english": "Manual Push / Transfer",
+          "sinhala": "මිනිස් ශ්‍රමයෙන් (අතින්) තල්ලු කර ගෙන යාම"
+        },
+        {
+          "japanese": "合図",
+          "furigana": "あいず",
+          "romaji": "Aizu",
+          "english": "Hand Signal / Cue",
+          "sinhala": "සංඥාව"
+        }
+      ]
+    },
+    {
+      "page_number": 18,
+      "page_title_sinhala": "TT ඉවත් කරගැනීම සහ පියාපත් යටින් රිය ධාවනය කිරීමේ දැඩි නීති (Wing-Under Clearance)",
+      "page_title_japanese": "トーイング・トラクタの離脱と翼下通過走行の禁止",
+      "mapped_images": [
+        "Ground handling - Images V1/107.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P18_S01",
+          "content_type": "disconnection_checklist",
+          "japanese": {
+            "original_kanji": "(6) 作業者はトーイング・トラクタが離脱する前に、搭載物の落下等を防止するため下記項目に間違いがないか確認する。① ULDドア・ロックおよびULDタグ（到着便） ② ドーリ・ストッパのロック ③ トーイング・トラクタとドーリの連結",
+            "furigana": "(6) 作(さ)業(ぎょう)者(しゃ)はトーイング・トラクタが離(り)脱(だつ)する前(まえ)に、搭(とう)載(さい)物(ぶつ)の落(らっ)下(か)等(とう)を防(ぼう)止(し)するため下(か)記(き)項(こう)目(もく)に間(ま)違(ちが)いがないか確(かく)認(にん)する。① ULDドア・ロックおよびULDタグ（到(とう)着(ちゃく)便(びん)） ② ドーリ・ストッパのロック ③ トーイング・トラクタとドーリの連(れん)結(けつ)",
+            "romaji": "(6) Sagyousha wa tooingu torakutaa ga ridatsu suru mae ni, tousaibutsu no rakka tou wo boushi suru tame kaki koumoku ni machigai ga nai ka kakunin suru. 1. ULD doa rokku oyobi ULD tagu (touchakubin) 2. Doorii sutoppa no rokku 3. Tooingu torakutaa to doorii no renketsu"
+          },
+          "english": "(6) Before the Towing Tractor drives away, operators must verify the following items to prevent cargo from falling: 1. ULD curtain/door latches locked and ULD tag attached 2. Dolly stoppers securely locked upright 3. Coupling hitch between TT and dollies firmly locked.",
+          "sinhala": "(6) ටෝවින් ට්‍රැක්ටරය ධාවනය කර ඉවත් වීමට පෙර, බඩු බිමට වැටීම වැළැක්වීමට පහත කරුණු 3 පරීක්ෂා කළ යුතුය: 1. ULD දොරවල් ලොක් කර ඇත්ද සහ ටැග් තිබේද 2. ඩොලි Stopper හරියටම ලොක් වී තිබේද 3. ට්‍රැක්ටරය සහ ඩොලි එකිනෙක සම්බන්ධ කරන අගුල (Coupling) නිවැරදිද.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, පින්තූර අංක 107 බලන්න. ට්‍රැක්ටරය අරන් යන්න කලින් දේවල් 3ක් චෙක් කරන්නම ඕනෙ: ULD එකේ දොර වැහිලා ලොක් වෙලාද, ඩොලි ස්ටොපර් එක උඩට ඇවිත් ලොක් වෙලාද, ට්‍රැක්ටරයට ඩොලිය ගැටගහපු පින් එක (Coupling) තදින් වැටිලාද කියලා. මේ එකක් හරි අතපසු වුණොත් පාර මැද බඩු හැලෙනවා!",
+            "japanese_tts_text": "離脱前に、ULDドア・ロック、ドーリ・ストッパのロック、連結状態を確認する。"
+          }
+        },
+        {
+          "section_id": "P18_S02",
+          "content_type": "engine_hazard_clearance",
+          "japanese": {
+            "original_kanji": "(7) トーイング・トラクタが離脱時、航空機のエンジンに近づくので、細心の注意を払い、ごくゆっくりした速度で離脱する。",
+            "furigana": "(7) トーイング・トラクタが離(り)脱(だつ)時(じ)、航(こう)空(くう)機(き)のエンジンに近(ちか)づくので、細(さい)心(しん)の注(ちゅう)意(い)を払(はら)い、ごくゆっくりした速(そく)度(ど)で離(り)脱(だつ)する。",
+            "romaji": "(7) Tooingu torakutaa ga ridatsuji, koukuuki no enjin ni chikazuku node, saishin no chuui wo harai, goku yukkuri shita sokudo de ridatsu suru."
+          },
+          "english": "(7) When the Towing Tractor pulls away, it passes in close proximity to the aircraft engines; pay meticulous attention and depart at an extremely slow, crawling speed.",
+          "sinhala": "(7) ටෝවින් ට්‍රැක්ටරය ඉවතට ගැනීමේදී යානයේ ජෙට් එන්ජිම අසලින් ගමන් කරන බැවින්, උපරිම අවධානය යොමු කරමින් ඉතාමත්ම සෙමින් ධාවනය කර පිටවිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ට්‍රැක්ටරය හරවලා එළියට යද්දී ජෙට් එන්ජිම ගෑවෙන නොගෑවෙන ගානට ළඟින් යන්නේ. ඒ නිසා එකපාර ඇක්සලරේටර් පාගන්න බෑ! ගොඩක් හෙමින්, පරෙස්සමෙන් එන්ජිමට කිසිම හානියක් නොවෙන්න අරන් යන්න ඕනෙ.",
+            "japanese_tts_text": "エンジンに近づくので細心の注意を払い、ごくゆっくりした速度で離脱する。"
+          }
+        },
+        {
+          "section_id": "P18_S03",
+          "content_type": "wing_under_prohibition_and_rules",
+          "japanese": {
+            "original_kanji": "(8) 翼下通過走行はしない。ただし、後方貨物室からのULDの搭載取り卸しの際、トーイング・トラクタおよび牽引されたドーリー等が、やむを得ず翼下通過せざるを得ない場合は、次の注意点を守る。注意！i 発進前に必ず後方を見て、自分が何を運転し、何を牽引しているか、再度確認する。ii 左右の確認をする他、翼をしっかり確認し、非常にゆっくりした速度で走行する。iii 上記確認は、指差呼称で実施する。",
+            "furigana": "(8) 翼(よく)下(か)通(つう)過(か)走(そう)行(こう)はしない。ただし、後(こう)方(ほう)貨(か)物(もつ)室(しつ)からのULDの搭(とう)載(さい)取(と)り卸(おろ)しの際(さい)、トーイング・トラクタおよび牽(けん)引(いん)されたドーリー等(とう)が、やむを得(え)ず翼(よく)下(か)通(つう)過(か)せざるを得(え)ない場(ば)合(あい)は、次(つぎ)の注(ちゅう)意(い)点(てん)を守(まも)る。注(ちゅう)意(い)！i 発(はっ)進(しん)前(まえ)に必(かなら)ず後(こう)方(ほう)を見(み)て、自(じ)分(ぶん)が何(なに)を運(うん)転(てん)し、何(なに)を牽(けん)引(いん)しているか、再(さい)度(ど)確(かく)認(にん)する。ii 左(さ)右(ゆう)の確(かく)認(にん)をする他(ほか)、翼(つばさ)をしっかり確(かく)認(にん)し、非(ひ)常(じょう)にゆっくりした速(そく)度(ど)で走(そう)行(こう)する。iii 上(じょう)記(き)確(かく)認(にん)は、指(し)差(さ)呼(こ)称(しょう)で実(じっ)施(し)する。",
+            "romaji": "(8) Yokuka tsuuka soukou wa shinai. Tadashi, kouhou kamotsushitsu kara no ULD no tousai torioroshi no sai, tooingu torakutaa oyobi ken'in sareta doorii tou ga, yamu wo ezu yokuka tsuuka sezaru wo enai baai wa, tsugi no chuuiten wo mamoru. Chuui! 1. Hasshin mae ni kanarazu kouhou wo mite, jibun ga nani wo unten shi, nani wo ken'in shite iru ka, saido kakunin suru. 2. Sayuu no kakunin wo suru hoka, tsubasa wo shikkari kakunin shi, hijou ni yukkuri shita sokudo de soukou suru. 3. Jouki kakunin wa, shisa koushou de jisshi suru."
+          },
+          "english": "(8) Driving under aircraft wings is strictly prohibited (Yokuka tsuuka soukou wa shinai). However, if passing under the wing is unavoidable when handling aft cargo holds, observe these strict rules: 1. Before moving, check behind to confirm what vehicle you are driving and what you are towing. 2. Check left, right, and look up to visually confirm wing tip clearance, driving at an extremely slow crawl. 3. All verifications must be executed using Point and Call (Shisa Koushou).",
+          "sinhala": "(8) ගුවන් යානයේ පියාපත් යටින් රිය ධාවනය කිරීම තරයේම තහනම්ය (翼下通過走行はしない)! කෙසේ වෙතත්, පසුපස කාගෝ මැදිරියෙන් බඩු බෑමේදී නොවැළැක්විය හැකි හේතුවක් නිසා පියාපත් යටින් යාමට සිදුවුවහොත්, පහත නීති අනිවාර්යයෙන් පිළිපදින්න: 1. පිටත්වීමට පෙර පිටුපස බලා තමන් පදවන්නේ මොන වාහනයද, පිටුපසින් ඇදගෙන යන්නේ මොනවාදැයි නැවත තහවුරු කරන්න. 2. වම දකුණ පරීක්ෂා කරනවාට අමතරව පියාපත දෙස හොඳින් බලා ඉතාමත්ම සෙමින් ධාවනය කරන්න. 3. ඉහත සියලු තහවුරු කිරීම් 'Point and Call' (ඇඟිල්ල දිගු කර ශබ්ද නගා තහවුරු කිරීම) මගින් සිදු කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න මේ රීතිය විභාග ප්‍රශ්න පත්‍රයේ රතු අකුරින්ම තියෙන එකක්: 'Yokuka tsuuka soukou wa shinai' - යානයේ තටු යටින් වාහන එලවන්න තහනම්! ඒත් පිටිපස්සේ හෝල්ඩ් එකෙන් බඩු බාද්දී වෙන පාරක් නැතුව තටුව යටින් යන්නම වුණොත්, පිටිපස්සේ ඩොලි කීයක් තියෙනවද කියලා බලලා, තටුවේ උස බලලා, 'Tsubasa Yoshi! Sayuu Yoshi!' කියලා ඇඟිල්ල දිගු කරලා කෑගහලා තහවුරු කරගෙනමයි (Shisa Koushou) යන්න ඕනෙ!",
+            "japanese_tts_text": "翼下通過走行は原則禁止。やむを得ない場合は指差呼称で確認し、非常にゆっくり走行する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "翼下通過走行",
+          "furigana": "よくかつうかそうこう",
+          "romaji": "Yokuka Tsuuka Soukou",
+          "english": "Driving Under the Aircraft Wing",
+          "sinhala": "පියාපත් යටින් රිය ධාවනය කිරීම"
+        },
+        {
+          "japanese": "離脱",
+          "furigana": "りだつ",
+          "romaji": "Ridatsu",
+          "english": "Disengagement / Pulling Away",
+          "sinhala": "ඉවතට ගැනීම / ඉවත් වීම"
+        },
+        {
+          "japanese": "指差呼称",
+          "furigana": "しさこしょう",
+          "romaji": "Shisa Koushou",
+          "english": "Point and Call",
+          "sinhala": "පෙන්වා හඬනගා තහවුරු කිරීම"
+        }
+      ]
+    },
+    {
+      "page_number": 19,
+      "page_title_sinhala": "බල්ක් මැදිරියට බඩු පැටවීමේ ප්‍රායෝගික පියවර (Bulk Loading Procedures)",
+      "page_title_japanese": "D. バルクの搭載作業手順 (50cm間隔と重量物)",
+      "mapped_images": [
+        "Ground handling - Images V1/112.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P19_S01",
+          "content_type": "conveyor_belt_staging",
+          "japanese": {
+            "original_kanji": "(1) 機側でのトーイング・トラクタの速度は、5km/h以下で走行する。(2) トーイング・トラクタ・ドライバは下記の事項を考慮してバラ積み指示のULD、バルク・カートを装着する。①到着便: 搬入順序、搬入場所、GSEの装着順序 ②出発便: インストラクション・シートでULD、バルク・カートの番号を照合確認する。(3) ベルト・ローダ機体装着完了後、ULD、カートを装着する。(4) 積込み側の作業者は、ベルト・ローダのベルトを動かして、ULD、バルク・カートの搭載物をベルト中央部に載せる。",
+            "furigana": "(1) 機(き)側(そく)でのトーイング・トラクタの速(そく)度(ど)は、5km/h以(い)下(か)で走(そう)行(こう)する。(2) トーイング・トラクタ・ドライバは下(か)記(き)の事(じ)項(こう)を考(こう)慮(りょ)してバラ積(づ)み指(し)示(じ)のULD、バルク・カートを装(そう)着(ちゃく)する。①到(とう)着(ちゃく)便(びん): 搬(はん)入(にゅう)順(じゅん)序(じょ)、搬(はん)入(にゅう)場(ば)所(しょ)、GSEの装(そう)着(ちゃく)順(じゅん)序(じょ) ②出(しゅっ)発(ぱつ)便(びん): インストラクション・シートでULD、バルク・カートの番(ばん)号(ごう)を照(しょう)合(ごう)確(かく)認(にん)する。(3) ベルト・ローダ機(き)体(たい)装(そう)着(ちゃく)完(かん)了(りょう)後(ご)、ULD、カートを装(そう)着(ちゃく)する。(4) 積(つ)み込(こ)み側(がわ)の作(さ)業(ぎょう)者(しゃ)は、ベルト・ローダのベルトを動(うご)かして、ULD、バルク・カートの搭(とう)載(さい)物(ぶつ)をベルト中(ちゅう)央(おう)部(ぶ)に載(の)せる。",
+            "romaji": "(1) Kisoku de no tooingu torakutaa no sokudo wa, 5km/h ika de soukou suru. (2) Tooingu torakutaa doraiba wa kaki no jikou wo kouryo shite barazumi shiji no ULD, baruku kaato wo souchaku suru. 1. Touchakubin: hannyuu junjo, hannyuu basho, GSE no souchaku junjo 2. Shuppatsubin: insutorakushon shiito de ULD, baruku kaato no bangou wo shougou kakunin suru. (3) Beruto rooda kitai souchaku kanryou go, ULD, kaato wo souchaku suru. (4) Tsumikomigawa no sagyousha wa, beruto rooda no beruto wo ugokashite, ULD, baruku kaato no tousaibutsu wo beruto chuuoubu ni noseru."
+          },
+          "english": "(1) TT speed ramp-side is 5 km/h or less. (2) TT drivers align bulk ULDs and carts considering: arrivals - intake sequence and GSE staging; departures - cross-checking cart numbers against the Instruction Sheet. (3) Attach carts only after Belt Loader docking against the aircraft is complete. (4) The loading operator activates the conveyor belt and places cargo centered onto the belt.",
+          "sinhala": "(1) යානය අසලදී TT රථයේ වේගය 5 km/h නොඉක්මවිය යුතුය. (2) බල්ක් කරත්ත සවි කිරීමේදී Instruction Sheet එකේ ඇති අංක පරීක්ෂා කර සවි කළ යුතුය. (3) බෙල්ට් ලෝඩරය යානයට සම්පූර්ණයෙන්ම සවි වූ පසුව පමණක් කරත්තය ලෝඩරය පිටුපසට සවි කරන්න. (4) පැටවීමේ පැත්තේ සිටින සේවකයා පටිය ක්‍රියාත්මක කර භාණ්ඩ පටියේ මැදින් තැබිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 112 බලන්න ළමයි. මෙතන සේවකයෝ දෙන්නෙක් බෙල්ට් ලෝඩරයෙන් බෑග් පටවනවා. මතක තියාගන්න, බෑග් එක තියන්න ඕනෙ බෙල්ට් එකේ අයිනෙන් නෙමෙයි, හරියටම මැදින් (Chuuoubu)! එතකොටයි බෑග් පෙරලිලා බිමට නොවැටී උඩට යන්නේ.",
+            "japanese_tts_text": "ベルト・ローダ装着完了後カートを装着し、搭載物をベルト中央部に載せる。"
+          }
+        },
+        {
+          "section_id": "P19_S02",
+          "content_type": "spacing_and_heavy_items",
+          "japanese": {
+            "original_kanji": "① ベルトに搭載物を載せるときは、受取側の作業者が取りやすいように50cmくらいの間隔をあける。② 受取側の作業者が積み付けしやすいように、搭載物の種類・形状、搬入先での取り卸し順序等を考えベルトに搭載物を載せる。③ 重量物は複数の作業者で声を掛け合うなど連携よく行う。ベルトに載せたら受取側の作業者に重量物であることを合図する。④ 強風時、書類など軽いものは手渡しで行うなど、飛ばされない方法で載せる。",
+            "furigana": "① ベルトに搭(とう)載(さい)物(ぶつ)を載(の)せるときは、受(う)取(とり)側(がわ)の作(さ)業(ぎょう)者(しゃ)が取(と)りやすいように50cmくらいの間(かん)隔(かく)をあける。② 受(う)取(とり)側(がわ)の作(さ)業(ぎょう)者(しゃ)が積(つ)み付(つ)けしやすいように、搭(とう)載(さい)物(ぶつ)の種(しゅ)類(るい)・形(けい)状(じょう)、搬(はん)入(にゅう)先(さき)での取(と)り卸(おろ)し順(じゅん)序(じょ)等(とう)を考(かんが)えベルトに搭(とう)載(さい)物(ぶつ)を載(の)せる。③ 重(じゅう)量(りょう)物(ぶつ)は複(ふく)数(すう)の作(さ)業(ぎょう)者(しゃ)で声(こえ)を掛(か)け合(あ)うなど連(れん)携(けい)よく行(おこな)う。ベルトに載(の)せたら受(う)取(とり)側(がわ)の作(さ)業(ぎょう)者(しゃ)に重(じゅう)量(りょう)物(ぶつ)であることを合(あい)図(ず)する。④ 強(きょう)風(ふう)時(じ)、書(しょ)類(るい)など軽(かる)いものは手(て)渡(わた)しで行(おこな)うなど、飛(と)ばされない方(ほう)法(ほう)で載(の)せる。",
+            "romaji": "1. Beruto ni tousaibutsu wo noseru toki wa, uketorigawa no sagyousha ga toriyasui you ni gojuu senchi kurai no kankaku wo akeru. 2. Uketorigawa no sagyousha ga tsumitsuke shiyasui you ni, tousaibutsu no shurui, keijou, hannyuusaki de no torioroshi junjo tou wo kangae beruto ni tousaibutsu wo noseru. 3. Juuryoubutsu wa fukusuu no sagyousha de koe wo kakeau nado renkei yoku okonau. Beruto ni nosetara uketorigawa no sagyousha ni juuryoubutsu de aru koto wo aizu suru. 4. Kyoufuuji, shorui nado karui mono wa tewatashi de okonau nado, tobasarenai houhou de noseru."
+          },
+          "english": "1. When placing items on the belt, maintain approximately 50 cm spacing between items so the receiver inside the hold can grab them safely. 2. Consider item shape, size, and destination unload order to facilitate neat stacking inside the hold. 3. Team-lift heavy items; once placed on the belt, clearly signal the receiving operator inside the hold that a heavy item is coming. 4. In high winds, hand-carry light cargo like envelopes into the hold so they do not blow away.",
+          "sinhala": "1. පටිය මත බඩු තැබීමේදී උඩ සිටින සේවකයාට පහසුවෙන් ගැනීමට හැකි වන සේ භාණ්ඩ අතර සෙන්ටිමීටර 50ක (50 cm) පරතරයක් තබන්න. 2. උඩ සිටින සේවකයාට අසුරා තැබීමට පහසු වන සේ බඩු වර්ගය, හැඩය සහ බෑමේ අනුපිළිවෙල සලකා බලා පටියට තබන්න. 3. බර භාණ්ඩ කිහිප දෙනෙකු එක්ව උස්සා තැබිය යුතු අතර, එය පටියට දැමූ විගස උඩ ඉන්න සේවකයාට 'බර එකක් එනවා' කියා සංඥා කළ යුතුය. 4. තද සුළං ඇති විට, ලියකියවිලි වැනි සැහැල්ලු දේ සුළඟට ගසාගෙන යා හැකි බැවින් පටියට නොදා අතින්ම ගෙන ගොස් භාර දෙන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න මේ අගය විභාගයට අහනවා: බෑග් දෙකක් අතර තියන්න ඕනෙ පරතරය කීයද? සෙන්ටිමීටර 50ක් (50cm)! ළඟ ළඟ තිබ්බොත් උඩ ඉන්න කෙනාට ගන්න බෑ. බර බෑගයක් දැම්මොත් උඩ ඉන්න කෙනාට අනිවාර්යයෙන්ම 'Juuryoubutsu!' කියලා කෑගහලා සංඥා කරන්න ඕනෙ. හුළං තියෙන දවසට ලියුම් කවර වගේ දේවල් බෙල්ට් එකේ නොදා අතින්ම අරන් යන්න ඕනෙ.",
+            "japanese_tts_text": "ベルトには50cmの間隔をあけて載せる。重量物は受取側に合図する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "中央部",
+          "furigana": "ちゅうおうぶ",
+          "romaji": "Chuuoubu",
+          "english": "Center Part",
+          "sinhala": "මැද කොටස"
+        },
+        {
+          "japanese": "間隔",
+          "furigana": "かんかく",
+          "romaji": "Kankaku",
+          "english": "Spacing / Interval",
+          "sinhala": "පරතරය"
+        },
+        {
+          "japanese": "強風時",
+          "furigana": "きょうふうじ",
+          "romaji": "Kyoufuuji",
+          "english": "During Strong Winds",
+          "sinhala": "තද සුළං පවතින අවස්ථාවලදී"
+        }
+      ]
+    },
+    {
+      "page_number": 20,
+      "page_title_sinhala": "ගමන් මලු ලේබල් පරීක්ෂාව සහ 'Point and Call' (指差呼称) මඟින් අවසන් පරීක්ෂාව",
+      "page_title_japanese": "ラベル確認・手荷物個数確認・指差呼称",
+      "mapped_images": [
+        "Ground handling - Images V1/113.png"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P20_S01",
+          "content_type": "label_and_animal_checks",
+          "japanese": {
+            "original_kanji": "⑤ 貨物は貨物識別ラベル(ID Label)、手荷物は手荷物タグを確認し、行き先など注意しながら行う。⑥ 取り扱い表示ラベルが貼ってある場合は、ラベルで指示された取り扱いを行うとともに、受取側の作業者にも取り扱い注意であることの合図を行う。⑦ 小動物(AVI)は、状態を覗くなどして異常がないか確認してから載せる。",
+            "furigana": "⑤ 貨(か)物(もつ)は貨(か)物(もつ)識(しき)別(べつ)ラベル(ID Label)、手(て)荷(に)物(もつ)は手(て)荷(に)物(もつ)タグを確(かく)認(にん)し、行(ゆ)き先(さき)など注(ちゅう)意(い)しながら行(おこな)う。⑥ 取(とり)扱(あつかい)表(ひょう)示(じ)ラベルが貼(は)ってある場(ば)合(あい)は、ラベルで指(し)示(じ)された取(とり)扱(あつかい)を行(おこな)うとともに、受(う)取(とり)側(がわ)の作(さ)業(ぎょう)者(しゃ)にも取(とり)扱(あつかい)注(ちゅう)意(い)であることの合(あい)図(ず)を行(おこな)う。⑦ 小(しょう)動(どう)物(ぶつ)(AVI)は、状(じょう)態(たい)を覗(のぞ)くなどして異(い)常(じょう)がないか確(かく)認(にん)してから載(の)せる。",
+            "romaji": "5. Kamotsu wa kamotsu shikibetsu raberu (ID Label), tenimotsu wa tenimotsu tagu wo kakunin shi, yukisaki nado chuui shinagara okonau. 6. Toriatsukai hyouji raberu ga hatte aru baai wa, raberu de shiji sareta toriatsukai wo okonau totomoni, uketorigawa no sagyousha ni mo toriatsukai chuui de aru koto no aizu wo okonau. 7. Shoudoubutsu (AVI) wa, joutai wo nozoku nado shite ijou ga nai ka kakunin shite kara noseru."
+          },
+          "english": "5. Check Cargo ID labels on cargo and Baggage Tags on luggage, verifying destination codes carefully. 6. When handling labels are attached, follow the indicated handling instructions and signal the receiving loader to exercise caution. 7. For live animals (AVI), visually peek into the kennel/crate to confirm normal breathing and no distress before loading.",
+          "sinhala": "5. භාණ්ඩ සඳහා Cargo ID ලේබලයද, ගමන් මලු සඳහා Baggage Tag එකද පරීක්ෂා කර ගමනාන්තය නිවැරදි දැයි බලන්න. 6. විශේෂ හැසිරවුම් ලේබල් (Handling labels) ඇත්නම්, ඒ උපදෙස් පිළිපදිමින් උඩ සිටින සේවකයාටද ඒ බව සංඥා කරන්න. 7. කුඩා සතුන් (AVI) පටවන විට කූඩුව තුළ එබී බලා සතා හොඳ සෞඛ්‍ය තත්ත්වයෙන් සිටින බව තහවුරු කරගත් පසුව පමණක් පටවන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "බෑග්වල ටැග් බලලා යන්නේ කොහෙටද කියලා හරියටම තහවුරු කරගන්න ඕනෙ. වීදුරු බඩු වගේ Fragile ලේබල් තියෙනවා නම් උඩ ඉන්න කෙනාට පරෙස්සමෙන් අල්ලන්න කියන්න. ඒ වගේම බල්ලෝ පූසෝ වගේ සතුන් (AVI) ඉන්නවනම් කූඩුව ඇතුල බලලා සතා හොඳින් ඉන්නවා කියලා තහවුරු කරලා පටවන්න ඕනෙ.",
+            "japanese_tts_text": "貨物識別ラベルや手荷物タグを確認する。小動物（AVI）は異常がないか確認してから載せる。"
+          }
+        },
+        {
+          "section_id": "P20_S02",
+          "content_type": "baggage_piece_count_and_errors",
+          "japanese": {
+            "original_kanji": "(5) 手荷物の搭載が完了したら、積込み側の作業者と受取側の作業者は、個数の確認を行う。①手荷物の個数が合わない場合は、再度個数を数え直す。②手荷物には慎重な取り扱いが要求され、紛失、汚損、破損、誤搭載は絶対許されない。③「搭乗ゲート預かり手荷物」の有無、「機移し手荷物」の有無を再確認する。",
+            "furigana": "(5) 手(て)荷(に)物(もつ)の搭(とう)載(さい)が完(かん)了(りょう)したら、積(つ)み込(こ)み側(がわ)の作(さ)業(ぎょう)者(しゃ)と受(う)取(とり)側(がわ)の作(さ)業(ぎょう)者(しゃ)は、個(こ)数(すう)の確(かく)認(にん)を行(おこな)う。①手(て)荷(に)物(もつ)の個(こ)数(すう)が合(あ)わない場(ば)合(あい)は、再(さい)度(ど)個(こ)数(すう)を数(かぞ)え直(なお)す。②手(て)荷(に)物(もつ)には慎(しん)重(ちょう)な取(とり)扱(あつかい)が要(よう)求(きゅう)され、紛(ふん)失(しつ)、汚(お)損(そん)、破(は)損(そん)、誤(ご)搭(とう)載(さい)は絶(ぜっ)対(たい)許(ゆる)されない。③「搭(とう)乗(じょう)ゲート預(あず)かり手(て)荷(に)物(もつ)」の有(う)無(む)、「機(き)移(うつ)し手(て)荷(に)物(もつ)」の有(う)無(む)を再(さい)確(かく)認(にん)する。",
+            "romaji": "(5) Tenimotsu no tousai ga kanryou shitara, tsumikomigawa no sagyousha to uketorigawa no sagyousha wa, kosuu no kakunin wo okonau. 1. Tenimotsu no kosuu ga awanai baai wa, saido kosuu wo kazoenaosu. 2. Tenimotsu ni wa shinchou na toriatsukai ga youkyuu sare, funshitsu, oson, hason, gotousai wa zettai yurusarenai. 3. 'Toujou geeto azukari tenimotsu' no umu, 'kiutsushi tenimotsu' no umu wo saikakunin suru."
+          },
+          "english": "(5) When baggage loading finishes, the loading worker and receiving worker inside the hold must cross-verify total piece counts. 1. If piece counts do not match, recount immediately. 2. Baggage demands meticulous handling: loss (funshitsu), soiling (oson), damage (hason), and wrong loading (gotousai) are strictly prohibited. 3. Re-verify whether gate-checked bags or transfer bags have been received.",
+          "sinhala": "(5) ගමන් මලු පටවා අවසන් වූ පසු, බිම සිටි සේවකයා සහ කාගෝ මැදිරියේ සිටි සේවකයා ගණන (Piece count) සසඳා බැලිය යුතුය. 1. ගණන නොගැලපේ නම්, නැවත මුල සිට ගණන් කරන්න. 2. ගමන් මලු සම්බන්ධයෙන්: නැතිවීම (Funshitsu), කිලිටිවීම (Oson), කැඩී බිඳී හානිවීම (Hason) සහ වැරදි යානයකට පැටවීම (Gotousai) කිසිසේත්ම සමාව දිය නොහැකි බරපතල වැරදි වේ. 3. බෝඩිං ගේට්ටුවෙන් භාරගත් බෑග් සහ මාරු කරන (Kiutsushi) බෑග් පටවා ඇත්දැයි නැවත තහවුරු කරන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න ජපානයේ ගුවන් සේවාවල වැදගත්ම රීතිය: බඩු පටවලා ඉවර වෙලා ගණන් කරද්දී එක බෑග් එකක් හරි අඩු නම් හෝ වැඩි නම් යානය අහසට යවන්නේ නෑ! ආපහු මුල ඉඳන් ගණන් කරන්න ඕනෙ. ඒ වගේම මේ ජපන් වචන 4 විභාගයට අහනවා: Funshitsu (නැතිවීම), Oson (කුණු තැවරීම), Hason (කැඩීම), Gotousai (වැරදි යානයට පැටවීම). මේවා කිසිම වෙලාවක වෙන්න බෑ!",
+            "japanese_tts_text": "紛失、汚損、破損、誤搭載は絶対許されない。手荷物の個数を確認する。"
+          }
+        },
+        {
+          "section_id": "P20_S03",
+          "content_type": "point_and_call_completion",
+          "japanese": {
+            "original_kanji": "(6) 作業が終了したら、貨物室内、ベルト・ローダ車の周辺やULDやバルク・カートの中を点検し、積み残しのないことを指差呼称で確認する。① ULDやバルク・カートのドアはすぐに閉めず、複数の作業者が確認するまで開いておく。② 特殊搭載物は各航空会社の指示に従って搭載または受け渡す。",
+            "furigana": "(6) 作(さ)業(ぎょう)が終(しゅう)了(りょう)したら、貨(か)物(もつ)室(しつ)内(ない)、ベルト・ローダ車(しゃ)の周(しゅう)辺(へん)やULDやバルク・カートのなかを点(てん)検(けん)し、積(つ)み残(のこ)しのないことを「指(し)差(さ)呼(こ)称(しょう)（ヨシ！）」で確(かく)認(にん)する。① ULDやバルク・カートのドアはすぐに閉(し)めず、複(ふく)数(すう)の作(さ)業(ぎょう)者(しゃ)が確(かく)認(にん)するまで開(ひら)いておく。② 特(とく)殊(しゅ)搭(とう)載(さい)物(ぶつ)は各(かく)航(こう)空(くう)会(がい)社(しゃ)の指(し)示(じ)に従(したが)って搭(とう)載(さい)または受(う)け渡(わた)す。",
+            "romaji": "(6) Sagyou ga shuuryou shitara, kamotsushitsunai, beruto rooda sha no shuuhen ya ULD ya baruku kaato no naka wo tenken shi, tsuminokoshi no nai koto wo 'Shisa Koushou (Yoshi!)' de kakunin suru. 1. ULD ya baruku kaato no doa wa sugu ni shimezu, fukusuu no sagyousha ga kakunin suru made hiraite oku. 2. Tokushu tousaibutsu wa kaku koukuugaisha no shiji ni shitagatte tousai matawa ukewatasu."
+          },
+          "english": "(6) When work is finished, inspect the cargo hold, Belt Loader surroundings, and inside ULDs/bulk carts to verify no leftover bags using Point and Call ('Yoshi!'). 1. Do not close ULD and bulk cart doors immediately; leave them open until multiple operators have cross-checked. 2. Handle special cargo according to each airline's specific manual.",
+          "sinhala": "(6) වැඩ අවසන් වූ පසු, භාණ්ඩ මැදිරිය ඇතුළත, බෙල්ට් ලෝඩරය වටා සහ ULD හෝ කරත්ත ඇතුළත කිසිදු බෑගයක් ඉතිරි වී නැති බව (Tsuminokoshi) 'Point and Call' (指差呼称 - Yoshi!) මගින් තහවුරු කරන්න. 1. බෑග් ඉතිරිව නැති බව කිහිප දෙනෙකු පරීක්ෂා කරන තුරු ULD හෝ කරත්තයේ දොර වහාම වසා නොදමන්න. 2. විශේෂ භාණ්ඩ අදාළ ගුවන් සමාගමේ උපදෙස් අනුව භාර දෙන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 113 දිහා බලන්න ළමයි! මෙන්න ඉන්නවා ජපානයේ සුප්‍රසිද්ධ 'Shisa Koushou' (指差呼称) කරන සේවකයා. 'Tsuminokoshi Nashi, Yoshi!' (බඩු ඉතිරි වී නෑ, හරි!) කියලා අත දික් කරලා ඇහැයි කටයි මනසයි එකතු කරලා කෑගහලා තහවුරු කරනවා. තව එක්කෙනෙක් ඇවිත් චෙක් කරනකල් කරත්තයේ දොර වහන්නෙ නෑ. මේ විනය තමයි ජපානයේ ආරක්ෂාව රකින්නේ!",
+            "japanese_tts_text": "積み残しのないことを指差呼称で確認する。指差呼称、ヨシ！"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "誤搭載",
+          "furigana": "ごとうさい",
+          "romaji": "Gotousai",
+          "english": "Wrong Loading / Misloading",
+          "sinhala": "වැරදි යානයකට පැටවීම"
+        },
+        {
+          "japanese": "紛失・汚損・破損",
+          "furigana": "ふんしつ・おそん・はそん",
+          "romaji": "Funshitsu / Oson / Hason",
+          "english": "Loss / Soiling / Damage",
+          "sinhala": "නැතිවීම / කිලිටිවීම / කැඩී හානිවීම"
+        },
+        {
+          "japanese": "積み残し",
+          "furigana": "つみのこし",
+          "romaji": "Tsuminokoshi",
+          "english": "Leftover Baggage (Unloaded items)",
+          "sinhala": "පැටවීමට අමතක වී ඉතිරි වූ බෑග්"
+        },
+        {
+          "japanese": "指差呼称",
+          "furigana": "しさこしょう",
+          "romaji": "Shisa Koushou (Yoshi!)",
+          "english": "Point and Call (All Clear!)",
+          "sinhala": "පෙන්වා හඬනගා තහවුරු කිරීම (යොෂි!)"
+        }
+      ]
+    }
+  ]
+}

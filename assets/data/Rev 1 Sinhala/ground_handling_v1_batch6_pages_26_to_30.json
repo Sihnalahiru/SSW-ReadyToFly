@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "batch": "Batch 6 (Pages 26 to 30)",
+    "document_title": "Ground Handling Training Manual Rev 1 (SSW ReadyToFly)",
+    "source_pdf": "Ground handling V1.pdf",
+    "image_folder": "Ground handling - Images V1/",
+    "tts_config": {
+      "sinhala_teacher_voice": {
+        "voice_locale": "si-LK",
+        "voice_type": "native_sinhala_teacher",
+        "role": "friendly_expert_instructor"
+      },
+      "japanese_native_voice": {
+        "voice_locale": "ja-JP",
+        "voice_type": "native_japanese_professional",
+        "role": "standard_aviation_pronunciation"
+      }
+    }
+  },
+  "pages": [
+    {
+      "page_number": 26,
+      "page_title_sinhala": "පිටත්වීමේ ගමන් මලු වර්ග කිරීම සහ Claim Tag (Figure 4)",
+      "page_title_japanese": "手荷物仕分け作業：出発作業とクレーム・タグ (Figure 4)",
+      "mapped_images": [
+        "Ground handling - Images V1/128.jpg",
+        "Ground handling - Images V1/139.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P26_S01",
+          "content_type": "baggage_sorting_overview",
+          "japanese": {
+            "original_kanji": "出発作業：搭乗手続きの際に、乗客から預かった手荷物に取り付けられたクレーム・タグ (Figure 4) によって、ベルトコンベアで航空会社別・行き先別（目的地別）によって異なる仕分け場へ移送される。各仕分け場に移送された手荷物は、経由地別・クラス別・特殊手荷物タグ (Figure 5) の指示により、コンテナまたはバルク・カート等に積み付けされ、機側へと向かう。",
+            "furigana": "出(しゅっ)発(ぱつ)作(さ)業(ぎょう)：搭(とう)乗(じょう)手(て)続(つづ)きの際(さい)に、乗(じょう)客(きゃく)から預(あず)かった手(て)荷(に)物(もつ)に取(とり)り付(つ)けられたクレーム・タグ (Figure 4) によって、ベルトコンベアで航(こう)空(くう)会(がい)社(しゃ)別(べつ)・行(ゆ)き先(さき)別(べつ)（目(もく)的(てき)地(ち)別(べつ)）によって異(こと)なる仕(し)分(わ)け場(ば)へ移(い)送(そう)される。各(かく)仕(し)分(わ)け場(ば)に移(い)送(そう)された手(て)荷(に)物(もつ)は、経(けい)由(ゆ)地(ち)別(べつ)・クラス別(べつ)・特(とく)殊(しゅ)手(て)荷(に)物(もつ)タグ (Figure 5) の指(し)示(じ)により、コンテナまたはバルク・カート等(とう)に積(つ)み付(つ)けされ、機(き)側(そく)へと向(む)かう。",
+            "romaji": "Shuppatsu sagyou: Toujou tetsuzuki no sai ni, joukyaku kara azukatta tenimotsu ni toritsukerareta kureemu tagu (Figure 4) ni yotte, beruto konbeya de koukuugaishabetsu, yukisakibetsu (mokutekichibetsu) ni yotte kotonaru shiwakeba e isou sareru. Kaku shiwakeba ni isou sareta tenimotsu wa, keiyuchibetsu, kurasubetsu, tokushu tenimotsu tagu (Figure 5) no shiji ni yori, kontena matawa baruku kaato tou ni tsumitsuke sare, kisoku e to mukau."
+          },
+          "english": "Departure Operations: Checked baggage accepted at check-in counters is routed along conveyor belts to designated sorting areas according to airline and 3-letter destination codes on the Claim Tag (Figure 4). Baggage transferred to sorting bays is packed into containers (ULDs) or bulk carts according to transit points, service class, and special baggage tag instructions (Figure 5), then moved ramp-side.",
+          "sinhala": "පිටත්වීමේ මෙහෙයුම්: චෙක්-ඉන් (Check-in) කවුන්ටරයෙන් භාරගන්නා මගී ගමන් මලුවලට අමුණන ලද ක්ලේම් ටැගය හෙවත් Claim Tag (රූපය 4 / 128.jpg) මඟින්, බෙල්ට් කන්වේයර ඔස්සේ ගුවන් සමාගම සහ ගමනාන්තය අනුව විවිධ වර්ග කිරීමේ අංගන (Sorting Area) වෙත යවනු ලැබේ. වර්ග කිරීමේ අංගනයට පැමිණි පසු, සංක්‍රමණ ස්ථාන, පන්ති සහ විශේෂ ගමන් මලු ටැග් උපදෙස් අනුව කන්ටේනර් (ULD) හෝ බල්ක් කරත්තවලට අසුරා (රූපය 139.jpg) යානය වෙත ගෙන යයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, පින්තූර අංක 128 සහ 139 බලන්න. මගීන්ගෙන් Check-in කවුන්ටරේදී බෑග් භාරගත්තම ඒකට ගහනවා Claim Tag එකක් (බෑග් ටැග් එක). ඒකෙ ගමනාන්තය හෙවත් Destination එක අකුරු 3කින් තියෙනවා (LHR, HND වගේ) සහ Flight Number එක තියෙනවා. ඊටපස්සේ කන්වේයර් බෙල්ට් එකෙන් Sorting area එකට ආවම සේවකයෝ ඒ බෑග් අරන් කන්ටේනර් ඇතුළට හරියටම පිළිවෙළට අසුරනවා.",
+            "japanese_tts_text": "搭乗手続きで預かった手荷物は、クレーム・タグによって仕分け場へ移送され、コンテナやカートに積み付けされる。"
+          }
+        },
+        {
+          "section_id": "P26_S02",
+          "content_type": "claim_tag_breakdown",
+          "japanese": {
+            "original_kanji": "クレーム・タグ (Claim Tag): 目的地 (Destination: 3レターコード, 例 LHR) とフライトナンバ (Flight Number: 例 NH211)。",
+            "furigana": "クレーム・タグ: 目(もく)的(てき)地(ち)（Destination: 3レターコード、例(れい) LHR）とフライトナンバ（Flight Number: 例(れい) NH211）。",
+            "romaji": "Kureemu tagu: Mokutekichi (Destination: san retaa koudo, rei LHR) to furaito nanba (Flight Number: rei NH211)."
+          },
+          "english": "Claim Tag Data Elements: Destination (Airport 3-Letter Code, e.g., LHR = London Heathrow) and Flight Number (e.g., NH211).",
+          "sinhala": "ක්ලේම් ටැගයේ අඩංගු මූලික කරුණු: ගමනාන්තය (අකුරු 3 ගුවන් තොටුපළ කේතය, උදා: LHR = ලන්ඩන් හීත්‍රෝ) සහ ගුවන් ගමන් අංකය (උදා: NH211).",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ටැග් එකේ තියෙන ප්‍රධාන කරුණු දෙක විභාගයට අහනවා: එකක් Destination 3-letter code එක, අනිත් එක Flight Number එක. මේ දෙක හරියටම බලලයි බෑග් අදාල කන්ටේනර් එකට දාන්න ඕනෙ.",
+            "japanese_tts_text": "クレーム・タグには目的地スリーレターコードとフライトナンバーが記載される。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "仕分け場",
+          "furigana": "しわけば",
+          "romaji": "Shiwakeba",
+          "english": "Baggage Sorting Area",
+          "sinhala": "ගමන් මලු වර්ග කිරීමේ අංගනය"
+        },
+        {
+          "japanese": "クレーム・タグ",
+          "furigana": "くれーむ・たぐ",
+          "romaji": "Kureemu Tagu",
+          "english": "Baggage Claim Tag",
+          "sinhala": "ගමන් මලු හඳුනාගැනීමේ ටැගය (Claim Tag)"
+        },
+        {
+          "japanese": "経由地",
+          "furigana": "けいゆち",
+          "romaji": "Keiyuchi",
+          "english": "Transit / Layover Destination",
+          "sinhala": "මැද ගුවන් තොටුපළ / සංක්‍රමණ ස්ථානය"
+        }
+      ]
+    },
+    {
+      "page_number": 27,
+      "page_title_sinhala": "පන්ති අනුව ටැග්, විශේෂ ටැග් සහ Weight & Balance සම්බන්ධීකරණය",
+      "page_title_japanese": "Figure 5 クラス別・特殊手荷物タグ と ウエイト・アンド・バランス",
+      "mapped_images": [
+        "Ground handling - Images V1/151.jpg",
+        "Ground handling - Images V1/152.jpg",
+        "Ground handling - Images V1/156.jpg",
+        "Ground handling - Images V1/157.jpg",
+        "Ground handling - Images V1/163.jpg",
+        "Ground handling - Images V1/169.jpg",
+        "Ground handling - Images V1/171.jpg",
+        "Ground handling - Images V1/183.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P27_S01",
+          "content_type": "class_and_special_tags",
+          "japanese": {
+            "original_kanji": "クラス別タグ：ファーストクラス (First Class)、ビジネスクラス (Business Class)。特殊手荷物タグ：取扱注意 (FRAGILE): 取り扱いに注意が必要な手荷物につける。ペット (LIVE ANIMALS): ペットのケージにつける。日陰で風通しの良い場所に保管する。重量物 (HEAVY): 重い手荷物につける。腰を痛めたりケガをしないように積み込むときはムリをしない。",
+            "furigana": "クラス別(べつ)タグ：ファーストクラス、ビジネスクラス。特(とく)殊(しゅ)手(て)荷(に)物(もつ)タグ：取(とり)扱(あつかい)注(ちゅう)意(い)（FRAGILE）: 取(とり)扱(あつかい)に注(ちゅう)意(い)が必(ひつ)要(よう)な手(て)荷(に)物(もつ)につける。ペット（LIVE ANIMALS）: ペットのケージにつける。日(ひ)陰(かげ)で風(かぜ)通(とお)しの良(よ)い場(ば)所(しょ)に保(ほ)管(かん)する。重(じゅう)量(りょう)物(ぶつ)（HEAVY）: 重(おも)い手(て)荷(に)物(もつ)につける。腰(こし)を痛(いた)めたりケガをしないように積(つ)み込(こ)むときはムリをしない。",
+            "romaji": "Kurasubetsu tagu: Faasuto kurasu, Bijinesu kurasu. Tokushu tenimotsu tagu: Toriatsukai chuui (FRAGILE): toriatsukai ni chuui ga hitsuyou na tenimotsu ni tsukeru. Petto (LIVE ANIMALS): petto no keeji ni tsukeru. Hikage de kazetooshi no yoi basho ni hokan suru. Juuryoubutsu (HEAVY): omoi tenimotsu ni tsukeru. Koshi wo itametari kega wo shinai you ni tsumikomu toki wa muri wo shinai."
+          },
+          "english": "Class Tags: First Class (Priority - Figures 151, 152), Business Class (Figures 156, 157). Special Baggage Tags: Fragile (Figure 163 - Handle with care), Live Animals / Pets (Figure 169 - Attach to pet crate, store in well-ventilated shade), Heavy (Figure 171 - Attach to heavy luggage; use safe lifting posture without straining your back).",
+          "sinhala": "පන්ති අනුව ටැග්: First Class (පළමු පන්තිය - රූප 151, 152), Business Class (ව්‍යාපාරික පන්තිය - රූප 156, 157). විශේෂ ගමන් මලු ටැග්: FRAGILE (රූපය 163 - බිඳෙනසුලු, ප්‍රවේශමෙන් හැසිරවිය යුතුයි), LIVE ANIMALS (රූපය 169 - සුරතල් සතුන්, කූඩුවලට අමුණා හොඳින් වාතාශ්‍රය ඇති සෙවණ සහිත තැනක තබන්න), HEAVY (රූපය 171 - අධික බර, කොන්දට හානි නොවී ප්‍රවේශමෙන් එසවීම කරන්න).",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 151 ඉඳන් 171 දක්වා බලන්න ළමයි! මෙතන තියෙන්නේ විභාගයට අනිවාර්යයෙන්ම එන Tags වර්ග: First Class සහ Business Class බෑග් වලට දානවා Priority ලේබල්, මොකද ඒ අයට ගමනාන්තයේදී බෑග් කලින්ම දෙන්න ඕනෙ. FRAGILE කියන්නේ බිඳෙනසුලු බඩු වලට. LIVE ANIMALS ටැග් එක දැක්කොත් සතාව සෙවණ තියෙන තැනක තියන්න ඕනෙ. HEAVY ටැග් එක තියෙන බෑග් තනියෙන් උස්සලා කොන්ද අමාරු කරගන්න එපා, හරි ඉරියව්වෙන් උස්සන්න ඕනෙ!",
+            "japanese_tts_text": "ファーストクラス、ビジネスクラス、取扱注意、ペット、重量物タグ。"
+          }
+        },
+        {
+          "section_id": "P27_S02",
+          "content_type": "weight_and_balance_loadsheet",
+          "japanese": {
+            "original_kanji": "コンテナに積み込んだ手荷物の個数をウエイト・アンド・バランス担当者に連絡する。ウエイト・アンド・バランス担当者は、その情報をもとにコンテナの搭載位置を決定し、インストラクション・シートを作成する。機側の作業員は、このインストラクション・シートに従ってコンテナを実際に航空機の貨物室に搭載する。この頃の時間帯は、出発時刻が迫っており、定時性を確保するためには、早くて的確な判断と指示が最も必要である。",
+            "furigana": "コンテナに積(つ)み込(こ)んだ手(て)荷(に)物(もつ)の個(こ)数(すう)をウエイト・アンド・バランス担(たん)当(とう)者(しゃ)に連(れん)絡(らく)する。ウエイト・アンド・バランス担(たん)当(とう)者(しゃ)は、その情(じょう)報(ほう)をもとにコンテナの搭(とう)載(さい)位(い)置(ち)を決(けっ)定(てい)し、インストラクション・シートを作(さく)成(せい)する。機(き)側(そく)の作(さ)業(ぎょう)員(いん)は、このインストラクション・シートに従(したが)ってコンテナを実(じっ)際(さい)に航(こう)空(くう)機(き)の貨(か)物(もつ)室(しつ)に搭(とう)載(さい)する。この頃(ころ)の時(じ)間(かん)帯(たい)は、出(しゅっ)発(ぱつ)時(じ)刻(こく)が迫(せま)っており、定(てい)時(じ)性(せい)を確(かく)保(ほ)するためには、早(はや)くて的(てき)確(かく)な判(はん)断(だん)と指(し)示(じ)が最も必(ひつ)要(よう)である。",
+            "romaji": "Kontena ni tsumikonda tenimotsu no kosuu wo Ueito ando Baransu tantousha ni renraku suru. Ueito ando Baransu tantousha wa, sono jouhou wo moto ni kontena no tousai ichi wo kettei shi, insutorakushon shiito wo sakusei suru. Kisoku no sagyouin wa, kono insutorakushon shiito ni shitagatte kontena wo jissai ni koukuuki no kamotsushitsu ni tousai suru. Kono koro no jikantai wa, shuppatsu jikoku ga sematte ori, teijisei wo kakuho suru tame ni wa, hayakute tekikaku na handan to shiji ga mottomo hitsuyou de aru."
+          },
+          "english": "Report the exact number of bags loaded into each container to the Weight and Balance controller (Figure 183). Based on this data, the Weight & Balance officer determines container positions and issues the Instruction Sheet. Ramp-side handlers load the containers into aircraft holds strictly according to this sheet. As departure time approaches, swift, accurate decisions and instructions are critically required to ensure on-time performance.",
+          "sinhala": "කන්ටේනරයට පටවන ලද බෑග් ගණන Weight & Balance (බර සහ තුලනය) භාර නිලධාරියාට දැනුම් දෙන්න (රූපය 183). එම තොරතුරු මත පදනම්ව, Weight & Balance නිලධාරියා යානය තුළ කන්ටේනරය තැබිය යුතු ස්ථානය තීරණය කර උපදෙස් පත්‍රිකාව (Instruction Sheet) සාදයි. යානය අසල සේවකයින් මෙම පත්‍රිකාවට අනුව කන්ටේනර් පටවයි. පිටත්වීමේ වේලාව ළං වී ඇති බැවින්, වෙලාවට වැඩ අවසන් කිරීමට ඉක්මන් හා නිවැරදි තීරණ අතිශය වැදගත් වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 183 බලන්න. බෑග් 48ක් පටවපු කන්ටේනර් ටැග් එකක් තියෙන්නේ. මෙන්න මේ බෑග් ගණන Weight & Balance Officer ට දුන්නම එයා ගුවන් යානයේ බර සමබරව තියාගන්න කන්ටේනරය දාන්න ඕනෙ කාමරේ තීරණය කරනවා. යානය පිටත් වෙන්න ඔන්න මෙන්න තියෙද්දි මේ වැඩේ හරිම ඉක්මනින් සහ නිවැරදිව කරන්න ඕනෙ!",
+            "japanese_tts_text": "ウエイト・アンド・バランス担当者が搭載位置を決定し、インストラクション・シートを作成する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "ウエイト・アンド・バランス",
+          "furigana": "うえいと・あんど・ばらんす",
+          "romaji": "Ueito ando Baransu",
+          "english": "Weight and Balance",
+          "sinhala": "බර සහ තුලනය (ගුරුත්වාකර්ෂණ සමබරතාවය)"
+        },
+        {
+          "japanese": "的確な判断",
+          "furigana": "てきかくなはんだん",
+          "romaji": "Tekikaku na Handan",
+          "english": "Precise Judgment",
+          "sinhala": "නිවැරදි හා නිරවුල් තීරණ ගැනීම"
+        }
+      ]
+    },
+    {
+      "page_number": 28,
+      "page_title_sinhala": "පැමිණීමේ ගමන් මලු බෙදාහැරීම සහ Carousel අසල GSE ධාවන නීති (Figure 184)",
+      "page_title_japanese": "B. 到着作業と手荷物台ベルトコンベア周辺の安全",
+      "mapped_images": [
+        "Ground handling - Images V1/184.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P28_S01",
+          "content_type": "arrival_baggage_carousel_delivery",
+          "japanese": {
+            "original_kanji": "到着作業においては、航空機より取り卸されたコンテナ内手荷物、バルクを併せて優先順位（ファーストクラスの手荷物等）、特殊手荷物の指示等に注意して到着専用の手荷物台ベルトコンベアで移送し、乗客へ引き渡す。作業完了後、コンテナ内、バルク・カート等の荷台やGSE下は再度取り卸し忘れがないか確認する。",
+            "furigana": "到(とう)着(ちゃく)作(さ)業(ぎょう)においては、航(こう)空(くう)機(き)より取(と)り卸(おろ)されたコンテナ内(ない)手(て)荷(に)物(もつ)、バルクを併(あわ)せて優(ゆう)先(せん)順(じゅん)位(い)（ファーストクラスの手(て)荷(に)物(もつ)等(とう)）、特(とく)殊(しゅ)手(て)荷(に)物(もつ)の指(し)示(じ)等(とう)に注(ちゅう)意(い)して到(とう)着(ちゃく)専(せん)用(よう)の手(て)荷(に)物(もつ)台(だい)ベルトコンベアで移(い)送(そう)し、乗(じょう)客(きゃく)へ引(ひ)き渡(わた)す。作(さ)業(ぎょう)完(かん)了(りょう)後(ご)、コンテナ内(ない)、バルク・カート等(とう)の荷(に)台(だい)やGSE下(した)は再(さい)度(ど)取(と)り卸(おろ)し忘(わす)れがないか確(かく)認(にん)する。",
+            "romaji": "Touchaku sagyou ni oite wa, koukuuki yori toriorosareta kontena nai tenimotsu, baruku wo awasete yuusen jun'i (faasuto kurasu no tenimotsu tou), tokushu tenimotsu no shiji tou ni chuui shite touchaku sen'you no tenimotsudai beruto konbeya de isou shi, joukyaku e hikiwatasu. Sagyou kanryou go, kontena nai, baruku kaato tou no nidai ya GSE shita wa saido torioroshi wasure ga nai ka kakunin suru."
+          },
+          "english": "Arrival Operations: Unloaded baggage from containers and bulk compartments is transferred to the arrival baggage claim carousel conveyor, paying strict attention to delivery priorities (e.g., First Class) and special baggage handling, then returned to passengers. When completed, double-check inside containers, bulk cart flatbeds, and beneath GSE to ensure no baggage has been forgotten.",
+          "sinhala": "පැමිණීමේ මෙහෙයුම්: ගුවන් යානයෙන් බාන ලද කන්ටේනර් සහ බල්ක් ගමන් මලු, ප්‍රමුඛතාවය (පළමු පන්තියේ ගමන් මලු) සහ විශේෂ උපදෙස් කෙරෙහි අවධානය යොමු කරමින් පැමිණීමේ ගමන් මලු බෙල්ට් එක (Carousel) මඟින් මගීන්ට භාර දෙනු ලැබේ. වැඩ අවසන් වූ පසු, කන්ටේනර් ඇතුළත, බල්ක් කරත්ත සහ GSE උපකරණ යට කිසිදු බෑගයක් බෑමට අමතක වී ඇත්දැයි (Torioroshi wasure) නැවත පරීක්ෂා කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 184 බලන්න ළමයි. යානයෙන් බාපු බෑග් ටික ටර්මිනල් එක ඇතුළේ තියෙන Carousel බෙල්ට් එකට දාන හැටි තමයි මේ පේන්නේ. First class බෑග් කලින්ම බෙල්ට් එකට දාන්න ඕනෙ. බෑග් ඔක්කොම දාලා ඉවර වුණාට පස්සේ කන්ටේනර් එක ඇතුලෙවත්, කරත්තෙවත්, GSE මැෂින් එක යටවත් බෑග් එකක් වැටිලා අමතක වෙලා තියෙනවද කියලා ආයෙත් පරීක්ෂා කරන්න ඕනෙ!",
+            "japanese_tts_text": "ファーストクラスの手荷物など優先順位に注意して到着ベルトコンベアで移送する。取り卸し忘れがないか確認する。"
+          }
+        },
+        {
+          "section_id": "P28_S02",
+          "content_type": "carousel_gse_movement_warning",
+          "japanese": {
+            "original_kanji": "注意！到着専用の手荷物台ベルトコンベア付近は多くの作業者が動いている。GSEの発進時は、ドライバーやGSE近くの作業員は、GSEが動き出すことを周りの作業者に知らせる。",
+            "furigana": "注(ちゅう)意(い)！到(とう)着(ちゃく)専(せん)用(よう)の手(て)荷(に)物(もつ)台(だい)ベルトコンベア付(ふ)近(きん)は多(おお)くの作(さ)業(ぎょう)者(しゃ)が動(うご)いている。GSEの出(はっ)進(しん)時(じ)は、ドライバーやGSE近(ちか)くの作(さ)業(ぎょう)員(いん)は、GSEが動(うご)き出(だ)すことを周(まわ)りの作(さ)業(ぎょう)者(しゃ)に知(し)らせる。",
+            "romaji": "Chuui! Touchaku sen'you no tenimotsudai beruto konbeya fukin wa ooku no sagyousha ga ugoite iru. GSE no hasshinji wa, doraibaa ya GSE chikaku no sagyouin wa, GSE ga ugokidasu koto wo mawari no sagyousha ni shiraseru."
+          },
+          "english": "Caution! Many operators are constantly moving around the arrival baggage conveyor area. When setting GSE in motion, the driver and nearby personnel must loudly alert surrounding workers that the vehicle is moving.",
+          "sinhala": "අවවාදයයි! පැමිණීමේ ගමන් මලු බෙල්ට් එක අවට බොහෝ සේවකයින් එහා මෙහා ගමන් කරති. එබැවින් GSE වාහනයක් පණගන්වා ධාවනය කිරීමට පෙර, රියදුරු හෝ අසල සිටින සේවකයින් විසින් වාහනය චලනය වීමට සූදානම් වන බව අවට සිටින අනෙකුත් සේවකයින්ට හඬනගා දැනුම් දිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න තවත් වැදගත් Safety නීතියක්: Baggage Belt එක ගාව හැමෝම කලබලෙන් බෑග් උස්සන නිසා වටපිට බලන්නේ අඩුවෙන්. ඒ නිසා ට්‍රැක්ටරයක් හරි ට්‍රක් එකක් හරි එතනින් අරන් යද්දී Horn එක ගහලා හෝ 'GSE Hasshin!' කියලා කෑගහලා වටේ ඉන්න අයට අනතුරු අඟවන්නම ඕනෙ!",
+            "japanese_tts_text": "GSEの発進時は、GSEが動き出すことを周りの作業者に知らせる。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "取り卸し忘れ",
+          "furigana": "とりおろしわすれ",
+          "romaji": "Torioroshi Wasure",
+          "english": "Forgotten / Left-behind Baggage",
+          "sinhala": "බෑමට අමතක වූ බෑග්"
+        },
+        {
+          "japanese": "発進時",
+          "furigana": "はっしんじ",
+          "romaji": "Hasshinji",
+          "english": "When Setting in Motion / Pulling Away",
+          "sinhala": "වාහනයක් ධාවනය ආරම්භ කරන අවස්ථාවේදී"
+        }
+      ]
+    },
+    {
+      "page_number": 29,
+      "page_title_sinhala": "7. 貨物仕分け作業 (ගුවන් භාණ්ඩ වර්ග කිරීමේ කාර්යය සහ භාණ්ඩ ප්‍රවාහන ගිවිසුම)",
+      "page_title_japanese": "7. 貨物仕分け作業の概要と貨物運送約款",
+      "mapped_images": [
+        "Ground handling - Images V1/185.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P29_S01",
+          "content_type": "air_cargo_scale_and_freighters",
+          "japanese": {
+            "original_kanji": "航空機による高速輸送が年々拡大し、今では航空貨物 (Air Cargo) は、日常の一般貨物から生鮮食料品、宅配貨物、引越し貨物、大型機械等、たいへん広範囲なものとなっている。また、航空機の大型化によって1機当たりの輸送量も増え、貨物専用機では、1機当たり100トン以上の貨物を運ぶことが可能である。",
+            "furigana": "航(こう)空(くう)機(き)による高(こう)速(そく)輸(ゆ)送(そう)が年(ねん)々(ねん)拡(かく)大(だい)し、今(いま)では航(こう)空(くう)貨(か)物(もつ)（Air Cargo）は、日(にち)常(じょう)の一(いっ)般(ぱん)貨(か)物(もつ)から生(せい)鮮(せん)食(しょく)料(りょう)品(ひん)、宅(たく)配(はい)貨(か)物(もつ)、引(ひっ)越(こ)し貨(か)物(もつ)、大(おお)型(がた)機(き)械(かい)等(とう)、たいへん広(こう)範(はん)囲(い)なものとなっている。また、航(こう)空(くう)機(き)の大(おお)型(がた)化(か)によって1機(き)当(あ)たりの輸(ゆ)送(そう)量(りょう)も増(ふ)え、貨(か)物(もつ)専(せん)用(よう)機(き)では、1機(き)当(あ)たり100トン以(い)上(じょう)の貨(か)物(もつ)を運(はこ)ぶことが可(か)能(のう)である。",
+            "romaji": "Koukuuki ni yoru kousoku yusou ga nenne kakudai shi, ima dewa koukuu kamotsu (Air Cargo) wa, nichijou no ippan kamotsu kara seisen shokuryouhin, takuhai kamotsu, hikkoshi kamotsu, oogata kikai tou, taihen kouhan'i na mono to natte iru. Mata, koukuuki no oogataka ni yotte ikki atari no yusouryou mo fue, kamotsu sen'youki dewa, ikki atari hyakuton ijou no kamotsu wo hakobu koto ga kanou de aru."
+          },
+          "english": "High-speed air freight continues to expand yearly. Air Cargo now encompasses a vast spectrum: daily general freight, perishables, express parcels, relocation goods, and heavy machinery. Aircraft enlargement has also increased capacity; dedicated cargo freighters can carry over 100 tons of cargo per flight.",
+          "sinhala": "ගුවන් මඟින් සිදුකරන අධිවේගී භාණ්ඩ ප්‍රවාහනය (Air Cargo) වසරින් වසර පුළුල් වී ඇති අතර, සාමාන්‍ය භාණ්ඩ, නැවුම් ආහාර, කුරියර් පාර්සල්, ගෙවල් මාරු කිරීමේ බඩු සහ දැවැන්ත යන්ත්‍ර සූත්‍ර ආදී පුළුල් පරාසයක් ආවරණය කරයි. තවද භාණ්ඩ ප්‍රවාහන විශේෂිත ගුවන් යානාවලට (Freighters) එක් වාරයකදී ටොන් 100කට වඩා වැඩි භාණ්ඩ ප්‍රමාණයක් රැගෙන යා හැක.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, පින්තූර අංක 185 බලන්න. ගුවන් භාණ්ඩ හෙවත් Air Cargo කියන්නේ මගීන්ගේ බෑග් නෙවෙයි, වෙළඳ භාණ්ඩ. විශේෂ Cargo ගුවන් යානයකට ටොන් 100කට වඩා (100 tons or more) බඩු පටවන්න පුළුවන්! මේ අගය විභාගයට මතක තියාගන්න.",
+            "japanese_tts_text": "航空貨物は広範囲なものとなっている。貨物専用機では1機当たり100トン以上の貨物を運ぶことが可能である。"
+          }
+        },
+        {
+          "section_id": "P29_S02",
+          "content_type": "cargo_sorting_and_contract_terms",
+          "japanese": {
+            "original_kanji": "貨物の仕分け作業は、受託（小口・代理店コンテナ）から始まり、行き先別に行先タグ (Figure 6) を発行・仕分けをし、取扱いに注意が必要な貨物は、特殊貨物タグやケアマーク (Figure 7) で識別し、コンテナまたはバルク・カート等に積み込み、航空機の搭載へ向ける。貨物の運送に際しては「貨物運送約款」といわれる運送に関する取り決めがあり、航空会社が公表している。顧客（荷送人）が、この約款を承諾して運送を申し込むことにより、運送の契約が成立する。",
+            "furigana": "貨(か)物(もつ)の仕(し)分(わ)け作(さ)業(ぎょう)は、受(じゅ)託(たく)（小(こ)口(ぐち)・代(だい)理(り)店(てん)コンテナ）から始(はじ)まり、行(ゆ)き先(さき)別(べつ)に行(ゆ)き先(さき)タグ (Figure 6) を発(はっ)行(こう)・仕(し)分(わ)けをし、取(とり)扱(あつかい)に注(ちゅう)意(い)が必(ひつ)要(よう)な貨(か)物(もつ)は、特(とく)殊(しゅ)貨(か)物(もつ)タグやケアマーク (Figure 7) で識(しき)別(べつ)し、コンテナまたはバルク・カート等(とう)に積(つ)み込(こ)み、航(こう)空(くう)機(き)の搭(とう)載(さい)へ向(む)ける。貨(か)物(もつ)の運(うん)送(そう)に際(さい)しては「貨(か)物(もつ)運(うん)送(そう)約(やっ)款(かん)」といわれる運(うん)送(そう)に関(かん)する取(とり)り決(き)めがあり、航(こう)空(くう)会(がい)社(しゃ)が公(こう)表(ひょう)している。顧(こ)客(きゃく)（荷(නි)送(おく)り人(にん)）が、この約(やっ)款(かん)を承(しょう)諾(だく)して運(うん)送(そう)を申(もう)し込(こ)むことにより、運(うん)送(そう)の契(けい)約(やく)が成(せい)立(りつ)する。",
+            "romaji": "Kamotsu no shiwake sagyou wa, jutaku (koguchi, dairiten kontena) kara hajimari, yukisakibetsu ni yukisaki tagu (Figure 6) wo hakkou, shiwake wo shi, toriatsukai ni chuui ga hitsuyou na kamotsu wa, tokushu kamotsu tagu ya keamaaku (Figure 7) de shikibetsu shi, kontena matawa baruku kaato tou ni tsumikomi, koukuuki no tousai e mukeru. Kamotsu no unsou ni saishite wa 'Kamotsu Unsou Yakkan' to iwareru unsou ni kansuru torikime ga ari, koukuugaisha ga kouhyou shite iru. Kokyaku (niokurinin) ga, kono yakkan wo shoudaku shite unsou wo moushikomu koto ni yori, unsou no keiyaku ga seiritsu suru."
+          },
+          "english": "Cargo Sortation Workflow: Sortation starts from acceptance (loose small shipments or agent containers), issuing destination tags (Figure 6) per route. Fragile or sensitive items are identified via special cargo tags and care marks (Figure 7), packed into ULD containers or bulk carts, and staged for aircraft loading. Air cargo carriage is governed by Conditions of Carriage ('Kamotsu Unsou Yakkan') published by airlines. A legal transport contract is established when the shipper agrees to these terms upon booking.",
+          "sinhala": "භාණ්ඩ වර්ග කිරීමේ ක්‍රියාවලිය: භාණ්ඩ භාරගැනීමෙන් (කුඩා තොග හෝ නියෝජිත කන්ටේනර්) පසු ගමනාන්තය අනුව ටැග් (රූපය 6) නිකුත් කර වර්ග කරයි. ප්‍රවේශමෙන් හැසිරවිය යුතු භාණ්ඩ විශේෂ ටැග් සහ ආරක්ෂිත සලකුණු (Care marks - රූපය 7) මඟින් හඳුනාගෙන කන්ටේනර් හෝ කරත්තවලට පටවා යානය වෙත යවයි. ගුවන් භාණ්ඩ ප්‍රවාහනය පාලනය වන්නේ ගුවන් සමාගම් විසින් ප්‍රකාශිත 'භාණ්ඩ ප්‍රවාහන ගිවිසුම' (Kamotsu Unsou Yakkan) මඟින් වන අතර, පාරිභෝගිකයා (යවන්නා) එම නියමයන් පිළිගත් විට ප්‍රවාහන කොන්ත්‍රාත්තුව ස්ථාපිත වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "කාගෝ බඩු වර්ග කරද්දී හැම පාර්සලයකටම Destination Tag එකක් ගහනවා. බිඳෙනසුලු හෝ විශේෂ බඩු වලට Care Marks ගහනවා. ගුවන් සමාගමයි බඩු යවන කෙනයි අතර ඇතිවෙන නිල ප්‍රවාහන ගිවිසුමට කියන්නේ 'Kamotsu Unsou Yakkan' (貨物運送約款) කියලා. මේ නම විභාගයට අහනවා ළමයි!",
+            "japanese_tts_text": "行き先タグやケアマークで識別しコンテナに積み込む。運送は貨物運送約款に基づき契約が成立する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "貨物専用機",
+          "furigana": "かもつせんようき",
+          "romaji": "Kamotsu Sen'youki",
+          "english": "Freighter / Cargo Aircraft",
+          "sinhala": "භාණ්ඩ ප්‍රවාහන විශේෂිත ගුවන් යානය"
+        },
+        {
+          "japanese": "貨物運送約款",
+          "furigana": "かもつうんそうやっかん",
+          "romaji": "Kamotsu Unsou Yakkan",
+          "english": "Conditions of Carriage for Cargo",
+          "sinhala": "ගුවන් භාණ්ඩ ප්‍රවාහන නියමයන් හා කොන්දේසි (ගිවිසුම)"
+        },
+        {
+          "japanese": "荷送り人",
+          "furigana": "におくりにん",
+          "romaji": "Niokurinin",
+          "english": "Shipper / Consignor",
+          "sinhala": "භාණ්ඩ යවන්නා"
+        }
+      ]
+    },
+    {
+      "page_number": 30,
+      "page_title_sinhala": "Master Air Waybill (MAWB) ලේබලය සහ විශේෂ භාණ්ඩ ටැග් (Figure 6 & 7)",
+      "page_title_japanese": "Figure 6 行先タグ (MAWB) と Figure 7 特殊貨物タグ",
+      "mapped_images": [
+        "Ground handling - Images V1/190.jpg",
+        "Ground handling - Images V1/202.jpg",
+        "Ground handling - Images V1/205.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "P30_S01",
+          "content_type": "mawb_tag_breakdown",
+          "japanese": {
+            "original_kanji": "Figure 6 行先タグ (Destination Tag / MAWB): ① Prefix: 205 (ANAの航空会社番号) ② Master Air Way Bill (MAWB): 航空運送状番号 (205-11234576) ③ Destination: 目的地 (例 KIX = 関西国際空港) ④ Pieces: 個数 (例 88個)。",
+            "furigana": "Figure 6 行(ゆ)き先(さき)タグ: ① Prefix: 205 (ANAの航(こう)空(くう)会(がい)社(しゃ)番(ばん)号(ごう)) ② Master Air Way Bill (MAWB): 航(こう)空(くう)運(うん)送(そう)状(じょう)番(ばん)号(ごう) (205-11234576) ③ Destination: 目(もく)的(てき)地(ち) (例(れい) KIX = 関(かん)西(さい)国(こく)際(さい)空(くう)港(こう)) ④ Pieces: 個(こ)数(すう) (例(れい) 88個(こ))。",
+            "romaji": "Figure 6 Yukisaki tagu: 1. Prefix: 205 (ANA no koukuugaisha bangou) 2. Master Air Way Bill (MAWB): Koukuu unsoujou bangou (205-11234576) 3. Destination: Mokutekichi (rei KIX = Kansai Kokusai Kuukou) 4. Pieces: Kosuu (rei 88 ko)."
+          },
+          "english": "Figure 6 Destination Tag (MAWB - Figure 190): 1. Airline Prefix: 3-digit code (205 = All Nippon Airways - ANA) 2. Master Air Waybill (MAWB) number 3. Destination airport 3-letter code (KIX = Kansai) 4. Total piece count (e.g., 88 pieces).",
+          "sinhala": "රූපය 6 ගමනාන්ත ටැගය (MAWB ලේබලය - රූපය 190): 1. Prefix (ගුවන් සමාගමේ අංකය): ඉලක්කම් 3 කේතය (205 = All Nippon Airways - ANA) 2. Master Air Waybill (MAWB) බිල්පත් අංකය 3. Destination (ගමනාන්තය): KIX (කන්සායි ගුවන් තොටුපළ) 4. Pieces (භාණ්ඩ ගණන): 88 pcs.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 190 දිහා හොඳින් බලන්න ළමයි! මේක තමයි Cargo Air Waybill ලේබල් එක. මුලින්ම තියෙන ඉලක්කම් 3 Prefix එකෙන් කියන්නේ Airline එක (205 කියන්නේ ANA එකට). ඊළඟට තියෙන්නේ MAWB බිල්පත් අංකය. DEST කියන්නේ ගමනාන්තය (KIX - Kansai). PCS කියන්නේ පෙට්ටි ගණන. මේ හතරම විභාග ප්‍රශ්නයක අහනවා!",
+            "japanese_tts_text": "行先タグには、プレフィックス、航空運送状番号、目的地、個数が記載される。"
+          }
+        },
+        {
+          "section_id": "P30_S02",
+          "content_type": "special_cargo_tags_live_animals_perishable",
+          "japanese": {
+            "original_kanji": "Figure 7 特殊貨物タグ：① なまもの (PERISHABLE): 生鮮食料品や生花などくさりやすいもの。積み込むときに水漏れに注意する。② 小動物 (LIVE ANIMALS): 生きた動物。日陰で風通しの良い場所に保管する。動物の種類で積み込み方が違うので注意する。",
+            "furigana": "Figure 7 特(とく)殊(しゅ)貨(か)物(もつ)タグ：① なまもの（PERISHABLE）: 生(せい)鮮(せん)食(しょく)料(りょう)品(ひん)や生(せい)花(か)などくさりやすいもの。積(つ)み込(こ)むときに水(みず)漏(も)れに注(ちゅう)意(い)する。② 小(しょう)動(どう)物(ぶつ)（LIVE ANIMALS）: 生(い)きた動(どう)物(ぶつ)。日(ひ)陰(かげ)で風(かぜ)通(とお)しの良(よ)い場(ば)所(しょ)に保(ほ)管(かん)する。動(どう)物(ぶつ)の種(しゅ)類(るい)で積(つ)み込(こ)み方(かた)が違(ちが)うので注(ちゅう)意(い)する。",
+            "romaji": "Figure 7 Tokushu kamotsu tagu: 1. Namamono (PERISHABLE): Seisen shokuryouhin ya seika nado kusariyasui mono. Tsumikomu toki ni mizumore ni chuui suru. 2. Shoudoubutsu (LIVE ANIMALS): Ikita doubutsu. Hikage de kazetooshi no yoi basho ni hokan suru. Doubutsu no shurui de tsumikomikata ga chigau node chuui suru."
+          },
+          "english": "Figure 7 Special Cargo Labels: 1. Perishable Goods (Figure 205): Fresh food, meat, fish, and cut flowers that spoil easily; watch for water/ice leakage during loading. 2. Live Animals (Figure 202 - LIVE ANIMALS): Living animals. Store in well-ventilated shade. Loading methods vary strictly by animal species.",
+          "sinhala": "රූපය 7 විශේෂ භාණ්ඩ ටැග්: 1. නරක්වන ද්‍රව්‍ය (PERISHABLE - රූපය 205): නැවුම් මාළු, මස්, එළවළු සහ මල් වැනි පහසුවෙන් නරක් වන ද්‍රව්‍ය වේ. පැටවීමේදී අයිස් දියවී ජලය කාන්දු වීම ගැන දැඩිව විමසිලිමත් වන්න. 2. සජීවී සතුන් (LIVE ANIMALS - රූපය 202): පණ ඇති සතුන්. හොඳින් වාතාශ්‍රය ඇති සෙවණ සහිත තැනක තබන්න. සත්ව විශේෂය අනුව පැටවීමේ ක්‍රමය වෙනස් වන බව මතක තබාගන්න.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර 205 සහ 202 බලන්න. නිල් පාට ඔරලෝසුවයි මාළුවයි තියෙන්නේ Perishable හෙවත් නරක් වන කෑම බීම වලට. ඒවයින් වතුර ලීක් වෙන්න දෙන්න බෑ. කොළ පාට සත්තු ඉන්න ලේබල් එක Live Animals. සතුන් ඉන්න පෙට්ටි උඩින් වෙන බර බඩු දාන්න සපුරා තහනම්!",
+            "japanese_tts_text": "なまものは水漏れに注意し、小動物は日陰で風通しの良い場所に保管する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "航空運送状",
+          "furigana": "こうくううんそうじょう",
+          "romaji": "Koukuu Unsoujou (MAWB)",
+          "english": "Air Waybill (AWB)",
+          "sinhala": "ගුවන් භාණ්ඩ ප්‍රවාහන බිල්පත"
+        },
+        {
+          "japanese": "生鮮食料品",
+          "furigana": "せいせんしょくりょうひん",
+          "romaji": "Seisen Shokuryouhin",
+          "english": "Perishable Fresh Foods",
+          "sinhala": "නැවුම් ආහාර ද්‍රව්‍ය (නරක්වන ද්‍රව්‍ය)"
+        },
+        {
+          "japanese": "生きた動物",
+          "furigana": "いきたどうぶつ",
+          "romaji": "Ikita Doubutsu (AVI)",
+          "english": "Live Animals",
+          "sinhala": "සජීවී සතුන්"
+        }
+      ]
+    }
+  ]
+}
