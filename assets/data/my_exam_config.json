@@ -4,43 +4,22 @@
   "mode_name": "My Exam",
   "experience": "real_exam_simulation",
   "paper_builder": {
-    "enabled": true,
-    "paper_source": "approved_exam_question_bank.json",
-    "shuffle_questions": true,
-    "shuffle_options": true,
-    "one_question_at_a_time": true,
-    "auto_next_after_answer": true,
-    "show_live_counts": {
-      "correct": true,
-      "wrong": true,
-      "remaining": true
-    },
-    "show_japanese_furigana": true,
-    "show_romaji": false,
-    "show_sinhala": false,
-    "show_english_for_foreign_words": true,
-    "show_explanations_during_paper": false,
-    "show_final_summary": true,
-    "time_limit_seconds": null,
-    "question_count": null,
-    "section_blueprint": []
+    "source": "exam_papers.json",
+    "question_bank": "exam_question_bank.json",
+    "available_papers": 14,
+    "questions_in_current_paper": "50 except final paper",
+    "total_questions_available": 654,
+    "official_exam_equivalence": false,
+    "question_reuse_policy": "No question repeats; vocabulary and source-based questions are mixed across papers."
   },
   "official_blueprint": {
-    "status": "PENDING_OFFICIAL_EXAM_SPECIFICATION",
-    "reason": "The uploaded ZIP contains study-note JSON and four study PDFs, but no official sample-question bank or verified exam blueprint stating question count by section and duration. Do not invent official counts or timing.",
-    "required_fields": [
-      "total_questions",
-      "time_limit_minutes",
-      "sections[].name",
-      "sections[].question_count",
-      "sections[].time_limit_minutes (if applicable)",
-      "question_types",
-      "scoring_rule"
-    ],
-    "source_required": "Official exam guide or official sample paper."
+    "status": "PENDING",
+    "duration_minutes": null,
+    "official_question_count": null,
+    "note": "No verified official duration or full paper blueprint was provided in the uploaded materials."
   },
   "exam_ui": {
-    "timer": true,
+    "timer": false,
     "question_navigation": "one_at_a_time",
     "answer_lock_after_submit": true,
     "auto_next": true,
@@ -51,14 +30,16 @@
       "unanswered": true,
       "score_percent": true
     },
-    "wrong_answer_review_section": "wrong_answer_review.json"
+    "wrong_answer_review_section": "wrong_answer_review.json",
+    "timer_note": "Disabled until official exam duration is verified."
   },
   "language_rules": {
     "japanese_with_furigana": true,
     "romaji": false,
     "english_translation": false,
     "sinhala_translation": false,
+    "english_answer_choices_for_vocabulary_recognition": true,
     "foreign_words_show_english": true,
-    "note": "Exam mode hides translations except English gloss for foreign loanwords, per requested exam presentation."
+    "note": "Question translations are hidden. Existing vocabulary-recognition answer choices remain English because they are part of the original quiz item format. Explanations appear only after submission."
   }
 }

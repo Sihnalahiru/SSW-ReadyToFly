@@ -1,0 +1,66 @@
+{
+  "status": "PENDING_VISUAL_EXTRACTION_AND_ANSWER_VERIFICATION",
+  "count": 10,
+  "items": [
+    {
+      "id": "PR-06",
+      "reason": "Depends on embedded diagram/photo/flight-information monitor; not converted into auto-graded item until the visual is extracted and its answer is verified.",
+      "source": "GROUND HANDLING PART 2.pdf",
+      "source_page": 2
+    },
+    {
+      "id": "PR-07",
+      "reason": "Depends on embedded diagram/photo/flight-information monitor; not converted into auto-graded item until the visual is extracted and its answer is verified.",
+      "source": "GROUND HANDLING PART 2.pdf",
+      "source_page": 2
+    },
+    {
+      "id": "PR-08",
+      "reason": "Depends on embedded diagram/photo/flight-information monitor; not converted into auto-graded item until the visual is extracted and its answer is verified.",
+      "source": "GROUND HANDLING PART 2.pdf",
+      "source_page": 2
+    },
+    {
+      "id": "PR-09",
+      "reason": "Depends on embedded diagram/photo/flight-information monitor; not converted into auto-graded item until the visual is extracted and its answer is verified.",
+      "source": "GROUND HANDLING PART 2.pdf",
+      "source_page": 2
+    },
+    {
+      "id": "PR-10",
+      "reason": "Depends on embedded diagram/photo/flight-information monitor; not converted into auto-graded item until the visual is extracted and its answer is verified.",
+      "source": "GROUND HANDLING PART 2.pdf",
+      "source_page": 2
+    },
+    {
+      "id": "PR-11",
+      "reason": "Depends on embedded diagram/photo/flight-information monitor; not converted into auto-graded item until the visual is extracted and its answer is verified.",
+      "source": "GROUND HANDLING PART 2.pdf",
+      "source_page": 2
+    },
+    {
+      "id": "PR-12",
+      "reason": "Depends on embedded diagram/photo/flight-information monitor; not converted into auto-graded item until the visual is extracted and its answer is verified.",
+      "source": "GROUND HANDLING PART 2.pdf",
+      "source_page": 2
+    },
+    {
+      "id": "PR-13",
+      "reason": "Depends on embedded diagram/photo/flight-information monitor; not converted into auto-graded item until the visual is extracted and its answer is verified.",
+      "source": "GROUND HANDLING PART 2.pdf",
+      "source_page": 3
+    },
+    {
+      "id": "PR-14",
+      "reason": "Depends on embedded diagram/photo/flight-information monitor; not converted into auto-graded item until the visual is extracted and its answer is verified.",
+      "source": "GROUND HANDLING PART 2.pdf",
+      "source_page": 3
+    },
+    {
+      "id": "PR-15",
+      "reason": "Depends on embedded diagram/photo/flight-information monitor; not converted into auto-graded item until the visual is extracted and its answer is verified.",
+      "source": "GROUND HANDLING PART 2.pdf",
+      "source_page": 3
+    }
+  ]
+}

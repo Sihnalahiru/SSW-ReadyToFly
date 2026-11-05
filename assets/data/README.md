@@ -1,22 +1,47 @@
-# Ground Handling PWA — Quiz, My Exam & Vocabulary JSON Pack
+# Ground Handling Quiz + My Exam JSON Pack
+
+## Build contents
+- Vocabulary master: 623 entries from the supplied V8 workbook.
+- Flashcards: 13 sets (12 x 50 + 23).
+- Vocabulary quiz: 623 questions (12 x 50 + 23).
+- Additional source-based practice: 31 questions:
+  - 6 questions from the uploaded Japanese official sample-question handout (transcribed as sample-source questions; not a claim that these alone represent the full exam).
+  - 5 airport-code questions from Ground Handling Part 2 with answers stated by the question/answer options and verified from the source.
+  - 20 questions derived from Notes on Airport Operations.
+- Combined quiz practice: 654 questions across 14 sets.
+- My Exam: 1 unofficial mock paper containing 31 auto-graded questions.
+- Part 1 worksheet: 29 original True/False statements preserved separately; its answer column is blank in the uploaded PDF, so answer keys remain PENDING and these statements are not included in auto-graded paper counts.
+- Ground Handling Part 2 visual-dependent questions 06-15 are listed in `visual_question_pending.json`; they require page-image extraction and answer verification before inclusion.
+- Duplicate sample PDF (`GH_Sample Questions_2(2).pdf`) was not counted twice.
 
 ## Files
-- `vocabulary_master.json`: all 623 rows from the supplied V8 workbook, preserved as records.
-- `vocabulary_sets_50.json`: 12 full sets of 50 and one final set of 23 for flip flashcards.
-- `quiz_practice_sets.json`: 623 vocabulary recognition questions in 50-question practice sets.
-- `study_note_visual_map.json`: 139 source page records, original study text and exact mapped image paths.
-- `quiz_config.json`: practice display, linked study-note/image, auto-advance and progress-count behavior.
-- `my_exam_config.json`: My Exam simulation behavior and official exam blueprint fields.
-- `approved_exam_question_bank.json`: intentionally empty until official sample questions are supplied.
-- `wrong_answer_review.json`: persistent wrong-answer review data contract.
+- `vocabulary_master.json`
+- `vocabulary_sets_50.json`
+- `quiz_practice_sets.json`
+- `exam_question_bank.json`
+- `exam_papers.json`
+- `my_exam_config.json`
+- `wrong_answer_review.json`
+- `source_review_part1.json`
+- `visual_question_pending.json`
+- `study_note_visual_map.json`
+- `quiz_config.json`
+- `BUILD_SUMMARY.json`
 
-## Suggested GitHub location
-Place all files in `assets/data/generated/`. The image paths in the JSON are repository-relative and refer to existing `assets/data/Rev 1 Sinhala/...` image assets.
+## Integration
+Place the JSON files in `assets/data/generated/` (or update app paths accordingly).
+Image references in `study_note_visual_map.json` are repository-relative. A portion of legacy image paths still requires final path reconciliation; do not mark all study-note images as verified until that audit is complete.
 
-## Important
-The uploaded archive contains study material and vocabulary, not an official sample-question bank or verified exam blueprint. Therefore the JSON does **not** invent official exam question counts, section counts, duration, or scoring. My Exam settings are ready, but official paper generation must consume verified question records in `approved_exam_question_bank.json`.
+## Exam mode constraints
+The paper is an unofficial practice mock, not an official exam paper. The uploaded files do not establish a verified official exam duration or complete exam blueprint, so the timer is not enabled and official equivalence is not claimed. Japanese/furigana display is retained where available; romaji and Sinhala translations are hidden in exam mode.
 
-Practice quiz questions are vocabulary-meaning drills, not official exam questions. In practice mode, show Japanese, furigana, romaji, English and Sinhala, and load linked study notes/images when an exact mapping exists. In My Exam mode, show Japanese with furigana; hide romaji and translations, except English support for foreign/loan words as configured.
 
-## Validation
-All JSON files are UTF-8 and parse successfully. Vocabulary rows are retained in workbook order. Decks are sequential and non-overlapping.
+## Updated My Exam build
+- My Exam uses all 654 questions in the combined bank.
+- 13 non-overlapping unofficial practice papers are generated.
+- Paper counts: 12 papers x 50 questions, final paper 54 questions.
+- 623 vocabulary questions are reused from Quiz Practice.
+- 31 source-based questions are reused from the uploaded-source question bank.
+- No question repeats across papers.
+- Official exam duration is unverified; timer is disabled.
+- Vocabulary recognition items retain English answer choices from the original quiz format.

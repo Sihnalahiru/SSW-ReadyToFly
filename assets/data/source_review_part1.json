@@ -1,0 +1,240 @@
+{
+  "source": "GROUND HANDLING PART 1.pdf",
+  "source_question_count": 29,
+  "status": "source_statements_transcribed_answer_key_pending",
+  "note": "The uploaded worksheet leaves the answer column blank. Statements are preserved as written; no True/False key has been invented.",
+  "items": [
+    {
+      "id": "GH1-01",
+      "type": "true_false_source_statement",
+      "statement": "航空機事故が発生した場合、心理的な傷だけ起こります。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 1
+    },
+    {
+      "id": "GH1-02",
+      "type": "true_false_source_statement",
+      "statement": "航空機の損失はあまり影響されません。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 1
+    },
+    {
+      "id": "GH1-03",
+      "type": "true_false_source_statement",
+      "statement": "乗客に対する賠償・補償や事故現場の処理、社員の派遣費などは経営危機につながりません。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 1
+    },
+    {
+      "id": "GH1-04",
+      "type": "true_false_source_statement",
+      "statement": "視界が非常に悪い。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 1
+    },
+    {
+      "id": "GH1-05",
+      "type": "true_false_source_statement",
+      "statement": "多量の可燃物質（燃料など）を搭載していないから安心できる。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 1
+    },
+    {
+      "id": "GH1-06",
+      "type": "true_false_source_statement",
+      "statement": "操縦席からは、前方約15m以下離れなければ、地上の障害物は確認できます。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 1
+    },
+    {
+      "id": "GH1-07",
+      "type": "true_false_source_statement",
+      "statement": "出発の前に航空機のエンジンが始動しているかどうか確認するべきです。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 1
+    },
+    {
+      "id": "GH1-08",
+      "type": "true_false_source_statement",
+      "statement": "エンジンの前方に近づいても、エンジンに吸い込まれる恐れはありません。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 1
+    },
+    {
+      "id": "GH1-09",
+      "type": "true_false_source_statement",
+      "statement": "標準IDカードを他人へ貸与・譲渡してはいけません。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 1
+    },
+    {
+      "id": "GH1-10",
+      "type": "true_false_source_statement",
+      "statement": "悪天候（強風・雷・台風）はランプ内作業に影響を与える場合がありません。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 1
+    },
+    {
+      "id": "GH1-11",
+      "type": "true_false_source_statement",
+      "statement": "手袋・安全ベルト・ヘルメット・帽子・耳栓などの保護具は人身事故防止に使われます。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 1
+    },
+    {
+      "id": "GH1-12",
+      "type": "true_false_source_statement",
+      "statement": "誘導者は運転者から進路・停止位置が見やすく、手信号を確認できる位置に立ちます。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 1
+    },
+    {
+      "id": "GH1-13",
+      "type": "true_false_source_statement",
+      "statement": "誘導者は合図・信号・方法を理解し、車両を安全に誘導します。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 1
+    },
+    {
+      "id": "GH1-14",
+      "type": "true_false_source_statement",
+      "statement": "定時性は航空機を安全に飛ばすことを意味します。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-15",
+      "type": "true_false_source_statement",
+      "statement": "快適性は品質の良否を判断する一つの目印です。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-16",
+      "type": "true_false_source_statement",
+      "statement": "作業の不具合が発生すると、結果的に品質が低下します。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-17",
+      "type": "true_false_source_statement",
+      "statement": "車両等の誘導・合図・連絡は明確に行います。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-18",
+      "type": "true_false_source_statement",
+      "statement": "必要な場合を除き、航空機・搭載物件・作業用機材等に触れないようにします。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-19",
+      "type": "true_false_source_statement",
+      "statement": "エラーを隠す必要がないオープンで明るい職場の雰囲気が重要です。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-20",
+      "type": "true_false_source_statement",
+      "statement": "安全のしおりは、その機体に合ったものを全席にセットします。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-21",
+      "type": "true_false_source_statement",
+      "statement": "ランプでは周囲の航空機および車両の交通に常に注意を払う必要はありません。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-22",
+      "type": "true_false_source_statement",
+      "statement": "指を差すだけで飛行機を誘導できます。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-23",
+      "type": "true_false_source_statement",
+      "statement": "「ヨシ」と声を出して確認する必要はありません。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-24",
+      "type": "true_false_source_statement",
+      "statement": "高さ制限のある機材待機区域は、当該スポットで作業する高さ25m以下の車両や機材の待機場所として使えます。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-25",
+      "type": "true_false_source_statement",
+      "statement": "外来者の前では言葉づかいや大声の会話、車両・機材・手荷物の乱暴な取り扱いに注意します。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-26",
+      "type": "true_false_source_statement",
+      "statement": "誘導方法に危険を感じても、係員に連絡するだけで航空機を停止させません。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-27",
+      "type": "true_false_source_statement",
+      "statement": "機側で不審者を発見した場合は、すぐに責任者に報告します。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-28",
+      "type": "true_false_source_statement",
+      "statement": "航空機に爆破物・発火しやすいもの・銃砲刀剣類などの危険物を搭載することは法律で禁止されています。",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    },
+    {
+      "id": "GH1-29",
+      "type": "true_false_source_statement",
+      "statement": "地上走行中の航空機前方40m以内には、マーシャラによる誘導がない場合、車両や障害物があってはなりません.",
+      "answer": null,
+      "answer_status": "PENDING_SOURCE_VERIFICATION",
+      "source_page": 2
+    }
+  ]
+}

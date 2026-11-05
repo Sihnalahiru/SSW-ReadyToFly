@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "total_sets": 13,
-  "total_questions": 623,
+  "total_sets": 14,
+  "total_questions": 654,
   "sets": [
     {
       "id": "GH-QUIZ-01",
@@ -29633,6 +29633,961 @@
           "study_note_image_policy": "Render linked source page image(s) and study note context on question view; do not use generic fallback."
         }
       ]
+    },
+    {
+      "id": "GH-SOURCE-PRACTICE-01",
+      "title": "Ground Handling Source Practice",
+      "question_count": 31,
+      "source": "Uploaded sample papers and airport operations notes",
+      "section": "Mixed source-based practice",
+      "questions": [
+        {
+          "id": "SMP-01",
+          "section": "Ramp safety",
+          "type": "true_false",
+          "question": "動いているジェット・エンジンの前方は危険である。",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "true",
+              "label": "○"
+            },
+            {
+              "value": "false",
+              "label": "×"
+            }
+          ],
+          "correct_answer": "true",
+          "source": "GH_Sample Questions.pdf, page 1",
+          "explanation": "The sample paper marks this statement ○.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "SMP-02",
+          "section": "Aviation security",
+          "type": "true_false",
+          "question": "ランプパス（標準IDカード）は、他人に貸してもよい。",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "true",
+              "label": "○"
+            },
+            {
+              "value": "false",
+              "label": "×"
+            }
+          ],
+          "correct_answer": "false",
+          "source": "GH_Sample Questions.pdf, page 1",
+          "explanation": "The sample paper marks this statement ×.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "SMP-03",
+          "section": "Aircraft structure",
+          "type": "true_false",
+          "question": "航空機は大きさや形状のため、機敏な動きができない。",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "true",
+              "label": "○"
+            },
+            {
+              "value": "false",
+              "label": "×"
+            }
+          ],
+          "correct_answer": "true",
+          "source": "GH_Sample Questions.pdf, page 1",
+          "explanation": "The sample paper marks this statement ○.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "SMP-04",
+          "section": "Cabin cleaning",
+          "type": "true_false",
+          "question": "“SAFETY INSTRUCTION”には、サービスに係ることが書いてある。",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "true",
+              "label": "○"
+            },
+            {
+              "value": "false",
+              "label": "×"
+            }
+          ],
+          "correct_answer": "false",
+          "source": "GH_Sample Questions.pdf, page 1",
+          "explanation": "The sample paper marks this statement ×.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "SMP-05",
+          "section": "Airline baggage",
+          "type": "short_answer",
+          "question": "図1のタグが付いた手荷物を搭載する航空会社名を、英語で答えなさい。",
+          "japanese": null,
+          "furigana": null,
+          "options": [],
+          "correct_answer": "JAPAN AIRLINES",
+          "source": "GH_Sample Questions.pdf, page 2",
+          "explanation": "The sample answer printed on the source is JAPAN AIRLINES.",
+          "visual_ref": "GH_Sample_Questions_page2_Fig1",
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "SMP-06",
+          "section": "Air cargo",
+          "type": "true_false",
+          "question": "図2のタグが付いた貨物は、壊れやすい物が入っているので、注意して取り扱う。",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "true",
+              "label": "○"
+            },
+            {
+              "value": "false",
+              "label": "×"
+            }
+          ],
+          "correct_answer": "true",
+          "source": "GH_Sample Questions.pdf, page 2",
+          "explanation": "The sample paper marks this statement ○.",
+          "visual_ref": "GH_Sample_Questions_page2_Fig2",
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "PR-01",
+          "section": "Airport codes",
+          "type": "single_choice",
+          "question": "新千歳空港の空港コードはどれですか。",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "MMJ",
+              "label": "MMJ"
+            },
+            {
+              "value": "MMY",
+              "label": "MMY"
+            },
+            {
+              "value": "CTS",
+              "label": "CTS"
+            },
+            {
+              "value": "HIJ",
+              "label": "HIJ"
+            }
+          ],
+          "correct_answer": "CTS",
+          "source": "GROUND HANDLING PART 2.pdf, page 1",
+          "explanation": "The source question and its options identify CTS as the correct code.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "PR-02",
+          "section": "Airport codes",
+          "type": "single_choice",
+          "question": "福岡空港の空港コードはどれですか。",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "FUK",
+              "label": "FUK"
+            },
+            {
+              "value": "FSC",
+              "label": "FSC"
+            },
+            {
+              "value": "MMJ",
+              "label": "MMJ"
+            },
+            {
+              "value": "NKM",
+              "label": "NKM"
+            }
+          ],
+          "correct_answer": "FUK",
+          "source": "GROUND HANDLING PART 2.pdf, page 1",
+          "explanation": "The source question and its options identify FUK as the correct code.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "PR-03",
+          "section": "Airport codes",
+          "type": "single_choice",
+          "question": "関西国際空港の空港コードはどれですか。",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "KIX",
+              "label": "KIX"
+            },
+            {
+              "value": "KIJ",
+              "label": "KIJ"
+            },
+            {
+              "value": "IZO",
+              "label": "IZO"
+            },
+            {
+              "value": "TAK",
+              "label": "TAK"
+            }
+          ],
+          "correct_answer": "KIX",
+          "source": "GROUND HANDLING PART 2.pdf, page 1",
+          "explanation": "The source question and its options identify KIX as the correct code.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "PR-04",
+          "section": "Airport codes",
+          "type": "single_choice",
+          "question": "中部国際空港の空港コードはどれですか。",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "NGS",
+              "label": "NGS"
+            },
+            {
+              "value": "NGO",
+              "label": "NGO"
+            },
+            {
+              "value": "MYJ",
+              "label": "MYJ"
+            },
+            {
+              "value": "OIM",
+              "label": "OIM"
+            }
+          ],
+          "correct_answer": "NGO",
+          "source": "GROUND HANDLING PART 2.pdf, page 1",
+          "explanation": "The source question and its options identify NGO as the correct code.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "PR-05",
+          "section": "Airport codes",
+          "type": "single_choice",
+          "question": "成田空港の空港コードはどれですか。",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "NRT",
+              "label": "NRT"
+            },
+            {
+              "value": "NTQ",
+              "label": "NTQ"
+            },
+            {
+              "value": "NKM",
+              "label": "NKM"
+            },
+            {
+              "value": "OIM",
+              "label": "OIM"
+            }
+          ],
+          "correct_answer": "NRT",
+          "source": "GROUND HANDLING PART 2.pdf, page 1",
+          "explanation": "The source question and its options identify NRT as the correct code.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-01",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "What activities are included in airside operations?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Aircraft movements, ground handling, fueling and maintenance"
+            },
+            {
+              "value": "B",
+              "label": "Retail shopping and public parking only"
+            },
+            {
+              "value": "C",
+              "label": "Hotel reservations and city transport only"
+            },
+            {
+              "value": "D",
+              "label": "Ticket sales and passport issuance only"
+            }
+          ],
+          "correct_answer": "Aircraft movements, ground handling, fueling and maintenance",
+          "source": "Notes-on-Airport-Operations.pdf, page 1",
+          "explanation": "The source defines airside operations as operational activities including aircraft movements, ground handling, fueling and maintenance.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-02",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "Which is a landside airport facility?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Passenger terminal"
+            },
+            {
+              "value": "B",
+              "label": "Runway"
+            },
+            {
+              "value": "C",
+              "label": "Taxiway"
+            },
+            {
+              "value": "D",
+              "label": "Aircraft stand"
+            }
+          ],
+          "correct_answer": "Passenger terminal",
+          "source": "Notes-on-Airport-Operations.pdf, page 1",
+          "explanation": "Passenger terminals are listed among landside components.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-03",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "Which is an Air Traffic Control responsibility?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Managing aircraft takeoffs and landings"
+            },
+            {
+              "value": "B",
+              "label": "Loading passenger baggage"
+            },
+            {
+              "value": "C",
+              "label": "Cleaning aircraft cabins"
+            },
+            {
+              "value": "D",
+              "label": "Issuing parking tickets"
+            }
+          ],
+          "correct_answer": "Managing aircraft takeoffs and landings",
+          "source": "Notes-on-Airport-Operations.pdf, page 1",
+          "explanation": "ATC responsibilities include managing aircraft takeoffs and landings.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-04",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "Which activity is part of runway maintenance?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Runway lighting and marking upkeep"
+            },
+            {
+              "value": "B",
+              "label": "Passenger check-in"
+            },
+            {
+              "value": "C",
+              "label": "Catering replenishment"
+            },
+            {
+              "value": "D",
+              "label": "Baggage sorting"
+            }
+          ],
+          "correct_answer": "Runway lighting and marking upkeep",
+          "source": "Notes-on-Airport-Operations.pdf, page 1",
+          "explanation": "The notes list runway lighting and marking upkeep.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-05",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "Which is a basic ground handling function?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Baggage handling"
+            },
+            {
+              "value": "B",
+              "label": "Immigration visa approval"
+            },
+            {
+              "value": "C",
+              "label": "Air traffic separation"
+            },
+            {
+              "value": "D",
+              "label": "Runway construction"
+            }
+          ],
+          "correct_answer": "Baggage handling",
+          "source": "Notes-on-Airport-Operations.pdf, page 1",
+          "explanation": "Baggage handling is listed as a basic ground handling function.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-06",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "Which pair is identified as airport environmental management?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Noise control and waste management"
+            },
+            {
+              "value": "B",
+              "label": "Gate allocation and check-in"
+            },
+            {
+              "value": "C",
+              "label": "Fuel sales and retail pricing"
+            },
+            {
+              "value": "D",
+              "label": "Runway lighting and passenger boarding"
+            }
+          ],
+          "correct_answer": "Noise control and waste management",
+          "source": "Notes-on-Airport-Operations.pdf, page 1",
+          "explanation": "The source identifies noise control and waste management.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-07",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "What is a primary goal of terminal design?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Smooth passenger flow"
+            },
+            {
+              "value": "B",
+              "label": "Maximizing aircraft taxi speed"
+            },
+            {
+              "value": "C",
+              "label": "Reducing runway length"
+            },
+            {
+              "value": "D",
+              "label": "Eliminating baggage screening"
+            }
+          ],
+          "correct_answer": "Smooth passenger flow",
+          "source": "Notes-on-Airport-Operations.pdf, page 1",
+          "explanation": "The notes state that terminal design aims to ensure smooth passenger flow.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-08",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "Which transport connection is listed for airports?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Bus or shuttle"
+            },
+            {
+              "value": "B",
+              "label": "Aircraft pushback tug"
+            },
+            {
+              "value": "C",
+              "label": "Baggage belt loader"
+            },
+            {
+              "value": "D",
+              "label": "Passenger boarding bridge"
+            }
+          ],
+          "correct_answer": "Bus or shuttle",
+          "source": "Notes-on-Airport-Operations.pdf, page 1",
+          "explanation": "Buses and shuttles are listed as airport ground transport systems.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-09",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "What is one function of gate management?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Assigning gates to arriving and departing flights"
+            },
+            {
+              "value": "B",
+              "label": "Inspecting runway pavement"
+            },
+            {
+              "value": "C",
+              "label": "Refueling aircraft"
+            },
+            {
+              "value": "D",
+              "label": "Issuing ramp passes"
+            }
+          ],
+          "correct_answer": "Assigning gates to arriving and departing flights",
+          "source": "Notes-on-Airport-Operations.pdf, page 1",
+          "explanation": "Gate management assigns gates to arriving and departing flights.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-10",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "What is one function of a baggage handling system?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Moving checked baggage from check-in to the aircraft"
+            },
+            {
+              "value": "B",
+              "label": "Directing aircraft on the runway"
+            },
+            {
+              "value": "C",
+              "label": "Providing weather reports to pilots"
+            },
+            {
+              "value": "D",
+              "label": "Cleaning passenger seating"
+            }
+          ],
+          "correct_answer": "Moving checked baggage from check-in to the aircraft",
+          "source": "Notes-on-Airport-Operations.pdf, page 1",
+          "explanation": "The source describes this baggage movement function.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-11",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "Where are aircraft parked, loaded, unloaded and refueled?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Apron"
+            },
+            {
+              "value": "B",
+              "label": "Landside car park"
+            },
+            {
+              "value": "C",
+              "label": "Departure lounge"
+            },
+            {
+              "value": "D",
+              "label": "Access road"
+            }
+          ],
+          "correct_answer": "Apron",
+          "source": "Notes-on-Airport-Operations.pdf, page 2",
+          "explanation": "The apron is the aircraft parking and servicing area.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-12",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "Which safety measure is specified for aircraft refueling?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Proper aircraft grounding"
+            },
+            {
+              "value": "B",
+              "label": "Allowing smoking near the fueling zone"
+            },
+            {
+              "value": "C",
+              "label": "Using personal electronic devices beside the fueling point"
+            },
+            {
+              "value": "D",
+              "label": "Parking unrelated vehicles beside the fuel hose"
+            }
+          ],
+          "correct_answer": "Proper aircraft grounding",
+          "source": "Notes-on-Airport-Operations.pdf, page 2",
+          "explanation": "The notes specify grounding to avoid sparks.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-13",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "Who provides clearance after an aircraft lands to leave the runway?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Air Traffic Control"
+            },
+            {
+              "value": "B",
+              "label": "Catering team"
+            },
+            {
+              "value": "C",
+              "label": "Check-in staff"
+            },
+            {
+              "value": "D",
+              "label": "Baggage handlers"
+            }
+          ],
+          "correct_answer": "Air Traffic Control",
+          "source": "Notes-on-Airport-Operations.pdf, page 3",
+          "explanation": "The described parking process begins with ATC clearance.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-14",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "Who coordinates aircraft movement within the apron in the described process?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Apron control"
+            },
+            {
+              "value": "B",
+              "label": "Immigration"
+            },
+            {
+              "value": "C",
+              "label": "Retail management"
+            },
+            {
+              "value": "D",
+              "label": "Lost property office"
+            }
+          ],
+          "correct_answer": "Apron control",
+          "source": "Notes-on-Airport-Operations.pdf, page 3",
+          "explanation": "Apron control coordinates movement in the parking area.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-15",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "What helps guide an aircraft to the exact stand stop mark?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Marshaller or VDGS"
+            },
+            {
+              "value": "B",
+              "label": "Check-in kiosk"
+            },
+            {
+              "value": "C",
+              "label": "Baggage carousel"
+            },
+            {
+              "value": "D",
+              "label": "Passenger information display"
+            }
+          ],
+          "correct_answer": "Marshaller or VDGS",
+          "source": "Notes-on-Airport-Operations.pdf, page 3",
+          "explanation": "The source describes marshallers and Visual Docking Guidance Systems.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-16",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "What is done to help prevent a parked aircraft from moving?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Wheel chocks are placed"
+            },
+            {
+              "value": "B",
+              "label": "Cabin lights are switched on"
+            },
+            {
+              "value": "C",
+              "label": "Baggage tags are removed"
+            },
+            {
+              "value": "D",
+              "label": "Passenger doors are opened before securing"
+            }
+          ],
+          "correct_answer": "Wheel chocks are placed",
+          "source": "Notes-on-Airport-Operations.pdf, page 3",
+          "explanation": "The parking procedure includes placing wheel chocks.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-17",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "Which sequence best matches passenger handling in the notes?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Check-in, security screening, immigration/customs when applicable, gate waiting, boarding"
+            },
+            {
+              "value": "B",
+              "label": "Boarding, check-in, baggage claim, security screening"
+            },
+            {
+              "value": "C",
+              "label": "Immigration, baggage claim, check-in, runway inspection"
+            },
+            {
+              "value": "D",
+              "label": "Security screening, aircraft refueling, check-in, boarding"
+            }
+          ],
+          "correct_answer": "Check-in, security screening, immigration/customs when applicable, gate waiting, boarding",
+          "source": "Notes-on-Airport-Operations.pdf, pages 5–6",
+          "explanation": "This follows the passenger handling flow described in the source.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-18",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "What is a purpose of runway inspections?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Detecting foreign objects, cracks, lighting faults and surface damage"
+            },
+            {
+              "value": "B",
+              "label": "Assigning passenger seats"
+            },
+            {
+              "value": "C",
+              "label": "Checking baggage weight tags"
+            },
+            {
+              "value": "D",
+              "label": "Planning terminal retail space"
+            }
+          ],
+          "correct_answer": "Detecting foreign objects, cracks, lighting faults and surface damage",
+          "source": "Notes-on-Airport-Operations.pdf, page 6",
+          "explanation": "The notes identify these hazards as inspection targets.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-19",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "What does pushback do?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "Moves an aircraft away from the gate using a tug"
+            },
+            {
+              "value": "B",
+              "label": "Moves baggage from check-in to the aircraft"
+            },
+            {
+              "value": "C",
+              "label": "Moves passengers from landside to the terminal"
+            },
+            {
+              "value": "D",
+              "label": "Moves aircraft from runway to hangar under flight power"
+            }
+          ],
+          "correct_answer": "Moves an aircraft away from the gate using a tug",
+          "source": "Notes-on-Airport-Operations.pdf, page 7",
+          "explanation": "The source defines pushback as moving the aircraft away from the gate using a tug.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        },
+        {
+          "id": "OPS-20",
+          "section": "Airport operations",
+          "type": "single_choice",
+          "question": "What is one benefit of passenger boarding bridges?",
+          "japanese": null,
+          "furigana": null,
+          "options": [
+            {
+              "value": "A",
+              "label": "A direct sheltered path between terminal and aircraft"
+            },
+            {
+              "value": "B",
+              "label": "A system for refueling aircraft"
+            },
+            {
+              "value": "C",
+              "label": "A method of runway inspection"
+            },
+            {
+              "value": "D",
+              "label": "A system for sorting cargo"
+            }
+          ],
+          "correct_answer": "A direct sheltered path between terminal and aircraft",
+          "source": "Notes-on-Airport-Operations.pdf, page 7",
+          "explanation": "The notes describe a direct, sheltered passenger path.",
+          "visual_ref": null,
+          "verification_status": "verified_from_uploaded_source"
+        }
+      ]
+    }
+  ],
+  "source_question_sets": [
+    {
+      "set_id": "GH-SOURCE-PRACTICE-01",
+      "title": "Ground Handling Source Practice",
+      "question_count": 31,
+      "question_ids": [
+        "SMP-01",
+        "SMP-02",
+        "SMP-03",
+        "SMP-04",
+        "SMP-05",
+        "SMP-06",
+        "PR-01",
+        "PR-02",
+        "PR-03",
+        "PR-04",
+        "PR-05",
+        "OPS-01",
+        "OPS-02",
+        "OPS-03",
+        "OPS-04",
+        "OPS-05",
+        "OPS-06",
+        "OPS-07",
+        "OPS-08",
+        "OPS-09",
+        "OPS-10",
+        "OPS-11",
+        "OPS-12",
+        "OPS-13",
+        "OPS-14",
+        "OPS-15",
+        "OPS-16",
+        "OPS-17",
+        "OPS-18",
+        "OPS-19",
+        "OPS-20"
+      ],
+      "source": "Uploaded PDFs and study notes",
+      "classification": "Practice questions; official sample items are separately identified"
     }
   ]
 }

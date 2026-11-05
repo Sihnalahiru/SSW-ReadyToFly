@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.0.0",
-  "status": "PENDING_OFFICIAL_QUESTION_SOURCE",
+  "schema_version": "1.0",
+  "status": "SUPERSEDED_BY_exam_question_bank.json",
   "papers": [],
-  "note": "No official paper questions were present in the uploaded source files. Do not turn vocabulary drills into claimed official exam papers. My Exam paper builder is ready to consume verified question records when added."
+  "note": "Use exam_question_bank.json and exam_papers.json. Official sample questions are identified individually; generated practice items are not official."
 }
