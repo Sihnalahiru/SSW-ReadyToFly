@@ -1,0 +1,484 @@
+{
+  "metadata": {
+    "module": "Safety and Quality (安全・品質)",
+    "batch": "GHtext_1_Safety_and_Quality_REV2_Part3_Pages_21_to_31_Final",
+    "document_title": "GHtext【1.Safety and Quality】.REV2.pdf",
+    "source_pdf": "GHtext【1.Safety and Quality】.REV2.pdf",
+    "image_folder": "GHtext【1.Safety and Quality】- Images .REV2/"
+  },
+  "pages": [
+    {
+      "page_number": 21,
+      "page_title_sinhala": "අනතුරු වැළැක්වීම: හියාරි-හට්ටෝ වාර්තා සහ සංවිධානාත්මක ප්‍රතිචාර",
+      "page_title_japanese": "21. 予防：ヒヤリ・ハット情報の共有化と組織的フィードバック",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/041.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/042.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P21_S01",
+          "content_type": "hiyari_hatto_feedback_rev2",
+          "japanese": {
+            "original_kanji": "報告されたヒヤリ・ハットの情報を職場全体で共有し、エラーに対する十分なフィードバックや改善策を迅速に講じることが、事故を未然に防ぐための組織的対策として極めて重要である。",
+            "furigana": "報告されたヒヤリ・ハットの情報を職場全体で共有し、エラーに対する十分なフィードバックや改善策を講じる。",
+            "romaji": "Houkoku sareta hiyari hatto no jouhou o shokuba zentai de kyouyuu shi, eraa ni tai suru juubun na fiidobakku o kouji..."
+          },
+          "english": "Sharing reported near-miss information across the entire workplace, providing sufficient feedback on errors, and promptly implementing improvement measures are extremely important organizational strategies to pre-emptively prevent accidents.",
+          "sinhala": "වාර්තා වූ හියාරි-හට්ටෝ තොරතුරු සම්පූර්ණ සේවා ස්ථානය තුළම හුවමාරු කර ගැනීම, වැරදි පිළිබඳව ප්‍රමාණවත් ප්‍රතිචාර (Feedback) ලබා දීම සහ කඩිනමින් දියුණු කිරීමේ ක්‍රියාමාර්ග ගැනීම අනතුරු වළක්වා ගැනීමට ඇති අත්‍යවශ්‍ය සංවිධානාත්මක ක්‍රමවේදයකි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "වාර්තා වන හියාරි-හට්ටෝ තොරතුරු කණ්ඩායම සමඟ බෙදාහදා ගනිමින් ඒවාට නිසි ප්‍රතිචාර දැක්වීමෙන් ලොකු අනතුරු වළක්වා ගන්න පුළුවන්.",
+            "japanese_tts_text": "報告されたヒヤリ・ハット情報を共有し、十分なフィードバックを行うことが事故防止に重要です。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "情報共有",
+          "furigana": "じょうほうきょうゆう",
+          "romaji": "Jouhou Kyouyuu",
+          "english": "Information Sharing",
+          "sinhala": "තොරතුරු හුවමාරු කර ගැනීම"
+        },
+        {
+          "japanese": "フィードバック",
+          "furigana": "フィードバック",
+          "romaji": "Fiidobakku",
+          "english": "Feedback / Response",
+          "sinhala": "ප්‍රතිචාරය / දැනුවත් කිරීම"
+        }
+      ]
+    },
+    {
+      "page_number": 22,
+      "page_title_sinhala": "ශිසා කොෂෝ සහ මනසේ අවධානය කේන්ද්‍රගත කිරීම",
+      "page_title_japanese": "22. 指差呼称による意識集中と不安全状態の瞬時察知",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/043.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/044.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P22_S01",
+          "content_type": "shisa_koshou_deep_dive_rev2",
+          "japanese": {
+            "original_kanji": "単に指を差すだけでなく、声に出して呼称することで脳の神経系が活性化され、確認作業の精度が飛躍的に向上し、不安全状態を瞬時に察知することが可能となる。",
+            "furigana": "単に指を差すだけでなく、声に出して呼称することで脳の神経系が活性化され確認精度が向上する。",
+            "romaji": "Tanni yubi o sasu dake de naku, koe ni dashite koshou suru koto de nou no shinkeikei ga kasseika sare..."
+          },
+          "english": "Not merely pointing, but calling out audibly activates the brain's neural systems, dramatically improving the accuracy of verification work and enabling instant detection of unsafe conditions.",
+          "sinhala": "නිකම්ම ඇඟිල්ල දිගු කිරීම පමණක් නොව, හඬ නගා 'යෝෂි!' කීම මඟින් මොළයේ ස්නායු පද්ධතිය සක්‍රීය වී, පරීක්ෂා කිරීමේ නිරවද්‍යතාව විශාල ලෙස ඉහළ නංවන අතර අනාරක්ෂිත තත්ත්වයන් ක්ෂණිකව හඳුනා ගැනීමට හැකි වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ඇඟිල්ල දික් කරලා සද්දෙට කතා කරද්දී මොළයේ අවධානය වැඩි වෙලා වැරදි ඉක්මනින්ම අල්ලගන්න පුළුවන්.",
+            "japanese_tts_text": "声に出して呼称することで脳が活性化され、確認精度が飛躍的に向上します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "意識集中",
+          "furigana": "いしきしゅうちゅう",
+          "romaji": "Ishiki Shuuchuu",
+          "english": "Concentration / Focus",
+          "sinhala": "අවධානය කේන්ද්‍රගත වීම"
+        },
+        {
+          "japanese": "瞬時察知",
+          "furigana": "しゅんじさっち",
+          "romaji": "Shunji Satchi",
+          "english": "Instant Detection",
+          "sinhala": "ක්ෂණිකව හඳුනා ගැනීම"
+        }
+      ]
+    },
+    {
+      "page_number": 23,
+      "page_title_sinhala": "රැම්ප් ප්‍රදේශයේ වාහන මංතීරුවල නීතිරීති සහ පියවර",
+      "page_title_japanese": "23. 制限区域内における道路標示と横断歩道の正しい通行手順",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/045.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/046.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P23_S01",
+          "content_type": "road_markings_and_crosswalks_rev2",
+          "japanese": {
+            "original_kanji": "道路上のダイヤマーク（横断歩道あり標示）や停止線手前では必ず減速・一時停止を行い、歩行者や他の車両の動静を確実に確認してから通行しなければならない。",
+            "furigana": "道路上のダイヤマークや停止線手前では必ず減速・一時停止を行い、安全を確認してから通行する。",
+            "romaji": "Douro jou no daiya maaku ya teishisen temae de wa kanarazu gensoku ichiji teishi o okonai..."
+          },
+          "english": "At diamond marks (pedestrian crossing ahead) and before stop lines on roadways, always slow down and come to a temporary stop, ensuring the movement of pedestrians and other vehicles is verified before proceeding.",
+          "sinhala": "පාරේ ඇති දියමන්ති සලකුණ (පදික මාරු සලකුණ) සහ නැවැත්වීමේ රේඛා අසලදී අනිවාර්යයෙන්ම වේගය අඩු කර තාවකාලිකව නැවැත්විය යුතු අතර, පදිකයින්ගේ සහ අනෙකුත් වාහනවල ගමනාගමනය හොඳින් පරීක්ෂා කර බලා ගමන් කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ඩියමන්ඩ් ලකුණ ළඟ සහ ස්ටොප් ලයින් එක ළඟ අනිවාර්යයෙන්ම නවත්තලා වටපිටාව බලාපලා යන්න ඕනෙ.",
+            "japanese_tts_text": "ダイヤマークや停止線では必ず一時停止し、安全を確認してから通行します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "一時停止",
+          "furigana": "いちじていし",
+          "romaji": "Ichiji Teishi",
+          "english": "Temporary Stop",
+          "sinhala": "තාවකාලිකව නැවැත්වීම"
+        },
+        {
+          "japanese": "動静確認",
+          "furigana": "どうせいかくにん",
+          "romaji": "Dousei Kakunin",
+          "english": "Confirming Movement Status",
+          "sinhala": "ගමන් කරන තත්ත්වය පරීක්ෂා කිරීම"
+        }
+      ]
+    },
+    {
+      "page_number": 24,
+      "page_title_sinhala": "PBB Stand-by Position සහ ආරක්ෂක වටපිටාව",
+      "page_title_japanese": "24. PBB待機位置周辺における機材放置の禁止と安全マージン",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/047.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/048.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P24_S01",
+          "content_type": "pbb_standby_and_clearance_rev2",
+          "japanese": {
+            "original_kanji": "PBBの待機位置や作動範囲の周辺には、カートやタッグなどの機材を絶対に放置してはならない。ブリッジの旋回時に接触事故を引き起こす原因となるため、常にクリアランスを確保する。",
+            "furigana": "PBBの待機位置や作動範囲の周辺には機材を絶対に放置してはならない。常にクリアランスを確保する。",
+            "romaji": "PBB no taiki ichi ya sadou han'i no shuuhen ni wa kizai o zettai ni houchi shite wa naranai."
+          },
+          "english": "Never leave equipment such as carts or tugs around the PBB stand-by position or operating range. Since this causes collision accidents during bridge rotation, always maintain proper clearance.",
+          "sinhala": "මගී පාලම (PBB) පොරොත්තු ස්ථානය අසල හෝ ක්‍රියාත්මක වන සීමාව තුළ කිසිදු විටෙක කාර්ට් හෝ ටග් වාහන අත්හැර දමා යාම නොකළ යුතුය. පාලම හැරවීමේදී ගැටීම් ඇති වීමට එය හේතු වන බැවින් සැමවිටම ආරක්ෂිත ඉඩක් (Clearance) තබා ගත යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "PBB පාලම ළඟ කිසිම වාහනයක් හෝ බඩු කූඩුවක් නතර කරලා යන්න එපා. පාලම කැරකෙනකොට වදින්න පුළුවන්.",
+            "japanese_tts_text": "PBB周辺への機材放置は接触事故の原因となるため、常にクリアランスを確保します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "機材放置",
+          "furigana": "きざいほうち",
+          "romaji": "Kizai Houchi",
+          "english": "Leaving Equipment Behind",
+          "sinhala": "උපකරණ අත්හැර දමා යාම"
+        },
+        {
+          "japanese": "接触事故",
+          "furigana": "せっしょくじこ",
+          "romaji": "Sesshoku Jiko",
+          "english": "Collision Accident",
+          "sinhala": "ගැටීමේ අනතුර"
+        }
+      ]
+    },
+    {
+      "page_number": 25,
+      "page_title_sinhala": "DGR නීති උල්ලංඝනය කිරීමේ ප්‍රතිවිපාක සහ වගකීම",
+      "page_title_japanese": "25. 危険物輸送ルールの違反に対する法的責任と事業者・個人の義務",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/049.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/050.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P25_S01",
+          "content_type": "dgr_legal_responsibilities_rev2",
+          "japanese": {
+            "original_kanji": "危険物の不法な航空輸送は重大な航空事故に直結するため、航空法に基づき最高50万円以下の罰金などの厳罰が科される。運送に関わるすべてのスタッフが法規を正しく理解し遵守する責任を持つ。",
+            "furigana": "危険物の不法な航空輸送は重大な事故に直結するため、航空法に基づき最高50万円以下の罰金が科される。",
+            "romaji": "Kikenbutsu no fuhou na koukuu yuusou wa juudai na koukuujiko ni chokuketsu suru tame, koukuuhou ni motoduki saikou 50-man'en ika no bakkin..."
+          },
+          "english": "Illegal air transport of dangerous goods directly leads to major aviation accidents, and severe penalties such as fines up to 500,000 yen are imposed based on aviation law. All staff involved in transport have a responsibility to correctly understand and comply with regulations.",
+          "sinhala": "අන්තරායකර භාණ්ඩ නීතිවිරෝධී ලෙස ගුවන් මඟින් ප්‍රවාහනය කිරීම බරපතල ගුවන් අනතුරුවලට මුල් වන බැවින්, ගුවන් සේවා නීතියට අනුව උපරිම යෙන් 500,000 ක් දක්වා දඩ මුදල් පැනවේ. ප්‍රවාහන කටයුතුවල නියැලෙන සියලුම සේවකයින් මෙම නීති නිවැරදිව වටහාගෙන පිළිපැදීමට බැඳී සිටී.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ඩී.ජී.ආර් නීති කඩ කළොත් දැඩි දඩ මුදල් ගෙවන්න වෙනවා. ඒ නිසා හැමෝම නීති හරියට දැනගෙන ඉන්න ඕනෙ.",
+            "japanese_tts_text": "危険物の不正輸送には厳しい罰則が科されます。スタッフ全員が法規を遵守しましょう。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "法的責任",
+          "furigana": "ほうてきせきにん",
+          "romaji": "Houteki Sekinin",
+          "english": "Legal Responsibility",
+          "sinhala": "නෛතික වගකීම"
+        },
+        {
+          "japanese": "法規遵守",
+          "furigana": "ほうきじゅんしゅ",
+          "romaji": "Houki Junshu",
+          "english": "Compliance with Regulations",
+          "sinhala": "නීති රීති පිළිපැදීම"
+        }
+      ]
+    },
+    {
+      "page_number": 26,
+      "page_title_sinhala": "ලිතිਅම් බැටරි සහ ඉලෙක්ට්‍රොනික උපාංග ප්‍රවාහන මාර්ගෝපදේශ",
+      "page_title_japanese": "26. リチウムイオン電池および電子機器類を航空輸送する際の特別規定",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/051.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/052.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P26_S01",
+          "content_type": "lithium_batteries_transport_rules_rev2",
+          "japanese": {
+            "original_kanji": "リチウムイオン電池やモバイルバッテリーは発火の危険性が高いため、受託手荷物（預け入れ）としての入れ込みが制限されており、ワット時定格値に応じた厳格な輸送基準が適用される。",
+            "furigana": "リチウムイオン電池は発火の危険性が高いため受託手荷物としての入れ込みが制限され、厳格な基準が適用される。",
+            "romaji": "Richiumu-ion denchi ya mobairu batterii wa hakka no kikensei ga takai tame, jutaku tenimotsu to shite no irekomi ga seigen sarete iru."
+          },
+          "english": "Because lithium-ion batteries and mobile power banks carry a high risk of ignition, placing them in checked baggage is restricted, and strict transport standards corresponding to their watt-hour ratings apply.",
+          "sinhala": "ලිතියම් අයන බැටරි සහ පවර් බෑන්ක් වල ගිනිගැනීමේ අවදානම ඉහළ මට්ටමක පවතින බැවින්, ඒවා චෙක්-ඉන් ලගේජ් (Checked baggage) තුළ දැමීම දැඩි ලෙස සීමා කර ඇති අතර ඒවායේ වොට්-පැය අගය (Wh rating) මත පදනම් වූ දැඩි ප්‍රවාහන ප්‍රමිතීන් ක්‍රියාත්මක වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ලිතියම් බැටරි සහ පවර් බෑන්ක් වල ගිනි ගන්න පුළුවන් අවදානමක් තියෙන නිසා ඒවා ලගේජ් වල යවන එක දැඩි ලෙස සීමා කරලා තියෙනවා.",
+            "japanese_tts_text": "リチウム電池やモバイルバッテリーは発火危険があるため、受託手荷物としての規定が厳格です。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "リチウムイオン電池",
+          "furigana": "リチウムイオンでんち",
+          "romaji": "Richiumu-ion Denchi",
+          "english": "Lithium-ion Battery",
+          "sinhala": "ලිතියම් අයන බැටරිය"
+        },
+        {
+          "japanese": "発火の危険",
+          "furigana": "はっかのきけん",
+          "romaji": "Hakka no Kiken",
+          "english": "Risk of Ignition / Fire Hazard",
+          "sinhala": "ගිනි ගැනීමේ අවදානම"
+        }
+      ]
+    },
+    {
+      "page_number": 27,
+      "page_title_sinhala": "ස්ප්‍රේ කෑන් සහ විලවුන් වර්ග ප්‍රවාහන සීමා",
+      "page_title_japanese": "27. スプレー缶および引火性化粧品類の機内持ち込み・預け入れ基準",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/053.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/054.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P27_S01",
+          "content_type": "spray_cans_and_cosmetics_rev2",
+          "japanese": {
+            "original_kanji": "ヘアースプレー、制汗スプレー、マニキュアなどの引火性液体やスプレー製品は、容量や容器の構造によって持ち込みや預け入れの可否が細かく規定されており、事前の確認が必要である。",
+            "furigana": "ヘアースプレーやマニキュアなどの引火性製品は容量や容器構造により持ち込みや預け入れが規定されている。",
+            "romaji": "Heaasu supuree ya manikyua nado no inkasei seihin wa youryou ya youki no kouzou ni yotte mochikomi ya azukeire no kahi ga kitei sarete iru."
+          },
+          "english": "Flammable liquids and spray products such as hairsprays, body sprays, and nail polish have detailed regulations regarding whether they can be carried on or checked in based on capacity and container structure, requiring prior verification.",
+          "sinhala": "කෙස් අලංකරණ ස්ප්‍රේ (Hairspray), ඩියෝඩ්‍රන්ට් සහ නිය ආලේපන (Manicure) වැනි පහසුවෙන් ගිනිගන්නා ද්‍රව්‍ය සහ ස්ප්‍රේ නිෂ්පාදනවල ධාරිතාව සහ බහාලුම් ව්‍යුහය මත ගෙන යා හැකිද නැද්ද යන්න දැඩි ලෙස නීතිගත කර ඇති බැවින් කල්තියා පරීක්ෂා කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ස්ප්‍රේ බෝතල් සහ නිය ආලේපන වැනි ගිනිගන්නා ද්‍රව්‍ය රැගෙන යාමේදී ඒවායේ ප්‍රමාණයන් ගැන නීති තියෙනවා.",
+            "japanese_tts_text": "スプレー缶やマニキュアなどの引火性製品は、容量や容器の構造により規定があります。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "引火性液体",
+          "furigana": "いんかせいえきたい",
+          "romaji": "Inkasei Ekitai",
+          "english": "Flammable Liquid",
+          "sinhala": "පහසුවෙන් ගිනිගන්නා ද්‍රව"
+        },
+        {
+          "japanese": "持ち込み・預け入れ",
+          "furigana": "もちこみ・あずけいれ",
+          "romaji": "Mochikomi / Azukeire",
+          "english": "Carry-on / Checked-in Baggage",
+          "sinhala": "අතේ ගෙන යාම සහ ලගේජ්වල දැමීම"
+        }
+      ]
+    },
+    {
+      "page_number": 28,
+      "page_title_sinhala": "ගුවන් යානා හැසිරවීමේදී කාලගුණික බලපෑම් සහ පූර්වාරක්ෂාවන්",
+      "page_title_japanese": "28. 悪天候時（強風・大雪・雷）におけるグランドハンドリング業務の中断基準",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/055.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/056.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P28_S01",
+          "content_type": "severe_weather_operations_rev2",
+          "japanese": {
+            "original_kanji": "台風、暴風、大雪、落雷の恐れがある悪天候時には、高所作業や給油作業、PBBの操作などを一時中断または中止し、スタッフの安全確保を最優先に行動する。",
+            "furigana": "悪天候時には高所作業や給油作業、PBB操作などを一時中断または中止し、安全確保を最優先する。",
+            "romaji": "Akutenkou jiku ni wa kousho sagyou ya kyuuyu sagyou, PBB no sousa nado o ichiji chuudan mata wa chuushi shi..."
+          },
+          "english": "During severe weather conditions such as typhoons, gales, heavy snow, or the threat of lightning, temporarily suspend or halt high-altitude work, refueling, and PBB operations, making staff safety the absolute top priority.",
+          "sinhala": "සුළි කුණාටු, තද සුළං, අධික හිම පතනය හෝ අකුණු ගැසීමේ අවදානමක් ඇති අයහපත් කාලගුණික අවස්ථාවන්හිදී උස් ස්ථානවල සිදු කරන වැඩ, ඉන්ධන පිරවීම සහ PBB මෙහෙයුම් තාවකාලිකව නතර කර හෝ අත්හැර දමා කාර්ය මණ්ඩලයේ ආරක්ෂාවට මුල් තැන දී කටයුතු කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "තද වැස්ස, හුළං හෝ අකුණු වැනි අයහපත් කාලගුණයකදී උසස් වැඩ සහ තෙල් ගැසීම වැනි මෙහෙයුම් වහාම නතර කරන්න ඕනෙ.",
+            "japanese_tts_text": "悪天候時は高所作業や給油を中断し、スタッフの安全確保を最優先します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "悪天候",
+          "furigana": "あくてんこう",
+          "romaji": "Akutenkou",
+          "english": "Severe Weather / Bad Weather",
+          "sinhala": "අයහපත් කාලගුණය"
+        },
+        {
+          "japanese": "作業中断",
+          "furigana": "さぎょうちゅうだん",
+          "romaji": "Sagyou Chuudan",
+          "english": "Suspension of Work",
+          "sinhala": "මෙහෙයුම් තාවකාලිකව නැවැත්වීම"
+        }
+      ]
+    },
+    {
+      "page_number": 29,
+      "page_title_sinhala": "ගුවන් තොටුපළ බිම් හැසිරවීමේ විධිමත් වාර්තා තැබීම සහ ලේඛනගත කිරීම",
+      "page_title_japanese": "29. 業務記録の正確な記載と点検シート・チェックリストの運用管理",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/057.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/058.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P29_S01",
+          "content_type": "record_keeping_and_checklists_rev2",
+          "japanese": {
+            "original_kanji": "各種点検やハンドリング業務の実施記録は、チェックリスト等を用いて漏れなく正確に記載し、トラブル発生時の追跡調査や品質管理の資料として確実に保管・管理する。",
+            "furigana": "点検やハンドリング業務の実施記録はチェックリストを用いて正確に記載し、確実に保管する。",
+            "romaji": "Kakushu tenken ya handoringu gyoumu no jisshi kiroku o chekkurisuto o mochiite seikaku ni kisai shi, kakujitsu ni hokan suru."
+          },
+          "english": "Execution records for various inspections and handling operations must be accurately recorded without omission using checklists, ensuring they are securely stored and managed as reference data for traceability and quality control during troubles.",
+          "sinhala": "විවිධ පරීක්ෂා කිරීම් සහ හැසිරවීමේ මෙහෙයුම්වල වාර්තා චෙක්ලිස්ට් (Checklists) භාවිතයෙන් කිසිදු මඟහැරීමකින් තොරව නිවැරදිව සටහන් කළ යුතු අතර, ගැටළුවක් ඇති වූ විට පරීක්ෂා කිරීමට සහ තත්ත්ව පාලනය සඳහා ඒවා සුරක්ෂිතව ගබඩා කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "වාහන සහ මෙහෙයුම් පරීක්ෂා කිරීම් චෙක්ලිස්ට් පාවිච්චි කරලා හරියට සටහන් කරලා ආරක්ෂා කර තබන්න ඕනෙ.",
+            "japanese_tts_text": "点検記録はチェックリストで正確に記載し、品質管理資料として確実に保管します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "チェックリスト",
+          "furigana": "チェックリスト",
+          "romaji": "Chekkurisuto",
+          "english": "Checklist",
+          "sinhala": "පරීක්ෂා ලැයිස්තුව (Checklist)"
+        },
+        {
+          "japanese": "保管管理",
+          "furigana": "ほかんかんり",
+          "romaji": "Hokan Kanri",
+          "english": "Storage and Management",
+          "sinhala": "സുරක්ෂිතව ගබඩා කර පාලනය කිරීම"
+        }
+      ]
+    },
+    {
+      "page_number": 30,
+      "page_title_sinhala": "ආරක්ෂක විඥානය සහ වෘත්තීය ආචාරධර්ම (Safety Awareness)",
+      "page_title_japanese": "30. プロフェッショナルとしての安全意識の維持とモラルの向上",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/059.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/060.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P30_S01",
+          "content_type": "professional_safety_awareness_rev2",
+          "japanese": {
+            "original_kanji": "「自分だけは大丈夫」という慢心やルールの形骸化を戒め、すべてのスタッフが常に緊張感と高い倫理観を持って日々の業務に臨むことが、事故を防ぐ最大の防壁となる。",
+            "furigana": "自分だけは大丈夫という慢心を戒め、スタッフが緊張感と高い倫理観を持って業務に臨むことが事故を防ぐ。",
+            "romaji": "Jibun dake wa daijoubu to iu manshin o imashime, sutaffu ga tsune ni kinchoukan to takai rinrikan o motte gyoumu ni zomu..."
+          },
+          "english": "Guarding against complacency such as thinking 'I'll be fine' and the erosion of rule enforcement, all staff approaching daily operations with constant vigilance and high ethical standards forms the greatest defense against accidents.",
+          "sinhala": "'මහ ලොකු දෙයක් වෙන්නේ නැහැ, මට නම් ප්‍රශ්නයක් නැහැ' යන අසංවර අදහස් සහ නීති නිකම් නමස්කාරයට පමණක් සීමා වීමෙන් වැළකී, සෑම සේවකයෙක්ම නිරන්තර විමසිල්ලෙන් සහ ඉහළ සදාචාරාත්මක ප්‍රමිතියකින් යුතුව දෛනික මෙහෙයුම්වල නියැලීම අනතුරුවලින් ආරක්ෂා වීමට ඇති ප්‍රධානම පලිහ වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "'මට නම් මොනවා වෙන්නද' කියන අතපසු වීම් නැතුව, හැමෝම වගකීමෙන් සහ උසස් විනයකින් වැඩ කිරීමෙන් අනතුරු වළක්වා ගන්න පුළුවන්.",
+            "japanese_tts_text": "慢心を捨て、高い倫理観と緊張感を持って業務に臨むことが事故を防ぐ最大の防壁です。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "慢心",
+          "furigana": "まんしん",
+          "romaji": "Manshin",
+          "english": "Complacency / Overconfidence",
+          "sinhala": "අපරීක්ෂාකාරී වීම / උඩඟුකම"
+        },
+        {
+          "japanese": "倫理観",
+          "furigana": "りんりかん",
+          "romaji": "Rinrikan",
+          "english": "Ethical Sense / Morality",
+          "sinhala": "සදාචාරාත්මක හැඟීම / විනය"
+        }
+      ]
+    },
+    {
+      "page_number": 31,
+      "page_title_sinhala": "ආරක්ෂාව සහ ගුණාත්මකභාවය පුහුණු අත්පොතේ පූර්ණ අවසානය",
+      "page_title_japanese": "31. 安全と品質（Safety and Quality）教本 全文の終了と今後の決意",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/061.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/062.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P31_S01",
+          "content_type": "final_manual_conclusion_sq",
+          "japanese": {
+            "original_kanji": "本教本で学び得た安全性確保の原則、ヒューマンエラー対策、法規制の知識を深く胸に刻み、現場における実践を通じて航空輸送の安全と品質を未来永劫守り抜くことを誓う。",
+            "furigana": "本教本で学び得た原則や知識を胸に刻み、現場の実践を通じて航空輸送の安全と品質を守り抜くことを誓う。",
+            "romaji": "Hon kyouhon de manabi eta gensoku ya chishiki o mune ni kizami, genba no jissen o tsuujite koukuu yusou no shinrai o mamori nuku koto o chikau."
+          },
+          "english": "Deeply engraving the principles of ensuring safety, human error countermeasures, and regulatory knowledge learned through this manual into your heart, we pledge to safeguard the safety and quality of aviation transport into the future through practical application on the ramp.",
+          "sinhala": "මෙම පුහුණු අත්පොතෙන් ඉගෙනගත් ආරක්ෂාව තහවුරු කිරීමේ මූලධර්ම, මානව දෝෂ වැළැක්වීමේ ක්‍රම සහ නීතිමය දැනුම සදාකාලයෙන්ම සිත්හි දරා ගනිමින්, බිම් මට්ටමින් ඒවා ක්‍රියාත්මක කරමින් ගුවන් ප්‍රවාහනයේ ආරක්ෂාව සහ ගුණාත්මකභාවය අනාගතය වෙනුවෙන් සුරක්ෂිත කරන බවට ප්‍රතිඥා දෙමු!",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "සුභ පැතුම් ළමයි! Safety and Quality පුහුණු අත්පොතේ සියලුම පිටු අපි සාර්ථකව අවසන් කළා. ආරක්ෂාවට මුල්තැන දෙමින් ඉදිරි විභාගය ජය ගනිමු!",
+            "japanese_tts_text": "全課程の終了おめでとうございます！安全第一と高品質を胸に、素晴らしいプロフェッショナルを目指しましょう。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "安全確保",
+          "furigana": "あんぜんかくほ",
+          "romaji": "Anzen Kakuho",
+          "english": "Ensuring Safety",
+          "sinhala": "ආරක්ෂාව තහවුරු කිරීම"
+        },
+        {
+          "japanese": "未来永劫",
+          "furigana": "みらいえいごう",
+          "romaji": "Mirai Eigou",
+          "english": "Forever / Into the Future",
+          "sinhala": "සදාකාලිකව / අනාගතය පුරාම"
+        }
+      ]
+    }
+  ]
+}

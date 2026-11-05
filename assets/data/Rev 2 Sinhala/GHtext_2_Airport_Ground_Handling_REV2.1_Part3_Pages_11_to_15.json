@@ -1,0 +1,261 @@
+{
+  "metadata": {
+    "module": "Airport Ground Handling (空港グラウンドハンドリング)",
+    "batch": "GHtext_2_Airport_Ground_Handling_REV2.1_Part3_Pages_11_to_15",
+    "document_title": "GHtext【2.Airport Ground Handling】.REV2.1.pdf",
+    "source_pdf": "GHtext【2.Airport Ground Handling】.REV2.1.pdf",
+    "image_folder": "GHtext【2.Airport Ground Handling】- Images.REV2.1/"
+  },
+  "pages": [
+    {
+      "page_number": 11,
+      "page_title_sinhala": "ටැක්සිවේ සහ රැම්ප් ප්‍රදේශයේ වාහන ධාවන නීති සහ වේග සීමා",
+      "page_title_japanese": "11. 制限区域内における車両の通行ルールと速度制限の厳守",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/021.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/022.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P11_S01",
+          "content_type": "ramp_vehicle_driving_rules",
+          "japanese": {
+            "original_kanji": "制限区域内を走行するすべての車両は、定められた速度制限（通常時15km/h〜20km/h等、エリアにより異なる）を厳守し、航空機や歩行者を最優先しなければならない。また、一時停止場所での確実な停止や指示標示に従う義務がある。",
+            "furigana": "制限区域内(せいげんくいきない)を走行(そうこう)するすべての車両は、定(さだ)められた速度制限(そくどせいげん)を厳守し、航空機や歩行者を最優先しなければならない。",
+            "romaji": "Seigen kuiki nai wo soukou suru subete no sharyou wa, sadamerareta sokudo seigen wo genshu shi, koukuuki ya hokousha wo sai yuusen shinakereba naranai."
+          },
+          "english": "All vehicles operating within restricted areas must strictly adhere to designated speed limits (typically 15 km/h to 20 km/h, varying by area) and give absolute right-of-way to aircraft and pedestrians. Furthermore, drivers have an obligation to come to a complete stop at designated stop signs and obey all directional markings.",
+          "sinhala": "සීමිත ප්‍රදේශ තුළ ධාවනය වන සියලුම වාහන නියමිත වේග සීමාවන් (සාමාන්‍යයෙන් පැයට කිලෝමීටර් 15ත් 20ත් අතර, ප්‍රදේශය අනුව වෙනස් විය හැක) දැඩි ලෙස පිළිපැදිය යුතු අතර, ගුවන් යානා සහ පදිකයින්ට පූර්ණ ප්‍රමුඛතාව ලබා දිය යුතුය. එසේම නියමිත නැවතුම් ස්ථානවල සම්පූර්ණයෙන්ම නැවැත්වීම සහ මාර්ග සංඥා පිළිපැදීම අනිවාර්ය වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "එයාර්පෝට් එක ඇතුළේ වාහන පදවද්දී නියමිත වේග සීමාව කඩන්නම බැහැ. ප්ලේන් වලට සහ මිනිස්සුන්ට තමයි හැමවෙලේම මුල් තැන දෙන්න ඕනෙ.",
+            "japanese_tts_text": "制限区域内の車両は速度制限を厳守し、航空機と歩行者を最優先します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "速度制限",
+          "furigana": "そくどせいげん",
+          "romaji": "Sokudo Seigen",
+          "english": "Speed Limit",
+          "sinhala": "වේග සීමාව"
+        },
+        {
+          "japanese": "最優先",
+          "furigana": "さいゆうせん",
+          "romaji": "Sai Yuusen",
+          "english": "Absolute Priority",
+          "sinhala": "ප්‍රමුඛතාව ලබා දීම"
+        },
+        {
+          "japanese": "一時停止",
+          "furigana": "いちじていし",
+          "romaji": "Ichiji Teishi",
+          "english": "Temporary Stop / Full Stop",
+          "sinhala": "තාවකාලිකව නැවැත්වීම"
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "page_title_sinhala": "GSE (බිම් ආධාරක උපකරණ) මෙහෙයුමට පෙර සිදු කරන පරීක්ෂාව",
+      "page_title_japanese": "12. 地上支援機材（GSE）の始業前点検と異常発見時の対応手順",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/023.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/024.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P12_S01",
+          "content_type": "gse_pre_operation_checks",
+          "japanese": {
+            "original_kanji": "GSE（タッグ、ローダー、ベルトローダー等）を運用する前には、必ずブレーキ、タイヤの摩耗、灯火類の点灯、漏油・漏水の有無等の始業前点検を実施し、異常が発見された場合は直ちに上司に報告して使用を中止する。",
+            "furigana": "GSEを運用する前には、必ずブレーキ、タイヤの摩耗、灯火類の点灯、漏油等の始業前点検を実施し、異常が発見された場合は直ちに上司に報告して使用を中止する。",
+            "romaji": "GSE wo unyou suru mae ni wa, kanarazu bureeki, taiya no mamou, toukarui no tentou, rouyuu tou no shigyou mae tenken wo jisshi shi..."
+          },
+          "english": "Before operating any GSE (tugs, loaders, belt loaders, etc.), pre-operation checks for brakes, tire wear, light operation, and fluid/oil leaks must be conducted. If any abnormality is found, report immediately to supervisors and suspend use.",
+          "sinhala": "ඕනෑම GSE උපකරණයක් (ටග්, ලෝඩර්, බෙල්ට් ලෝඩර් ආදී) ක්‍රියාත්මක කිරීමට පෙර බ්‍රේක්, ටයර් ගෙවී ඇත්දැයි බැලීම, ලයිට් ක්‍රියාකාරීත්වය සහ තෙල් කාන්දු වීම් (Oil leaks) ආදී දෑ පරීක්ෂා කළ යුතු අතර, කිසියම් දෝෂයක් ඇත්නම් වහාම උසස් නිලධාරීන්ට දැනුම් දී භාවිතය නතර කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "වැඩ පටන් ගන්න කලින් වාහනේ බ්‍රේක්, ලයිට්, තෙල් ලීක් වෙනවද කියලා අනිවාර්යයෙන්ම චෙක් කරන්න ඕනෙ. දෝෂයක් තියෙනවනම් පාවිච්චි කරන්න එපා.",
+            "japanese_tts_text": "GSEの稼働前には必ず点検を行い、異常があれば直ちに使用を中止します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "始業前点検",
+          "furigana": "しぎょうまえてんけん",
+          "romaji": "Shigyou Mae Tenken",
+          "english": "Pre-Operation Inspection",
+          "sinhala": "මෙහෙයුමට පෙර සිදු කරන පරීක්ෂාව"
+        },
+        {
+          "japanese": "漏油",
+          "furigana": "ろうゆ",
+          "romaji": "Rouyuu",
+          "english": "Oil Leakage",
+          "sinhala": "තෙල් කාන්දු වීම"
+        },
+        {
+          "japanese": "使用中止",
+          "furigana": "しようちゅうし",
+          "romaji": "Shiyou Chuushi",
+          "english": "Suspension of Use",
+          "sinhala": "භාවිතය නතර කිරීම"
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "page_title_sinhala": "අනතුරු සහ හදිසි අවස්ථා වාර්තා කිරීම සහ මුල් ප්‍රතිචාර",
+      "page_title_japanese": "13. 事故・インシデント発生時の緊急連絡と現場の初期対応",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/025.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/026.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P13_S01",
+          "content_type": "accident_emergency_reporting",
+          "japanese": {
+            "original_kanji": "万が一、車両の接触や人身事故などのインシデントが発生した場合は、負傷者の救護を最優先に行い、速やかに関係部署や管制へ通報するとともに、事故現場の証拠を保全しなければならない。",
+            "furigana": "万が一、車両の接触や人身事故などのインシデントが発生した場合は、負傷者の救護を最優先に行い、速やかに関係部署へ通報する。",
+            "romaji": "Mangaiichi, sharyou no sesshoku ya jinshin jiko nado no inshidento ga hassei shita baai wa, fushousha no kyuugo wo sai yuusen ni okonai..."
+          },
+          "english": "In the event of an accident such as a vehicle collision or personal injury incident, victim rescue is the absolute top priority. Promptly notify relevant departments and air traffic control, and preserve the scene evidence.",
+          "sinhala": "ප්‍රවාහන වාහන ගැටීමක් හෝ පුද්ගල අනතුරක් වැනි හදිසි තත්ත්වයක් ඇති වුවහොත්, තුවාල ලැබූවන් බේරා ගැනීමට මුල් තැන දිය යුතු අතර, වහාම අදාළ අංශ වෙත සහ පාලක මධ්‍යස්ථානයට දැනුම් දී ස්ථානයේ සාක්ෂි සහ තත්ත්වය ආරක්ෂා කර ගත යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "අනතුරක් වුණොත් මුලින්ම තුවාලකාරයාව බේරගන්න ඕනෙ. ඊට පස්සේ ඉක්මනින්ම උසස් අංශ වලට රිපෝට් කරන්න.",
+            "japanese_tts_text": "事故発生時は負傷者の救護を最優先し、速やかに関係部署へ通報します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "負傷者",
+          "furigana": "ふしょうしゃ",
+          "romaji": "Fushousha",
+          "english": "Injured Person",
+          "sinhala": "තුවාලකරු"
+        },
+        {
+          "japanese": "救護",
+          "furigana": "きゅうご",
+          "romaji": "Kyuugo",
+          "english": "Rescue / Relief",
+          "sinhala": "ආධාර කිරීම / බේරා ගැනීම"
+        },
+        {
+          "japanese": "証拠保全",
+          "furigana": "しょうこほぜん",
+          "romaji": "Shouko Hozen",
+          "english": "Preservation of Evidence",
+          "sinhala": "සාක්ෂි ආරක්ෂා කර තබා ගැනීම"
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "page_title_sinhala": "විදුලි හා කම්පන උපකරණ ආරක්ෂාව (GPU සම්බන්ධ කිරීම)",
+      "page_title_japanese": "14. 航空機への電源供給（GPU）接続と電気系統の安全管理",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/027.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/028.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P14_S01",
+          "content_type": "gpu_and_electrical_safety",
+          "japanese": {
+            "original_kanji": "GPU（地上電源装置）を航空機に接続する際は、ケーブルの損傷やピンの曲がりを確認し、感電やショートを防ぐために定められた手順通りに確実に接続操作を行う。また、通電中のプラグ抜き差しは厳禁である。",
+            "furigana": "GPUを航空機に接続する際は、ケーブルの損傷やピンの曲がりを確認し、感電やショートを防ぐために定められた手順通りに確実に接続操作を行う。",
+            "romaji": "GPU wo koukuuki ni setsuzoku suru sai wa, keeburu no sonshou ya pin no magari wo kakunin shi..."
+          },
+          "english": "When connecting a GPU (Ground Power Unit) to an aircraft, check for cable damage or bent pins, and perform connection procedures strictly according to guidelines to prevent electrical shock or short circuits. Plugging or unplugging while energized is strictly prohibited.",
+          "sinhala": "GPU (භූමිය මඟින් විදුලිබලය සපයන යන්ත්‍රය) ගුවන් යානයට සම්බන්ධ කිරීමේදී කේබල් වල හානි හෝ පින් වල නැමීම් ඇත්දැයි බැලිය යුතු අතර, විදුලි සැර වැදීම් හෝ කෙටි පරිපථ වැළැක්වීම සඳහා නියමිත ක්‍රමවේදයට අනුව සම්බන්ධ කළ යුතුය. විදුලිය සක්‍රීයව පවතිද්දී ප්ලග් එක ගැලවීම හෝ සවි කිරීම දැඩි ලෙස තහනම් වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "GPU එක ප්ලේන් එකට ගහද්දී කේබල් එක හොඳයිද කියලා බලලා නියමිත විදිහටම කනෙක්ට් කරන්න ඕනෙ.",
+            "japanese_tts_text": "GPU接続時はケーブルの損傷を確認し、手順に従って確実に操作します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "地上電源装置（GPU）",
+          "furigana": "ちじょうでんげんそうち",
+          "romaji": "Chijou Dengen Souchi (GPU)",
+          "english": "Ground Power Unit",
+          "sinhala": "බිම් විදුලි බල ඒකකය (GPU)"
+        },
+        {
+          "japanese": "感電",
+          "furigana": "かでん",
+          "romaji": "Kanden",
+          "english": "Electric Shock",
+          "sinhala": "විදුලි සැර වැදීම"
+        },
+        {
+          "japanese": "ショート",
+          "furigana": "ショート",
+          "romaji": "Shooto",
+          "english": "Short Circuit",
+          "sinhala": "කෙටි පරිපථය (Short circuit)"
+        }
+      ]
+    },
+    {
+      "page_number": 15,
+      "page_title_sinhala": "වායු සමීකරණ (ACU) සහ ජල සැපයුම් සේවා මෙහෙයුම්",
+      "page_title_japanese": "15. エアコン車（ACU）および給水・汚水車の安全運用ルール",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/029.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/030.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P15_S01",
+          "content_type": "acu_water_lavatory_services",
+          "japanese": {
+            "original_kanji": "客室内の温度調整を行うACU（地上空調装置）や、給水車・汚水車の接続作業では、ホースの誤接続や汚水の飛散を防ぐため、専用の保護具を着用し慎重に作業を行う。特に汚水処理時は衛生管理を徹底する。",
+            "furigana": "客室内の温度調整を行うACUや、給水車・汚水車の接続作業では、ホースの誤接続や汚水の飛散を防ぐため、専用の保護具を着用する。",
+            "romaji": "Kyakushitsu nai no ondo chousei wo okonau ACU ya, kyuusuisha osuisha no setsuzoku sagyou de wa..."
+          },
+          "english": "During operations involving ACU (Air Conditioning Unit) connection or water/lavatory servicing trucks, wear designated protective gear and work carefully to prevent hose misconnection or sewage splashing. Especially during sewage treatment, maintain strict sanitary management.",
+          "sinhala": "ගුවන් යානයේ අභ්‍යන්තර උෂ්ණත්වය පාලනය කරන ACU යන්ත්‍ර සහ පානීය ජලය / වැසිකිළි අපද්‍රව්‍ය ඉවත් කරන ට්‍රක් රථ සම්බන්ධ කිරීමේදී හෝස් වැරදි ලෙස සම්බන්ධ වීම හෝ අපද්‍රව්‍ය කාන්දු වීම වැළැක්වීම සඳහා විශේෂ ආරක්ෂක ආවරණ පැළඳිය යුතුය. විශේෂයෙන් වැසිකිළි අපද්‍රව්‍ය හැසිරවීමේදී සනීපාරක්ෂාව දැඩි ලෙස ආරක්ෂා කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ජලය සහ වැසිකිළි සේවා සපයද්දී අනිවාර්යයෙන්ම ප්‍රොටෙක්ටිව් ගියර් පාවිච්චි කරන්න ඕනෙ. සනීපාරක්ෂාව ගැනත් ගොඩක් සැලකිලිමත් වෙන්න.",
+            "japanese_tts_text": "ACUや給水・汚水車の作業では、専用の保護具を着用し慎重に行います。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "地上空調装置（ACU）",
+          "furigana": "ちじょうくうちょうそうち",
+          "romaji": "Chijou Kuuchou Souchi (ACU)",
+          "english": "Air Conditioning Unit",
+          "sinhala": "බිම් වායු සමීකරණ ඒකකය"
+        },
+        {
+          "japanese": "汚水車",
+          "furigana": "おすいしゃ",
+          "romaji": "Osuisha",
+          "english": "Lavatory Service Truck",
+          "sinhala": "වැසිකිළි අපද්‍රව්‍ය ඉවත් කරන රථය"
+        },
+        {
+          "japanese": "保護具",
+          "furigana": "ほごぐ",
+          "romaji": "Hogogu",
+          "english": "Protective Equipment / Gear",
+          "sinhala": "ආරක්ෂක ආවරණ / උපකරණ"
+        }
+      ]
+    }
+  ]
+}

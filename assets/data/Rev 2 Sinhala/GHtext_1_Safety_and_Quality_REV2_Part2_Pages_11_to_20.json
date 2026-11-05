@@ -1,0 +1,441 @@
+{
+  "metadata": {
+    "module": "Safety and Quality (安全・品質)",
+    "batch": "GHtext_1_Safety_and_Quality_REV2_Part2_Pages_11_to_20",
+    "document_title": "GHtext【1.Safety and Quality】.REV2.pdf",
+    "source_pdf": "GHtext【1.Safety and Quality】.REV2.pdf",
+    "image_folder": "GHtext【1.Safety and Quality】- Images .REV2/"
+  },
+  "pages": [
+    {
+      "page_number": 11,
+      "page_title_sinhala": "අන්තරායකර භාණ්ඩ ලේබල් සහ හැසිරවීමේ සලකුණු (DGR Labelling)",
+      "page_title_japanese": "11. 危険物ラベル（クラス分類標示）と輸送方法を示すハンドリング・ラベル",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/021.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/022.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P11_S01",
+          "content_type": "dgr_labels_and_handling_marks",
+          "japanese": {
+            "original_kanji": "危険物を輸送する包装物には、第1類から第9類までの危険性を示すクラスラベルのほか、貨物機専用（CAO）、熱源からの隔離、リチウム電池マークなどの取扱標示ラベルを適正に貼付しなければならない。",
+            "furigana": "危険物を輸送する包装物には、クラスラベルのほか、貨物機専用（CAO）などの取扱標示ラベルを適正に貼付する。",
+            "romaji": "Kikenbutsu wo yuusou suru housoubutsu ni wa, kurasu raberu no hoka, kamotsuki senyou (CAO) nado no toriatsukai hyouji raberu wo tekisei ni choufu shinakereba naranai."
+          },
+          "english": "Packages transporting dangerous goods must properly display class hazard labels (Classes 1-9) as well as handling marks such as Cargo Aircraft Only (CAO), Keep Away From Heat, and Lithium Battery marks.",
+          "sinhala": "අන්තරායකර භාණ්ඩ අඩංගු ඇසුරුම් මත 1 සිට 9 දක්වා පන්ති ලේබල් වලට අමතරව, මගී යානාවල පැටවීම තහනම් කාගෝ යානාවලට පමණක් වන (CAO), තාපයෙන් ඈත් කර තබන සහ ලිතියම් බැටරි සලකුණු වැනි නිසි හැසිරවීමේ ලේබල් ඇලවිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ඩී.ජී.ආර් පෙට්ටි වල පන්ති ලේබල් වලට අමතරව 'Cargo Aircraft Only' (CAO) වගේ විශේෂ ලේබලුත් අනිවාර්යයෙන්ම අලවන්න ඕනෙ.",
+            "japanese_tts_text": "危険物包装物にはクラスラベルのほか、貨物機専用（CAO）などの取扱標示ラベルを適正に貼付します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "クラスラベル",
+          "furigana": "クラスラベル",
+          "romaji": "Kurasu Raberu",
+          "english": "Class Hazard Label",
+          "sinhala": "පන්ති අනතුරු ඇඟවීමේ ලේබලය"
+        },
+        {
+          "japanese": "貨物機専用（CAO）",
+          "furigana": "かもつきせんよう",
+          "romaji": "Kamotsuki Senyou (CAO)",
+          "english": "Cargo Aircraft Only",
+          "sinhala": "භාණ්ඩ ප්‍රවාහන යානාවලට පමණි"
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "page_title_sinhala": "UN ප්‍රමිතීන්ට අනුව බහාලුම් තෝරා ගැනීම (UN Packaging & Jerrycan)",
+      "page_title_japanese": "12. 国連規格容器（UN Packaging）およびジェリカンの正しい選定と使用",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/023.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/024.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P12_S01",
+          "content_type": "un_packaging_and_jerrycans_rev2",
+          "japanese": {
+            "original_kanji": "液漏れや容器の破損による事故を防ぐため、危険物の性状に適合した国連規格容器（UN Packaging）やジェリカン（Jerrycan）を選定し、規定通りの方法で確実に梱包する。",
+            "furigana": "液漏れや容器の破損を防ぐため、危険物の性状に適合した国連規格容器やジェリカンを選定し梱包する。",
+            "romaji": "Ekimore ya youki no hasonson wo fusegu tame, kikenbutsu no seijou ni tekigou shita kokuren kikaku youki ya jerikan wo sentei shi konpou suru."
+          },
+          "english": "To prevent accidents caused by liquid leaks or container breakage, select UN specification packaging and jerrycans suited to the properties of the dangerous goods, packing them securely according to regulations.",
+          "sinhala": "දියර කාන්දු වීම් හෝ බහාලුම් බිඳ වැටීම් නිසා සිදුවන අනතුරු වැළැක්වීම සඳහා අන්තරායකර භාණ්ඩවල ස්වභාවයට ගැළපෙන එක්සත් ජාතීන්ගේ ප්‍රමිතිගත බහාලුම් (UN Packaging) සහ ජෙරිකන් (Jerrycans) තෝරාගෙන නීතිරීතිවලට අනුව නිසි ලෙස ඇසුරුම් කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "කාන්දු වීම් වළක්වන්න නම් UN ප්‍රමිතියට (Jerrycan) අනුව සකස් කළ බහාලුම්ම පාවිච්චි කරන්න ඕනෙ.",
+            "japanese_tts_text": "液漏れや破損を防ぐため、国連規格容器やジェリカンを適正に選定し梱包します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "国連規格容器",
+          "furigana": "こくれんきかくようき",
+          "romaji": "Kokuren Kikaku Youki",
+          "english": "UN Specification Packaging",
+          "sinhala": "එක්සත් ජාතීන්ගේ ප්‍රමිතිගත බහාලුම්"
+        },
+        {
+          "japanese": "ジェリカン",
+          "furigana": "ジェリカン",
+          "romaji": "Jerikan",
+          "english": "Jerrycan",
+          "sinhala": "ජෙරිකන් බහාලුම"
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "page_title_sinhala": "ගුවන් තොටුපළ බිම් හැසිරවීමේදී ගුණාත්මකභාවය සහ පාරිභෝගික තෘප්තිය",
+      "page_title_japanese": "13. グランドハンドリングにおける品質管理（Quality Control）と顧客満足",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/025.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/026.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P13_S01",
+          "content_type": "quality_control_and_customer_satisfaction",
+          "japanese": {
+            "original_kanji": "安全運行の確保と同時に、受託手荷物の丁寧な取り扱いや定時性の維持など、高品質なグランドハンドリングサービスを提供することが航空会社の信頼向上に直結する。",
+            "furigana": "安全運行の確保と同時に、受託手荷物の丁寧な取り扱いや定時性の維持など、高品質なサービスを提供する。",
+            "romaji": "Anzen unkou no kakuho to douji ni, jutaku tenimotsu no teinei na toriatsukai ya teijisei no iji nado, kouhinshitsu na saabisu wo teikyou suru."
+          },
+          "english": "Alongside ensuring safe operations, providing high-quality ground handling services such as careful handling of checked baggage and maintaining on-time performance directly enhances airline trust and reputation.",
+          "sinhala": "ආරක්ෂිත මෙහෙයුම් තහවුරු කිරීමට අමතරව, මගීන්ගේ ගමන් මලු ඉතා පරිස්සමින් හැසිරවීම සහ නියමිත වේලාවට මෙහෙයුම් නිම කිරීම (On-time performance) වැනි උසස් තත්ත්වයේ සේවාවන් සැපයීම ගුවන් සේවා සමාගමේ විශ්වාසය ඉහළ නැංවීමට සෘජුවම බලපායි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ආරක්ෂාව වගේම මගීන්ගේ බෑග් පරිස්සමින් හැසිරවීම සහ නියමිත වෙලාවට වැඩ අවසන් කිරීම ගුණාත්මක සේවාවකට අත්‍යවශ්‍යයි.",
+            "japanese_tts_text": "安全運航に加え、手荷物の丁寧な扱いや定時性の維持により高品質なサービスを提供します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "品質管理",
+          "furigana": "ひんしつかんり",
+          "romaji": "Hinshitsu Kanri",
+          "english": "Quality Control (QC)",
+          "sinhala": "තත්ත්ව පාලනය"
+        },
+        {
+          "japanese": "受託手荷物",
+          "furigana": "じゅたくてにもつ",
+          "romaji": "Jutaku Tenimotsu",
+          "english": "Checked Baggage",
+          "sinhala": "භාර දුන් ගමන් මලු"
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "page_title_sinhala": "GSE (භිම් ආධාරක උපකරණ) ආරක්ෂිත මෙහෙයුම් සහ නඩත්තුව",
+      "page_title_japanese": "14. 地上支援機材（GSE）の安全な運用と定期点検の重要性",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/027.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/028.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P14_S01",
+          "content_type": "gse_safe_operations_and_maintenance",
+          "japanese": {
+            "original_kanji": "GSE（タッグ、ローダー等）の運用時は、定められた操作手順を厳守し、始業前点検や定期的なメンテナンスを確実に行うことで、機械故障による作業遅延や重大事故を防止する。",
+            "furigana": "GSEの運用時は操作手順を厳守し、始業前点検や定期メンテナンスを確実に行うことで事故を防止する。",
+            "romaji": "GSE no unyou jiku wa sousa tejun wo genshu shi, shigyou mae tenken ya teiki mentenansu wo kakujitsu ni okonau koto de jiko wo boushi suru."
+          },
+          "english": "When operating GSE (tugs, loaders, etc.), strictly adhere to designated operation procedures and conduct reliable pre-operation checks and regular maintenance to prevent work delays and major accidents caused by mechanical failure.",
+          "sinhala": "GSE උපකරණ (ටග්, ලෝඩර් ආදී) ක්‍රියාත්මක කිරීමේදී නියමිත මෙහෙයුම් ක්‍රමවේද අකුරටම පිළිපැදිය යුතු අතර, මෙහෙයුමට පෙර කරන පරීක්ෂා (Pre-operation checks) සහ නිත්‍ය නඩත්තුව මඟින් යන්ත්‍ර දෝෂ නිසා සිදුවන ප්‍රමාදයන් සහ බරපතල අනතුරු වළක්වා ගත යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "GSE වාහන පාවිච්චිද්දී නියමිත ක්‍රමයට වැඩ කරලා, දෛනික පරීක්ෂා නිවැරදිව කිරීමෙන් අනතුරු වළක්වා ගන්න පුළුවන්.",
+            "japanese_tts_text": "GSE運用時は手順を厳守し、始業前点検や定期点検により機械故障や事故を防止します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "操作手順",
+          "furigana": "そうさてじゅん",
+          "romaji": "Sousa Tejun",
+          "english": "Operation Procedure",
+          "sinhala": "මෙහෙයුම් ක්‍රමවේදය"
+        },
+        {
+          "japanese": "定期点検",
+          "furigana": "ていきてんけん",
+          "romaji": "Teiki Tenken",
+          "english": "Regular Inspection / Maintenance",
+          "sinhala": "කාලීන පරීක්ෂාව / නඩත්තුව"
+        }
+      ]
+    },
+    {
+      "page_number": 15,
+      "page_title_sinhala": "වැඩබිමේ සන්නිවේදනය සහ කණ්ඩායම් සම්බන්ධීකරණය",
+      "page_title_japanese": "15. 現場における確実な情報共有とチームワークの強化",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/029.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/030.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P15_S01",
+          "content_type": "workplace_communication_and_teamwork",
+          "japanese": {
+            "original_kanji": "グランドハンドリングの各工程は多くのスタッフが連携して行うため、申し送りや無線交信における情報共有を密に行い、チームワークを高めてエラーの発生を防ぐ。",
+            "furigana": "グランドハンドリングの各工程はスタッフが連携して行うため、情報共有を密に行いエラーを防ぐ。",
+            "romaji": "Gurando handoringu no kaku katei bi wa sutaffu ga renkei shite okonau tame, jouhou kyouyuu wo mitsu ni okonai eraa wo fusegu."
+          },
+          "english": "Since each stage of ground handling is carried out through close cooperation among numerous staff members, maintaining tight information sharing during handovers and radio communications strengthens teamwork and prevents errors.",
+          "sinhala": "බිම් හැසිරවීමේ සෑම අදියරක්ම කාර්ය මණ්ඩලයේ සමීප එකඟතාවයෙන් සිදු වන බැවින්, මාරුවීම් භාරදීමේදී (Handovers) සහ රේඩියෝ සන්නිවේදනයේදී තොරතුරු නිවැරදිව හුවමාරු කර ගැනීමෙන් කණ්ඩායම් ක්‍රියාකාරීත්වය දියුණු කර වැරදි මඟහරවා ගත හැක.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ග්‍රাউন্ড හැන්ඩ්ලිං වලදී හැමෝම එකතු වෙලා වැඩ කරන නිසා තොරතුරු නිවැරදිව හුවමාරු කරගැනීම වැරදි මඟහරවා ගන්න උදව් වෙනවා.",
+            "japanese_tts_text": "スタッフ間の密な情報共有とチームワークにより、エラーの発生を未然に防ぎます。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "情報共有",
+          "furigana": "じょうほうきょうゆう",
+          "romaji": "Jouhou Kyouyuu",
+          "english": "Information Sharing",
+          "sinhala": "තොරතුරු හුවමාරු කර ගැනීම"
+        },
+        {
+          "japanese": "チームワーク",
+          "furigana": "チームワーク",
+          "romaji": "Chiimuwaaku",
+          "english": "Teamwork",
+          "sinhala": "කණ්ඩායම් ක්‍රියාකාරීත්වය"
+        }
+      ]
+    },
+    {
+      "page_number": 16,
+      "page_title_sinhala": "අනතුරු ඇඟවීම් සහ හදිසි තත්ත්වයන්හිදී ක්‍රියාකිරීමේ විධිවිධාන",
+      "page_title_japanese": "16. 非常事態（緊急事態）発生時の対応フローと連絡体制",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/031.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/032.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P16_S01",
+          "content_type": "emergency_response_flow",
+          "japanese": {
+            "original_kanji": "火災、車両衝突、急病人などの緊急事態が発生した際は、パニックを起こさず定められた緊急連絡網に従い、迅速に関係部署へ通報し適切な初期対応を行う。",
+            "furigana": "緊急事態が発生した際は、定められた緊急連絡網に従い迅速に関係部署へ通報し初期対応を行う。",
+            "romaji": "Kinkyuu jitai ga hassei shita sai wa, sadamerareta kinkyuu renrakumou ni shitagai, jinsoku ni kankankei busho e tuuhou shi..."
+          },
+          "english": "In the event of emergencies such as fires, vehicle collisions, or sudden illness, avoid panicking and follow designated emergency contact protocols to promptly notify relevant departments and execute proper initial responses.",
+          "sinhala": "ගින්ගක්, වාහන ගැටීමක් හෝ හදිසි අසනීප තත්ත්වයක් වැනි හදිසි අවස්ථාවකදී බිය නොවී නියමිත හදිසි සම්බන්ධතා ජාලයට (Emergency contact network) අනුව අදාළ අංශ වෙත ඉක්මනින් දැනුම් දී මුල් අවස්ථාවේදී ගත යුතු ක්‍රියාමාර්ග ගත යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "හදිසි අනතුරක් වුණොත් කලබල නොවී නියමිත ක්‍රමයට අදාළ අංශ දැනුම් දීලා උචිත පියවර ගන්න.",
+            "japanese_tts_text": "緊急事態発生時はパニックを起こさず、連絡網に従い迅速に対応します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "緊急事態",
+          "furigana": "きんきゅうじたい",
+          "romaji": "Kinkyuu Jitai",
+          "english": "Emergency Situation",
+          "sinhala": "හදිසි තත්ත්වය"
+        },
+        {
+          "japanese": "緊急連絡網",
+          "furigana": "きんきゅうれんらくもう",
+          "romaji": "Kinkyuu Renrakumou",
+          "english": "Emergency Contact Network",
+          "sinhala": "හදිසි සම්බන්ධතා ජාලය"
+        }
+      ]
+    },
+    {
+      "page_number": 17,
+      "page_title_sinhala": "ආරක්ෂක විගණනය සහ තත්ත්ව වැඩිදියුණු කිරීම (Safety Audit)",
+      "page_title_japanese": "17. 安全監査（セーフティ・オーディット）と継続的改善（PDCAサイクル）",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/033.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/034.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P17_S01",
+          "content_type": "safety_audit_and_pdca",
+          "japanese": {
+            "original_kanji": "業務の安全性と品質を維持・向上させるため、定期的な安全監査を実施し、発見された問題点に対してPDCAサイクル（計画・実行・評価・改善）を回して継続的な改善を図る。",
+            "furigana": "安全性と品質を向上させるため定期的な安全監査を実施し、PDCAサイクルで継続的改善を図る。",
+            "romaji": "Anzensei to hinshitsu o koujou saseru tame teiki-teki na anzen kansa o jisshi shi, PDCA saikuru de keizokuteki na kaizen o hakaru."
+          },
+          "english": "To maintain and improve operational safety and quality, conduct regular safety audits and apply the PDCA cycle (Plan-Do-Check-Act) to address identified issues for continuous improvement.",
+          "sinhala": "මෙහෙයුම්වල ආරක්ෂාව සහ ගුණාත්මකභාවය පවත්වා ගැනීමට සහ දියුණු කිරීමට කාලීන ආරක්ෂක විගණන (Safety audits) පවත්වන අතර, හඳුනාගත් ගැටලු සඳහා PDCA චක්‍රය ( සැලසුම්-ක්‍රියාත්මක-පරීක්ෂා-දියුණු කිරීම) ක්‍රියාත්මක කරමින් අඛණ්ඩ වර්ධනයක් ලබා ගත යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ආරක්ෂාව සහ ගුණාත්මකභාවය නංවාලන්න ඕඩිට් (Audits) පවත්වමින් PDCA ක්‍රමයට නිරන්තර දියුණුවක් ලබා ගත යුතුයි.",
+            "japanese_tts_text": "安全監査を行い、PDCAサイクルを回して継続的な品質改善を図ります。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "安全監査",
+          "furigana": "あんぜんかんさ",
+          "romaji": "Anzen Kansa",
+          "english": "Safety Audit",
+          "sinhala": "ආරක්ෂක විගණනය"
+        },
+        {
+          "japanese": "継続的改善",
+          "furigana": "けいぞくてきかいぜん",
+          "romaji": "Keizokuteki Kaizen",
+          "english": "Continuous Improvement",
+          "sinhala": "අඛණ්ඩ දියුණුව"
+        }
+      ]
+    },
+    {
+      "page_number": 18,
+      "page_title_sinhala": "සේවක පුහුණුව සහ සුදුසුකම් තහවුරු කිරීම (Training & Certification)",
+      "page_title_japanese": "18. 作業スタッフの教育訓練と資格・ライセンス管理の重要性",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/035.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/036.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P18_S01",
+          "content_type": "staff_training_and_licensing",
+          "japanese": {
+            "original_kanji": "空港内の各業務を安全に行うため、スタッフは必要な教育訓練を修了し、適切な資格や社内ライセンスを保有していなければならない。無資格での機材操作は厳禁である。",
+            "furigana": "安全に行うためスタッフは教育訓練を修了し資格を保有する。無資格での機材操作は厳禁である。",
+            "romaji": "Anzen ni okonau tame sutaffu wa kyouiku kunren o shuuryou shi shikaku o hoyou shite inakereba naranai."
+          },
+          "english": "To perform operations safely within the airport, staff must complete required training and hold appropriate qualifications or internal licenses. Operating equipment without qualifications is strictly prohibited.",
+          "sinhala": "ගුවන් තොටුපළ තුළ සියලුම මෙහෙයුම් ආරක්ෂිතව ඉටු කිරීම සඳහා කාර්ය මණ්ඩලය අදාළ පුහුණු පාඨමාලා සාර්ථකව අවසන් කර නිසි සුදුසුකම් හෝ අභ්‍යන්තර බලපත්‍ර (Licenses) ලබා තිබිය යුතුය. සුදුසුකම් නොමැතිව උපකරණ ක්‍රියාත්මක කිරීම සපුරා තහනම් වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "නිසි පුහුණුවක් සහ බලපත්‍රයක් නැතුව කිසිම GSE උපකරණයක් පාවිච්චි කරන්න බැහැ.",
+            "japanese_tts_text": "必要な訓練を修了し資格を保有することが義務付けられており、無資格操作は厳禁です。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "教育訓練",
+          "furigana": "きょういくくんれん",
+          "romaji": "Kyouiku Kunren",
+          "english": "Training and Education",
+          "sinhala": "පුහුණුව සහ අධ්‍යාපනය"
+        },
+        {
+          "japanese": "無資格",
+          "furigana": "むしかく",
+          "romaji": "Mushikaku",
+          "english": "Unqualified / Without License",
+          "sinhala": "සුදුසුකම් හෝ බලපත්‍ර නොමැති වීම"
+        }
+      ]
+    },
+    {
+      "page_number": 19,
+      "page_title_sinhala": "පාරිසරික ආරක්ෂාව සහ රැම්ප් ප්‍රදේශයේ පිරිසිදුකම (Environmental Safety)",
+      "page_title_japanese": "19. ランプ内における環境保全と廃棄物・排水の適正処理",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/037.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/038.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P19_S01",
+          "content_type": "environmental_safety_and_waste_management",
+          "japanese": {
+            "original_kanji": "ランプ内での作業において、油の漏洩やゴミの放置は環境汚染を引き起こすため、化学物質や廃棄物は規定に従い適切に回収・処理しなければならない。",
+            "furigana": "油の漏洩やゴミの放置は環境汚染を引き起こすため、廃棄物は規定に従い適切に処理する。",
+            "romaji": "Abura no rouei ya gomi no houchi wa kankyou osen o hikiokosu tame, haikibutsu wa kitei ni shitagai tekisetsu ni shori suru."
+          },
+          "english": "During ramp operations, oil leaks or abandoned waste can cause environmental pollution; therefore, chemical substances and waste must be properly collected and disposed of in accordance with regulations.",
+          "sinhala": "රැම්ප් ප්‍රදේශයේ මෙහෙයුම්වලදී තෙල් කාන්දු වීම් හෝ කුණු කසළ අතහැර දැමීම මඟින් පරිසර දූෂණය සිදුවිය හැකි බැවින්, රසායනික ද්‍රව්‍ය සහ අපද්‍රව්‍ය නීතිරීතිවලට අනුව නිසි ලෙස එකතු කර ඉවත් කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "තෙල් ලීක් වීම් සහ කුණු කසළ නිසා පරිසරය දූෂණය නොවෙන්න ඒවා නිසි පරිදි බැහැර කරන්න ඕනෙ.",
+            "japanese_tts_text": "油の漏洩や廃棄物の放置を防ぎ、環境保全に努めます。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "環境保全",
+          "furigana": "かんきょうほぜん",
+          "romaji": "Kankyou Hozen",
+          "english": "Environmental Conservation",
+          "sinhala": "පරිසර ආරක්ෂණය"
+        },
+        {
+          "japanese": "漏洩",
+          "furigana": "ろうえい",
+          "romaji": "Rouei",
+          "english": "Leakage / Spillage",
+          "sinhala": "කාන්දු වීම / ලීක් වීම"
+        }
+      ]
+    },
+    {
+      "page_number": 20,
+      "page_title_sinhala": "ආරක්ෂාව සහ ගුණාත්මකභාවය පිළිබඳ පුහුණු අත්පොතේ අවසාන සාරාංශය",
+      "page_title_japanese": "20. 安全と品質（Safety and Quality）教本の総まとめとプロの心構え",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/039.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/040.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P20_S01",
+          "content_type": "final_summary_safety_and_quality",
+          "japanese": {
+            "original_kanji": "本教本を通じて学んだ安全第一の精神、法令の遵守、ヒューマンエラーの防止、および高品質なサービスの提供を実践し、航空輸送の信頼を守るプロフェッショナルとして貢献しよう。",
+            "furigana": "安全第一の精神や法令遵守を実践し、航空輸送の信頼を守るプロフェッショナルとして貢献する。",
+            "romaji": "Hon kyouhon o tsuujite mananda anzen daiichi no seishin o jissen shi, koukuu yusou no shinrai o mamoru purofesshonaru to shite kouken shiyou."
+          },
+          "english": "Put into practice the spirit of Safety First, compliance with regulations, prevention of human error, and the delivery of high-quality service learned through this manual, contributing as a professional who safeguards the trust of aviation transport.",
+          "sinhala": "මෙම අත්පොත හරහා ඉගෙනගත් ආරක්ෂාවට මුල්තැන දීමේ හරය, නීතිරීති පිළිපැදීම, මානව දෝෂ වළක්වා ගැනීම සහ උසස් තත්ත්වයේ සේවාවක් සැපයීම යන සියල්ල ක්‍රියාවට නංවමින් ගුවන් ප්‍රවාහනයේ විශ්වාසය රැකදෙන සැබෑ වෘත්තීයවේදියෙකු ලෙස දායක වෙමු!",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "සුභ පැතුම් ළමයි! Safety and Quality පුහුණු අත්පොතේ මෙම කොටසත් අපි සාර්ථකව අවසන් කළා. ආරක්ෂාවට මුල්තැන දෙමින් ඉදිරියට යමු!",
+            "japanese_tts_text": "安全第一と品質管理を実践し、航空輸送の信頼を支えるプロフェッショナルを目指しましょう！"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "安全第一",
+          "furigana": "あんぜんだいいち",
+          "romaji": "Anzen Daiichi",
+          "english": "Safety First",
+          "sinhala": "ආරක්ෂාවට මුල්තැන"
+        },
+        {
+          "japanese": "プロフェッショナル",
+          "furigana": "プロフェッショナル",
+          "romaji": "Purofesshonaru",
+          "english": "Professional",
+          "sinhala": "වෘත්තීයවේදියා"
+        }
+      ]
+    }
+  ]
+}

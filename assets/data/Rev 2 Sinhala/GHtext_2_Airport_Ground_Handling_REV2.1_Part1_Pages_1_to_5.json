@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "module": "Airport Ground Handling (空港グラウンドハンドリング)",
+    "batch": "GHtext_2_Airport_Ground_Handling_REV2.1_Part1_Pages_1_to_5",
+    "document_title": "GHtext【2.Airport Ground Handling】.REV2.1.pdf",
+    "source_pdf": "GHtext【2.Airport Ground Handling】.REV2.1.pdf",
+    "image_folder": "GHtext【2.Airport Ground Handling】- Images.REV2.1/"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "page_title_sinhala": "ගුවන් තොටුපළ බිම් හැසිරවීමේ හැඳින්වීම සහ මූලික මෙහෙයුම්",
+      "page_title_japanese": "01. 空港グランドハンドリングの概要と基本業務",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/001.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/002.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P01_S01",
+          "content_type": "ground_handling_overview",
+          "japanese": {
+            "original_kanji": "空港グランドハンドリング業務は、航空機が空港に到着してから出発するまでの間に地上で行われる多様な作業を総称したものであり、航空輸送の安全性と定時運行を支える極めて重要な基盤である。",
+            "furigana": "空港(くうこう)グランドハンドリング業務(ぎょうむ)は、航空機(こうくうき)が空港(くうこう)に到着(とうちゃく)してから出発(しゅっぱつ)するまでの間(あいだ)に地上(ちじょう)で行(おこな)われる多様(たよう)な作業(さぎょう)を総称(そうしょう)したものであり...",
+            "romaji": "Kuukou gurando handoringu gyoumu wa, koukuuki ga kuukou ni touchaku shite kara shuppatsu suru made no aida ni chijou de okonawareru tayou na sagyou wo soushou shita mono de aru."
+          },
+          "english": "Airport Ground Handling operations encompass a wide variety of ground services performed from the time an aircraft arrives at the airport until its departure, serving as a critical foundation supporting aviation safety and on-time performance.",
+          "sinhala": "ගුවන් තොටුපළ බිම් හැසිරවීමේ සේවා යනු ගුවන් යානයක් ගුවන් තොටුපළට පැමිණි මොහොතේ සිට පිටත්ව යන තෙක් බිම් මට්ටමින් සිදු කරනු ලබන විවිධ මෙහෙයුම්වල එකතුවකි. මෙය ගුවන් ප්‍රවාහනයේ ආරක්ෂාව සහ නියමිත වේලාවට ගුවන්ගත වීම තහවුරු කරන අතිශය වැදගත් පදනමකි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, Ground Handling කියන්නේ ප්ලේන් එකක් බිමට බැස්සට පස්සේ ආපහු යනකල් කරන සියලුම වැඩ වලටයි! ප්ලේන් එක ක්ලීන් කරන එක, බෑග් බාන එක, තෙල් ගහන එක වගේ හැම දෙයක්ම මීට අයත් වෙනවා.",
+            "japanese_tts_text": "空港グランドハンドリング業務は、航空機の安全性と定時運行を支える重要な基盤です。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "グランドハンドリング",
+          "furigana": "グランドハンドリング",
+          "romaji": "Gurando Handoringu",
+          "english": "Ground Handling",
+          "sinhala": "බිම් හැසිරවීමේ සේවා"
+        },
+        {
+          "japanese": "定時運行",
+          "furigana": "ていじうんこう",
+          "romaji": "Teiji Unkou",
+          "english": "On-Time Operation",
+          "sinhala": "නියමිත වේලාවට මෙහෙයුම් සිදු කිරීම"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "page_title_sinhala": "රැම්ප් ආරක්ෂාව සහ පාලන ප්‍රදේශ (Ramp Safety & Controlled Areas)",
+      "page_title_japanese": "02. ランプ内における安全管理と制限区域",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/003.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/004.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P02_S01",
+          "content_type": "ramp_safety_controlled_areas",
+          "japanese": {
+            "original_kanji": "制限区域内での作業では、航空機の動線やGSE（地上支援機材）の往来が激しいため、作業員一人ひとりが高い安全意識を持ち、ルールを厳守することが求められる。",
+            "furigana": "制限区域内(せいげんくいきない)での作業(さぎょう)では、航空機(こうくうき)の動線(どうせん)やGSEの往来(おうらい)が激(hage)しいため...",
+            "romaji": "Seigen kuiki nai de no sagyou de wa, koukuuki no dousen ya GSE no orazai ga hageshi tame, sagyouin hitori hitori ga takai anzen ishiki wo mochi..."
+          },
+          "english": "Working within restricted areas involves heavy movement of aircraft taxi routes and GSE (Ground Support Equipment), requiring every worker to maintain high safety awareness and strictly adhere to rules.",
+          "sinhala": "සීමිත ප්‍රදේශ (Restricted Areas) තුළ වැඩ කිරීමේදී ගුවන් යානා ගමන් කරන මාර්ග සහ GSE (බිම් ආධාරක උපකරණ) ධාවනය අධික වන බැවින්, සෑම සේවකයෙක්ම දැඩි ආරක්ෂක දැනුවත්භාවයකින් යුතුව නීති පිළිපැදිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "රැම්ප් එක කියන්නේ ලොකු අවදානමක් තියෙන තැනක්. ප්ලේන් සහ වාහන නිතර යන එන නිසා හරිම පරිස්සමින් වැඩ කරන්න ඕනෙ.",
+            "japanese_tts_text": "制限区域内での作業は、高い安全意識とルールの厳守が求められます。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "制限区域",
+          "furigana": "せいげんくいき",
+          "romaji": "Seigen Kuiki",
+          "english": "Restricted Area",
+          "sinhala": "සීමිත / පාලන ප්‍රදේශය"
+        },
+        {
+          "japanese": "地上支援機材",
+          "furigana": "ちじょうしえんきざい",
+          "romaji": "Chijou Shien Kizai (GSE)",
+          "english": "Ground Support Equipment",
+          "sinhala": "බිම් ආධාරක උපකරණ (GSE)"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "page_title_sinhala": "ගුවන් යානා පැමිණීම සහ පිළිගැනීමේ මෙහෙයුම් (Aircraft Arrival & Marshalling)",
+      "page_title_japanese": "03. 航空機の到着誘導とスポットイン業務",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/005.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/006.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P03_S01",
+          "content_type": "aircraft_arrival_marshalling",
+          "japanese": {
+            "original_kanji": "航空機がスポットに進入する際は、マーシャラーの誘導に従うか、VDGS（Visual Docking Guidance System）を使用して正確な停止位置に誘導しなければならない。",
+            "furigana": "航空機(こうくうき)がスポットに進入(しんにゅう)する際は、マーシャラーの誘導(ゆうどう)に従うか...",
+            "romaji": "Koukuuki ga supotto ni shinnyuu suru sai wa, maasharaa no yuudou ni shitagau ka, VDGS wo shiyou shite..."
+          },
+          "english": "When an aircraft enters the parking spot, it must be guided to the exact stopping position by a marshaller or using a VDGS (Visual Docking Guidance System).",
+          "sinhala": "ගුවන් යානයක් පාකින් ස්පොට් එකට ඇතුළු වන විට, මාර්ෂලර්වරයාගේ (Marshaller) සංඥා මඟින් හෝ VDGS (දෘශ්‍ය ඩොකිං මාර්ගෝපදේශ පද්ධතිය) මඟින් නියමිත නැවතුම් ස්ථානයට නිවැරදිව මඟ පෙන්විය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ප්ලේන් එක ස්පොට් එකට එනකොට හරියටම නවත්තන්න මාර්ෂලර් අත්වලින් සංඥා දෙනවා නැත්තම් VDGS සිස්ටම් එක පාවිච්චි කරනවා.",
+            "japanese_tts_text": "航空機のスポットイン時は、マーシャラーやVDGSで正確に誘導します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "マーシャラー",
+          "furigana": "マーシャラー",
+          "romaji": "Maasharaa",
+          "english": "Marshaller",
+          "sinhala": "ගුවන් යානා මාර්ෂලර් / මඟ පෙන්වන්නා"
+        },
+        {
+          "japanese": "停止位置",
+          "furigana": "ていしいち",
+          "romaji": "Teishi Ichi",
+          "english": "Stopping Position",
+          "sinhala": "නැවතුම් ස්ථානය"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "page_title_sinhala": "චොක්ස් දැමීම සහ ආරක්ෂක අගුළු දැමීම (Chocks & Safety Securing)",
+      "page_title_japanese": "04. 輪止め（チョックス）の装着と機体の固定",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/007.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/008.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P04_S01",
+          "content_type": "chocks_and_securing",
+          "japanese": {
+            "original_kanji": "航空機が停止した直後、機体が勝手に動き出さないようにメインギア（主脚）の前後に確実にご輪止め（チョックス）を装着しなければならない。",
+            "furigana": "航空機(こうくうき)が停止(ていし)した直後(ちょくご)、機体(きたい)が勝手(かって)に動(うご)き出(だ)さないように...",
+            "romaji": "Koukuuki ga teishi shita chokugo, kitai ga katte ni ugokidasanai you ni chokkusu wo soushakuしなければならない。"
+          },
+          "english": "Immediately after the aircraft comes to a complete stop, chocks must be securely placed around the main landing gear to prevent unintended movement.",
+          "sinhala": "ගුවන් යානය සම්පූර්ණයෙන්ම නැවැත්වූ වහාම, යානය ඉදිරියට හෝ පසුපසට ස්වයංක්‍රීයව ගමන් කිරීම වැළැක්වීම සඳහා ප්‍රධාන රෝද (Main Gear) ඉදිරියෙන් හා පසුපසින් චොක්ස් (Chocks) දැඩි ලෙස සවි කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ප්ලේන් එක නැවැත්වූ ගමන් රෝද වලට චොක්ස් (Chocks) දාන්න ඕනෙ ප්ලේන් එක පෙරළෙන්න හරි රූටලා යන්න හරි බැරි වෙන්න.",
+            "japanese_tts_text": "航空機停止後、機体の移動を防ぐため速やかにチョックスを装着します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "輪止め（チョックス）",
+          "furigana": "わどめ（チョックス）",
+          "romaji": "Wadome (Chokkusu)",
+          "english": "Chocks / Wheel Chocks",
+          "sinhala": "රෝද කුඤ්ඤ / චොක්ස්"
+        },
+        {
+          "japanese": "主脚",
+          "furigana": "しゅきゃく",
+          "romaji": "Shukyaku",
+          "english": "Main Landing Gear",
+          "sinhala": "ප්‍රධාන ගොඩබෑමේ රෝද පද්ධතිය"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "page_title_sinhala": "මගී පාලම සම්බන්ධ කිරීම (PBB Docking Operations)",
+      "page_title_japanese": "05. パッセンジャー・ボーディング・ブリッジ（PBB）の操作と接続",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/009.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/010.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P05_S01",
+          "content_type": "pbb_docking_operations",
+          "japanese": {
+            "original_kanji": "チョックスの装着とエンジン停止が確認された後、オペレーターはPBB（搭乗橋）を慎重に操作し、航空機のドアに安全に接続する。",
+            "furigana": "チョックスの装着(そうちゃく)とエンジン停止(ていし)が確認(かくにん)された後...",
+            "romaji": "Chokkusu no soushaku to enjin teishi ga kakunin sareta ato, opereetaa wa PBB wo shinshou ni sousa shi..."
+          },
+          "english": "After confirmation of chock placement and engine shutdown, the operator carefully operates the PBB (Passenger Boarding Bridge) to connect it safely to the aircraft door.",
+          "sinhala": "චොක්ස් සවි කර එන්ජින් ක්‍රියා විරහිත කර ඇති බව තහවුරු වූ පසු, ක්‍රියාකරු විසින් මගී පාලම (PBB) ඉතා පරිස්සමින් ක්‍රියාත්මක කර ගුවන් යානා දොරටුවට ආරක්ෂිතව සම්බන්ධ කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "චොක්ස් දාලා ප්ලේන් එක ඕෆ් කළාට පස්සේ තමයි මගී පාලම (PBB) ප්ලේන් එකේ දොරට ළං කරන්නේ.",
+            "japanese_tts_text": "チョックス装着とエンジン停止後、PBBを航空機のドアに安全に接続します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "搭乗橋（PBB）",
+          "furigana": "とうじょうきょう",
+          "romaji": "Toujoukyou (PBB)",
+          "english": "Passenger Boarding Bridge",
+          "sinhala": "මගී පාලම (PBB)"
+        },
+        {
+          "japanese": "接続",
+          "furigana": "せつぞく",
+          "romaji": "Setsuzoku",
+          "english": "Connection / Docking",
+          "sinhala": "සම්බන්ධ කිරීම"
+        }
+      ]
+    }
+  ]
+}

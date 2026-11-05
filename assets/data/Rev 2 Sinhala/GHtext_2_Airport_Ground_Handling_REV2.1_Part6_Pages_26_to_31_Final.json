@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "module": "Airport Ground Handling (空港グラウンドハンドリング)",
+    "batch": "GHtext_2_Airport_Ground_Handling_REV2.1_Part6_Pages_26_to_31_Final",
+    "document_title": "GHtext【2.Airport Ground Handling】.REV2.1.pdf",
+    "source_pdf": "GHtext【2.Airport Ground Handling】.REV2.1.pdf",
+    "image_folder": "GHtext【2.Airport Ground Handling】- Images.REV2.1/"
+  },
+  "pages": [
+    {
+      "page_number": 26,
+      "page_title_sinhala": "ගුවන් යානා හැසිරවීමේදී විශේෂ උපකරණ සහ ස්ටෑන්ඩ් ආරක්ෂාව",
+      "page_title_japanese": "26. 特殊車両の運用と機体周辺でのクリアランス確保",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/051.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/052.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P26_S01",
+          "content_type": "special_vehicles_and_clearance",
+          "japanese": {
+            "original_kanji": "機体周辺でハイリフトローダーや給油車などの特殊車両を稼働させる際は、常に機体とのクリアランス（安全間隔）を維持し、強風時や視界不良時は作業スピードを落とし慎重に誘導・停止させなければならない。",
+            "furigana": "機体周辺でハイリフトローダーや給油車などの特殊車両を稼働させる際は、常に機体とのクリアランスを維持する。",
+            "romaji": "Kitai shuuhen de hairifuto roodaa ya kyuuusha nado no tokushu sharyou wo kadou saseru sai wa, tsune ni kitai to no kirearansu wo iji shi..."
+          },
+          "english": "When operating special vehicles such as high-lift loaders or refueling trucks around the aircraft, always maintain clearance (safe distance) from the aircraft body, and reduce working speed to guide and stop them cautiously during strong winds or poor visibility.",
+          "sinhala": "ගුවන් යානය වටා හයි-ලිෆ්ට් ලෝඩර් හෝ ඉන්ධන බවුසර් වැනි විශේෂ වාහන ක්‍රියාත්මක කිරීමේදී සෑම විටම ගුවන් යානය සමඟ ආරක්ෂිත පරතරයක් (Clearance) පවත්වා ගත යුතු අතර, තද සුළං හෝ දෘශ්‍යතාව අඩු අවස්ථාවන්හිදී මෙහෙයුම් වේගය අඩු කර ඉතා පරිස්සමින් මඟ පෙන්වා නැවැත්විය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ප්ලේන් එක ළඟ වාහන පාවිච්චිද්දී ආරක්ෂිත පරතරය තියාගන්න ඕනෙ. හුළං වැඩි වෙලාවට හරි මීදුම් වෙලාවට හරි වැඩ කරද්දී ගොඩක් පරිස්සම් වෙන්න.",
+            "japanese_tts_text": "特殊車両の稼働時は常に機体とのクリアランスを維持し、強風時は慎重に作業します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "特殊車両",
+          "furigana": "とくしゅしゃりょう",
+          "romaji": "Tokushu Sharyou",
+          "english": "Special Vehicle / GSE",
+          "sinhala": "විශේෂ වාහන / GSE"
+        },
+        {
+          "japanese": "クリアランス",
+          "furigana": "クリアランス",
+          "romaji": "Kirearansu",
+          "english": "Clearance / Safe Distance",
+          "sinhala": "ආරක්ෂිත පරතරය / ඉඩ"
+        },
+        {
+          "japanese": "強風時",
+          "furigana": "きょうふうじ",
+          "romaji": "Kyoufuu Ji",
+          "english": "During Strong Winds",
+          "sinhala": "තද සුළං පවතින අවස්ථාවක"
+        }
+      ]
+    },
+    {
+      "page_number": 27,
+      "page_title_sinhala": "රැම්ප් ප්‍රදේශයේ පුද්ගල ආරක්ෂාව සහ පෞද්ගලික ආරක්ෂක උපකරණ (PPE)",
+      "page_title_japanese": "27. ランプ作業員における個人用保護具（PPE）の着用義務と健康管理",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/053.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/054.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P27_S01",
+          "content_type": "ppe_and_health_management",
+          "japanese": {
+            "original_kanji": "ランプ内で作業を行うすべてのスタッフは、安全帽（ヘルメット）、安全靴、耳栓（イヤープロテクター）、高視認性安全ベスト等の個人用保護具（PPE）を規定通りに着用し、自身の健康管理にも十分注意する。",
+            "furigana": "ランプ内で作業を行うすべてのスタッフは、安全帽、安全靴、耳栓、高視認性安全ベスト等のPPEを着用する。",
+            "romaji": "Ranpu nai de sagyou wo okonau subete no sutaffu wa, anzenshoku, anzenskutsu, mimisen, koushinsei anzen besuto tou no PPE wo chakuyou suru."
+          },
+          "english": "All staff working on the ramp must properly wear Personal Protective Equipment (PPE) such as safety helmets, safety shoes, earplugs (ear protectors), and high-visibility safety vests in accordance with regulations, while paying close attention to personal health management.",
+          "sinhala": "රැම්ප් ප්‍රදේශය තුළ වැඩ කරන සියලුම කාර්ය මණ්ඩලය ආරක්ෂක හිස්වැස්ම (Helmet), ආරක්ෂක සපත්තු, කන් ආවරණ (Earplugs) සහ අධික දෘශ්‍යතාවකින් යුත් පරාවර්තක ආරක්ෂක ජැකට් ආදී පෞද්ගලික ආරක්ෂක උපකරණ (PPE) නීතිරීතිවලට අනුව පැළඳිය යුතු අතර, තමන්ගේ සෞඛ්‍ය තත්ත්වය ගැනත් හොඳින් සැලකිලිමත් විය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "රැම්ප් එකේ වැඩ කරද්දී හෙල්මට්, සපත්තු, කන් ආවරණ සහ රිෆ්ලෙක්ටිව් ජැකට් (PPE) අනිවාර්යයෙන්ම පාවිච්චි කරන්න ඕනෙ.",
+            "japanese_tts_text": "ランプ作業時はヘルメットや耳栓、安全ベスト等のPPEを必ず着用します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "個人用保護具（PPE）",
+          "furigana": "こじんようほごぐ",
+          "romaji": "Kojin You Hogogu (PPE)",
+          "english": "Personal Protective Equipment",
+          "sinhala": "පෞද්ගලික ආරක්ෂක උපකරණ (PPE)"
+        },
+        {
+          "japanese": "耳栓",
+          "furigana": "みみせん",
+          "romaji": "Mimisen",
+          "english": "Earplugs / Ear Protectors",
+          "sinhala": "කන් ආවරණ"
+        },
+        {
+          "japanese": "健康管理",
+          "furigana": "けんこうかんり",
+          "romaji": "Kenkou Kanri",
+          "english": "Health Management",
+          "sinhala": "සෞඛ්‍ය කළමනාකරණය"
+        }
+      ]
+    },
+    {
+      "page_number": 28,
+      "page_title_sinhala": "ගුවන් යානා එන්ජිම පිටුපස ඇතිවන වායු ප්‍රවාහ අවදානම (Jet Blast Hazards)",
+      "page_title_japanese": "28. ジェット・ブラスト（後方噴流）およびプロペラ後流の危険性と退避",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/055.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/056.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P28_S01",
+          "content_type": "jet_blast_and_propeller_hazards",
+          "japanese": {
+            "original_kanji": "航空機のジェットエンジン稼働時に後方に発生する強力な噴流（ジェット・ブラスト）やプロペラ後流は、車両や作業員を吹き飛ばす極めて危険な現象であるため、規定の警戒区域に立ち入ってはならない。",
+            "furigana": "航空機のジェットエンジン稼働時に後方に発生する強力な噴流（ジェット・ブラスト）やプロペラ後流は極めて危険である。",
+            "romaji": "Koukuuki no jetto enjin kadou jiku ni kouhou ni hassei suru kyouryoku na funryuu ya puropera kouryuu wa kiken de aru."
+          },
+          "english": "The powerful exhaust airflow (Jet Blast) or propeller slipstream generated behind aircraft when jet engines are running are extremely hazardous phenomena capable of blowing away vehicles and workers; thus, entering designated caution zones is strictly prohibited.",
+          "sinhala": "ජෙට් එන්ජින් ක්‍රියාත්මක වන විට පිටුපසට නිකුත් වන ප්‍රබල වායු ධාරාව (Jet Blast) හෝ ප්‍රචාරක වායු ප්‍රවාහය නිසා වාහන සහ සේවකයින් විසි වී යා හැකි අතිශය භයානක තත්ත්වයක් වන බැවින්, නියමිත ආරක්ෂක කලාපවලට ඇතුළු වීම සපුරා තහනම් වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ප්ලේන් එකේ එන්ජින් ක්‍රියාත්මක වෙද්දී පිටුපසින් එන ප්‍රබල සුළං ප්‍රවාහය (Jet Blast) හරිම භයානකයි. ඒ පැත්තට යන්නම එපා.",
+            "japanese_tts_text": "ジェット・ブラスト（後方噴流）は非常に危険なため、警戒区域には絶対に立ち入りません。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "ジェット・ブラスト（後方噴流）",
+          "furigana": "ジェット・ブラスト（こうほうふんりゅう）",
+          "romaji": "Jetto Burasuto (Kouhou Funryuu)",
+          "english": "Jet Blast / Exhaust Airflow",
+          "sinhala": "ජෙට් බ්ලාස්ට් / පසුපස ප්‍රබල වායු ප්‍රවාහය"
+        },
+        {
+          "japanese": "警戒区域",
+          "furigana": "けいかいくいき",
+          "romaji": "Keikai Kuiki",
+          "english": "Danger Zone / Caution Area",
+          "sinhala": "අනතුරුදායක / අවධානම් කලාපය"
+        }
+      ]
+    },
+    {
+      "page_number": 29,
+      "page_title_sinhala": "ගුවන් තොටුපළ බිම් හැසිරවීමේදී ගිනි නිවන ආරක්ෂාව සහ හදිසි උපකරණ",
+      "page_title_japanese": "29. ランプ内における防火管理と消火器の設置・取り扱い方法",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/057.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/058.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P29_S01",
+          "content_type": "fire_prevention_and_extinguishers",
+          "japanese": {
+            "original_kanji": "ランプ内での火災発生に備え、給油作業中や車両の近くには消火器が所定の位置に配置されていることを確認し、万が一の初期消火に必要な手順と位置を全スタッフが熟知しておかなければならない。",
+            "furigana": "ランプ内での火災発生に備え、給油作業中や車両の近くには消火器が配置されていることを確認する。",
+            "romaji": "Ranpu nai de no kasai hassei ni sonae, kyuuyu sagyou chuu ya sharyou no chikaku ni shoukaiki ga haichi sarete iru koto wo kakunin suru."
+          },
+          "english": "In preparation for potential fires on the ramp, ensure that fire extinguishers are positioned in designated spots near refueling operations and vehicles, and all staff must be thoroughly familiar with the procedures and locations for initial firefighting in an emergency.",
+          "sinhala": "රැම්ප් ප්‍රදේශයේ ඇති විය හැකි ගිනි ගැනීම් සඳහා සූදානම් වීමට, ඉන්ධන පිරවීමේදී සහ වාහන අසල ගිනි නිවන උපකරණ (Fire extinguishers) නියමිත ස්ථානවල පිහිටුවා ඇති බව තහවුරු කළ යුතු අතර, හදිසි අවස්ථාවකදී මුල් අවස්ථාවේදී ගින්න නිවා ගැනීමට අවශ්‍ය ක්‍රමවේද සහ ස්ථාන සියලුම සේවකයින් දැන සිටිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ගින්නක් හදිස්සියේ ඇති වුණොත් නිවා ගන්න ගිනි නිවන උපකරණ තියෙන තැනයි ඒවා පාවිච්චි කරන හැටියි හැමෝම දැනගෙන ඉන්න ඕනෙ.",
+            "japanese_tts_text": "火災に備え、消火器の設置場所と初期消火の手順を全員が熟知しておきます。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "防火管理",
+          "furigana": "ぼうかかんり",
+          "romaji": "Bouka Kanri",
+          "english": "Fire Prevention Management",
+          "sinhala": "ගිනි ආරක්ෂණ කළමනාකරණය"
+        },
+        {
+          "japanese": "消火器",
+          "furigana": "しょうかき",
+          "romaji": "Shoukaki",
+          "english": "Fire Extinguisher",
+          "sinhala": "ගිනි නිවන උපකරණය"
+        },
+        {
+          "japanese": "初期消火",
+          "furigana": "しょきしょうか",
+          "romaji": "Shoki Shouka",
+          "english": "Initial Firefighting / First Response",
+          "sinhala": "මුල් අවස්ථාවේදී ගින්න පාලනය කිරීම"
+        }
+      ]
+    },
+    {
+      "page_number": 30,
+      "page_title_sinhala": "ගුවන් යානා තල්ලු කිරීම සහ පිටත්වීමේ අවසාන සම්බන්ධීකරණය",
+      "page_title_japanese": "30. 出発最終段階における無線確認と機体プッシュバックの完了手順",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/059.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/060.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P30_S01",
+          "content_type": "final_pushback_coordination",
+          "japanese": {
+            "original_kanji": "プッシュバック終了後、トーブレーキの解除、トーバーの取り外し、バイパスピンの回収が完了したことをヘッドセットを通じてパイロットに明確に伝え、視覚的なハンドシグナルで離脱を確認し合う。",
+            "furigana": "プッシュバック終了後、トーブレーキ解除やバイパスピン回収完了をパイロットに伝え、視覚的合図で確認する。",
+            "romaji": "Pusshubakku shuuryou go, tou bureeki no kaijo, toobaa no torihazuki, baipasu pin no kaishuu ga kanryou shita koto wo tsutaeru."
+          },
+          "english": "After pushback completion, clearly communicate to the pilot via headset that tow brake release, towbar disconnection, and bypass pin retrieval are finished, confirming detachment with visual hand signals.",
+          "sinhala": "පුෂ්බෑක් මෙහෙයුම අවසන් වූ පසු, ටෝ බ්‍රේක් නිදහස් කිරීම, ටෝබාර් එක ඉවත් කිරීම සහ බයිපාස් පින් එක (Bypass pin) එකතු කර ගැනීම අවසන් බව හෙඩ්සෙට් එක මඟින් නියමුවාට පැහැදිලිව දැන්විය යුතු අතර, දෘශ්‍ය අතින් දෙන සංඥා (Hand signals) මඟින් එකිනෙකා තහවුරු කරගත යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පුෂ්බෑක් එක ඉවර වුණාම ප්ලේන් එකේ බ්‍රේක් ඕෆ් කරලා, ටෝබාර් එකයි පින් එකයි ගලවලා පයිලට් එක්ක අත්වලින් සංඥා කරලා සම්පූර්ණ කරනවා.",
+            "japanese_tts_text": "プッシュバック完了後は機材の取り外しをパイロットに伝え、手信号で確認し合います。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "バイパスピン",
+          "furigana": "バイパスピン",
+          "romaji": "Baipasu Pin",
+          "english": "Bypass Pin / Steering Pin",
+          "sinhala": "බයිපාස් පින් (ස්ට්‍රීයර් පින් එක)"
+        },
+        {
+          "japanese": "手信号",
+          "furigana": "てしんごう",
+          "romaji": "Te Shingou",
+          "english": "Hand Signal",
+          "sinhala": "අතින් දෙන සංඥාව"
+        }
+      ]
+    },
+    {
+      "page_number": 31,
+      "page_title_sinhala": "ගුවන් තොටුපළ බිම් හැසිරවීමේ පුහුණු අත්පොතේ පූර්ණ අවසානය",
+      "page_title_japanese": "31. 空港グランドハンドリング教本 全文の終了と安全運航への誓い",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/061.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/062.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P31_S01",
+          "content_type": "final_manual_conclusion",
+          "japanese": {
+            "original_kanji": "本教本の全ページにわたり解説した空港グランドハンドリングの安全ルール、法令、各種機材の取り扱い、およびヒヤリ・ハットや指差呼称の精神を常に胸に刻み、プロフェッショナルとして安全で確実なグランドハンドリング業務を遂行し、日本の航空輸送の安全と品質を支え続けよう。",
+            "furigana": "本教本の全ページにわたり解説した安全ルールや指差呼称の精神を胸に刻み、プロフェッショナルとして安全な業務を遂行する。",
+            "romaji": "Hon kyouhon no zen peeji ni watari kaisetsu shita anzen ruuru ya shisa koshou no seishin wo mune ni kizami, purofesshonaru to shite anzen na gyoumu wo suikou suru."
+          },
+          "english": "Keeping the safety rules, regulations, equipment handling guidelines, and the spirit of near-miss reporting and pointing-and-calling explained throughout this manual deeply in your heart, execute professional, safe, and reliable ground handling operations to continuously support the safety and quality of aviation transport.",
+          "sinhala": "මෙම පුහුණු අත්පොතේ මුල සිට අග දක්වා විස්තර කළ ආරක්ෂක නීති, රෙගුලාසි, උපකරණ හැසිරවීමේ ක්‍රමවේද සහ හියාරි-හට්ටෝ මෙන්ම ශිසා කොෂෝ හි හරය සදාකාලයෙන්ම සිත්හි දරා ගනිමින්, සැබෑ වෘත්තීයවේදියෙකු ලෙස ආරක්ෂිත සහ විශ්වාසනීය බිම් හැසිරවීමේ මෙහෙයුම් අකුරටම ඉටු කරමින් ජපානයේ ගුවන් ප්‍රවාහනයේ ආරක්ෂාව සහ ගුණාත්මකභාවය අඛණ්ඩව ඉදිරියට ගෙන යමු!",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "සුභ පැතුම් ළමයි! Airport Ground Handling පුහුණු අත්පොතේ සියලුම පිටු අපි සාර්ථකව අවසන් කළා. ආරක්ෂාවට මුල්තැන දෙමින් ඉදිරි විභාගය ජය ගනිමු!",
+            "japanese_tts_text": "全課程の終了おめでとうございます！安全第一を胸に、素晴らしいプロフェッショナルを目指しましょう。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "プロフェッショナル",
+          "furigana": "プロフェッショナル",
+          "romaji": "Purofesshonaru",
+          "english": "Professional",
+          "sinhala": "වෘත්තීයවේදියා / දක්ෂ සේවකයා"
+        },
+        {
+          "japanese": "安全運航への誓い",
+          "furigana": "あんぜんうんこうへのちかい",
+          "romaji": "Anzen Unkou e no Chikai",
+          "english": "Pledge for Safe Operations",
+          "sinhala": "ආරක්ෂිත මෙහෙයුම් සඳහා වන ප්‍රතිඥාව"
+        }
+      ]
+    }
+  ]
+}

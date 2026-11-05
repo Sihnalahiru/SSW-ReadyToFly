@@ -1,0 +1,261 @@
+{
+  "metadata": {
+    "module": "Airport Ground Handling (空港グラウンドハンドリング)",
+    "batch": "GHtext_2_Airport_Ground_Handling_REV2.1_Part4_Pages_16_to_20",
+    "document_title": "GHtext【2.Airport Ground Handling】.REV2.1.pdf",
+    "source_pdf": "GHtext【2.Airport Ground Handling】.REV2.1.pdf",
+    "image_folder": "GHtext【2.Airport Ground Handling】- Images.REV2.1/"
+  },
+  "pages": [
+    {
+      "page_number": 16,
+      "page_title_sinhala": "ශීත කාලගුණ මෙහෙයුම් සහ අයිස් ඉවත් කිරීම (De-icing & Anti-icing)",
+      "page_title_japanese": "16. 冬期運用における除氷・防氷作業（ディアイシング）の運用規定",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/031.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/032.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P16_S01",
+          "content_type": "deicing_and_anti_icing",
+          "japanese": {
+            "original_kanji": "冬季の低温や降雪時には、航空機の翼や胴体に付着した氷雪を除去するディアイシング（除氷）および再凍結を防ぐアンチアイシング（防氷）作業を規定に従い実施する。作業時は専用の液剤を使用し環境にも配慮する。",
+            "furigana": "冬季(とうき)の低温(ていおん)や降雪時(こうせつじ)には、航空機の翼や胴体に付着した氷雪を除去するディアイシング（除氷）および再凍結を防ぐアンチアイシング（防氷）作業を実施する。",
+            "romaji": "Touki no teion ya kousetsu jiku ni wa, koukuuki no tsubasa ya doutai ni fuyaku shita hyousetsu wo jokyo suru diashingu oyobi anti-ashingu sagyou wo jisshi suru."
+          },
+          "english": "During winter low temperatures and snowfall, de-icing (removing ice/snow from wings and fuselage) and anti-icing (preventing re-freezing) operations must be conducted in accordance with regulations, utilizing specialized fluids while considering environmental impact.",
+          "sinhala": "ශීත සෘතුවේදී අඩු උෂ්ණත්වය හෝ හිම පතනය ඇති විට, ගුවන් යානා පියාපත්වල සහ බඳෙහි තැන්පත් වන හිම ඉවත් කිරීමේ De-icing සහ නැවත හිම තැන්පත් වීම වැළැක්වීමේ Anti-icing මෙහෙයුම් නීති රීතිවලට අනුව සිදු කළ යුතුය. මෙහිදී විශේෂ තරල (Fluids) භාවිත කරන අතර පරිසර ආරක්ෂාව පිළිබඳවත් සැලකිලිමත් විය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "හිම වැටෙන කාලයට ප්ලේන් වල තටු වල අයිස් තැන්පත් වෙනවා. ඒවා අයින් කරන්න ඩි-අයිසිං (De-icing) තරල පාවිච්චි කරනවා.",
+            "japanese_tts_text": "冬季は規定に従い、機体の除氷（ディアイシング）および防氷作業を実施します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "除氷（ディアイシング）",
+          "furigana": "じょひょう",
+          "romaji": "Johyou (De-icing)",
+          "english": "De-icing",
+          "sinhala": "හිම/අයිස් ඉවත් කිරීම"
+        },
+        {
+          "japanese": "防氷",
+          "furigana": "ぼうひょう",
+          "romaji": "Bouhyou (Anti-icing)",
+          "english": "Anti-icing",
+          "sinhala": "හිම තැන්පත් වීම වැළැක්වීම"
+        },
+        {
+          "japanese": "液剤",
+          "furigana": "えきざい",
+          "romaji": "Ekizai",
+          "english": "Liquid Agent / Fluid",
+          "sinhala": "දියරමය ද්‍රව්‍ය / රසායනික තරලය"
+        }
+      ]
+    },
+    {
+      "page_number": 17,
+      "page_title_sinhala": "භාණ්ඩ ලේබල් සහ භයානක ද්‍රව්‍ය පරීක්ෂාව (Dangerous Goods Ramp Handling)",
+      "page_title_japanese": "17. ランプ内における危険物（DGR）の取り扱いと保管・積載の注意点",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/033.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/034.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P17_S01",
+          "content_type": "dangerous_goods_ramp_handling",
+          "japanese": {
+            "original_kanji": "ランプ内で危険物マークやラベルが貼付された貨物を取り扱う際は、衝撃を与えたり熱源に近づけたりしないよう細心の注意を払い、規定の積載位置に確実に固定する。異常時は直ちに専門部署へ連絡する。",
+            "furigana": "ランプ内で危険物マークやラベルが貼付された貨物を取り扱う際は、衝撃を与えたり熱源に近づけたりしないよう細心の注意を払う。",
+            "romaji": "Ranpu nai de kikenbutsu maaku ya raberu ga choufu sareta kamotsu wo toriatsukau sai wa, shougeki wo ataetari netsugen ni chikaduketanai you..."
+          },
+          "english": "When handling cargo with dangerous goods marks or labels on the ramp, exercise utmost care to avoid impacts or heat sources, securing them firmly in designated loading positions. In case of abnormalities, contact specialized departments immediately.",
+          "sinhala": "රැම්ප් ප්‍රදේශය තුළ අන්තරායකර භාණ්ඩ ලේබල් සහිත භාණ්ඩ හැසිරවීමේදී කම්පන ඇති වීමෙන් හෝ තාප ප්‍රභවයන්ට ළං වීමෙන් දැඩි ලෙස වැළකී, නියමිත ස්ථානවල අචලව සවි කළ යුතුය. කිසියම් අසාමාන්‍යතාවක් දුටුවහොත් වහාම විශේෂඥ අංශ වෙත දැනුම් දිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ඩී.ජී.ආර් (Dangerous Goods) ලේබල් ගහපු බඩු බාද්දී ගොඩක් පරිස්සම් වෙන්න ඕනෙ වදින්න නොදී.",
+            "japanese_tts_text": "危険物ラベルのある貨物は衝撃や熱源を避け、確実に固定します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "危険物",
+          "furigana": "きけんぶつ",
+          "romaji": "Kikenbutsu",
+          "english": "Dangerous Goods",
+          "sinhala": "අන්තරායකර භාණ්ඩ"
+        },
+        {
+          "japanese": "積載位置",
+          "furigana": "せきさいいち",
+          "romaji": "Sekisai Ichi",
+          "english": "Loading Position",
+          "sinhala": "පැටවිය යුතු ස්ථානය"
+        },
+        {
+          "japanese": "熱源",
+          "furigana": "ねつげん",
+          "romaji": "Netsugen",
+          "english": "Heat Source",
+          "sinhala": "තාප ප්‍රභවය"
+        }
+      ]
+    },
+    {
+      "page_number": 18,
+      "page_title_sinhala": "FOD (විදේශීය වස්තු) වැළැක්වීම සහ රැම්ප් පවිත්‍රතාව (FOD Prevention)",
+      "page_title_japanese": "18. FOD（異物）の発生防止とランプ内の清掃・点検の徹底",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/035.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/036.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P18_S01",
+          "content_type": "fod_prevention_ramp_cleanliness",
+          "japanese": {
+            "original_kanji": "ランプ内に落下したボルト、プラスチック片、紙くずなどのFOD（異物）は、ジェットエンジンの吸気やタイヤのパンクを引き起こすため、発見次第直ちに回収し適切に処分する。日頃からの美化活動が重要である。",
+            "furigana": "ランプ内に落下したボルト、プラスチック片、紙くずなどのFOD（異物）は、ジェットエンジンの吸気やタイヤのパンクを引き起こす。",
+            "romaji": "Ranpu nai ni rakkashita boruto, purasuchikku hen, kamikuzu nado no FOD wa, jetto enjin no kyuuki ya taiya no panku wo..."
+          },
+          "english": "FOD (Foreign Object Debris) such as bolts, plastic pieces, or paper scraps dropped on the ramp can cause jet engine ingestion or tire punctures, and must be collected and disposed of immediately upon discovery. Daily housekeeping activities are essential.",
+          "sinhala": "රැම්ප් ප්‍රදේශයට වැටෙන බෝල්ට්, ප්ලාස්ටික් කැබලි හෝ කඩදාසි වැනි FOD (විදේශීය වස්තු) මඟින් ජෙට් එන්ජින්වලට හානි වීම හෝ ටයර් පැච් යාම සිදු විය හැකි බැවින්, දුටු වහාම එකතු කර ඉවත් කළ යුතුය. දෛනිකව පිරිසිදුව තබා ගැනීම අත්‍යවශ්‍ය වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "FOD කියන්නේ ප්ලේන් වලට මාරම අවදානමක්. පාරේ කුඩා බෝල්ට් කෑල්ලක් හෝ තිබුණොත් වහාම අයින් කරන්න ඕනෙ.",
+            "japanese_tts_text": "FOD（異物）はエンジンの故障やタイヤ破損の原因となるため、発見次第回収します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "異物（FOD）",
+          "furigana": "いぶつ",
+          "romaji": "Ibutsu (FOD)",
+          "english": "Foreign Object Debris",
+          "sinhala": "විදේශීය වස්තු / FOD"
+        },
+        {
+          "japanese": "吸気",
+          "furigana": "きゅうき",
+          "romaji": "Kyuuki",
+          "english": "Air Intake / Ingestion",
+          "sinhala": "වාතය ඇතුළු වීම / උරා ගැනීම"
+        },
+        {
+          "japanese": "回収",
+          "furigana": "かいしゅう",
+          "romaji": "Kaishuu",
+          "english": "Collection / Recovery",
+          "sinhala": "එකතු කර ඉවත් කිරීම"
+        }
+      ]
+    },
+    {
+      "page_number": 19,
+      "page_title_sinhala": "සන්නිවේදනය සහ රේඩියෝ භාවිතය (Ramp Communication & Radio Protocols)",
+      "page_title_japanese": "19. 無線交信のルールとチーム間における確実な意思疎通",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/037.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/038.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P19_S01",
+          "content_type": "ramp_communication_protocols",
+          "japanese": {
+            "original_kanji": "無線機を使用した交信では、正確で簡潔な言葉遣いを心がけ、復唱（Read-back）を行うことで指示の誤解を防ぎ、チーム間の確実な意思疎通を図る。騒音下でも明瞭に話すことが求められる。",
+            "furigana": "無線機を使用した交信では、正確で簡潔な言葉遣いを心がけ、復唱（Read-back）を行うことで指示の誤解を防ぐ。",
+            "romaji": "Musenki wo shiyou shita koushin de wa, seikaku de kanketsu na kotobazukai wo kokorogake, fukushou (riidobakku) wo okonau..."
+          },
+          "english": "When communicating via radio, strive for precise and concise phrasing, and perform read-backs to prevent misunderstandings of instructions, ensuring solid team communication. Clear speaking is required even under noisy conditions.",
+          "sinhala": "රේඩියෝ සංචාරක උපකරණ භාවිතයෙන් කරන සන්නිවේදනයේදී නිවැරදි හා කෙටි වචන භාවිත කළ යුතු අතර, උපදෙස් වැරදි ලෙස වටහා ගැනීම වැළැක්වීම සඳහා නැවත ප්‍රකාශ කිරීම (Read-back) මඟින් තහවුරු කරගත යුතුය. අධික ශබ්ද සහිත පරිසරයක වුවද පැහැදිලිව කතා කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "වෝකි ටෝකි එකෙන් කතා කරද්දී පැහැදිලිව සහ කෙටියෙන් කතා කරලා, කිව්ව දේ හරියටම තේරුණාද කියලා රීඩ්-බැක් (Read-back) කරන්න ඕනෙ.",
+            "japanese_tts_text": "無線交信では簡潔な言葉を使い、復唱（リードバック）で誤解を防ぎます。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "無線交信",
+          "furigana": "むせんこうしん",
+          "romaji": "Musen Koushin",
+          "english": "Radio Communication",
+          "sinhala": "රේඩියෝ සන්නිවේදනය"
+        },
+        {
+          "japanese": "復唱（リードバック）",
+          "furigana": "ふくしょう",
+          "romaji": "Fukushou (Read-back)",
+          "english": "Read-back / Repeating",
+          "sinhala": "කියූ දෙය නැවත පවසා තහවුරු කිරීම"
+        },
+        {
+          "japanese": "意思疎通",
+          "furigana": "いしそつう",
+          "romaji": "Ishi Sotsuu",
+          "english": "Communication / Mutual Understanding",
+          "sinhala": "අදහස් හුවමාරුව / අවබෝධය"
+        }
+      ]
+    },
+    {
+      "page_number": 20,
+      "page_title_sinhala": "ගුවන් තොටුපළ බිම් හැසිරවීමේ අවසාන ආරක්ෂක සාරාංශය (Ground Handling Safety Summary)",
+      "page_title_japanese": "20. グランドハンドリング業務における安全管理の総括と事故ゼロの達成",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/039.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/040.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P20_S01",
+          "content_type": "ground_handling_safety_summary",
+          "japanese": {
+            "original_kanji": "グランドハンドリング業務の基本は「安全第一」である。すべての作業員が規程を遵守し、ヒヤリ・ハットの報告や指差呼称を徹底することで、航空機の安全運行と事故ゼロを継続的に守り抜く。",
+            "furigana": "グランドハンドリング業務の基本は「安全第一」である。すべての作業員が規定を遵守し、事故ゼロを達成する。",
+            "romaji": "Gurando handoringu gyoumu no kihon wa 'anzen daiichi' de aru. Subete no sagyouin ga kitei wo junshu shi..."
+          },
+          "english": "The foundation of ground handling operations is 'Safety First'. By having all workers comply with regulations, report near-misses, and rigorously practice pointing-and-calling, we continuously protect safe aircraft operations and achieve zero accidents.",
+          "sinhala": "බිම් හැසිරවීමේ මෙහෙයුම්වල මූලික පදනම වන්නේ 'ආරක්ෂාවට මුල්තැන' (Safety First) දීමයි. සියලුම සේවකයින් නීතිරීති අකුරටම පිළිපැදීමෙන්, හියාරි-හට්ටෝ වාර්තා කිරීමෙන් සහ ශිසා කොෂෝ ක්‍රියාත්මක කිරීමෙන් ගුවන් යානා ආරක්ෂිතව මෙහෙයවීම සහ අනතුරු රහිත සේවා පරිසරයක් අඛණ්ඩව පවත්වා ගත හැක.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ග්‍රাউন্ড හැන්ඩ්ලිං වල වැදගත්ම දේ තමයි ආරක්ෂාව! හැමෝම නීති රීති රකිමින් අනතුරු රහිත සේවාවක් ලබා දෙමු.",
+            "japanese_tts_text": "安全第一を胸に、規程の遵守と指差呼称を徹底して事故ゼロを達成しましょう。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "安全第一",
+          "furigana": "あんぜんだいいち",
+          "romaji": "Anzen Daiichi",
+          "english": "Safety First",
+          "sinhala": "ආරක්ෂාවට මුල්තැන"
+        },
+        {
+          "japanese": "事故ゼロ",
+          "furigana": "じこぜろ",
+          "romaji": "Jiko Zero",
+          "english": "Zero Accidents",
+          "sinhala": "අනතුරු රහිත වීම"
+        },
+        {
+          "japanese": "規程遵守",
+          "furigana": "きていじゅんしゅ",
+          "romaji": "Kitei Junshu",
+          "english": "Compliance with Regulations",
+          "sinhala": "නීතිරීති සහ රෙගුලාසි පිළිපැදීම"
+        }
+      ]
+    }
+  ]
+}

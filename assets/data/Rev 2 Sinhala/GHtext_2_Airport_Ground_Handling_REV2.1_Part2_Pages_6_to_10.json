@@ -1,0 +1,261 @@
+{
+  "metadata": {
+    "module": "Airport Ground Handling (空港グラウンドハンドリング)",
+    "batch": "GHtext_2_Airport_Ground_Handling_REV2.1_Part2_Pages_6_to_10",
+    "document_title": "GHtext【2.Airport Ground Handling】.REV2.1.pdf",
+    "source_pdf": "GHtext【2.Airport Ground Handling】.REV2.1.pdf",
+    "image_folder": "GHtext【2.Airport Ground Handling】- Images.REV2.1/"
+  },
+  "pages": [
+    {
+      "page_number": 6,
+      "page_title_sinhala": "භාණ්ඩ හා ගමන් මලු බෑමේ මෙහෙයුම් සහ බර සමතුලිතතාව (Baggage & Cargo Unloading)",
+      "page_title_japanese": "06. 手荷物および貨物の降ろし作業（アンロード）と重量バランスの管理",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/011.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/012.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P06_S01",
+          "content_type": "baggage_cargo_unloading",
+          "japanese": {
+            "original_kanji": "バルク貨物やコンテナの荷下ろし作業では、貨物室の構造や重量バランスに注意し、貨物や手荷物を破損させないよう丁寧に取り扱う必要がある。また、危険物や特殊貨物が含まれていないか積送品目を確認しながら作業を行う。",
+            "furigana": "バルク貨物(かもつ)やコンテナの荷下(によろ)ろし作業(さぎょう)では、貨物室(かもつしつ)の構造(こうぞう)や重量(じゅうりょう)バランスに注意(ちゅうい)し、貨物(かもつ)や手荷物(てにもつ)を破損(はそん)させないよう丁寧(ていねい)に取り扱(とりあつか)う必要がある。",
+            "romaji": "Baruku kamotsu ya kontena no nioroshi sagyou de wa, kamotsu shitsu no kouzou ya juuryou baransu ni chuui shi, kamotsu ya tenimotsu wo hason sase nai you teinei ni toriatsukau hitsuyou ga aru."
+          },
+          "english": "During bulk cargo or container unloading operations, attention must be paid to cargo compartment structures and weight balance, handling items carefully to prevent damage. Furthermore, operations must be conducted while verifying shipping items to check for hazardous or special cargo.",
+          "sinhala": "බල්ක් කාගෝ හෝ කන්ටේනර් බෑමේදී, කාගෝ මැදිරියේ ව්‍යුහය සහ බර සමතුලිතතාවය පිළිබඳව දැඩි අවධානයක් යොමු කළ යුතු අතර, භාණ්ඩ හෝ ගමන් මලු වලට කිසිදු හානියක් නොවන පරිදි ඉතා පරිස්සමින් හැසිරවිය යුතුය. මීට අමතරව, අන්තරායකර භාණ්ඩ හෝ විශේෂ භාණ්ඩ අඩංගු දැයි පරීක්ෂා කරමින් මෙම මෙහෙයුම් සිදු කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, බෑග් සහ කාගෝ බාද්දී මගීන්ගේ බඩු වලට වගේම ප්ලේන් එකේ බර සමතුලිතතාවයට (Weight balance) හානි නොවෙන්න හරිම පරිස්සමින් වැඩ කරන්න ඕනෙ.",
+            "japanese_tts_text": "貨物の荷下ろしでは、破損を防ぐため重量バランスに注意し丁寧に扱います。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "荷下ろし",
+          "furigana": "におろし",
+          "romaji": "Nioroshi / Anroodo",
+          "english": "Unloading",
+          "sinhala": "භාණ්ඩ බෑම"
+        },
+        {
+          "japanese": "貨物室",
+          "furigana": "かもつしつ",
+          "romaji": "Kamotsushitsu",
+          "english": "Cargo Compartment",
+          "sinhala": "කාගෝ මැදිරිය / භාණ්ඩ ගබඩාව"
+        },
+        {
+          "japanese": "重量バランス",
+          "furigana": "じゅうりょうバランス",
+          "romaji": "Juuryou Baransu",
+          "english": "Weight Balance",
+          "sinhala": "බර සමතුලිතතාවය"
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "page_title_sinhala": "ඉන්ධන පිරවීමේ මෙහෙයුම් සහ ආරක්ෂාව (Aircraft Refueling Safety)",
+      "page_title_japanese": "07. 航空機への給油作業と安全上の注意事項（火気厳禁・アース接続）",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/013.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/014.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P07_S01",
+          "content_type": "aircraft_refueling_safety",
+          "japanese": {
+            "original_kanji": "給油作業中は火気厳禁であり、静電気による火災を防ぐためにアース線（接地線）を確実に接続しなければならない。また、給油中の乗客搭乗に関する規定や、万が一の漏油発生時の緊急対応手順を厳守する。",
+            "furigana": "給油作業中(きゅうゆさぎょうちゅう)は火気厳禁(かきげんきん)であり、静電気(せいでんき)による火災(かさい)を防(ふせ)ぐためにアース線(せん)を確実(かくじつ)に接続しなければならない。",
+            "romaji": "Kyuuyu sagyou chuu wa kaki genkin de ari, seidenki ni yoru kasai wo fusegu tame ni aasu sen wo kakujitsu ni setsuzoku shinakereba naranai."
+          },
+          "english": "Refueling operations require strict no-open-flames policies, and grounding (earth) cables must be securely connected to prevent static electricity fires. Regulations regarding passenger boarding during refueling and emergency response procedures for fuel spills must also be strictly observed.",
+          "sinhala": "ඉන්ධන පිරවීමේදී ගිනි ගැනීම් දැඩි ලෙස තහනම් වන අතර, ස්ථිතික විදුලිය මඟින් ඇති විය හැකි ගිනි අවදානම් වැළැක්වීම සඳහා අース (Earthing) ලණුව නිසි ලෙස සම්බන්ධ කළ යුතුය. එසේම ඉන්ධන පිරවීමේදී මගීන් නංවාලීම/බැස්වීම පිළිබඳ නීති සහ හදිසි තෙල් කාන්දුවකදී ගත යුතු ක්‍රියාමාර්ග දැඩි ලෙස පිළිපැදිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "තෙල් ගහන වෙලාවට ගිනි ගැනීම් වලින් පරිස්සම් වෙන්න ඕනෙ. අර්ත් (Earthing) කේබල් එක අනිවාර්යයෙන්ම ගහන්න ඕනෙ ස්ථිතික විදුලිය යවන්න.",
+            "japanese_tts_text": "給油中は火気厳禁です。静電気防止のアース線を確実に接続します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "給油",
+          "furigana": "きゅうゆ",
+          "romaji": "Kyuuyu",
+          "english": "Refueling",
+          "sinhala": "ඉන්ධන පිරවීම"
+        },
+        {
+          "japanese": "火気厳禁",
+          "furigana": "かきげんきん",
+          "romaji": "Kaki Genkin",
+          "english": "Strictly No Open Flames",
+          "sinhala": "ගිනි ගැනීම් දැඩි ලෙස තහනම්"
+        },
+        {
+          "japanese": "アース線",
+          "furigana": "アースせん",
+          "romaji": "Aasu Sen",
+          "english": "Grounding / Earth Cable",
+          "sinhala": "භූගත කිරීමේ කේබලය (Earthing)"
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "page_title_sinhala": "කැටරින් සහ කැබින් පිරිසිදු කිරීමේ සේවා (Catering & Cabin Cleaning)",
+      "page_title_japanese": "08. 機内食（ケータリング）の積み込みと客室清掃業務の連携",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/015.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/016.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P08_S01",
+          "content_type": "catering_and_cabin_cleaning",
+          "japanese": {
+            "original_kanji": "機内食トラック（ハイリフトローダー）による積み込み作業では、機体に接触しないよう慎重に接近し、客室清掃チームと連携して迅速に作業を行う。また、機内ゴミの適切な分別と回収を徹底する。",
+            "furigana": "機内食(きないしょく)トラックによる積(つ)み込み作業(さぎょう)では、機体(きたい)に接触(せっしょく)しないよう慎重に接近し、客室清掃チームと連携して迅速に作業を行う。",
+            "romaji": "Kinaishoku torakku ni yoru tsumikomi sagyou de wa, kitai ni sesshoku shinai you shinshin ni sekkin shi, kyakushitsu seisou chiimu to renkei shite jinsoku ni sagyou wo okonau."
+          },
+          "english": "During catering truck (high-lift loader) loading operations, approach the aircraft carefully to avoid contact, working closely with the cabin cleaning team for rapid turnaround. Also, ensure proper sorting and collection of in-flight waste.",
+          "sinhala": "කැටරින් ට්‍රක් රථය (High-lift loader) මඟින් ආහාර ලබා දීමේදී ගුවන් යානාවල ගැටීමෙන් තොරව ඉතා පරිස්සමින් ළං විය යුතු අතර, කැබින් පිරිසිදු කිරීමේ කණ්ඩායම සමඟ එකඟතාවයෙන් ඉක්මනින් වැඩ අවසන් කළ යුතුය. මීට අමතරව, ගුවන් යානා තුළ ඉතිරි වන අපද්‍රව්‍ය නිසි ලෙස වර්ග කර එකතු කිරීම තහවුරු කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "කැටරින් ලොරි ප්ලේන් එකට ළං කරනකොට ගොඩක් පරිස්සම් වෙන්න ඕනෙ ප්ලේන් එක වදින්න නොදී. ක්ලීනින් ටීම් එකත් එක්ක එකතු වෙලා වැඩේ ඉක්මනට කරන්න ඕනෙ.",
+            "japanese_tts_text": "ケータリングトラックの接近時は機体との接触を防ぎ、迅速に作業を行います。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "機内食（ケータリング）",
+          "furigana": "きないしょく",
+          "romaji": "Kinaishoku (Keetaringu)",
+          "english": "Catering / In-flight Meals",
+          "sinhala": "ගුවන් යානා ආහාර (කැටරින්)"
+        },
+        {
+          "japanese": "客室清掃",
+          "furigana": "きゃくしつせいそう",
+          "romaji": "Kyakushitsu Seisou",
+          "english": "Cabin Cleaning",
+          "sinhala": "කැබින් පිරිසිදු කිරීම"
+        },
+        {
+          "japanese": "連携",
+          "furigana": "れんけい",
+          "romaji": "Renkei",
+          "english": "Cooperation / Coordination",
+          "sinhala": "සමීප සම්බන්ධීකරණය / එකඟතාව"
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "page_title_sinhala": "පිටත්වීමේ පූර්ව පරීක්ෂා කිරීම් සහ යානය වටා පරීක්ෂාව (Walk-around)",
+      "page_title_japanese": "09. 出発前の最終点検とウォークアラウンド（機体周辺の安全確認）",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/017.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/018.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P09_S01",
+          "content_type": "pre_departure_inspections",
+          "japanese": {
+            "original_kanji": "航空機のプッシュバック前に、地上スタッフとフライトクルーが共同で機体周辺の安全確認（ウォークアラウンド）を行い、すべてのドア、ハッチ、パネルが完全に閉まり施錠されていることを確認する。",
+            "furigana": "航空機(こうくうき)のプッシュバック前(まえ)に、地上(ちじょう)スタッフとフライトクルーが共同(きょうどう)で機体周辺(きたいしゅうへん)の安全確認を行う。",
+            "romaji": "Koukuuki no pusshubakku mae ni, chijou sutaffu to furaito kuruu ga kyoudou de kitai shuuhen no anzen kakunin wo okonai..."
+          },
+          "english": "Before aircraft pushback, ground staff and flight crew jointly perform a walk-around safety inspection to confirm that all doors, hatches, and panels are fully closed and locked.",
+          "sinhala": "පුෂ්බෑක් (Pushback) කිරීමට පෙර බිම් කාර්ය මණ්ඩලය සහ ගුවන් නියමුවන් එක්ව ගුවන් යානය වටා ගොස් (Walk-around) සියලුම දොරවල්, හැච් (Hatches) සහ පැනල් හොඳින් වැසී අගුළු දමා ඇති බවට ආරක්ෂාව තහවුරු කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ප්ලේන් එක පස්සට ගන්න කලින් හැමෝම එකතු වෙලා ප්ලේන් එක වටේ ගිහින් දොරවල් ඔක්කොම හොඳින් වැහිලාද කියලා බලනවා.",
+            "japanese_tts_text": "プッシュバック前に、機体周辺のウォークアラウンド点検を実施します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "ウォークアラウンド",
+          "furigana": "ウォークアラウンド",
+          "romaji": "Wooku Araundo",
+          "english": "Walk-around Inspection",
+          "sinhala": "යානය වටා ගොස් පරීක්ෂා කිරීම"
+        },
+        {
+          "japanese": "安全確認",
+          "furigana": "あんぜんかくにん",
+          "romaji": "Anzen Kakunin",
+          "english": "Safety Verification",
+          "sinhala": "ආරක්ෂාව තහවුරු කිරීම"
+        },
+        {
+          "japanese": "施錠",
+          "furigana": "せじょう",
+          "romaji": "Sejou",
+          "english": "Locking",
+          "sinhala": "අගුළු දැමීම"
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "page_title_sinhala": "පුෂ්බෑක් සහ ටෝවින් රථ ක්‍රියාපටිපාටිය (Pushback & Towing Operations)",
+      "page_title_japanese": "10. プッシュバックとトーイングカーの操作手順および無線交信",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/019.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/020.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P10_S01",
+          "content_type": "pushback_and_engine_startup",
+          "japanese": {
+            "original_kanji": "トーイングカーを使用して航空機をスポットから押し出す（プッシュバック）作業では、トーバーの接続状態やピンの挿入、周囲の安全を無線で完全に確認しながら、パイロットの指示に従い慎重に行う。",
+            "furigana": "トーイングカーを使用して航空機をスポットから押し出す作業では、トーバーの接続状態や周辺の安全を無線で完全に確認しながら行う。",
+            "romaji": "Toingu kaa wo shiyou shite koukuuki ga supotto kara oshidasu sagyou de wa, toobaa no setsuzoku joutai ya shuuhen no anzen wo musen de kanzen ni kakunin shinagara..."
+          },
+          "english": "During pushback operations using a tow tractor, operators must continuously verify towbar connection status, pin insertion, and surrounding clearance via radio communication, proceeding carefully in accordance with pilot instructions.",
+          "sinhala": "ටෝවින් කාර් එක (Towing car) භාවිතයෙන් ගුවන් යානය ස්පොට් එකෙන් පිටතට තල්ලු කිරීමේදී (Pushback), ටෝබාර් (Towbar) සම්බන්ධතාවය, පින් (Pin) නිසි ලෙස ඇතුළත් කර තිබේද යන්න සහ අවට ආරක්ෂාව රේඩියෝ මඟින් නිරන්තරයෙන් තහවුරු කර ගනිමින් නියමුවාගේ උපදෙස් අනුව ඉතා පරිස්සමින් සිදු කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ටෝවින් කාර් එකෙන් ප්ලේන් එක පස්සට අද්දද්දී ටෝබාර් එකයි පින් එකයි හරිද කියලා බලලා පයිලට්ගේ නියෝග මත රේඩියෝ එකෙන් කතා කරමින් වැඩ කරන්න ඕනෙ.",
+            "japanese_tts_text": "トーイングカーによるプッシュバック時は、無線で安全を確認しながら慎重に行います。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "プッシュバック",
+          "furigana": "プッシュバック",
+          "romaji": "Pusshubakku",
+          "english": "Pushback",
+          "sinhala": "පසුපසට තල්ලු කිරීම (Pushback)"
+        },
+        {
+          "japanese": "トーイングカー",
+          "furigana": "トーイングカー",
+          "romaji": "Toingu Kaa",
+          "english": "Tow Tractor / Tug",
+          "sinhala": "ටෝවින් රථය"
+        },
+        {
+          "japanese": "トーバー",
+          "furigana": "トーバー",
+          "romaji": "Toobaa",
+          "english": "Towbar",
+          "sinhala": "ටෝබාර් (යානය ටෝවින් රථයට இணைக்கும் දණ්ඩ)"
+        }
+      ]
+    }
+  ]
+}

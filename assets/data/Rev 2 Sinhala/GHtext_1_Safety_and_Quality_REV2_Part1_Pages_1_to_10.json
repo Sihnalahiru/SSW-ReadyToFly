@@ -1,0 +1,441 @@
+{
+  "metadata": {
+    "module": "Safety and Quality (安全・品質)",
+    "batch": "GHtext_1_Safety_and_Quality_REV2_Part1_Pages_1_to_10",
+    "document_title": "GHtext【1.Safety and Quality】.REV2.pdf",
+    "source_pdf": "GHtext【1.Safety and Quality】.REV2.pdf",
+    "image_folder": "GHtext【1.Safety and Quality】- Images .REV2/"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "page_title_sinhala": "ආරක්ෂාව සහ ගුණාත්මකභාවය හැඳින්වීම (Safety and Quality Overview)",
+      "page_title_japanese": "01. 安全と品質の基本概念と重要性",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/001.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/002.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P01_S01",
+          "content_type": "safety_and_quality_intro",
+          "japanese": {
+            "original_kanji": "航空業界における安全性と品質の確保は、すべての業務の基盤であり、顧客の信頼を維持し事故を未然に防止するために最も重要な要素である。",
+            "furigana": "航空業界(こうくうぎょうかい)における安全性(あんぜんせい)と品質(ひんしつ)の確保(かくほ)は、すべての業務の基盤であり...",
+            "romaji": "Koukuu gyoukai ni okeru anzensei to hinshitsu no kakuho wa, subete no gyoumu no kiban de ari, kokyaku no shinrai wo iji shi..."
+          },
+          "english": "Ensuring safety and quality in the aviation industry is the foundation of all operations, and the most critical factor for maintaining customer trust and pre-emptively preventing accidents.",
+          "sinhala": "ගුවන් සේවා කර්මාන්තය තුළ ආරක්ෂාව සහ ගුණාත්මකභාවය තහවුරු කිරීම සියලුම මෙහෙයුම්වල මූලික පදනම වන අතර, මගීන්ගේ විශ්වාසය රැක ගැනීමට සහ අනතුරු වළක්වා ගැනීමට ඇති අතිශය වැදගත් සාධකය වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, Safety and Quality කියන්නේ ගුවන් සේවා ක්ෂේත්‍රයේ පදනමයි. මගීන්ගේ ආරක්ෂාව සහ විශ්වාසය තහවුරු කරන්න මේක අත්‍යවශ්‍යයි.",
+            "japanese_tts_text": "航空業界における安全性と品質の確保は、すべての業務の基盤です。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "安全性",
+          "furigana": "あんぜんせい",
+          "romaji": "Anzensei",
+          "english": "Safety",
+          "sinhala": "ආරක්ෂාව"
+        },
+        {
+          "japanese": "品質確保",
+          "furigana": "ひんしつかくほ",
+          "romaji": "Hinshitsu Kakuho",
+          "english": "Quality Assurance",
+          "sinhala": "ගුණාත්මකභාවය තහවුරු කිරීම"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "page_title_sinhala": "मानव त्रुटि (Human Error) සහ එය වැළැක්වීමේ මූලධර්ම",
+      "page_title_japanese": "02. ヒューマンエラーのメカニズムと発生要因",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/003.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/004.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P02_S01",
+          "content_type": "human_error_mechanisms",
+          "japanese": {
+            "original_kanji": "航空事故の多くは人間の判断ミスや操作ミスといったヒューマンエラーに起因している。エラーを防ぐためには、個人の注意だけでなく、システムやルールの見直しが必要である。",
+            "furigana": "航空事故の多くは人間の判断ミスや操作ミスといったヒューマンエラーに起因している。",
+            "romaji": "Koukuujiko no ooku wa ningen no handan misu ya sousa misu toitta hyuuman eraa ni kiin shite iru."
+          },
+          "english": "Many aviation accidents are attributed to human errors such as judgment or operational mistakes. To prevent errors, it is necessary to review not only individual attention but also systems and rules.",
+          "sinhala": "බොහෝ ගුවන් අනතුරු මිනිසුන්ගේ වැරදි තීරණ හෝ මෙහෙයුම් දෝෂ වැනි මානව දෝෂ (Human errors) නිසා සිදුවේ. මෙම දෝෂ වැළැක්වීම සඳහා පුද්ගල අවධානයට පමණක් සීමා නොවී පද්ධති සහ නීති රීති නැවත පරීක්ෂා කිරීම අවශ්‍ය වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මිනිස් අත්වැරදීම් (Human errors) නිසා තමයි ගොඩක් අනතුරු වෙන්නේ. මේවා වළක්වන්න ක්‍රමවත් නීති සහ අවධානය අවශ්‍යයි.",
+            "japanese_tts_text": "ヒューマンエラーを防ぐためには、システムやルールの見直しが必要です。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "ヒューマンエラー",
+          "furigana": "ヒューマンエラー",
+          "romaji": "Hyuuman Eraa",
+          "english": "Human Error",
+          "sinhala": "මානව දෝෂය / අත්වැරැද්ද"
+        },
+        {
+          "japanese": "発生要因",
+          "furigana": "はっせいよういん",
+          "romaji": "Hassei Youin",
+          "english": "Causative Factor",
+          "sinhala": "හේතුකාරක සාධකය"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "page_title_sinhala": "ආරක්ෂක සංස්කෘතිය සහ වගකීම් සහගත වැඩ පරිසරය (Safety Culture)",
+      "page_title_japanese": "03. 安全文化（セーフティ・カルチャー）の醸成とオープンな職場",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/005.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/006.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P03_S01",
+          "content_type": "safety_culture_and_workplace",
+          "japanese": {
+            "original_kanji": "安全な職場環境を維持するためには、エラーやヒヤリ・ハットを隠さず報告できるオープンで明るい雰囲気（ジャスト・カルチャー）が不可欠である。",
+            "furigana": "安全な職場環境を維持するためには、エラーやヒヤリ・ハットを隠さず報告できるオープンな雰囲気が不可欠である。",
+            "romaji": "Anzen na shokuba kankyou wo iji suru tame ni wa, eraa ya hiyari hatto wo kakusazu houkoku dekiru oopun na fun'iki ga fukaketsu de aru."
+          },
+          "english": "To maintain a safe workplace environment, an open and bright atmosphere (Just Culture) where errors and near-misses can be reported without concealment is indispensable.",
+          "sinhala": "ආරක්ෂිත සේවා පරිසරයක් පවත්වාගෙන යාම සඳහා වැරදි හෝ හියාරි-හට්ටෝ (Near-miss) වසන් නොකර විවෘතව වාර්තා කළ හැකි සුහදශීලී පරිසරයක් (Just Culture) අත්‍යවශ්‍ය වේ.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "වැරදි හෝ ළඟබේරුණු සිදුවීම් බියක් නැතුව වාර්තා කරන්න පුළුවන් විවෘත පරිසරයක් වැඩබිමේ තිබිය යුතුයි.",
+            "japanese_tts_text": "エラーやヒヤリ・ハットを隠さず報告できるオープンな雰囲気が重要です。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "安全文化",
+          "furigana": "あんぜんぶんか",
+          "romaji": "Anzen Bunka",
+          "english": "Safety Culture",
+          "sinhala": "ආරක්ෂක සංස්කෘතිය"
+        },
+        {
+          "japanese": "職場環境",
+          "furigana": "しょくばかんきょう",
+          "romaji": "Shokuba Kankyou",
+          "english": "Workplace Environment",
+          "sinhala": "සේවා පරිසරය"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "page_title_sinhala": "හියාරි-හට්ටෝ (Near-Miss) වාර්තාකරණයේ වැදගත්කම",
+      "page_title_japanese": "04. ヒヤリ・ハット・レポートの活用と事故の未然防止",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/007.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/008.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P04_S01",
+          "content_type": "hiyari_hatto_reporting_rev2",
+          "japanese": {
+            "original_kanji": "重大な事故が発生する背景には、多数のヒヤリ・ハット（危うく事故になりかけた事例）が存在する。これらを収集し分析することで、事故を未然に防ぐ対策を講じることができる。",
+            "furigana": "重大な事故が発生する背景には、多数のヒヤリ・ハットが存在する。これらを収集し分析する。",
+            "romaji": "Jyuudai na jiko ga hassei suru haikei ni wa, tasuu no hiyari hatto ga sonzai suru. Korera wo shuushuu shi bunseki suru."
+          },
+          "english": "Behind major accidents, there are numerous near-misses (close calls). By collecting and analyzing these, measures can be taken to prevent accidents pre-emptively.",
+          "sinhala": "ප්‍රධාන අනතුරක් සිදුවීමට පසුබිමින්, හියාරි-හට්ටෝ (අනූනමයෙන් බේරුණු අවස්ථා) බොහෝමයක් පවතී. ඒවා එකතු කර විශ්ලේෂණය කිරීම මඟින් අනතුරු කල්තියා වළක්වා ගැනීමට ක්‍රියාමාර්ග ගත හැක.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ලොකු අනතුරකට මුල් වෙන්නේ පොඩි අත්වැරදීම්. ඒවා වාර්තා කරලා විශ්ලේෂණය කිරීමෙන් ලොකු අනතුරු වළක්වන්න පුළුවන්.",
+            "japanese_tts_text": "ヒューマンエラーやヒヤリ・ハットの収集と分析により、事故を未然に防止します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "未然防止",
+          "furigana": "みぜんぼうし",
+          "romaji": "Mizen Boushi",
+          "english": "Pre-emptive Prevention",
+          "sinhala": "කල්තියා අනතුරු වළක්වා ගැනීම"
+        },
+        {
+          "japanese": "分析",
+          "furigana": "ぶんせき",
+          "romaji": "Bunseki",
+          "english": "Analysis",
+          "sinhala": "විශ්ලේෂණය කිරීම"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "page_title_sinhala": "ශිසා කොෂෝ (Pointing and Calling) සහ ආරක්ෂක තහවුරු කිරීම",
+      "page_title_japanese": "05. 指差呼称および危険予知活動（KY）の実践",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/009.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/010.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P05_S01",
+          "content_type": "shisa_koshou_and_ky",
+          "japanese": {
+            "original_kanji": "作業上の確認箇所を指差して「ヨーシ」と声を出す指差呼称を行うことで、意識を集中させ誤りや不安全状態を瞬時に発見することができる。危険予知（KY）活動と合わせて徹底する。",
+            "furigana": "作業上の確認箇所を指差して「ヨーシ」と声を出す指差呼称を行うことで、意識を集中させる。",
+            "romaji": "Sagyoujou no kakunin kasho wo yubisashite 'Yooshi' to koe wo dasu shisa koshou wo okonau koto de, ishiki wo shuuchuu saseru."
+          },
+          "english": "By pointing at confirmation targets and calling out 'Yoshi!', concentration is sharpened, enabling instant detection of errors or unsafe conditions. Thoroughly practice this along with Hazard Prediction (KY) activities.",
+          "sinhala": "අදාළ ස්ථානයට ඇඟිල්ල දිගු කර 'යෝෂි!' කියා හඬ නගා තහවුරු කිරීම මඟින් අවධානය කේන්ද්‍රගත වී අත්වැරදීම් හෝ අනාරක්ෂිත තත්ත්වයන් ක්ෂණිකව හඳුනාගත හැක. අනතුරු කල්තියා හඳුනාගැනීමේ (KY) ක්‍රියාකාරකම් සමඟ මෙය එකතු කර ක්‍රියාත්මක කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ඇඟිල්ල දික් කරලා 'ಯෝෂි!' කියලා සද්දෙට කියන ශිසා කොෂෝ ක්‍රමයෙන් අවධානය වැඩි කරලා වැරදි මඟහරවා ගන්න පුළුවන්.",
+            "japanese_tts_text": "指差呼称と危険予知（KY）活動により、不安全状態を瞬時に察知します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "指差呼称",
+          "furigana": "しさこしょう",
+          "romaji": "Shisa Koshou",
+          "english": "Pointing and Calling",
+          "sinhala": "ඇඟිල්ල දිගු කර හඬ නගා තහවුරු කිරීම"
+        },
+        {
+          "japanese": "危険予知（KY）",
+          "furigana": "きけんよち",
+          "romaji": "Kiken Yochi (KY)",
+          "english": "Hazard Prediction / Risk Anticipation",
+          "sinhala": "අනතුරු කල්තියා පුරෝකථනය කිරීම"
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "page_title_sinhala": "ගුවන් තොටුපළ බිම් සලකුණු සහ වාහන මාර්ග රෙගුලාසි",
+      "page_title_japanese": "06. ランプ内における車両通路の指示標示と交通ルールの遵守",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/011.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/012.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P06_S01",
+          "content_type": "ramp_roadway_markings_rev2",
+          "japanese": {
+            "original_kanji": "ランプ内の車両通路には、停止線、進行方向標示、横断歩道（ダイヤマーク）、前方優先標示などが定められており、航空機優先の原則を遵守して安全運転を行わなければならない。",
+            "furigana": "ランプ内の車両通路には、停止線、進行方向標示、横断歩道などが定められており、航空機優先を遵守する。",
+            "romaji": "Ranpu nai no sharyou tsuuro ni wa, teishisen, shinkou houkou hyouji, oudan hodou nado ga sadamerarete ari, koukuuki yuusen wo junshu suru."
+          },
+          "english": "Ramp roadways feature stop lines, directional arrows, pedestrian crossings (diamond marks), and forward yield markings. Drivers must obey the aircraft priority principle and drive safely.",
+          "sinhala": "රැම්ප් මාර්ග තුළ නැවැත්වීමේ රේඛා, ධාවන දිශා, පදික මාරු (ඩයමන්ඩ් සලකුණ) සහ ඉදිරිපස ප්‍රමුඛතා සලකුණු පිහිටුවා ඇත. ගුවන් යානා ප්‍රමුඛතා මූලධර්මය අකුරටම රකිමින් ආරක්ෂිතව රිය පැදවිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ኤයාර්පෝට් පාරවල් වල තියෙන ලකුණු හොඳින් දැනගෙන ප්ලේන් වලට මුල් තැන දෙමින් වාහන පදවන්න ඕනෙ.",
+            "japanese_tts_text": "ランプ内の標示に従い、航空機優先の原則を遵守して安全運転を行います。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "車両通路",
+          "furigana": "しゃりょうつうろ",
+          "romaji": "Sharyou Tsuuro",
+          "english": "Vehicle Roadway / Service Lane",
+          "sinhala": "වාහන ගමන් කරන මංතීරුව"
+        },
+        {
+          "japanese": "航空機優先",
+          "furigana": "こうくうきゆうせん",
+          "romaji": "Koukuuki Yuusen",
+          "english": "Aircraft Priority",
+          "sinhala": "ගුවන් යානාවලට ප්‍රමුඛතාවය"
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "page_title_sinhala": "ERA (උපකරණ සීමා කළ කලාපය) සහ ESA (පොරොත්තු කලාපය)",
+      "page_title_japanese": "07. 機材制限区域（ERA）と機材待機区域（ESA）の定義と運用",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/014.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P07_S01",
+          "content_type": "era_esa_definitions_rev2",
+          "japanese": {
+            "original_kanji": "ERA（機材制限区域）内へは、航空機の移動時にいかなる車両も進入してはならない。ESA（機材待機区域）はスポットイン30分前から使用可能で、作業完了後は速やかに退去する。",
+            "furigana": "ERA内へは、航空機の移動時にいかなる車両も進入してはならない。ESAはスポットイン30分前から使用可能。",
+            "romaji": "ERA nai e wa, koukuuki no idou jiku ni ikanaru sharyou mo shinnyuu shite wa naranai. ESA wa supotto in 30-pun mae kara shiyou kanou."
+          },
+          "english": "No vehicles may enter the ERA (Equipment Restraint Area) while an aircraft is moving. The ESA (Equipment Staging Area) can be used 30 minutes prior to spot-in and must be evacuated promptly after service completion.",
+          "sinhala": "ගුවන් යානයක් චලනය වන විට කිසිදු වාහනයක් ERA (උපකරණ සීමා කළ කලාපය) වෙත ඇතුළු වීම සපුරා තහනම්ය. ESA (උපකරණ පොරොත්තු කලාපය) ගුවන් යානය පැමිණීමට විනාඩි 30 කට පෙර භාවිතා කළ හැකි අතර වැඩ අවසන් වූ වහාම ඉවත් විය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ප්ලේන් එක එද්දී ERA එක ඇතුළට වාහන දාන්න බෑ. ESA එකට නම් විනාඩි 30කට කලින් වාහන දාන්න පුළුවන්.",
+            "japanese_tts_text": "ERAは航空機移動時の進入禁止、ESAはスポットイン30分前から使用可能です。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "機材制限区域（ERA）",
+          "furigana": "きざいせいげんくいき",
+          "romaji": "Kizai Seigen Kuiki (ERA)",
+          "english": "Equipment Restraint Area",
+          "sinhala": "උපකරණ සීමා කළ කලාපය (ERA)"
+        },
+        {
+          "japanese": "機材待機区域（ESA）",
+          "furigana": "きざいたいきくいき",
+          "romaji": "Kizai Taiki Kuiki (ESA)",
+          "english": "Equipment Staging Area",
+          "sinhala": "උපකරණ පොරොත්තු කලාපය (ESA)"
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "page_title_sinhala": "PBB ක්‍රියාකාරී කලාප සහ පොරොත්තු ස්ථාන ආරක්ෂාව",
+      "page_title_japanese": "08. PBB稼働区域とPBB待機位置（Stand-by Position）のルール",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/015.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/016.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P08_S01",
+          "content_type": "pbb_operating_area_and_standby",
+          "japanese": {
+            "original_kanji": "PBB（搭乗橋）の作動範囲内や待機位置周辺への車両の駐車は全面的に禁止されている。また、航空機が完全に停止するまでPBBを動かしてはならない。",
+            "furigana": "PBBの作動範囲内や待機位置周辺への車両の駐車は全面的に禁止されている。航空機停止まで動かしてはならない。",
+            "romaji": "PBB no sadou han'i nai ya taiki ichi shuuhen e no sharyou no chuusha wa zenmenteki ni kinshi sarete iru."
+          },
+          "english": "Parking vehicles within the PBB operating range or around its stand-by position is strictly prohibited. Also, the PBB must not be moved until the aircraft comes to a complete stop.",
+          "sinhala": "මගී පාලම (PBB) ක්‍රියාත්මක වන සීමාව තුළ හෝ එහි පොරොත්තු ස්ථානය අසල වාහන නැවැත්වීම සම්පූර්ණයෙන්ම තහනම් වේ. එසේම ගුවන් යානය සම්පූර්ණයෙන්ම නවත්වා නිශ්චල වන තුරු PBB පාලම ක්‍රියාත්මක නොකළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "PBB පාලම කැරකෙන තැන වාහන නවත්තන්න බැහැ. ප්ලේන් එක සම්පූර්ණයෙන්ම නතර වන තුරු පාලම ඉස්සරහට ගන්නත් බැහැ.",
+            "japanese_tts_text": "PBB稼働区域や待機位置への駐車は禁止され、航空機停止まで動かしてはなりません。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "PBB稼働区域",
+          "furigana": "PBBかどうくいき",
+          "romaji": "PBB Kadou Kuiki",
+          "english": "PBB Operating Area",
+          "sinhala": "මගී පාලම ක්‍රියාත්මක වන කලාපය"
+        },
+        {
+          "japanese": "駐車禁止",
+          "furigana": "ちゅうしゃきんし",
+          "romaji": "Chuusha Kinshi",
+          "english": "No Parking",
+          "sinhala": "වාහන නැවැත්වීම තහනම්"
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "page_title_sinhala": "අන්තරායකර භාණ්ඩ (DGR) ප්‍රවාහන නීති සහ දඩ මුදල්",
+      "page_title_japanese": "09. 危険物の航空輸送に関する法規制と違反時の罰則（50万円以下の罰金）",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/017.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/018.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P09_S01",
+          "content_type": "dgr_laws_and_penalties_rev2",
+          "japanese": {
+            "original_kanji": "航空法では爆発物や可燃物などの危険物の輸送ルールを定めており、違反して不正に輸送した場合は50万円以下の罰金の対象となる。荷送人も運送事業者もルールを厳守する義務がある。",
+            "furigana": "航空法では危険物の輸送ルールを定めており、違反した場合は50万円以下の罰金の対象となる。",
+            "romaji": "Koukuuhou de wa kikenbutsu no yuusou ruuru wo sadamete ari, ihan shita baai wa 50-man'en ika no bakkin no taishou to naru."
+          },
+          "english": "Aviation law stipulates regulations for transporting dangerous goods such as explosives and flammables, and violations are subject to fines up to 500,000 yen. Both shippers and carriers have an obligation to comply.",
+          "sinhala": "පුපුරන ද්‍රව්‍ය සහ ගිනිගන්නා ද්‍රව්‍ය වැනි අන්තරායකර භාණ්ඩ ප්‍රවාහනය කිරීමේ නීති සිවිල් ගුවන් සේවා නීතිය මඟින් පනවා ඇති අතර, නීති කඩ කරමින් නීතිවිරෝධී ලෙස ප්‍රවාහනය කළහොත් යෙන් 500,000 ක දඩයකට යටත් වේ. භාණ්ඩ එවන්නා මෙන්ම ප්‍රවාහකයාද මෙම නීති රකිමින් කටයුතු කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "අන්තරායකර භාණ්ඩ නීති කඩ කළහොත් යෙන් ලක්ෂ 5 ක දඩයක් ගහනවා. භාණ්ඩ එවන්නයි ප්‍රවාහනය කරන්නයි දෙගොල්ලොම නීති රකින්න ඕනෙ.",
+            "japanese_tts_text": "危険物の不正輸送には50万円以下の罰金が科され、ルール厳守が求められます。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "50万円以下の罰金",
+          "furigana": "ごじゅうまんえんいかのばっきん",
+          "romaji": "Gojuuman'en ika no bakkin",
+          "english": "Fine up to 500,000 Yen",
+          "sinhala": "යෙන් 500,000 ක් දක්වා වූ දඩය"
+        },
+        {
+          "japanese": "荷送人",
+          "furigana": "におくりにん",
+          "romaji": "Niokurinin",
+          "english": "Shipper / Consignor",
+          "sinhala": "භාණ්ඩ යවන්නා"
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "page_title_sinhala": "DGR ප්‍රවාහනයේ මූලධර්ම 3 සහ අන්තරායකර භාණ්ඩ පන්ති 9",
+      "page_title_japanese": "10. 危険物輸送の3原則（申告・ラベル・梱包）と第1類〜第9類の分類",
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/019.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/020.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_REV2_P10_S01",
+          "content_type": "three_principles_and_nine_classes",
+          "japanese": {
+            "original_kanji": "危険物輸送の3原則は「申告書の作成」「ラベルの貼付」「適正な梱包」である。また、危険物は火薬類からリチウム電池まで第1類から第9類までの9つに分類される。",
+            "furigana": "危険物輸送の3原則は「申告書の作成」「ラベルの貼付」「適正な梱包」である。危険物は第1類から第9類に分類される。",
+            "romaji": "Kikenbutsu yuusou no san gensoku wa 'shinkokusho no sakusei', 'raberu no choufu', 'tekisei na konpou' de aru."
+          },
+          "english": "The three principles of dangerous goods transport are 'Shipper's Declaration', 'Hazard Labelling', and 'Compliant Packaging'. Furthermore, dangerous goods are classified into 9 classes from Class 1 (explosives) to Class 9 (lithium batteries, etc.).",
+          "sinhala": "අන්තරායකර භාණ්ඩ ප්‍රවාහනයේ මූලධර්ම 3 වන්නේ 'ප්‍රකාශන පත්‍රය සකස් කිරීම', 'ලේබල් ඇලවීම' සහ 'නිවැරදි ඇසුරුම්කරණය' වේ. මීට අමතරව, අන්තරායකර භාණ්ඩ පුපුරන ද්‍රව්‍යවල සිට ලිතියම් බැටරි දක්වා පන්ති 1 සිට 9 දක්වා වර්ග කර ඇත.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "DGR ප්‍රවාහනයේ ප්‍රධාන නීති තුනයි පන්ති 9 හොඳින් මතක තියාගන්න. විභාගයට අනිවාර්යයෙන්ම එනවා.",
+            "japanese_tts_text": "危険物輸送の3原則を守り、第1類から第9類までの分類を正確に理解します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "危険物輸送の3原則",
+          "furigana": "きけんぶつゆうそうのさんげんそく",
+          "romaji": "Kikenbutsu Yuusou no San Gensoku",
+          "english": "Three Principles of Dangerous Goods Transport",
+          "sinhala": "අන්තරායකර භාණ්ඩ ප්‍රවාහනයේ මූලධර්ම 3"
+        },
+        {
+          "japanese": "9つの分類",
+          "furigana": "ここのつのぶんるい",
+          "romaji": "Kokonotsu no Bunrui",
+          "english": "Nine Classifications",
+          "sinhala": "පන්ති 9 කට වර්ග කිරීම"
+        }
+      ]
+    }
+  ]
+}

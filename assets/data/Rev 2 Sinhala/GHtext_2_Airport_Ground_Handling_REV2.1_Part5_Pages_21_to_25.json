@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "module": "Airport Ground Handling (空港グラウンドハンドリング)",
+    "batch": "GHtext_2_Airport_Ground_Handling_REV2.1_Part5_Pages_21_to_25",
+    "document_title": "GHtext【2.Airport Ground Handling】.REV2.1.pdf",
+    "source_pdf": "GHtext【2.Airport Ground Handling】.REV2.1.pdf",
+    "image_folder": "GHtext【2.Airport Ground Handling】- Images.REV2.1/"
+  },
+  "pages": [
+    {
+      "page_number": 21,
+      "page_title_sinhala": "මගී පාලම (PBB) ක්‍රියාත්මක කිරීමේදී ආරක්ෂක පියවර සහ හදිසි නැවතුම්",
+      "page_title_japanese": "21. パッセンジャー・ボーディング・ブリッジ（PBB）の安全操作と緊急停止手順",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/041.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/042.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P21_S01",
+          "content_type": "pbb_safety_and_emergency_stop",
+          "japanese": {
+            "original_kanji": "PBB（搭乗橋）を操作して航空機にドッキングまたは離脱させる際は、機体との間に障害物がない常時確認し、異音や異常を感じた場合は直ちに非常停止ボタンを押して操作を中断しなければならない。",
+            "furigana": "PBB（搭乗橋）を操作して航空機にドッキングまたは離脱させる際は、機体との間に障害物がないか常時確認する。",
+            "romaji": "PBB wo sousa shite koukuuki ni dokkingu mata wa ridatsu saseru sai wa, kitai to no aida ni shougaibutsu ga nai ka tsune ni kakunin shi..."
+          },
+          "english": "When operating the PBB (Passenger Boarding Bridge) to dock or undock from the aircraft, constantly verify that there are no obstacles between the bridge and the aircraft body. If any unusual noise or anomaly is detected, immediately press the emergency stop button to suspend operation.",
+          "sinhala": "මගී පාලම (PBB) ගුවන් යානයට සම්බන්ධ කිරීමේදී (Docking) හෝ ඉවත් කිරීමේදී පාලම සහ ගුවන් යානය අතර කිසිදු බාධකයක් නොමැති බව නිරන්තරයෙන් පරීක්ෂා කළ යුතුය. කිසියම් අසාමාන්‍ය ශබ්දයක් හෝ දෝෂයක් හැඟුනහොත් වහාම හදිසි නැවතුම් බොත්තම (Emergency stop button) ඔබා මෙහෙයුම නතර කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "PBB පාලම ප්ලේන් එකට ළං කරද්දී හරි ඉවත් කරද්දී මොකක්හරි බාධාවක් තිබුණොත් වහාම ඉමර්ජන්සි බටන් එක ඔබලා නතර කරන්න ඕනෙ.",
+            "japanese_tts_text": "PBB操作時は障害物の有無を常時確認し、異常時は直ちに非常停止ボタンを押します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "搭乗橋（PBB）",
+          "furigana": "とうじょうきょう",
+          "romaji": "Toujoukyou (PBB)",
+          "english": "Passenger Boarding Bridge",
+          "sinhala": "මගී පාලම (PBB)"
+        },
+        {
+          "japanese": "非常停止",
+          "furigana": "ひじょうていし",
+          "romaji": "Hijou Teishi",
+          "english": "Emergency Stop",
+          "sinhala": "හදිසි නැවතුම"
+        },
+        {
+          "japanese": "障害物",
+          "furigana": "しょうがいぶつ",
+          "romaji": "Shougaibutsu",
+          "english": "Obstacle",
+          "sinhala": "බාධකය / බාධාකාරී වස්තුව"
+        }
+      ]
+    },
+    {
+      "page_number": 22,
+      "page_title_sinhala": "ගුවන් යානා දොරවල් විවෘත කිරීමේදී සහ වැසීමේදී ආරක්ෂක නීති",
+      "page_title_japanese": "22. 航空機ドアの開閉時における安全確認と地上スタッフの役割",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/043.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/044.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P22_S01",
+          "content_type": "aircraft_door_operation_safety",
+          "japanese": {
+            "original_kanji": "航空機のドアを操作する際は、キャビンクルーと地上スタッフが相互に合図を確認し、脱出スライドが作動状態（アームド）になっていないか等を十分に注意して慎重に行う。",
+            "furigana": "航空機のドアを操作する際は、キャビンクルーと地上スタッフが相互に合図を確認し、慎重に行う。",
+            "romaji": "Koukuuki no doa wo sousa suru sai wa, kyabin kuruue to chijou sutaffu ga sougo ni aizu wo kakunin shi..."
+          },
+          "english": "When operating aircraft doors, cabin crew and ground staff must mutually confirm signals and proceed with extreme caution, paying full attention to whether evacuation slides are armed.",
+          "sinhala": "ගුවන් යානා දොරවල් විවෘත කිරීමේදී හෝ වැසීමේදී කැබින් කාර්ය මණ්ඩලය සහ බිම් කාර්ය මණ්ඩලය ಪರස්පර සංඥා හුවමාරු කර ගනිමින්, හදිසි ඉවත් වීමේ სლაයිඩ් එක (Evacuation slide) සක්‍රීය වී ඇත්දැයි බැලීම ඇතුළු දැඩි සැලකිල්ලකින් යුතුව කටයුතු කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ප්ලේන් එකේ දොරවල් අරිනකොට හෝ වහද්දී කැබින් කෲ එකත් එක්ක එකතු වෙලා හරිම පරිස්සමින් සංඥා මඟින් තහවුරු කරගෙන කරන්න ඕනෙ.",
+            "japanese_tts_text": "航空機ドアの操作時はクルーと合図を確認し、慎重に行います。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "ドア開閉",
+          "furigana": "どあかいへい",
+          "romaji": "Doa Kaihei",
+          "english": "Door Opening and Closing",
+          "sinhala": "දොරවල් විවෘත කිරීම සහ වැසීම"
+        },
+        {
+          "japanese": "脱出スライド",
+          "furigana": "だっしゅつスライド",
+          "romaji": " Dasshutsu Suraido",
+          "english": "Evacuation Slide",
+          "sinhala": "හදිසි ඉවත් වීමේ ලිස්සා යාමේ පටිය (Slide)"
+        }
+      ]
+    },
+    {
+      "page_number": 23,
+      "page_title_sinhala": "භාණ්ඩ සේවා කන්ටේනර් (ULD) සහ පලට් හැසිරවීමේ නීති",
+      "page_title_japanese": "23. 航空コンテナ（ULD）およびパレットの正しい取り扱いと固定",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/045.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/046.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P23_S01",
+          "content_type": "uld_and_pallet_handling",
+          "japanese": {
+            "original_kanji": "航空コンテナやパレット（ULD）をハンドリングする際は、破損や変形がないか点検し、貨物室内のロック機構（ラッチ）が確実に作動して移動が防止されていることを確認する。",
+            "furigana": "航空コンテナやパレット（ULD）をハンドリングする際は、破損や変形がないか点検し、ロック機構を確認する。",
+            "romaji": "Koukuu kontena ya paretto (ULD) wo handoringu suru sai wa, hasonson ya henkei ga nai ka tenken shi, rokku kikou wo kakunin suru."
+          },
+          "english": "When handling aviation containers and pallets (ULDs), inspect for damage or deformation, and ensure that locking mechanisms (latches) inside the cargo compartment operate securely to prevent shifting.",
+          "sinhala": "ගුවන් කන්ටේනර් හෝ පැලට් (ULD) හැසිරවීමේදී ඒවායේ හානි හෝ විකෘති වීම් ඇත්දැයි පරීක්ෂා කළ යුතු අතර, කාගෝ මැදිරිය තුළ ඇති අගුළු දැමීමේ ක්‍රියාරම්භක (Latches) මඟින් ඒවා නොසැලෙන ලෙස අචලව සවි වී ඇති බවට තහවුරු කර ගත යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ULD කන්ටේනර් සහ පැලට් පාවිච්චිද්දී ඒවා කැඩිලා නැද්ද කියලා බලලා, ප්ලේන් එක ඇතුළේ ලොක් (Locks) වලින් හරියටම හිර කරලා තියෙනවද කියලා බලන්න ඕනෙ.",
+            "japanese_tts_text": "ULDの取り扱いは破損点検を行い、貨物室内のロック機構で確実に固定します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "航空コンテナ（ULD）",
+          "furigana": "こうくうコンテナ",
+          "romaji": "Koukuu Kontena (ULD)",
+          "english": "Unit Load Device / Aviation Container",
+          "sinhala": "ගුවන් කන්ටේනරය (ULD)"
+        },
+        {
+          "japanese": "ロック機構",
+          "furigana": "ロックきこう",
+          "romaji": "Rokku Kikou",
+          "english": "Locking Mechanism",
+          "sinhala": "අගුළු දැමීමේ යාන්ත්‍රණය"
+        }
+      ]
+    },
+    {
+      "page_number": 24,
+      "page_title_sinhala": "රැම්ප් ප්‍රදේශයේ රාත්‍රී කාලීන සහ අලුත් වැඩියා මෙහෙයුම් ආරක්ෂාව",
+      "page_title_japanese": "24. 夜間作業および視界不良時（霧・大雨）におけるランプ内安全対策",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/047.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/048.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P24_S01",
+          "content_type": "night_and_low_visibility_operations",
+          "japanese": {
+            "original_kanji": "夜間や濃霧、大雨などの視界不良時は、通常の照明に加え作業灯を点灯し、反射材付きの制服や安全ベストを必ず着用して、自身の存在を周囲の車両に明確に知らせる必要がある。",
+            "furigana": "夜間や濃霧、大雨などの視界不良時は、照明に加え作業灯を点灯し、反射材付きの安全ベストを必ず着用する。",
+            "romaji": "Yakan ya noumu, ooame nado no shikai furyou ji wa, shoumei ni kuwae sagyoutou wo tentou shi, hanshazai tsuki no anzen besuto wo chakuyou suru."
+          },
+          "english": "During night operations, heavy fog, or heavy rain leading to low visibility, turn on working lights in addition to standard illumination, and always wear high-visibility reflective vests to clearly signal your presence to surrounding vehicles.",
+          "sinhala": "රාත්‍රී කාලයේදී, ඝන මීදුමේදී හෝ අධික වර්ෂාව වැනි දෘශ්‍යතාව අඩු අවස්ථාවන්හිදී, සාමාන්‍ය ආලෝකයට අමතරව වැඩ කරන ලයිට් (Working lights) පාවිච්චි කළ යුතු අතර, අවට වාහනවලට තමන් සිටින බව පැහැදිලිව පෙනීම සඳහා පරාවර්තක (Reflective) ආරක්ෂක ඇඳුම් හෝ ජැකට් අනිවාර්යයෙන්ම පැළඳිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "රෑට හරි මීදුම් වැස්ස කාලවලදී හරි වැඩ කරද්දී රිෆ්ලෙක්ටිව් ජැකට් (Reflective vests) අනිවාර්යයෙන්ම අඳින්න ඕනෙ වාහන වලට පේන්න.",
+            "japanese_tts_text": "夜間や視界不良時は作業灯を点灯し、反射材付きベストを必ず着用します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "視界不良",
+          "furigana": "しかいふりょう",
+          "romaji": "Shikai Furyou",
+          "english": "Low Visibility / Poor Visibility",
+          "sinhala": "පෙනීම දුර්වල වීම / අඩු දෘශ්‍යතාව"
+        },
+        {
+          "japanese": "反射材",
+          "furigana": "はんしゃざい",
+          "romaji": "Hanshazai",
+          "english": "Reflective Material",
+          "sinhala": "පරාවර්තක ද්‍රව්‍ය"
+        }
+      ]
+    },
+    {
+      "page_number": 25,
+      "page_title_sinhala": "බිම් හැසිරවීමේ අවසාන අත්පොත සාරාංශය සහ විභාග සූදානම",
+      "page_title_japanese": "25. グランドハンドリング業務テキストの総まとめと安全確認の徹底",
+      "mapped_images": [
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/049.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/050.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "GH_REV2_P25_S01",
+          "content_type": "final_text_summary_and_conclusion",
+          "japanese": {
+            "original_kanji": "本教本で学んだ空港グランドハンドリングの基礎、ランプ安全管理、各種GSEの操作手順、危険物の取り扱い、およびヒヤリ・ハットや指差呼称の実践を現場で徹底し、すべての作業員が一体となって事故ゼロを実現しよう。",
+            "furigana": "本教本で学んだ空港グランドハンドリングの基礎や安全管理、指差呼称の実践を現場で徹底し、事故ゼロを実現する。",
+            "romaji": "Hon kyouhon de mananda kuukou gurando handoringu no kiso ya anzen kanri, shisa koshou no jissen wo genba de tettei shi, jiko zero wo jitsugen shiyou."
+          },
+          "english": "Thoroughly apply the fundamentals of airport ground handling, ramp safety management, GSE operation procedures, dangerous goods handling, and the practice of near-miss reporting and pointing-and-calling learned in this manual, working together to achieve zero accidents.",
+          "sinhala": "මෙම පුහුණු අත්පොතෙන් ඉගෙනගත් ගුවන් තොටුපළ බිම් හැසිරවීමේ මූලධර්ම, රැම්ප් ආරක්ෂක කළමනාකරණය, විවිධ GSE උපකරණ මෙහෙයවීම, අන්තරායකර භාණ්ඩ හැසිරවීම මෙන්ම හියාරි-හට්ටෝ වාර්තා කිරීම සහ ශිසා කොෂෝ ක්‍රියාත්මක කිරීම යන සියල්ල රැම්ප් බිම් මට්ටමින් අකුරටම ක්‍රියාත්මක කරමින් සියලු දෙනා එකතු වී අනතුරු රහිත සේවා පරිසරයක් (Zero Accidents) තහවුරු කරමු.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න අපේ Airport Ground Handling පුහුණු අත්පොතේ අවසාන සාරාංශය! ආරක්ෂාවට මුල්තැන දෙමින්, ඉගෙනගත් නීති සියල්ල රැම්ප් එකේදී ක්‍රියාත්මක කරමු.",
+            "japanese_tts_text": "学んだ安全管理と規程の遵守を現場で徹底し、事故ゼロを達成しましょう！"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "総まとめ",
+          "furigana": "そうまとめ",
+          "romaji": "Sou Matome",
+          "english": "Complete Summary / Review",
+          "sinhala": "සම්පූර්ණ සාරාංශය / එකතුව"
+        },
+        {
+          "japanese": "事故ゼロの実現",
+          "furigana": "じこぜろのじつげん",
+          "romaji": "Jiko Zero no Jitsugen",
+          "english": "Achieving Zero Accidents",
+          "sinhala": "අනතුරු රහිත තත්ත්වය සාක්ෂාත් කර ගැනීම"
+        }
+      ]
+    }
+  ]
+}
