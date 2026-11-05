@@ -1,0 +1,315 @@
+{
+  "metadata": {
+    "module": "Safety and Quality (安全・品質)",
+    "batch": "Batch 1 (Pages 1 to 5)",
+    "document_title": "Safety and Quality Training Manual Rev 1 (SSW ReadyToFly)",
+    "source_pdf": "Safety and quality V1.pdf",
+    "image_folder": "Safety and quality  - Images V1/",
+    "tts_config": {
+      "sinhala_teacher_voice": {
+        "voice_locale": "si-LK",
+        "voice_type": "native_sinhala_teacher",
+        "role": "friendly_expert_instructor"
+      },
+      "japanese_native_voice": {
+        "voice_locale": "ja-JP",
+        "voice_type": "native_japanese_professional",
+        "role": "standard_aviation_pronunciation"
+      }
+    }
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "page_title_sinhala": "ආරක්ෂාව සහ ගුණාත්මකභාවය (Safety and Quality) - හැඳින්වීම",
+      "page_title_japanese": "表紙 (特定技能評価試験：安全・品質)",
+      "mapped_images": [
+        "Safety and quality  - Images V1/0.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_P01_S01",
+          "content_type": "title",
+          "japanese": {
+            "original_kanji": "特定技能評価試験（航空分野：空港グランドハンドリング）安全・品質",
+            "furigana": "特(とく)定(てい)技(ぎ)能(のう)評(ひょう)価(か)試(し)験(けん)（航(こう)空(くう)分(ぶん)野(や)：空(くう)港(こう)グランドハンドリング）安(あん)全(ぜん)・品(ひん)質(しつ)",
+            "romaji": "Tokutei Ginou Hyouka Shiken (Koukuu bun'ya: Kuukou Gurando Handoringu) Anzen, Hinshitsu"
+          },
+          "english": "Specified Skilled Worker Evaluation Test (Aviation Field: Airport Ground Handling) - Safety & Quality",
+          "sinhala": "විශේෂිත නිපුණතා ඇගයීම් විභාගය (ගුවන් සේවා ක්ෂේත්‍රය: ගුවන් තොටුපළ බිම් මෙහෙයුම් හැසිරවීම) - ආරක්ෂාව සහ ගුණාත්මකභාවය",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ආයුබෝවන් ළමයි! අද අපි පටන් ගන්නේ Airport Ground Handling විභාගයේ අතිශයින්ම තීරණාත්මක දෙවෙනි විෂය කොටස වන 'Safety and Quality' හෙවත් ආරක්ෂාව සහ ගුණාත්මකභාවය පිළිබඳ පාඩම් මාලාවයි. පින්තූර අංක 0 බලන්න. ගුවන් තොටුපළක බිම් මෙහෙයුම්වලදී 'ආරක්ෂාව' (Anzen) පළමු තැනටත්, 'ගුණාත්මකභාවය' (Hinshitsu) දෙවන තැනටත් තබා වැඩ කිරීම අනිවාර්යයි. එක නොසැලකිලිමත් වැරැද්දකින් මනුෂ්‍ය ජීවිත සිය ගණනක් අනතුරේ වැටෙන්න පුළුවන්. ඒ නිසා මේ නීති රීති අපි හොඳින්ම ඉගෙන ගනිමු!",
+            "japanese_tts_text": "特定技能評価試験（航空分野：空港グランドハンドリング）安全・品質テキスト。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "安全",
+          "furigana": "あんぜん",
+          "romaji": "Anzen",
+          "english": "Safety",
+          "sinhala": "ආරක්ෂාව"
+        },
+        {
+          "japanese": "品質",
+          "furigana": "ひんしつ",
+          "romaji": "Hinshitsu",
+          "english": "Quality",
+          "sinhala": "ගුණාත්මකභාවය"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "page_title_sinhala": "01. සාමාන්‍ය දැනුම - A. ගුවන් සේවා ආරක්ෂාව සහ මගී ජීවිත සුරැකීමේ වගකීම",
+      "page_title_japanese": "01. 一般：A. 航空会社の安全と社会的責任",
+      "mapped_images": [
+        "Safety and quality  - Images V1/1.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_P02_S01",
+          "content_type": "core_philosophy",
+          "japanese": {
+            "original_kanji": "航空会社は、旅客や貨物を無事に目的地に到着させなければならない。この無事に到着させる、すなわち航空機事故を起こさないことが、航空会社の安全であり、最も重要なところである。",
+            "furigana": "航(こう)空(くう)会(がい)社(しゃ)は、旅(りょ)客(かく)や貨(か)物(もつ)を無(ぶ)事(じ)に目(もく)的(てき)地(ち)に到(とう)着(ちゃく)させなければならない。この無(ぶ)事(じ)に到(とう)着(ちゃく)させる、すなわち航(こう)空(くう)機(き)事(じ)故(こ)を起(お)こさないことが、航(こう)空(くう)会(がい)社(しゃ)の安(あん)全(ぜん)であり、最も重(じゅう)要(よう)なところである。",
+            "romaji": "Koukuugaisha wa, ryokaku ya kamotsu wo buji ni mokutekichi ni touchaku sasenakereba naranai. Kono buji ni touchaku saseru, sunawachi koukuuki jiko wo okosanai koto ga, koukuugaisha no anzen de ari, mottomo juuyou na tokoro de aru."
+          },
+          "english": "Airlines must transport passengers and cargo safely to their destination. Delivering them safely—meaning causing no aircraft accidents—is the very definition of airline safety and its highest priority.",
+          "sinhala": "ගුවන් සමාගමක් විසින් මගීන් සහ භාණ්ඩ කිසිදු අනතුරකින් තොරව (Buji ni) නියමිත ගමනාන්තය වෙත ළඟා කළ යුතුය. අනතුරකින් තොරව ගමනාන්තයට යැවීම, එනම් 'ගුවන් අනතුරු සිදු නොකිරීම' (Koukuuki jiko wo okosanai koto) ගුවන් සමාගමක ආරක්ෂාවේ වැදගත්ම හා ප්‍රමුඛතම වගකීමයි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, පින්තූර අංක 1 දිහා බලන්න. මගීන් යානය ඇතුළේ සතුටින් යන හැටි පේනවා නේද? ගුවන් සමාගමක මූලිකම පරමාර්ථය තමයි මගීන්වත් බඩු බාහිරාදියත් කිසිම අනතුරක් නැතුව ගමනාන්තයට අරන් යන එක. 'ගුවන් අනතුරක් සිදු නොකිරීම' (Koukuuki jiko wo okosanai koto) තමයි ආරක්ෂාව කියලා අර්ථ දක්වන්නේ!",
+            "japanese_tts_text": "旅客や貨物を無事に目的地に到着させる、航空機事故を起こさないことが航空会社の安全である。"
+          }
+        },
+        {
+          "section_id": "SQ_P02_S02",
+          "content_type": "life_custody_responsibility",
+          "japanese": {
+            "original_kanji": "また、航空会社は、乗客が航空機を利用することで運賃を得ているが、そこには、他産業とは異なり「乗客の命を預かる」という大変重要な責任が与えられている。航空に関係する仕事をするすべての人は、この「安全」「乗客の命」を常に考えて行動しなければならない。",
+            "furigana": "また、航(こう)空(くう)会(がい)社(しゃ)は、乗(じょう)客(きゃく)が航(こう)空(くう)機(き)を利(り)用(よう)することで運(うん)賃(ちん)を得(え)ているが、そこには、他(た)産(さん)業(ぎょう)とは異(こと)なり「乗(じょう)客(きゃく)の命(いのち)を預(あず)かる」という大(たい)変(へん)重(じゅう)要(よう)な責(せき)任(にん)が与(あた)えられている。航(こう)空(くう)に関(かん)係(けい)する仕(し)事(ごと)をするすべての人は、この「安(あん)全(ぜん)」「乗(じょう)客(きゃく)の命(いのち)」を常(つね)に考(かんが)えて行(こう)動(どう)しなければならない。",
+            "romaji": "Mata, koukuugaisha wa, joukyaku ga koukuuki wo riyou suru koto de unchin wo ete iru ga, soko ni wa, tasan'gyou to wa kotonari 'joukyaku no inochi wo azukaru' to iu taihen juuyou na sekinin ga ataerarete iru. Koukuu ni kankei suru shigoto wo suru subete no hito wa, kono 'anzen', 'joukyaku no inochi' wo tsune ni kangaete koudou shinakereba naranai."
+          },
+          "english": "While airlines earn revenue from passenger fares, unlike other industries, they bear the grave responsibility of being entrusted with passengers' lives ('Joukyaku no inochi wo azukaru'). Everyone working in aviation must continually reflect on safety and human lives in every action.",
+          "sinhala": "ගුවන් සමාගම් මගී ගාස්තු මඟින් ආදායම උපයන නමුත්, වෙනත් කර්මාන්තවලට වඩා වෙනස්ව 'මගීන්ගේ වටිනා ජීවිත භාරගැනීම' (乗客の命を預かる - Joukyaku no inochi wo azukaru) නම් වූ අතිශය බැරෑරුම් වගකීමක් ඔවුන් වෙත පැවරී ඇත. ගුවන් සේවාවට සම්බන්ධ වැඩ කරන සෑම පුද්ගලයෙකුම නිරන්තරයෙන් මෙම 'ආරක්ෂාව' සහ 'මගී ජීවිත' පිළිබඳව සිතා කටයුතු කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න විභාග ප්‍රශ්න පත්‍රවල නිතරම අහන ජපන් වාක්‍යයක්: 'Joukyaku no inochi wo azukaru' හෙවත් මගීන්ගේ ජීවිත ආරක්ෂා කර භාරගැනීම! හෝටලයක හෝ කඩයක බඩු විකුණනවා වගේ නෙවෙයි, ගුවන් තොටුපළක වැඩ කරද්දී අපි අතේ තියෙන්නේ දහස් ගණනක් මිනිස්සුන්ගේ ජීවිත. ඒ නිසා හැම තත්පරයකදීම 'Safety First' කියන එක ඔළුවේ තියාගන්න ඕනෙ!",
+            "japanese_tts_text": "他産業とは異なり「乗客の命を預かる」という大変重要な責任がある。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "無事に到着",
+          "furigana": "ぶじにとうちゃく",
+          "romaji": "Buji ni Touchaku",
+          "english": "Safe Arrival",
+          "sinhala": "අනතුරකින් තොරව නිරුපද්‍රිතව ළඟාවීම"
+        },
+        {
+          "japanese": "命を預かる",
+          "furigana": "いのちをあずかる",
+          "romaji": "Inochi wo Azukaru",
+          "english": "Entrusted with human lives",
+          "sinhala": "ජීවිත ආරක්ෂා කර භාරගැනීම"
+        },
+        {
+          "japanese": "責任",
+          "furigana": "せきにん",
+          "romaji": "Sekinin",
+          "english": "Responsibility / Obligation",
+          "sinhala": "වගකීම"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "page_title_sinhala": "ගුවන් අනතුරක් සිදුවුවහොත් ඇතිවන බරපතල ප්‍රතිවිපාක 4 (Aircraft Accident Consequences)",
+      "page_title_japanese": "航空機事故が発生した際の影響 (4つの重大損失)",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "SQ_P03_S01",
+          "content_type": "accident_consequences",
+          "japanese": {
+            "original_kanji": "航空機事故が起きた場合、以下のような重大な影響が発生する。① かけがえのない人命の喪失。大事故は致命的となる。② 社会的信用の失墜。利用者の激減。③ 事故処理費用・補償費用の莫大な発生。経営危機に直結する。④ 航空機の損失による運航スケジュールへの大打撃。",
+            "furigana": "航(こう)空(くう)機(き)事(じ)故(こ)が起(お)きた場(ば)合(あい)、以(い)下(か)のような重(じゅう)大(だい)な影(えい)響(きょう)が発(はっ)生(せい)する。① かけがえのない人(じん)命(めい)の喪(そう)失(しつ)。大(だい)事(じ)故(こ)は致(ち)命(めい)的(てき)となる。② 社(しゃ)会(かい)的(てき)信(しん)用(よう)の失(しっ)墜(つい)。利(り)用(よう)者(しゃ)の激(げき)減(げん)。③ 事(じ)故(こ)処(しょ)理(り)費(ひ)用(よう)・補(ほ)償(しょう)費(ひ)用(よう)の莫(ばく)大(だい)な発(はっ)生(せい)。経(けい)営(えい)危(き)機(き)に直(ちょっ)結(けつ)する。④ 航(こう)空(くう)機(き)の損(そん)失(しつ)による運(うん)航(こう)スケジュールへの大(だい)打(だ)撃(げき)。",
+            "romaji": "Koukuuki jiko ga okita baai, ika no you na juudai na eikyou ga hassei suru. 1. Kakegae no nai jinmei no soushitsu. Daijiko wa chimeiteki to naru. 2. Shakaiteki shin'you no shittsui. Riyousha no gekigen. 3. Jiko shori hiyou, hoshou hiyou no bakudai na hassei. Keiei kiki ni chokketsu suru. 4. Koukuuki no sonshitsu ni yoru unkou sukejuuru e no daidageki."
+          },
+          "english": "If an aircraft accident occurs, the following catastrophic consequences arise: 1. Irreplaceable loss of human lives; large crashes are fatal. 2. Total loss of social trust, leading to an immediate collapse in passenger bookings. 3. Enormous accident settlement and compensation expenses, plunging the airline into financial insolvency. 4. Physical loss of aircraft, crippling flight schedules and fleet capacity.",
+          "sinhala": "ගුවන් අනතුරක් සිදුවූ විට පහත දැක්වෙන බරපතල ගැටලු 4 මතු වේ: 1. කිසිදු දෙයකින් ආදේශ කළ නොහැකි මිනිස් ජීවිත අහිමි වීම. 2. සමාජීය විශ්වාසය බිඳවැටීම නිසා මගීන් සංඛ්‍යාව දැඩි ලෙස පහත වැටීම. 3. වන්දි ගෙවීම් (Hoshou), නීතිමය වියදම් සහ අනතුරු ස්ථාන පිරිසිදු කිරීමට දැවැන්ත මුදලක් වැයවීමෙන් සමාගම බංකොලොත් වීමේ අවදානම. 4. ගුවන් යානය විනාශ වීම නිසා නියමිත කාලසටහන් බිඳවැටී ආර්ථික පාඩු සිදුවීම.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, ගුවන් අනතුරක් කියන්නේ සාමාන්‍ය බස් අනතුරක් වගේ දෙයක් නෙවෙයි. එක අනතුරකින් වෙන විනාශය කරුණු 4ක් ඔස්සේ විභාගයට අහනවා: පළවෙනි එක, මිල කළ නොහැකි මිනිස් ජීවිත නැති වෙනවා (Jinmei no soushitsu). දෙවෙනි එක, මිනිස්සු බය වෙලා ඒ Airline එකේ යන්නේ නැති වෙනවා (Shin'you no shittsui). තුන්වෙනි එක, වන්දි ගෙවන්න ගිහින් Airline එක බංකොලොත් වෙනවා (Keiei kiki). හතරවෙනි එක, කෝටි ගණන් වටින ප්ලේන් එක අළු වෙලා ගුවන් ගමන් අවුල් වෙනවා. මෙන්න මේ නිසයි බිම ඉන්න අපේ වගකීම උපරිම වෙන්නේ!",
+            "japanese_tts_text": "事故が起きると、人命の喪失、社会的信用の失墜、莫大な補償費用、経営危機が発生する。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "人命の喪失",
+          "furigana": "じんめいのそうしつ",
+          "romaji": "Jinmei no Soushitsu",
+          "english": "Loss of Human Life",
+          "sinhala": "මිනිස් ජීවිත අහිමිවීම"
+        },
+        {
+          "japanese": "社会的信用",
+          "furigana": "しゃかいてきしんよう",
+          "romaji": "Shakaiteki Shin'you",
+          "english": "Public / Social Trust",
+          "sinhala": "සමාජයීය විශ්වාසය"
+        },
+        {
+          "japanese": "賠償・補償",
+          "furigana": "ばいしょう・ほしょう",
+          "romaji": "Baishou / Hoshou",
+          "english": "Indemnity / Compensation",
+          "sinhala": "වන්දි ගෙවීම"
+        },
+        {
+          "japanese": "経営危機",
+          "furigana": "けいえいきき",
+          "romaji": "Keiei Kiki",
+          "english": "Management / Financial Crisis",
+          "sinhala": "ව්‍යාපාරික / මූල්‍ය අර්බුදය"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "page_title_sinhala": "02. ගුවන් යානා ආරක්ෂාව - A. ගුවන් යානයට ප්‍රමුඛතාවය ලබාදීම (Aircraft Priority)",
+      "page_title_japanese": "02. 航空機の安全：A. 航空機優先の原則",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "SQ_P04_S01",
+          "content_type": "aircraft_priority_principle",
+          "japanese": {
+            "original_kanji": "制限区域内においては、常に航空機の運航が最優先であり、いかなる車両なども航空機の運航を妨げる行為を行ってはならない。その理由として、下記の項目等が挙げられる。① 構造上動きが機敏でない。② 視界が非常に狭い。パイロットの死角が大きい。",
+            "furigana": "制(せい)限(げん)区(く)域(いき)内(ない)においては、常(つね)に航(こう)空(くう)機(き)の運(うん)航(こう)が最(さい)優(ゆう)先(せん)であり、いかなる車(しゃ)両(りょう)なども航(こう)空(くう)機(き)の運(うん)航(こう)を妨(さまた)げる行(こう)為(い)を行(おこな)ってはならない。その理(り)由(ゆう)として、下(か)記(き)の項(こう)目(もく)等(とう)が挙(あ)げられる。① 構(こう)造(ぞう)上(じょう)動(うご)きが機(き)敏(びん)でない。② 視(し)界(かい)が非(ひ)常(じょう)に狭(せま)い。パイロットの死(し)角(かく)が大(おお)きい。",
+            "romaji": "Seigen kuikinai ni oite wa, tsune ni koukuuki no unkou ga saiyuusen de ari, ikanaru sharyou nado mo koukuuki no unkou wo samatageru koui wo okonatte wa naranai. Sono riyuu to shite, kaki no koumoku tou ga agerareru. 1. Kouzoujou ugoki ga kibin de nai. 2. Shikai ga hijou ni semai. Pairotto no shikaku ga ookii."
+          },
+          "english": "Within airport restricted security areas, aircraft operations always have absolute right-of-way (Saiyuusen); no vehicle or person may obstruct an aircraft. Reasons include: 1. Due to their immense size and structure, aircraft cannot stop or turn agilely. 2. The flight crew cockpit field of vision is very narrow, leaving vast blind spots around the fuselage.",
+          "sinhala": "ගුවන් තොටුපළේ සීමා කළ ආරක්ෂිත කලාපය (Restricted Area) තුළ, සැමවිටම ගුවන් යානාවලට උපරිම ප්‍රමුඛතාවය (航空機最優先 - Koukuuki Saiyuusen) හිමිවන අතර, කිසිදු වාහනයක් ගුවන් යානයක ගමනට බාධා නොකළ යුතුය. ඊට හේතු: 1. යානයේ ව්‍යුහාත්මක විශාලත්වය නිසා එකවර හැරවීමට හෝ නැවැත්වීමට නොහැකි වීම (කඩිසර නොවීම). 2. නියමු කුටියේ (Cockpit) සිට බලන විට නියමුවාගේ දෘෂ්ටි කෝණය සීමිත වීම සහ විශාල අන්ධ කලාප (Blind spots) පැවතීම.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, මේක තමයි Ramp එකේ පළවෙනි නීතිය: 'Koukuuki Saiyuusen' - හැමවිටම ගුවන් යානයට පළමු තැන! මොකද ප්ලේන් එකක් කියන්නේ මෝටර් බයික් එකක් වගේ එකපාර බ්‍රේක් ගහන්න හරි කරකවන්න හරි පුළුවන් වාහනයක් නෙවෙයි. අනික පයිලට් උඩ ඉඳන් බලද්දී ප්ලේන් එක යට ඉන්න මිනිස්සුන්වයි පොඩි වාහනයි පේන්නෙ නෑ (Blind spots). ඒ නිසා ප්ලේන් එකක් එද්දී ඕනෙම වාහනයක් නතර කරලා ප්ලේන් එකට යන්න ඉඩ දෙන්න ඕනෙ!",
+            "japanese_tts_text": "制限区域内では常に航空機が最優先である。動きが機敏でなく視界が狭いためである。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "制限区域",
+          "furigana": "せいげんくいき",
+          "romaji": "Seigen Kuiki",
+          "english": "Restricted Area / Airside",
+          "sinhala": "සීමා කළ ආරක්ෂිත කලාපය"
+        },
+        {
+          "japanese": "最優先",
+          "furigana": "さいゆうせん",
+          "romaji": "Saiyuusen",
+          "english": "Highest Priority / Absolute Right-of-Way",
+          "sinhala": "ඉහළම ප්‍රමුඛතාවය"
+        },
+        {
+          "japanese": "死角",
+          "furigana": "しかく",
+          "romaji": "Shikaku",
+          "english": "Blind Spot",
+          "sinhala": "නොපෙනෙන කලාපය (අන්ධ කලාපය)"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "page_title_sinhala": "නියමුවාගේ දෘෂ්ටි කලාපය, මීටර් 3 දෝෂය සහ මීටර් 40 ආරක්ෂක දුර (Figure 1)",
+      "page_title_japanese": "パイロットの死角と前方40mの進入禁止ルール",
+      "mapped_images": [
+        "Safety and quality  - Images V1/15.png",
+        "Safety and quality  - Images V1/3.png",
+        "Safety and quality  - Images V1/4.jpg",
+        "Safety and quality  - Images V1/5.png",
+        "Safety and quality  - Images V1/7.png",
+        "Safety and quality  - Images V1/8.png",
+        "Safety and quality  - Images V1/9.png",
+        "Safety and quality  - Images V1/10.png",
+        "Safety and quality  - Images V1/11.png",
+        "Safety and quality  - Images V1/12.png",
+        "Safety and quality  - Images V1/13.png",
+        "Safety and quality  - Images V1/14.jpg",
+        "Safety and quality  - Images V1/16.png"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_P05_S01",
+          "content_type": "cockpit_blind_spots_and_3m_error",
+          "japanese": {
+            "original_kanji": "パイロットの視界には限界があり、乗員のみでは障害物との間隔を正確に判定できない。実験によると、翼端と障害物の距離判定にはコックピットから約3mの誤差が確認されている。",
+            "furigana": "パイロットの視(し)界(かい)には限(げん)界(かい)があり、乗(じょう)員(いん)のみでは障(しょう)害(がい)物(ぶつ)との間(かん)隔(かく)を正(せい)確(かく)に判(はん)定(てい)できない。実(じっ)験(けん)によると、翼(よく)端(たん)と障(しょう)害(がい)物(ぶつ)の距(きょ)離(り)判(はん)定(てい)にはコックピットから約(やく)3mの誤(ご)差(さ)が確(かく)認(にん)されている。",
+            "romaji": "Pairotto no shikai ni wa genkai ga ari, jouin nomi dewa shougaibutsu to no kankaku wo seikaku ni hantei dekinai. Jikken ni yoru to, yokutan to shougaibutsu no kyori hantei ni wa kokkupitto kara yaku san meetoru no gosa ga kakunin sarete iru."
+          },
+          "english": "Cockpit visibility is severely constrained; flight crews alone cannot accurately gauge distance to obstacles. Experiments confirm that pilots in the cockpit have an error margin of approximately 3 meters when estimating the distance between wingtips and ground obstacles.",
+          "sinhala": "නියමුවාගේ දෘෂ්ටි පරාසය සීමිත බැවින්, බාධක සහ පියාපත් අතර දුර නියමුවාට පමණක් නිවැරදිව තීරණය කළ නොහැක. පර්යේෂණවලට අනුව, නියමු කුටියේ සිට බලන විට පියාපත් කෙළවර (Wing tip) සහ බිම ඇති බාධක අතර දුර තක්සේරු කිරීමේදී **මීටර් 3ක පමණ දෝෂයක් (3m Error)** සිදුවන බව තහවුරු වී ඇත.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න විභාගයේ තවත් ප්‍රධාන ප්‍රශ්නයක්: පයිලට්ට කොක්පිට් එකේ ඉඳන් බලද්දී පියාපත් අගයි බිම තියෙන බාධකයි අතර දුර මනින්න ගියාම මීටර් කීයක වැරදීමක් වෙනවද? මීටර් 3ක වැරදීමක් (3 meters error)! අන්න ඒ නිසයි බිම ඉන්න අපේ Marshaller සහ Wing Walker සංඥා දීලා ප්ලේන් එක පරිස්සම් කරන්න ඕනෙ.",
+            "japanese_tts_text": "翼端と障害物の距離判定にはコックピットから約3メートルの誤差がある。"
+          }
+        },
+        {
+          "section_id": "SQ_P05_S02",
+          "content_type": "forward_40m_clearance_rule",
+          "japanese": {
+            "original_kanji": "⑤ 地上走行中の航空機の前方40m以内には、マーシャラによる誘導がない場合、車両、障害物などがあってはならない。",
+            "furigana": "⑤ 地(ち)上(じょう)走(そう)行(こう)中(ちゅう)の航(こう)空(くう)機(き)の前(ぜん)方(ぽう)40m以(い)内(ない)には、マーシャラによる誘(ゆう)導(どう)がない場(ば)合(あい)、車(しゃ)両(りょう)、障(しょう)害(がい)物(ぶつ)などがあってはならない。",
+            "romaji": "5. Chijou soukouchuu no koukuuki no zenpou yonjuu meetoru inai ni wa, maashara ni yoru yuudou ga nai baai, sharyou, shougaibutsu nado ga atte wa naranai."
+          },
+          "english": "5. Forward 40-Meter Buffer Rule: When an aircraft is taxiing on the ground without a marshaller guiding it, no vehicles or obstacles are permitted within 40 meters directly in front of the aircraft.",
+          "sinhala": "5. ඉදිරිපස මීටර් 40 ආරක්ෂක සීමාව: බිම ධාවනය වන (Taxiing) ගුවන් යානයක් ඉදිරිපිට මාෂලර් කෙනෙකුගේ සංඥා මඟපෙන්වීමක් නොමැති නම්, යානය ඉදිරිපස **මීටර් 40ක් ඇතුළත (40m inai)** කිසිදු වාහනයක් හෝ බාධකයක් නොතිබිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි, මෙන්න මේ මීටර් 40 රීතිය අනිවාර්යයෙන්ම විභාගයට ලියන්න වෙනවා! බිම ගමන් කරන ප්ලේන් එකක් ඉස්සරහ මාෂලර් කෙනෙක් නැත්නම්, ඒ ප්ලේන් එක ඉස්සරහින් මීටර් කීයක් ඇතුළත වාහන තියෙන්න බැරිද? මීටර් 40ක් (40 meters)! මේ දුර මතක තියාගන්න ළමයි!",
+            "japanese_tts_text": "地上走行中の航空機の前方40m以内には、誘導がない場合車両や障害物があってはならない。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "翼端",
+          "furigana": "よくたん",
+          "romaji": "Yokutan",
+          "english": "Wing Tip",
+          "sinhala": "පියාපත් කෙළවර"
+        },
+        {
+          "japanese": "誤差",
+          "furigana": "ごさ",
+          "romaji": "Gosa",
+          "english": "Error Margin / Discrepancy",
+          "sinhala": "දෝෂය / වැරදෙන ප්‍රමාණය (මීටර් 3)"
+        },
+        {
+          "japanese": "地上走行中",
+          "furigana": "ちじょうそうこうちゅう",
+          "romaji": "Chijou Soukouchuu",
+          "english": "Taxiing on the ground",
+          "sinhala": "භූමිය මත ධාවනය වන අවස්ථාවේදී"
+        },
+        {
+          "japanese": "前方40m以内",
+          "furigana": "ぜんぽう40めーとるいない",
+          "romaji": "Zenpou Yonjuu Meetoru Inai",
+          "english": "Within 40 meters forward",
+          "sinhala": "ඉදිරිපස මීටර් 40ක් ඇතුළත"
+        }
+      ]
+    }
+  ]
+}

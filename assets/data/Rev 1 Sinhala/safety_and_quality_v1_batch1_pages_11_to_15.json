@@ -1,0 +1,330 @@
+{
+  "metadata": {
+    "module": "Safety and Quality (安全・品質)",
+    "batch": "Batch 3 (Pages 11 to 15)",
+    "document_title": "Safety and Quality Training Manual Rev 1 (SSW ReadyToFly)",
+    "source_pdf": "Safety and quality V1.pdf",
+    "image_folder": "Safety and quality  - Images V1/",
+    "tts_config": {
+      "sinhala_teacher_voice": {
+        "voice_locale": "si-LK",
+        "voice_type": "native_sinhala_teacher",
+        "role": "friendly_expert_instructor"
+      },
+      "japanese_native_voice": {
+        "voice_locale": "ja-JP",
+        "voice_type": "native_japanese_professional",
+        "role": "standard_aviation_pronunciation"
+      }
+    }
+  },
+  "pages": [
+    {
+      "page_number": 11,
+      "page_title_sinhala": "ගුවන් තොටුපළ හැඳුනුම්පත් (ID Card) කළමනාකරණය සහ නිල පැළඳීම",
+      "page_title_japanese": "5. 航空保安：(1) 標準IDカードの管理 と (2) 標準IDカードの表示",
+      "mapped_images": [
+        "Safety and quality  - Images V1/95.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_P11_S01",
+          "content_type": "id_card_management_and_display",
+          "japanese": {
+            "original_kanji": "(1) 標準IDカードの管理：標準IDカードは厳重に管理する。① 許可・承認された区域外での使用、目的外の使用をしてはいけない。② 他人への貸与や譲渡をしてはいけない。(2) 標準IDカードの表示：制限区域に立入る場合は、標準IDカードを外部から容易に見えるよう表示し、係員の要求があった場合はそれを提示しなければならない。",
+            "furigana": "(1) 標(ひょう)準(じゅん)IDカードの管(かん)理(り)：標(ひょう)準(じゅん)IDカードは厳(げん)重(じゅう)に管(かん)理(り)する。① 許(きょ)可(か)・承(しょう)認(にん)された区(く)域(いき)外(がい)での使(し)用(よう)、目(もく)的(てき)外(がい)の使(し)用(よう)をしてはいけない。② 他(た)人(にん)への貸(たい)与(よ)や譲(じょう)渡(と)をしてはいけない。(2) 標(ひょう)準(じゅん)IDカードの表(ひょう)示(じ)：制(せい)限(げん)区(く)域(いき)に立(た)入(い)る場(ば)合(あい)は、標(ひょう)準(じゅん)IDカードを外(がい)部(ぶ)から容(よう)易(い)に見(み)えるよう表(ひょう)示(じ)し、係(かかり)員(いん)の要(よう)求(きゅう)があった場(ば)合(あい)はそれを提(てい)示(じ)しなければならない。",
+            "romaji": "(1) Hyoujun ID kaado no kanri: Hyoujun ID kaado wa genjuu ni kanri suru. 1. Kyoka, shounin sareta kuikigai de no shiyou, mokutekigai no shiyou wo shite wa ikenai. 2. Tanin e no taiyo ya jouto wo shite wa ikenai. (2) Hyoujun ID kaado no hyouji: Seigen kuiki ni tachiiru baai wa, hyoujun ID kaado wo gaibu kara youi ni mieru you hyouji shi, kakariin no youkyuu ga atta baai wa sore wo teiji shinakereba naranai."
+          },
+          "english": "Standard Airport ID Card Management & Display (Figure 95): Airport ID cards must be strictly safeguarded. 1. Forbidden to use outside authorized zones or for non-official purposes. 2. Absolutely never lend, transfer, or borrow ID passes. When entering airport restricted security areas, the ID card must be visibly worn on the outermost garment at all times and immediately presented upon security officer inspection.",
+          "sinhala": "සම්මත ගුවන් තොටුපළ හැඳුනුම්පත් (ID Card) කළමනාකරණය සහ පැළඳීම (රූපය 95): ගුවන් තොටුපළ හැඳුනුම්පත අතිශය දැඩිව හා සුරක්ෂිතව තබාගත යුතුය. 1. තමන්ට අවසර ලත් කලාපයෙන් පිටත හෝ අනවශ්‍ය කටයුතු සඳහා භාවිත කිරීම සපුරා තහනම්ය. 2. කිසිම හේතුවක් මත අන් අයට ණයට දීම (Lending) හෝ පැවරීම (Transferring) නොකළ යුතුය. ආරක්ෂිත සීමා සහිත කලාපවලට (Restricted Area) ඇතුළු වන විට හැඳුනුම්පත පිටතට පැහැදිලිව පෙනෙන සේ පැළඳ සිටිය යුතු අතර ආරක්ෂක නිලධාරියෙකු ඉල්ලා සිටි ඕනෑම මොහොතක එය පරීක්ෂාවට ඉදිරිපත් කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 95 බලන්න ළමයි! Airport ID Card එක කියන්නේ ගුවන් තොටුපළක හදවත වගේ. ඒක තමන්ගේ යාළුවෙකුටවත් දෙන්න බෑ (Tanin e no taiyo kinshi)! තමන්ට අවසර නැති Area එකකට යන්නත් බෑ. අනික Ramp එකේ ඉන්නකොට මේක සාක්කුවේ දාගෙන ඉන්න බෑ, හැමෝටම පේන්න එළියේ එල්ලගෙන ඉන්න ඕනෙ (Youi ni mieru you hyouji)!",
+            "japanese_tts_text": "標準IDカードは厳重に管理し、他人に貸与してはいけません。制限区域内では外部から見えるよう着用します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "標準IDカード",
+          "furigana": "ひょうじゅんアイディーカード",
+          "romaji": "Hyoujun ID Kaado",
+          "english": "Standard Airport Identification Card",
+          "sinhala": "සම්මත ගුවන් තොටුපළ හැඳුනුම්පත"
+        },
+        {
+          "japanese": "厳重に管理",
+          "furigana": "げんじゅうにかんり",
+          "romaji": "Genjuu ni Kanri",
+          "english": "Strict Management / Control",
+          "sinhala": "දැඩි සුපරීක්ෂාව යටතේ කළමනාකරණය"
+        },
+        {
+          "japanese": "貸与や譲渡",
+          "furigana": "たいよやじょうと",
+          "romaji": "Taiyo ya Jouto",
+          "english": "Lending or Transferring",
+          "sinhala": "අන් අයට ණයට දීම හෝ පැවරීම"
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "page_title_sinhala": "කාර්යාලීය ආරක්ෂාව, අයහපත් කාලගුණය (Severe Weather) සහ හිස්වැසුම් (Helmet) පැළඳීම",
+      "page_title_japanese": "03 作業の安全：A. 規定の遵守、B. 天候、C. 作業員の服装 (1) 保護帽",
+      "mapped_images": [
+        "Safety and quality  - Images V1/96.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_P12_S01",
+          "content_type": "safety_first_and_weather_hazards",
+          "japanese": {
+            "original_kanji": "A. 規定の遵守について：航空機運航に係わる運航関係の規程ならびにランプ内作業の安全に係わる運送関係の規程に関しては、「安全第一」のために絶対に守る必要がある。B. 天候：空港のランプ内は高い建物等がないため悪天候（強風・雷・台風・降雪）が作業に影響を与える場合がある。作業を行うことが危険と判断され作業中断の指示がされる場合がある。その際は安全な場所に避難する。",
+            "furigana": "A. 規(き)定(てい)の遵(じゅん)守(しゅ)について：航(こう)空(くう)機(き)運(うん)航(こう)に係(かか)わる運(うん)航(こう)関(かん)係(けい)の規(き)程(てい)ならびにランプ内(ない)作(さ)業(ぎょう)の安(あん)全(ぜん)に係(かか)わる運(うん)送(そう)関(かん)係(けい)の規(き)程(てい)に関(かん)しては、「安(あん)全(ぜん)第(だい)一(いち)」のために絶(ぜっ)対(たい)に守(まも)る必(ひつ)要(よう)がある。B. 天(てん)候(こう)：空(くう)港(こう)のランプ内(ない)は高(たか)い建(たて)物(もの)等(とう)がないため悪(あく)天(てん)候(こう)（強(きょう)風(ふう)・雷(かみなり)・太(たい)風(ふう)・降(こう)雪(せつ)）が作(さ)業(ぎょう)に影(えい)響(きょう)を与(あた)える場(ば)合(あい)がある。作(さ)業(ぎょう)を行(おこな)うことが危(き)険(けん)と判(はん)断(だん)され作(さ)業(ぎょう)中(ちゅう)断(だん)の指(し)示(じ)がされる場(ば)合(あい)がある。その際(さい)は安(あん)全(ぜん)な場(ば)所(しょ)に避(ひ)難(なん)する。",
+            "romaji": "A. Kitei no junshu ni tsuite: Koukuuki unkou ni kakawaru unkou kankei no kitei narabini ranpu nai sagyou no anzen ni kakawaru unsou kankei no kitei ni kanshite wa, 'Anzen Daiichi' no tame ni zettai ni mamoru hitsuyou ga aru. B. Tenkou: Kuukou no ranpu nai wa takai tatemono tou ga nai tame akutenkou (kyoufuu, kaminari, taifuu, kousetsu) ga sagyou ni eikyou wo ataeru baai ga aru. Sagyou wo okonau koto ga kiken to handan sare sagyou chuudan no shiji ga sareru baai ga aru. Sono sai wa anzen na basho ni hinan suru."
+          },
+          "english": "Regulatory Compliance & Ramp Weather Hazards: Flight operations and ground handling safety rules must be strictly adhered to under the universal principle of 'Safety First' (Anzen Daiichi). Weather Threats (Figure 96): Because airport ramps are wide-open spaces devoid of tall sheltering buildings, severe weather—gale winds, lightning (Kaminari), typhoons, and heavy snowfall—poses direct threats. When operations are declared hazardous and a work-stoppage order is broadcast, all ground personnel must immediately evacuate to safe indoor shelters.",
+          "sinhala": "රෙගුලාසි පිළිපැදීම සහ කාලගුණ අවදානම් (රූපය 96): ගුවන් ගමන් මෙහෙයුම් සහ රැම්ප් එකේ ආරක්ෂක රෙගුලාසි 'ආරක්ෂාව පළමුව' (安全第一 - Anzen Daiichi) යන මූලධර්මය යටතේ අනිවාර්යයෙන්ම පිළිපැදිය යුතුය. කාලගුණය: ගුවන් තොටුපළ රැම්ප් එකේ උස් ගොඩනැගිලි නොමැති විවෘත භූමියක් බැවින් අයහපත් කාලගුණය (තද සුළං, අකුණු සැර - Kaminari, ටයිෆූන් කුණාටු, හිම පතනය) සෘජුවම බලපායි. වැඩ කිරීම අනතුරුදායක යැයි තීරණය කර 'වැඩ නැවැත්වීමේ නියෝගයක්' (Sagyou Chuudan) දුන් වහාම ආරක්ෂිත ස්ථානයකට ඉවත් විය (Hinan suru) යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 96 බලන්න ළමයි, අකුණු ගහන හැටි. Ramp එකේ උස බිල්ඩින් නෑ. අකුණු ගහන වෙලාවට එළියේ හිටියොත් අකුණු සැර වදින්න තියෙන අවදානම වැඩියි! ඒ නිසා කන්ට්‍රෝලර් 'Sagyou Chuudan' (වැඩ නවත්වන්න) කියලා කිව්ව ගමන් ප්ලේන් එක ළඟ ඉන්නේ නැතුව වහාම ආරක්ෂිත තැනකට දුවන්න ඕනෙ (Hinan suru)!",
+            "japanese_tts_text": "ランプ内作業では「安全第一」を徹底し、雷などの悪天候時は作業中断指示に従い安全な場所へ避難します。"
+          }
+        },
+        {
+          "section_id": "SQ_P12_S02",
+          "content_type": "protective_helmet_regulations",
+          "japanese": {
+            "original_kanji": "C. 作業員の服装：(1) 保護帽（ヘルメット）の着用：作業員は、搭載、取り降ろし作業に従事するときは、保護帽を着用しなければならない。保護帽はあご紐を必ずかけ、正しく着用しなければならない。",
+            "furigana": "C. 作(さ)業(ぎょう)員(いん)の服(ふく)装(そう)：(1) 保(ほ)護(ご)帽(ぼう)（ヘルメット）の着(ちゃく)用(よう)：作(さ)業(ぎょう)員(いん)は、搭(とう)載(さい)、取(とり)り降(おろ)し作(さ)業(ぎょう)に従(じゅう)事(じ)するときは、保(ほ)護(ご)帽(ぼう)を着(ちゃく)用(よう)しなければならない。保(ほ)護(ご)帽(ぼう)はあご紐(ひも)を必(かなら)ずかけ、正(ただ)しく着(ちゃく)用(よう)しなければならない。",
+            "romaji": "C. Sagyouin no fukusou: (1) Hogobou (herumetto) no chakuyou: Sagyouin wa, tousai, torioroshi sagyou ni juuji suru toki wa, hogobou wo chakuyou shinakereba naranai. Hogobou wa agohimo wo kanarazu kake, tadashiku chakuyou shinakereba naranai."
+          },
+          "english": "Protective Hardhat/Helmet Regulations: All personnel engaged in cargo/baggage loading and unloading operations must wear a protective safety helmet. The helmet chin strap (Agohimo) must be securely fastened under the chin at all times to prevent falling off during operations.",
+          "sinhala": "සේවක ඇඳුම් පැළඳුම් - ආරක්ෂිත හිස්වැසුම් (Helmet) පැළඳීම: භාණ්ඩ හා ගමන් මලු පැටවීමේ (Loading) සහ බෑමේ (Unloading) නිරත වන සියලුම සේවකයින් ආරක්ෂිත හිස්වැස්මක් (Hogobou / Helmet) අනිවාර්යයෙන්ම පැළඳිය යුතුය. හිස්වැස්ම ගැලවී නොයන ලෙස නිකට පටිය (あご紐 - Agohimo) අනිවාර්යයෙන්ම නිවැරදිව සිර කර බැඳගත යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ගුවන් තොටුපළේ වැඩ කරන හැම වෙලාවෙම Helmet එක දාන්නම ඕනෙ. නිකන් ඔළුව උඩ තියාගෙන හිටියට මදි, නිකට පටිය (Agohimo) දාලා තද කරන්නම ඕනෙ (Kanarazu kake)! නැත්නම් බඩු බානකොට හුළඟට හෙල්මට් එක විසිවෙලා ඔළුවට පෙට්ටි වැටෙන්න පුළුවන්!",
+            "japanese_tts_text": "搭降載作業時は保護帽を正しく着用し、あご紐を必ず締めます。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "安全第一",
+          "furigana": "あんぜんだいいち",
+          "romaji": "Anzen Daiichi",
+          "english": "Safety First",
+          "sinhala": "ආරක්ෂාව පළමුව"
+        },
+        {
+          "japanese": "保護帽（ヘルメット）",
+          "furigana": "ほごぼう",
+          "romaji": "Hogobou (Herumetto)",
+          "english": "Protective Helmet / Hardhat",
+          "sinhala": "ආරක්ෂිත හිස්වැස්ම (හෙල්මට්)"
+        },
+        {
+          "japanese": "あご紐",
+          "furigana": "あごひも",
+          "romaji": "Agohimo",
+          "english": "Chin Strap",
+          "sinhala": "නිකට පටිය"
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "page_title_sinhala": "පුද්ගලික ආරක්ෂක ආම්පන්න (PPE) සහ වැඩ ඇඳුම් (Work Uniform) විනය",
+      "page_title_japanese": "注意! 保護具 と (2) 作業服の着用",
+      "mapped_images": [
+        "Safety and quality  - Images V1/97.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_P13_S01",
+          "content_type": "ppe_and_safety_harness",
+          "japanese": {
+            "original_kanji": "注意! 保護具：航空機地上作業において、その作業内容により、人身事故を未然に防止するため、さまざまな防具（手袋・安全ベルト・ヘルメット・帽子・耳栓等）が使用されている。危険物の破損や感染症の対応などイレギュラー処理を行う際も含めて、各種「規程」で使用することになっているものは、必ず装着しなければならない。",
+            "furigana": "注(ちゅう)意(い)! 保(ほ)護(ご)具(ぐ)：航(こう)空(くう)機(き)地(ち)上(じょう)作(さ)業(ぎょう)において、その作(さ)業(ぎょう)内(ない)容(よう)により、人(じん)身(しん)事(じ)故(こ)を未(み)然(ぜん)に防(ぼう)止(し)するため、さまざまな防(ぼう)具(ぐ)（手(て)袋(ぶくろ)・安(あん)全(ぜん)ベルト・ヘルメット・帽(ぼう)子(し)・耳(みみ)栓(せん)等(とう)）が使(し)用(よう)されている。危(き)険(けん)物(ぶつ)の破(は)損(そん)や感(かん)染(せん)症(しょう)の対(たい)応(おう)などイレギュラー処(しょ)理(り)を行(おこな)う際(さい)も含(ふく)めて、各(かく)種(しゅ)「規(き)程(てい)」で使(し)用(よう)することになっているものは、必(かなら)ず装(そう)着(ちゃく)しなければならない。",
+            "romaji": "Chuui! Hogogu: Koukuuki chijou sagyou ni oite, sono sagyou naiyou ni yori, jinshin jiko wo mizen ni boushi suru tame, samazama na bougu (tebukuro, anzen beruto, herumetto, boushi, mimisen tou) ga shiyou sarete iru. Kikenbutsu no hason ya kansenshou no taiou nado iregyuraa shori wo okonau sai mo fukumete, kakushu 'kitei' de shiyou suru koto ni natte iru mono wa, kanarazu souchaku shinakereba naranai."
+          },
+          "english": "Personal Protective Equipment (PPE - Figure 97): To prevent workplace injuries on the ramp, mandated PPE includes heavy-duty work gloves, full-body safety harnesses (Anzen Beruto), helmets, safety caps, and earplugs (Mimisen) for hearing protection. During irregular operations (e.g. leaking hazardous goods or biohazard/infectious disease response), all specialized protective gear specified in regulations must be strictly worn.",
+          "sinhala": "පුද්ගලික ආරක්ෂක ආම්පන්න (PPE - රූපය 97): ගුවන් යානා භූමි මෙහෙයුම්වලදී සේවකයින්ට සිදුවන අනතුරු වළක්වා ගැනීමට විවිධ ආරක්ෂක ආම්පන්න (අත්වැසුම්, ආරක්ෂිත උස වැඩ පටි - Anzen Beruto / Harness, හෙල්මට්, කන් ආවරණ - Mimisen / Earplugs) භාවිතා වේ. අන්තරායකර භාණ්ඩ බිඳී යාම හෝ බෝවන රෝග පාලනය වැනි හදිසි විශේෂ මෙහෙයුම් වලදී පවා රෙගුලාසි මගින් නියම කර ඇති සියලුම ආරක්ෂක උපකරණ අනිවාර්යයෙන්ම පැළඳිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 97 බලන්න. සේවකයෙක් Full-body safety harness (Anzen beruto) එකක් දාගෙන ඉන්නවා. උස තැන්වල වැඩ කරද්දී වැටුණොත් අස්ථි කැඩෙන්නේ නැතුව බේරෙන්නේ මේ Safety belt එක නිසයි. ඒ වගේම ජෙට් එන්ජින් සද්දෙන් කන් බේරගන්න Mimisen (Earplugs) අනිවාර්යයෙන්ම දාන්න ඕනෙ!",
+            "japanese_tts_text": "安全ベルトや手袋、耳栓などの保護具は規定に従い必ず正しく装着してください。"
+          }
+        },
+        {
+          "section_id": "SQ_P13_S02",
+          "content_type": "work_uniform_safety_discipline",
+          "japanese": {
+            "original_kanji": "(2) 作業服の着用：作業員は、着用している作業服のボタン、ファスナおよび靴の紐などを正しく締め、ベルト・コンベヤへの巻き込みや、車両などの突起物にからむことがないか、常に注意しなければならない。",
+            "furigana": "(2) 作(さ)業(ぎょう)服(ふく)の着(ちゃく)用(よう)：作(さ)業(ぎょう)員(いん)は、着(ちゃく)用(よう)している作(さ)業(ぎょう)服(ふく)のボタン、ファスナおよび靴(くつ)の紐(ひも)などを正(ただ)しく締(し)め、ベルト・コンベヤへの巻(ま)き込(こ)みや、車(しゃ)両(りょう)などの突(とっ)起(き)物(ぶつ)にからむことがないか、常(つね)に注(ちゅう)意(い)しなければならない。",
+            "romaji": "(2) Sagyoufuku no chakuyou: Sagyouin wa, chakuyou shite iru sagyoufuku no botan, fasuna oyobi kutsu no himo nado wo tadashiku shime, beruto konbeya e no makikomi ya, sharyou nado no tokkibutsu ni karamu koto ga nai ka, tsune ni chuui shinakereba naranai."
+          },
+          "english": "Work Uniform Safety Rules: Ground personnel must fasten all jacket buttons, zip up zippers completely, and securely tie safety boot laces. Loose fabric or untied laces risk getting snagged in conveyor belt rollers (Makikomi) or hooked onto moving vehicle levers and protrusions.",
+          "sinhala": "වැඩ ඇඳුම් (Work Uniform) විනය: සේවකයින් තමන්ගේ නිල ඇඳුමේ බොත්තම්, සිපර් (Fastener) සහ සපත්තු ලේස් නිවැරදිව තද කර බැඳ තබාගත යුතුය. ඇඳුම් බුරුල්ව තිබුණහොත් හෝ ලේස් ලිහී තිබුණහොත් බෙල්ට් කන්වේයර්වලට සිරවීම (Makikomi) හෝ වාහනවල නෙරා ඇති කොටස්වල පැටලී බරපතල අනතුරු සිදුවිය හැක.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "වැඩ කරන ඇඳුමේ සිප් එක ඇරගෙන, සපත්තු ලේස් බිම ගෑවෙන්න දාගෙන ඉන්න සපුරා තහනම්! Belt conveyor එක කැරකෙනකොට ලිහිල් ඇඳුම් හෝ සපත්තු ලේස් ඒකට අහුවෙලා අතපය ඇදිලා යන්න පුළුවන් (Makikomi). ඒ නිසා ඇඳුම් පිළිවෙළට තද කරලා අඳින්න!",
+            "japanese_tts_text": "作業服のボタンや靴紐を正しく締め、ベルトコンベヤへの巻き込みを防ぎます。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "安全ベルト",
+          "furigana": "あんぜんべると",
+          "romaji": "Anzen Beruto",
+          "english": "Safety Harness / Belt",
+          "sinhala": "ආරක්ෂිත බඳ පටිය / පූර්ණ ශරීර පටිය"
+        },
+        {
+          "japanese": "耳栓",
+          "furigana": "みみせん",
+          "romaji": "Mimisen",
+          "english": "Earplugs (Hearing Protection)",
+          "sinhala": "කන් ආවරණ (ඉයර් ප්ලග්ස්)"
+        },
+        {
+          "japanese": "巻き込み",
+          "furigana": "まきこみ",
+          "romaji": "Makikomi",
+          "english": "Entanglement / Getting caught in machinery",
+          "sinhala": "යන්ත්‍ර සූත්‍රවලට සිරවීම / ඇදී යාම"
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "page_title_sinhala": "රැම්ප් රිය පැදවීමේ නීති (Ramp Driving) සහ ගුවන් යානය යටින් ධාවනය සීමා කිරීම",
+      "page_title_japanese": "D. 車両の運転：(1) 車両、機材使用上の注意",
+      "mapped_images": [
+        "Safety and quality  - Images V1/98.jpg"
+      ],
+      "study_sections": [
+        {
+          "section_id": "SQ_P14_S01",
+          "content_type": "ramp_vehicle_driving_authorization",
+          "japanese": {
+            "original_kanji": "D. 車両の運転：車両により航空機を損傷する事故は、大切な航空機が壊れるだけでなく、航空機運航にも支障をきたし、乗客にも大きなご迷惑をかけることになる。(1) 車両、機材使用上の注意：① 制限区域内において車両の運転をしようとする者は、「車両安全運転教本」の内容を理解した後、航空局の実施する講習を受け、試験に合格した後、標準IDカードに車両運転許可を受けなければならない。さらに、社内にて一般車両走行訓練を修了し、認定を受けなければならない。",
+            "furigana": "D. 車(しゃ)両(りょう)の運(うん)転(てん)：車(しゃ)両(りょう)により航(こう)空(くう)機(き)を損(そん)傷(しょう)する事(じ)故(こ)は、大(たい)切(せつ)な航(こう)空(くう)機(き)が壊(こわ)れるだけでなく、航(こう)空(くう)機(き)運(うん)航(こう)にも支(し)障(しょう)をきたし、乗(じょう)客(きゃく)にも大(おお)きなご迷(めい)惑(わく)をかけることになる。(1) 車(しゃ)両(りょう)、機(き)材(ざい)使(し)用(よう)上(じょう)の注(ちゅう)意(い)：① 制(せい)限(げん)区(く)域(いき)内(ない)において車(しゃ)両(りょう)の運(うん)転(てん)をしようとする者(もの)は、「車(しゃ)両(りょう)安(あん)全(ぜん)運(うん)転(てん)教(きょう)本(ほん)」の内(ない)容(よう)を理(り)解(かい)した後(あと)、航(こう)空(くう)局(きょく)の実(じっ)施(し)する講(こう)習(しゅう)を受(う)け、試(し)験(けん)に合(ごう)格(かく)した後(あと)、標(ひょう)準(じゅん)IDカードに車(しゃ)両(りょう)運(うん)転(てん)許(きょ)可(か)を受(う)けなければならない。さらに、社(しゃ)内(ない)にて一(いっ)般(ぱん)車(しゃ)両(りょう)走(そう)行(こう)訓(くん)練(れん)を修(しゅう)了(りょう)し、認(にん)定(てい)を受(う)けなければならない。",
+            "romaji": "D. Sharyou no unten: Sharyou ni yori koukuuki wo sonshou suru jiko wa, taisetsu na koukuuki ga kowareru dakedenaku, koukuuki unkou ni mo shishou wo kitashi, joukyaku ni mo ookina gomeiwaku wo kakeru koto ni naru. (1) Sharyou, kizai shiyoujou no chuui: 1. Seigen kuikinai ni oite sharyou no unten wo shiyou to suru mono wa, 'Sharyou Anzen Unten Kyouhon' no naiyou wo rikai shita nochi, Koukuukyoku no jisshi suru koushuu wo uke, shiken ni goukaku shita nochi, hyoujun ID kaado ni sharyou unten kyoka wo ukenakereba naranai. Sara ni, shanai nite ippan sharyou soukou kunren wo shuuryou shi, nintei wo ukenakereba naranai."
+          },
+          "english": "Ramp Vehicle Driving Authorization (Figure 98): Damaging an aircraft with ground equipment halts flights, strands passengers, and imposes massive financial losses. Mandatory Qualifications: Driving inside airport restricted zones requires mastering the Ramp Driver's Manual, completing Civil Aviation Bureau (CAB) training courses, passing rigorous written/practical tests, and receiving official driving endorsements on one's Airport ID pass, followed by company-specific certified driving evaluations.",
+          "sinhala": "රැම්ප් රිය පැදවීමේ නීති සහ සහතික කිරීම (රූපය 98): වාහනයක් ගුවන් යානයක ගැටීමෙන් සිදුවන අනතුරකින් ගුවන් ගමන් අත්හිටුවීමට සිදුවන අතර මගීන්ට මෙන්ම සමාගමටද විශාල පාඩුවක් සිදුවේ. රියදුරු බලපත්‍ර නීතිය: සීමා සහිත රැම්ප් ප්‍රදේශයේ වාහන ධාවනය කිරීමට නම් 'වාහන ආරක්ෂිත රිය පැදවීමේ අත්පොත' හදාරා, සිවිල් ගුවන් සේවා කාර්යාංශයේ (Koukuukyoku) දේශන හා විභාග සමත්ව, සම්මත ID පතෙහි නිල රිය පැදවීමේ අවසර මුද්‍රාව (Driving Endorsement) ලබාගත යුතුය. ඊට අමතරව ආයතනය තුළ අභ්‍යන්තර ධාවන පුහුණුවද සාර්ථකව අවසන් කළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "පින්තූර අංක 98 බලන්න. වාහනයක් හැප්පිලා අනතුරක් වෙලා තියෙන හැටි. එළියේ ඩ්‍රයිවින් ලයිසන් තිබුණට Airport එක ඇතුළේ වාහන එලවන්න බෑ! ජපාන සිවිල් ගුවන් සේවා කාර්යාංශයේ (Koukuukyoku) එක්සෑම් එක පාස් වෙලා, ID කාඩ් එකට වාහන එලවන්න අවසර (Unten Kyoka) ගත්ත අයට විතරයි Ramp එකේ වාහන පදවන්න පුළුවන්!",
+            "japanese_tts_text": "制限区域内で車両を運転するには、航空局の講習・試験に合格し、IDカードに運転許可を受ける必要があります。"
+          }
+        },
+        {
+          "section_id": "SQ_P14_S02",
+          "content_type": "aircraft_underbelly_clearance",
+          "japanese": {
+            "original_kanji": "② 車両の運転は、慎重に実施し、常に安全に注意を払う。③ 車両・機材は原則として航空機の下側を通過したり、放置してはならない。認められた車両・機材で通過する場合は、航空機に接触することがないように十分に注意する。④ 車両・機材を航空機に装着する場合は、機体の下降・上昇に注意しておかなければならない。また、装着した後の作業中においても常に注意を払う。",
+            "furigana": "② 車(しゃ)両(りょう)の運(うん)転(てん)は、慎(しん)重(ちょう)に実(じっ)施(し)し、常(つね)に安(あん)全(ぜん)に注(ちゅう)意(い)を払(はら)う。③ 車(しゃ)両(りょう)・機(き)材(ざい)は原(げん)則(そく)として航(こう)空(くう)機(き)の下(した)側(がわ)を通(つう)過(か)したり、放(ほう)置(ち)してはならない。認(みと)められた車(しゃ)両(りょう)・機(き)材(ざい)で通(つう)過(か)する場(ば)合(あい)は、航(こう)空(くう)機(き)に接(せっ)触(しょく)することがないように十(じゅう)分(ぶん)に注(ちゅう)意(い)する。④ 車(しゃ)両(りょう)・機(き)材(ざい)を航(こう)空(くう)機(き)に装(そう)着(ちゃく)する場(ば)合(あい)は、機(き)体(たい)の下(か)降(こう)・上(じょう)昇(しょう)に注(ちゅう)意(い)しておかなければならない。また、装(そう)着(ちゃく)した後の作(さ)業(ぎょう)中(ちゅう)においても常(つね)に注(ちゅう)意(い)を払(はら)う。",
+            "romaji": "2. Sharyou no unten wa, shinchou ni jisshi shi, tsune ni anzen ni chuui wo harau. 3. Sharyou, kizai wa gensoku to shite koukuuki no shitagawa wo tsuuka shitari, houchi shite wa naranai. Mitomerareta sharyou, kizai de tsuuka suru baai wa, koukuuki ni sesshoku suru koto ga nai you ni juubun ni chuui suru. 4. Sharyou, kizai wo koukuuki ni souchaku suru baai wa, kitai no kakou, joushou ni chuui shite okanakereba naranai. Mata, souchaku shita nochi no sagyouchuu ni oite mo tsune ni chuui wo harau."
+          },
+          "english": "Rules for Driving Under Aircraft: Ground vehicles and GSE must NEVER drive under or be left unattended beneath an aircraft's fuselage or wings as a general principle. In strictly authorized exceptions, extreme clearance vigilance is mandatory. Critical Loading Warning: When docking GSE to aircraft doors, always anticipate the aircraft settling down (Kakou) during loading or rising up (Joushou) during unloading to prevent crushing equipment against the aircraft fuselage.",
+          "sinhala": "ගුවන් යානය යටින් ධාවනය කිරීමේ නීති: ප්‍රතිපත්තියක් ලෙස කිසිදු වාහනයක් හෝ GSE උපකරණයක් ගුවන් යානය යටින් ධාවනය කිරීම හෝ යානය යට නවතා තැබීම සපුරා තහනම්ය. විශේෂ අවසර ලත් වාහනයක් ගමන් කරන්නේ නම් කිසිසේත් යානයේ නොගැටෙන සේ දැඩි අවධානයෙන් ධාවනය කළ යුතුය. අතිශය වැදගත් කරුණ: ගුවන් යානයට උපකරණ සවි කිරීමේදී, බඩු පටවන විට යානය පහත් වීමද (Kakou) බඩු බාන විට යානය ඉහළට එසවීමද (Joushou) සිදුවන බැවින් යානයේ බඳෙහි උපකරණ නොහැපෙන සේ නිරන්තර පරීක්ෂාවෙන් සිටිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ගුවන් යානයක් යටින් (Shitagawa) වාහන එලවන්න හෝ වාහන නවත්තලා තියන්න සපුරා තහනම්! ඒ වගේම කාගෝ පටවද්දී බර වැඩිවෙලා ප්ලේන් එක ටිකක් බිමට පහත් වෙනවා (Kakou), බඩු බාද්දී උඩට උස් වෙනවා (Joushou). Loader එක හරි Belt එක හරි ප්ලේන් එකේ දොරේ හිරවෙලා කැඩිලා යන්නේ නැතිවෙන්න මේ උස වෙනස්වීම ගැන හොඳ අවධානයෙන් ඉන්න ඕනෙ!",
+            "japanese_tts_text": "車両・機材は原則として航空機の下を通過・放置してはいけません。機体の上昇・下降にも注意します。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "車両安全運転教本",
+          "furigana": "しゃりょうあんぜんうんてんきょうほん",
+          "romaji": "Sharyou Anzen Unten Kyouhon",
+          "english": "Ramp Driver's Safety Manual",
+          "sinhala": "වාහන ආරක්ෂිත රිය පැදවීමේ අත්පොත"
+        },
+        {
+          "japanese": "原則として",
+          "furigana": "げんそくとして",
+          "romaji": "Gensoku to shite",
+          "english": "As a general rule / In principle",
+          "sinhala": "මූලධර්මයක් / ප්‍රතිපත්තියක් ලෙස"
+        },
+        {
+          "japanese": "下降・上昇",
+          "furigana": "かこう・じょうしょう",
+          "romaji": "Kakou / Joushou",
+          "english": "Settling Down / Rising Up (Aircraft Fuselage Height Changes)",
+          "sinhala": "පහත් වීම සහ ඉහළ නැගීම (යානයේ උස වෙනස්වීම)"
+        }
+      ]
+    },
+    {
+      "page_number": 15,
+      "page_title_sinhala": "GSE ධාවන තහනම් ක්‍රියා සහ වාහන මාර්ගෝපදේශකයාගේ (Marshaller / Guide) රාජකාරි",
+      "page_title_japanese": "⑤ 走行中の操作禁止、⑥ 乗車禁止行為、(2) 車両の誘導：① 誘導者の位置",
+      "mapped_images": [],
+      "study_sections": [
+        {
+          "section_id": "SQ_P15_S01",
+          "content_type": "prohibited_riding_and_driving_actions",
+          "japanese": {
+            "original_kanji": "⑤ 走行中に車両の作業台の上下操作を行ってはならない。⑥ 車両・機材への乗車にかかわる禁止行為：⒜ カート車およびフォークリフトのフォークおよびパレットの上に作業員を乗せて運行してはいけない。⒝ 車両の荷台に作業員を乗せて運行してはいけない。ただし、安全対策が行われている場合は、この限りではない。⒞ その他、車両などの座席以外に作業員を乗せて運行してはいけない。",
+            "furigana": "⑤ 走(そう)行(こう)中(ちゅう)に車(しゃ)両(りょう)の作(さ)業(ぎょう)台(だい)の上(じょう)下(げ)操(そう)作(さ)を行(おこな)ってはならない。⑥ 車(しゃ)両(りょう)・機(き)材(ざい)への乗(じょう)車(しゃ)にかかわる禁(きん)止(し)行(こう)為(い)：⒜ カート車(しゃ)およびフォークリフトのフォークおよびパレットの上(うえ)に作(さ)業(ぎょう)員(いん)を乗(の)せて運(うん)行(こう)してはいけない。⒝ 車(しゃ)両(りょう)の荷(に)台(だい)に作(さ)業(ぎょう)員(いん)を乗(の)せて運(うん)行(こう)してはいけない。ただし、安(あん)全(ぜん)対(たい)策(さく)が行(おこな)われている場(ば)合(あい)は、この限(かぎ)りではない。⒞ その他(ほか)、車(しゃ)両(りょう)などの座(ざ)席(せき)以(い)外(がい)に作(さ)業(ぎょう)員(いん)を乗(の)せて運(うん)行(こう)してはいけない。",
+            "romaji": "5. Soukouchuu ni sharyou no sagyoudai no jouge sousa wo okonatte wa naranai. 6. Sharyou, kizai e no jousha ni kakawaru kinshi koui: (a) Kaatosha oyobi fookurifuto no fooku oyobi paretto no ue ni sagyouin wo nosete unkou shite wa ikenai. (b) Sharyou no nidai ni sagyouin wo nosete unkou shite wa ikenai. Tadashi, anzen taisaku ga okonawarete iru baai wa, kono kagiri dewa nai. (c) Sono hoka, sharyou nado no zaseki igai ni sagyouin wo nosete unkou shite wa ikenai."
+          },
+          "english": "Prohibited Riding and Vehicle Operations: 1. Raising or lowering vehicle elevating platforms while driving is strictly prohibited. 2. Strictly forbidden riding actions: (a) Never ride on cargo carts, dolly frames, forklift tines/forks, or pallets. (b) Never ride on truck cargo beds/flatbeds (unless specifically engineered safety cages exist). (c) Absolutely no riding on GSE anywhere other than designated vehicle seats with seatbelts fastened.",
+          "sinhala": "GSE ධාවනයේදී තහනම් ක්‍රියා: 1. වාහනය ධාවනය වන අතරතුර එහි වැඩ කරන වේදිකාව (Platform) ඉහළ එසවීම හෝ පහත් කිරීම සපුරා තහනම්ය. 2. වාහන හා උපකරණවල අනතුරුදායක ලෙස ගමන් කිරීමේ තහනම් ක්‍රියා: (a) බඩු ගෙනියන කාට් (Carts), ෆෝක්ලිෆ්ට් වල ෆෝක් (Forks) හෝ පැලට් (Pallets) මත සේවකයින් නැගී ගමන් කිරීම සපුරා තහනම්ය. (b) ට්‍රක් රථවල පිටුපස බඩු පටවන තට්ටුවේ (Nidai) සේවකයින් නැගී ගමන් කිරීම තහනම්ය. (c) වාහනයේ නියමිත නිල අසුනක (Zaseki) හැර වෙනත් කිසිදු තැනක සේවකයින් වාඩි වී හෝ එල්ලී ගමන් නොකළ යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ළමයි හොඳට මතක තියාගන්න! Forklift එකේ උල් දෙක උඩ හරි Dolly එක උඩ හරි නැගලා ජොලි ට්‍රිප් යන්න බෑ (Zettai kinshi)! ට්‍රක් එකේ පිටිපස්සේ තට්ටුවේ නැගලා යන්නත් බෑ. වාහනේ තියෙන නියමිත සීට් එකේ විතරයි වාඩිවෙලා යන්න පුළුවන්!",
+            "japanese_tts_text": "フォークリフトの爪や荷台、ドーリーの上に人を乗せて走行することは法律で禁止されています。"
+          }
+        },
+        {
+          "section_id": "SQ_P15_S02",
+          "content_type": "vehicle_marshalling_guide_position",
+          "japanese": {
+            "original_kanji": "(2) 車両の誘導：運転者1名による注意だけでは不十分な場合、また車両・機材上や外に誘導者を配置しなければならない場合もある。① 誘導者の位置：⒜ 誘導者の位置は、運転者にとって進路、停止位置が見やすく、しかも誘導者の手信号を確認できる場所とする。後退時でも真後ろでの誘導をしてはいけない。⒝ 誘導者の位置は、自分自身が安全で、緊急時でも避難できる場所とする。",
+            "furigana": "(2) 車(しゃ)両(りょう)の誘(ゆう)導(どう)：運(うん)転(てん)者(しゃ)1名(めい)による注(ちゅう)意(い)だけでは不(ふ)十(じゅう)分(ぶん)な場(ば)合(あい)、また車(しゃ)両(りょう)・機(き)材(ざい)上(じょう)や外(そと)に誘(ゆう)導(どう)者(しゃ)を配(はい)置(ち)しなければならない場(ば)合(あい)もある。① 誘(ゆう)導(どう)者(しゃ)の位(い)置(ち)：⒜ 誘(ゆう)導(どう)者(しゃ)の位(い)置(ち)は、運(うん)転(てん)者(しゃ)にとって進(しん)路(ろ)、停(てい)止(し)位(い)置(ち)が見(み)やすく、しかも誘(ゆう)導(どう)者(しゃ)の手(て)信(しん)号(ごう)を確(かく)認(にん)できる場(ば)所(しょ)とする。後(こう)退(たい)時(じ)でも真(ま)後(うし)ろでの誘(ゆう)導(どう)をしてはいけない。⒝ 誘(ゆう)導(どう)者(しゃ)の位(い)置(ち)は、自(じ)分(ぶん)自(じ)身(しん)が安(あん)全(ぜん)で、緊(きん)急(きゅう)時(じ)でも避(ひ)難(なん)できる場(ば)所(しょ)とする。",
+            "romaji": "2. Sharyou no yuudou: Untensha 1 mei ni yoru chuui dakedewa fujuubun na baai, mata sharyou, kizai jou ya soto ni yuudousha wo haichi shinakereba naranai baai mo aru. 1. Yuudousha no ichi: (a) Yuudousha no ichi wa, untensha ni totte shinro, teishi ichi ga miyasuku, shikamo yuudousha no teshingou wo kakunin dekiru basho to suru. Koutaiji demo maushiro de no yuudou wo shite wa ikenai. (b) Yuudousha no ichi wa, jibun jishin ga anzen de, kinkyuuji demo hinan dekiru basho to suru."
+          },
+          "english": "Vehicle Guiding and Marshalling Procedures: When a driver's visibility is limited, an external marshaller/guide (Yuudousha) must be assigned. Marshaller Positioning Rules: (a) Stand where the driver can clearly see both the travel path, stopping marks, and hand signals. NEVER stand directly behind a reversing vehicle (Maushiro kinshi) due to crush/blind spot hazards. (b) The guide must always maintain a safe position with an unobstructed emergency escape route.",
+          "sinhala": "වාහන මාර්ගෝපදේශකයාගේ (Guide / Marshaller) රාජකාරි සහ පිහිටීම: රියදුරුට පමණක් අවට බාධා නොපෙනෙන විට පිටතින් මාර්ගෝපදේශකයෙකු (Yuudousha) යෙදවිය යුතුය. මාර්ගෝපදේශකයා සිටිය යුතු නිවැරදි ස්ථානය: (a) රියදුරුට ගමන් මාර්ගය, නැවතුම් ස්ථානය සහ මාර්ගෝපදේශකයාගේ හස්ත සංඥා ඉතා පැහැදිලිව පෙනෙන ස්ථානයක සිටිය යුතුය. වාහනය රිවර්ස් කරන විට කිසිසේත්ම වාහනයට කෙළින්ම පිටුපසින් (真後ろ - Maushiro) නොසිටිය යුතුය. (b) යම් හදිසි අනතුරක් වුවහොත් තමන්ට ක්ෂණිකව ඉවතට පැන දිවි බේරාගත හැකි (Hinan dekiru basho) ආරක්ෂිත ස්ථානයක සිටිය යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මෙන්න විභාගයට අනිවාර්යයෙන්ම එන රීතියක්! වාහනයක් පස්සට ගනිද්දී (Reverse කරද්දී) මාර්ගෝපදේශකයා වාහනේට කෙළින්ම පිටිපස්සෙන් (Maushiro) ඉන්න පුළුවන්ද? කවදාවත් බෑ! වාහනේ බ්‍රේක් නැතුව ආවොත් යටවෙලා මැරෙන්න පුළුවන්. ඩ්‍රයිවර්ගේ කන්නාඩියට පේන පැත්තකින්, හදිසියක් වුණොත් පැනගන්න පුළුවන් තැනකින් තමයි ඉන්න ඕනෙ!",
+            "japanese_tts_text": "誘導者は運転者から手信号が見える安全な位置に立ち、車両の後退時でも真後ろには絶対に立ちません。"
+          }
+        }
+      ],
+      "vocabulary_highlights": [
+        {
+          "japanese": "誘導者",
+          "furigana": "ゆうどうしゃ",
+          "romaji": "Yuudousha",
+          "english": "Vehicle Marshaller / Guide Person",
+          "sinhala": "වාහන මාර්ගෝපදේශකයා / සංඥාකරු"
+        },
+        {
+          "japanese": "真後ろ",
+          "furigana": "まうしろ",
+          "romaji": "Maushiro",
+          "english": "Directly Behind (Blind/Crush Zone)",
+          "sinhala": "කෙළින්ම පිටුපස (අනතුරුදායක කලාපය)"
+        },
+        {
+          "japanese": "避難できる場所",
+          "furigana": "ひなんできるばしょ",
+          "romaji": "Hinan dekiru basho",
+          "english": "Safe Location with an Escape Route",
+          "sinhala": "හදිසි අවස්ථාවකදී ඉවත් විය හැකි ආරක්ෂිත ස්ථානය"
+        }
+      ]
+    }
+  ]
+}
