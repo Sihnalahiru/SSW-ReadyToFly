@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "feature_id": "wrong-answer-review",
+  "storage": "localStorage_or_indexeddb",
+  "items": [],
+  "item_fields": [
+    "attempt_id",
+    "paper_id",
+    "question_id",
+    "selected_answer_id",
+    "correct_answer_id",
+    "answered_at",
+    "review_status"
+  ],
+  "rules": {
+    "add_only_incorrect_answers": true,
+    "deduplicate_by_question_id": true,
+    "allow_retry": true,
+    "remove_from_review_only_after_correct_retry_or_user_clear": true
+  }
+}
