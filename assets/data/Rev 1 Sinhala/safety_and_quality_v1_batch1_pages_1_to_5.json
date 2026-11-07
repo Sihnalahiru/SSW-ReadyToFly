@@ -136,15 +136,15 @@
           "section_id": "SQ_P03_S01",
           "content_type": "accident_consequences",
           "japanese": {
-            "original_kanji": "航空機事故が起きた場合、以下のような重大な影響が発生する。① かけがえのない人命の喪失。大事故は致命的となる。② 社会的信用の失墜。利用者の激減。③ 事故処理費用・補償費用の莫大な発生。経営危機に直結する。④ 航空機の損失による運航スケジュールへの大打撃。",
+            "original_kanji": "③ 航空機事故を処理するために、たくさんの費用がかかる。例えば、乗客に対する賠償、補償や事故現場の処理、社員の派遣費などかなりの金額になり、経営の危機になる。④ 航空機の損失は、会社の経営に大きく影響する。スケジュール通りの運航が不可能となり、また、需要に対する便の提供もできなくなる。",
             "furigana": "航(こう)空(くう)機(き)事(じ)故(こ)が起(お)きた場(ば)合(あい)、以(い)下(か)のような重(じゅう)大(だい)な影(えい)響(きょう)が発(はっ)生(せい)する。① かけがえのない人(じん)命(めい)の喪(そう)失(しつ)。大(だい)事(じ)故(こ)は致(ち)命(めい)的(てき)となる。② 社(しゃ)会(かい)的(てき)信(しん)用(よう)の失(しっ)墜(つい)。利(り)用(よう)者(しゃ)の激(げき)減(げん)。③ 事(じ)故(こ)処(しょ)理(り)費(ひ)用(よう)・補(ほ)償(しょう)費(ひ)用(よう)の莫(ばく)大(だい)な発(はっ)生(せい)。経(けい)営(えい)危(き)機(き)に直(ちょっ)結(けつ)する。④ 航(こう)空(くう)機(き)の損(そん)失(しつ)による運(うん)航(こう)スケジュールへの大(だい)打(だ)撃(げき)。",
             "romaji": "Koukuuki jiko ga okita baai, ika no you na juudai na eikyou ga hassei suru. 1. Kakegae no nai jinmei no soushitsu. Daijiko wa chimeiteki to naru. 2. Shakaiteki shin'you no shittsui. Riyousha no gekigen. 3. Jiko shori hiyou, hoshou hiyou no bakudai na hassei. Keiei kiki ni chokketsu suru. 4. Koukuuki no sonshitsu ni yoru unkou sukejuuru e no daidageki."
           },
-          "english": "If an aircraft accident occurs, the following catastrophic consequences arise: 1. Irreplaceable loss of human lives; large crashes are fatal. 2. Total loss of social trust, leading to an immediate collapse in passenger bookings. 3. Enormous accident settlement and compensation expenses, plunging the airline into financial insolvency. 4. Physical loss of aircraft, crippling flight schedules and fleet capacity.",
-          "sinhala": "ගුවන් අනතුරක් සිදුවූ විට පහත දැක්වෙන බරපතල ගැටලු 4 මතු වේ: 1. කිසිදු දෙයකින් ආදේශ කළ නොහැකි මිනිස් ජීවිත අහිමි වීම. 2. සමාජීය විශ්වාසය බිඳවැටීම නිසා මගීන් සංඛ්‍යාව දැඩි ලෙස පහත වැටීම. 3. වන්දි ගෙවීම් (Hoshou), නීතිමය වියදම් සහ අනතුරු ස්ථාන පිරිසිදු කිරීමට දැවැන්ත මුදලක් වැයවීමෙන් සමාගම බංකොලොත් වීමේ අවදානම. 4. ගුවන් යානය විනාශ වීම නිසා නියමිත කාලසටහන් බිඳවැටී ආර්ථික පාඩු සිදුවීම.",
+          "english": "3. Aircraft accidents require substantial costs to handle. Compensation and indemnity for passengers, processing the accident site, and dispatching employees can amount to considerable expenses and lead to a management crisis. 4. The loss of an aircraft has a major impact on the airline’s business: operations may no longer follow the schedule, and the airline may be unable to provide flights to meet demand.",
+          "sinhala": "3. ගුවන් යානා අනතුරක් කළමනාකරණය කිරීම සඳහා විශාල වියදමක් දැරීමට සිදුවේ. මගීන්ට වන්දි හා හානිපූරණ ගෙවීම, අනතුර සිදුවූ ස්ථානයේ කටයුතු කිරීම සහ සේවකයින් යෙදවීම වැනි දේ සඳහා සැලකිය යුතු මුදලක් වැය වන අතර, එය සමාගම කළමනාකරණ අර්බුදයකට පත් කළ හැකිය. 4. ගුවන් යානයක් අහිමි වීම සමාගමේ ව්‍යාපාරයට විශාල බලපෑමක් ඇති කරයි. නියමිත කාලසටහනට අනුව ගුවන් ගමන් ක්‍රියාත්මක කළ නොහැකි විය හැකි අතර, ඉල්ලුමට සරිලන ගුවන් ගමන් සැපයීමටද නොහැකි විය හැකිය.",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "ළමයි, ගුවන් අනතුරක් කියන්නේ සාමාන්‍ය බස් අනතුරක් වගේ දෙයක් නෙවෙයි. එක අනතුරකින් වෙන විනාශය කරුණු 4ක් ඔස්සේ විභාගයට අහනවා: පළවෙනි එක, මිල කළ නොහැකි මිනිස් ජීවිත නැති වෙනවා (Jinmei no soushitsu). දෙවෙනි එක, මිනිස්සු බය වෙලා ඒ Airline එකේ යන්නේ නැති වෙනවා (Shin'you no shittsui). තුන්වෙනි එක, වන්දි ගෙවන්න ගිහින් Airline එක බංකොලොත් වෙනවා (Keiei kiki). හතරවෙනි එක, කෝටි ගණන් වටින ප්ලේන් එක අළු වෙලා ගුවන් ගමන් අවුල් වෙනවා. මෙන්න මේ නිසයි බිම ඉන්න අපේ වගකීම උපරිම වෙන්නේ!",
+            "teacher_script_sinhala": "ගුවන් අනතුරකින් පසු විශාල වියදම් ඇති වෙනවා. මගීන්ට වන්දි ගෙවීම, අනතුර සිදුවූ ස්ථානයේ කටයුතු කිරීම සහ සේවකයින් යෙදවීම ඒ අතරට ඇතුළත්. තවත් ප්‍රතිවිපාකයක් තමයි ගුවන් යානය අහිමි වීමෙන් කාලසටහනට අනුව ගුවන් ගමන් පවත්වාගෙන යාමටත්, ඉල්ලුමට සරිලන ගුවන් ගමන් සැපයීමටත් බාධා ඇති වීම.",
             "japanese_tts_text": "事故が起きると、人命の喪失、社会的信用の失墜、莫大な補償費用、経営危機が発生する。"
           }
         }
@@ -190,16 +190,32 @@
           "section_id": "SQ_P04_S01",
           "content_type": "aircraft_priority_principle",
           "japanese": {
-            "original_kanji": "制限区域内においては、常に航空機の運航が最優先であり、いかなる車両なども航空機の運航を妨げる行為を行ってはならない。その理由として、下記の項目等が挙げられる。① 構造上動きが機敏でない。② 視界が非常に狭い。パイロットの死角が大きい。",
+            "original_kanji": "制限区域内においては、常に航空機の運航が最優先であり、いかなる車両なども航空機の運航を妨げる行為を行ってはならない。その理由として、下記の項目等が挙げられる。① 構造上動きが機敏でない。② 視界が非常に悪い。③ 多量の可燃物質（燃料など）を搭載している。④ 高価である。",
             "furigana": "制(せい)限(げん)区(く)域(いき)内(ない)においては、常(つね)に航(こう)空(くう)機(き)の運(うん)航(こう)が最(さい)優(ゆう)先(せん)であり、いかなる車(しゃ)両(りょう)なども航(こう)空(くう)機(き)の運(うん)航(こう)を妨(さまた)げる行(こう)為(い)を行(おこな)ってはならない。その理(り)由(ゆう)として、下(か)記(き)の項(こう)目(もく)等(とう)が挙(あ)げられる。① 構(こう)造(ぞう)上(じょう)動(うご)きが機(き)敏(びん)でない。② 視(し)界(かい)が非(ひ)常(じょう)に狭(せま)い。パイロットの死(し)角(かく)が大(おお)きい。",
             "romaji": "Seigen kuikinai ni oite wa, tsune ni koukuuki no unkou ga saiyuusen de ari, ikanaru sharyou nado mo koukuuki no unkou wo samatageru koui wo okonatte wa naranai. Sono riyuu to shite, kaki no koumoku tou ga agerareru. 1. Kouzoujou ugoki ga kibin de nai. 2. Shikai ga hijou ni semai. Pairotto no shikaku ga ookii."
           },
-          "english": "Within airport restricted security areas, aircraft operations always have absolute right-of-way (Saiyuusen); no vehicle or person may obstruct an aircraft. Reasons include: 1. Due to their immense size and structure, aircraft cannot stop or turn agilely. 2. The flight crew cockpit field of vision is very narrow, leaving vast blind spots around the fuselage.",
-          "sinhala": "ගුවන් තොටුපළේ සීමා කළ ආරක්ෂිත කලාපය (Restricted Area) තුළ, සැමවිටම ගුවන් යානාවලට උපරිම ප්‍රමුඛතාවය (航空機最優先 - Koukuuki Saiyuusen) හිමිවන අතර, කිසිදු වාහනයක් ගුවන් යානයක ගමනට බාධා නොකළ යුතුය. ඊට හේතු: 1. යානයේ ව්‍යුහාත්මක විශාලත්වය නිසා එකවර හැරවීමට හෝ නැවැත්වීමට නොහැකි වීම (කඩිසර නොවීම). 2. නියමු කුටියේ (Cockpit) සිට බලන විට නියමුවාගේ දෘෂ්ටි කෝණය සීමිත වීම සහ විශාල අන්ධ කලාප (Blind spots) පැවතීම.",
+          "english": "Within a restricted area, aircraft operations always have the highest priority. No vehicle or other equipment may obstruct aircraft operations. Reasons include: 1. Because of their structure, aircraft cannot maneuver quickly. 2. Visibility from the aircraft is very poor. 3. Aircraft carry large quantities of combustible material, such as fuel. 4. Aircraft are expensive.",
+          "sinhala": "සීමා කළ ප්‍රදේශය තුළ ගුවන් යානා මෙහෙයුම්වලට සැමවිටම ඉහළම ප්‍රමුඛතාවය හිමි වේ. කිසිදු වාහනයක් හෝ වෙනත් උපකරණයක් ගුවන් යානා මෙහෙයුම්වලට බාධා නොකළ යුතුය. ඊට හේතු: 1. යානයේ ව්‍යුහය නිසා එයට ඉක්මනින් හැරවීමට හෝ චලනය වීමට නොහැකි වීම. 2. යානයේ දෘශ්‍යතාව ඉතා සීමිත වීම. 3. ඉන්ධන වැනි දැවෙන ද්‍රව්‍ය විශාල ප්‍රමාණයක් යානයේ රැගෙන යාම. 4. ගුවන් යානා ඉතා මිල අධික වීම.",
           "audio_narration": {
             "voice_language": "si-LK",
             "teacher_script_sinhala": "ළමයි, මේක තමයි Ramp එකේ පළවෙනි නීතිය: 'Koukuuki Saiyuusen' - හැමවිටම ගුවන් යානයට පළමු තැන! මොකද ප්ලේන් එකක් කියන්නේ මෝටර් බයික් එකක් වගේ එකපාර බ්‍රේක් ගහන්න හරි කරකවන්න හරි පුළුවන් වාහනයක් නෙවෙයි. අනික පයිලට් උඩ ඉඳන් බලද්දී ප්ලේන් එක යට ඉන්න මිනිස්සුන්වයි පොඩි වාහනයි පේන්නෙ නෑ (Blind spots). ඒ නිසා ප්ලේන් එකක් එද්දී ඕනෙම වාහනයක් නතර කරලා ප්ලේන් එකට යන්න ඉඩ දෙන්න ඕනෙ!",
             "japanese_tts_text": "制限区域内では常に航空機が最優先である。動きが機敏でなく視界が狭いためである。"
+          }
+        },
+        {
+          "section_id": "SQ_P04_S02",
+          "content_type": "aircraft_cockpit_visibility_limits",
+          "japanese": {
+            "original_kanji": "コックピットからの視界には死角が多くあり、機体の直近の視界は非常に悪く、安全確認が重要である。ボーイング777-200型機の操縦席から見える範囲は、次のようになっている。① 操縦姿勢では、右翼端、左翼端は確認できない。② 操縦席からは、前方約15m以上離れなければ、地上の障害物は確認できない。③ 機長席から右側は、前方10m以上離れなければ、地上の障害物は確認できない。",
+            "furigana": "コックピットからの視界には死角が多くあり、機体の直近の視界は非常に悪く、安全確認が重要である。ボーイング777-200型機の操縦席から見える範囲は、次のようになっている。① 操縦姿勢では、右翼端、左翼端は確認できない。② 前方約15m以上離れなければ、地上の障害物は確認できない。③ 機長席から右側は、前方10m以上離れなければ、地上の障害物は確認できない。",
+            "romaji": "Cockpit kara no shikai ni wa shikaku ga ooku ari, kitai no chokkin no shikai wa hijou ni warui. Boeing 777-200 gata-ki no soujuuseki kara mieru han'i wa tsugi no toori: 1. Ryouyokutan wa kakunin dekinai. 2. Zenpou yaku 15m ijou hanarenakereba chijou no shougaibutsu wa kakunin dekinai. 3. Kichouseki kara migigawa wa zenpou 10m ijou hanarenakereba chijou no shougaibutsu wa kakunin dekinai."
+          },
+          "english": "Cockpit visibility has many blind spots, and visibility immediately around the aircraft is very poor, making safety checks essential. For a Boeing 777-200: 1. The pilot cannot see either wingtip from the normal operating position. 2. Ground obstacles directly ahead cannot be seen from the cockpit unless they are more than approximately 15 m away. 3. From the captain’s seat, ground obstacles on the right side cannot be seen unless they are more than 10 m ahead.",
+          "sinhala": "නියමු කුටියේ දෘශ්‍ය පරාසයේ අන්ධ කලාප බොහොමයක් ඇති අතර, යානයට ඉතා ආසන්න ප්‍රදේශය හොඳින් නොපෙනේ. එබැවින් ආරක්ෂාව තහවුරු කිරීම අත්‍යවශ්‍යය. Boeing 777-200 යානයේ නියමු අසුනේ සිට: 1. සාමාන්‍ය පාලන ඉරියව්වේදී දකුණු හා වම් පියාපත් කෙළවර දැකගත නොහැක. 2. යානය ඉදිරිපිට භූමියේ ඇති බාධක නියමු කුටියේ සිට දැකගත හැක්කේ ආසන්න වශයෙන් මීටර් 15කට වඩා දුරින් තිබේ නම් පමණි. 3. කපිතාන් අසුනේ සිට දකුණු පැත්තේ භූමි බාධක දැකගත හැක්කේ ඉදිරියෙන් මීටර් 10කට වඩා දුරින් තිබේ නම් පමණි.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "නියමු කුටියේ සිට යානය වටා ඇති සියලුම දේ පැහැදිලිව පෙනෙන්නේ නැහැ. Boeing 777-200 යානයේ පියාපත් කෙළවර දෙකම නියමුවාට නොපෙනෙන අතර, ඉදිරිපස භූමි බාධක මීටර් 15කට වඩා දුරින් තිබුණොත් පමණයි පෙනෙන්නේ. කපිතාන් අසුනේ සිට දකුණු පැත්තේ බාධක සඳහා එම දුර මීටර් 10කට වැඩියි. ඒ නිසා බිම් කාර්ය මණ්ඩලයේ ආරක්ෂක තහවුරු කිරීම් වැදගත්.",
+            "japanese_tts_text": "コックピットには死角が多く、ボーイング777-200型機では翼端が見えません。前方の障害物は約15メートル以上、機長席から右側は10メートル以上離れないと確認できません。"
           }
         }
       ],
@@ -278,6 +294,22 @@
             "voice_language": "si-LK",
             "teacher_script_sinhala": "ළමයි, මෙන්න මේ මීටර් 40 රීතිය අනිවාර්යයෙන්ම විභාගයට ලියන්න වෙනවා! බිම ගමන් කරන ප්ලේන් එකක් ඉස්සරහ මාෂලර් කෙනෙක් නැත්නම්, ඒ ප්ලේන් එක ඉස්සරහින් මීටර් කීයක් ඇතුළත වාහන තියෙන්න බැරිද? මීටර් 40ක් (40 meters)! මේ දුර මතක තියාගන්න ළමයි!",
             "japanese_tts_text": "地上走行中の航空機の前方40m以内には、誘導がない場合車両や障害物があってはならない。"
+          }
+        },
+        {
+          "section_id": "SQ_P05_S03",
+          "content_type": "watchman_work_and_standardized_signals",
+          "japanese": {
+            "original_kanji": "ウォッチ作業は、ウォッチマンと他の担当者（乗員・整備士・マーシャラ・航空機牽引車・ドライバ等）が合図を通じて、航空機を安全に目標場所へ移動できるよう監視し、導く作業である。ウォッチマンは、基本の動作・合図（Figure 2）で他の担当者に対し、意図することが正確に伝達されるよう適宜、適切に正確な動作や合図を行うように心掛ける。各空港で実施されるウォッチマンの動作は、基準に基づいた統一されたものでなければならない。",
+            "furigana": "ウォッチ作業は、ウォッチマンと他の担当者が合図を通じて航空機を安全に目標場所へ移動できるよう監視し、導く作業である。各空港のウォッチマンの動作は、基準に基づいた統一されたものでなければならない。",
+            "romaji": "Wocchi sagyou wa, wocchiman to hoka no tantousha ga aizu wo tsuujite koukuuki wo anzen ni mokuhyou basho e idou dekiru you kanshi shi, michibiku sagyou de aru."
+          },
+          "english": "Watch operations involve the watchman and other personnel (such as crew, maintenance staff, marshallers, aircraft tug operators and drivers) monitoring and guiding the aircraft through signals so it can move safely to its target position. The watchman should use the standard movements and signals accurately so the intended message is clearly communicated. Watchman signals used at each airport must be standardized according to established standards.",
+          "sinhala": "වොච් මෙහෙයුමේදී වොච්මන් සහ අනෙකුත් වගකිවයුතු සේවකයින් (ගුවන් යානා කාර්ය මණ්ඩලය, නඩත්තු සේවකයින්, මාෂලර්වරුන්, ගුවන් යානා ටග් රථ රියදුරන් සහ අනෙකුත් රියදුරන්) සංඥා භාවිතයෙන් ගුවන් යානය ආරක්ෂිතව නියමිත ස්ථානයට ගෙන යාම නිරීක්ෂණය කර මඟ පෙන්වයි. අදහස නිවැරදිව සන්නිවේදනය වීමට වොච්මන් මූලික චලන හා සංඥා නිවැරදිව භාවිත කළ යුතුය. සෑම ගුවන් තොටුපළකම භාවිත කරන වොච්මන් සංඥා නියමිත ප්‍රමිතීන්ට අනුව එකම ආකාරයකින් පවත්වාගත යුතුය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "Watchman කියන්නේ ගුවන් යානය ආරක්ෂිතව නියමිත ස්ථානයට ගෙන යාම සඳහා අනෙකුත් සේවකයින්ට සංඥා ලබාදෙමින් යානයේ ගමන නිරීක්ෂණය කර මඟ පෙන්වන පුද්ගලයායි. ඔහු භාවිත කරන සංඥා නිවැරදිව සහ පැහැදිලිව තිබිය යුතු අතර, සෑම ගුවන් තොටුපළකම ඒවා එකම ප්‍රමිතියකට අනුව භාවිත කළ යුතුයි.",
+            "japanese_tts_text": "ウォッチマンは合図を通じて航空機を安全に誘導し、各空港で統一された基準に従って正確に合図を行います。"
           }
         }
       ],
