@@ -17,7 +17,7 @@
   },
   "pending": {
     "front_matter": "Printed pages 1-3 (preface and contents) indexed in source manifest but not yet converted into full trilingual study-note pages.",
-    "glossary_readings": "Furigana and romaji are incomplete for most of the 167 glossary entries.",
+    "glossary_readings": "167 vocabulary entries; furigana and romaji are complete for only a small subset. Continue source-backed reading verification.",
     "image_mapping": "Final pixel-level comparison of the 42 mapped assets against rendered PDF page crops is still required; 99 other files have not been semantically mapped.",
     "audio_rendering": "Scripts exist, but no audio files have been generated or played back.",
     "app_integration": "Blocked: repository contains only assets/data files and no HTML, JavaScript, CSS, app source or deployment configuration.",
@@ -34,5 +34,40 @@
     "Do not use the previous three 31-page JSON batches as the final source-aligned dataset.",
     "The height-restricted Equipment Staging Area threshold is 25 m or less, matching the source text 25m以下.",
     "The gasoline passenger-aircraft quantity example is 5 litres as shown in the source; the complete legal conditions must be checked in the official notice."
-  ]
+  ],
+  "latest_validation": {
+    "date": "2026-11-07",
+    "dataset": "safety_quality_rev2_translated_pages_04_to_22.json",
+    "page_records": 19,
+    "printed_page_range": "4-22",
+    "sections": 36,
+    "vocabulary_records": 167,
+    "japanese_source_sections": 36,
+    "english_sections": 36,
+    "sinhala_sections": 36,
+    "sinhala_narration_scripts": 36,
+    "japanese_tts_scripts": 36,
+    "required_field_gaps": 0,
+    "empty_japanese_vocabulary_terms": 0,
+    "fixes_applied": [
+      "Filled two missing Japanese glossary terms: All Clear and near miss.",
+      "Removed unsupported directional details from the vehicle-guide section.",
+      "Removed unsupported equipment-storage exception and repeated timing condition from ERA/ESA section.",
+      "Corrected Sinhala narration height limit from 2.5 m to the source-supported 25 m."
+    ],
+    "checks_passed": [
+      "JSON parse",
+      "section required fields",
+      "Japanese glossary field presence",
+      "no incorrect 2.5 m narration",
+      "no unsupported directional additions detected"
+    ],
+    "limitations": [
+      "Japanese source transcription and all translations still require full visual page-by-page proofread against the original PDF.",
+      "Most vocabulary furigana and romaji remain incomplete.",
+      "Audio files have not been generated or played back.",
+      "Image mapping remains partial.",
+      "App source is absent from this repository, so app integration/runtime tests remain blocked."
+    ]
+  }
 }
