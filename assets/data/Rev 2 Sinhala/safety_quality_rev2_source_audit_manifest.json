@@ -1,0 +1,351 @@
+{
+  "metadata": {
+    "project": "SSW-ReadyToFly",
+    "module": "Safety and Quality",
+    "revision": "Rev 2",
+    "source_pdf": "GHtext【1.Safety and Quality】.REV2.pdf",
+    "source_owner": "公益社団法人 日本航空技術協会",
+    "source_revision_date": "2026-06-23",
+    "physical_pdf_pages": 26,
+    "printed_content_pages": "1-22",
+    "status": "SOURCE_STRUCTURE_AUDITED_TRANSLATION_AND_IMAGE_MAPPING_PENDING",
+    "rule": "This manifest records only source-confirmed structure. It does not certify existing translations, narration, TTS, or image mappings."
+  },
+  "source_page_map": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "type": "cover",
+      "content": "特定技能評価試験テキスト（航空分野:空港グランドハンドリング）安全・品質 2nd Revision"
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": null,
+      "type": "usage_rules",
+      "content": "利用時のルール：著作権、禁止事項、免責"
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": 1,
+      "type": "preface",
+      "content": "はじめに：教材の目的、対象、会社規程・要領・マニュアルに従う注意"
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 2,
+      "type": "contents",
+      "content": "目次：Chapter 1-5、Reference-1、Reference-2"
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 3,
+      "type": "contents_continued",
+      "content": "目次続き：Chapter 5、Reference-1、Reference-2"
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": 4,
+      "chapter": "1. 一般",
+      "sections": [
+        "A. 航空会社の安全",
+        "B. 安全運航の目的"
+      ]
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": 5,
+      "chapter": "2. 航空機の安全",
+      "sections": [
+        "A. 航空機優先",
+        "(1) 航空機からの視界",
+        "(2) 適切な合図"
+      ]
+    },
+    {
+      "pdf_page": 8,
+      "printed_page": 6,
+      "chapter": "2. 航空機の安全",
+      "sections": [
+        "Figure 1: Boeing 777-200 cockpit visibility",
+        "Figure 2: Watchman signals"
+      ]
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": 7,
+      "chapter": "2. 航空機の安全",
+      "sections": [
+        "(3) 出発発見の着眼点",
+        "B. エンジンへの注意（危険区域）",
+        "(1) ブラスト（排気: EXHAUST）の危険"
+      ]
+    },
+    {
+      "pdf_page": 10,
+      "printed_page": 8,
+      "chapter": "2. 航空機の安全",
+      "sections": [
+        "(2) インテーク（吸気: INLET）側の危険",
+        "C. 危険物輸送",
+        "Figure 4: Engine hazard areas"
+      ]
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 9,
+      "chapter": "2. 航空機の安全",
+      "sections": [
+        "D. ウエイト・アンド・バランス",
+        "Figure 5: 航空機の重量"
+      ]
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": 10,
+      "chapter": "2. 航空機の安全",
+      "sections": [
+        "E. 航空保安",
+        "(1) 標準IDカードの管理",
+        "(2) 標準IDカードの表示"
+      ]
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": 11,
+      "chapter": "3. 作業の安全",
+      "sections": [
+        "A. 規定の遵守について",
+        "B. 天候",
+        "C. 作業員の服装",
+        "(1) 保護帽（ヘルメット）の着用",
+        "(2) 作業服の着用"
+      ]
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 12,
+      "chapter": "3. 作業の安全",
+      "sections": [
+        "(3) 耳栓やイヤーマフの着用",
+        "D. 車両の運転",
+        "(1) 車両、機材使用上の注意",
+        "(2) 車両への乗車に関わる禁止行為",
+        "(2) 車両の誘導（heading begins）"
+      ]
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": 13,
+      "chapter": "3. 作業の安全",
+      "sections": [
+        "車両の誘導者の位置",
+        "安全の確認",
+        "誘導の方法",
+        "注意事項"
+      ]
+    },
+    {
+      "pdf_page": 16,
+      "printed_page": 14,
+      "chapter": "3. 作業の安全",
+      "sections": [
+        "Figure 6: 車両誘導合図/信号"
+      ]
+    },
+    {
+      "pdf_page": 17,
+      "printed_page": 15,
+      "chapter": "4. 航空輸送の品質",
+      "sections": [
+        "Quality definition: 安全性・定時性・快適性",
+        "A. 作業の安全と品質"
+      ]
+    },
+    {
+      "pdf_page": 18,
+      "printed_page": 16,
+      "chapter": "4. 航空輸送の品質",
+      "sections": [
+        "B. 作業の基本的考え方",
+        "Eight basic work principles"
+      ]
+    },
+    {
+      "pdf_page": 19,
+      "printed_page": 17,
+      "chapter": "5. 予防",
+      "sections": [
+        "A. ヒヤリ・ハット・レポート",
+        "B. 指差呼称および危険予知"
+      ]
+    },
+    {
+      "pdf_page": 20,
+      "printed_page": 18,
+      "chapter": "Reference-1",
+      "sections": [
+        "車両通路の指示標示等の定義",
+        "Stop line, direction arrow, pedestrian crossing, priority marking, service lane, taxiway crossing waiting area"
+      ]
+    },
+    {
+      "pdf_page": 21,
+      "printed_page": 19,
+      "chapter": "Reference-1",
+      "sections": [
+        "エプロン内安全のための定義",
+        "Equipment Restraint Area (ERA), Equipment Staging Area (ESA), height-restricted ESA, PBB operating-area marking, PBB stand-by position"
+      ]
+    },
+    {
+      "pdf_page": 22,
+      "printed_page": 20,
+      "chapter": "Reference-2",
+      "sections": [
+        "危険物を航空輸送するために",
+        "Dangerous goods air-transport rules, penalties, three transport points, shipper/carrier roles"
+      ]
+    },
+    {
+      "pdf_page": 23,
+      "printed_page": 21,
+      "chapter": "Reference-2",
+      "sections": [
+        "危険物の正しい判別",
+        "Nine dangerous goods classes; correct label selection"
+      ]
+    },
+    {
+      "pdf_page": 24,
+      "printed_page": 22,
+      "chapter": "Reference-2",
+      "sections": [
+        "Danger labels and handling labels",
+        "UN packaging/container selection",
+        "Gasoline example: jerrycan, steel, fixed-top type; passenger-aircraft quantity example 5 litres"
+      ]
+    },
+    {
+      "pdf_page": 25,
+      "printed_page": null,
+      "type": "blank_or_unprinted_page",
+      "content": "No extracted study text; verify visual page if needed."
+    },
+    {
+      "pdf_page": 26,
+      "printed_page": null,
+      "type": "revision_history",
+      "content": "Rev.2 2026.6.23; Rev.1 2021.3.8; ORG 2020.9.30"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": "1. 一般",
+      "printed_pages": [
+        4
+      ],
+      "subsections": [
+        "A. 航空会社の安全",
+        "B. 安全運航の目的"
+      ]
+    },
+    {
+      "chapter": "2. 航空機の安全",
+      "printed_pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "subsections": [
+        "A. 航空機優先",
+        "B. エンジンへの注意（危険区域）",
+        "C. 危険物輸送",
+        "D. ウエイト・アンド・バランス",
+        "E. 航空保安"
+      ]
+    },
+    {
+      "chapter": "3. 作業の安全",
+      "printed_pages": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "subsections": [
+        "A. 規定の遵守",
+        "B. 天候",
+        "C. 作業員の服装",
+        "D. 車両の運転"
+      ]
+    },
+    {
+      "chapter": "4. 航空輸送の品質",
+      "printed_pages": [
+        15,
+        16
+      ],
+      "subsections": [
+        "A. 作業の安全と品質",
+        "B. 作業の基本的考え方"
+      ]
+    },
+    {
+      "chapter": "5. 予防",
+      "printed_pages": [
+        17
+      ],
+      "subsections": [
+        "A. ヒヤリ・ハット・レポート",
+        "B. 指差呼称および危険予知"
+      ]
+    },
+    {
+      "chapter": "Reference-1",
+      "printed_pages": [
+        18,
+        19
+      ],
+      "subsections": [
+        "車両通路の指示標示等",
+        "エプロン内安全のための定義"
+      ]
+    },
+    {
+      "chapter": "Reference-2",
+      "printed_pages": [
+        20,
+        21,
+        22
+      ],
+      "subsections": [
+        "危険物航空輸送ルール",
+        "危険物9分類",
+        "ラベル選定",
+        "容器選定",
+        "その他のルール"
+      ]
+    }
+  ],
+  "audit_findings": {
+    "existing_json_batches": 3,
+    "existing_json_page_records": 31,
+    "source_printed_study_pages": 22,
+    "source_physical_pdf_pages": 26,
+    "finding": "Existing JSON page numbering/topics are not aligned to the original PDF. Example: JSON pages 1-5 discuss human error, safety culture, near-miss, pointing/calling and ramp markings; original PDF printed pages 1-5 are preface, contents, contents, General and Aircraft Safety. Existing JSON must not be treated as source-verified.",
+    "image_mapping": "Existing JSON references 001.jpg onward; image folder files use unpadded names such as 0.jpg, 1.jpg and include numbering gaps. No exact filename matches were found. Numeric normalization alone is not sufficient to establish semantic image-to-page mapping.",
+    "translation": "English-Sinhala-Japanese content has not yet been fully re-authored and checked against the source.",
+    "audio": "Sinhala narration and Japanese TTS have not yet been source-verified.",
+    "app": "V2 app integration and runtime testing not yet certified."
+  },
+  "next_steps": [
+    "Create a clean V2 page dataset based on printed pages 1-22 and keep physical PDF page references.",
+    "Translate source Japanese faithfully into English and Sinhala without adding unsupported facts.",
+    "Extract and map all figures/images visually to their exact source pages.",
+    "Create source-grounded Sinhala narration and Japanese TTS scripts.",
+    "Run structural, numeric, terminology, image-path and runtime tests before marking V2 complete."
+  ]
+}
