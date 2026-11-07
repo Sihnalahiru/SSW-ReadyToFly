@@ -1,0 +1,476 @@
+{
+  "title": "SSW Ground Handling Daily Practice Kaiwa - Native TTS Pro",
+  "description": "Comprehensive Japanese conversation dataset with 10+ examples per section, Furigana, Romaji, Sinhala meanings, and Native Web Speech Engine TTS config for SSW ground handling.",
+  "tts_settings": {
+    "tts_engine": "native",
+    "language": "ja-JP",
+    "voice_fallback": "Kyoko",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "unlimited": true
+  },
+  "sections": [
+    {
+      "section_id": 1,
+      "section_name_si": "පිළිගැනීම සහ මූලික ආචාරශීලී වචන",
+      "section_name_en": "Greetings & Polite Expressions",
+      "examples": [
+        {
+          "id": "1-1",
+          "japanese": "おはようございます。今日もよろしくお願いします。",
+          "furigana": "おはよウございます。今日もよろしくお願いしマス。",
+          "romaji": "Ohayō gozaimasu. Kyō mo yoroshiku onegaishimasu.",
+          "sinhala": "සුබ උදෑසනක්. අදත් උපරිමයෙන් වැඩ කරමු (කරුණාකර උදව් වන්න)."
+        },
+        {
+          "id": "1-2",
+          "japanese": "お疲れ様です。",
+          "furigana": "お疲れ様です。",
+          "romaji": "Otsukaresama desu.",
+          "sinhala": "මහන්සි වුණාට ස්තුතියි / වැඩට පැමිණි විට හෝ වැඩ නිම වී කතා කරන පිළිගැනීමේ වැකිය."
+        },
+        {
+          "id": "1-3",
+          "japanese": "失礼します。",
+          "furigana": "失礼します。",
+          "romaji": "Shitsurei shimasu.",
+          "sinhala": "අවසරයි / කාමරයකට ඇතුළු වන විට හෝ ඉවත්වන විට කියයි."
+        },
+        {
+          "id": "1-4",
+          "japanese": "お先に失礼します。",
+          "furigana": "お先に失礼します。",
+          "romaji": "Osaki ni shitsurei shimasu.",
+          "sinhala": "මම මුලින් පිටත්ව යනවා (වැඩ නිම වී යද්දී කියයි)."
+        },
+        {
+          "id": "1-5",
+          "japanese": "申し訳ありません。遅れました。",
+          "furigana": "申し訳ありません。遅れました。",
+          "romaji": "Mōshiwake arimasen. Okuremashita.",
+          "sinhala": "සමාවෙන්න. මට පරක්කු වුණා."
+        },
+        {
+          "id": "1-6",
+          "japanese": "本日、初めて担当します。ご指導よろしくお願いします。",
+          "furigana": "本日、初めて担当します。ご指導よろしくお願いします。",
+          "romaji": "Honjitsu, hajimete tantō shimasu. Goshidō yoroshiku onegaishimasu.",
+          "sinhala": "අද මම පළමු වතාවට මේ රාජකාරිය භාරගන්නවා. මට මඟපෙන්වීමක් කරන ලෙස ඉල්ලා සිටිනවා."
+        },
+        {
+          "id": "1-7",
+          "japanese": "体調は万全です。今日も頑張ります。",
+          "furigana": "体調は万全です。今日も頑張ります。",
+          "romaji": "Taichō wa banzen desu. Kyō mo ganbarimasu.",
+          "sinhala": "මගේ සෞඛ්‍ය තත්ත්වය ඉතා හොඳින් තිබෙනවා. අදත් උපරිමයෙන් වැඩ කරනවා."
+        },
+        {
+          "id": "1-8",
+          "japanese": "失礼ですが、お名前をもう一度教えていただけますか？",
+          "furigana": "失礼ですが、お名前をもう一度教えていただけますか？",
+          "romaji": "Shitsurei desu ga, onamae o mō ichido oshiete itadakemasu ka?",
+          "sinhala": "සමාවෙන්න, ඔබේ නම කරුණාකර තවත් වරක් පවසන්න පුළුවන්ද?"
+        },
+        {
+          "id": "1-9",
+          "japanese": "おはようございます。昨日はお世話になりました。",
+          "furigana": "おはようございます。昨日はお世話になりました。",
+          "romaji": "Ohayō gozaimasu. Kinō wa osewa ni narimashita.",
+          "sinhala": "සුබ උදෑසනක්. ඊයේ මට උදව් කළාට ස්තුතියි."
+        },
+        {
+          "id": "1-10",
+          "japanese": "それでは、作業を始めましょう。",
+          "furigana": "それでは、作業を始めましょう。",
+          "romaji": "Sore de wa, sagyō o hajimemashō.",
+          "sinhala": "එහෙනම්, අපි වැඩ කටයුතු පටන් ගනිමු."
+        }
+      ]
+    },
+    {
+      "section_id": 2,
+      "section_name_si": "ගුවන් යානා මෙහෙයුම් සහ උපදෙස්",
+      "section_name_en": "Aircraft Operations & Instructions",
+      "examples": [
+        {
+          "id": "2-1",
+          "japanese": "飛行機が到着しました。誘導をお願いします。",
+          "furigana": "飛行機が到着しました。誘導をお願いします。",
+          "romaji": "Hikōki ga tōchaku shimashita. Yūdō o onegaishimasu.",
+          "sinhala": "ගුවන් යානය පැමිණියා. මාර්ගෝපදේශනය (ගයිඩ් කිරීම) ලබා දෙන්න."
+        },
+        {
+          "id": "2-2",
+          "japanese": "タラップ車を付けてください。",
+          "furigana": "タラップ車を付けてください。",
+          "romaji": "Tarappusha o tsukete kudasai.",
+          "sinhala": "පඩිපෙළ රථය (Stairs car) යානයට ළං කරන්න."
+        },
+        {
+          "id": "2-3",
+          "japanese": "コンテナの積み下ろしを開始します。",
+          "furigana": "コンテナの積み下ろしを開始します。",
+          "romaji": "Kontena no tsumioroshi o kaishi shimasu.",
+          "sinhala": "කන්ටේනර් බෑම සහ පැටවීම ආරම්භ කරන්නෙමු."
+        },
+        {
+          "id": "2-4",
+          "japanese": "手荷物の扱いには十分注意してください。",
+          "furigana": "手荷物の扱いには十分注意してください。",
+          "romaji": "Tenimotsu no atsukai ni wa jūbun chūi shite kudasai.",
+          "sinhala": "බෑග් සහ බඩු බාහිරාදිය හැසිරවීමේදී හොඳින් සැලකිලිමත් වන්න."
+        },
+        {
+          "id": "2-5",
+          "japanese": "貨物の固定を確認してください。",
+          "furigana": "貨物の固定を確認してください。",
+          "romaji": "Kamotsu no kotei o kakunin shite kudasai.",
+          "sinhala": "භාණ්ඩ හොඳින් සවි කර ඇත්දැයි පරීක්ෂා කරන්න."
+        },
+        {
+          "id": "2-6",
+          "japanese": "マーシャリングを慎重に行ってください。",
+          "furigana": "マーシャリングを慎重に行ってください。",
+          "romaji": "Māsharingu o shinchō ni okonatte kudasai.",
+          "sinhala": "යානය නැවැත්වීමේ සංඥා දීම (Marshalling) ඉතා පරිස්සමින් කරන්න."
+        },
+        {
+          "id": "2-7",
+          "japanese": "タイヤチョックをセットしてください。",
+          "furigana": "タイヤチョックをセットしてください。",
+          "romaji": "Taiya chokku o setto shite kudasai.",
+          "sinhala": "රෝද කුඤ්ඤ (Wheel chocks) සවි කරන්න."
+        },
+        {
+          "id": "2-8",
+          "japanese": "出発前の最終点検を行います。",
+          "furigana": "出発前の最終点検を行います。",
+          "romaji": "Shuppatsu mae no saishū tenken o okonaimasu.",
+          "sinhala": "පිටත්වීමට පෙර අවසාන පරීක්ෂාව සිදු කරන්නෙමු."
+        },
+        {
+          "id": "2-9",
+          "japanese": "貨物ドアを閉めてください。",
+          "furigana": "貨物ドアを閉めてください。",
+          "romaji": "Kamotsu doa o shimete kudasai.",
+          "sinhala": "භාණ්ඩ දොරටුව (Cargo door) වසා දමන්න."
+        },
+        {
+          "id": "2-10",
+          "japanese": "プッシュバックの準備ができました。",
+          "furigana": "プッシュバックの準備ができました。",
+          "romaji": "Pusshubakku no junbi ga dekimashita.",
+          "sinhala": "ප්‍රෙෂ්‍බැක් (Pushback) කිරීම සඳහා සූදානම්."
+        }
+      ]
+    },
+    {
+      "section_id": 3,
+      "section_name_si": "ආරක්ෂාව සහ පරීක්ෂා කිරීම්",
+      "section_name_en": "Safety & Inspection",
+      "examples": [
+        {
+          "id": "3-1",
+          "japanese": "安全確認をしっかり行ってください。",
+          "furigana": "安全確認をしっかり行ってください。",
+          "romaji": "Anzen kakunin o shikkari okonatte kudasai.",
+          "sinhala": "ආරක්ෂිත පරීක්ෂාව නිවැරදිව සිදු කරන්න."
+        },
+        {
+          "id": "3-2",
+          "japanese": "異常を見つけました。報告します。",
+          "furigana": "異常を見つけました。報告します。",
+          "romaji": "Ijō o mitsukemashita. Hōkoku shimasu.",
+          "sinhala": "අසාමාන්‍ය තත්ත්වයක් (දෝෂයක්) හමුවුණා. මම වාර්තා කරනවා."
+        },
+        {
+          "id": "3-3",
+          "japanese": "フォークリフトの周囲を確認してください。",
+          "furigana": "フォークリフトの周囲を確認してください。",
+          "romaji": "Fōkurifuto no shūi o kakunin shite kudasai.",
+          "sinhala": "ෆෝක්ලිෆ්ට් රථය වටප්‍රදේශය හොඳින් පරීක්ෂා කරන්න."
+        },
+        {
+          "id": "3-4",
+          "japanese": "保護具を着用してください。",
+          "furigana": "保護具を着用してください。",
+          "romaji": "Hogogu o chakuyō shite kudasai.",
+          "sinhala": "ආරක්ෂක උපකරණ (හෙල්මට්, ජැකට්, සපත්තු) පළඳින්න."
+        },
+        {
+          "id": "3-5",
+          "japanese": "後方よし！右よし！左よし！",
+          "furigana": "後方よし！右よし！左よし！",
+          "romaji": "Kōhō yoshi! Migi yoshi! Hidari yoshi!",
+          "sinhala": "පසුපස හරියි! දකුණ හරියි! වම හරියි! (ආරක්ෂිතයි)."
+        },
+        {
+          "id": "3-6",
+          "japanese": "立ち入り禁止区域に入らないでください。",
+          "furigana": "立ち入り禁止区域に入らないでください。",
+          "romaji": "Tachiiri kinshi kuiki ni hairanaide kudasai.",
+          "sinhala": "ඇතුළුවීම තහනම් ප්‍රදේශයට ඇතුළු නොවන්න."
+        },
+        {
+          "id": "3-7",
+          "japanese": "反射ベストを必ず着用してください。",
+          "furigana": "反射ベストを必ず着用してください。",
+          "romaji": "Hansha besuto o kanarazu chakuyō shite kudasai.",
+          "sinhala": "ප්‍රතිරාවක ජැකට් එක (Reflective vest) අනිවාර්යයෙන්ම පළඳින්න."
+        },
+        {
+          "id": "3-8",
+          "japanese": "滑りやすいので、足元に十分注意してください。",
+          "furigana": "滑りやすいので、足元に十分注意してください。",
+          "romaji": "Suberiyasui node, ashimoto ni jūbun chūi shite kudasai.",
+          "sinhala": "ලිස්සන සුළු නිසා, පය තබන ස්ථානය ගැන හොඳින් සැලකිලිමත් වන්න."
+        },
+        {
+          "id": "3-9",
+          "japanese": "ヘルメットのあご紐をしっかり締めてください。",
+          "furigana": "ヘルメットのあご紐をしっかり締めてください。",
+          "romaji": "Herumetto no agohimo o shikkari shimete kudasai.",
+          "sinhala": "හෙල්මට් එකේ නිකට පටිය (Chin strap) හොඳින් තද කරගන්න."
+        },
+        {
+          "id": "3-10",
+          "japanese": "作業中はスマートフォンの使用を禁止します。",
+          "furigana": "作業中はスマートフォンの使用を禁止します。",
+          "romaji": "Sagyōchū wa sumātofon no shiyō o kinshi shimasu.",
+          "sinhala": "රැකියාව අතරතුර ස්මාර්ට් ජංගම දුරකථන භාවිතය තහනම්ය."
+        }
+      ]
+    },
+    {
+      "section_id": 4,
+      "section_name_si": "සන්නිවේදනය සහ ප්‍රශ්න කිරීම්",
+      "section_name_en": "Communication & Questions",
+      "examples": [
+        {
+          "id": "4-1",
+          "japanese": "次の作業は何ですか？",
+          "furigana": "次の作業は何ですか？",
+          "romaji": "Tsugi no sagyō wa nan desu ka?",
+          "sinhala": "ඊළඟට කරන්න තියෙන වැඩේ මොකක්ද?"
+        },
+        {
+          "id": "4-2",
+          "japanese": "これで大丈夫ですか？",
+          "furigana": "これで大丈夫ですか？",
+          "romaji": "Kore de daijōbu desu ka?",
+          "sinhala": "මේකෙන් ප්‍රශ්නයක් නැද්ද / මේක හරිද?"
+        },
+        {
+          "id": "4-3",
+          "japanese": "もう一度説明していただけますか？",
+          "furigana": "もう一度説明していただけますか？",
+          "romaji": "Mō ichido setsumei shite itadakemasu ka?",
+          "sinhala": "කරුණාකර තවත් වරක් පැහැදිලි කර දිය හැකිද?"
+        },
+        {
+          "id": "4-4",
+          "japanese": "分かりました。すぐやります。",
+          "furigana": "分かりました。すぐやります。",
+          "romaji": "Wakarimashita. Sugu yarimasu.",
+          "sinhala": "තේරුණා. මම දැන්ම කරන්නම්."
+        },
+        {
+          "id": "4-5",
+          "japanese": "ちょっとよろしいですか？",
+          "furigana": "ちょっとよろしいですか？",
+          "romaji": "Chotto yoroshii desu ka?",
+          "sinhala": "විනාඩියක් කතා කරන්න පුළුවන්ද?"
+        },
+        {
+          "id": "4-6",
+          "japanese": "報告書を提出しました。",
+          "furigana": "報告書を提出しました。",
+          "romaji": "Hōkokusho o teishutsu shimashita.",
+          "sinhala": "මම වාර්තාව භාර දුන්නා."
+        },
+        {
+          "id": "4-7",
+          "japanese": "この作業は誰と一緒に行いますか？",
+          "furigana": "この作業は誰と一緒に行いますか？",
+          "romaji": "Kono sagyō wa dare to issho ni okonaimasu ka?",
+          "sinhala": "මෙම කාර්යය මම කා සමඟ එකතු වී සිදු කළ යුතුද?"
+        },
+        {
+          "id": "4-8",
+          "japanese": "休憩時間は何時から何時までですか？",
+          "furigana": "休憩時間は何時から何時までですか？",
+          "romaji": "Kyūkei jikan wa nan-ji kara nan-ji made desu ka?",
+          "sinhala": "විවේක කාලය කීයේ සිට කී දක්වාද?"
+        },
+        {
+          "id": "4-9",
+          "japanese": "道具の返却場所はどこですか？",
+          "furigana": "道具の返却場所はどこですか？",
+          "romaji": "Dōgu no henkyaku basho wa doko desu ka?",
+          "sinhala": "භාවිත කළ උපකරණ නැවත බාර දෙන ස්ථානය කොතැනද?"
+        },
+        {
+          "id": "4-10",
+          "japanese": "今日の残業はありますか？",
+          "furigana": "今日の残業はありますか？",
+          "romaji": "Kyō no zangyō wa arimasu ka?",
+          "sinhala": "අද අමතර පැයවල වැඩ (Overtime) කිරීමට තිබෙනවාද?"
+        }
+      ]
+    },
+    {
+      "section_id": 5,
+      "section_name_si": "GSE උපකරණ සහ මෙහෙයුම්",
+      "section_name_en": "GSE Equipment & Operations",
+      "examples": [
+        {
+          "id": "5-1",
+          "japanese": "トーイングトラクターを発進します。",
+          "furigana": "トーイングトラクターを発進します。",
+          "romaji": "Tōingu torakutā o hasshin shimasu.",
+          "sinhala": "ටෝයිං ට්‍රැක්ටරය ගමන් ආරම්භ කරයි."
+        },
+        {
+          "id": "5-2",
+          "japanese": "給水車のホースを接続してください。",
+          "furigana": "給水車のホースを接続してください。",
+          "romaji": "Kyūsuisha no hōsu o setsuzoku shite kudasai.",
+          "sinhala": "ජල ටැංකි රථයේ හෝස් එක සවි කරන්න."
+        },
+        {
+          "id": "5-3",
+          "japanese": "GPUの電源を入れてください。",
+          "furigana": "GPUの電源を入れてください。",
+          "romaji": "GPU no dengen o irete kudasai.",
+          "sinhala": "GPU (බිම් බල ඒකකයේ) විදුලිය සක්‍රීය කරන්න."
+        },
+        {
+          "id": "5-4",
+          "japanese": "パレットドーリーの位置を調整してください。",
+          "furigana": "パレットドーリーの位置を調整してください。",
+          "romaji": "Paretto dorī no ichi o chōsei shite kudasai.",
+          "sinhala": "පැලට් ඩොලී එකේ පිහිටීම සකස් කරන්න."
+        },
+        {
+          "id": "5-5",
+          "japanese": "ベルトローダーを機体に付けてください。",
+          "furigana": "ベルトローダーを機体に付けてください。",
+          "romaji": "Beruto rōdā o kitai ni tsukete kudasai.",
+          "sinhala": "බෙල්ට් ලෝඩර් යන්ත්‍රය යානයට ළං කරන්න."
+        },
+        {
+          "id": "5-6",
+          "japanese": "ハイリフトローダーの高さを合わせてください。",
+          "furigana": "ハイリフトローダーの高さを合わせてください。",
+          "romaji": "Hairifuto rōdā no takasa o awasete kudasai.",
+          "sinhala": "හයිලිෆ්ට් ලෝඩර් රථයේ උස යානයට ගැළපෙන සේ සකස් කරන්න."
+        },
+        {
+          "id": "5-7",
+          "japanese": "バキューム車の作業が終了しました。",
+          "furigana": "バキューム車の作業が終了しました。",
+          "romaji": "Bakyūmusha no sagyō ga shūryō shimashita.",
+          "sinhala": "අපජල ඉවත් කරන රථයේ (Vacuum truck) වැඩ කටයුතු අවසන්."
+        },
+        {
+          "id": "5-8",
+          "japanese": "トーバーレストラクターで飛行機を押し出します。",
+          "furigana": "トーバーレストラクターで飛行機を押し出します。",
+          "romaji": "Tōbāresu torakutā de hikōki o oshidashimasu.",
+          "sinhala": "ටෝබාර් රහිත ට්‍රැක්ටරයෙන් ගුවන් යානය පිටුපසට තල්ලු කරයි."
+        },
+        {
+          "id": "5-9",
+          "japanese": "バッテリーの充電状態を確認してください。",
+          "furigana": "バッテリーの充電状態を確認してください。",
+          "romaji": "Battarī no jūden jōtai o kakunin shite kudasai.",
+          "sinhala": "බැටරියේ ආරෝපණ මට්ටම පරීක්ෂා කරන්න."
+        },
+        {
+          "id": "5-10",
+          "japanese": "車両の点検記録簿に記入してください。",
+          "furigana": "車両の点検記録簿に記入してください。",
+          "romaji": "Sharyō no tenken kirokubo ni kinyū shite kudasai.",
+          "sinhala": "වාහන පරීක්ෂා කිරීමේ වාර්තා පොතේ සටහන් කරන්න."
+        }
+      ]
+    },
+    {
+      "section_id": 6,
+      "section_name_si": "හදිසි අවස්ථා සහ ගැටළු විසඳීම",
+      "section_name_en": "Emergencies & Troubleshooting",
+      "examples": [
+        {
+          "id": "6-1",
+          "japanese": "緊急停止ボタンを押してください！",
+          "furigana": "緊急停止ボタンを押してください！",
+          "romaji": "Kinkyū teishi botan o oshite kudasai!",
+          "sinhala": "හදිසි නැවතුම් බොත්තම ඔබන්න!"
+        },
+        {
+          "id": "6-2",
+          "japanese": "機体に傷を見つけました。写真を撮ります。",
+          "furigana": "機体に傷を見つけました。写真を撮ります。",
+          "romaji": "Kitai ni kizu o mitsukemashita. Shashin o torimasu.",
+          "sinhala": "යානයේ සීරීමක්/හානියක් දුටුවෙමි. ඡායාරූපයක් ලබා ගන්නෙමි."
+        },
+        {
+          "id": "6-3",
+          "japanese": "すぐに責任者を呼んでください。",
+          "furigana": "すぐに責任者を呼んでください。",
+          "romaji": "Sugu ni sekininsha o yonde kudasai.",
+          "sinhala": "කඩිනමින් වගකිවයුතු නිලධාරියා (Supervisor) කැඳවන්න."
+        },
+        {
+          "id": "6-4",
+          "japanese": "火災報知器が鳴りました。避難してください。",
+          "furigana": "火災報知器が鳴りました。避難してください。",
+          "romaji": "Kasai hōchiki ga narimashita. Hinan shite kudasai.",
+          "sinhala": "ගිනි නිවන අනතුරු ඇඟවීම නාද විය. ඉවත් වන්න."
+        },
+        {
+          "id": "6-5",
+          "japanese": "エンジンから異音がします。すぐに作業を止めてください。",
+          "furigana": "エンジンから異音がします。すぐに作業を止めてください。",
+          "romaji": "Enjin kara ion ga shimasu. Sugu ni sagyō o tomete kudasai.",
+          "sinhala": "එන්ජිමෙන් අසාමාන්‍ය ශබ්දයක් ඇහෙනවා. වහාම වැඩ නවත්වන්න."
+        },
+        {
+          "id": "6-6",
+          "japanese": "雨が強くなってきました。安全のため一時中断します。",
+          "furigana": "雨が強くなってきました。安全のため一時中断します。",
+          "romaji": "Ame ga tsuyoku natte kimashita. Anzen no tame ichiji chūdan shimasu.",
+          "sinhala": "වැස්ස වැඩි වෙමින් පවතිනවා. ආරක්ෂාව වෙනුවෙන් තාවකාලිකව වැඩ නවත්වනවා."
+        },
+        {
+          "id": "6-7",
+          "japanese": "燃料が漏れている可能性があります。近づかないでください。",
+          "furigana": "燃料が漏れている可能性があります。近づかないでください。",
+          "romaji": "Nenryō ga morete iru kanōsei ga arimasu. Chikadukanaide kudasai.",
+          "sinhala": "ඉන්ධන කාන්දුවක් වීමට ඉඩ ඇත. ළඟට යන්න එපා."
+        },
+        {
+          "id": "6-8",
+          "japanese": "無線機が故障しました。他の方法で連絡します。",
+          "furigana": "無線機が故障しました。他の方法で連絡します。",
+          "romaji": "Musenki ga koshō shimashita. Hoka no hōhō de renraku shimasu.",
+          "sinhala": "වෝකි ටෝකි (Wireless) උපකරණය කැඩී ගොස් ඇත. වෙනත් ක්‍රමයකින් සම්බන්ධ වන්නෙමි."
+        },
+        {
+          "id": "6-9",
+          "japanese": "フォークリフトが動かなくなりました。整備士を呼んでください。",
+          "furigana": "フォークリフトが動かなくなりました。整備士を呼んでください。",
+          "romaji": "Fōkurifuto ga ugokanakunarimashita. Seibishi o yonde kudasai.",
+          "sinhala": "ෆෝක්ලිෆ්ට් රථය ක්‍රියාත්මක වන්නේ නැත. කාර්මික ශිල්පියා (Mechanic) කැඳවන්න."
+        },
+        {
+          "id": "6-10",
+          "japanese": "ケガ人を救護室へ運びます。救急車を呼んでください。",
+          "furigana": "ケガ人を救護室へ運びます。救急車を呼んでください。",
+          "romaji": "Kegainin o kyūgoshitsu e hakobimasu. Kyūkyūsha o yonde kudasai.",
+          "sinhala": "තුවාලකරු ප්‍රථමාධාර කාමරයට ගෙන යන්න. ඇම්බුලන්ස් රථයක් කැඳවන්න."
+        }
+      ]
+    }
+  ]
+}
