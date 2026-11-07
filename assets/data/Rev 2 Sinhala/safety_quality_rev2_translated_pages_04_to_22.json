@@ -1,0 +1,1494 @@
+{
+  "metadata": {
+    "project": "SSW-ReadyToFly",
+    "module": "Safety and Quality",
+    "revision": "Rev 2",
+    "source_pdf": "GHtext【1.Safety and Quality】.REV2.pdf",
+    "source_revision": "2026-06-23",
+    "dataset": "source_aligned_translation_v1",
+    "status": "DRAFT_TRANSLATION_REVIEW_REQUIRED",
+    "source_language": "Japanese",
+    "target_languages": [
+      "English",
+      "Sinhala"
+    ],
+    "pdf_page_mapping": "PDF physical page = printed page + 2 for printed content pages 1-22",
+    "image_mapping_status": "PENDING_VISUAL_MAPPING",
+    "audio_status": "SCRIPT_DRAFTS_PRESENT_NOT_PLAYBACK_TESTED",
+    "note": "Translations are source-grounded study translations, not certified legal or aviation procedure translations. Follow employer/airport procedures and official notices for operations."
+  },
+  "pages": [
+    {
+      "page_number": 4,
+      "pdf_page": 6,
+      "page_title_english": "1. General",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P04_S01",
+          "section_title": "A. Airline Safety",
+          "japanese": {
+            "original_kanji": "航空会社の安全"
+          },
+          "english": "An airline must ensure that passengers and cargo arrive safely at their destinations. Preventing aircraft accidents is the most important part of airline safety. Unlike many other industries, an airline carries the lives of its passengers as a major responsibility. Everyone working in aviation must always keep safety and passengers’ lives in mind when carrying out their duties.",
+          "sinhala": "ගුවන් සමාගමක් මගීන් සහ භාණ්ඩ ඔවුන්ගේ ගමනාන්තයට ආරක්ෂිතව ළඟා කරවිය යුතුය. එනම් ගුවන් යානා අනතුරු සිදුවීම වැළැක්වීම ගුවන් සමාගමක ආරක්ෂාවේ වැදගත්ම කරුණයි. වෙනත් බොහෝ කර්මාන්තවලට වඩා වෙනස්ව, ගුවන් සමාගමක් මගීන්ගේ ජීවිත පිළිබඳ විශාල වගකීමක් දරයි. ගුවන් සේවා ක්ෂේත්‍රයේ සේවය කරන සියලු දෙනා තම රාජකාරි කරන සෑම විටම ආරක්ෂාව සහ මගීන්ගේ ජීවිත ගැන සිතා කටයුතු කළ යුතුය.",
+          "vocabulary_highlights": [
+            {
+              "term": "Safety (安全)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "passenger (乗客)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "cargo (貨物)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "aircraft accident (航空機事故)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ගුවන් සමාගමේ ප්‍රධාන වගකීම මගීන් සහ භාණ්ඩ ආරක්ෂිතව ගමනාන්තයට ළඟා කිරීමයි. ඒ නිසා සෑම සේවකයෙකුම ආරක්ෂාව පළමුව තබා කටයුතු කළ යුතුය.",
+            "japanese_tts_text": "航空会社は旅客や貨物を無事に目的地へ到着させなければなりません。航空機事故を起こさないことが最も重要です。航空に関係するすべての人は、安全と乗客の命を常に考えて業務を行うことが大切です。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P04_S02",
+          "section_title": "B. Purpose of Safe Flight Operations",
+          "japanese": {
+            "original_kanji": "安全運航の目的"
+          },
+          "english": "An aircraft accident can take irreplaceable human lives, cause serious physical and psychological harm, create major social anxiety, require substantial costs for compensation and accident response, threaten the airline’s financial position, and cause aircraft loss and disruption to scheduled services and passenger demand.",
+          "sinhala": "ගුවන් යානා අනතුරකින් නැවත ලබාගත නොහැකි මිනිස් ජීවිත අහිමි විය හැකිය. මරණ සිදු නොවුණත් මගීන්ට ශාරීරික හා මානසික හානි ඇති විය හැකිය. එවැනි අනතුරු සමාජයේ විශාල භීතියක් ඇති කරන අතර වන්දි, අනතුරු ස්ථානය කළමනාකරණය සහ සේවකයින් යෙදවීම සඳහා විශාල වියදම් ඇති කරයි. ගුවන් යානය අහිමි වීම සමාගමේ ආර්ථික තත්ත්වයට බලපාන අතර නියමිත ගුවන් ගමන් සහ මගී ඉල්ලුමට සේවා සැපයීමද බාධා කරයි.",
+          "vocabulary_highlights": [
+            {
+              "term": "Compensation (賠償・補償)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "flight schedule (運航スケジュール)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "psychological harm (心理的な傷)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ගුවන් අනතුරක් ජීවිත හානි, සමාජීය බලපෑම්, විශාල වියදම් සහ ගුවන් ගමන් ප්‍රමාද හෝ අවලංගු වීම ඇති කළ හැකිය. අනතුරු වැළැක්වීම අත්‍යවශ්‍යයි.",
+            "japanese_tts_text": "航空機事故は命を奪い、身体的・心理的な傷を与え、社会的不安や多額の費用を生じさせます。また、航空機の損失は会社経営や運航スケジュールに大きな影響を与えます。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 5,
+      "pdf_page": 7,
+      "page_title_english": "2. Aircraft Safety",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P05_S01",
+          "section_title": "A. Aircraft Have Priority",
+          "japanese": {
+            "original_kanji": "航空機優先"
+          },
+          "english": "Within a restricted area, aircraft operations always have the highest priority. No vehicle or other activity may obstruct aircraft operations. Reasons include limited manoeuvrability, very poor visibility from the cockpit, large quantities of flammable materials such as fuel, and the high value of aircraft.",
+          "sinhala": "සීමා කළ ප්‍රදේශයක් තුළ ගුවන් යානා මෙහෙයුම්වලට සෑම විටම ඉහළම ප්‍රමුඛතාව ලබාදිය යුතුය. කිසිදු වාහනයක් හෝ වෙනත් ක්‍රියාවක් ගුවන් යානා මෙහෙයුම්වලට බාධා නොකළ යුතුය. ගුවන් යානා ඉක්මනින් හැරවීමට හෝ නවතා ගැනීමට අපහසු වීම, නියමු කුටියේ දෘශ්‍යතාව අඩු වීම, ඉන්ධන වැනි ගිනිගන්නා ද්‍රව්‍ය විශාල ප්‍රමාණයක් තිබීම සහ යානයේ ඉහළ වටිනාකම මෙයට හේතු වේ.",
+          "vocabulary_highlights": [
+            {
+              "term": "Aircraft priority (航空機優先)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "restricted area (制限区域)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "cockpit visibility (操縦席からの視界)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "flammable material (可燃物)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "රැම්ප් සහ සීමා කළ ප්‍රදේශවල ගුවන් යානයට ප්‍රමුඛතාව දෙන්න. වාහන හෝ සේවකයින් ගුවන් යානයේ ගමනට බාධා නොකළ යුතුය.",
+            "japanese_tts_text": "制限区域内では、常に航空機の運航が最優先です。車両などは航空機の運航を妨げてはいけません。航空機は機敏に動けず、操縦席からの視界が悪く、燃料などの可燃物を多く搭載し、高価であるためです。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P05_S02",
+          "section_title": "Cockpit Visibility and Clearance",
+          "japanese": {
+            "original_kanji": "航空機からの視界"
+          },
+          "english": "The cockpit has many blind areas, and it is difficult for the flight crew to see objects very close to the aircraft. For the Boeing 777-200 example in the source: the pilots cannot see the wingtips from the normal operating position; ground obstacles directly ahead may not be visible until they are about 15 m away, and on the captain’s right side until about 10 m away. Visual estimates of wingtip clearance may have an error of around 3 m. Without marshaller guidance, vehicles and obstacles must not be within 40 m ahead of an aircraft taxiing on the ground.",
+          "sinhala": "නියමු කුටියේ සිට නොපෙනෙන ප්‍රදේශ බොහෝ ඇත. ගුවන් යානයට ඉතා ආසන්න වස්තූන් දැකීම අපහසුය. මූලාශ්‍රයේ Boeing 777-200 උදාහරණයට අනුව සාමාන්‍ය නියමු ස්ථානයේ සිට පියාපත් අග දෙක නොපෙනේ. ඉදිරිපස බිම් බාධක මීටර් 15ක් පමණ දුරකට පැමිණෙන තුරුත්, කපිතාන්ගේ දකුණු පැත්තේ බාධක මීටර් 10ක් පමණ දුරකට පැමිණෙන තුරුත් නොපෙනිය හැකිය. පියාපත් අග සහ බාධක අතර පරතරය ඇස්තමේන්තු කිරීමේදී මීටර් 3ක් පමණ දෝෂයක් ඇති විය හැකිය. මාර්ෂලර් මඟපෙන්වීමක් නොමැතිව බිම ගමන් කරන ගුවන් යානයක ඉදිරිපස මීටර් 40ක් ඇතුළත වාහන හෝ බාධක නොතිබිය යුතුය.",
+          "vocabulary_highlights": [
+            {
+              "term": "Blind area (死角)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "wingtip (翼端)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "clearance (間隔)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "marshaller (マーシャラー)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "taxiing (地上走行)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "නියමුවාට යානයේ පියාපත් අග සහ ආසන්න බාධක නිවැරදිව නොපෙනිය හැකිය. එබැවින් මාර්ෂලර් සංඥා සහ නියමිත ආරක්ෂිත පරතර අනුගමනය කරන්න.",
+            "japanese_tts_text": "コックピットから見えない範囲が多く、機体の近くを確認することは困難です。B777-200では翼端が見えず、前方の障害物は約15m、機長席右側では約10m離れなければ確認できない場合があります。翼端クリアランスの目測には約3mの誤差があり、マーシャラーの誘導がない場合、地上走行中の航空機の前方40m以内に車両や障害物があってはなりません。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 6,
+      "pdf_page": 8,
+      "page_title_english": "Aircraft Safety – Watchman Signals",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P06_S01",
+          "section_title": "Appropriate Signals and Watchman Duties",
+          "japanese": {
+            "original_kanji": "適切な合図"
+          },
+          "english": "Watch work is the task of monitoring and guiding an aircraft to its target position through signals between the watchman and other personnel, including flight crew, maintenance staff, marshallers, tug drivers and other drivers. The watchman must use standard movements and signals clearly, accurately and at the appropriate time so that the intended message is understood. Watchman signals at each airport must be standardized according to the applicable standard.",
+          "sinhala": "Watch කාර්යය යනු Watchman සහ නියමු කණ්ඩායම, නඩත්තු සේවකයින්, මාර්ෂලර්වරුන්, ගුවන් යානා ඇදගෙන යන වාහන රියදුරන් සහ වෙනත් රියදුරන් අතර සංඥා හුවමාරු කරමින් ගුවන් යානය නියමිත ස්ථානයට ආරක්ෂිතව ගෙන යාම නිරීක්ෂණය කිරීම හා මඟපෙන්වීමයි. අදහස නිවැරදිව තේරුම්ගත හැකි ලෙස Watchman විසින් සම්මත චලන සහ සංඥා පැහැදිලිව, නිවැරදිව සහ සුදුසු වේලාවට භාවිත කළ යුතුය. එක් එක් ගුවන් තොටුපළේ Watchman සංඥා අදාළ ප්‍රමිතියට අනුව එකම ආකාරයෙන් ක්‍රියාත්මක විය යුතුය.",
+          "vocabulary_highlights": [
+            {
+              "term": "Watchman (ウォッチマン)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "hand signal (手信号)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "All Clear (オール・クリア)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "emergency stop (急停止)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "Watchman විසින් සම්මත සංඥා භාවිතයෙන් ගුවන් යානය හෝ වාහනය ආරක්ෂිතව මඟපෙන්වයි. සංඥා පැහැදිලි සහ එකම ප්‍රමිතියකට අනුකූල විය යුතුය.",
+            "japanese_tts_text": "ウォッチ作業は、ウォッチマンと他の担当者が合図を通じて航空機を安全に目標場所へ移動できるよう監視し、導く作業です。意図が正確に伝わるよう、基本動作と合図を適切かつ正確に行い、各空港で統一された基準に従います。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 7,
+      "pdf_page": 9,
+      "page_title_english": "Aircraft Departure Checks and Engine Hazards",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P07_S01",
+          "section_title": "Checks Before Aircraft Departure",
+          "japanese": {
+            "original_kanji": "出発発見の着眼点"
+          },
+          "english": "Before an aircraft departs, check whether: the anti-collision light is illuminated; the aircraft engines have started; the passenger boarding bridge (PBB) has been moved away from the aircraft; passenger-step, ground-power and air-starter vehicles are clear; the aircraft tug’s yellow rotating light is illuminated; wheel chocks have been removed; and the watchman has given the All Clear signal.",
+          "sinhala": "ගුවන් යානය පිටත්වීමට පෙර පහත කරුණු පරීක්ෂා කරන්න: Anti-collision light දැල්වී තිබේද; එන්ජින් ආරම්භ කර තිබේද; PBB යානයෙන් ඉවත් කර තිබේද; passenger step, ground power සහ air starter වාහන ඉවත් කර තිබේද; aircraft tug රථයේ කහ පැහැති කැරකෙන ආලෝකය දැල්වී තිබේද; wheel chocks ඉවත් කර තිබේද; Watchman විසින් All Clear සංඥාව ලබාදී තිබේද.",
+          "vocabulary_highlights": [
+            {
+              "term": "Anti-collision light (衝突防止灯)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "PBB (旅客搭乗橋)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "ground power unit (グラウンドパワー車)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "air starter (エア・スターター車)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "wheel chock (車輪止め)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "All Clear",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ගුවන් යානය පිටත්වීමට පෙර ආලෝක, එන්ජින්, PBB, සේවා වාහන, chocks සහ Watchman All Clear සංඥාව පරීක්ෂා කරන්න.",
+            "japanese_tts_text": "航空機の出発前に、衝突防止灯、エンジン始動、PBBの離脱、旅客ステップ車・グラウンドパワー車・エアスターター車の有無、牽引車の黄色回転灯、車輪止めの取り外し、ウォッチマンのオールクリア合図を確認します。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P07_S02",
+          "section_title": "Engine Blast – Exhaust Hazard",
+          "japanese": {
+            "original_kanji": "ブラスト（排気）の危険"
+          },
+          "english": "When a jet engine operates on the ground, exhaust blast creates a hazardous area. The source highlights temperature and wind speed as important hazards to people. The blast may be invisible; a blast wind speed of 25 m/s is comparable to a typhoon and can blow a person away if they are not careful.",
+          "sinhala": "ජෙට් එන්ජිමක් බිමදී ක්‍රියාත්මක වන විට පිටවන වායු ධාරාව (exhaust blast) අනතුරුදායක කලාපයක් ඇති කරයි. උෂ්ණත්වය සහ සුළං වේගය මිනිසුන්ට බලපාන ප්‍රධාන අවදානම් වේ. මෙම blast එක ඇසට නොපෙනිය හැකිය. තත්පරයට මීටර් 25ක blast සුළං වේගය ටයිෆූන් තත්ත්වයකට සමාන වන අතර සැලකිලිමත් නොවුණහොත් පුද්ගලයෙකු පවා විසිවී යා හැකිය.",
+          "vocabulary_highlights": [
+            {
+              "term": "Exhaust blast (ブラスト・排気)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "hazard area (危険区域)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "wind speed (風速)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "25 m/s",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "එන්ජිමේ පිටුපස exhaust blast එක නොපෙනුණත් ඉතා ප්‍රබල විය හැකිය. මූලාශ්‍රය සඳහන් කරන වේගය 25 m/s යි.",
+            "japanese_tts_text": "ジェットエンジンのブラストでは温度と風速が人体に影響します。ブラストは目に見えず、風速25m/sは台風並みで、注意しないと吹き飛ばされる危険があります。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 8,
+      "pdf_page": 10,
+      "page_title_english": "Engine Inlet and Dangerous Goods",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P08_S01",
+          "section_title": "Engine Inlet – Suction Hazard",
+          "japanese": {
+            "original_kanji": "インテーク（吸気）側の危険"
+          },
+          "english": "The area in front of a jet engine, where air is drawn into the engine, is also extremely dangerous. If a hat is blown off during work, never approach the engine inlet to retrieve it: a person could be sucked into the engine. Before starting work, check that no loose objects around you could be drawn into an engine and understand the hazard-area boundaries.",
+          "sinhala": "ජෙට් එන්ජිමක ඉදිරිපසින් වාතය ඇතුළට ඇදගන්නා inlet ප්‍රදේශයද ඉතා අනතුරුදායකය. වැඩ කරන අතරතුර තොප්පියක් සුළඟට ගසාගෙන ගියහොත් එය ගැනීමට එන්ජිමේ ඉදිරිපසට කිසිවිටෙක ළඟා නොවන්න; පුද්ගලයෙකු එන්ජිම තුළට ඇදගැනීමට ඉඩ ඇත. වැඩ ආරම්භ කිරීමට පෙර අවට ඇති ලිහිල් වස්තූන් එන්ජිමට ඇදගත හැකිදැයි පරීක්ෂා කර අනතුරුදායක කලාපයේ සීමා හොඳින් අවබෝධ කරගන්න.",
+          "vocabulary_highlights": [
+            {
+              "term": "Engine inlet (インテーク・吸気)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "suction hazard (吸い込み危険)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "loose objects (身の回りの物)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "hazard boundary (危険区域)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "එන්ජිමේ inlet පැත්තට ළඟා වීමෙන් වස්තූන් හෝ පුද්ගලයන් ඇතුළට ඇදගත හැකිය. ගසාගෙන ගිය තොප්පියක් ගැනීමට එන්ජිම අසලට යන්න එපා.",
+            "japanese_tts_text": "ジェットエンジンの前方、空気を吸い込む側も大変危険です。飛ばされた帽子を取りにエンジン前方へ近づいてはいけません。作業前に吸い込まれるおそれのある物がないか確認し、危険区域を十分に認識します。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P08_S02",
+          "section_title": "Dangerous Goods Transport",
+          "japanese": {
+            "original_kanji": "危険物輸送"
+          },
+          "english": "Except for specified exceptions, laws prohibit carrying dangerous goods such as explosives, easily ignited or flammable items, and firearms or swords on an aircraft because they may cause an explosion or damage the aircraft. Aviation security measures include restrictions on baggage-only carriage, security screening such as X-ray inspection, and requiring transport operators to confirm cargo details with shippers.",
+          "sinhala": "විශේෂ ව්‍යතිරේක හැර, පුපුරන ද්‍රව්‍ය, පහසුවෙන් ගිනිගන්නා හෝ දැල්වෙන ද්‍රව්‍ය, ගිනිඅවි සහ කඩු වැනි අන්තරායකර භාණ්ඩ ගුවන් යානයක රැගෙන යාම නීතියෙන් තහනම් වේ. ඒවා යානය පුපුරා යාමට හෝ හානි වීමට හේතු විය හැකිය. ගුවන් ආරක්ෂක ක්‍රියාමාර්ග අතර ගමන් මලු පරීක්ෂා කිරීම සම්බන්ධ සීමා, X-ray ආරක්ෂක පරීක්ෂණ සහ භාණ්ඩ යවන්නාගෙන් තොරතුරු තහවුරු කරගැනීම ඇතුළත් වේ.",
+          "vocabulary_highlights": [
+            {
+              "term": "Dangerous goods (危険物)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "security screening (保安検査)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "X-ray inspection (X-Ray検査)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "shipper (荷送人)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "අන්තරායකර භාණ්ඩ නීති සහ ආරක්ෂක පරීක්ෂණ අනුගමනය කළ යුතුය. භාණ්ඩ ප්‍රවාහනයේදී යවන්නාගේ තොරතුරු තහවුරු කිරීම වැදගත්ය.",
+            "japanese_tts_text": "爆発物、発火・引火しやすい物、銃砲刀剣類などの危険物は、特例を除き航空機への搭載が法律で禁止されています。保安検査やX線検査、貨物輸送時の荷送人への確認などにより安全運航を保ちます。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 9,
+      "pdf_page": 11,
+      "page_title_english": "Weight and Balance",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P09_S01",
+          "section_title": "Weight and Balance",
+          "japanese": {
+            "original_kanji": "ウエイト・アンド・バランス"
+          },
+          "english": "Excessive aircraft weight adversely affects performance throughout flight, including increased take-off and landing speeds and distances, reduced range and increased fuel consumption. It is therefore essential to determine weight accurately and ensure it does not exceed prescribed limits, as required by aviation regulations.",
+          "sinhala": "ගුවන් යානයේ බර සීමාව ඉක්මවීම ගුවන් ගමනේ සෑම අදියරකම කාර්යසාධනයට අහිතකර වේ. එමඟින් ගුවන්ගත වීමේ සහ ගොඩබෑමේ වේගය හා දුර වැඩි වීම, පියාසර කළ හැකි දුර අඩුවීම සහ ඉන්ධන පරිභෝජනය වැඩි වීම සිදුවේ. එබැවින් බර නිවැරදිව හඳුනාගෙන නියමිත සීමාව ඉක්මවා නොමැති බව තහවුරු කිරීම ගුවන් සේවා රෙගුලාසි අනුව අත්‍යවශ්‍ය වේ.",
+          "vocabulary_highlights": [
+            {
+              "term": "Weight and balance (重量・重心)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "take-off distance (離陸距離)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "landing distance (着陸距離)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "range (航続距離)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "fuel consumption (燃料消費量)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "බර වැඩි වීම take-off/landing performance, range සහ fuel consumption වලට බලපායි. නියමිත බර සීමාව ඉක්මවන්න එපා.",
+            "japanese_tts_text": "重量超過は、離着陸速度・距離の増大、航続距離の低下、燃料消費量の増大など、飛行性能に悪影響を及ぼします。重量を正確に把握し、規定値を超過していないことを確認する必要があります。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P09_S02",
+          "section_title": "Fuel, Payload and Flight Planning",
+          "japanese": {
+            "original_kanji": "搭載燃料・重量・フライトプラン"
+          },
+          "english": "In bad weather or strong headwinds, additional fuel may be required. This can mean reducing cargo, mail and sometimes the number of passengers. Aircraft weight and centre of gravity must be checked, and a flight plan prepared using information such as flight distance and fuel load. Passenger numbers, baggage-item counts, cargo weight and loaded water quantity must be accurately reported to the operations department according to the rules.",
+          "sinhala": "අයහපත් කාලගුණය හෝ තද ඉදිරි සුළං පවතින විට අමතර ඉන්ධන පටවීමට සිදුවිය හැකිය. එවිට භාණ්ඩ, තැපැල් ද්‍රව්‍ය සහ සමහර අවස්ථාවල මගීන් සංඛ්‍යාවද අඩු කිරීමට සිදුවිය හැකිය. ගුවන් යානයේ බර සහ ගුරුත්ව කේන්ද්‍රය පරීක්ෂා කර පියාසර දුර සහ ඉන්ධන ප්‍රමාණය ඇතුළත් flight plan එක සකස් කළ යුතුය. මගීන් ගණන, ගමන් මලු ගණන, භාණ්ඩ බර සහ පටවන ජල ප්‍රමාණය නියමිත ක්‍රමයට මෙහෙයුම් අංශයට නිවැරදිව වාර්තා කළ යුතුය.",
+          "vocabulary_highlights": [
+            {
+              "term": "Centre of gravity (重心)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "payload (有償重量)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "flight plan (フライト・プラン)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "baggage count (手荷物個数)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "cargo weight (貨物重量)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "අමතර ඉන්ධන අවශ්‍ය වූ විට payload අඩු කිරීමට සිදුවිය හැකිය. Weight, centre of gravity සහ load details නිවැරදිව වාර්තා කරන්න.",
+            "japanese_tts_text": "悪天候や強い向かい風では追加燃料が必要となり、貨物・郵便物や乗客を減らす場合があります。航空機の重量と重心を確認し、飛行距離や搭載燃料を含むフライトプランを作成します。搭乗人数、手荷物個数、貨物重量、搭載水量を運航担当部署へ正確に報告します。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 10,
+      "pdf_page": 12,
+      "page_title_english": "Aviation Security",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P10_S01",
+          "section_title": "Aviation Security",
+          "japanese": {
+            "original_kanji": "航空保安"
+          },
+          "english": "Security inspections are carried out on passengers, carry-on baggage and checked baggage to provide safe and comfortable flights and prevent unlawful acts such as hijacking and aircraft bombing. If the number of passengers who completed boarding procedures does not match the number who boarded the aircraft, appropriate action must be taken according to regulations. Explosive devices may be brought on board as components or chemicals rather than completed devices. If such items or tools are found during cabin cleaning, report them immediately to the responsible person and have them removed. Workers entering restricted areas must undergo explosive screening. Suspicious persons near an aircraft must be reported immediately.",
+          "sinhala": "මගීන්ට ආරක්ෂිත සහ සුවපහසු ගුවන් ගමනක් ලබාදීමට මගීන්, අතේ ගෙන යන ගමන් මලු සහ check-in කළ ගමන් මලු ආරක්ෂක පරීක්ෂාවට ලක් කරයි. එමඟින් ගුවන් යානා පැහැරගැනීම සහ යානය පුපුරවා හැරීම වැනි නීතිවිරෝධී ක්‍රියා වැළැක්වේ. Boarding ක්‍රියාවලිය සම්පූර්ණ කළ මගීන් සංඛ්‍යාව සහ යානයට ඇතුළු වූ මගීන් සංඛ්‍යාව නොගැළපේ නම් නියමයන් අනුව නිවැරදි පියවර ගත යුතුය. පුපුරන ද්‍රව්‍ය සම්පූර්ණ උපකරණ ලෙස නොව කොටස් හෝ රසායනික ද්‍රව්‍ය ලෙසද යානයට ගෙන ඒමට හැකිය. Cabin cleaning අතර එවැනි ද්‍රව්‍ය හෝ මෙවලම් හමුවුවහොත් වහාම වගකිවයුතු නිලධාරියාට දන්වා ඉවත් කළ යුතුය. සීමා කළ ප්‍රදේශයට ඇතුළු වන සේවකයින් explosive screening පරීක්ෂාවට ලක් විය යුතු අතර යානය අසල සැකකටයුතු පුද්ගලයෙකු දුටුවහොත් වහාම වාර්තා කළ යුතුය.",
+          "vocabulary_highlights": [
+            {
+              "term": "Aviation security (航空保安)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "hijacking (ハイジャック)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "checked baggage (預け入れ荷物)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "explosive screening (爆発物検査)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "restricted area (制限区域)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මගීන් සංඛ්‍යාව නොගැළපීම, සැකකටයුතු පුද්ගලයින් හෝ cabin එකේ සැකකටයුතු ද්‍රව්‍ය හමුවීම වහාම වාර්තා කළ යුතුය.",
+            "japanese_tts_text": "旅客、手荷物、預け入れ荷物の保安検査は、ハイジャックや航空機爆破などの不法行為を防ぐために行われます。搭乗手続き済み旅客数と搭乗者数が一致しない場合は規定に基づき処置します。不審物や工具を発見した場合は責任者へ報告し、制限区域に入る作業者は爆発物検査を受けます。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P10_S02",
+          "section_title": "Standard ID Card Control and Display",
+          "japanese": {
+            "original_kanji": "標準IDカードの管理・表示"
+          },
+          "english": "A standard ID card must be strictly controlled. It must not be used outside authorized areas or for purposes other than its intended purpose, and it must not be lent or transferred to another person. When entering a restricted area, display the card so it can easily be seen from outside and present it when requested by an official.",
+          "sinhala": "සම්මත ID කාඩ්පත දැඩිව පාලනය කළ යුතුය. අවසර ලත් ප්‍රදේශයෙන් පිටත හෝ එහි නියමිත අරමුණට වෙනස් අරමුණකට භාවිත නොකළ යුතු අතර වෙනත් අයෙකුට ණයට දීම හෝ පැවරීම නොකළ යුතුය. සීමා කළ ප්‍රදේශයකට ඇතුළු වන විට පිටතින් පහසුවෙන් දැකිය හැකි ලෙස කාඩ්පත පැළඳිය යුතු අතර නිලධාරියෙකු ඉල්ලා සිටින විට පෙන්විය යුතුය.",
+          "vocabulary_highlights": [
+            {
+              "term": "Standard ID card (標準IDカード)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "authorized area (許可区域)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "display (表示)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "transfer (譲渡)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ID කාඩ්පත අන් අයට දෙන්න එපා. සීමා කළ ප්‍රදේශයේදී පිටතින් පෙනෙන ලෙස පැළඳගෙන ඉල්ලූ විට පෙන්වන්න.",
+            "japanese_tts_text": "標準IDカードは厳重に管理します。許可区域外や目的外に使用せず、他人へ貸与・譲渡してはいけません。制限区域では外部から見えるように表示し、係員に求められた場合は提示します。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 11,
+      "pdf_page": 13,
+      "page_title_english": "3. Work Safety – Rules, Weather and Clothing",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P11_S01",
+          "section_title": "Compliance with Regulations",
+          "japanese": {
+            "original_kanji": "規定の遵守"
+          },
+          "english": "Aircraft-operation regulations and transport-related regulations concerning safety during ramp work must be followed without fail under the principle of “Safety First.”",
+          "sinhala": "ගුවන් යානා මෙහෙයුම්වලට අදාළ රෙගුලාසි සහ රැම්ප් වැඩවල ආරක්ෂාවට අදාළ ප්‍රවාහන රෙගුලාසි “ආරක්ෂාව පළමුව” යන මූලධර්මය යටතේ අනිවාර්යයෙන් පිළිපැදිය යුතුය.",
+          "vocabulary_highlights": [
+            {
+              "term": "Regulatory compliance (規定の遵守)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "Safety First (安全第一)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "ramp (ランプ)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "රැම්ප් වැඩවලදී Safety First මූලධර්මය අනුව සියලු අදාළ නියමයන් පිළිපදින්න.",
+            "japanese_tts_text": "航空機運航に関する規定とランプ内作業の安全に関する規定は、「安全第一」のために必ず守る必要があります。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P11_S02",
+          "section_title": "Weather and Heatstroke Prevention",
+          "japanese": {
+            "original_kanji": "天候"
+          },
+          "english": "Because airport ramps have few tall buildings or similar structures, severe weather such as strong winds, lightning, typhoons and snowfall may affect work. If work is judged dangerous and a stop-work instruction is issued, evacuate to a safe place. Japanese airports may remain hot and humid in summer, so heatstroke must be prevented through frequent water and salt intake and appropriate rest breaks.",
+          "sinhala": "ගුවන් තොටුපළ රැම්ප් ප්‍රදේශවල උස ගොඩනැගිලි නොමැති බැවින් තද සුළං, අකුණු, ටයිෆූන් සහ හිම පතනය වැනි අයහපත් කාලගුණය වැඩවලට බලපායි. වැඩ කිරීම අනතුරුදායක බව තීරණය කර නවත්වන ලෙස උපදෙස් ලැබුණහොත් ආරක්ෂිත ස්ථානයකට ඉවත් වන්න. ජපානයේ ගිම්හාන කාලයේ උෂ්ණත්වය සහ ආර්ද්‍රතාව ඉහළ විය හැකි බැවින් නිතර ජලය සහ ලවණ ලබාගැනීමත් සුදුසු විවේක ගැනීමත් මඟින් heatstroke වළක්වන්න.",
+          "vocabulary_highlights": [
+            {
+              "term": "Strong wind (強風)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "lightning (雷)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "typhoon (台風)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "snowfall (降雪)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "heatstroke (熱中症)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "hydration (水分補給)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "අයහපත් කාලගුණයකදී stop-work උපදෙස් පිළිපදින්න. උණුසුම් හා තෙත් කාලගුණයේදී ජලය/ලවණ ලබාගෙන විවේක ගන්න.",
+            "japanese_tts_text": "強風、雷、台風、降雪などが作業に影響する場合があります。作業中断の指示があれば安全な場所へ避難します。夏の高温多湿では、こまめな水分・塩分補給と適度な休憩で熱中症を防ぎます。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P11_S03",
+          "section_title": "Protective Helmet and Work Clothing",
+          "japanese": {
+            "original_kanji": "作業員の服装"
+          },
+          "english": "Workers engaged in loading and unloading must wear protective helmets correctly and fasten the chin strap. Depending on the work, protective equipment such as gloves, safety belts, helmets, hats and earplugs must be worn as required by rules, including during irregular handling such as damaged dangerous goods or infection-related response. Work clothing must be fastened: button clothing, close zippers, tie shoelaces and secure belts so they cannot become caught in conveyor belts, vehicle projections or levers.",
+          "sinhala": "භාණ්ඩ පැටවීමේ සහ බෑමේ කටයුතුවල නිරත සේවකයින් ආරක්ෂිත හිස්වැසුම් නිවැරදිව පැළඳ නිකට පටිය අනිවාර්යයෙන් සවි කළ යුතුය. වැඩේ ස්වභාවය අනුව අත්වැසුම්, ආරක්ෂිත පටි, හිස්වැසුම්, තොප්පි සහ කන් ආවරණ වැනි PPE නියමයන් අනුව පැළඳිය යුතුය. හානි වූ අන්තරායකර භාණ්ඩ හෝ ආසාදන අවදානම් සම්බන්ධ අසාමාන්‍ය කටයුතුද මෙයට ඇතුළත්ය. වැඩ ඇඳුමේ බොත්තම් දමා, zip වසා, සපත්තු ලේස් නිවැරදිව බැඳ, belt සවි කර conveyor belt, වාහන නෙරා ඇති කොටස් හෝ lever වල පැටලීම වැළැක්විය යුතුය.",
+          "vocabulary_highlights": [
+            {
+              "term": "Protective helmet (保護帽)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "chin strap (あご紐)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "PPE (保護具)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "earplug (耳栓)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "earmuff (イヤーマフ)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "conveyor belt (ベルトコンベヤ)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "Helmet එකේ chin strap සවි කරන්න. ලිහිල් ඇඳුම්, ලේස් හෝ belt conveyor සහ වාහන කොටස්වල පැටලෙන්න නොදෙන්න.",
+            "japanese_tts_text": "搭載・取り降ろし作業では保護帽を正しく着用し、あご紐を必ず掛けます。作業内容に応じた保護具を規定どおり使用します。作業服のボタン、ファスナー、靴紐、ベルトを整え、ベルトコンベヤや車両の突起物・レバー類への巻き込みを防ぎます。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 12,
+      "pdf_page": 14,
+      "page_title_english": "Vehicle Driving and Hearing Protection",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P12_S01",
+          "section_title": "Earplugs and Earmuffs",
+          "japanese": {
+            "original_kanji": "耳栓やイヤーマフの着用"
+          },
+          "english": "Ground-handling staff and other workers exposed to strong noise in ramp areas must correctly wear noise-protection equipment, such as earplugs and earmuffs, to prevent noise-induced hearing loss.",
+          "sinhala": "රැම්ප් ප්‍රදේශවල දැඩි ශබ්දයට නිරාවරණය වන Ground Handling සේවකයින් සහ අනෙකුත් සේවකයින් ශබ්දයෙන් ආරක්ෂා කරන earplugs හෝ earmuffs නිවැරදිව පැළඳිය යුතුය. එමඟින් ශබ්දය නිසා ඇතිවන ශ්‍රවණ දුර්වලතාව වළක්වාගත හැකිය.",
+          "vocabulary_highlights": [
+            {
+              "term": "Earplug (耳栓)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "earmuff (イヤーマフ)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "hearing protection (聴覚保護具)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "noise-induced hearing loss (騒音性難聴)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "රැම්ප් ශබ්දයෙන් කන් ආරක්ෂා කිරීමට earplugs හෝ earmuffs නිවැරදිව පළඳින්න.",
+            "japanese_tts_text": "強い騒音にさらされる作業員は、騒音性難聴を防ぐため、耳栓やイヤーマフなどの聴覚保護具を正しく着用する必要があります。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P12_S02",
+          "section_title": "Vehicle Driving – General Risk",
+          "japanese": {
+            "original_kanji": "車両の運転"
+          },
+          "english": "An accident in which a vehicle damages an aircraft can damage the aircraft, disrupt flight operations and cause major inconvenience to passengers. Other vehicle accidents can also cause significant company losses and affect subsequent work.",
+          "sinhala": "වාහනයකින් ගුවන් යානයකට හානි සිදුවන අනතුරකින් යානයට හානි වීම පමණක් නොව ගුවන් මෙහෙයුම්වලට බාධා ඇති වී මගීන්ට විශාල අපහසුතාවයක් සිදුවේ. අනෙකුත් වාහන අනතුරුද සමාගමට විශාල පාඩු ඇති කර පසුව සිදුකරන වැඩවලට බලපායි.",
+          "vocabulary_highlights": [
+            {
+              "term": "Vehicle accident (車両事故)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "aircraft damage (航空機損傷)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "flight operations (航空機運航)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "වාහන අනතුරු ගුවන් යානයට, ගුවන් ගමන්වලට, මගීන්ට සහ සමාගමේ මෙහෙයුම්වලට බලපායි.",
+            "japanese_tts_text": "車両による航空機損傷事故は、航空機だけでなく運航にも支障をきたし、乗客に迷惑をかけます。他の車両事故も会社に損失を与え、その後の作業に影響します。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P12_S03",
+          "section_title": "Vehicle and Equipment Use Precautions",
+          "japanese": {
+            "original_kanji": "車両・機材使用上の注意"
+          },
+          "english": "A person intending to drive in a restricted area must understand the Vehicle Safe Driving Textbook, attend the aviation authority’s course, pass the examination, have vehicle-driving permission displayed on the standard ID card, and complete and receive certification for the company’s internal general-vehicle driving training. Drive carefully and maintain safety awareness. As a general rule, vehicles and equipment must not pass beneath or be left beneath an aircraft; if authorized to pass, take care to avoid contact. When attaching equipment to an aircraft, account for aircraft lowering and raising and remain alert during work. Never raise or lower a vehicle work platform while moving.",
+          "sinhala": "සීමා කළ ප්‍රදේශයක වාහනයක් ධාවනය කිරීමට පෙර Vehicle Safe Driving Textbook එක අවබෝධ කරගෙන, ගුවන් සේවා අධිකාරියේ පුහුණුවට සහභාගී වී විභාගය සමත් විය යුතුය. සම්මත ID කාඩ්පතේ වාහන ධාවන අවසරය සටහන් කරවාගෙන සමාගමේ අභ්‍යන්තර සාමාන්‍ය වාහන ධාවන පුහුණුව සම්පූර්ණ කර සහතිකය ලබාගත යුතුය. වාහන ප්‍රවේශමෙන් ධාවනය කරන්න. සාමාන්‍යයෙන් වාහන සහ උපකරණ ගුවන් යානය යටින් ගමන් කිරීම හෝ එහි තැබීම නොකළ යුතුය. අවසර ලත් අවස්ථාවක යානයේ නොගැටෙන ලෙස සැලකිලිමත් වන්න. යානයට උපකරණ සවි කරන විට යානය පහළට/ඉහළට චලනය වීම ගැන අවධානය යොමු කරන්න. වාහනය ගමන් කරන අතරතුර වැඩ වේදිකාව ඉහළට හෝ පහළට නොකරන්න.",
+          "vocabulary_highlights": [
+            {
+              "term": "Vehicle Safe Driving Textbook (車両安全運転教本)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "restricted area (制限区域)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "vehicle permit (車両運転許可)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "work platform (作業台)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "සීමා කළ ප්‍රදේශයේ රිය පැදවීමට පුහුණුව, විභාගය සහ ID card අවසරය අවශ්‍යයි. ගමන් කරන වාහනයක platform එක ක්‍රියාත්මක නොකරන්න.",
+            "japanese_tts_text": "制限区域内で運転する者は、車両安全運転教本を理解し、航空局の講習と試験に合格し、標準IDカードに許可を表示し、社内訓練を修了・認定されなければなりません。車両は慎重に運転し、航空機の下を通過・放置しないこと。走行中に作業台を上下操作してはいけません。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 13,
+      "pdf_page": 15,
+      "page_title_english": "Vehicle Riding Prohibitions and Guiding",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P13_S01",
+          "section_title": "Prohibited Actions When Riding on Vehicles",
+          "japanese": {
+            "original_kanji": "車両への乗車に関わる禁止行為"
+          },
+          "english": "Workers must not be carried on cart vehicles, on forklift forks or on pallets. Workers must not be carried on a vehicle cargo bed unless safety measures have been implemented. Workers must not be carried in any place on a vehicle other than designated seats.",
+          "sinhala": "සේවකයින් cart වාහනවල, forklift forks මත හෝ pallets මත රැගෙන යාම තහනම්ය. ආරක්ෂක ක්‍රියාමාර්ග ක්‍රියාත්මක කර නොමැති නම් වාහනයක භාණ්ඩ පටවන තට්ටුවේ සේවකයින් රැගෙන යාම නොකළ යුතුය. වාහනයක නියමිත ආසන හැර වෙනත් ස්ථානයක සේවකයින් රැගෙන යාම තහනම්ය.",
+          "vocabulary_highlights": [
+            {
+              "term": "Cart vehicle (カート車)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "forklift fork (フォークリフトのフォーク)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "pallet (パレット)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "cargo bed (荷台)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "designated seat (座席)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "සේවකයින් forklift forks, pallet හෝ නියමිත ආසන නොවන ස්ථානවල රැගෙන යන්න එපා.",
+            "japanese_tts_text": "カート車、フォークリフトのフォーク、パレットの上に作業員を乗せてはいけません。荷台への乗車は安全対策がある場合を除き禁止され、座席以外に乗せてはいけません。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P13_S02",
+          "section_title": "Vehicle Guide Position and Safety Checks",
+          "japanese": {
+            "original_kanji": "車両の誘導者の位置・安全確認"
+          },
+          "english": "A guide may be needed when one driver’s attention is insufficient or a guide must be positioned on or outside the vehicle/equipment. The guide must stand where the driver can see the route, stopping point and hand signals. Even when reversing, the guide must not stand directly behind the vehicle. The guide must be in a safe position with an escape route. Before guiding, check that the vehicle is operated according to standards, the driver follows signals, the guide is correctly positioned, and there are no obstacles or workers in the route or surrounding area above, below, ahead, behind, left or right.",
+          "sinhala": "එක් රියදුරෙකුගේ අවධානය පමණක් ප්‍රමාණවත් නොවන විට හෝ වාහනය/උපකරණය මත හෝ පිටත මාර්ගෝපදේශකයෙකු අවශ්‍ය විට guide කෙනෙකු යෙදවිය හැකිය. රියදුරුට ගමන් මාර්ගය, නවත්වන ස්ථානය සහ හස්ත සංඥා පෙනෙන ස්ථානයක guide සිටිය යුතුය. වාහනය පසුපසට යන විටද එහි පිටුපසටම වී මඟපෙන්වීම නොකළ යුතුය. හදිසි අවස්ථාවක පලා යා හැකි ආරක්ෂිත ස්ථානයක සිටිය යුතුය. මඟපෙන්වීමට පෙර වාහනය නියමිත ප්‍රමිතියට ධාවනය කරනවාද, රියදුරු සංඥා අනුගමනය කරනවාද, guide නිවැරදි ස්ථානයේද, මාර්ගයේ සහ අවට ඉහළ/පහළ/ඉදිරි/පසු/වම්/දකුණු දිශාවල බාධක හෝ සේවකයින් සිටිනවාද යන්න පරීක්ෂා කරන්න.",
+          "vocabulary_highlights": [
+            {
+              "term": "Guide (誘導者)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "reversing (後退)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "hand signal (手信号)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "escape route (避難場所)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "obstacle (障害物)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "Guide රියදුරුට පෙනෙන, ආරක්ෂිත ස්ථානයක සිටිය යුතුය. මාර්ගය සහ වටපිටාව සියලු දිශාවලින් පරීක්ෂා කරන්න.",
+            "japanese_tts_text": "運転者の注意だけでは不十分な場合、誘導者を配置します。運転者から進路・停止位置・手信号が見える場所に立ち、後退時も車両の真後ろに立ってはいけません。安全な避難場所を確保し、車両の運転基準、合図、誘導者の位置、進路と周囲の障害物・作業者を確認します。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P13_S03",
+          "section_title": "Vehicle Guiding Method and 1 m Clearance",
+          "japanese": {
+            "original_kanji": "誘導の方法"
+          },
+          "english": "After checking safety, the guide must use hand and voice signals that the driver can clearly understand. Follow the correct standard signals and methods. If danger is sensed, stop the vehicle immediately. When guiding a vehicle to the forward lower cargo-compartment door of a narrow-body aircraft, maintain at least 1 m between the vehicle and the propeller or jet engine.",
+          "sinhala": "ආරක්ෂාව පරීක්ෂා කිරීමෙන් පසු රියදුරුට පැහැදිලිව තේරුම්ගත හැකි හස්ත සහ හඬ සංඥා භාවිත කර මඟපෙන්වන්න. නිවැරදි සම්මත සංඥා සහ ක්‍රම අනුගමනය කරන්න. අනතුරක් දැනුණහොත් වහාම වාහනය නවත්වන්න. Narrow-body ගුවන් යානයක ඉදිරිපස පහළ භාණ්ඩ කුටියේ දොර අසලට වාහනයක් මඟපෙන්වන විට වාහනය සහ propeller හෝ jet engine අතර අවම වශයෙන් මීටර් 1ක පරතරයක් තබන්න.",
+          "vocabulary_highlights": [
+            {
+              "term": "Voice signal (声による合図)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "hand signal (手信号)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "narrow-body aircraft (ナローボディ機)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "1 m clearance (1m以上の間隔)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "Guide සංඥා පැහැදිලිව දෙන්න. අනතුරක් දැනුණොත් වහාම නවත්වන්න. Narrow-body යානයේ අදාළ ස්ථානයේ engine/propeller සිට 1m හෝ වැඩි පරතරයක් තබන්න.",
+            "japanese_tts_text": "安全確認後、両手と声による合図で誘導します。危険を感じた場合はすぐに停止させます。ナローボディ機の前方下部貨物室ドアなどへ誘導する場合、プロペラまたはジェットエンジンと車両の間隔を1m以上あけます。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 14,
+      "pdf_page": 16,
+      "page_title_english": "Vehicle Guiding Signals",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P14_S01",
+          "section_title": "Vehicle Guiding Hand and Whistle Signals",
+          "japanese": {
+            "original_kanji": "車両誘導合図・信号"
+          },
+          "english": "The source figure shows five vehicle-guiding instructions and their whistle signals: proceed straight – “ピッピッ”; move to the driver’s left – “ピッピッ”; move to the driver’s right – “ピッピッ”; stop – a long “ピーー” followed by “ピッ!”; emergency stop – “ピッ!” repeated as shown in the figure. Follow the visual hand-signal patterns in Figure 6 and local airport procedures.",
+          "sinhala": "මූලාශ්‍රයේ Figure 6 හි වාහන මඟපෙන්වීමේ සංඥා පහක් සහ ඒවාට අදාළ විසිල් සංඥා දක්වා ඇත: කෙළින් යන්න – “පිප් පිප්”; රියදුරුගේ වම් පැත්තට යන්න – “පිප් පිප්”; රියදුරුගේ දකුණු පැත්තට යන්න – “පිප් පිප්”; නවත්වන්න – දිගු “පී…” පසුව “පිප්!”; හදිසි නවත්වීම – රූපයේ පෙන්වා ඇති පරිදි “පිප්!” නැවත නැවත. Figure 6 හි හස්ත සංඥා රටාව සහ ගුවන් තොටුපළේ දේශීය ක්‍රියාපටිපාටි අනුගමනය කරන්න.",
+          "vocabulary_highlights": [
+            {
+              "term": "Straight (直進)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "move left (左に寄れ)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "move right (右に寄れ)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "stop (停止)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "emergency stop (急停止)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "whistle signal (ホイッスル信号)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "Figure 6 හි hand signals සහ whistle pattern නිවැරදිව ඉගෙනගන්න. වම්/දකුණු දිශාව රියදුරුගේ දෘෂ්ටිකෝණයෙන් සලකන්න.",
+            "japanese_tts_text": "Figure 6は、直進、運転手から見て左へ寄る、右へ寄る、停止、急停止の合図とホイッスル信号を示しています。直進・左右への合図は「ピッピッ」、停止は長い「ピーー」の後に「ピッ！」、急停止は図に示す繰り返しの「ピッ！」です。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 15,
+      "pdf_page": 17,
+      "page_title_english": "4. Quality of Air Transportation",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P15_S01",
+          "section_title": "Meaning and Indicators of Quality",
+          "japanese": {
+            "original_kanji": "航空輸送の品質"
+          },
+          "english": "Airlines operate in a highly competitive environment and seek to improve services so passengers choose them. Quality indicates the degree to which a service meets its standards. In air transport, quality is commonly judged by safety, punctuality and comfort: safety means operating aircraft safely; punctuality means operating according to the planned time; comfort includes a clean cabin and a quiet interior for a pleasant journey.",
+          "sinhala": "ගුවන් සමාගම් දැඩි තරගකාරී පරිසරයක ක්‍රියාත්මක වන අතර මගීන් තමන් තෝරාගැනීමට සේවාව වැඩිදියුණු කරයි. Quality යනු සේවාවක් නියමිත ප්‍රමිතියට කොපමණ ගැළපේද යන්නයි. ගුවන් ප්‍රවාහනයේ ගුණාත්මකභාවය සාමාන්‍යයෙන් ආරක්ෂාව, වේලාවට ක්‍රියාත්මක වීම සහ සුවපහසුව මත තීරණය වේ. ආරක්ෂාව යනු යානය ආරක්ෂිතව පියාසර කිරීමයි; punctuality යනු සැලසුම් කළ වේලාවට ගුවන් ගමන් ක්‍රියාත්මක කිරීමයි; comfort යනු පිරිසිදු cabin එකක් සහ නිහඬ අභ්‍යන්තරයක් වැනි පහසුකම්ය.",
+          "vocabulary_highlights": [
+            {
+              "term": "Quality (品質)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "safety (安全性)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "punctuality (定時性)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "comfort (快適性)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ගුවන් ප්‍රවාහන quality හි මූලික දර්ශක තුන: Safety, Punctuality, Comfort.",
+            "japanese_tts_text": "航空輸送の品質は、安全性・定時性・快適性で判断されます。安全性は航空機を安全に飛ばすこと、定時性は予定時刻どおりに運航すること、快適性は清潔な客室や静かな機内などです。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P15_S02",
+          "section_title": "Work Safety and Service Quality",
+          "japanese": {
+            "original_kanji": "作業の安全と品質"
+          },
+          "english": "Ground-handling work often takes place outdoors and involves driving vehicles and using equipment within limited time windows set by aircraft arrival and departure times. A lapse in attention can cause personal injury, aircraft damage, vehicle or equipment damage, or damage, mishandling or misrouting of cargo, baggage and mail. These failures reduce service quality. Improving quality therefore means performing work reliably, avoiding damage to aircraft and vehicles, and keeping workers healthy.",
+          "sinhala": "Ground Handling වැඩ බොහෝවිට එළිමහනේ සිදුකරන අතර වාහන ධාවනය සහ උපකරණ භාවිතය ඇතුළත් වේ. ගුවන් යානා පැමිණීමේ සහ පිටත්වීමේ වේලාවන් නිසා සීමිත කාලයක් තුළ එම වැඩ අවසන් කළ යුතුය. සුළු නොසැලකිල්ලකින් පුද්ගල තුවාල, ගුවන් යානා හානි, වාහන/උපකරණ හානි හෝ භාණ්ඩ, ගමන් මලු සහ තැපැල් ද්‍රව්‍ය හානි වීම, වැරදි ලෙස හැසිරවීම හෝ වැරදි ස්ථානයකට යැවීම සිදුවිය හැකිය. එවැනි දෝෂ සේවාවේ ගුණාත්මකභාවය අඩු කරයි. එබැවින් quality වැඩි කිරීම යනු වැඩ නිවැරදිව කිරීම, ගුවන් යානා සහ වාහන හානි නොකිරීම සහ සේවකයින් සෞඛ්‍ය සම්පන්නව තබාගැනීමයි.",
+          "vocabulary_highlights": [
+            {
+              "term": "Ground handling (グランドハンドリング)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "mishandling (取り扱い不具合)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "misrouting (誤送)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "service quality (品質)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "වැඩ නිවැරදිව, ආරක්ෂිතව සහ නියමිත කාලය තුළ කිරීම quality ආරක්ෂා කරයි.",
+            "japanese_tts_text": "グランドハンドリングは屋外作業、車両運転、機材使用が多く、限られた時間内に行います。不注意は人身災害、航空機・車両・機材の損傷、貨物・手荷物・郵便物の損傷や誤送につながり、品質を低下させます。確実な作業、損傷防止、作業員の健康維持が品質向上につながります。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 16,
+      "pdf_page": 18,
+      "page_title_english": "Basic Principles of Work",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P16_S01",
+          "section_title": "Eight Basic Work Principles",
+          "japanese": {
+            "original_kanji": "作業の基本的考え方"
+          },
+          "english": "Work must be performed quickly, reliably and carefully to earn passenger trust. Workers must: (1) pay attention to their own and related persons’ occupational health and safety; (2) strictly follow clothing, conduct, rules and manners; (3) use correct posture and accurate movements; (4) give clear vehicle-guidance signals and communications; (5) use appropriate language and avoid loud conversations, rough handling of vehicles, equipment and baggage, and horseplay in front of passengers or visitors; (6) avoid touching aircraft, loaded items and work equipment unless necessary; (7) remain alert to aircraft and vehicle traffic on the ramp; and (8) objectively check their own work after completion. All work is built on repeated checks.",
+          "sinhala": "මගීන්ගේ විශ්වාසය දිනාගැනීමට වැඩ ඉක්මනින්, විශ්වාසදායකව සහ සැලකිල්ලෙන් කළ යුතුය. සේවකයින්: (1) තමන්ගේ සහ අදාළ පුද්ගලයින්ගේ වෘත්තීය සෞඛ්‍ය හා ආරක්ෂාව ගැන සැලකිලිමත් විය යුතුය; (2) ඇඳුම්, හැසිරීම, නීති සහ ආචාරධර්ම පිළිපැදිය යුතුය; (3) නිවැරදි ශරීර ඉරියව් සහ නිවැරදි චලන භාවිත කළ යුතුය; (4) වාහන මඟපෙන්වීමේ සංඥා සහ සන්නිවේදනය පැහැදිලිව කළ යුතුය; (5) මගීන් ඉදිරියේ සුදුසු භාෂාව භාවිත කර, උස් හඬින් කතා කිරීම, වාහන/උපකරණ/ගමන් මලු රළු ලෙස හැසිරවීම සහ විහිළු කිරීමෙන් වැළකිය යුතුය; (6) අවශ්‍යතාවක් නැතිනම් ගුවන් යානා, පටවා ඇති භාණ්ඩ සහ වැඩ උපකරණ ස්පර්ශ නොකළ යුතුය; (7) රැම්ප්හි ගුවන් යානා සහ වාහන ගමනාගමනය ගැන අවධානයෙන් සිටිය යුතුය; (8) වැඩ අවසන් වූ පසු තමන් කළ වැඩ වස්තුනිෂ්ඨව නැවත පරීක්ෂා කළ යුතුය. සියලු වැඩ නැවත නැවත තහවුරු කිරීම මත පදනම් වේ.",
+          "vocabulary_highlights": [
+            {
+              "term": "Occupational health and safety (安全衛生)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "posture (姿勢)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "guidance signal (誘導合図)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "horseplay (悪ふざけ)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "objective check (客観的確認)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "මූලික කරුණු අටම මතක තබාගන්න: ආරක්ෂාව, නීති, නිවැරදි ඉරියව්, පැහැදිලි සංඥා, වෘත්තීය හැසිරීම, අනවශ්‍ය ස්පර්ශයෙන් වැළකීම, ramp traffic අවධානය සහ අවසාන පරීක්ෂාව.",
+            "japanese_tts_text": "作業は迅速・確実・丁寧に行います。作業者は、安全衛生、服装・態度・ルール、正しい姿勢と動作、明確な誘導・連絡、乗客前での言動、航空機や機材への不要な接触回避、ランプ交通への注意、作業終了後の客観的確認を徹底します。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 17,
+      "pdf_page": 19,
+      "page_title_english": "5. Prevention",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P17_S01",
+          "section_title": "Hiyari-Hatto Near-Miss Reports",
+          "japanese": {
+            "original_kanji": "ヒヤリ・ハット・レポート"
+          },
+          "english": "Information about errors that could lead to accidents or incidents is useful for preventing them before they occur. Near-miss reporting collects and shares error information. Reports may be suppressed because workers feel embarrassed about errors or fear punishment. Reporting is encouraged by sharing reported information, providing sufficient feedback on responses, and creating an open and positive workplace where errors do not need to be hidden.",
+          "sinhala": "අනතුරු හෝ incident සිදුවීමට පෙර ඒවාට හේතු විය හැකි දෝෂ පිළිබඳ තොරතුරු තිබේ නම් අනතුරු වැළැක්වීමට එය ප්‍රයෝජනවත් වේ. Hiyari-Hatto report ක්‍රමය මඟින් එවැනි දෝෂ තොරතුරු වාර්තා කර එකතු කරයි. සේවකයින් දෝෂයක් ගැන ලැජ්ජා වීම හෝ දඬුවම් ලැබේ යන බිය නිසා වාර්තා නොකිරීමට ඉඩ ඇත. වාර්තා කළ තොරතුරු බෙදාගැනීම, ගත් පියවර පිළිබඳ ප්‍රමාණවත් ප්‍රතිචාර ලබාදීම සහ දෝෂ සඟවා තැබීමට අවශ්‍ය නොවන විවෘත හා ධනාත්මක සේවා පරිසරයක් ඇති කිරීම වාර්තා කිරීම දිරිමත් කරයි.",
+          "vocabulary_highlights": [
+            {
+              "term": "Hiyari-Hatto (ヒヤリ・ハット)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "near miss",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "incident (インシデント)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "feedback (フィードバック)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "error reporting (エラー情報の報告)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "Near-miss වාර්තා කිරීමෙන් අනතුරක් සිදුවීමට පෙර අවදානම් හඳුනාගත හැකිය. දෝෂ සඟවන්නේ නැති විවෘත පරිසරයක් අවශ්‍යයි.",
+            "japanese_tts_text": "事故やインシデントの前に、それらにつながるエラー情報があれば未然防止に役立ちます。ヒヤリ・ハット報告を促すには、情報共有と十分なフィードバック、エラーを隠す必要のないオープンな職場づくりが重要です。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P17_S02",
+          "section_title": "Pointing and Calling and Hazard Prediction",
+          "japanese": {
+            "original_kanji": "指差呼称および危険予知"
+          },
+          "english": "On the ramp, workers point forward or backward and say “Yoshi” while checking safety. Pointing alone is not the purpose: saying the callout at the same time concentrates attention while visually checking for unsafe conditions and confirming that safety is maintained. Point to the item or location being checked and say “Yoshi” aloud to help perform work safely and without error.",
+          "sinhala": "රැම්ප් ප්‍රදේශයේ සේවකයින් ආරක්ෂාව පරීක්ෂා කරන විට ඉදිරියට හෝ පසුපසට ඇඟිල්ල දිගු කර “යෝෂි” යනුවෙන් හඬ නගයි. ඇඟිල්ල දිගු කිරීම පමණක් අරමුණ නොවේ. එකවර හඬ නගා කියීමෙන් අවධානය කේන්ද්‍රගත වන අතර ඇස්වලින් බලා අනාරක්ෂිත තත්ත්වයක් තිබේද සහ ආරක්ෂාව පවත්වා තිබේද යන්න තහවුරු කරයි. ආරක්ෂිතව හා දෝෂ රහිතව වැඩ කිරීමට පරීක්ෂා කරන ස්ථානයට ඇඟිල්ල දිගු කර “යෝෂි” යනුවෙන් හඬ නගන්න.",
+          "vocabulary_highlights": [
+            {
+              "term": "Shisa Koshou (指差呼称)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "Yoshi (ヨーシ)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "hazard prediction (危険予知)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "unsafe condition (不安全状態)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ඇඟිල්ල දිගු කර “යෝෂි” කියන ක්‍රියාවෙන් අවධානය කේන්ද්‍රගත කර ආරක්ෂාව දෘශ්‍යව තහවුරු කරයි.",
+            "japanese_tts_text": "ランプ内では、前方や後方を指差して「ヨーシ」と声を出しながら安全確認を行います。指差しと発声で意識を集中し、不安全状態がないか、安全が保たれているかを目で確認します。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 18,
+      "pdf_page": 20,
+      "page_title_english": "Reference 1 – Vehicle Route Markings",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P18_S01",
+          "section_title": "Definitions of Vehicle Route Signs and Markings",
+          "japanese": {
+            "original_kanji": "車両通路の指示標示等の定義"
+          },
+          "english": "The source lists six vehicle-route markings: (1) stop-line marking – indicates where a vehicle must stop; (2) direction-of-travel marking – indicates the direction in which a vehicle may travel; (3) pedestrian-crossing-ahead marking – indicates a pedestrian crossing ahead; (4) ahead-priority marking – indicates an aircraft taxiway or apron taxiway crossing ahead; (5) service-lane marking – indicates a vehicle route crossing a taxiway or apron taxiway; and (6) taxiway-crossing waiting-area marking – indicates the vehicle waiting position before crossing a taxiway.",
+          "sinhala": "මූලාශ්‍රයේ වාහන මාර්ග සලකුණු හයක් දක්වා ඇත: (1) නැවතුම් රේඛා සලකුණ – වාහනය නතර කළ යුතු ස්ථානය; (2) ගමන් දිශා සලකුණ – වාහනයට ගමන් කළ හැකි දිශාව; (3) ඉදිරියේ පදික මාරුවක් ඇති බව පෙන්වන සලකුණ; (4) ඉදිරියේ ගුවන් යානා taxiway හෝ apron taxiway එකක් හරහා යන බව පෙන්වන ඉදිරි ප්‍රමුඛතා සලකුණ; (5) taxiway හෝ apron taxiway එකක් හරහා යන වාහන මාර්ගය පෙන්වන service-lane සලකුණ; (6) taxiway එකක් හරහා යාමට පෙර වාහනය රැඳී සිටිය යුතු ස්ථානය පෙන්වන waiting-area සලකුණ.",
+          "vocabulary_highlights": [
+            {
+              "term": "Stop-line marking (停止線標示)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "direction marking (進行方向標示)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "pedestrian crossing (横断歩道あり標示)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "service lane (サービスレーン)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "taxiway (誘導路)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "සලකුණු හය හඳුනාගන්න: Stop, Direction, Pedestrian crossing, Ahead priority, Service lane, Taxiway-crossing waiting area.",
+            "japanese_tts_text": "停止線標示は停止位置、進行方向標示は通行可能な方向、横断歩道あり標示は前方の横断歩道、前方優先標示は前方の誘導路、サービスレーン標示は誘導路を横断する車両通路、誘導路横断待機区域標示は横断前の待機位置を示します。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 19,
+      "pdf_page": 21,
+      "page_title_english": "Reference 1 – Apron Safety Definitions",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P19_S01",
+          "section_title": "Equipment Restraint Area and Equipment Staging Area",
+          "japanese": {
+            "original_kanji": "機材制限区域・機材待機区域"
+          },
+          "english": "Equipment Restraint Area (ERA) is the area inside the Equipment Staging Area where vehicles and equipment are prohibited from entering while an aircraft is entering or leaving a stand. Equipment Staging Area (ESA) is the area outside the ERA used for vehicles and equipment waiting to perform handling at that stand. Except for vehicles approved as equipment storage, it may be used from 30 minutes before aircraft stand-in and must be vacated promptly once work at the stand is complete. The source also defines a height-restricted staging area for vehicles/equipment 2.5 m or less in height, with the same 30-minute-before-stand-in access and prompt-clearance rule.",
+          "sinhala": "Equipment Restraint Area (ERA) යනු ගුවන් යානය stand එකට ඇතුළු වන හෝ පිටවන අවස්ථාවේ වාහන සහ උපකරණ ඇතුළුවීම තහනම් වන, Equipment Staging Area ඇතුළත පිහිටි ප්‍රදේශයයි. Equipment Staging Area (ESA) යනු එම stand එකේ handling වැඩ සඳහා යොදාගන්නා වාහන සහ උපකරණ රැඳී සිටින, ERA පිටත පිහිටි ප්‍රදේශයයි. උපකරණ ගබඩා කිරීම සඳහා අනුමත වාහන හැර, යානය stand-in වීමට මිනිත්තු 30කට පෙර සිට එය භාවිත කළ හැකි අතර වැඩ අවසන් වූ වහාම ඉවත් විය යුතුය. මූලාශ්‍රයේ උස සීමා සහිත staging area එකක්ද දක්වා ඇති අතර එය උස මීටර් 2.5 හෝ ඊට අඩු වාහන/උපකරණ සඳහා වේ. එයටද stand-in වීමට මිනිත්තු 30කට පෙර සිට භාවිතය සහ වැඩ අවසන් වූ වහාම ඉවත් වීම අදාළ වේ.",
+          "vocabulary_highlights": [
+            {
+              "term": "Equipment Restraint Area (機材制限区域)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "Equipment Staging Area (機材待機区域)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "stand-in (スポット・イン)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "height restriction (高さ制限)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "2.5 m以下",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ERA එකට ඇතුළුවීම aircraft stand-in/stand-out අතරතුර තහනම්. ESA එක stand-in ට මිනිත්තු 30කට පෙර භාවිත කළ හැකි අතර වැඩ අවසන් වූ වහාම හිස් කළ යුතුය. උස සීමා සහිත ESA: 2.5m හෝ ඊට අඩු.",
+            "japanese_tts_text": "ERAは航空機がスポットへ出入りする際に車両・機材の進入を禁止する区域です。ESAは当該スポットの作業車両・機材の待機区域で、原則スポット・イン30分前から使用し、作業完了後すみやかに退去します。高さ制限区域は高さ2.5m以下の車両・機材が対象です。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P19_S02",
+          "section_title": "PBB Operating-Area Marking and Stand-by Position",
+          "japanese": {
+            "original_kanji": "PBB稼働区域マーキング・PBB待機位置"
+          },
+          "english": "The PBB operating-area marking identifies an area where parking vehicles or equipment is completely prohibited; it is set within the PBB operating range and on the stand. The PBB stand-by position marking identifies the designated waiting position for the passenger boarding bridge.",
+          "sinhala": "PBB operating-area marking යනු වාහන හෝ උපකරණ නවතා තැබීම සම්පූර්ණයෙන් තහනම් ප්‍රදේශය පෙන්වන සලකුණකි. එය PBB ක්‍රියාත්මක වන පරාසය තුළ සහ stand එකේ පිහිටුවයි. PBB stand-by position සලකුණ මඟින් passenger boarding bridge එක රැඳී සිටිය යුතු නියමිත ස්ථානය පෙන්වයි.",
+          "vocabulary_highlights": [
+            {
+              "term": "PBB operating area (PBB稼働区域)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "PBB stand-by position (PBB待機位置)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "passenger boarding bridge",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "PBB ක්‍රියාත්මක වන ප්‍රදේශයේ වාහන/උපකරණ නවත්වන්න එපා. Stand-by marking එක PBB රැඳී සිටින ස්ථානය පෙන්වයි.",
+            "japanese_tts_text": "PBB稼働区域マーキングは、車両や機材の駐車を全面的に禁止する区域を示します。PBB待機位置は、PBBの待機位置を示すために設定されます。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 20,
+      "pdf_page": 22,
+      "page_title_english": "Reference 2 – Dangerous Goods Air Transport Rules",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P20_S01",
+          "section_title": "Strict Compliance with Dangerous Goods Rules",
+          "japanese": {
+            "original_kanji": "危険物の航空輸送ルール"
+          },
+          "english": "Under the Aviation Act, items that may explode, catch fire easily or damage other property are classified as dangerous goods. Their transport must follow the safety rules established by law. Transporting dangerous goods without following the rules may be subject to a fine of up to 500,000 yen. Examples shown include mobile batteries, aerosol cans (hair products, insect repellents, rust-prevention products and anti-inflammatory analgesics), hoverboards with lithium-ion batteries, and cosmetics such as lotion, sunscreen and nail polish.",
+          "sinhala": "ගුවන් සේවා නීතිය යටතේ පුපුරා යා හැකි, පහසුවෙන් ගිනිගන්නා හෝ වෙනත් දේපළවලට හානි කළ හැකි ද්‍රව්‍ය අන්තරායකර භාණ්ඩ ලෙස වර්ගීකරණය කරයි. ඒවා ප්‍රවාහනය කිරීමේදී නීතියෙන් නියම කළ ආරක්ෂක නීති අනුගමනය කළ යුතුය. එම නීති නොපිළිපැද අන්තරායකර භාණ්ඩ ප්‍රවාහනය කළහොත් යෙන් 500,000 දක්වා දඩයකට යටත් විය හැකිය. මූලාශ්‍රයේ උදාහරණ ලෙස mobile batteries, aerosol cans (හිසකෙස් නිෂ්පාදන, කෘමි විකර්ෂක, මලකඩ වැළැක්වීමේ ද්‍රව්‍ය සහ වේදනා නාශක), lithium-ion battery සහිත hoverboards සහ lotion, sunscreen, nail polish වැනි රූපලාවණ්‍ය ද්‍රව්‍ය දක්වා ඇත.",
+          "vocabulary_highlights": [
+            {
+              "term": "Dangerous goods (危険物)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "Aviation Act (航空法)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "aerosol can (スプレー缶)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "lithium-ion battery (リチウムイオンバッテリー)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "fine (罰金)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "අන්තරායකර භාණ්ඩ ප්‍රවාහනයේදී නීති අනිවාර්යයි. මූලාශ්‍රයේ දක්වන උපරිම දඩය යෙන් 500,000 දක්වාය.",
+            "japanese_tts_text": "航空法では、爆発のおそれ、燃えやすさ、他の物件を損傷するおそれがあるものを危険物と位置づけます。規則に従わず輸送した場合、50万円以下の罰金の対象となります。例にはモバイルバッテリー、スプレー缶、リチウムイオン電池入りの乗り物、化粧品類があります。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P20_S02",
+          "section_title": "Three Transport Requirements and Responsibilities",
+          "japanese": {
+            "original_kanji": "輸送ルールの3つのポイント・役割"
+          },
+          "english": "Safe dangerous-goods transport requires shippers and transport operators to understand and follow the rules and receive appropriate training. The three key points are: (1) prepare the dangerous-goods declaration by correctly identifying the goods and recording the proper name; (2) attach the prescribed label for the dangerous goods to the package; and (3) pack the goods according to the method specified for each proper shipping name. The shipper identifies the goods, prepares the declaration, labels and packs them. The transport operator checks the item name on the transport document and confirms that labels and packaging are appropriate; if information is incomplete, it checks with the shipper.",
+          "sinhala": "අන්තරායකර භාණ්ඩ ආරක්ෂිතව ප්‍රවාහනය කිරීමට භාණ්ඩ යවන්නා සහ ප්‍රවාහන ක්‍රියාකරු නීති නිවැරදිව අවබෝධ කර අනුගමනය කළ යුතු අතර සුදුසු පුහුණුව ලබා තිබිය යුතුය. ප්‍රධාන කරුණු තුන: (1) භාණ්ඩ නිවැරදිව හඳුනාගෙන නිවැරදි නාමය ඇතුළත් කර dangerous goods declaration සකස් කිරීම; (2) අදාළ භාණ්ඩයට නියමිත label එක ඇසුරුමට ඇලවීම; (3) එක් එක් නිවැරදි භාණ්ඩ නාමයට නියම කර ඇති ක්‍රමයට ඇසුරුම් කිරීම. භාණ්ඩ යවන්නා භාණ්ඩ හඳුනාගෙන declaration සකස් කර label අලවා ඇසුරුම් කරයි. ප්‍රවාහන ක්‍රියාකරු transport document එකේ නම පරීක්ෂා කර label සහ ඇසුරුම් නිවැරදිදැයි තහවුරු කරයි. තොරතුරු අඩු හෝ අපැහැදිලි නම් යවන්නාගෙන් තහවුරු කරගනී.",
+          "vocabulary_highlights": [
+            {
+              "term": "Dangerous goods declaration (危険物申告書)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "proper shipping name (品名)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "label (ラベル)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "packaging (梱包)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "shipper (荷送人)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "transport operator (運送事業者)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ප්‍රධාන 3: Declaration, Label, Packaging. Shipper සකස් කරයි; carrier ලේඛන, label සහ ඇසුරුම් පරීක්ෂා කරයි.",
+            "japanese_tts_text": "安全輸送には荷送人と運送事業者がルールを理解し、適切な教育訓練を受ける必要があります。3つのポイントは、危険物申告書の作成、定められたラベルの貼付、品名ごとの方法による梱包です。荷送人は判別・申告・ラベル貼付・梱包を行い、運送事業者は書類、ラベル、梱包を確認し、不備があれば荷送人に確認します。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 21,
+      "pdf_page": 23,
+      "page_title_english": "Reference 2 – Dangerous Goods Classification",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P21_S01",
+          "section_title": "Nine Classes of Dangerous Goods",
+          "japanese": {
+            "original_kanji": "危険物の正しい判別"
+          },
+          "english": "The source lists nine categories: (1) explosives, such as fireworks and ammunition; (2) gases under pressure, including flammable or toxic gases, such as gas lighters, hair spray and oxygen cylinders; (3) flammable liquids with a flash point of 60°C or below, such as paint, cosmetics, perfume and adhesives; (4) flammable substances including spontaneously combustible substances, such as matches, metal powder and activated carbon; (5) oxidizing substances, such as chemical oxygen generators and hydrogen peroxide solution; (6) toxic substances and substances likely to transmit infectious disease, such as insecticides, pesticides and medical waste; (7) radioactive substances; (8) corrosive substances that can cause skin necrosis or metal corrosion, such as sulfuric acid and lead batteries; and (9) other harmful articles, such as lithium batteries, dry ice and magnets. For details, consult the relevant Japanese Ministry of Land, Infrastructure, Transport and Tourism notice referenced by the source.",
+          "sinhala": "මූලාශ්‍රයේ අන්තරායකර භාණ්ඩ පන්ති නවයක් දක්වා ඇත: (1) ගිනිකෙළි සහ පතොරම් වැනි පුපුරන ද්‍රව්‍ය; (2) ගෑස් ලයිටර්, hair spray සහ ඔක්සිජන් සිලින්ඩර වැනි දැවෙන හෝ විෂ වායු ඇතුළු අධි පීඩන වායු; (3) ජ්වලනාංකය සෙල්සියස් අංශක 60 හෝ ඊට අඩු තීන්ත, රූපලාවණ්‍ය ද්‍රව්‍ය, සුවඳ විලවුන් සහ ඇලවුම් ද්‍රව්‍ය වැනි ගිනි ඇවිළෙන ද්‍රව; (4) ගිනිකූරු, ලෝහ කුඩු සහ සක්‍රීය කාබන් වැනි ස්වයංසිද්ධව ගිනිගත හැකි ද්‍රව්‍ය ඇතුළු ගිනි ඇවිළිය හැකි ද්‍රව්‍ය; (5) chemical oxygen generators සහ hydrogen peroxide solution වැනි ඔක්සිකාරක ද්‍රව්‍ය; (6) කෘමිනාශක, පළිබෝධනාශක සහ වෛද්‍ය අපද්‍රව්‍ය වැනි විෂ ද්‍රව්‍ය සහ ආසාදන රෝග සම්ප්‍රේෂණය කළ හැකි ද්‍රව්‍ය; (7) විකිරණශීලී ද්‍රව්‍ය; (8) සල්ෆියුරික් අම්ලය සහ lead batteries වැනි සමේ පටක විනාශ කිරීමට හෝ ලෝහ විඛාදනයට හේතු විය හැකි විඛාදක ද්‍රව්‍ය; (9) lithium batteries, dry ice සහ magnets වැනි වෙනත් හානිකර ද්‍රව්‍ය. වැඩි විස්තර සඳහා මූලාශ්‍රයේ සඳහන් ජපාන MLIT නිවේදනය බලන්න.",
+          "vocabulary_highlights": [
+            {
+              "term": "Explosives (火薬類)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "gases (高圧ガス類)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "flammable liquid (引火性液体)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "oxidizer (酸化性物質)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "toxic substance (毒物類)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "radioactive (放射性物質)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "corrosive (腐食性物質)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "dry ice (ドライアイス)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "අන්තරායකර භාණ්ඩ පන්ති 9 සහ උදාහරණ නිවැරදිව මතක තබාගන්න. Class 3 හි flash point ≤60°C යන අගය විශේෂයෙන් මතක තබාගන්න.",
+            "japanese_tts_text": "危険物は9分類です。火薬類、高圧ガス類、引火性液体（引火点60℃以下）、可燃性物質類、酸化性物質類、毒物類、放射性物質、腐食性物質、その他の有害物件（リチウム電池、ドライアイス、磁石など）です。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    },
+    {
+      "page_number": 22,
+      "pdf_page": 24,
+      "page_title_english": "Reference 2 – Labels and Packaging",
+      "study_sections": [
+        {
+          "section_id": "SQ2_P22_S01",
+          "section_title": "Danger Labels and Transport-Method Labels",
+          "japanese": {
+            "original_kanji": "危険性を示すラベル・輸送方法を示すラベル"
+          },
+          "english": "The source distinguishes labels that indicate the type of hazard from labels that indicate a transport method or special handling requirement. Hazard labels correspond to the nine dangerous-goods categories: explosives, gases, flammable liquids, flammable substances, oxidizing substances, toxic substances, radioactive substances, corrosive substances and other harmful articles. Examples of transport-method labels include Cargo Aircraft Only, cryogenic liquid, keep away from heat, environmentally hazardous substance, magnetized material and lithium battery.",
+          "sinhala": "මූලාශ්‍රය අනතුරුදායකත්වය පෙන්වන labels සහ ප්‍රවාහන ක්‍රමය හෝ විශේෂ හැසිරවීම පෙන්වන labels ලෙස වෙන් කරයි. Hazard labels අන්තරායකර භාණ්ඩ පන්ති නවයට අදාළ වේ: පුපුරන ද්‍රව්‍ය, වායු, ගිනි ඇවිළෙන ද්‍රව, ගිනි ඇවිළිය හැකි ද්‍රව්‍ය, ඔක්සිකාරක, විෂ ද්‍රව්‍ය, විකිරණශීලී ද්‍රව්‍ය, විඛාදක ද්‍රව්‍ය සහ වෙනත් හානිකර භාණ්ඩ. ප්‍රවාහන ක්‍රමය පෙන්වන labels සඳහා උදාහරණ වන්නේ Cargo Aircraft Only, cryogenic liquid, keep away from heat, environmentally hazardous substance, magnetized material සහ lithium battery ය.",
+          "vocabulary_highlights": [
+            {
+              "term": "Hazard label (危険性を示すラベル)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "Cargo Aircraft Only (貨物機専用)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "cryogenic liquid (極低温液体)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "magnetized material (磁性物質)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "lithium battery label (リチウム電池ラベル)",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "Label දෙවර්ගය වෙන්කර හඳුනාගන්න: hazard type label සහ transport-method/special-handling label.",
+            "japanese_tts_text": "ラベルには危険性を示すものと輸送方法を示すものがあります。危険性ラベルは危険物9分類に対応し、輸送方法ラベルの例には貨物機専用、極低温液体、熱源からの隔離、環境有毒物質、磁性物質、リチウム電池があります。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        },
+        {
+          "section_id": "SQ2_P22_S02",
+          "section_title": "Correct Container Selection and Gasoline Example",
+          "japanese": {
+            "original_kanji": "正しい容器の選定・ガソリンの例"
+          },
+          "english": "The official notice specifies container shape, material and other requirements according to the characteristics of the goods. Safe transport requires an appropriate container, such as a UN specification container. For gasoline, the source example specifies a jerrycan, steel construction and a fixed-top subtype. The source also gives an example that the quantity of gasoline transported on a passenger aircraft is up to 5 litres. Always consult the applicable notice for the complete conditions.",
+          "sinhala": "ප්‍රවාහනය කරන භාණ්ඩයේ ලක්ෂණ අනුව බහාලුමේ හැඩය, ද්‍රව්‍යය සහ අනෙකුත් අවශ්‍යතා නිල නිවේදනයෙන් නියම කරයි. ආරක්ෂිත ප්‍රවාහනය සඳහා UN ප්‍රමිතියට අනුකූල බහාලුමක් වැනි සුදුසු බහාලුමක් තෝරාගත යුතුය. ගැසොලින් සඳහා මූලාශ්‍රයේ උදාහරණය ජෙරිකෑන් හැඩය, වානේ ද්‍රව්‍යය සහ fixed-top වර්ගය ලෙස දක්වයි. මගී ගුවන් යානයක ප්‍රවාහනය කළ හැකි ගැසොලින් ප්‍රමාණය ලීටර් 5 දක්වා බවද උදාහරණයක් ලෙස දක්වා ඇත. සම්පූර්ණ කොන්දේසි සඳහා අදාළ නිල නිවේදනය පරීක්ෂා කළ යුතුය.",
+          "vocabulary_highlights": [
+            {
+              "term": "UN specification packaging (国連容器)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "jerrycan (ジェリカン)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "steel (鋼)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "fixed-top type (天板固定式)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "gasoline (ガソリン)",
+              "meaning": "See source-context translation"
+            },
+            {
+              "term": "5 litres",
+              "meaning": "See source-context translation"
+            }
+          ],
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "ගැසොලින් උදාහරණය: Jerrycan / Steel / Fixed-top type. මූලාශ්‍රයේ passenger aircraft ප්‍රවාහන ප්‍රමාණ උදාහරණය 5 litres දක්වාය. සම්පූර්ණ නීතිමය කොන්දේසි වෙනම පරීක්ෂා කළ යුතුය.",
+            "japanese_tts_text": "告示では輸送品の特性に応じて容器の形状や材質を定めています。安全輸送には適切な容器を選びます。ガソリンの例は、形状がジェリカン、材質が鋼、細分類が天板固定式です。旅客機で輸送できる量の例は5リットルまでです。"
+          },
+          "mapped_images": [],
+          "source_status": "TRANSLATED_FROM_ORIGINAL_PDF"
+        }
+      ],
+      "mapped_images": []
+    }
+  ]
+}
