@@ -358,8 +358,8 @@
             "furigana": "危険物の正しい判別（第1類〜第9類）",
             "romaji": "Kikenbutsu no tadashii hanbetsu (Dai-1-rui kara dai-9-rui)."
           },
-          "english": "Nine Classes of Dangerous Goods: 1. Explosives. 2. Gases under pressure. 3. Flammable liquids (flash point 60°C or below). 4. Flammable substances. 5. Oxidizing substances. 6. Toxic substances. 7. Radioactive substances. 8. Corrosive substances. 9. Other harmful articles, including lithium batteries and dry ice.",
-          "sinhala": "අන්තරායකර භාණ්ඩ පන්ති නවය: 1. පුපුරන ද්‍රව්‍ය. 2. අධි පීඩන වායු. 3. ගිනි ඇවිළෙන ද්‍රව (ජ්වලනාංකය සෙල්සියස් අංශක 60 හෝ ඊට අඩු). 4. ගිනි ඇවිළිය හැකි ද්‍රව්‍ය. 5. ඔක්සිකාරක ද්‍රව්‍ය. 6. විෂ ද්‍රව්‍ය. 7. විකිරණශීලී ද්‍රව්‍ය. 8. විඛාදක ද්‍රව්‍ය. 9. ලිතියම් බැටරි සහ වියළි අයිස් වැනි වෙනත් හානිකර ද්‍රව්‍ය.",
+          "english": "Nine Classes of Dangerous Goods: 1. Explosives. 2. Gases under pressure. 3. Flammable liquids (flash point 60°C or below). 4. Flammable substances, including spontaneously combustible substances. 5. Oxidizing substances. 6. Toxic substances and substances that can readily transmit infectious disease. 7. Radioactive substances. 8. Corrosive substances. 9. Other harmful articles, including lithium batteries, dry ice and magnets.",
+          "sinhala": "අන්තරායකර භාණ්ඩ පන්ති නවය: 1. පුපුරන ද්‍රව්‍ය. 2. අධි පීඩන වායු. 3. ගිනි ඇවිළෙන ද්‍රව (ජ්වලනාංකය සෙල්සියස් අංශක 60 හෝ ඊට අඩු). 4. ස්වයංසිද්ධව ගිනිගත හැකි ද්‍රව්‍ය ඇතුළු ගිනි ඇවිළිය හැකි ද්‍රව්‍ය. 5. ඔක්සිකාරක ද්‍රව්‍ය. 6. විෂ ද්‍රව්‍ය සහ රෝගකාරක පහසුවෙන් සම්ප්‍රේෂණය කළ හැකි ද්‍රව්‍ය. 7. විකිරණශීලී ද්‍රව්‍ය. 8. විඛාදක ද්‍රව්‍ය. 9. ලිතියම් බැටරි, වියළි අයිස් සහ චුම්බක වැනි වෙනත් හානිකර ද්‍රව්‍ය.",
           "audio_narration": {
             "voice_language": "si-LK",
             "teacher_script_sinhala": "පන්ති 9 හොඳින් මතක තියාගන්න: 1 පුපුරණ ද්‍රව්‍ය, 3 ගිනිගන්නා දියර, 8 ඇසිඩ්, 9 ලිතියම් බැටරි සහ Dry ice.",
@@ -393,7 +393,7 @@
     },
     {
       "page_number": 29,
-      "page_title_sinhala": "DGR නිල ලේබල් සහ හැසිරවීමේ සලකුණු",
+      "page_title_sinhala": "DGR නිල ලේබල්, ප්‍රවාහන සලකුණු සහ නිවැරදි බහාලුම් තෝරාගැනීම",
       "page_title_japanese": "危険性を示すラベル と 正しい容器の選定（国連容器・ジェリカン）",
       "mapped_images": [
         "Safety and quality  - Images V1/166.jpg",
@@ -419,6 +419,22 @@
             "teacher_script_sinhala": "'Cargo Aircraft Only' (CAO) ලේබලයක් තිබුණොත්, ඒ පෙට්ටිය මගී ප්ලේන් එකකට පටවන්න බෑ, කාගෝ ප්ලේන් වලට විතරයි!",
             "japanese_tts_text": "危険物ラベルのほか、貨物機専用（CAO）などの輸送方法ラベルを適正に貼付します。"
           }
+        },
+        {
+          "section_id": "SQ_P29_S02",
+          "content_type": "proper_dangerous_goods_container_selection",
+          "japanese": {
+            "original_kanji": "● 正しい容器の選定：告示では、輸送品の特性を踏まえ容器に求められる形状や材質等を定めており、安全輸送には国連容器など適切な容器の選定が必要です。（ガソリンの場合）形状：ジェリカン。材質：鋼。細分類：天板固定式。",
+            "furigana": "ただしいようきのせんてい。こくじでは、ゆそうひんのとくせいをふまえ、ようきにもとめられるけいじょうやざいしつなどをさだめており、あんぜんゆそうにはこくれんようきなどてきせつなようきのせんていがひつようです。ガソリンの場合、形状はジェリカン、材質は鋼、細分類は天板固定式です。",
+            "romaji": "Tadashii youki no sentei. Kokuji dewa, yusouhin no tokusei wo fumae, youki ni motomerareru keijou ya zaishitsu nado wo sadamete ori, anzen yusou ni wa kokuren youki nado tekisetsu na youki no sentei ga hitsuyou desu. Gasorin no baai, keijou wa jerikan, zaishitsu wa hagane, saibunrui wa tenban koteishiki desu."
+          },
+          "english": "Selection of Proper Containers: The official notice specifies the required shape, material and other characteristics of containers based on the nature of the goods being transported. Safe transport requires selecting an appropriate container, such as a UN specification container. For gasoline, the source specifies: shape – jerrycan; material – steel; subtype – fixed-top type.",
+          "sinhala": "නිවැරදි බහාලුම් තෝරාගැනීම: ප්‍රවාහනය කරන භාණ්ඩයේ ස්වභාවය අනුව බහාලුමේ හැඩය, ද්‍රව්‍යය සහ අනෙකුත් ලක්ෂණ නිල දැනුම්දීමෙන් නියම කර ඇත. ආරක්ෂිත ප්‍රවාහනය සඳහා UN ප්‍රමිතියට අනුකූල බහාලුමක් වැනි සුදුසු බහාලුමක් තෝරාගත යුතුය. ගැසොලින් සඳහා මූලාශ්‍රයේ සඳහන් වන්නේ: හැඩය – ජෙරිකෑන් (Jerrycan); ද්‍රව්‍යය – වානේ; උප වර්ගය – ඉහළ කොටස ස්ථිරව සවි කළ වර්ගය.",
+          "audio_narration": {
+            "voice_language": "si-LK",
+            "teacher_script_sinhala": "අන්තරායකර භාණ්ඩ සඳහා බහාලුම තෝරාගැනීමේදී භාණ්ඩයේ ස්වභාවය අනුව හැඩය සහ ද්‍රව්‍යය නිල දැනුම්දීමේ නියමයන්ට ගැළපිය යුතුයි. PDF එකේ ගැසොලින් උදාහරණයට ජෙරිකෑන් හැඩය, වානේ ද්‍රව්‍යය සහ ස්ථිර ඉහළ කොටසක් ඇති වර්ගය දක්වා තිබෙනවා.",
+            "japanese_tts_text": "安全に輸送するため、輸送品の特性に合った容器を選定します。ガソリンの場合、形状はジェリカン、材質は鋼です。"
+          }
         }
       ],
       "vocabulary_highlights": [
@@ -433,7 +449,7 @@
     },
     {
       "page_number": 30,
-      "page_title_sinhala": "DGR ඇසුරුම්කරණය සහ බහාලුම් නීති",
+      "page_title_sinhala": "වෙනත් නීති – ගැසොලින් ප්‍රවාහන ප්‍රමාණය පිළිබඳ උදාහරණය",
       "page_title_japanese": "正しい容器の選定（国連容器・ジェリカン）",
       "mapped_images": [
         "Safety and quality  - Images V1/172.jpg"
