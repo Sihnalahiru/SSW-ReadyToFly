@@ -90,7 +90,7 @@
             "furigana": "指(し)差(さ)呼(こ)称(しょう)の実(じっ)践(せん)：空(くう)港(こう)内(ない)や鉄(てつ)道(どう)の現(げん)場(ば)において、作業員が指を差して確認する動作。",
             "romaji": "Shisa Koshou no jissen: Kuukounai ya tetsudou no genba ni oite, sagyouin ga yubi wo sashite kakunin suru dousa."
           },
-          "english": "Practical Execution of Pointing and Calling: Proven to cut operational human errors by up to 85% in aviation and rail environments, instantly detecting unsafe conditions.",
+          "english": "Practical Execution of Pointing and Calling: Pointing and calling can significantly reduce human errors in aviation and rail environments and help workers detect unsafe conditions quickly.",
           "sinhala": "ශිසා කොෂෝ ප්‍රායෝගිකව ක්‍රියාත්මක කිරීම: ගුවන් තොටුපළවල් සහ දුම්රිය සේවාවන්හි සේවක අත්වැරදීම් ප්‍රතිශතය විශාල ලෙස අවම කරන අතර අනාරක්ෂිත තත්ත්වයන් ක්ෂණිකව හඳුනා ගැනීමට උපකාරී වේ.",
           "audio_narration": {
             "voice_language": "si-LK",
@@ -182,8 +182,8 @@
             "furigana": "エプロン内安全のための定義：ERA、ESA、高さ制限、PBB稼働区域。",
             "romaji": "Epron nai anzen no tame no teigi: ERA, ESA, takasa seigen, PBB kadou kuiki."
           },
-          "english": "Apron Safety Boundary Definitions: ERA (Equipment Restraint Area - absolute exclusion zone during aircraft movement), ESA (Equipment Staging Area - staging zone allowed 30 minutes prior to spot-in), Height-Restricted Staging Area (under 2.5m), PBB Operating Area (No Parking), and PBB Stand-by Position.",
-          "sinhala": "රැම්ප් ආරක්ෂිත කලාප අර්ථ දැක්වීම්: ERA (උපකරණ සීමා කළ කලාපය - යානය එද්දී ඇතුළු වීම තහනම්), ESA (උපකරණ පොරොත්තු කලාපය - යානය පැමිණීමට විනාඩි 30 කට පෙර භාවිතා කළ හැකි අතර වැඩ අවසන් වූ වහාම ඉවත් විය යුතුය), උස සීමා සහිත කලාපය (මීටර් 2.5 ට අඩු), PBB ක්‍රියාකාරී කලාපය (නැවැත්වීම තහනම්) සහ PBB පොරොත්තු ස්ථානය.",
+          "english": "Apron Safety Boundary Definitions: ERA (Equipment Restraint Area - absolute exclusion zone during aircraft movement), ESA (Equipment Staging Area - staging zone allowed 30 minutes prior to spot-in), Height-Restricted Staging Area (2.5m or less), PBB Operating Area (No Parking), and PBB Stand-by Position.",
+          "sinhala": "රැම්ප් ආරක්ෂිත කලාප අර්ථ දැක්වීම්: ERA (උපකරණ සීමා කළ කලාපය - යානය එද්දී ඇතුළු වීම තහනම්), ESA (උපකරණ පොරොත්තු කලාපය - යානය පැමිණීමට විනාඩි 30 කට පෙර භාවිතා කළ හැකි අතර වැඩ අවසන් වූ වහාම ඉවත් විය යුතුය), උස සීමා සහිත කලාපය (මීටර් 2.5 හෝ ඊට අඩු), PBB ක්‍රියාකාරී කලාපය (නැවැත්වීම තහනම්) සහ PBB පොරොත්තු ස්ථානය.",
           "audio_narration": {
             "voice_language": "si-LK",
             "teacher_script_sinhala": "ERA කියන්නේ ප්ලේන් එක නවත්තන තැන (වාහන දාන්න බෑ). ESA කියන්නේ ප්ලේන් එක එන්න විනාඩි 30කට කලින් වාහන දාන කොටුව.",
@@ -225,8 +225,8 @@
             "furigana": "PBB待機位置：航空機が完全に停止するまで動かしてはならない。",
             "romaji": "PBB taiki ichi: Koukuuki ga kanzen ni teishi suru made ugokashite wa naranai."
           },
-          "english": "PBB Stand-by Position: The passenger boarding bridge must remain parked at this stand-by mark until the incoming aircraft comes to a dead stop and engines are shut down. Absolutely no vehicles or equipment may be left inside this perimeter.",
-          "sinhala": "PBB පොරොත්තු ස්ථානය: ගුවන් යානය සම්පූර්ණයෙන්ම නවතා එන්ජින් ක්‍රියා විරහිත කර All Clear සංඥාව ලැබෙන තුරු මගී පාලම මෙම නියමිත පොරොත්තු සලකුණ මත නවතා තැබිය යුතුය. මෙම සීමාව තුළ කිසිදු වාහනයක් හෝ උපකරණයක් අත්හැර දමා යාම සපුරා තහනම් වේ.",
+          "english": "PBB Stand-by Position: The passenger boarding bridge must remain parked at this stand-by mark until the aircraft has fully entered the stand and come to a stop. Absolutely no vehicles or equipment may be left inside this perimeter.",
+          "sinhala": "PBB පොරොත්තු ස්ථානය: ගුවන් යානය සම්පූර්ණයෙන්ම ස්ථානයට ඇතුළු වී නවත්වන තුරු මගී පාලම මෙම නියමිත පොරොත්තු සලකුණ මත නවතා තැබිය යුතුය. මෙම සීමාව තුළ කිසිදු වාහනයක් හෝ උපකරණයක් අත්හැර දමා යාම සපුරා තහනම් වේ.",
           "audio_narration": {
             "voice_language": "si-LK",
             "teacher_script_sinhala": "ප්ලේන් එක නවත්තලා එන්ජින් ඕෆ් කරනකල් PBB පාලම ඉස්සරහට ගන්න බෑ.",
@@ -260,7 +260,7 @@
             "furigana": "Reference-2 危険物の航空輸送：50万円以下の罰金。モバイルバッテリーやスプレー缶の違反例。",
             "romaji": "Reference-2 Kikenbutsu no koukuu yusou: 50-man'en ika no bakkin. Mobairu batterii ya supuree-kan."
           },
-          "english": "Reference-2 Dangerous Goods Regulations (DGR) & Heavy Penalties: Violating DGR transport rules is punishable by fines up to 500,000 YEN! Common illegal transport examples include lithium power banks, aerosol spray cans, hoverboards, and flammable cosmetics.",
+          "english": "Reference-2 Dangerous Goods Regulations (DGR) & Heavy Penalties: Violating DGR transport rules is punishable by fines up to 500,000 YEN! Examples highlighted in Reference-2 include lithium power banks, aerosol spray cans, hoverboards, and cosmetics; the applicable transport restrictions must be checked for each item.",
           "sinhala": "යොමු-2 අන්තරායකර භාණ්ඩ (DGR) නීති සහ යෙන් 500,000 ක දඩය: අන්තරායකර භාණ්ඩ ප්‍රවාහන නීති කඩ කළහොත් යෙන් 500,000 ක් දක්වා (50-man'en) අධික දඩයකට යටත් වේ! උදාහරණ: 1. මොබයිල් පවර් බෑන්ක්, 2. ස්ප්‍රේ කෑන්, 3. හෝවර් බෝඩ්, 4. ගිනි ඇවිළෙන ආලේපන (නිය ආලේපන ආදී විලවුන්).",
           "audio_narration": {
             "voice_language": "si-LK",
@@ -411,8 +411,8 @@
             "furigana": "危険性を示すラベルと輸送方法を示すラベル（CAO等）。",
             "romaji": "Kikensei wo shimesu raberu to yusou houhou wo shimesu raberu (CAO)."
           },
-          "english": "Hazard Warning Labels & Special Handling Marks: Every dangerous cargo piece must display both its Class Diamond Hazard Label (Classes 1-9) and required Handling Marks such as Cargo Aircraft Only (CAO - forbidden on passenger flights), Cryogenic Liquid, and Lithium Battery Marks.",
-          "sinhala": "අන්තරායකර ලේබල් සහ විශේෂ හැසිරවීමේ සලකුණු: 1-9 පන්ති ලේබල් මෙන්ම මගී යානාවල පැටවීම තහනම් වන කාගෝ යානාවලට පමණක් වන ලේබලය (Cargo Aircraft Only - CAO), අතිශය අඩු උෂ්ණත්ව දියර සහ ලිතියම් බැටරි සලකුණු අත්‍යවශ්‍ය වේ.",
+          "english": "Hazard Warning Labels & Special Handling Marks: Apply the relevant Class Hazard Label (Classes 1-9) and any required transport/handling marks, such as Cargo Aircraft Only (CAO - forbidden on passenger flights), Cryogenic Liquid, and Lithium Battery Marks.",
+          "sinhala": "අන්තරායකර ලේබල් සහ විශේෂ හැසිරවීමේ සලකුණු: අදාළ 1-9 පන්ති අනතුරු ලේබල සහ අවශ්‍ය ප්‍රවාහන/හැසිරවීමේ සලකුණු භාවිත කළ යුතුය. උදාහරණ ලෙස Cargo Aircraft Only (CAO), අතිශය අඩු උෂ්ණත්ව ද්‍රව්‍ය සහ ලිතියම් බැටරි සලකුණු දැක්විය හැක.",
           "audio_narration": {
             "voice_language": "si-LK",
             "teacher_script_sinhala": "'Cargo Aircraft Only' (CAO) ලේබලයක් තිබුණොත්, ඒ පෙට්ටිය මගී ප්ලේන් එකකට පටවන්න බෑ, කාගෝ ප්ලේන් වලට විතරයි!",
