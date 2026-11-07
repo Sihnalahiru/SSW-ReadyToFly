@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "project": "SSW-ReadyToFly",
+    "module": "Safety and Quality",
+    "revision": "Rev 2",
+    "updated": "2026-11-07",
+    "status": "CONTENT_DATASET_CREATED_APP_RUNTIME_BLOCKED"
+  },
+  "completed": {
+    "source_pdf_review": "26 physical PDF pages reviewed; printed study pages 1-22 indexed",
+    "translated_content": "19 printed pages (4-22) represented as 36 source-grounded study sections with English, Sinhala and Japanese source text",
+    "glossary": "167 page-level glossary entries; English and Sinhala meanings added for core terms; furigana/romaji still incomplete for most entries",
+    "narration": "36 Sinhala narration scripts included",
+    "japanese_tts": "36 Japanese TTS text scripts included",
+    "image_inventory": "141 repository image files inventoried",
+    "image_mapping": "42 semantically identifiable image assets mapped to 11 printed pages; 99 remaining files are unassigned or extraction fragments and not force-mapped"
+  },
+  "pending": {
+    "front_matter": "Printed pages 1-3 (preface and contents) not converted into study-note pages; contents indexed in source manifest",
+    "glossary_readings": "Furigana and romaji are incomplete for many of the 167 glossary records",
+    "image_mapping": "Need final pixel-level comparison of all image assets against rendered PDF pages; several assets are transparent masks/clipping fragments",
+    "audio_rendering": "Scripts exist, but no audio files have been generated or played back",
+    "app_integration": "Blocked: GitHub repository contains only assets/data files; no HTML, JavaScript, CSS, or app source files exist in this repository",
+    "runtime_testing": "Cannot run mobile/desktop/PWA/Service Worker/offline tests without the actual application source and deployment configuration"
+  },
+  "source_data": {
+    "pdf": "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】.REV2.pdf",
+    "translated_dataset": "assets/data/Rev 2 Sinhala/safety_quality_rev2_translated_pages_04_to_22.json",
+    "source_manifest": "assets/data/Rev 2 Sinhala/safety_quality_rev2_source_audit_manifest.json",
+    "image_audit": "assets/data/Rev 2 Sinhala/safety_quality_rev2_image_audit.json"
+  },
+  "notes": [
+    "All translated study content is based on the Japanese Rev 2 PDF. External web information was used only as terminology/context cross-check, not to replace the source.",
+    "Do not use the previous three 31-page JSON batches as the final source-aligned dataset.",
+    "The height-restricted Equipment Staging Area threshold is 25 m or less, matching the source text 25m以下.",
+    "The gasoline passenger-aircraft quantity example is 5 litres as shown in the source; the complete legal conditions must be checked in the official notice."
+  ]
+}
