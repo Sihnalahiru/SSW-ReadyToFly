@@ -86,17 +86,18 @@
           "section_id": "SQ_P22_S01",
           "content_type": "shisa_koshou_practical_importance",
           "japanese": {
-            "original_kanji": "指差呼称の実践：空港内や鉄道の現場において、作業員が指を差して「ヨーシ」と確認する動作は、作業の安全を確実に担保するために不可欠である。指差呼称を行うことで、作業者のエラー率を大幅に低減させ、不安全状態を瞬時に察知することができる。",
-            "furigana": "指(し)差(さ)呼(こ)称(しょう)の実(じっ)践(せん)：空(くう)港(こう)内(ない)や鉄(てつ)道(どう)の現(げん)場(ば)において、作業員が指を差して確認する動作。",
-            "romaji": "Shisa Koshou no jissen: Kuukounai ya tetsudou no genba ni oite, sagyouin ga yubi wo sashite kakunin suru dousa."
+            "original_kanji": "指差呼称",
+            "furigana": "しさこしょう",
+            "romaji": "Shisa Koshou"
           },
-          "english": "Practical Execution of Pointing and Calling: Pointing and calling can significantly reduce human errors in aviation and rail environments and help workers detect unsafe conditions quickly.",
-          "sinhala": "ශිසා කොෂෝ ප්‍රායෝගිකව ක්‍රියාත්මක කිරීම: ගුවන් තොටුපළවල් සහ දුම්රිය සේවාවන්හි සේවක අත්වැරදීම් ප්‍රතිශතය විශාල ලෙස අවම කරන අතර අනාරක්ෂිත තත්ත්වයන් ක්ෂණිකව හඳුනා ගැනීමට උපකාරී වේ.",
+          "english": "Practical Execution of Pointing and Calling: The Sinhala source text explains that workers point with a finger while calling out “Yoshi” to confirm the safety procedure. This helps focus attention and visually confirm that no unsafe condition exists.",
+          "sinhala": "ශිසා කොෂෝ ප්‍රායෝගිකව ක්‍රියාත්මක කිරීම: සේවකයින් ඉදිරියට හා පසුපසට ඇඟිල්ල දිගු කරමින් “යෝෂි” යනුවෙන් හඬ නගා ආරක්ෂාව තහවුරු කරන ආකාරය මෙම පිටුවේ විස්තර කරයි. ඇඟිල්ල දිගු කිරීම සහ හඬ නගා තහවුරු කිරීම මඟින් අවධානය කේන්ද්‍රගත කර, අනාරක්ෂිත තත්ත්වයක් තිබේදැයි දෘශ්‍යමය වශයෙන් පරීක්ෂා කරයි.",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "පින්තූර අංක 140 සහ 141 බලන්න. වාහනයක් පදවන්න කලින්, දොරක් වහන්න කලින් ඇඟිල්ල දික් කරලා 'Yooshi!' කියලා කියනවා.",
-            "japanese_tts_text": "指差呼称の実践により、ヒューマンエラーを大幅に防ぎ、高い安全性を維持します。"
-          }
+            "teacher_script_sinhala": "මෙම පිටුවේ ශිසා කොෂෝ ක්‍රමය ප්‍රායෝගිකව භාවිත කරන ආකාරය පැහැදිලි කරනවා. ඉදිරියට සහ පසුපසට ඇඟිල්ල දිගු කරමින් “යෝෂි” කියා හඬ නගා, ආරක්ෂිත තත්ත්වය ඇස් දෙකෙන් බලා තහවුරු කරන්න.",
+            "japanese_tts_text": "指差呼称。"
+          },
+          "source_note": "PDF page 22 contains Sinhala explanatory text only. The Japanese technical term 指差呼称 is retained from the Japanese source on page 21; no additional Japanese source sentence is printed on this page."
         }
       ],
       "vocabulary_highlights": [
@@ -178,15 +179,15 @@
           "section_id": "SQ_P24_S01",
           "content_type": "era_esa_pbb_definitions",
           "japanese": {
-            "original_kanji": "エプロン内安全のための定義：① 機材制限区域（ERA）：航空機出入り時の進入禁止区域。② 機材待機区域（ESA）：スポットイン30分前から使用可、作業完了後すみやかに退去。③ 高さ制限のある機材待機区域（2.5m以下）。④ PBB稼働区域マーキング：駐車全面禁止。⑤ PBB待機位置。",
+            "original_kanji": "エプロン内安全のための定義：① 機材制限区域（ERA）：航空機がスポットに出入りする際、車両・機材の進入を禁止する区域。② 機材待機区域（ESA）：スポットインの30分前から使用でき、作業完了後すみやかに退去する。③ 高さ制限のある機材待機区域：高さ25m以下の車両・機材の待機場所。④ PBB稼働区域マーキング：車両・機材の駐車を全面的に禁止する区域。⑤ PBB待機位置。",
             "furigana": "エプロン内安全のための定義：ERA、ESA、高さ制限、PBB稼働区域。",
             "romaji": "Epron nai anzen no tame no teigi: ERA, ESA, takasa seigen, PBB kadou kuiki."
           },
-          "english": "Apron Safety Boundary Definitions: ERA (Equipment Restraint Area - absolute exclusion zone during aircraft movement), ESA (Equipment Staging Area - staging zone allowed 30 minutes prior to spot-in), Height-Restricted Staging Area (2.5m or less), PBB Operating Area (No Parking), and PBB Stand-by Position.",
-          "sinhala": "රැම්ප් ආරක්ෂිත කලාප අර්ථ දැක්වීම්: ERA (උපකරණ සීමා කළ කලාපය - යානය එද්දී ඇතුළු වීම තහනම්), ESA (උපකරණ පොරොත්තු කලාපය - යානය පැමිණීමට විනාඩි 30 කට පෙර භාවිතා කළ හැකි අතර වැඩ අවසන් වූ වහාම ඉවත් විය යුතුය), උස සීමා සහිත කලාපය (මීටර් 2.5 හෝ ඊට අඩු), PBB ක්‍රියාකාරී කලාපය (නැවැත්වීම තහනම්) සහ PBB පොරොත්තු ස්ථානය.",
+          "english": "Apron Safety Area Definitions: 1. Equipment Restraint Area (ERA): an area where vehicles and equipment must not enter when an aircraft is entering or leaving the stand. 2. Equipment Staging Area (ESA): may be used from 30 minutes before aircraft stand-in; vehicles and equipment must leave promptly when the work is complete. 3. Height-restricted equipment staging area: a waiting area for vehicles and equipment that are 25 m or less in height. 4. PBB operating-area marking: an area where parking of vehicles and equipment is completely prohibited. 5. PBB stand-by position.",
+          "sinhala": "රැම්ප් ප්‍රදේශයේ ආරක්ෂාව සඳහා වූ අර්ථ දැක්වීම්: 1. උපකරණ සීමා කලාපය (ERA): ගුවන් යානය ස්ථානයට ඇතුළු වන විට හෝ පිටවන විට වාහන හා උපකරණ ඇතුළු වීම තහනම් කලාපය. 2. උපකරණ පොරොත්තු කලාපය (ESA): ගුවන් යානය ස්ථානයට ඇතුළු වීමට මිනිත්තු 30කට පෙර සිට භාවිත කළ හැකි අතර, වැඩ අවසන් වූ වහාම ඉවත් විය යුතුය. 3. උස සීමා සහිත උපකරණ පොරොත්තු කලාපය: මීටර් 25ක් හෝ ඊට අඩු උසකින් යුත් වාහන හා උපකරණ රැඳවීම සඳහා වූ කලාපය. 4. PBB ක්‍රියාකාරී කලාප සලකුණ: වාහන හා උපකරණ නැවැත්වීම සම්පූර්ණයෙන් තහනම් කලාපය. 5. PBB පොරොත්තු ස්ථානය.",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "ERA කියන්නේ ප්ලේන් එක නවත්තන තැන (වාහන දාන්න බෑ). ESA කියන්නේ ප්ලේන් එක එන්න විනාඩි 30කට කලින් වාහන දාන කොටුව.",
+            "teacher_script_sinhala": "මෙහි ERA, ESA සහ PBB සම්බන්ධ ආරක්ෂිත කලාප පහක් හඳුන්වා දෙනවා. විශේෂයෙන් මතක තබාගන්න: උස සීමා සහිත උපකරණ පොරොත්තු කලාපයේ සඳහන් සීමාව මීටර් 25ක් හෝ ඊට අඩුයි — මීටර් 2.5ක් නොවේ. ESA භාවිත කළ හැක්කේ යානය ස්ථානයට ඇතුළු වීමට මිනිත්තු 30කට පෙර සිටයි; වැඩ අවසන් වූ වහාම ඉවත් විය යුතුයි.",
             "japanese_tts_text": "ERAは航空機出入り時の進入禁止区域、ESAはスポットイン30分前から使える機材待機区域です。"
           }
         }
@@ -221,16 +222,16 @@
           "section_id": "SQ_P25_S01",
           "content_type": "pbb_standby_visual_markings",
           "japanese": {
-            "original_kanji": "PBB待機位置（PBB Stand-by Position）：PBBの待機位置を示すために設定される。航空機がスポットに完全に進入し停止するまで、PBBはこの待機位置から動かしてはならない。また、この待機位置周辺のマーキング内には、いかなる車両・機材も放置してはならない。",
-            "furigana": "PBB待機位置：航空機が完全に停止するまで動かしてはならない。",
+            "original_kanji": "PBB待機位置は、PBBの待機位置を示すために設定される。",
+            "furigana": "PBB待機位置は、PBBの待機位置を示すために設定される。",
             "romaji": "PBB taiki ichi: Koukuuki ga kanzen ni teishi suru made ugokashite wa naranai."
           },
-          "english": "PBB Stand-by Position: The passenger boarding bridge must remain parked at this stand-by mark until the aircraft has fully entered the stand and come to a stop. Absolutely no vehicles or equipment may be left inside this perimeter.",
-          "sinhala": "PBB පොරොත්තු ස්ථානය: ගුවන් යානය සම්පූර්ණයෙන්ම ස්ථානයට ඇතුළු වී නවත්වන තුරු මගී පාලම මෙම නියමිත පොරොත්තු සලකුණ මත නවතා තැබිය යුතුය. මෙම සීමාව තුළ කිසිදු වාහනයක් හෝ උපකරණයක් අත්හැර දමා යාම සපුරා තහනම් වේ.",
+          "english": "PBB Stand-by Position: This marking is established to indicate the designated waiting position for the passenger boarding bridge (PBB).",
+          "sinhala": "PBB පොරොත්තු ස්ථානය: මගීන් ගොඩවීමේ පාලම (PBB) රැඳී සිටිය යුතු නියමිත පොරොත්තු ස්ථානය පෙන්වීම සඳහා මෙම සලකුණ ස්ථාපිත කර ඇත.",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "ප්ලේන් එක නවත්තලා එන්ජින් ඕෆ් කරනකල් PBB පාලම ඉස්සරහට ගන්න බෑ.",
-            "japanese_tts_text": "PBB待機位置はPBBの定位置を示し、航空機停止まで動かしてはなりません。"
+            "teacher_script_sinhala": "PBB Stand-by Position සලකුණෙන් මගීන් ගොඩවීමේ පාලම රැඳී සිටිය යුතු නියමිත ස්ථානය හඳුනාගන්නවා.",
+            "japanese_tts_text": "PBB待機位置は、PBBの待機位置を示すために設定されます。"
           }
         }
       ],
@@ -261,10 +262,10 @@
             "romaji": "Reference-2 Kikenbutsu no koukuu yusou: 50-man'en ika no bakkin. Mobairu batterii ya supuree-kan."
           },
           "english": "Reference-2 Dangerous Goods Regulations (DGR) & Heavy Penalties: Violating DGR transport rules is punishable by fines up to 500,000 YEN! Examples highlighted in Reference-2 include lithium power banks, aerosol spray cans, hoverboards, and cosmetics; the applicable transport restrictions must be checked for each item.",
-          "sinhala": "යොමු-2 අන්තරායකර භාණ්ඩ (DGR) නීති සහ යෙන් 500,000 ක දඩය: අන්තරායකර භාණ්ඩ ප්‍රවාහන නීති කඩ කළහොත් යෙන් 500,000 ක් දක්වා (50-man'en) අධික දඩයකට යටත් වේ! උදාහරණ: 1. මොබයිල් පවර් බෑන්ක්, 2. ස්ප්‍රේ කෑන්, 3. හෝවර් බෝඩ්, 4. ගිනි ඇවිළෙන ආලේපන (නිය ආලේපන ආදී විලවුන්).",
+          "sinhala": "යොමු-2 අන්තරායකර භාණ්ඩ (DGR) නීති සහ යෙන් 500,000 ක දඩය: අන්තරායකර භාණ්ඩ ප්‍රවාහන නීති කඩ කළහොත් යෙන් 500,000 ක් දක්වා (50-man'en) අධික දඩයකට යටත් වේ! උදාහරණ: 1. මොබයිල් පවර් බෑන්ක්, 2. ස්ප්‍රේ කෑන්, 3. හෝවර් බෝඩ්, 4. විලවුන් වර්ග.",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "Dangerous Goods හොරෙන් පැටවුවොත් ගහන දඩේ යෙන් ලක්ෂ 5 යි! මොබයිල් බැටරි සහ ස්ප්‍රේ කාගෝ හෝ ලගේජ් වල යවන්න බෑ.",
+            "teacher_script_sinhala": "අන්තරායකර භාණ්ඩ ප්‍රවාහන නීති කඩ කිරීම සඳහා යෙන් 500,000ක් දක්වා දඩයක් නියම විය හැකි බව මෙම පිටුවේ සඳහන්. උදාහරණ ලෙස Mobile Battery, Spray Can, Hoverboard සහ Cosmetics දක්වා තිබෙනවා. සෑම භාණ්ඩයකටම අදාළ ප්‍රවාහන සීමාව වෙන වෙනම පරීක්ෂා කළ යුතුයි.",
             "japanese_tts_text": "危険物の不正輸送は50万円以下の罰金対象です。モバイルバッテリーやスプレー缶の搭載基準を厳守します。"
           }
         }
@@ -358,7 +359,7 @@
             "romaji": "Kikenbutsu no tadashii hanbetsu (Dai-1-rui kara dai-9-rui)."
           },
           "english": "Official Nine Classes of Dangerous Goods (IATA/ICAO Classes 1 to 9): Class 1 Explosives, Class 2 Gases, Class 3 Flammable Liquids, Class 4 Flammable Solids, Class 5 Oxidizers, Class 6 Toxics, Class 7 Radioactive, Class 8 Corrosives, Class 9 Miscellaneous (Lithium batteries, Dry ice).",
-          "sinhala": "අන්තරායකර භාණ්ඩ නිල පන්ති 9 (DGR Classes 1 to 9): 1. පුපුරන ද්‍රව්‍ය, 2. සම්පීඩිත වායු, 3. ගිනි ඇවිළෙන ද්‍රව (සෙල්සියස් 60 ට අඩු), 4. ගිනි ඇවිළෙන ඝන ද්‍රව්‍ය, 5. ඔක්සිකාරක ද්‍රව්‍ය, 6. විෂ සහ ආසාදන ද්‍රව්‍ය, 7. විකිරණශීලී ද්‍රව්‍ය, 8. විඛාදන ද්‍රව්‍ය, 9. විවිධ අන්තරායකර භාණ්ඩ (ලිතියම් බැටරි, ඩ්‍රයි අයිස්).",
+          "sinhala": "අන්තරායකර භාණ්ඩ නිල පන්ති 9 (DGR Classes 1 to 9): 1. පුපුරන ද්‍රව්‍ය, 2. සම්පීඩිත වායු, 3. ගිනි ඇවිළෙන ද්‍රව (සෙල්සියස් 60 ට අඩු), 4. ගිනි ඇවිළෙන ඝන ද්‍රව්‍ය, 5. ඔක්සිකාරක ද්‍රව්‍ය, 6. විෂ ද්‍රව්‍ය, 7. විකිරණශීලී ද්‍රව්‍ය, 8. විඛාදන ද්‍රව්‍ය, 9. විවිධ අන්තරායකර භාණ්ඩ (ලිතියම් බැටරි, ඩ්‍රයි අයිස්).",
           "audio_narration": {
             "voice_language": "si-LK",
             "teacher_script_sinhala": "පන්ති 9 හොඳින් මතක තියාගන්න: 1 පුපුරණ ද්‍රව්‍ය, 3 ගිනිගන්නා දියර, 8 ඇසිඩ්, 9 ලිතියම් බැටරි සහ Dry ice.",
@@ -407,12 +408,12 @@
           "section_id": "SQ_P29_S01",
           "content_type": "dgr_hazard_handling_labels",
           "japanese": {
-            "original_kanji": "① 危険性を示すラベル（1〜9類）、② 輸送方法を示すラベルの例：貨物機専用（Cargo Aircraft Only - CAO）、極低温液体、熱源からの隔離、環境有毒物質、磁性物質、リチウム電池マーク。",
+            "original_kanji": "① 危険性を示すラベル（1〜9類）。② 輸送方法を示すラベルの例：貨物機専用（Cargo Aircraft Only - CAO）、極低温液体、熱源からの隔離、環境有毒物質、磁性物質、リチウム電池マーク。",
             "furigana": "危険性を示すラベルと輸送方法を示すラベル（CAO等）。",
             "romaji": "Kikensei wo shimesu raberu to yusou houhou wo shimesu raberu (CAO)."
           },
-          "english": "Hazard Warning Labels & Special Handling Marks: Apply the relevant Class Hazard Label (Classes 1-9) and any required transport/handling marks, such as Cargo Aircraft Only (CAO - forbidden on passenger flights), Cryogenic Liquid, and Lithium Battery Marks.",
-          "sinhala": "අන්තරායකර ලේබල් සහ විශේෂ හැසිරවීමේ සලකුණු: අදාළ 1-9 පන්ති අනතුරු ලේබල සහ අවශ්‍ය ප්‍රවාහන/හැසිරවීමේ සලකුණු භාවිත කළ යුතුය. උදාහරණ ලෙස Cargo Aircraft Only (CAO), අතිශය අඩු උෂ්ණත්ව ද්‍රව්‍ය සහ ලිතියම් බැටරි සලකුණු දැක්විය හැක.",
+          "english": "Dangerous Goods Hazard Labels and Transport-Handling Marks: 1. Hazard labels indicating the relevant dangerous-goods class (Classes 1–9). 2. Examples of labels indicating transport or handling requirements: Cargo Aircraft Only (CAO), Cryogenic Liquid, Keep Away from Heat, Environmentally Hazardous Substance, Magnetized Material, and Lithium Battery Mark.",
+          "sinhala": "අන්තරායකර භාණ්ඩ සඳහා අනතුරු ලේබල් සහ ප්‍රවාහන/හැසිරවීමේ සලකුණු: 1. අදාළ අන්තරායකර භාණ්ඩ පන්තිය (1–9) පෙන්වන අනතුරු ලේබල. 2. ප්‍රවාහන ක්‍රමය හෝ හැසිරවීමේ අවශ්‍යතාව පෙන්වන ලේබල් සඳහා උදාහරණ: Cargo Aircraft Only (CAO), අතිශය අඩු උෂ්ණත්ව ද්‍රව (Cryogenic Liquid), තාප ප්‍රභවවලින් ඈත් කර තැබීම, පරිසරයට හානිකර ද්‍රව්‍ය, චුම්බක ද්‍රව්‍ය සහ ලිතියම් බැටරි සලකුණ.",
           "audio_narration": {
             "voice_language": "si-LK",
             "teacher_script_sinhala": "'Cargo Aircraft Only' (CAO) ලේබලයක් තිබුණොත්, ඒ පෙට්ටිය මගී ප්ලේන් එකකට පටවන්න බෑ, කාගෝ ප්ලේන් වලට විතරයි!",
@@ -440,18 +441,18 @@
       "study_sections": [
         {
           "section_id": "SQ_P30_S01",
-          "content_type": "un_packaging_and_jerrycan_rules",
+          "content_type": "other_dgr_rules_gasoline_notice_example",
           "japanese": {
-            "original_kanji": "正しい容器の選定：危険物の内容物や性質に適した国連規格容器（UN Packaging）やジェリカン（Jerrycan）を選定し、液漏れや破損を完全に防止する。",
-            "furigana": "正しい容器の選定（国連規格容器・ジェリカン）",
-            "romaji": "Tadashii youki no sentei (Kokuren kikaku youki / Jerikan)."
+            "original_kanji": "● その他のルール：その他にも守らなければいけないルールがあります。告示の内容を正しく理解してください。＜告示の例（ガソリン）＞例：旅客機で輸送できる量は5リットルまで。",
+            "furigana": "● その他のルール：その他にも守らなければいけないルールがあります。告示の内容を正しく理解してください。＜告示の例（ガソリン）＞例：旅客機で輸送できる量は5リットルまで。",
+            "romaji": "Sono hoka no ruuru: Hoka ni mo mamoranakereba ikenai ruuru ga arimasu. Kokuji no naiyou wo tadashiku rikai shite kudasai. Kokuji no rei (gasorin): Ryokakuki de yusou dekiru ryou wa 5 rittoru made."
           },
-          "english": "Selection of Proper Containers: Must use UN certified packaging and jerrycans suited to the chemical properties of the dangerous goods to prevent leaks and structural failures during transit.",
-          "sinhala": "නිවැරදි බහාලුම් තෝරා ගැනීම: අන්තරායකර භාණ්ඩවල ස්වභාවයට ගැළපෙන පරිදි එක්සත් ජාතීන්ගේ ප්‍රමිතීන්ට අනුකූල බහාලුම් (UN Certified Packaging / Jerrycan) භාවිත කර කාන්දු වීම් හා බිඳ වැටීම් සම්පූර්ණයෙන්ම වැළැක්විය යුතුය.",
+          "english": "Other Rules – Notice Example (Gasoline): There are other rules that must be followed. Understand the contents of the applicable official notice correctly. Example shown in the source: the quantity of gasoline that may be transported on a passenger aircraft is up to 5 litres.",
+          "sinhala": "වෙනත් නීති – නිල දැනුම්දීමේ උදාහරණය (ගැසොලින්): අනුගමනය කළ යුතු තවත් නීති තිබේ. අදාළ නිල දැනුම්දීමේ අන්තර්ගතය නිවැරදිව තේරුම් ගත යුතුය. මූලාශ්‍රයේ දක්වා ඇති උදාහරණය අනුව, මගී ගුවන් යානයක ප්‍රවාහනය කළ හැකි ගැසොලින් ප්‍රමාණය ලීටර් 5ක් දක්වා වේ.",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "ද්‍රව වර්ග සහ රසායනික ද්‍රව්‍ය අඩංගු බහාලුම් UN ප්‍රමිතියට (Jerrycan) අනුව සකස් විය යුතුය.",
-            "japanese_tts_text": "液漏れや破損を防ぐため、国連規格に適合した容器やジェリカンを使用します。"
+            "teacher_script_sinhala": "මෙම පිටුවේ වෙනත් නීති අනුගමනය කළ යුතු බවත්, නිල දැනුම්දීම් නිවැරදිව කියවා තේරුම් ගත යුතු බවත් සඳහන්. උදාහරණයක් ලෙස මගී ගුවන් යානයක ප්‍රවාහනය කළ හැකි ගැසොලින් ප්‍රමාණය ලීටර් 5ක් දක්වා බව දක්වා තිබෙනවා.",
+            "japanese_tts_text": "告示の内容を正しく理解してください。旅客機で輸送できるガソリンの量は5リットルまでです。"
           }
         }
       ],
@@ -467,36 +468,11 @@
     },
     {
       "page_number": 31,
-      "page_title_sinhala": "අවසාන ආරක්ෂක පරීක්ෂාව සහ තත්ත්ව පාලනය (Final Quality Check)",
-      "page_title_japanese": "まとめ：安全確認と最終品質チェック",
+      "page_title_sinhala": "හිස් පිටුව",
+      "page_title_japanese": "（空白ページ）",
       "mapped_images": [],
-      "study_sections": [
-        {
-          "section_id": "SQ_P31_S01",
-          "content_type": "final_safety_and_quality_summary",
-          "japanese": {
-            "original_kanji": "まとめ：安全確認と最終品質チェック：すべてのハンドリング作業において、ヒヤリ・ハットの共有、指差呼称の実践、危険物の厳格な確認を行い、事故ゼロを達成する。",
-            "furigana": "まとめ：安全確認と最終品質チェック。事故ゼロを達成する。",
-            "romaji": "Matome: Anzen kakunin to saishuuhinshitsu chekku. Jiko zero wo tassei suru."
-          },
-          "english": "Final Summary: Achieve zero accidents across all handling operations by maintaining near-miss sharing, rigorously practicing pointing-and-calling, and strictly verifying dangerous goods compliance.",
-          "sinhala": "සාරාංශය - ආරක්ෂක තහවුරු කිරීම සහ අවසාන තත්ත්ව පරීක්ෂාව: සියලුම හැසිරවීම් කටයුතුවලදී හියාරි-හට්ටෝ වාර්තා හුවමාරු කර ගැනීම, ශිසා කොෂෝ ක්‍රියාත්මක කිරීම සහ අන්තරායකර භාණ්ඩ දැඩි ලෙස පරීක්ෂා කිරීම මඟින් අනතුරු රහිත සේවා පරිසරයක් (Zero Accidents) තහවුරු කරන්න.",
-          "audio_narration": {
-            "voice_language": "si-LK",
-            "teacher_script_sinhala": "ආරක්ෂාව සහ ගුණාත්මකභාවය තහවුරු කරමින් අපගේ අවසාන පාඩම් මාලාව මෙයින් සාර්ථකව අවසන් වේ!",
-            "japanese_tts_text": "安全第一を心がけ、確実な作業と品質管理を徹底しましょう。"
-          }
-        }
-      ],
-      "vocabulary_highlights": [
-        {
-          "japanese": "安全第一",
-          "furigana": "あんぜんだいいち",
-          "romaji": "Anzen Daiichi",
-          "english": "Safety First",
-          "sinhala": "ආරක්ෂාවට මුල්තැන"
-        }
-      ]
+      "study_sections": [],
+      "vocabulary_highlights": []
     }
   ]
 }
