@@ -1218,11 +1218,11 @@
             "section_heading_kanji": "車両の誘導者の位置・安全確認",
             "source_text_status": "TRANSCRIBED_FROM_REV2_PDF"
           },
-          "english": "A guide may be needed when one driver’s attention is insufficient or a guide must be positioned on or outside the vehicle/equipment. The guide must stand where the driver can see the route, stopping point and hand signals. Even when reversing, the guide must not stand directly behind the vehicle. The guide must be in a safe position with an escape route. Before guiding, check that the vehicle is operated according to standards, the driver follows signals, the guide is correctly positioned, and there are no obstacles or workers in the route or surrounding area above, below, ahead, behind, left or right.",
-          "sinhala": "එක් රියදුරෙකුගේ අවධානය පමණක් ප්‍රමාණවත් නොවන විට හෝ වාහනය/උපකරණය මත හෝ පිටත මාර්ගෝපදේශකයෙකු අවශ්‍ය විට guide කෙනෙකු යෙදවිය හැකිය. රියදුරුට ගමන් මාර්ගය, නවත්වන ස්ථානය සහ හස්ත සංඥා පෙනෙන ස්ථානයක guide සිටිය යුතුය. වාහනය පසුපසට යන විටද එහි පිටුපසටම වී මඟපෙන්වීම නොකළ යුතුය. හදිසි අවස්ථාවක පලා යා හැකි ආරක්ෂිත ස්ථානයක සිටිය යුතුය. මඟපෙන්වීමට පෙර වාහනය නියමිත ප්‍රමිතියට ධාවනය කරනවාද, රියදුරු සංඥා අනුගමනය කරනවාද, guide නිවැරදි ස්ථානයේද, මාර්ගයේ සහ අවට ඉහළ/පහළ/ඉදිරි/පසු/වම්/දකුණු දිශාවල බාධක හෝ සේවකයින් සිටිනවාද යන්න පරීක්ෂා කරන්න.",
+          "english": "A guide may be assigned when one driver's attention alone is insufficient. The guide must stand where the driver can clearly see the route, stopping position and hand signals. The guide must not stand directly behind the vehicle, even when it is reversing. The guide must choose a safe position with an escape route. Before guiding, check the vehicle operating standards, how the driver should follow signals, the guide's position, and any obstacles or workers along the route and in the surrounding area.",
+          "sinhala": "එක් රියදුරෙකුගේ අවධානය පමණක් ප්‍රමාණවත් නොවන අවස්ථාවල මාර්ගෝපදේශකයෙකු යෙදවිය හැකිය. රියදුරුට ගමන් මාර්ගය, නවත්වන ස්ථානය සහ හස්ත සංඥා පැහැදිලිව පෙනෙන ස්ථානයක guide සිටිය යුතුය. වාහනය පසුපසට ධාවනය කරන විටද guide එහි පිටුපසටම වී මඟපෙන්වීම නොකළ යුතුය. හදිසි අවස්ථාවක ඉවත් විය හැකි ආරක්ෂිත ස්ථානයක් තෝරාගත යුතුය. මඟපෙන්වීමට පෙර වාහන ධාවන ප්‍රමිතීන්, රියදුරු සංඥා අනුගමනය කරන ආකාරය, guide ගේ ස්ථානය සහ ගමන් මාර්ගයේ හෝ අවට ඇති බාධක සහ සේවකයින් පරීක්ෂා කරන්න.",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "Guide රියදුරුට පෙනෙන, ආරක්ෂිත ස්ථානයක සිටිය යුතුය. මාර්ගය සහ වටපිටාව සියලු දිශාවලින් පරීක්ෂා කරන්න.",
+            "teacher_script_sinhala": "Guide රියදුරුට පැහැදිලිව පෙනෙන ස්ථානයක සිටිය යුතුය. වාහනයේ පිටුපසින් නොසිටින්න. හදිසි අවස්ථාවක ඉවත් විය හැකි ආරක්ෂිත ස්ථානයක් තෝරන්න. මඟපෙන්වීමට පෙර මාර්ගය සහ අවට බාධක පරීක්ෂා කරන්න.",
             "japanese_tts_text": "運転者の注意だけでは不十分な場合、誘導者を配置します。運転者から進路・停止位置・手信号が見える場所に立ち、後退時も車両の真後ろに立ってはいけません。安全な避難場所を確保し、車両の運転基準、合図、誘導者の位置、進路と周囲の障害物・作業者を確認します。"
           },
           "mapped_images": [],
@@ -1854,11 +1854,11 @@
             "section_heading_kanji": "機材制限区域・機材待機区域",
             "source_text_status": "TRANSCRIBED_FROM_REV2_PDF"
           },
-          "english": "Equipment Restraint Area (ERA) is the area inside the Equipment Staging Area where vehicles and equipment are prohibited from entering while an aircraft is entering or leaving a stand. Equipment Staging Area (ESA) is the area outside the ERA used for vehicles and equipment waiting to perform handling at that stand. Except for vehicles approved as equipment storage, it may be used from 30 minutes before aircraft stand-in and must be vacated promptly once work at the stand is complete. The source also defines a height-restricted staging area for vehicles/equipment 25 m or less in height, with the same 30-minute-before-stand-in access and prompt-clearance rule.",
-          "sinhala": "Equipment Restraint Area (ERA) යනු ගුවන් යානය stand එකට ඇතුළු වන හෝ පිටවන අවස්ථාවේ වාහන සහ උපකරණ ඇතුළුවීම තහනම් වන, Equipment Staging Area ඇතුළත පිහිටි ප්‍රදේශයයි. Equipment Staging Area (ESA) යනු එම stand එකේ handling වැඩ සඳහා යොදාගන්නා වාහන සහ උපකරණ රැඳී සිටින, ERA පිටත පිහිටි ප්‍රදේශයයි. උපකරණ ගබඩා කිරීම සඳහා අනුමත වාහන හැර, යානය stand-in වීමට මිනිත්තු 30කට පෙර සිට එය භාවිත කළ හැකි අතර වැඩ අවසන් වූ වහාම ඉවත් විය යුතුය. මූලාශ්‍රයේ උස සීමා සහිත staging area එකක්ද දක්වා ඇති අතර එය උස මීටර් 25 හෝ ඊට අඩු වාහන/උපකරණ සඳහා වේ. එයටද stand-in වීමට මිනිත්තු 30කට පෙර සිට භාවිතය සහ වැඩ අවසන් වූ වහාම ඉවත් වීම අදාළ වේ.",
+          "english": "Equipment Restraint Area (ERA) is the area inside the Equipment Staging Area where vehicles and equipment are prohibited from entering while an aircraft is entering or leaving a stand. Equipment Staging Area (ESA) is the area outside the ERA where vehicles and equipment used for handling at that stand wait. As a general rule, the ESA may be used from 30 minutes before an aircraft's stand-in and must be vacated promptly after the work is completed. A height-restricted ESA is used as a waiting area for vehicles and equipment that are 25 m or less in height.",
+          "sinhala": "Equipment Restraint Area (ERA) යනු ගුවන් යානය stand එකට ඇතුළු වන හෝ පිටවන අවස්ථාවේ වාහන සහ උපකරණ ඇතුළුවීම තහනම් වන, Equipment Staging Area ඇතුළත පිහිටි ප්‍රදේශයයි. Equipment Staging Area (ESA) යනු එම stand එකේ handling කටයුතු සඳහා භාවිත කරන වාහන සහ උපකරණ රැඳී සිටින, ERA පිටත පිහිටි ප්‍රදේශයයි. සාමාන්‍යයෙන් ගුවන් යානය stand-in වීමට මිනිත්තු 30කට පෙර සිට ESA භාවිත කළ හැකි අතර වැඩ අවසන් වූ වහාම එම ප්‍රදේශයෙන් ඉවත් විය යුතුය. උස සීමා සහිත ESA යනු උස මීටර් 25ක් හෝ ඊට අඩු වාහන සහ උපකරණ රැඳවීම සඳහා භාවිත කරන ප්‍රදේශයකි.",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "ERA එකට ඇතුළුවීම aircraft stand-in/stand-out අතරතුර තහනම්. ESA එක stand-in ට මිනිත්තු 30කට පෙර භාවිත කළ හැකි අතර වැඩ අවසන් වූ වහාම හිස් කළ යුතුය. උස සීමා සහිත ESA: 2.5m හෝ ඊට අඩු.",
+            "teacher_script_sinhala": "ERA තුළ aircraft stand-in හෝ stand-out සිදුවන අවස්ථාවේ වාහන සහ උපකරණ ඇතුළුවීම තහනම්. ESA එක සාමාන්‍යයෙන් stand-in ට මිනිත්තු 30කට පෙර භාවිත කළ හැකි අතර වැඩ අවසන් වූ වහාම හිස් කළ යුතුය. උස සීමා සහිත ESA එකේ උපකරණ සහ වාහන උස මීටර් 25ක් හෝ ඊට අඩු විය යුතුය.",
             "japanese_tts_text": "ERAは航空機がスポットへ出入りする際に車両・機材の進入を禁止する区域です。ESAは当該スポットの作業車両・機材の待機区域で、原則スポット・イン30分前から使用し、作業完了後すみやかに退去します。高さ制限区域は高さ2.5m以下の車両・機材が対象です。"
           },
           "mapped_images": [],
@@ -1877,7 +1877,7 @@
           "sinhala": "PBB operating-area marking යනු වාහන හෝ උපකරණ නවතා තැබීම සම්පූර්ණයෙන් තහනම් ප්‍රදේශය පෙන්වන සලකුණකි. එය PBB ක්‍රියාත්මක වන පරාසය තුළ සහ stand එකේ පිහිටුවයි. PBB stand-by position සලකුණ මඟින් passenger boarding bridge එක රැඳී සිටිය යුතු නියමිත ස්ථානය පෙන්වයි.",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "PBB ක්‍රියාත්මක වන ප්‍රදේශයේ වාහන/උපකරණ නවත්වන්න එපා. Stand-by marking එක PBB රැඳී සිටින ස්ථානය පෙන්වයි.",
+            "teacher_script_sinhala": "PBB ක්‍රියාකාරී ප්‍රදේශයේ වාහන සහ උපකරණ නවතා තැබීම තහනම්. PBB stand-by position එක එහි පොරොත්තු ස්ථානය දක්වයි.",
             "japanese_tts_text": "PBB稼働区域マーキングは、車両や機材の駐車を全面的に禁止する区域を示します。PBB待機位置は、PBBの待機位置を示すために設定されます。"
           },
           "mapped_images": [],
