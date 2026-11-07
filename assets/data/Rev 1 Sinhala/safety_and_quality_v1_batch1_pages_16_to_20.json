@@ -52,11 +52,11 @@
             "romaji": "3. Yuudou no houhou: Yuudousha wa, anzen kakunin no nochi, ryoute to koe ni yoru aizu ni yori, untensha ga kakunin dekiru houhou de yuudou suru. Chuui! (i) Yuudousha wa, aizu, shingou, houhou wo tadashiku rikai shi, kore ni shitagatte, sharyou wo anzen ni yuudou suru. (ii) Kiken wo kanjita baai wa, sugu ni teishi saseru. (iii) Naroobodi-ki no zenpou kabu kamotsushitsu doa nado ni, sharyou wo yuudou suru baai wa, puropera matawa, jetto enjin to sharyou no kankaku wo 1m ijou aketa ichi ni yuudou suru."
           },
           "english": "Guiding Procedure & Mandatory Narrow-Body Engine Clearance: The marshaller must guide using synchronized two-handed signals combined with vocal callouts. Critical Rules: 1. Master all official signals thoroughly. 2. If the slightest danger is perceived, halt the vehicle immediately. 3. Narrow-Body Aircraft Rule: When guiding vehicles (e.g. Belt Loaders) to forward lower cargo doors, ALWAYS maintain at least 1.0 meter of clearance between the vehicle and propeller blades or jet engine nacelles!",
-          "sinhala": "මාර්ගෝපදේශන ක්‍රමවේදය සහ පටු බඳ යානාවල මීටර් 1 ක පරතර නීතිය: ආරක්ෂාව තහවුරු කිරීමෙන් පසු අත් දෙකෙන්ම ලබාදෙන හස්ත සංඥා සහ හඬ සංඥා මඟින් රියදුරුට පැහැදිලිව පෙනෙන සේ වාහනය මෙහෙයවිය යුතුය[cite: 363, 391]. දැඩි අවවාදයයි: 1. සංඥා සහ ක්‍රමවේද නිවැරදිව දැන සිටිය යුතුය[cite: 363, 391]. 2. කිසියම් හෝ අනතුරක් දැනුණහොත් ක්ෂණිකව වාහනය නැවැත්විය යුතුය[cite: 363, 391]. 3. Narrow-body (පටු බඳ සහිත) යානාවල ඉදිරිපස කාගෝ දොරටුව අසලට වාහන මෙහෙයවීමේදී, එන්ජිම හෝ ප්‍රචාලකය (Propeller) සහ වාහනය අතර අවම වශයෙන් මීටර් 1 ක (1m ijou) පරතරයක් අනිවාර්යයෙන්ම තබාගත යුතුය[cite: 363, 391].",
+          "sinhala": "මාර්ගෝපදේශන ක්‍රමවේදය සහ පටු බඳ යානාවල මීටර් 1 ක පරතර නීතිය: ආරක්ෂාව තහවුරු කිරීමෙන් පසු අත් දෙකෙන්ම ලබාදෙන හස්ත සංඥා සහ හඬ සංඥා මඟින් රියදුරුට පැහැදිලිව පෙනෙන සේ වාහනය මෙහෙයවිය යුතුය. දැඩි අවවාදයයි: 1. සංඥා සහ ක්‍රමවේද නිවැරදිව දැන සිටිය යුතුය. 2. කිසියම් හෝ අනතුරක් දැනුණහොත් ක්ෂණිකව වාහනය නැවැත්විය යුතුය. 3. Narrow-body (පටු බඳ සහිත) යානාවල ඉදිරිපස කාගෝ දොරටුව අසලට වාහන මෙහෙයවීමේදී, එන්ජිම හෝ ප්‍රචාලකය (Propeller) සහ වාහනය අතර අවම වශයෙන් මීටර් 1 ක (1m ijou) පරතරයක් අනිවාර්යයෙන්ම තබාගත යුතුය.",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "මෙන්න විභාගයට අනිවාර්යයෙන්ම එන ප්‍රශ්නයක් ළමයි! Narrow-body ප්ලේන් එකක ඉස්සරහා කාගෝ දොර ළඟට Belt loader එකක් ගනිද්දී, ජෙට් එන්ජිමයි වාහනෙයි අතර කොච්චර පරතරයක් තියන්න ඕනෙද? අඩුම තරමේ මීටර් 1 ක පරතරයක් (1 meter ijou) තියෙන්නම ඕනෙ! මේ 1m ගාණ හොඳට මතක තියාගන්න[cite: 363, 391]!",
-            "japanese_tts_text": "ナローボディ機の前方貨物室ドア付近では、エンジンと車両の間隔を1メートル以上あけて誘導します[cite: 363, 391]。"
+            "teacher_script_sinhala": "මෙන්න විභාගයට අනිවාර්යයෙන්ම එන ප්‍රශ්නයක් ළමයි! Narrow-body ප්ලේන් එකක ඉස්සරහා කාගෝ දොර ළඟට Belt loader එකක් ගනිද්දී, ජෙට් එන්ජිමයි වාහනෙයි අතර කොච්චර පරතරයක් තියන්න ඕනෙද? අඩුම තරමේ මීටර් 1 ක පරතරයක් (1 meter ijou) තියෙන්නම ඕනෙ! මේ 1m ගාණ හොඳට මතක තියාගන්න!",
+            "japanese_tts_text": "ナローボディ機の前方貨物室ドア付近では、エンジンと車両の間隔を1メートル以上あけて誘導します。"
           }
         }
       ],
@@ -119,12 +119,12 @@
             "furigana": "Figure 6 車(しゃ)両(りょう)誘(ゆう)導(どう)合(あい)図(ず)/信(しん)号(ごう)：① 直(ちょく)進(しん)せよ（合(あい)図(ず)：両(りょう)手(て)を曲(ま)げて手(て)招(まね)き、ホイッスル：ピッピッ）。② 左(ひだり)に寄(よ)れ（運(うん)転(てん)手(しゅ)から見(み)て）（合(あい)図(ず)：右(みぎ)手(て)を水(すい)平(へい)、左(ひだり)手(て)を振(ふ)る、ホイッスル：ピッピッ）。③ 右(みぎ)に寄(よ)れ（運(うん)転(てん)手(しゅ)から見(み)て）（合(あい)図(ず)：左(ひだり)手(て)を水(すい)平(へい)、右(みぎ)手(て)を振(ふ)る、ホイッスル：ピッピッ）。④ 停(てい)止(し)（合(あい)図(ず)：両(りょう)手(て)を頭(とう)上(じょう)に交(こう)差(さ)、ホイッスル：ピーー ピッ！）。⑤ 急(きゅう)停(てい)止(し)（合(あい)図(ず)：両(りょう)手(て)を頭(とう)上(じょう)で激(はげ)しく交(こう)差(さ)、ホイッスル：ピッ！ピッ！ピッ！）。",
             "romaji": "Figure 6 Sharyou yuudou aizu / shingou: 1. Chokushin seyo (Aizu: Ryoute wo magete temaneki, Hoissuru: 'Pi-pi'). 2. Hidari ni yore (Untenshu kara mite) (Aizu: Migite wo suihei, hidarite wo furu, Hoissuru: 'Pi-pi'). 3. Migi ni yore (Untenshu kara mite) (Aizu: Hidarite wo suihei, migite wo furu, Hoissuru: 'Pi-pi'). 4. Teishi (Aizu: Ryoute wo toujou ni kousa, Hoissuru: 'Piii, Pi!'). 5. Kyuuteishi (Aizu: Ryoute wo toujou de hageshiku kousa, Hoissuru: 'Pi! Pi! Pi!')."
           },
-          "english": "Figure 6 Vehicle Guiding Hand & Whistle Signals: 1. Move Straight Ahead (Chokushin seyo): Both arms bent at elbows, beckoning backward; Whistle: 'Peep-peep'. 2. Steer Left (as seen from driver): Right arm extended horizontally, left arm beckoning; Whistle: 'Peep-peep'. 3. Steer Right (as seen from driver): Left arm extended horizontally, right arm beckoning; Whistle: 'Peep-peep'. 4. Normal Stop (Teishi): Arms crossed overhead; Whistle: 'Peeeep, peep!'. 5. Emergency Stop (Kyuuteishi): Rapid repeated arm crossing overhead; Whistle: 'Peep! Peep! Peep!'[cite: 364, 392].",
-          "sinhala": "රූපය 6 වාහන මෙහෙයවීමේ හස්ත සංඥා සහ විසිල් සංඥා (Figure 6): 1. කෙළින්ම ඉදිරියට එන්න (直進せよ - Chokushin seyo): අත් දෙකම වැලමිටෙන් නවා තමන් දෙසට වනමින් සංඥා කිරීම; විසිල් හඬ: 'පීප්-පීප්' (Pi-pi)[cite: 364, 392]. 2. වමට හරවන්න (රියදුරුගේ පැත්තෙන්): දකුණු අත තිරස්ව දිගු කර වම් අතින් හරවන ලෙස සංඥා කිරීම; විසිල් හඬ: 'පීප්-පීප්' (Pi-pi)[cite: 364, 392]. 3. දකුණට හරවන්න (රියදුරුගේ පැත්තෙන්): වම් අත තිරස්ව දිගු කර දකුණු අතින් හරවන ලෙස සංඥා කිරීම; විසිල් හඬ: 'පීප්-පීප්' (Pi-pi)[cite: 364, 392]. 4. සාමාන්‍ය නැවැත්වීම (停止 - Teishi): අත් දෙක හිසට ඉහළින් කතිර හැඩයට තබා ගැනීම; විසිල් හඬ: 'පීඊඊඊ... පීප්!' (Piiii, Pi!)[cite: 364, 392]. 5. ක්ෂණික හදිසි නැවැත්වීම (急停止 - Kyuuteishi): අත් දෙක හිසට ඉහළින් වේගයෙන් කතිර හැඩයට මාරු කරමින් වනමින් සංඥා කිරීම; විසිල් හඬ: ක්ෂණික කෙටි විසිල් තුනක් 'පීප්! පීප්! පීප්!' (Pi! Pi! Pi!)[cite: 364, 392].",
+          "english": "Figure 6 Vehicle Guiding Hand & Whistle Signals: 1. Move Straight Ahead (Chokushin seyo): Both arms bent at elbows, beckoning backward; Whistle: 'Peep-peep'. 2. Steer Left (as seen from driver): Right arm extended horizontally, left arm beckoning; Whistle: 'Peep-peep'. 3. Steer Right (as seen from driver): Left arm extended horizontally, right arm beckoning; Whistle: 'Peep-peep'. 4. Normal Stop (Teishi): Arms crossed overhead; Whistle: 'Peeeep, peep!'. 5. Emergency Stop (Kyuuteishi): Rapid repeated arm crossing overhead; Whistle: 'Peep! Peep! Peep!'.",
+          "sinhala": "රූපය 6 වාහන මෙහෙයවීමේ හස්ත සංඥා සහ විසිල් සංඥා (Figure 6): 1. කෙළින්ම ඉදිරියට එන්න (直進せよ - Chokushin seyo): අත් දෙකම වැලමිටෙන් නවා තමන් දෙසට වනමින් සංඥා කිරීම; විසිල් හඬ: 'පීප්-පීප්' (Pi-pi). 2. වමට හරවන්න (රියදුරුගේ පැත්තෙන්): දකුණු අත තිරස්ව දිගු කර වම් අතින් හරවන ලෙස සංඥා කිරීම; විසිල් හඬ: 'පීප්-පීප්' (Pi-pi). 3. දකුණට හරවන්න (රියදුරුගේ පැත්තෙන්): වම් අත තිරස්ව දිගු කර දකුණු අතින් හරවන ලෙස සංඥා කිරීම; විසිල් හඬ: 'පීප්-පීප්' (Pi-pi). 4. සාමාන්‍ය නැවැත්වීම (停止 - Teishi): අත් දෙක හිසට ඉහළින් කතිර හැඩයට තබා ගැනීම; විසිල් හඬ: 'පීඊඊඊ... පීප්!' (Piiii, Pi!). 5. ක්ෂණික හදිසි නැවැත්වීම (急停止 - Kyuuteishi): අත් දෙක හිසට ඉහළින් වේගයෙන් කතිර හැඩයට මාරු කරමින් වනමින් සංඥා කිරීම; විසිල් හඬ: ක්ෂණික කෙටි විසිල් තුනක් 'පීප්! පීප්! පීප්!' (Pi! Pi! Pi!).",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "ළමයි, පින්තූර අංක 17 හරිම වැදගත්! විභාග ප්‍රශ්න පත්‍රයේ මේ විසිල් සංඥා (Whistle) අනිවාර්යයෙන්ම අහනවා: කෙළින්ම එන්න, වමට, දකුණට කියන තුනටම ගහන්නේ 'පිප්-පිප්' (Pi-pi)[cite: 364, 392]. සාමාන්‍ය Stop එකට දිග විසිල් එකකුයි කෙටි එකකුයි 'පීඊඊඊ... පිප්!'[cite: 364, 392]. හැබැයි Kyuuteishi හෙවත් Emergency Stop එකට වේගයෙන් 'පිප්! පිප්! පිප්!' කියලා තුන් පාරක් ගහනවා[cite: 364, 392]. මේ විසිල් සද්ද කටපාඩම් කරගන්න[cite: 364, 392]!",
-            "japanese_tts_text": "車両誘導合図：直進は「ピッピッ」、停止は「ピーー ピッ！」、急停止は「ピッ！ピッ！ピッ！」です[cite: 364, 392]。"
+            "teacher_script_sinhala": "ළමයි, පින්තූර අංක 17 හරිම වැදගත්! විභාග ප්‍රශ්න පත්‍රයේ මේ විසිල් සංඥා (Whistle) අනිවාර්යයෙන්ම අහනවා: කෙළින්ම එන්න, වමට, දකුණට කියන තුනටම ගහන්නේ 'පිප්-පිප්' (Pi-pi). සාමාන්‍ය Stop එකට දිග විසිල් එකකුයි කෙටි එකකුයි 'පීඊඊඊ... පිප්!'. හැබැයි Kyuuteishi හෙවත් Emergency Stop එකට වේගයෙන් 'පිප්! පිප්! පිප්!' කියලා තුන් පාරක් ගහනවා. මේ විසිල් සද්ද කටපාඩම් කරගන්න!",
+            "japanese_tts_text": "車両誘導合図：直進は「ピッピッ」、停止は「ピーー ピッ！」、急停止は「ピッ！ピッ！ピッ！」です。"
           }
         }
       ],
@@ -173,8 +173,8 @@
           "sinhala": "ගුවන් ප්‍රවාහනයේ ගුණාත්මකභාවය - ප්‍රධාන කුළුණු 3: ගුවන් සේවා ක්ෂේත්‍රයේ ගුණාත්මකභාවය (Quality) මනිනු ලබන්නේ පාරිභෝගික සේවාවන් සම්මත ප්‍රමිතීන්ට කොතරම් අනුකූලද යන්න මතය. ගුවන් ලෝකයේ ගුණාත්මකභාවය මනින ප්‍රධාන නිර්ණායක 3 කි: 1. ආරක්ෂාව (安全性 - Anzensei): ගුවන් යානා කිසිදු අනතුරකින් තොරව ආරක්ෂිතව පියාසර කරවීම ගුවන් ක්ෂේත්‍රයේ අංක එකේ වගකීමයි. 2. වේලාවට වැඩ කිරීම (定時性 - Teijisei): කලින් සැලසුම් කළ කාලසටහනට (Timetable) අනුව කිසිදු ප්‍රමාදයකින් තොරව යානය නියමිත වේලාවට පිටත් කරවීමයි. 3. සුවපහසුව (快適性 - Kaitekisei): මගීන්ට ප්‍රියජනක ගමනක් සඳහා පිරිසිදු, නිස්කලංක කැබින් පරිසරයක් සහ සුහද සේවාවක් ලබාදීමයි.",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "ගුවන් සේවාවක කොඳු නාරටිය තමයි මේ මූලික කරුණු තුන: අංක එක Anzensei (ආරක්ෂාව)[cite: 365, 393], අංක දෙක Teijisei (නියමිත වේලාවට ප්ලේන් එක යවන එක)[cite: 365, 393], අංක තුන Kaitekisei (මගීන්ට සුවපහසුව දෙන එක)[cite: 365, 393]. මේ තුනෙන් එකක් හරි අඩුවුණොත් ඒ ගුවන් සමාගම ෆේල්! විභාගයට අනිවාර්යයෙන්ම මේ ජපන් වචන තුන අහනවා[cite: 365, 393]!",
-            "japanese_tts_text": "航空輸送の品質基準は、「安全性」「定時性」「快適性」の3つが基本です[cite: 365, 393]。"
+            "teacher_script_sinhala": "ගුවන් සේවාවක කොඳු නාරටිය තමයි මේ මූලික කරුණු තුන: අංක එක Anzensei (ආරක්ෂාව), අංක දෙක Teijisei (නියමිත වේලාවට ප්ලේන් එක යවන එක), අංක තුන Kaitekisei (මගීන්ට සුවපහසුව දෙන එක). මේ තුනෙන් එකක් හරි අඩුවුණොත් ඒ ගුවන් සමාගම ෆේල්! විභාගයට අනිවාර්යයෙන්ම මේ ජපන් වචන තුන අහනවා!",
+            "japanese_tts_text": "航空輸送の品質基準は、「安全性」「定時性」「快適性」の3つが基本です。"
           }
         }
       ],
@@ -184,21 +184,21 @@
           "furigana": "あんぜんせい",
           "romaji": "Anzensei",
           "english": "Safety (Zero Accidents)",
-          "sinhala": "ආරක්ෂාව (අනතුරු රහිත බව)[cite: 365, 393]"
+          "sinhala": "ආරක්ෂාව (අනතුරු රහිත බව)"
         },
         {
           "japanese": "定時性",
           "furigana": "ていじせい",
           "romaji": "Teijisei",
           "english": "Punctuality (On-time Performance)",
-          "sinhala": "නියමිත වේලාවට වැඩ කිරීම (වේලාව සුරැකීම)[cite: 365, 393]"
+          "sinhala": "නියමිත වේලාවට වැඩ කිරීම (වේලාව සුරැකීම)"
         },
         {
           "japanese": "快適性",
           "furigana": "かいてきせい",
           "romaji": "Kaitekisei",
           "english": "Comfort and Cleanliness",
-          "sinhala": "සුවපහසුව සහ පිරිසිදු බව[cite: 365, 393]"
+          "sinhala": "සුවපහසුව සහ පිරිසිදු බව"
         }
       ]
     },
@@ -218,12 +218,12 @@
             "furigana": "A. 作(さ)業(ぎょう)の安(あん)全(ぜん)と品(ひん)質(しつ)：グランドハンドリング作(さ)業(ぎょう)は、屋(おく)外(がい)での作(さ)業(ぎょう)や車(しゃ)両(りょう)の運(うん)転(てん)・機(き)材(ざい)を使(つか)った作(さ)業(ぎょう)が多(おお)くあり、しかも飛(ひ)行(こう)機(き)の到(とう)着(ちゃく)時(じ)刻(こく)や出(しゅっ)発(ぱつ)時(じ)刻(こく)にあわせてこれらの作(さ)業(ぎょう)を限(かぎ)られた時(じ)間(かん)内(ない)に行(おこな)う必(ひつ)要(よう)がある。少(すこ)しでも油(ゆ)断(だん)すると、人(じん)身(しん)災(さい)害(がい)、航(こう)空(くう)機(き)の損(そん)傷(しょう)、車(しゃ)両(りょう)・機(き)材(ざい)の損(そん)傷(しょう)、取(とり)り扱(あつか)い貨(か)物(もつ)・手(て)荷(に)物(もつ)・郵(ゆう)便(びん)物(ぶつ)の損(そん)傷(しょう)・誤(ご)送(そう)などの不(ふ)具(ぐ)合(あい)が発(はっ)生(せい)する。たとえば航(こう)空(くう)機(き)や車(しゃ)両(りょう)・機(き)材(ざい)の損(そん)傷(しょう)が発(はっ)生(せい)すると、その修(しゅう)理(り)が必(ひつ)要(よう)になったり、作(さ)業(ぎょう)員(いん)が怪(け)我(が)をすると作(さ)業(ぎょう)に遅(おく)れが出(で)たりして、飛(ひ)行(こう)機(き)の出(しゅっ)発(ぱつ)が遅(おく)れてしまう。また、手(て)荷(に)物(もつ)や貨(か)物(もつ)の取(とり)り扱(あつか)いを間(ま)違(ちが)えると乗(じょう)客(きゃく)に迷(めい)惑(わく)をかけてしまう。このように、作(さ)業(ぎょう)の不(ふ)具(ぐ)合(あい)が発(はっ)生(せい)すると、結(けっ)果(か)的(てき)に品(ひん)質(しつ)が低(てい)下(か)することになる。したがって、品(ひん)質(しつ)を向(こう)上(じょう)させるということは、作(さ)業(ぎょう)を確(かく)実(じつ)に行(おこな)い、航(こう)空(くう)機(き)や車(しゃ)両(りょう)を壊(こわ)さず、作(さ)業(ぎょう)員(いん)が健(けん)康(こう)でいるということと同(おな)じだといえる。",
             "romaji": "A. Sagyou no anzen to hinshitsu: Gurando handoringu sagyou wa, okugai de no sagyou ya sharyou no unten, kizai wo tsukatta sagyou ga ooku ari, shikamo hikouki no touchaku jikoku ya shuppatsu jikoku ni awasete korera no sagyou wo kagirareta jikannai ni okonau hitsuyou ga aru. Sukoshi demo yudan suru to, jinshin saigai, koukuuki no sonshou, sharyou, kizai no sonshou, toriatsukai kamotsu, tenimotsu, yuubinbutsu no sonshou, gosou nado no fuguai ga hassei suru. Tatoeba koukuuki ya sharyou, kizai no sonshou ga hassei suru to, sono shuuri ga hitsuyou ni nattari, sagyouin ga kega wo suru to sagyou ni okure ga detari shite, hikouki no shuppatsu ga okurete shimau. Mata, tenimotsu ya kamotsu no toriatsukai wo machigaeru to joukyaku ni meiwaku wo kakete shimau. Kono you ni, sagyou no fuguai ga hassei suru to, kekkateki ni hinshitsu ga teika suru koto ni naru. Shitagatte, hinshitsu wo koujou saseru to iu koto wa, sagyou wo kakujitsu ni okonai, koukuuki ya sharyou wo kowasazu, sagyouin ga kenkou de iru to iu koto to onaji da to ieru."
           },
-          "english": "Workplace Safety Direct Connection to Quality: Ground handling involves heavy outdoor machinery and vehicle driving executed against strict flight departure deadlines. A moment of carelessness triggers serious failures: worker injuries, aircraft strikes, GSE collisions, cargo/baggage damage, or misrouting (Gosou). Damaged aircraft require unscheduled repairs and injured staff cause operational delays that cascade into delayed takeoffs[cite: 365, 394]. Therefore, improving quality fundamentally means: executing procedures flawlessly, zero damage to aircraft and equipment, and keeping every worker healthy and unharmed[cite: 365, 394]!",
-          "sinhala": "කාර්යයන්හි ආරක්ෂාව සහ ගුණාත්මකභාවය අතර සබඳතාව: ග්‍රවුන්ඩ් හැන්ඩ්ලින් මෙහෙයුම් යනු එළිමහනේ වාහන හා බර උපකරණ උපයෝගී කරගනිමින්, ගුවන් යානය පිටත්වීමේ දැඩි කාල සීමාව තුළ නිම කළ යුතු කාර්යයන්ය[cite: 365, 394]. සුළු හෝ නොසැලකිලිමත්කමක් (Yudan) සිදුවුවහොත් සේවක අනතුරු (Jinshin Saigai), යානාවලට හානි වීම, වාහන ගැටීම්, බඩු බාහිරාදියට හානි වීම හෝ වැරදි ගමනාන්තවලට යැවීම (誤送 - Gosou) වැනි බරපතල දෝෂ හටගනී[cite: 365, 394]. ගුවන් යානයකට හානි වුවහොත් අලුත්වැඩියාවන්ට කාලය ගතවීමෙන් සහ සේවකයෙකු තුවාල ලැබුවහොත් ගුවන් ගමන් ප්‍රමාද වේ[cite: 365, 394]. එබැවින් ගුණාත්මකභාවය (Quality) ඉහළ නැංවීම යනු: කාර්යයන් නිවැරදිව ඉටු කිරීම, ගුවන් යානා හෝ වාහනවලට හානි නොකිරීම සහ සේවකයින් නිරෝගීව හා ආරක්ෂිතව සිටීමම වේ[cite: 365, 394].",
+          "english": "Workplace Safety Direct Connection to Quality: Ground handling involves heavy outdoor machinery and vehicle driving executed against strict flight departure deadlines. A moment of carelessness triggers serious failures: worker injuries, aircraft strikes, GSE collisions, cargo/baggage damage, or misrouting (Gosou). Damaged aircraft require unscheduled repairs and injured staff cause operational delays that cascade into delayed takeoffs. Therefore, improving quality fundamentally means: executing procedures flawlessly, zero damage to aircraft and equipment, and keeping every worker healthy and unharmed!",
+          "sinhala": "කාර්යයන්හි ආරක්ෂාව සහ ගුණාත්මකභාවය අතර සබඳතාව: ග්‍රවුන්ඩ් හැන්ඩ්ලින් මෙහෙයුම් යනු එළිමහනේ වාහන හා බර උපකරණ උපයෝගී කරගනිමින්, ගුවන් යානය පිටත්වීමේ දැඩි කාල සීමාව තුළ නිම කළ යුතු කාර්යයන්ය. සුළු හෝ නොසැලකිලිමත්කමක් (Yudan) සිදුවුවහොත් සේවක අනතුරු (Jinshin Saigai), යානාවලට හානි වීම, වාහන ගැටීම්, බඩු බාහිරාදියට හානි වීම හෝ වැරදි ගමනාන්තවලට යැවීම (誤送 - Gosou) වැනි බරපතල දෝෂ හටගනී. ගුවන් යානයකට හානි වුවහොත් අලුත්වැඩියාවන්ට කාලය ගතවීමෙන් සහ සේවකයෙකු තුවාල ලැබුවහොත් ගුවන් ගමන් ප්‍රමාද වේ. එබැවින් ගුණාත්මකභාවය (Quality) ඉහළ නැංවීම යනු: කාර්යයන් නිවැරදිව ඉටු කිරීම, ගුවන් යානා හෝ වාහනවලට හානි නොකිරීම සහ සේවකයින් නිරෝගීව හා ආරක්ෂිතව සිටීමම වේ.",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "ළමයි, බඩු පටවන්න තියෙන්නේ විනාඩි 30ක් වගේ සුළු වෙලාවක්[cite: 369, 400]. ඒ කලබල අස්සේ චුට්ටක් හරි නොසැලකිලිමත් වුණොත් (Yudan suru), ප්ලේන් එකේ වාහනයක් හැප්පෙන්න හරි, කවුරු හරි තුවාල වෙන්න හරි, බෑග් වෙන රටකට වැරදිලා පටවන්න හරි (Gosou) පුළුවන්[cite: 365, 394]! Quality එක වැඩි කරනවා කියන්නේ වැඩේ හරියට කරන එකයි, තමන්ගේ ඇඟපත බේරගෙන නිරෝගීව ඉන්න එකයි[cite: 365, 394]!",
-            "japanese_tts_text": "作業の品質向上とは、手順を確実に行い、航空機を傷つけず、作業員自身が健康で安全に働くことです[cite: 365, 394]。"
+            "teacher_script_sinhala": "ළමයි, බඩු පටවන්න තියෙන්නේ විනාඩි 30ක් වගේ සුළු වෙලාවක්. ඒ කලබල අස්සේ චුට්ටක් හරි නොසැලකිලිමත් වුණොත් (Yudan suru), ප්ලේන් එකේ වාහනයක් හැප්පෙන්න හරි, කවුරු හරි තුවාල වෙන්න හරි, බෑග් වෙන රටකට වැරදිලා පටවන්න හරි (Gosou) පුළුවන්! Quality එක වැඩි කරනවා කියන්නේ වැඩේ හරියට කරන එකයි, තමන්ගේ ඇඟපත බේරගෙන නිරෝගීව ඉන්න එකයි!",
+            "japanese_tts_text": "作業の品質向上とは、手順を確実に行い、航空機を傷つけず、作業員自身が健康で安全に働くことです。"
           }
         }
       ],
@@ -233,21 +233,21 @@
           "furigana": "じんしんさいがい",
           "romaji": "Jinshin Saigai",
           "english": "Workplace Injury / Human Casualty",
-          "sinhala": "සේවකයින්ට සිදුවන අනතුරු / ශාරීරික හානි[cite: 365, 394]"
+          "sinhala": "සේවකයින්ට සිදුවන අනතුරු / ශාරීරික හානි"
         },
         {
           "japanese": "誤送",
           "furigana": "ごそう",
           "romaji": "Gosou",
           "english": "Mishandling / Misdirection of Baggage/Cargo",
-          "sinhala": "වැරදි ගමනාන්තයකට භාණ්ඩ/ගමන් මලු යැවීම[cite: 365, 394]"
+          "sinhala": "වැරදි ගමනාන්තයකට භාණ්ඩ/ගමන් මලු යැවීම"
         },
         {
           "japanese": "油断",
           "furigana": "ゆだん",
           "romaji": "Yudan",
           "english": "Carelessness / Negligence / Inattention",
-          "sinhala": "නොසැලකිලිමත්කම / උදාසීන බව[cite: 365, 394]"
+          "sinhala": "නොසැලකිලිමත්කම / උදාසීන බව"
         }
       ]
     },
@@ -267,12 +267,12 @@
             "furigana": "B. 作(さ)業(ぎょう)の基(き)本(ほん)的(てき)考(かんが)え方(かた)：作(さ)業(ぎょう)は、迅(じん)速(そく)・確(かく)実(じつ)・丁(てい)寧(ねい)に行(おこな)い、乗(じょう)客(きゃく)に信(しん)頼(らい)される、高(たか)い品(ひん)質(しつ)でなければならない。乗(じょう)客(きゃく)が搭(とう)乗(じょう)待(まち)合(あい)室(しつ)や機(き)内(ない)から作(さ)業(ぎょう)態(たい)度(ど)を見(み)て信(しん)頼(らい)できるか判(はん)断(だん)しているので下(か)記(き)項(こう)目(もく)を強(つよ)く意(い)識(しき)して作(さ)業(ぎょう)することが非(ひ)常(じょう)に重(じゅう)要(よう)である。① 作(さ)業(ぎょう)をする時(とき)は、作(さ)業(ぎょう)者(しゃ)自(じ)身(しん)および関(かん)係(けい)者(しゃ)の安(あん)全(ぜん)衛(えい)生(せい)に注(ちゅう)意(い)しなければならない。② 服(ふく)装(そう)・態(たい)度(ど)は厳(きび)しくルール・マナーを守(まも)らなければならない。③ 作(さ)業(ぎょう)をする時(とき)は、正(ただ)しい姿(し)勢(せい)・的(てき)確(かく)な動(どう)作(さ)を心(こころ)掛(が)ける。④ 車(しゃ)両(りょう)等(とう)の誘(ゆう)導(どう)・合(あい)図(ず)・連(れん)絡(らく)は、明(めい)確(かく)に行(おこな)う。⑤ 乗(じょう)客(きゃく)・外(がい)来(らい)者(しゃ)の前(まえ)では、言(こと)葉(ば)づかいや大(おお)声(ごえ)での会(かい)話(わ)に注(ちゅう)意(い)し、車(しゃ)両(りょう)・機(き)材(ざい)、手(て)荷(に)物(もつ)等(とう)の乱(らん)暴(ぼう)な取(とり)り扱(あつか)い、または悪(わる)ふざけ等(とう)の行(こう)為(い)をしてはいけない。⑥ 必(ひつ)要(よう)な場(ば)合(あい)を除(のぞ)き、航(こう)空(くう)機(き)・搭(とう)載(さい)物(ぶっ)件(けん)・作(さ)業(ぎょう)用(よう)機(き)材(ざい)等(とう)に触(ふ)れないようにする。⑦ ランプにおいては、常(つね)に周(しゅう)囲(い)の航(こう)空(くう)機(き)および車(しゃ)両(りょう)の交(こう)通(つう)に注(ちゅう)意(い)を払(はら)わなければならない。⑧ 作(さ)業(ぎょう)の終(しゅう)了(りょう)後(ご)は、自(じ)分(ぶん)自(じ)身(しん)で実(じっ)施(し)した作(さ)業(ぎょう)を、客(きゃっ)観(かん)的(てき)に確(かく)認(にん)しなければならない。すべての作(さ)業(ぎょう)は、確(かく)認(にん)の積(つ)み重(かさ)ねである。",
             "romaji": "B. Sagyou no kihonteki kangaekata: Sagyou wa, jinsoku, kakujitsu, teinei ni okonai, joukyaku ni shinrai sareru, takai hinshitsu de nakereba naranai. Joukyaku ga toujou machiaishitsu ya kinai kara sagyou taido wo mite shinrai dekiru ka handan shite iru node kaki koumoku wo tsuyoku ishiki shite sagyou suru koto ga hijou ni juuyou de aru. 1. Sagyou wo suru toki wa, sagyousha jishin oyobi kankeisha no anzen eisei ni chuui shinakereba naranai. 2. Fukusou, taido wa kibishiku ruuru, manaa wo mamoranakereba naranai. 3. Sagyou wo suru toki wa, tadashii shisei, tekikaku na dousa wo kokorogakeru. 4. Sharyou tou no yuudou, aizu, renraku wa, meikaku ni okonau. 5. Joukyaku, gairaisha no mae de wa, kotobadukai ya oogoe de no kaiwa ni chuui shi, sharyou, kizai, tenimotsu tou no ranbou na toriatsukai, matawa warufuzake tou no koui wo shite wa ikenai. 6. Hitsuyou na baai wo nozoki, koukuuki, tousai bukken, sagyouyou kizai tou ni furenai you ni suru. 7. Ranpu ni oite wa, tsune ni shuui no koukuuki oyobi sharyou no koutsuu ni chuui wo harawanakereba naranai. 8. Sagyou no shuuryougo wa, jibun jishin de jisshi shita sagyou wo, kakkanteki ni kakunin shinakereba naranai. Subete no sagyou wa, kakunin no tsumikasane de aru."
           },
-          "english": "Eight Cardinal Principles of Ground Handling Work: All ramp duties must be executed quickly, accurately, and politely (Jinsoku, Kakujitsu, Teinei). Passengers constantly watch ground crews from boarding gates and cabin windows! The 8 Golden Rules: 1. Always prioritize occupational health and safety for yourself and co-workers. 2. Strict adherence to professional dress code and manners[cite: 366, 395]. 3. Maintain correct posture and precise body movements[cite: 366, 395]. 4. Deliver crystal-clear vehicle marshalling and communications[cite: 366, 395]. 5. In view of passengers, mind your language; never shout loudly, handle baggage roughly, or engage in horseplay/pranks (Warufuzake kinshi)[cite: 366, 395]! 6. Never touch aircraft surfaces, cargo, or equipment unless strictly necessary for your job[cite: 366, 395]. 7. Constantly monitor moving aircraft and ramp traffic[cite: 366, 395]. 8. Objectively inspect and verify your completed work[cite: 366, 395]. 'All aviation work is a continuous accumulation of verifications[cite: 366, 395]!'",
-          "sinhala": "භූමි සේවක මූලික ආචාරධර්ම සහ දෛනික ආරක්ෂක විනය (රීති 8): භූමි මෙහෙයුම් කඩිනමින්, නිවැරදිව හා ගෞරවාන්විතව (Jinsoku, Kakujitsu, Teinei) ඉටු කළ යුතුය[cite: 366, 395]. මගීන් බෝඩිං ලවුන්ජ් එකේ සිට සහ ගුවන් යානයේ ජනේලවලින් ඔබ වැඩ කරන ආකාරය බලා සිටින බව තරයේ මතක තබාගන්න[cite: 366, 395]! රන් රීති 8: 1. තමන්ගේ සහ සගයන්ගේ සෞඛ්‍යාරක්ෂාව ගැන නිරන්තරයෙන් සැලකිලිමත් වන්න[cite: 366, 395]. 2. නිල ඇඳුම සහ විනය දැඩිව ආරක්ෂා කරන්න[cite: 366, 395]. 3. නිවැරදි ඉරියව් සහ නිරවුල් චලනයන් පවත්වා ගන්න[cite: 366, 395]. 4. වාහන මෙහෙයවීම්, හස්ත සංඥා සහ සන්නිවේදනය ඉතා පැහැදිලිව කරන්න[cite: 366, 395]. 5. මගීන් ඉදිරියේ ශබ්ද නගා කෑගැසීමෙන් වළකින්න; ගමන් මලුවලට නොසැලකිලිමත් ලෙස සැලකීම හෝ විහිළු සෙල්ලම් (Warufuzake kinshi) සපුරා තහනම්ය[cite: 366, 395]! 6. රාජකාරි අවශ්‍යතාවයකට හැර ගුවන් යානය, බඩු හෝ උපකරණ අනවශ්‍ය ලෙස ස්පර්ශ නොකරන්න[cite: 366, 395]. 7. රැම්ප් එකේදී සැමවිටම ගමන් කරන ගුවන් යානා සහ වාහන ගමනාගමනය ගැන දැඩි අවධානයෙන් සිටින්න[cite: 366, 395]. 8. වැඩ නිම වූ පසු තමන් කළ කාර්යය ස්වාධීනව නැවත පරීක්ෂා කරන්න[cite: 366, 395]. 'ගුවන් සේවා ක්ෂේත්‍රයේ සියලු කාර්යයන් යනු තහවුරු කිරීම් මතම ගොඩනැගුණු ක්‍රියාවලියකි[cite: 366, 395]!'",
+          "english": "Eight Cardinal Principles of Ground Handling Work: All ramp duties must be executed quickly, accurately, and politely (Jinsoku, Kakujitsu, Teinei). Passengers constantly watch ground crews from boarding gates and cabin windows! The 8 Golden Rules: 1. Always prioritize occupational health and safety for yourself and co-workers. 2. Strict adherence to professional dress code and manners. 3. Maintain correct posture and precise body movements. 4. Deliver crystal-clear vehicle marshalling and communications. 5. In view of passengers, mind your language; never shout loudly, handle baggage roughly, or engage in horseplay/pranks (Warufuzake kinshi)! 6. Never touch aircraft surfaces, cargo, or equipment unless strictly necessary for your job. 7. Constantly monitor moving aircraft and ramp traffic. 8. Objectively inspect and verify your completed work. 'All aviation work is a continuous accumulation of verifications!'",
+          "sinhala": "භූමි සේවක මූලික ආචාරධර්ම සහ දෛනික ආරක්ෂක විනය (රීති 8): භූමි මෙහෙයුම් කඩිනමින්, නිවැරදිව හා ගෞරවාන්විතව (Jinsoku, Kakujitsu, Teinei) ඉටු කළ යුතුය. මගීන් බෝඩිං ලවුන්ජ් එකේ සිට සහ ගුවන් යානයේ ජනේලවලින් ඔබ වැඩ කරන ආකාරය බලා සිටින බව තරයේ මතක තබාගන්න! රන් රීති 8: 1. තමන්ගේ සහ සගයන්ගේ සෞඛ්‍යාරක්ෂාව ගැන නිරන්තරයෙන් සැලකිලිමත් වන්න. 2. නිල ඇඳුම සහ විනය දැඩිව ආරක්ෂා කරන්න. 3. නිවැරදි ඉරියව් සහ නිරවුල් චලනයන් පවත්වා ගන්න. 4. වාහන මෙහෙයවීම්, හස්ත සංඥා සහ සන්නිවේදනය ඉතා පැහැදිලිව කරන්න. 5. මගීන් ඉදිරියේ ශබ්ද නගා කෑගැසීමෙන් වළකින්න; ගමන් මලුවලට නොසැලකිලිමත් ලෙස සැලකීම හෝ විහිළු සෙල්ලම් (Warufuzake kinshi) සපුරා තහනම්ය! 6. රාජකාරි අවශ්‍යතාවයකට හැර ගුවන් යානය, බඩු හෝ උපකරණ අනවශ්‍ය ලෙස ස්පර්ශ නොකරන්න. 7. රැම්ප් එකේදී සැමවිටම ගමන් කරන ගුවන් යානා සහ වාහන ගමනාගමනය ගැන දැඩි අවධානයෙන් සිටින්න. 8. වැඩ නිම වූ පසු තමන් කළ කාර්යය ස්වාධීනව නැවත පරීක්ෂා කරන්න. 'ගුවන් සේවා ක්ෂේත්‍රයේ සියලු කාර්යයන් යනු තහවුරු කිරීම් මතම ගොඩනැගුණු ක්‍රියාවලියකි!'",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "මතක තියාගන්න ළමයි, ප්ලේන් එක ඇතුළේ ඉන්න මගීන් ජනේලෙන් බලාගෙන ඉන්නේ අපි වැඩ කරන හැටි[cite: 366, 395]! ඒ නිසා Ramp එකේ ඉඳන් කෑගහන්න, විහිළු කරන්න, බෑග් විසි කරන්න සපුරා තහනම් (Warufuzake kinshi)[cite: 366, 395]! වැඩේ ඉවර වුණාම 'මම කරපු වැඩේ හරිද' කියලා තමන්ම ආයෙත් ඇස් දෙකෙන් චෙක් කරන්න ඕනෙ[cite: 366, 395]. 'Subete no sagyou wa, kakunin no tsumikasane de aru' (හැම වැඩක්ම නැවත තහවුරු කිරීම් වල එකතුවක්) කියන කියමන විභාගයට අනිවාර්යයෙන්ම එනවා[cite: 366, 395]!",
-            "japanese_tts_text": "作業は迅速・確実・丁寧に行い、悪ふざけは厳禁です[cite: 366, 395]。すべての作業は確認の積み重ねです[cite: 366, 395]。"
+            "teacher_script_sinhala": "මතක තියාගන්න ළමයි, ප්ලේන් එක ඇතුළේ ඉන්න මගීන් ජනේලෙන් බලාගෙන ඉන්නේ අපි වැඩ කරන හැටි! ඒ නිසා Ramp එකේ ඉඳන් කෑගහන්න, විහිළු කරන්න, බෑග් විසි කරන්න සපුරා තහනම් (Warufuzake kinshi)! වැඩේ ඉවර වුණාම 'මම කරපු වැඩේ හරිද' කියලා තමන්ම ආයෙත් ඇස් දෙකෙන් චෙක් කරන්න ඕනෙ. 'Subete no sagyou wa, kakunin no tsumikasane de aru' (හැම වැඩක්ම නැවත තහවුරු කිරීම් වල එකතුවක්) කියන කියමන විභාගයට අනිවාර්යයෙන්ම එනවා!",
+            "japanese_tts_text": "作業は迅速・確実・丁寧に行い、悪ふざけは厳禁です。すべての作業は確認の積み重ねです。"
           }
         }
       ],
@@ -282,21 +282,21 @@
           "furigana": "じんそく・かくじつ・ていねい",
           "romaji": "Jinsoku, Kakujitsu, Teinei",
           "english": "Prompt, Accurate, and Polite / Careful",
-          "sinhala": "කඩිනම්, නිවැරදි සහ ගෞරවාන්විත[cite: 366, 395]"
+          "sinhala": "කඩිනම්, නිවැරදි සහ ගෞරවාන්විත"
         },
         {
           "japanese": "悪ふざけ等の行為の禁止",
           "furigana": "わるふざけとうのこういのきんし",
           "romaji": "Warufuzake tou no koui no kinshi",
           "english": "Prohibition of Pranks / Horseplay",
-          "sinhala": "විහිළු සෙල්ලම් සහ නොහොබිනා ක්‍රියා සපුරා තහනම් වීම[cite: 366, 395]"
+          "sinhala": "විහිළු සෙල්ලම් සහ නොහොබිනා ක්‍රියා සපුරා තහනම් වීම"
         },
         {
           "japanese": "確認の積み重ね",
           "furigana": "かくにんのつみかさね",
           "romaji": "Kakunin no Tsumikasane",
           "english": "Accumulation of Verifications",
-          "sinhala": "නිරන්තර තහවුරු කිරීම් මත පදනම් වූ ක්‍රියාවලිය[cite: 366, 395]"
+          "sinhala": "නිරන්තර තහවුරු කිරීම් මත පදනම් වූ ක්‍රියාවලිය"
         }
       ]
     }
