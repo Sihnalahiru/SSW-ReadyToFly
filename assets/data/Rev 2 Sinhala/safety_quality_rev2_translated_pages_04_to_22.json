@@ -13,7 +13,7 @@
       "Sinhala"
     ],
     "pdf_page_mapping": "PDF physical page = printed page + 2 for printed content pages 1-22",
-    "image_mapping_status": "PENDING_VISUAL_MAPPING",
+    "image_mapping_status": "PARTIAL_VISUAL_ASSET_IDENTIFICATION; 141 FILES INVENTORIED; ONLY SEMANTICALLY IDENTIFIABLE ASSETS MAPPED; REMAINING EXTRACTION FRAGMENTS/DECORATIVE ASSETS NOT FORCED INTO PAGE MAPPINGS",
     "audio_status": "36_SINHALA_NARRATION_AND_JAPANESE_TTS_SCRIPTS_PRESENT; AUDIO_RENDERING_AND_PLAYBACK_TEST_PENDING",
     "note": "Translations are source-grounded study translations, not certified legal or aviation procedure translations. Follow employer/airport procedures and official notices for operations.",
     "vocabulary_status": "CORE_GLOSSARY_TRANSLATED_WITH_FURIGANA_AND_ROMAJI",
@@ -122,7 +122,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "NO_IMAGE_ASSIGNED"
     },
     {
       "page_number": 5,
@@ -242,7 +242,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "NO_IMAGE_ASSIGNED"
     },
     {
       "page_number": 6,
@@ -305,7 +305,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "NO_IMAGE_ASSIGNED"
     },
     {
       "page_number": 7,
@@ -347,7 +347,9 @@
           "content_type": "source_aligned_study_note"
         }
       ],
-      "mapped_images": [],
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/15.jpg"
+      ],
       "page_title_sinhala": "Aircraft Departure Checks and Engine Hazards",
       "page_title_japanese": "出発発見の着眼点",
       "vocabulary_highlights": [
@@ -433,7 +435,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     },
     {
       "page_number": 8,
@@ -475,7 +477,9 @@
           "content_type": "source_aligned_study_note"
         }
       ],
-      "mapped_images": [],
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/95.jpg"
+      ],
       "page_title_sinhala": "Engine Inlet and Dangerous Goods",
       "page_title_japanese": "インテーク（吸気）側の危険",
       "vocabulary_highlights": [
@@ -545,7 +549,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     },
     {
       "page_number": 9,
@@ -587,7 +591,9 @@
           "content_type": "source_aligned_study_note"
         }
       ],
-      "mapped_images": [],
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/98.jpg"
+      ],
       "page_title_sinhala": "Weight and Balance",
       "page_title_japanese": "ウエイト・アンド・バランス",
       "vocabulary_highlights": [
@@ -673,7 +679,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     },
     {
       "page_number": 10,
@@ -793,7 +799,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "NO_IMAGE_ASSIGNED"
     },
     {
       "page_number": 11,
@@ -852,7 +858,12 @@
           "content_type": "source_aligned_study_note"
         }
       ],
-      "mapped_images": [],
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/99.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/101.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/102.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/103.jpg"
+      ],
       "page_title_sinhala": "3. Work Safety – Rules, Weather and Clothing",
       "page_title_japanese": "規定の遵守",
       "vocabulary_highlights": [
@@ -978,7 +989,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     },
     {
       "page_number": 12,
@@ -1037,7 +1048,10 @@
           "content_type": "source_aligned_study_note"
         }
       ],
-      "mapped_images": [],
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/104.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/105.jpg"
+      ],
       "page_title_sinhala": "Vehicle Driving and Hearing Protection",
       "page_title_japanese": "耳栓やイヤーマフの着用",
       "vocabulary_highlights": [
@@ -1131,7 +1145,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     },
     {
       "page_number": 13,
@@ -1190,7 +1204,13 @@
           "content_type": "source_aligned_study_note"
         }
       ],
-      "mapped_images": [],
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/106.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/122.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/123.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/124.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/125.jpg"
+      ],
       "page_title_sinhala": "Vehicle Riding Prohibitions and Guiding",
       "page_title_japanese": "車両への乗車に関わる禁止行為",
       "vocabulary_highlights": [
@@ -1300,7 +1320,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     },
     {
       "page_number": 14,
@@ -1379,7 +1399,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "NO_IMAGE_ASSIGNED"
     },
     {
       "page_number": 15,
@@ -1491,7 +1511,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "NO_IMAGE_ASSIGNED"
     },
     {
       "page_number": 16,
@@ -1562,7 +1582,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "NO_IMAGE_ASSIGNED"
     },
     {
       "page_number": 17,
@@ -1682,7 +1702,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "NO_IMAGE_ASSIGNED"
     },
     {
       "page_number": 18,
@@ -1707,7 +1727,14 @@
           "content_type": "source_aligned_study_note"
         }
       ],
-      "mapped_images": [],
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/127.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/128.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/129.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/130.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/131.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/132.jpg"
+      ],
       "page_title_sinhala": "Reference 1 – Vehicle Route Markings",
       "page_title_japanese": "車両通路の指示標示等の定義",
       "vocabulary_highlights": [
@@ -1753,7 +1780,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     },
     {
       "page_number": 19,
@@ -1795,7 +1822,13 @@
           "content_type": "source_aligned_study_note"
         }
       ],
-      "mapped_images": [],
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/133.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/134.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/135.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/136.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/137.jpg"
+      ],
       "page_title_sinhala": "Reference 1 – Apron Safety Definitions",
       "page_title_japanese": "機材制限区域・機材待機区域",
       "vocabulary_highlights": [
@@ -1865,7 +1898,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     },
     {
       "page_number": 20,
@@ -1907,7 +1940,9 @@
           "content_type": "source_aligned_study_note"
         }
       ],
-      "mapped_images": [],
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/138.jpg"
+      ],
       "page_title_sinhala": "Reference 2 – Dangerous Goods Air Transport Rules",
       "page_title_japanese": "危険物の航空輸送ルール",
       "vocabulary_highlights": [
@@ -2001,7 +2036,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     },
     {
       "page_number": 21,
@@ -2026,7 +2061,17 @@
           "content_type": "source_aligned_study_note"
         }
       ],
-      "mapped_images": [],
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/139.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/147.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/148.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/149.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/150.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/151.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/152.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/153.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/154.jpg"
+      ],
       "page_title_sinhala": "Reference 2 – Dangerous Goods Classification",
       "page_title_japanese": "危険物の正しい判別",
       "vocabulary_highlights": [
@@ -2096,7 +2141,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     },
     {
       "page_number": 22,
@@ -2138,7 +2183,15 @@
           "content_type": "source_aligned_study_note"
         }
       ],
-      "mapped_images": [],
+      "mapped_images": [
+        "GHtext【1.Safety and Quality】- Images .REV2/140.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/141.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/142.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/143.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/144.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/145.jpg",
+        "GHtext【1.Safety and Quality】- Images .REV2/146.jpg"
+      ],
       "page_title_sinhala": "Reference 2 – Labels and Packaging",
       "page_title_japanese": "危険性を示すラベル・輸送方法を示すラベル",
       "vocabulary_highlights": [
@@ -2232,7 +2285,7 @@
         }
       ],
       "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
-      "image_mapping_status": "PENDING_VISUAL_MAPPING"
+      "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     }
   ]
 }
