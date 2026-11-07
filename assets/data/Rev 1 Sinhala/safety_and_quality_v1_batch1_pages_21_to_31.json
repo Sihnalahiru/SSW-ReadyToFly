@@ -4,7 +4,7 @@
     "batch": "Batch 5 (Pages 21 to 31 - Final Batch)",
     "document_title": "Safety and Quality Training Manual Rev 1 (SSW ReadyToFly)",
     "source_pdf": "Safety and quality V1.pdf",
-    "image_folder": "Safety and quality - Images V1/"
+    "image_folder": "Safety and quality  - Images V1/"
   },
   "pages": [
     {
@@ -12,8 +12,8 @@
       "page_title_sinhala": "අනතුරු වැළැක්වීම: හියාරි-හට්ටෝ (Near-Miss) වාර්තා සහ ශිසා කොෂෝ (Point and Call)",
       "page_title_japanese": "05. 予防：A. ヒヤリ・ハット・レポート と B. 指差呼称および危険予知",
       "mapped_images": [
-        "Safety and quality - Images V1/138.jpg",
-        "Safety and quality - Images V1/139.jpg"
+        "Safety and quality  - Images V1/138.jpg",
+        "Safety and quality  - Images V1/139.jpg"
       ],
       "study_sections": [
         {
@@ -78,8 +78,8 @@
       "page_title_sinhala": "ශිසා කොෂෝ හි ප්‍රායෝගික පුහුණුව සහ ගුවන් තොටුපළ බිම් ආරක්ෂාව",
       "page_title_japanese": "B. 指差呼称の意義と現場での実践（安全確認の手順）",
       "mapped_images": [
-        "Safety and quality - Images V1/140.jpg",
-        "Safety and quality - Images V1/141.jpg"
+        "Safety and quality  - Images V1/140.jpg",
+        "Safety and quality  - Images V1/141.jpg"
       ],
       "study_sections": [
         {
@@ -121,12 +121,12 @@
       "page_title_sinhala": "රැම්ප් මාර්ග සංඥා සහ බිම් සලකුණු (Reference-1)",
       "page_title_japanese": "Reference-1 車両通路の指示標示等の定義",
       "mapped_images": [
-        "Safety and quality - Images V1/142.jpg",
-        "Safety and quality - Images V1/143.jpg",
-        "Safety and quality - Images V1/144.jpg",
-        "Safety and quality - Images V1/145.jpg",
-        "Safety and quality - Images V1/146.jpg",
-        "Safety and quality - Images V1/147.jpg"
+        "Safety and quality  - Images V1/142.jpg",
+        "Safety and quality  - Images V1/143.jpg",
+        "Safety and quality  - Images V1/144.jpg",
+        "Safety and quality  - Images V1/145.jpg",
+        "Safety and quality  - Images V1/146.jpg",
+        "Safety and quality  - Images V1/147.jpg"
       ],
       "study_sections": [
         {
@@ -168,10 +168,10 @@
       "page_title_sinhala": "රැම්ප් ආරක්ෂිත කලාප: ERA, ESA, උස සීමා සහ PBB කලාප",
       "page_title_japanese": "エプロン内安全のための定義（ERA、ESA、高さ制限、PBB稼働区域）",
       "mapped_images": [
-        "Safety and quality - Images V1/149.jpg",
-        "Safety and quality - Images V1/150.jpg",
-        "Safety and quality - Images V1/151.jpg",
-        "Safety and quality - Images V1/152.jpg"
+        "Safety and quality  - Images V1/149.jpg",
+        "Safety and quality  - Images V1/150.jpg",
+        "Safety and quality  - Images V1/151.jpg",
+        "Safety and quality  - Images V1/152.jpg"
       ],
       "study_sections": [
         {
@@ -213,8 +213,8 @@
       "page_title_sinhala": "PBB පොරොත්තු සලකුණු (PBB Stand-by Position)",
       "page_title_japanese": "PBB待機位置（PBB Stand-by Position）の実例",
       "mapped_images": [
-        "Safety and quality - Images V1/153.jpg",
-        "Safety and quality - Images V1/154.jpg"
+        "Safety and quality  - Images V1/153.jpg",
+        "Safety and quality  - Images V1/154.jpg"
       ],
       "study_sections": [
         {
@@ -249,7 +249,7 @@
       "page_title_sinhala": "අන්තරායකර භාණ්ඩ නීති (DGR) සහ යෙන් 500,000 ක දඩය",
       "page_title_japanese": "Reference-2 危険物を航空輸送するために：1. ルール厳守（50万円以下の罰金）と違反例",
       "mapped_images": [
-        "Safety and quality - Images V1/156.jpg"
+        "Safety and quality  - Images V1/156.jpg"
       ],
       "study_sections": [
         {
@@ -337,7 +337,17 @@
       "page_number": 28,
       "page_title_sinhala": "අන්තරායකර භාණ්ඩ නිල වර්ගීකරණය: පන්ති 1 සිට 9 දක්වා",
       "page_title_japanese": "危険物の正しい判別（第1類〜第9類の危険物分類と具体例）",
-      "mapped_images": [],
+      "mapped_images": [
+        "Safety and quality  - Images V1/157.jpg",
+        "Safety and quality  - Images V1/158.jpg",
+        "Safety and quality  - Images V1/159.jpg",
+        "Safety and quality  - Images V1/160.jpg",
+        "Safety and quality  - Images V1/161.jpg",
+        "Safety and quality  - Images V1/162.jpg",
+        "Safety and quality  - Images V1/163.jpg",
+        "Safety and quality  - Images V1/164.jpg",
+        "Safety and quality  - Images V1/165.jpg"
+      ],
       "study_sections": [
         {
           "section_id": "SQ_P28_S01",
@@ -385,8 +395,12 @@
       "page_title_sinhala": "DGR නිල ලේබල් සහ හැසිරවීමේ සලකුණු",
       "page_title_japanese": "危険性を示すラベル と 正しい容器の選定（国連容器・ジェリカン）",
       "mapped_images": [
-        "Safety and quality - Images V1/157.jpg",
-        "Safety and quality - Images V1/158.jpg"
+        "Safety and quality  - Images V1/166.jpg",
+        "Safety and quality  - Images V1/167.jpg",
+        "Safety and quality  - Images V1/168.jpg",
+        "Safety and quality  - Images V1/169.jpg",
+        "Safety and quality  - Images V1/170.jpg",
+        "Safety and quality  - Images V1/171.jpg"
       ],
       "study_sections": [
         {
@@ -420,7 +434,9 @@
       "page_number": 30,
       "page_title_sinhala": "DGR ඇසුරුම්කරණය සහ බහාලුම් නීති",
       "page_title_japanese": "正しい容器の選定（国連容器・ジェリカン）",
-      "mapped_images": [],
+      "mapped_images": [
+        "Safety and quality  - Images V1/172.jpg"
+      ],
       "study_sections": [
         {
           "section_id": "SQ_P30_S01",
