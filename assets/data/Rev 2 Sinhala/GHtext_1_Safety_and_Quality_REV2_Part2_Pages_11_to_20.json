@@ -4,7 +4,11 @@
     "batch": "GHtext_1_Safety_and_Quality_REV2_Part2_Pages_11_to_20",
     "document_title": "GHtext【1.Safety and Quality】.REV2.pdf",
     "source_pdf": "GHtext【1.Safety and Quality】.REV2.pdf",
-    "image_folder": "GHtext【1.Safety and Quality】- Images .REV2/"
+    "image_folder": "GHtext【1.Safety and Quality】- Images .REV2/",
+    "source_alignment_status": "SUPERSEDED_NOT_SOURCE_VERIFIED",
+    "do_not_use_as_final_dataset": true,
+    "superseded_by": "safety_quality_rev2_translated_pages_04_to_22.json",
+    "reason": "Original PDF structure uses printed study pages 1-22; previous 31-page records did not align with the Rev 2 PDF page/topic sequence. Preserved for audit history only."
   },
   "pages": [
     {
