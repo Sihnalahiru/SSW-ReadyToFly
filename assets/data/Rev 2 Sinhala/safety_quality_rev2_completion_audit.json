@@ -4,24 +4,24 @@
     "module": "Safety and Quality",
     "revision": "Rev 2",
     "updated": "2026-11-07",
-    "status": "CONTENT_DATASET_CREATED_APP_RUNTIME_BLOCKED"
+    "status": "CONTENT_TRANSLATION_DATASET_SAVED_IMAGE_MAPPING_PARTIAL_APP_RUNTIME_BLOCKED"
   },
   "completed": {
     "source_pdf_review": "26 physical PDF pages reviewed; printed study pages 1-22 indexed",
-    "translated_content": "19 printed pages (4-22) represented as 36 source-grounded study sections with English, Sinhala and Japanese source text",
-    "glossary": "167 page-level glossary entries; English and Sinhala meanings added for core terms; furigana/romaji still incomplete for most entries",
-    "narration": "36 Sinhala narration scripts included",
-    "japanese_tts": "36 Japanese TTS text scripts included",
+    "translated_content": "19 printed study pages (printed pages 4-22; physical PDF pages 6-24) represented as 36 sections. Each section now contains Japanese source excerpts, English translation and Sinhala translation.",
+    "glossary": "167 technical vocabulary entries with English and Sinhala meanings; Japanese source terms present where available. Furigana and romaji are still incomplete for most entries.",
+    "narration": "36 Sinhala narration scripts included and schema-validated; final native-speaker/audio playback review remains pending.",
+    "japanese_tts": "36 Japanese TTS text scripts included and schema-validated; audio rendering/playback remains pending.",
     "image_inventory": "141 repository image files inventoried",
-    "image_mapping": "42 semantically identifiable image assets mapped to 11 printed pages; 99 remaining files are unassigned or extraction fragments and not force-mapped"
+    "image_mapping": "141 image files inventoried; 42 semantically identifiable assets mapped to 11 printed pages. 99 files remain unassigned or appear to be extraction fragments/transparency masks."
   },
   "pending": {
-    "front_matter": "Printed pages 1-3 (preface and contents) not converted into study-note pages; contents indexed in source manifest",
-    "glossary_readings": "Furigana and romaji are incomplete for many of the 167 glossary records",
-    "image_mapping": "Need final pixel-level comparison of all image assets against rendered PDF pages; several assets are transparent masks/clipping fragments",
-    "audio_rendering": "Scripts exist, but no audio files have been generated or played back",
-    "app_integration": "Blocked: GitHub repository contains only assets/data files; no HTML, JavaScript, CSS, or app source files exist in this repository",
-    "runtime_testing": "Cannot run mobile/desktop/PWA/Service Worker/offline tests without the actual application source and deployment configuration"
+    "front_matter": "Printed pages 1-3 (preface and contents) indexed in source manifest but not yet converted into full trilingual study-note pages.",
+    "glossary_readings": "Furigana and romaji are incomplete for most of the 167 glossary entries.",
+    "image_mapping": "Final pixel-level comparison of the 42 mapped assets against rendered PDF page crops is still required; 99 other files have not been semantically mapped.",
+    "audio_rendering": "Scripts exist, but no audio files have been generated or played back.",
+    "app_integration": "Blocked: repository contains only assets/data files and no HTML, JavaScript, CSS, app source or deployment configuration.",
+    "runtime_testing": "Cannot run mobile/desktop/PWA/Service Worker/offline tests without the actual application source and deployment configuration."
   },
   "source_data": {
     "pdf": "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】.REV2.pdf",
