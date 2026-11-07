@@ -101,9 +101,7 @@
       "page_number": 17,
       "page_title_sinhala": "ULD පැටවීම සහ ඩොලි හැසිරවීම (ULD Loading & Dolly Operations)",
       "page_title_japanese": "C. ULDの搭降載手順とドーリ操作",
-      "mapped_images": [
-        "Ground handling - Images V1/107.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "section_id": "P17_S01",
@@ -166,7 +164,9 @@
       "page_number": 18,
       "page_title_sinhala": "TT ඉවත් කරගැනීම සහ පියාපත් යටින් රිය ධාවනය කිරීමේ දැඩි නීති (Wing-Under Clearance)",
       "page_title_japanese": "トーイング・トラクタの離脱と翼下通過走行の禁止",
-      "mapped_images": [],
+      "mapped_images": [
+        "Ground handling - Images V1/107.jpg"
+      ],
       "study_sections": [
         {
           "section_id": "P18_S01",
