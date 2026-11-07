@@ -40,11 +40,11 @@
             "furigana": "B. 指(し)差(さ)呼(こ)称(しょう)および危(き)険(けん)予(よ)知(ち)：ランプ内(ない)で前(ぜん)方(ぽう)および後(こう)方(ほう)に指(ゆび)を差(さ)して「ヨーシ」と声(こえ)を出(だ)しながら安(あん)全(ぜん)確(かく)認(にん)を実施しているのをよく目にする。",
             "romaji": "B. Shisa Koshou oyobi Kiken Yochi: Ranpu nai de zenpou oyobi kouhou ni yubi wo sashite 'Yooshi' to koe wo dashinagara anzen kakunin wo jisshi shite iru no wo yoku me ni suru."
           },
-          "english": "Shisa Koshou (Pointing and Calling) & Hazard Prediction: Ramp personnel frequently point toward the front and rear shouting 'Yoshi!'. This is not merely mechanical pointing; physically pointing while simultaneously calling out loudly sharpens neurological focus.",
-          "sinhala": "ශිසා කොෂෝ සහ අනතුරු අනාවැකි: රැම්ප් එකේදී ඉදිරියට හා පසුපසට ඇඟිල්ල දිගු කරමින් 'යෝෂි!' කියා හඬ නගන අයුරු නිතර දක්නට ලැබේ. මනසේ අවධානය උපරිමයෙන් කේන්ද්‍රගත කර, ඇස් දෙකෙන්ම බලා අනාරක්ෂිත තත්ත්වයක් නැති බව තහවුරු කර ගැනීමකි.",
+          "english": "Pointing and Calling (Shisa Koshou) and Hazard Prediction: On the ramp, workers are often seen pointing forward and backward while saying “Yoshi” to carry out safety checks. The purpose is not simply to point. Saying the callout at the same time focuses attention, while the worker visually checks whether an unsafe condition exists and whether safety is maintained. To carry out work safely and without mistakes, it is important to point to the item or location being checked and say “Yoshi” aloud.",
+          "sinhala": "ශිසා කොෂෝ (ඇඟිල්ල දිගු කර හඬ නගා තහවුරු කිරීම) සහ අනතුරු කල්තියා හඳුනාගැනීම: රැම්ප් ප්‍රදේශයේ සේවකයින් ඉදිරියට සහ පසුපසට ඇඟිල්ල දිගු කරමින් “යෝෂි” යනුවෙන් හඬ නගා ආරක්ෂාව පරීක්ෂා කරන අයුරු නිතර දක්නට ලැබේ. මෙය ඇඟිල්ල දිගු කිරීම පමණක් නොවේ. එකවර හඬ නගා කියීමෙන් අවධානය කේන්ද්‍රගත වන අතර, ඇස් දෙකෙන් බලා අනාරක්ෂිත තත්ත්වයක් තිබේද සහ ආරක්ෂාව පවත්වාගෙන යනවාද යන්න තහවුරු කරයි. වැඩ නිවැරදිව හා ආරක්ෂිතව සිදු කිරීම සඳහා පරීක්ෂා කළ යුතු ස්ථානයට ඇඟිල්ල දිගු කර “යෝෂි” යනුවෙන් හඬ නගා තහවුරු කිරීම වැදගත්ය.",
           "audio_narration": {
             "voice_language": "si-LK",
-            "teacher_script_sinhala": "මෙන්න ජපානයේ ලෝක ප්‍රසිද්ධ ආරක්ෂක ක්‍රමය: 'Shisa Koshou'! ඇඟිල්ල දික් කරලා ඇස් දෙකෙන් බලලා 'Yooshi!' කියලා සද්දෙට කියන්න ඕනෙ.",
+            "teacher_script_sinhala": "ශිසා කොෂෝ කියන්නේ ඇඟිල්ල දිගු කරලා නිකම්ම පෙන්වීම විතරක් නෙවෙයි. පරීක්ෂා කරන ස්ථානයට ඇඟිල්ල දිගු කරමින් “යෝෂි” කියලා හඬ නගන විට අවධානය කේන්ද්‍රගත වෙනවා. ඒ සමඟම ඇස් දෙකෙන් බලා අනාරක්ෂිත තත්ත්වයක් නැති බව තහවුරු කරන්න.",
             "japanese_tts_text": "指差呼称は、確認箇所を指差しながら「ヨーシ！」と声を出し、意識を集中して安全を確認します。"
           }
         }
@@ -134,12 +134,12 @@
           "section_id": "SQ_P23_S01",
           "content_type": "ramp_roadway_markings_table",
           "japanese": {
-            "original_kanji": "Reference-1 車両通路の指示標示等の定義：① 停止線標示（STOP 2m/5m）、② 進行方向標示（矢印）、③ 横断歩道あり標示（ダイヤマーク◇）、④ 前方優先標示（STOP破線：航空機優先）、⑤ サービスレーン標示（交互ジグザグ破線）、⑥ 誘導路横断待機区域標示。",
+            "original_kanji": "Reference-1 車両通路の指示標示等の定義：① 停止線標示：車両が停止する位置を示す。② 進行方向標示：車両が通行できる方向を示す。③ 横断歩道あり標示：前方に横断歩道があることを示す。④ 前方優先標示：交差する前方に航空機用の誘導路およびエプロン誘導路があることを示す。⑤ サービスレーン標示：誘導路（エプロン誘導路）を横断する車両通路を示す。⑥ 誘導路横断待機区域標示：車両が誘導路を横断する場合の待機位置を示す。",
             "furigana": "Reference-1 車両通路の指示標示等の定義...",
             "romaji": "Reference-1 Sharyou tsuuro no shiji hyouji tou no teigi: Teishisen, shinkou houkou, oudan hodou, zenpou yuusen, saabisu reen."
           },
-          "english": "Reference-1 Ramp Roadway Markings Definition: Stop Line, Directional Arrows, Pedestrian Crossing Ahead (Diamond mark), Ahead Aircraft Priority (STOP / Dashed Line with absolute right-of-way for aircraft), Service Lane (Zigzag lines), and Taxiway Crossing Holding Area.",
-          "sinhala": "යොමු-1 රැම්ප් මාර්ග සංඥා සහ සලකුණු: නැවැත්වීමේ රේඛාව (Stop Line), ධාවන දිශා ඊතලය, පදික මාරු සලකුණ (ඩයමන්ඩ් හැඩය ◇), ඉදිරිපස ගුවන් යානාවලට ප්‍රමුඛතාව (Zenpou Yuusen - ගුවන් යානයට පූර්ණ ප්‍රමුඛතාව), සර්විස් ලේන් (Zigzag ඉරි) සහ ටැක්සිවේ හරහා යාමට පොරොත්තු වන කලාපය.",
+          "english": "Reference-1 – Definitions of Vehicle Route Signs and Markings: 1. Stop-line marking: indicates where a vehicle must stop. 2. Direction-of-travel marking: indicates the direction in which vehicles may travel. 3. Pedestrian-crossing marking: indicates that a pedestrian crossing is ahead. 4. Ahead-priority marking: indicates that an aircraft taxiway or apron taxiway crosses ahead; aircraft priority must be observed. 5. Service-lane marking: indicates a vehicle route that crosses a taxiway or apron taxiway. 6. Taxiway-crossing holding-area marking: indicates where a vehicle must wait when crossing a taxiway.",
+          "sinhala": "යොමු-1 – වාහන මාර්ග උපදෙස් සලකුණු සහ බිම් සලකුණු අර්ථ දැක්වීම: 1. නැවැත්වීමේ රේඛා සලකුණ: වාහනය නතර කළ යුතු ස්ථානය පෙන්වයි. 2. ගමන් දිශා සලකුණ: වාහන ගමන් කළ හැකි දිශාව පෙන්වයි. 3. පදික මාරු සලකුණ: ඉදිරියේ පදික මාරුවක් ඇති බව පෙන්වයි. 4. ඉදිරි ප්‍රමුඛතා සලකුණ: ඉදිරියේ ගුවන් යානා Taxiway හෝ Apron Taxiway එකක් හරහා යන බව පෙන්වයි; එහිදී ගුවන් යානයට ප්‍රමුඛතාව දිය යුතුය. 5. Service Lane සලකුණ: Taxiway හෝ Apron Taxiway එකක් හරහා ගමන් කරන වාහන මාර්ගය පෙන්වයි. 6. Taxiway හරහා යාමට පෙර පොරොත්තු කලාප සලකුණ: වාහනය Taxiway එක හරහා යාමට පෙර රැඳී සිටිය යුතු ස්ථානය පෙන්වයි.",
           "audio_narration": {
             "voice_language": "si-LK",
             "teacher_script_sinhala": "পාර උඩ දියමන්ති හැඩයක් තිබුණොත් පදික මාරුවක්! ප්ලේන් එකක් යනවනම් Stop line එක ළඟ නවත්තලා ප්ලේන් එකට යන්න ඉඩ දෙන්න.",
@@ -308,8 +308,8 @@
             "furigana": "輸送ルールの3つのポイント：申告書作成、ラベル貼付、梱包。",
             "romaji": "Yusou ruuru no mittsu no pointo: Shinkokusho sakusei, raberu choufu, konpou."
           },
-          "english": "Three Pillars of DGR Transport & Mandatory Stakeholder Roles: 1. Shipper's Declaration, 2. Hazard Labelling, 3. Compliant Packaging. Shippers bear legal responsibility, while airlines and handlers must inspect waybills and physical packages.",
-          "sinhala": "අන්තරායකර භාණ්ඩ ප්‍රවාහනයේ ප්‍රධාන නීති 3 සහ පාර්ශවයන්ගේ වගකීම: 1. DGR ප්‍රකාශන පත්‍රය (Declaration) සකස් කිරීම, 2. අනතුරු ඇඟවීමේ ලේබල් ඇලවීම (Labelling), 3. නියමිත ඇසුරුම්කරණය (Packing). වගකීම් බෙදී යාම: භාණ්ඩ යවන්නා (Niokurinin) නිවැරදිව ප්‍රකාශ කර ඇසුරුම් කළ යුතු අතර, ප්‍රවාහන ආයතනය (Aviation company) මාර්ග බිල්පත පරීක්ෂා කර නොගැලපීම් ඇත්නම් තහවුරු කළ යුතුය.",
+          "english": "Three Key Requirements for Dangerous Goods Transport: 1. Prepare the dangerous-goods declaration. 2. Attach the required labels. 3. Pack the goods appropriately. Roles of the shipper and transport operator: (a) The shipper prepares the declaration, attaches the labels and packs the goods. (b) The transport operator checks the item name on the transport document and confirms with the shipper if any information is incomplete or unclear.",
+          "sinhala": "අනතුරුදායක භාණ්ඩ ප්‍රවාහනයේ ප්‍රධාන කරුණු තුන: 1. අනතුරුදායක භාණ්ඩ ප්‍රකාශන පත්‍රය සකස් කිරීම. 2. අවශ්‍ය ලේබල් ඇලවීම. 3. නියමිත පරිදි ඇසුරුම් කිරීම. භාණ්ඩ යවන්නාගේ සහ ප්‍රවාහන ක්‍රියාකරුගේ වගකීම්: (a) භාණ්ඩ යවන්නා ප්‍රකාශන පත්‍රය සකස් කර, ලේබල් අලවා, භාණ්ඩ ඇසුරුම් කළ යුතුය. (b) ප්‍රවාහන ක්‍රියාකරු ප්‍රවාහන ලේඛනයේ භාණ්ඩ නාමය පරීක්ෂා කළ යුතු අතර තොරතුරුවල අඩුපාඩුවක් හෝ අපැහැදිලි තත්ත්වයක් ඇත්නම් භාණ්ඩ යවන්නාගෙන් තහවුරු කරගත යුතුය.",
           "audio_narration": {
             "voice_language": "si-LK",
             "teacher_script_sinhala": "DGR නීති තුන: Declaration එක හදන එක, Label එක අලවන එක, Pack කරන එක.",
@@ -358,8 +358,8 @@
             "furigana": "危険物の正しい判別（第1類〜第9類）",
             "romaji": "Kikenbutsu no tadashii hanbetsu (Dai-1-rui kara dai-9-rui)."
           },
-          "english": "Official Nine Classes of Dangerous Goods (IATA/ICAO Classes 1 to 9): Class 1 Explosives, Class 2 Gases, Class 3 Flammable Liquids, Class 4 Flammable Solids, Class 5 Oxidizers, Class 6 Toxics, Class 7 Radioactive, Class 8 Corrosives, Class 9 Miscellaneous (Lithium batteries, Dry ice).",
-          "sinhala": "අන්තරායකර භාණ්ඩ නිල පන්ති 9 (DGR Classes 1 to 9): 1. පුපුරන ද්‍රව්‍ය, 2. සම්පීඩිත වායු, 3. ගිනි ඇවිළෙන ද්‍රව (සෙල්සියස් 60 ට අඩු), 4. ගිනි ඇවිළෙන ඝන ද්‍රව්‍ය, 5. ඔක්සිකාරක ද්‍රව්‍ය, 6. විෂ ද්‍රව්‍ය, 7. විකිරණශීලී ද්‍රව්‍ය, 8. විඛාදන ද්‍රව්‍ය, 9. විවිධ අන්තරායකර භාණ්ඩ (ලිතියම් බැටරි, ඩ්‍රයි අයිස්).",
+          "english": "Nine Classes of Dangerous Goods: 1. Explosives. 2. Gases under pressure. 3. Flammable liquids (flash point 60°C or below). 4. Flammable substances. 5. Oxidizing substances. 6. Toxic substances. 7. Radioactive substances. 8. Corrosive substances. 9. Other harmful articles, including lithium batteries and dry ice.",
+          "sinhala": "අන්තරායකර භාණ්ඩ පන්ති නවය: 1. පුපුරන ද්‍රව්‍ය. 2. අධි පීඩන වායු. 3. ගිනි ඇවිළෙන ද්‍රව (ජ්වලනාංකය සෙල්සියස් අංශක 60 හෝ ඊට අඩු). 4. ගිනි ඇවිළිය හැකි ද්‍රව්‍ය. 5. ඔක්සිකාරක ද්‍රව්‍ය. 6. විෂ ද්‍රව්‍ය. 7. විකිරණශීලී ද්‍රව්‍ය. 8. විඛාදක ද්‍රව්‍ය. 9. ලිතියම් බැටරි සහ වියළි අයිස් වැනි වෙනත් හානිකර ද්‍රව්‍ය.",
           "audio_narration": {
             "voice_language": "si-LK",
             "teacher_script_sinhala": "පන්ති 9 හොඳින් මතක තියාගන්න: 1 පුපුරණ ද්‍රව්‍ය, 3 ගිනිගන්නා දියර, 8 ඇසිඩ්, 9 ලිතියම් බැටරි සහ Dry ice.",
