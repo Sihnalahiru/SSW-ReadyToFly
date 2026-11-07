@@ -1793,8 +1793,8 @@
           "japanese": {
             "original_kanji": "機材制限区域・機材待機区域"
           },
-          "english": "Equipment Restraint Area (ERA) is the area inside the Equipment Staging Area where vehicles and equipment are prohibited from entering while an aircraft is entering or leaving a stand. Equipment Staging Area (ESA) is the area outside the ERA used for vehicles and equipment waiting to perform handling at that stand. Except for vehicles approved as equipment storage, it may be used from 30 minutes before aircraft stand-in and must be vacated promptly once work at the stand is complete. The source also defines a height-restricted staging area for vehicles/equipment 2.5 m or less in height, with the same 30-minute-before-stand-in access and prompt-clearance rule.",
-          "sinhala": "Equipment Restraint Area (ERA) යනු ගුවන් යානය stand එකට ඇතුළු වන හෝ පිටවන අවස්ථාවේ වාහන සහ උපකරණ ඇතුළුවීම තහනම් වන, Equipment Staging Area ඇතුළත පිහිටි ප්‍රදේශයයි. Equipment Staging Area (ESA) යනු එම stand එකේ handling වැඩ සඳහා යොදාගන්නා වාහන සහ උපකරණ රැඳී සිටින, ERA පිටත පිහිටි ප්‍රදේශයයි. උපකරණ ගබඩා කිරීම සඳහා අනුමත වාහන හැර, යානය stand-in වීමට මිනිත්තු 30කට පෙර සිට එය භාවිත කළ හැකි අතර වැඩ අවසන් වූ වහාම ඉවත් විය යුතුය. මූලාශ්‍රයේ උස සීමා සහිත staging area එකක්ද දක්වා ඇති අතර එය උස මීටර් 2.5 හෝ ඊට අඩු වාහන/උපකරණ සඳහා වේ. එයටද stand-in වීමට මිනිත්තු 30කට පෙර සිට භාවිතය සහ වැඩ අවසන් වූ වහාම ඉවත් වීම අදාළ වේ.",
+          "english": "Equipment Restraint Area (ERA) is the area inside the Equipment Staging Area where vehicles and equipment are prohibited from entering while an aircraft is entering or leaving a stand. Equipment Staging Area (ESA) is the area outside the ERA used for vehicles and equipment waiting to perform handling at that stand. Except for vehicles approved as equipment storage, it may be used from 30 minutes before aircraft stand-in and must be vacated promptly once work at the stand is complete. The source also defines a height-restricted staging area for vehicles/equipment 25 m or less in height, with the same 30-minute-before-stand-in access and prompt-clearance rule.",
+          "sinhala": "Equipment Restraint Area (ERA) යනු ගුවන් යානය stand එකට ඇතුළු වන හෝ පිටවන අවස්ථාවේ වාහන සහ උපකරණ ඇතුළුවීම තහනම් වන, Equipment Staging Area ඇතුළත පිහිටි ප්‍රදේශයයි. Equipment Staging Area (ESA) යනු එම stand එකේ handling වැඩ සඳහා යොදාගන්නා වාහන සහ උපකරණ රැඳී සිටින, ERA පිටත පිහිටි ප්‍රදේශයයි. උපකරණ ගබඩා කිරීම සඳහා අනුමත වාහන හැර, යානය stand-in වීමට මිනිත්තු 30කට පෙර සිට එය භාවිත කළ හැකි අතර වැඩ අවසන් වූ වහාම ඉවත් විය යුතුය. මූලාශ්‍රයේ උස සීමා සහිත staging area එකක්ද දක්වා ඇති අතර එය උස මීටර් 25 හෝ ඊට අඩු වාහන/උපකරණ සඳහා වේ. එයටද stand-in වීමට මිනිත්තු 30කට පෙර සිට භාවිතය සහ වැඩ අවසන් වූ වහාම ඉවත් වීම අදාළ වේ.",
           "audio_narration": {
             "voice_language": "si-LK",
             "teacher_script_sinhala": "ERA එකට ඇතුළුවීම aircraft stand-in/stand-out අතරතුර තහනම්. ESA එක stand-in ට මිනිත්තු 30කට පෙර භාවිත කළ හැකි අතර වැඩ අවසන් වූ වහාම හිස් කළ යුතුය. උස සීමා සහිත ESA: 2.5m හෝ ඊට අඩු.",
@@ -1865,11 +1865,11 @@
           "translation_status": "TRANSLATED"
         },
         {
-          "english": "2.5 m以下",
-          "japanese": "2.5メートル以下",
-          "sinhala": "මීටර් 2.5ක් හෝ ඊට අඩු",
-          "furigana": "にてんごメートルいか",
-          "romaji": "Niten-go meetoru ika",
+          "english": "25 m以下",
+          "japanese": "25m以下",
+          "sinhala": "මීටර් 25ක් හෝ ඊට අඩු",
+          "furigana": "にじゅうごメートルいか",
+          "romaji": "Nijuu-go meetoru ika",
           "translation_status": "TRANSLATED"
         },
         {
