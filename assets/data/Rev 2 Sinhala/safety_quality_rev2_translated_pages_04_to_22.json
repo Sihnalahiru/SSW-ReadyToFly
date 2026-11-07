@@ -14,9 +14,9 @@
     ],
     "pdf_page_mapping": "PDF physical page = printed page + 2 for printed content pages 1-22",
     "image_mapping_status": "PENDING_VISUAL_MAPPING",
-    "audio_status": "SCRIPT_DRAFTS_PRESENT_NOT_PLAYBACK_TESTED",
+    "audio_status": "36_SINHALA_NARRATION_AND_JAPANESE_TTS_SCRIPTS_PRESENT; AUDIO_RENDERING_AND_PLAYBACK_TEST_PENDING",
     "note": "Translations are source-grounded study translations, not certified legal or aviation procedure translations. Follow employer/airport procedures and official notices for operations.",
-    "vocabulary_status": "CORE_GLOSSARY_TRANSLATED; REMAINING TERMS REQUIRE FURIGANA/ROMAJI AND SOURCE TERM REVIEW",
+    "vocabulary_status": "CORE_GLOSSARY_TRANSLATED_WITH_FURIGANA_AND_ROMAJI",
     "app_schema": "Aligned to existing V1 page schema: page-level vocabulary_highlights, page mapped_images, section-level japanese/english/sinhala/audio_narration"
   },
   "pages": [
@@ -121,7 +121,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -241,7 +241,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -304,7 +304,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -425,14 +425,14 @@
         },
         {
           "english": "25 m/s",
-          "japanese": "",
-          "sinhala": "",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "NEEDS_GLOSSARY_REVIEW"
+          "japanese": "風速25メートル毎秒",
+          "sinhala": "තත්පරයට මීටර් 25",
+          "furigana": "ふうそくにじゅうごメートルまいびょう",
+          "romaji": "Fuusoku nijuu-go meetoru maibyou",
+          "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "PARTIAL_GLOSSARY_REVIEW_REQUIRED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -506,10 +506,10 @@
         {
           "english": "hazard boundary",
           "japanese": "危険区域",
-          "sinhala": "",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "NEEDS_GLOSSARY_REVIEW"
+          "sinhala": "අනතුරුදායක කලාපයේ සීමාව",
+          "furigana": "きけんくいき",
+          "romaji": "Kiken kuiki",
+          "translation_status": "TRANSLATED"
         },
         {
           "english": "Dangerous goods",
@@ -544,7 +544,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "PARTIAL_GLOSSARY_REVIEW_REQUIRED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -672,7 +672,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -792,7 +792,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -977,7 +977,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -1044,10 +1044,10 @@
         {
           "english": "Earplug",
           "japanese": "耳栓",
-          "sinhala": "",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "NEEDS_GLOSSARY_REVIEW"
+          "sinhala": "කන් ප්ලග්",
+          "furigana": "みみせん",
+          "romaji": "Mimisen",
+          "translation_status": "TRANSLATED"
         },
         {
           "english": "earmuff",
@@ -1130,7 +1130,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "PARTIAL_GLOSSARY_REVIEW_REQUIRED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -1292,14 +1292,14 @@
         },
         {
           "english": "1 m clearance",
-          "japanese": "1m以上の間隔",
-          "sinhala": "",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "NEEDS_GLOSSARY_REVIEW"
+          "japanese": "1メートル以上の間隔",
+          "sinhala": "මීටර 1ක් හෝ ඊට වැඩි ආරක්ෂිත පරතරය",
+          "furigana": "いちメートルいじょうのかんかく",
+          "romaji": "Ichi meetoru ijou no kankaku",
+          "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "PARTIAL_GLOSSARY_REVIEW_REQUIRED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -1378,7 +1378,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -1490,7 +1490,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -1561,7 +1561,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -1681,7 +1681,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -1752,7 +1752,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -1833,11 +1833,11 @@
         },
         {
           "english": "2.5 m以下",
-          "japanese": "",
-          "sinhala": "",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "NEEDS_GLOSSARY_REVIEW"
+          "japanese": "2.5メートル以下",
+          "sinhala": "මීටර් 2.5ක් හෝ ඊට අඩු",
+          "furigana": "にてんごメートルいか",
+          "romaji": "Niten-go meetoru ika",
+          "translation_status": "TRANSLATED"
         },
         {
           "english": "PBB operating area",
@@ -1857,14 +1857,14 @@
         },
         {
           "english": "passenger boarding bridge",
-          "japanese": "",
-          "sinhala": "",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "NEEDS_GLOSSARY_REVIEW"
+          "japanese": "旅客搭乗橋",
+          "sinhala": "මගීන් ගොඩවීමේ පාලම",
+          "furigana": "りょかくとうじょうきょう",
+          "romaji": "Ryokaku toujoukyou",
+          "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "PARTIAL_GLOSSARY_REVIEW_REQUIRED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -2000,7 +2000,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -2095,7 +2095,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     },
     {
@@ -2224,14 +2224,14 @@
         },
         {
           "english": "5 litres",
-          "japanese": "",
-          "sinhala": "",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "NEEDS_GLOSSARY_REVIEW"
+          "japanese": "5リットル",
+          "sinhala": "ලීටර් 5",
+          "furigana": "ごリットル",
+          "romaji": "Go rittoru",
+          "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "PARTIAL_GLOSSARY_REVIEW_REQUIRED",
+      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
       "image_mapping_status": "PENDING_VISUAL_MAPPING"
     }
   ]
