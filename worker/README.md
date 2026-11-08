@@ -1,6 +1,6 @@
 # ReadyToFly Cloudflare Authentication
 
-This package is the first implementation slice for account registration, email verification, sign-in/out, password reset, and per-user study progress sync.
+This package is the first implementation slice for account registration, email verification, sign-in/out, password reset, and per-user study progress sync. The Worker also serves the curated `public/` PWA build on the same origin, keeping private source files, migrations and Worker code out of the static asset directory.
 
 ## Architecture
 
@@ -40,7 +40,7 @@ This package is the first implementation slice for account registration, email v
 4. Set `MAIL_FROM` to a sender address verified with Resend.
 5. Add the Resend secret: `npx wrangler secret put RESEND_API_KEY`.
 6. Apply the migration: `npx wrangler d1 migrations apply readytofly-auth --remote`.
-7. Deploy the Worker: `npx wrangler deploy`.
+7. Deploy the Worker and public PWA together: `npx wrangler deploy`.
 8. Add a Pages/Worker route or same-origin proxy so the frontend can call `/api/*` on the app origin.
 
 Do not apply migrations to production until the D1 database id, environment and backup plan are confirmed. Keep a separate staging D1 database for testing.
