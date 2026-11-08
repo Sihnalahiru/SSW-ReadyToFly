@@ -1,0 +1,89 @@
+{
+  "report_title": "AM Book 3 Figure 7 – Physical Page 11 Component Mapping",
+  "source_pdf": "AMtext_3.Airplane General(3).pdf",
+  "source_zip": "AMtext_3.Airplane General - Images.zip",
+  "source_page": {
+    "physical": 11,
+    "printed": 9
+  },
+  "status": "PAGE-LEVEL LABEL-TO-COMPONENT MAPPING VERIFIED",
+  "verified_component_labels": [
+    {
+      "component": "Rudder",
+      "label": "B. Rudder",
+      "assets": [
+        "11.jpg"
+      ],
+      "arrow_asset": "10.jpg",
+      "evidence": "Full page image shows the B. Rudder callout arrow pointing to the movable rudder on the vertical tail."
+    },
+    {
+      "component": "Elevator",
+      "label": "C. Elevator",
+      "assets": [
+        "13.jpg"
+      ],
+      "arrow_asset": "12.jpg",
+      "evidence": "Full page image shows the C. Elevator callout arrow pointing to the horizontal-tail elevator surface."
+    },
+    {
+      "component": "Horizontal Stabilizer",
+      "label": "B. 水平安定板 / B. Horizontal Stabilizer",
+      "assets": [
+        "15.jpg",
+        "20.jpg",
+        "26.jpg",
+        "30.jpg"
+      ],
+      "evidence": "Japanese and English label crops are visible on the horizontal tail surface and match the page text."
+    },
+    {
+      "component": "Vertical Stabilizer",
+      "label": "B. 垂直安定板 / Vertical Stabilizer",
+      "assets": [
+        "14.jpg",
+        "16.jpg",
+        "17.jpg",
+        "18.jpg",
+        "19.jpg",
+        "21.jpg",
+        "22.jpg",
+        "23.jpg",
+        "24.jpg",
+        "25.jpg"
+      ],
+      "evidence": "Japanese and English label fragments appear on the vertical tail surface in the full page diagram."
+    }
+  ],
+  "asset_groups": {
+    "9.jpg": "Aircraft model overview photograph; no standalone component label.",
+    "10.jpg": "Arrow fragment associated with B. Rudder callout in the full page figure.",
+    "11.jpg": "B. Rudder label crop.",
+    "12.jpg": "Arrow fragment associated with C. Elevator callout in the full page figure.",
+    "13.jpg": "C. Elevator label crop.",
+    "14.jpg": "Vertical Japanese label crop, partial.",
+    "15.jpg": "Horizontal Stabilizer Japanese label crop.",
+    "16.jpg": "Vertical Stabilizer Japanese text fragment.",
+    "17.jpg": "Vertical Stabilizer Japanese text fragment.",
+    "18.jpg": "Vertical Stabilizer Japanese text fragment.",
+    "19.jpg": "Vertical Stabilizer Japanese text fragment.",
+    "20.jpg": "Horizontal Stabilizer English label crop.",
+    "21.jpg": "Vertical Stabilizer model-surface crop, label/graphic composite.",
+    "22.jpg": "Vertical Stabilizer model-surface crop, Japanese label fragment.",
+    "23.jpg": "Vertical Stabilizer model-surface crop, Japanese label fragment.",
+    "24.jpg": "Vertical Stabilizer model-surface crop, Japanese label fragment.",
+    "25.jpg": "Vertical Stabilizer model-surface crop, label/graphic composite.",
+    "26.jpg": "Horizontal Stabilizer surface and label crop.",
+    "27.jpg": "Horizontal Stabilizer Japanese text fragment.",
+    "28.jpg": "Horizontal Stabilizer Japanese text fragment.",
+    "29.jpg": "Horizontal Stabilizer Japanese text fragment.",
+    "30.jpg": "B. Horizontal Stabilizer English label crop."
+  },
+  "counts": {
+    "fragments_on_page": 22,
+    "component_groups_verified": 4,
+    "arrow_callouts_verified_from_full_page": 2,
+    "remaining_fragment_identity_or_subfigure_role_pending": 0
+  },
+  "caution": "These are page-level Figure 7 component associations based on the full source page. The asset groups include multiple crops of the same label or model surface; they are not 22 independent component callouts."
+}
