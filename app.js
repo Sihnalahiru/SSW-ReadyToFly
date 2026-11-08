@@ -2,11 +2,13 @@ import { renderDashboard } from './app/dashboard.js';
 import { renderStudy } from './app/study.js';
 import { renderExam } from './app/exam.js';
 import { renderProgress } from './app/progress.js';
+import { renderVocabulary } from './app/vocabulary.js';
+import { renderQuiz } from './app/quiz.js';
 
 (() => {
  'use strict';
  const loginScreen=document.getElementById('login-screen'),application=document.getElementById('application'),form=document.getElementById('auth-form'),message=document.getElementById('auth-message');
- const renderers={dashboard:renderDashboard,study:renderStudy,exam:renderExam,progress:renderProgress};
+ const renderers={dashboard:renderDashboard,study:renderStudy,vocabulary:renderVocabulary,quiz:renderQuiz,exam:renderExam,progress:renderProgress};
  let authMode='login', currentUser=null, progressData={};
  const params=new URLSearchParams(location.search);
  const cookieValue=name=>document.cookie.split('; ').find(v=>v.startsWith(name+'='))?.split('=').slice(1).join('=')||'';
