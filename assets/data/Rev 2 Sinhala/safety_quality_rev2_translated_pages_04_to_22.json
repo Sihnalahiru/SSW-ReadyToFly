@@ -841,9 +841,10 @@
           "english": "restricted area",
           "japanese": "制限区域",
           "sinhala": "සීමා කළ ප්‍රදේශය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "せいげんくいき",
+          "romaji": "Seigen kuiki",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "Standard ID card",
@@ -1061,7 +1062,7 @@
           "japanese": "保護具",
           "sinhala": "පුද්ගලික ආරක්ෂක උපකරණ",
           "furigana": "ほごぐ",
-          "romaji": "Hოგogu",
+          "romaji": "Hogogu",
           "translation_status": "TRANSLATED",
           "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
@@ -1079,7 +1080,7 @@
           "japanese": "イヤーマフ",
           "sinhala": "කන් ආවරණය",
           "furigana": "イヤーマフ",
-          "romaji": "Iyāmafu",
+          "romaji": "Iyamaafu",
           "translation_status": "TRANSLATED",
           "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
@@ -1180,7 +1181,7 @@
           "japanese": "イヤーマフ",
           "sinhala": "කන් ආවරණය",
           "furigana": "イヤーマフ",
-          "romaji": "Iyāmafu",
+          "romaji": "Iyamaafu",
           "translation_status": "TRANSLATED",
           "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
@@ -1242,9 +1243,10 @@
           "english": "restricted area",
           "japanese": "制限区域",
           "sinhala": "සීමා කළ ප්‍රදේශය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "せいげんくいき",
+          "romaji": "Seigen kuiki",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "vehicle permit",
@@ -1408,9 +1410,10 @@
           "english": "hand signal",
           "japanese": "手信号",
           "sinhala": "හස්ත සංඥාව",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "てしんごう",
+          "romaji": "Te shingou",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "escape route",
