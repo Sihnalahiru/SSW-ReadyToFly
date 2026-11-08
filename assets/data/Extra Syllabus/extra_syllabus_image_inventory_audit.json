@@ -1,0 +1,1111 @@
+{
+  "audit_title": "Extra Syllabus — AM Books Image Inventory Audit",
+  "repository": "Sihnalahiru/SSW-ReadyToFly",
+  "branch": "main",
+  "scope": "Inventory of the three Extra Syllabus PDFs and their paired image directories. This is not yet a PDF-to-image semantic mapping audit.",
+  "summary": {
+    "pdf_books": 3,
+    "image_files": 196,
+    "book1_images": 42,
+    "book2_images": 45,
+    "book3_images": 109,
+    "jpg_files": 146,
+    "png_files": 50,
+    "duplicate_blob_groups": 3,
+    "unique_duplicate_groups": 3
+  },
+  "books": [
+    {
+      "key": "AMtext_1_basic_skills",
+      "name": "AMtext_1.basic%20skills%20%20-%20Images",
+      "pdf": "AMtext_1.basic skills.pdf",
+      "count": 42,
+      "formats": {
+        "jpg": 23,
+        "png": 19
+      },
+      "numbering": "0-7 plus 220 and 1190-1222",
+      "files": [
+        {
+          "name": "0.jpg",
+          "size_bytes": 7908,
+          "git_blob_sha": "b9c7bda03ba704674a44a94f62cee7ca751b04ce"
+        },
+        {
+          "name": "1.jpg",
+          "size_bytes": 122748,
+          "git_blob_sha": "c7ddafb63c56d4df008cea201f0e515b8a7dccc7"
+        },
+        {
+          "name": "1190.png",
+          "size_bytes": 122710,
+          "git_blob_sha": "662d1dd913c9b512d5e72375d660198d89d3b908"
+        },
+        {
+          "name": "1191.jpg",
+          "size_bytes": 43209,
+          "git_blob_sha": "9d763ee483980bb8d39ad763b85b816b928ef5d0"
+        },
+        {
+          "name": "1192.png",
+          "size_bytes": 10923,
+          "git_blob_sha": "f97a9f40ac1b6e6b1c027865369ec46e7002a849"
+        },
+        {
+          "name": "1193.png",
+          "size_bytes": 23810,
+          "git_blob_sha": "19eac8ac207af9145077035e190741d18b5cc7a1"
+        },
+        {
+          "name": "1194.png",
+          "size_bytes": 18529,
+          "git_blob_sha": "8bad3c5a43f7c76cbaa41bd740320f89248a9b89"
+        },
+        {
+          "name": "1195.jpg",
+          "size_bytes": 17089,
+          "git_blob_sha": "924b1039ecfd380c8afc8eb117d86ccb95f5528a"
+        },
+        {
+          "name": "1196.jpg",
+          "size_bytes": 38294,
+          "git_blob_sha": "7da5f47d8c23487a709c11efa836223db8f68d1f"
+        },
+        {
+          "name": "1197.png",
+          "size_bytes": 325,
+          "git_blob_sha": "ccd6a56296406e7d97e0b263adc4b433e444b261"
+        },
+        {
+          "name": "1198.png",
+          "size_bytes": 464,
+          "git_blob_sha": "2f54c0212f64d4ab1c34763a60f69e4c20598064"
+        },
+        {
+          "name": "1199.jpg",
+          "size_bytes": 2150,
+          "git_blob_sha": "42753201fb671761af245c10f89479d3e1264feb"
+        },
+        {
+          "name": "1200.jpg",
+          "size_bytes": 2735,
+          "git_blob_sha": "d52f0738c372b198b857d8c22409e28fb2d84550"
+        },
+        {
+          "name": "1201.jpg",
+          "size_bytes": 1821,
+          "git_blob_sha": "a1d1df458097e94ed95c5756aa3416cb4a1e8327"
+        },
+        {
+          "name": "1202.png",
+          "size_bytes": 71834,
+          "git_blob_sha": "bd87eaa0d1f5cc2780471f8398278599ce3bb71f"
+        },
+        {
+          "name": "1203.jpg",
+          "size_bytes": 14154,
+          "git_blob_sha": "0c0b86b7318a0d77371cd3b389b7905404c57ad9"
+        },
+        {
+          "name": "1204.jpg",
+          "size_bytes": 38583,
+          "git_blob_sha": "1c82e280a82c75b36804fede604c2b0b4efab54e"
+        },
+        {
+          "name": "1205.jpg",
+          "size_bytes": 16715,
+          "git_blob_sha": "e4e6571f03784f00a383a7e8e43f02ade5f4c5d6"
+        },
+        {
+          "name": "1206.png",
+          "size_bytes": 32954,
+          "git_blob_sha": "74a689f489e44565438fc7472fae93d5b4a79e56"
+        },
+        {
+          "name": "1207.jpg",
+          "size_bytes": 7333,
+          "git_blob_sha": "814f2504905af460de0d3d7b25015f9c4a837ee4"
+        },
+        {
+          "name": "1208.jpg",
+          "size_bytes": 7241,
+          "git_blob_sha": "e06f04690cf56477c5e3d13af75e19a03215d08d"
+        },
+        {
+          "name": "1209.png",
+          "size_bytes": 157,
+          "git_blob_sha": "b8305b2facdb38d32f0081d33589d8f227059594"
+        },
+        {
+          "name": "1210.png",
+          "size_bytes": 180,
+          "git_blob_sha": "73c1771887df4a9bc8d6bbda73b14993ef2c85ad"
+        },
+        {
+          "name": "1211.png",
+          "size_bytes": 161,
+          "git_blob_sha": "55d0fcc4bc80cfdeab2a349de28c9eac6ecb4aac"
+        },
+        {
+          "name": "1212.jpg",
+          "size_bytes": 26294,
+          "git_blob_sha": "83b6e4ab1bbf0172ddb9199652433ad22f03c95b"
+        },
+        {
+          "name": "1213.jpg",
+          "size_bytes": 8340,
+          "git_blob_sha": "4b562c38ea35448226074913ea5f500b0ce88417"
+        },
+        {
+          "name": "1214.jpg",
+          "size_bytes": 32217,
+          "git_blob_sha": "568b689573314c6cdf7f1365045e1898724dc182"
+        },
+        {
+          "name": "1215.jpg",
+          "size_bytes": 21585,
+          "git_blob_sha": "15c0dbe645176feefff8ea8758d9f8a72169e164"
+        },
+        {
+          "name": "1216.jpg",
+          "size_bytes": 17667,
+          "git_blob_sha": "66b4cfc18e5967e1f772e1e5557ea9bf4e3c138c"
+        },
+        {
+          "name": "1217.png",
+          "size_bytes": 47125,
+          "git_blob_sha": "da771d725230fe5830090cb56b1647eee310af8e"
+        },
+        {
+          "name": "1218.png",
+          "size_bytes": 47201,
+          "git_blob_sha": "61b0f45fc4826144c97dddff7ed888d8565ab35c"
+        },
+        {
+          "name": "1219.png",
+          "size_bytes": 33607,
+          "git_blob_sha": "09a18a1c6bab812298cbe8380cb30e6583459ca7"
+        },
+        {
+          "name": "1220.jpg",
+          "size_bytes": 49803,
+          "git_blob_sha": "64c20fbe06227781a72f80ddf7a28df96d785ede"
+        },
+        {
+          "name": "1221.jpg",
+          "size_bytes": 87015,
+          "git_blob_sha": "635294645a97ad0d47aada6380872484dfc8ddbd"
+        },
+        {
+          "name": "1222.jpg",
+          "size_bytes": 16078,
+          "git_blob_sha": "e52e8528a7ebf308d20fe5b730544d0edaa3db96"
+        },
+        {
+          "name": "2.jpg",
+          "size_bytes": 78769,
+          "git_blob_sha": "9acaa84b7fb97e5f6079384203f1c25d13acdc90"
+        },
+        {
+          "name": "220.png",
+          "size_bytes": 10990,
+          "git_blob_sha": "ee4e9d25cce1db0039e082f6c21fc77c3fb104a6"
+        },
+        {
+          "name": "3.jpg",
+          "size_bytes": 3981,
+          "git_blob_sha": "efe68cb9aecb4ec94fd938420c9c0f49df1e6b1c"
+        },
+        {
+          "name": "4.png",
+          "size_bytes": 256264,
+          "git_blob_sha": "355ad38da7734b0f6c0f241bc463fe8a5669bdd6"
+        },
+        {
+          "name": "5.png",
+          "size_bytes": 130731,
+          "git_blob_sha": "ca0254aa01393307b751da5784d88e28bcf0e9c7"
+        },
+        {
+          "name": "6.png",
+          "size_bytes": 33607,
+          "git_blob_sha": "35f4553615db817062816857b322678fe64a1093"
+        },
+        {
+          "name": "7.png",
+          "size_bytes": 54987,
+          "git_blob_sha": "682df1357514efa4d8bf92681ce605c4d88c7d53"
+        }
+      ]
+    },
+    {
+      "key": "AMtext_2_occupational_safety_maintenance_quality",
+      "name": "AMtext_2.Occupational%20Safety%20and%20Maintenance%20Quality%20-%20Images",
+      "pdf": "AMtext_2.Occupational Safety and Maintenance Quality.pdf",
+      "count": 45,
+      "formats": {
+        "jpg": 30,
+        "png": 15
+      },
+      "numbering": "0-44",
+      "files": [
+        {
+          "name": "0.jpg",
+          "size_bytes": 7908,
+          "git_blob_sha": "b9c7bda03ba704674a44a94f62cee7ca751b04ce"
+        },
+        {
+          "name": "1.jpg",
+          "size_bytes": 57237,
+          "git_blob_sha": "7bf18e6de4ad39222f3d558e9671d92b308ed70b"
+        },
+        {
+          "name": "10.png",
+          "size_bytes": 28376,
+          "git_blob_sha": "ed7712cfad2f46aecb94f5a20274624c3ed3e078"
+        },
+        {
+          "name": "11.png",
+          "size_bytes": 841,
+          "git_blob_sha": "bd3937f9289bbb7861817b641ac62f9fbed9e689"
+        },
+        {
+          "name": "12.png",
+          "size_bytes": 27771,
+          "git_blob_sha": "d0c47fe70771aa8d6d531c7c6c45cf54d7cc3994"
+        },
+        {
+          "name": "13.png",
+          "size_bytes": 879,
+          "git_blob_sha": "1cc89203e01bdbcc1507d956e020c4729bea3b72"
+        },
+        {
+          "name": "14.png",
+          "size_bytes": 564,
+          "git_blob_sha": "c47d4172069f58c858df49efd77422a31b38b92e"
+        },
+        {
+          "name": "15.jpg",
+          "size_bytes": 10402,
+          "git_blob_sha": "101ed281b7e26a6d7116ed73e5b3697dcdf0e4b4"
+        },
+        {
+          "name": "16.jpg",
+          "size_bytes": 105443,
+          "git_blob_sha": "1e107d1bd0a59124491b962e8b8343345848d432"
+        },
+        {
+          "name": "17.jpg",
+          "size_bytes": 18536,
+          "git_blob_sha": "2b666b7516ca36d3a82be82042bc675825153a8e"
+        },
+        {
+          "name": "18.jpg",
+          "size_bytes": 32878,
+          "git_blob_sha": "1cf9b0681cb5e2bb23e9b61afa2196d620bb8b17"
+        },
+        {
+          "name": "19.jpg",
+          "size_bytes": 4494,
+          "git_blob_sha": "ba96a4b2d0e0173dae2b771d880b9e9be61f27c0"
+        },
+        {
+          "name": "2.jpg",
+          "size_bytes": 54394,
+          "git_blob_sha": "febee55a423cf99e065d0ac91955d9ff56b281eb"
+        },
+        {
+          "name": "20.jpg",
+          "size_bytes": 8377,
+          "git_blob_sha": "5fcd49be08bceacce8c4886c12f0e4c9833bfc39"
+        },
+        {
+          "name": "21.jpg",
+          "size_bytes": 4527,
+          "git_blob_sha": "9230a758cae77150e5a6b6c412b08b83be1b7c6d"
+        },
+        {
+          "name": "22.jpg",
+          "size_bytes": 43366,
+          "git_blob_sha": "d84abdafc0de86d76f23ef808ffde02783a7dc15"
+        },
+        {
+          "name": "23.jpg",
+          "size_bytes": 11591,
+          "git_blob_sha": "6a94d2e7649418272b536d0fdf12259245df0c0c"
+        },
+        {
+          "name": "24.jpg",
+          "size_bytes": 14474,
+          "git_blob_sha": "5803f11dcb9d8e8948473ff91036bbdf1bfdd580"
+        },
+        {
+          "name": "25.jpg",
+          "size_bytes": 29791,
+          "git_blob_sha": "2e3783335b6f5c3e709a3249ac276e1f8babe345"
+        },
+        {
+          "name": "26.jpg",
+          "size_bytes": 3774,
+          "git_blob_sha": "568082093043a6bfd2b44a1d394217b8b919b6fc"
+        },
+        {
+          "name": "27.jpg",
+          "size_bytes": 5609,
+          "git_blob_sha": "c3a5f77b0c20eaef8ef4bdb5d694f04371877ee6"
+        },
+        {
+          "name": "28.jpg",
+          "size_bytes": 2192,
+          "git_blob_sha": "1429ae2716818f3bb0ee475f74ce9ea74cc8eb04"
+        },
+        {
+          "name": "29.png",
+          "size_bytes": 787,
+          "git_blob_sha": "261f75e4b52bb3eeda8fdb749c0a11940262c93a"
+        },
+        {
+          "name": "3.jpg",
+          "size_bytes": 3981,
+          "git_blob_sha": "efe68cb9aecb4ec94fd938420c9c0f49df1e6b1c"
+        },
+        {
+          "name": "30.jpg",
+          "size_bytes": 3275,
+          "git_blob_sha": "63ca73bdb6b66f07bcab52db68ed4931eaf9a3b2"
+        },
+        {
+          "name": "31.png",
+          "size_bytes": 130441,
+          "git_blob_sha": "69e3467395346bb4b1f82759334ea7221ea405e1"
+        },
+        {
+          "name": "32.jpg",
+          "size_bytes": 20300,
+          "git_blob_sha": "1fd41ca747e5d0c00409f01f797ea7f24f01012b"
+        },
+        {
+          "name": "33.jpg",
+          "size_bytes": 1278,
+          "git_blob_sha": "d18b1b7ab7ec80006c1ed696d48ace2ef35dff2c"
+        },
+        {
+          "name": "34.jpg",
+          "size_bytes": 3138,
+          "git_blob_sha": "dcd316d47372fe1dcff0722cb3c457a46a7c152b"
+        },
+        {
+          "name": "35.jpg",
+          "size_bytes": 3278,
+          "git_blob_sha": "dd20041ef41ea7d87670465dc194ad994ebf41d7"
+        },
+        {
+          "name": "36.png",
+          "size_bytes": 215560,
+          "git_blob_sha": "f893d28dbc7819428a1c38ce07b6486593c8125b"
+        },
+        {
+          "name": "37.png",
+          "size_bytes": 98971,
+          "git_blob_sha": "1e67cfb6349b6b748308b29d8aa374478dbf9599"
+        },
+        {
+          "name": "38.jpg",
+          "size_bytes": 139744,
+          "git_blob_sha": "3bcddda21ebf6fc52f7d649c27d387155d47daa5"
+        },
+        {
+          "name": "39.jpg",
+          "size_bytes": 33337,
+          "git_blob_sha": "2fd14480faa28972588606fbb0f8e7889484df9f"
+        },
+        {
+          "name": "4.jpg",
+          "size_bytes": 18077,
+          "git_blob_sha": "83f80d110b395b27583722386bbb3e4197b4d13f"
+        },
+        {
+          "name": "40.jpg",
+          "size_bytes": 97175,
+          "git_blob_sha": "f728831fee8ba5c35dfa41e3ae44f7689fc3a4a3"
+        },
+        {
+          "name": "41.jpg",
+          "size_bytes": 70243,
+          "git_blob_sha": "d1501b3bd33fd669d0f478850d331397b26057d6"
+        },
+        {
+          "name": "42.png",
+          "size_bytes": 93137,
+          "git_blob_sha": "1cb0d626c5a4d23a00e412c15642cdd9f711b82e"
+        },
+        {
+          "name": "43.jpg",
+          "size_bytes": 44093,
+          "git_blob_sha": "84d9e8495f4adfb91ab552e50212be1024014496"
+        },
+        {
+          "name": "44.jpg",
+          "size_bytes": 16078,
+          "git_blob_sha": "e52e8528a7ebf308d20fe5b730544d0edaa3db96"
+        },
+        {
+          "name": "5.png",
+          "size_bytes": 12740,
+          "git_blob_sha": "0c90838faceb6a2f1bfc8d13a0b434f78da562c9"
+        },
+        {
+          "name": "6.png",
+          "size_bytes": 416,
+          "git_blob_sha": "1ff4b667a0d4aa2f42ce753d7c78c79fe7f3fa7d"
+        },
+        {
+          "name": "7.png",
+          "size_bytes": 13119,
+          "git_blob_sha": "0652d85161b5fbad68967517abd23d591bc7d649"
+        },
+        {
+          "name": "8.png",
+          "size_bytes": 427,
+          "git_blob_sha": "8f9310dbeb82f6e3251e6b0e184d50837c92b93d"
+        },
+        {
+          "name": "9.png",
+          "size_bytes": 14971,
+          "git_blob_sha": "edaf438097f249d209b6d0c6c3972780b5a6d398"
+        }
+      ]
+    },
+    {
+      "key": "AMtext_3_airplane_general",
+      "name": "AMtext_3.Airplane%20General%20-%20Images",
+      "pdf": "AMtext_3.Airplane General.pdf",
+      "count": 109,
+      "formats": {
+        "jpg": 93,
+        "png": 16
+      },
+      "numbering": "0-108",
+      "files": [
+        {
+          "name": "0.jpg",
+          "size_bytes": 7908,
+          "git_blob_sha": "b9c7bda03ba704674a44a94f62cee7ca751b04ce"
+        },
+        {
+          "name": "1.jpg",
+          "size_bytes": 72389,
+          "git_blob_sha": "584dd6d1b299029d8c3fc2b4063ff866d81b7883"
+        },
+        {
+          "name": "10.jpg",
+          "size_bytes": 4205,
+          "git_blob_sha": "069a90758ac0110fb728af1bcec784b2b33274b9"
+        },
+        {
+          "name": "100.jpg",
+          "size_bytes": 3419,
+          "git_blob_sha": "fd5a41905a2405efd08eb859370e547dd63e8508"
+        },
+        {
+          "name": "101.jpg",
+          "size_bytes": 2534,
+          "git_blob_sha": "1e46bb610b0225be1a362fd4a6d77c3b4c823fb6"
+        },
+        {
+          "name": "102.jpg",
+          "size_bytes": 92825,
+          "git_blob_sha": "75bf5d215f59dec46d4a0237d67a3287a9a9449f"
+        },
+        {
+          "name": "103.jpg",
+          "size_bytes": 94126,
+          "git_blob_sha": "2c2c6f6caeda6116cfef692182b62b5eae49d1cb"
+        },
+        {
+          "name": "104.png",
+          "size_bytes": 209211,
+          "git_blob_sha": "42db59c89446a46e1c479271d751895b514d716c"
+        },
+        {
+          "name": "105.jpg",
+          "size_bytes": 25085,
+          "git_blob_sha": "61c078f46887258a385888199208f4fff82f2667"
+        },
+        {
+          "name": "106.jpg",
+          "size_bytes": 24480,
+          "git_blob_sha": "cfd04a56ee885387bc974887256b5d4e47b5b098"
+        },
+        {
+          "name": "107.jpg",
+          "size_bytes": 18976,
+          "git_blob_sha": "a52f1ffe51b05cdd0386d23e2f7f90b437a36aff"
+        },
+        {
+          "name": "108.jpg",
+          "size_bytes": 16078,
+          "git_blob_sha": "e52e8528a7ebf308d20fe5b730544d0edaa3db96"
+        },
+        {
+          "name": "11.jpg",
+          "size_bytes": 8200,
+          "git_blob_sha": "9acbe8ee7994c3cdfc25bdab773189e7073dcd86"
+        },
+        {
+          "name": "12.jpg",
+          "size_bytes": 7012,
+          "git_blob_sha": "47d03414e7a48ed4fa5431d2e9d2959657f3f627"
+        },
+        {
+          "name": "13.jpg",
+          "size_bytes": 8430,
+          "git_blob_sha": "7c804bd151c6f6ca3dd804524718203994513b53"
+        },
+        {
+          "name": "14.jpg",
+          "size_bytes": 3716,
+          "git_blob_sha": "e8bfd27a457ffe358cf85c7de149d77b7e77b8ce"
+        },
+        {
+          "name": "15.jpg",
+          "size_bytes": 12856,
+          "git_blob_sha": "d792263589747f2616201f30a1b6a7ab9b3e4da1"
+        },
+        {
+          "name": "16.jpg",
+          "size_bytes": 3359,
+          "git_blob_sha": "aaca19b4c5d1995e1ddd18a2d288de0926526aff"
+        },
+        {
+          "name": "17.jpg",
+          "size_bytes": 5577,
+          "git_blob_sha": "2f9443cafbced723622443848d453730d92c195c"
+        },
+        {
+          "name": "18.png",
+          "size_bytes": 18184,
+          "git_blob_sha": "1ae18f010c434f678107025cb4e1c0c5e7ab3c4c"
+        },
+        {
+          "name": "19.jpg",
+          "size_bytes": 3796,
+          "git_blob_sha": "52d48549a70052a1a6f76ae2c151075339af350b"
+        },
+        {
+          "name": "2.jpg",
+          "size_bytes": 3981,
+          "git_blob_sha": "efe68cb9aecb4ec94fd938420c9c0f49df1e6b1c"
+        },
+        {
+          "name": "20.jpg",
+          "size_bytes": 12769,
+          "git_blob_sha": "dc25f7e56327b5e264594fa3c29a2db5908761d1"
+        },
+        {
+          "name": "21.jpg",
+          "size_bytes": 25464,
+          "git_blob_sha": "00cf04de92343db41249f808e04f536f9e5a598e"
+        },
+        {
+          "name": "22.jpg",
+          "size_bytes": 4687,
+          "git_blob_sha": "de283859ff926896576cefc357a22a1eb7682ded"
+        },
+        {
+          "name": "23.jpg",
+          "size_bytes": 6589,
+          "git_blob_sha": "c880067beeb0ca9959565f9277b9e9a04cb258d8"
+        },
+        {
+          "name": "24.png",
+          "size_bytes": 22326,
+          "git_blob_sha": "bb7b1339fef2ba7c1834483805bd9d31290a81f4"
+        },
+        {
+          "name": "25.jpg",
+          "size_bytes": 25130,
+          "git_blob_sha": "1722b123cdd5d3b19a93ea8f3a08891151fa33c0"
+        },
+        {
+          "name": "26.jpg",
+          "size_bytes": 7586,
+          "git_blob_sha": "48d9cf5256e8024e08860ec4770d8094555445be"
+        },
+        {
+          "name": "27.jpg",
+          "size_bytes": 2069,
+          "git_blob_sha": "5cadd2c870004c0e78bc4d8f8946ad209c2c7f42"
+        },
+        {
+          "name": "28.jpg",
+          "size_bytes": 3202,
+          "git_blob_sha": "9b8e7f0ecc2666e4910723fcaf51193715019f46"
+        },
+        {
+          "name": "29.png",
+          "size_bytes": 9027,
+          "git_blob_sha": "d4de4344a31df1c7e3cdcd024748061cd9f27504"
+        },
+        {
+          "name": "3.png",
+          "size_bytes": 30154,
+          "git_blob_sha": "6323403b73fe8d2cedd05f6f1727507714737cee"
+        },
+        {
+          "name": "30.jpg",
+          "size_bytes": 16602,
+          "git_blob_sha": "0d60e987fce117653b3af1f3ebbb3d05558771a1"
+        },
+        {
+          "name": "31.jpg",
+          "size_bytes": 263911,
+          "git_blob_sha": "086f41b62b1d8c93fb44aa5fa8e43d0f7b5e105a"
+        },
+        {
+          "name": "32.jpg",
+          "size_bytes": 6504,
+          "git_blob_sha": "17b2952ac7c630d0c40eed6ae919b0f73abd28bf"
+        },
+        {
+          "name": "33.jpg",
+          "size_bytes": 5204,
+          "git_blob_sha": "ca5d637d3c1c467eed3ebc56f6262625d47a3189"
+        },
+        {
+          "name": "34.jpg",
+          "size_bytes": 9723,
+          "git_blob_sha": "81caf482e2c87839f02210a9a3a98cb21d994d96"
+        },
+        {
+          "name": "35.jpg",
+          "size_bytes": 8908,
+          "git_blob_sha": "53a31d0587a252d15acd6515b9eed9e1517b02b7"
+        },
+        {
+          "name": "36.jpg",
+          "size_bytes": 16469,
+          "git_blob_sha": "3c17edc3a54beacadccfafc02481ed59452fc389"
+        },
+        {
+          "name": "37.jpg",
+          "size_bytes": 18059,
+          "git_blob_sha": "2a34415485e4f49afa61ab93870c50026fff8954"
+        },
+        {
+          "name": "38.jpg",
+          "size_bytes": 10180,
+          "git_blob_sha": "e57efe1efe05c93feca6bb39c0493ff201f7d3b0"
+        },
+        {
+          "name": "39.jpg",
+          "size_bytes": 7327,
+          "git_blob_sha": "947382fd4c0e26811a0d563f2b7c651e945b6d4f"
+        },
+        {
+          "name": "4.png",
+          "size_bytes": 48471,
+          "git_blob_sha": "6e812d4790cbf418acfff198bd706522bed67f4f"
+        },
+        {
+          "name": "40.jpg",
+          "size_bytes": 10036,
+          "git_blob_sha": "f7cc7d35f632d9fdc14770ac9bd0f42fe1789c92"
+        },
+        {
+          "name": "41.jpg",
+          "size_bytes": 4113,
+          "git_blob_sha": "6f74aea9e2ea697026e4c09e0884f5845e8faf8f"
+        },
+        {
+          "name": "42.jpg",
+          "size_bytes": 5311,
+          "git_blob_sha": "1d0e5dea79d5531ce6ff3454ee6d14c5400f9932"
+        },
+        {
+          "name": "43.jpg",
+          "size_bytes": 14379,
+          "git_blob_sha": "68d2053d8e766dab48fe33d51ff904832c1d234a"
+        },
+        {
+          "name": "44.jpg",
+          "size_bytes": 10765,
+          "git_blob_sha": "4157b7ce68a3523a4512e61ab65f2ffcab69a5a3"
+        },
+        {
+          "name": "45.jpg",
+          "size_bytes": 18804,
+          "git_blob_sha": "206f4f056a78de3d8453283a7c22d8bf7110e7ce"
+        },
+        {
+          "name": "46.jpg",
+          "size_bytes": 19176,
+          "git_blob_sha": "da96cef967978dad49d895c4843656858d4e7c09"
+        },
+        {
+          "name": "47.jpg",
+          "size_bytes": 2862,
+          "git_blob_sha": "ccef49e6dc3791fc66f78a169a0709d6769a3aec"
+        },
+        {
+          "name": "48.jpg",
+          "size_bytes": 5307,
+          "git_blob_sha": "ddac214a882f6c45823ef4dfe65900031c05b241"
+        },
+        {
+          "name": "49.jpg",
+          "size_bytes": 2917,
+          "git_blob_sha": "fdfa9b3b517e5d41df7ab9bafb934748429ee64d"
+        },
+        {
+          "name": "5.jpg",
+          "size_bytes": 43882,
+          "git_blob_sha": "4997a4d5251ef3f03fa11abc7849682a8394d793"
+        },
+        {
+          "name": "50.jpg",
+          "size_bytes": 6417,
+          "git_blob_sha": "bc93087a51e4188fbfd4735ecc02fdd0f29f50a9"
+        },
+        {
+          "name": "51.jpg",
+          "size_bytes": 2933,
+          "git_blob_sha": "b1f60bc30794b14ca5dbae97323ce59aadefbafa"
+        },
+        {
+          "name": "52.jpg",
+          "size_bytes": 7443,
+          "git_blob_sha": "c9ad0c4adcb94f1d3adb3157a5a70036569a6f8c"
+        },
+        {
+          "name": "53.jpg",
+          "size_bytes": 3697,
+          "git_blob_sha": "8c7134dd4989f2365d7b77ea57a2e922e632f838"
+        },
+        {
+          "name": "54.jpg",
+          "size_bytes": 2906,
+          "git_blob_sha": "ee1a59b9d39617b60d6958f0514a1c3de72c62cd"
+        },
+        {
+          "name": "55.jpg",
+          "size_bytes": 5805,
+          "git_blob_sha": "d96887b8bc4fc4083d3b3b93d39e9a394262867f"
+        },
+        {
+          "name": "56.jpg",
+          "size_bytes": 3032,
+          "git_blob_sha": "df9406b573e3487a620597db4c52d67a116eab68"
+        },
+        {
+          "name": "57.jpg",
+          "size_bytes": 4189,
+          "git_blob_sha": "12294a289aeec83ade53b359189cb086c012e68f"
+        },
+        {
+          "name": "58.jpg",
+          "size_bytes": 2132,
+          "git_blob_sha": "03d831e7f310c460e5523c0e64bdb312b05bd62d"
+        },
+        {
+          "name": "59.jpg",
+          "size_bytes": 6370,
+          "git_blob_sha": "73c700c63c2e36a439b87c9a0da8d1dc567b1198"
+        },
+        {
+          "name": "6.jpg",
+          "size_bytes": 47938,
+          "git_blob_sha": "6555b30eb86be41c93666a2a753fa9fde5594e33"
+        },
+        {
+          "name": "60.jpg",
+          "size_bytes": 5236,
+          "git_blob_sha": "74d2d84048932c6ff09b624190a631c895659905"
+        },
+        {
+          "name": "61.jpg",
+          "size_bytes": 3111,
+          "git_blob_sha": "57d57794867261ab9b0879a80f6f8d3808754f8e"
+        },
+        {
+          "name": "62.jpg",
+          "size_bytes": 6256,
+          "git_blob_sha": "86add2ee04326159c44733a046d1065b2c1375c9"
+        },
+        {
+          "name": "63.png",
+          "size_bytes": 13170,
+          "git_blob_sha": "7f89d2e09c8556bcc290a90e00389e86ece07a68"
+        },
+        {
+          "name": "64.jpg",
+          "size_bytes": 4530,
+          "git_blob_sha": "d0b563278c2c21dc4bdcbe55645bec7f72596d6d"
+        },
+        {
+          "name": "65.jpg",
+          "size_bytes": 15047,
+          "git_blob_sha": "e9fa7a89714dcd8459d6ed8cf51c9534b73d80c5"
+        },
+        {
+          "name": "66.jpg",
+          "size_bytes": 2509,
+          "git_blob_sha": "24c1d9a5d37e73372e6fe914ee2ad48824ac016e"
+        },
+        {
+          "name": "67.jpg",
+          "size_bytes": 2252,
+          "git_blob_sha": "e3a0e9205dda4da5ece5b86e54d1ad2d1e7f6aa2"
+        },
+        {
+          "name": "68.jpg",
+          "size_bytes": 2039,
+          "git_blob_sha": "405bec5c306dee5522f2605fae90840335515102"
+        },
+        {
+          "name": "69.jpg",
+          "size_bytes": 2382,
+          "git_blob_sha": "94a298b0d4d2aab5313e44eaad2fc1a2d3f4d638"
+        },
+        {
+          "name": "7.png",
+          "size_bytes": 29885,
+          "git_blob_sha": "28f7f3a8075c6352e5e820a7b33590565c5d505e"
+        },
+        {
+          "name": "70.jpg",
+          "size_bytes": 2668,
+          "git_blob_sha": "f73b12982a6ea497405dd6e6878a536dd35e5fee"
+        },
+        {
+          "name": "71.jpg",
+          "size_bytes": 2862,
+          "git_blob_sha": "f07ab8a759744b62925b3be97b33fc661bfb192c"
+        },
+        {
+          "name": "72.jpg",
+          "size_bytes": 2953,
+          "git_blob_sha": "a7649e616994256a49531fb3f9cbba21ac386761"
+        },
+        {
+          "name": "73.jpg",
+          "size_bytes": 3291,
+          "git_blob_sha": "97b488e57514302e6c22f580698491cf99221c4f"
+        },
+        {
+          "name": "74.jpg",
+          "size_bytes": 5753,
+          "git_blob_sha": "b86d3c9557b2f75470d648babfd6467384a25c19"
+        },
+        {
+          "name": "75.jpg",
+          "size_bytes": 4579,
+          "git_blob_sha": "f3dc3595e8280945b63e924833027ce1fc6df03a"
+        },
+        {
+          "name": "76.jpg",
+          "size_bytes": 4624,
+          "git_blob_sha": "56dd39c00b8c185a2710eb0e72a2a57ff27dc061"
+        },
+        {
+          "name": "77.jpg",
+          "size_bytes": 4737,
+          "git_blob_sha": "365d7b2f1f313302459eab0cebabe2b4f2198200"
+        },
+        {
+          "name": "78.jpg",
+          "size_bytes": 3967,
+          "git_blob_sha": "0f36e664f135546feb91b53b2f4f702d62e8b1f1"
+        },
+        {
+          "name": "79.jpg",
+          "size_bytes": 4188,
+          "git_blob_sha": "8bd3d94e3fa83ed2a23196ecab130dea7ad9b5f4"
+        },
+        {
+          "name": "8.png",
+          "size_bytes": 147505,
+          "git_blob_sha": "4de154b87e37f80196a5fc40b74314ed60e29334"
+        },
+        {
+          "name": "80.png",
+          "size_bytes": 7114,
+          "git_blob_sha": "444f660bd33075b05ef78dfd5f3da6cecd715c83"
+        },
+        {
+          "name": "81.png",
+          "size_bytes": 3813,
+          "git_blob_sha": "ea4aee17089ccd85a055007b636246ca0a035d77"
+        },
+        {
+          "name": "82.jpg",
+          "size_bytes": 3384,
+          "git_blob_sha": "0e8a5c001bdd264940e0df58500784df5b75f493"
+        },
+        {
+          "name": "83.jpg",
+          "size_bytes": 68518,
+          "git_blob_sha": "c78145872f0cc4be886e28ca4a3346dcaf7261ef"
+        },
+        {
+          "name": "84.jpg",
+          "size_bytes": 5632,
+          "git_blob_sha": "72348792d81ec52f3c4858eabd20df4cd649b966"
+        },
+        {
+          "name": "85.jpg",
+          "size_bytes": 6384,
+          "git_blob_sha": "f8d7ac127c0ca11ca933a257293f67e877ad2ca5"
+        },
+        {
+          "name": "86.jpg",
+          "size_bytes": 6977,
+          "git_blob_sha": "403bc5ca1d6b508ebe11c7520787aaf352a6e26d"
+        },
+        {
+          "name": "87.jpg",
+          "size_bytes": 4192,
+          "git_blob_sha": "b3338d20ce2c3d4215d726019be5869400b90f46"
+        },
+        {
+          "name": "88.jpg",
+          "size_bytes": 2881,
+          "git_blob_sha": "eab3b5d530d3c4860c4e25e5f8312de847a3cdc6"
+        },
+        {
+          "name": "89.png",
+          "size_bytes": 5404,
+          "git_blob_sha": "983e7eb04d25021c21f62687aa21fb8f3827736f"
+        },
+        {
+          "name": "9.jpg",
+          "size_bytes": 150279,
+          "git_blob_sha": "2804a31be71de462e18dd7ee3083cb61d041244e"
+        },
+        {
+          "name": "90.png",
+          "size_bytes": 6900,
+          "git_blob_sha": "10c432dc78abda9f541353b33ac5f1affbfb66bb"
+        },
+        {
+          "name": "91.jpg",
+          "size_bytes": 2113,
+          "git_blob_sha": "26a23b6590dd9112cdd1345fa11b4dfaa4362b41"
+        },
+        {
+          "name": "92.png",
+          "size_bytes": 5173,
+          "git_blob_sha": "f8e363df94a17d070892c98fa46acfe8fca7bb66"
+        },
+        {
+          "name": "93.jpg",
+          "size_bytes": 3404,
+          "git_blob_sha": "31128353116a9ff146434cfd1f4bbf6fe9b690ea"
+        },
+        {
+          "name": "94.png",
+          "size_bytes": 4585,
+          "git_blob_sha": "4a79030b94cceb40027595e0b41dd2c7b7a2f0e8"
+        },
+        {
+          "name": "95.jpg",
+          "size_bytes": 3984,
+          "git_blob_sha": "771adad4fbd612e0a945f24f87dbd25709d79450"
+        },
+        {
+          "name": "96.png",
+          "size_bytes": 4455,
+          "git_blob_sha": "b4c4d805038272842c2c6fd114e05a40b57eba4f"
+        },
+        {
+          "name": "97.jpg",
+          "size_bytes": 4642,
+          "git_blob_sha": "b125c68b9ed6defe44c865b12cc158823fdbec19"
+        },
+        {
+          "name": "98.jpg",
+          "size_bytes": 1816,
+          "git_blob_sha": "4cfd4356f1b161db3d9351c32254b72bd4e7681c"
+        },
+        {
+          "name": "99.jpg",
+          "size_bytes": 2433,
+          "git_blob_sha": "f51887ef0d395a30402dfad15426edab687e9466"
+        }
+      ]
+    }
+  ],
+  "exact_duplicate_groups": [
+    [
+      {
+        "book": "AMtext_1_basic_skills",
+        "file": "0.jpg",
+        "size_bytes": 7908
+      },
+      {
+        "book": "AMtext_2_occupational_safety_maintenance_quality",
+        "file": "0.jpg",
+        "size_bytes": 7908
+      },
+      {
+        "book": "AMtext_3_airplane_general",
+        "file": "0.jpg",
+        "size_bytes": 7908
+      }
+    ],
+    [
+      {
+        "book": "AMtext_1_basic_skills",
+        "file": "1222.jpg",
+        "size_bytes": 16078
+      },
+      {
+        "book": "AMtext_2_occupational_safety_maintenance_quality",
+        "file": "44.jpg",
+        "size_bytes": 16078
+      },
+      {
+        "book": "AMtext_3_airplane_general",
+        "file": "108.jpg",
+        "size_bytes": 16078
+      }
+    ],
+    [
+      {
+        "book": "AMtext_1_basic_skills",
+        "file": "3.jpg",
+        "size_bytes": 3981
+      },
+      {
+        "book": "AMtext_2_occupational_safety_maintenance_quality",
+        "file": "3.jpg",
+        "size_bytes": 3981
+      },
+      {
+        "book": "AMtext_3_airplane_general",
+        "file": "2.jpg",
+        "size_bytes": 3981
+      }
+    ]
+  ],
+  "verified": {
+    "github_directory_inventory": true,
+    "filenames_extensions_sizes_and_blob_sha_captured": true,
+    "duplicate_detection_by_exact_git_blob_sha": true
+  },
+  "pending": [
+    "PDF page counts and printed-page numbering for each book",
+    "Extracted PDF image-object counts and exact image-to-page matching",
+    "Identify genuine source illustrations versus PDF layout fragments and rendering artifacts",
+    "Verify all source image assets are present and identify missing files",
+    "Validate every image reference against any future study-content JSON",
+    "Build semantic page-to-image mapping only from source PDF evidence"
+  ],
+  "handling_rules": [
+    "Do not rename existing assets until source PDF mapping is verified.",
+    "Do not remove duplicate files: identical assets may be intentionally reused across books.",
+    "Do not assume numeric filename order equals PDF page order.",
+    "Keep all three AM books separate from Airport Ground Handling Rev 2.1.",
+    "Mark unsupported page/image relationships as PENDING."
+  ]
+}
