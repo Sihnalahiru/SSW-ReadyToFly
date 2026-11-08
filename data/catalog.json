@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "project": "SSW ReadyToFly — Airport Ground Handling",
+  "status": "PENDING_SOURCE_AUDIT",
+  "syllabus_versions": [
+    {
+      "id": "legacy",
+      "label": "Legacy / old syllabus",
+      "status": "PENDING_SOURCE_INVENTORY",
+      "source_documents": [],
+      "notes": "Keep this version isolated. Do not merge with any revised syllabus."
+    },
+    {
+      "id": "revised",
+      "label": "Revised syllabus",
+      "status": "PENDING_SOURCE_INVENTORY",
+      "source_documents": [],
+      "notes": "Populate only when official source documents are identified and audited."
+    }
+  ],
+  "collections": {
+    "lessons": "./lessons/index.json",
+    "vocabulary": "./vocabulary/index.json",
+    "questions": "./questions/index.json",
+    "mappings": "./mappings/index.json"
+  },
+  "audit_policy": {
+    "source_traceability_required": true,
+    "allow_inferred_mappings": false,
+    "unknown_value": "PENDING"
+  }
+}
