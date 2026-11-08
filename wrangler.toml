@@ -17,3 +17,8 @@ migrations_dir = "migrations"
 directory = "./public"
 binding = "ASSETS"
 not_found_handling = "single-page-application"
+
+# Preview-only binding required by the current Cloudflare Workers Builds
+# preview configuration. This does not change the Production bindings.
+[[previews.send_email]]
+name = "EMAIL"
