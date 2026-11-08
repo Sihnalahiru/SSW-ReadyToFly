@@ -16,10 +16,22 @@
     "image_mapping_status": "PARTIAL_VISUAL_ASSET_IDENTIFICATION; 141 FILES INVENTORIED; ONLY SEMANTICALLY IDENTIFIABLE ASSETS MAPPED; REMAINING EXTRACTION FRAGMENTS/DECORATIVE ASSETS NOT FORCED INTO PAGE MAPPINGS",
     "audio_status": "36_SINHALA_NARRATION_AND_JAPANESE_TTS_SCRIPTS_PRESENT; AUDIO_RENDERING_AND_PLAYBACK_TEST_PENDING",
     "note": "Translations are source-grounded study translations, not certified legal or aviation procedure translations. Follow employer/airport procedures and official notices for operations.",
-    "vocabulary_status": "167 ENTRIES; FURIGANA AND ROMAJI POPULATED FOR ALL 167; MACHINE-ASSISTED READINGS REQUIRE NATIVE JAPANESE REVIEW; DUPLICATE CONSISTENCY AUDIT IN PROGRESS",
+    "vocabulary_status": "167 ENTRIES; ALL 167 HAVE FURIGANA AND ROMAJI; 154 UNIQUE JAPANESE TERMS; 13 DUPLICATE TERM GROUPS CONSISTENT; MACHINE-ASSISTED READINGS REQUIRE NATIVE JAPANESE REVIEW",
     "app_schema": "Aligned to existing V1 page schema: page-level vocabulary_highlights, page mapped_images, section-level japanese/english/sinhala/audio_narration",
     "japanese_source_text": "36 section-level Japanese source excerpts transcribed from the Rev 2 PDF; OCR-derived text should be checked against the page images for typographical accuracy.",
-    "reading_note": "Furigana and romaji are machine-assisted standard readings. They have not been independently certified against official furigana sources or by a native Japanese reviewer. Entries with context-dependent readings must be reviewed before final publication."
+    "reading_note": "Furigana and romaji are machine-assisted standard readings. They have not been independently certified against official furigana sources or by a native Japanese reviewer. Entries with context-dependent readings must be reviewed before final publication.",
+    "reading_audit": {
+      "total_vocabulary_records": 167,
+      "records_with_furigana_and_romaji": 167,
+      "records_missing_readings": 0,
+      "unique_japanese_terms": 154,
+      "duplicate_term_groups": 13,
+      "duplicate_groups_with_inconsistent_readings": 0,
+      "romaji_non_ascii_character_errors": 0,
+      "reading_status": "MACHINE_ASSISTED_NOT_NATIVE_VERIFIED",
+      "review_required": "Native Japanese reviewer or authoritative furigana source must confirm readings before production use.",
+      "known_correction": "不安全状態 romaji normalized to Fuanzenshoutai (ふあんぜんじょうたい)."
+    }
   },
   "pages": [
     {
@@ -1878,7 +1890,7 @@
           "japanese": "不安全状態",
           "sinhala": "අනාරක්ෂිත තත්ත්වය",
           "furigana": "ふあんぜんじょうたい",
-          "romaji": "Fuanzenshitai",
+          "romaji": "Fuanzenshoutai",
           "translation_status": "TRANSLATED",
           "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         }
