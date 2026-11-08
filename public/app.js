@@ -77,11 +77,38 @@ import { renderQuiz } from './app/quiz.js';
    }else setMessage('Still waiting for administrator approval. Please check again later.',false);
   }catch(err){setMessage(err.message,true);}
  }
+ 
+ function renderAdminPanel(){
+  return '<section class="welcome"><p class="eyebrow">SYSTEM ADMINISTRATION</p><h1>Admin Panel</h1><p class="muted">Review password reset requests. Approval is valid for 20 minutes.</p></section><section class="panel"><div class="panel-heading"><h2>Password reset requests</h2><button class="secondary-button" type="button" data-admin-refresh>Refresh</button></div><div id="admin-reset-list" class="admin-reset-list"><p class="muted">Loading requests…</p></div></section>';
+ }
+ async function loadAdminRequests(){
+  const host=document.getElementById('admin-reset-list');if(!host)return;
+  host.textContent='Loading…';
+  try{
+   const data=await api('admin/reset-requests');
+   host.replaceChildren();
+   if(!data.requests?.length){const p=document.createElement('p');p.className='muted';p.textContent='No pending requests.';host.append(p);return;}
+   for(const item of data.requests){
+    const card=document.createElement('article');card.className='admin-request-card';
+    const title=document.createElement('strong');title.textContent=item.username;
+    const meta=document.createElement('p');meta.className='muted';meta.textContent='Requested: '+new Date(item.created_at).toLocaleString()+' · Status: '+item.status;
+    card.append(title,meta);
+    if(item.status==='pending'){
+     for(const action of ['approve','reject']){
+      const button=document.createElement('button');button.type='button';button.className=action==='approve'?'primary-button':'secondary-button';button.textContent=action==='approve'?'Approve':'Reject';
+      button.addEventListener('click',async()=>{button.disabled=true;try{await api('admin/reset-review',{method:'POST',body:JSON.stringify({id:item.id,action})});await loadAdminRequests();}catch(e){button.disabled=false;setMessage(e.message,true);}});
+      card.append(button);
+     }
+    }else if(item.expires_at){const expiry=document.createElement('p');expiry.className='muted';expiry.textContent='Approval expires: '+new Date(item.expires_at).toLocaleString();card.append(expiry);}
+    host.append(card);
+   }
+  }catch(e){host.textContent=e.message;}
+ }
  function showView(name){
   const current=renderers[name]?name:'dashboard';
   document.querySelectorAll('.nav-item[data-view],.mobile-nav-item[data-view]').forEach(el=>{const active=el.dataset.view===current;el.classList.toggle('active',active);if(active)el.setAttribute('aria-current','page');else el.removeAttribute('aria-current');});
   const appRoot=document.getElementById('app'),loader=document.getElementById('section-loader');
-  const render=()=>{appRoot.innerHTML=renderers[current]();window.scrollTo({top:0,behavior:'smooth'});if(loader)loader.hidden=true;};
+  const render=()=>{appRoot.innerHTML=current==='admin'?renderAdminPanel():renderers[current]();if(current==='admin')loadAdminRequests();window.scrollTo({top:0,behavior:'smooth'});if(loader)loader.hidden=true;};
   if(appRoot.innerHTML.trim()&&loader){loader.hidden=false;if(viewTransitionTimer)clearTimeout(viewTransitionTimer);viewTransitionTimer=setTimeout(render,650);}else render();
  }
  async function loadProgress(){
@@ -96,7 +123,7 @@ import { renderQuiz } from './app/quiz.js';
  }
  window.ReadyToFlyProgress={get:()=>structuredClone(progressData),save:saveProgress,refresh:loadProgress};
  async function enterApp(user){
-  currentUser=user;loginScreen.hidden=true;application.hidden=false;
+  currentUser=user;loginScreen.hidden=true;application.hidden=false;document.getElementById('admin-panel').hidden=!user.isAdmin;
   document.getElementById('footer-status').textContent='Signed in · '+user.username;
   await loadProgress();showView('dashboard');
  }
@@ -129,7 +156,9 @@ import { renderQuiz } from './app/quiz.js';
   finally{const next=form.querySelector('button[type="submit"]');if(next){next.disabled=false;next.textContent=authMode==='recovery-display'?'I have saved my code →':(authMode==='register'?'Create account →':authMode==='recover'?'Reset password →':'Sign in →');}}
  });
  document.addEventListener('click',event=>{const control=event.target.closest('[data-view]');if(control)showView(control.dataset.view);});
- document.getElementById('signout').addEventListener('click',async()=>{try{await api('auth/logout',{method:'POST',body:'{}'});}catch(e){console.warn(e);}progressData={};localStorage.removeItem('readytofly-progress-cache');currentUser=null;showLogin();});
+ document.getElementById('admin-panel').addEventListener('click',()=>showView('admin'));
+ document.addEventListener('click',event=>{if(event.target.closest('[data-admin-refresh]'))loadAdminRequests();});
+ document.getElementById('signout').addEventListener('click',async()=>{try{await api('auth/logout',{method:'POST',body:'{}'});}catch(e){console.warn(e);}progressData={};localStorage.removeItem('readytofly-progress-cache');currentUser=null;document.getElementById('admin-panel').hidden=true;showLogin();});
  const themeButton=document.getElementById('theme-toggle');
  if(localStorage.getItem('readytofly-theme')==='light')document.body.classList.add('light');
  themeButton.addEventListener('click',()=>{document.body.classList.toggle('light');localStorage.setItem('readytofly-theme',document.body.classList.contains('light')?'light':'dark');});
