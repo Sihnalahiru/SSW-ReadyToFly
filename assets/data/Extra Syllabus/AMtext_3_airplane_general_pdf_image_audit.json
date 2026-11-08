@@ -1,0 +1,30 @@
+{
+  "audit": "AM Book 3 - Airplane General PDF image source audit",
+  "source_pdf": "AMtext_3.Airplane General.pdf",
+  "pdf_pages": 24,
+  "zip": "AMtext_3.Airplane General - Images.zip",
+  "zip_image_count": 109,
+  "formats": { "jpg": 93, "png": 16 },
+  "unique_pdf_image_xrefs": 109,
+  "verification_method": "Decoded source images compared against decoded embedded PDF image Xrefs using RGB pixel comparison at original dimensions.",
+  "results": {
+    "exact_pixel_matches": 108,
+    "near_pixel_equivalent": 1,
+    "unmatched": 0,
+    "missing": 0
+  },
+  "near_match": {
+    "file": "6.jpg",
+    "pdf_xref": 26,
+    "physical_pdf_pages": [6],
+    "max_channel_difference": 1,
+    "mean_channel_difference": 0.0000008
+  },
+  "rules": [
+    "Preserve original image filenames.",
+    "Do not delete or rename duplicate images.",
+    "Do not infer semantic Activity/lesson mappings from image order.",
+    "Keep AM Book 3 separate from AM Books 1 and 2 and from Airport Ground Handling.",
+    "Semantic image-to-topic mapping remains PENDING unless independently verified."
+  ]
+}
