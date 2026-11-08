@@ -43,7 +43,7 @@ import { renderQuiz } from './app/quiz.js';
  }
  function showView(name){
   const current=renderers[name]?name:'dashboard';
-  document.querySelectorAll('.nav-item[data-view]').forEach(el=>{const active=el.dataset.view===current;el.classList.toggle('active',active);if(active)el.setAttribute('aria-current','page');else el.removeAttribute('aria-current');});
+  document.querySelectorAll('.nav-item[data-view],.mobile-nav-item[data-view]').forEach(el=>{const active=el.dataset.view===current;el.classList.toggle('active',active);if(active)el.setAttribute('aria-current','page');else el.removeAttribute('aria-current');});
   document.getElementById('app').innerHTML=renderers[current]();
   window.scrollTo({top:0,behavior:'smooth'});
  }
