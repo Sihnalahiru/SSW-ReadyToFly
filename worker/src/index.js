@@ -114,7 +114,7 @@ async function createSession(env, user) {
   return {
     sessionCookie: cookie("rtf_session", token, SESSION_DAYS * 86400),
     csrfCookie: cookie("rtf_csrf", csrf, SESSION_DAYS * 86400, false),
-    user: { id: user.id, username: user.username, displayName: user.username }
+    user: { id: user.id, username: user.username, displayName: user.username, isAdmin: Boolean(env.ADMIN_USERNAME && user.username.toLowerCase() === String(env.ADMIN_USERNAME).trim().toLowerCase()) }
   };
 }
 async function rateLimited(env, key) {
@@ -145,6 +145,29 @@ async function recordFailure(env, key) {
       .bind(now + 15 * 60 * 1000, key).run();
   }
 }
+
+async function isAdminSession(session, env) {
+  return Boolean(session && env.ADMIN_USERNAME &&
+    session.username.toLowerCase() === String(env.ADMIN_USERNAME).trim().toLowerCase());
+}
+async function notifyAdminTelegram(env, message) {
+  if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_ADMIN_CHAT_ID) {
+    console.warn("Telegram notification skipped: secrets are not configured.");
+    return false;
+  }
+  const response = await fetch("https://api.telegram.org/bot" + env.TELEGRAM_BOT_TOKEN + "/sendMessage", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({
+      chat_id: env.TELEGRAM_ADMIN_CHAT_ID,
+      text: message,
+      disable_web_page_preview: true
+    })
+  });
+  if (!response.ok) console.error("Telegram notification failed:", response.status);
+  return response.ok;
+}
+
 async function handle(request, env) {
   const url = new URL(request.url);
   const path = url.pathname.replace(/\/$/, "") || "/";
@@ -283,6 +306,124 @@ async function handle(request, env) {
       });
     }
 
+
+    if (path === "/api/auth/reset-request" && request.method === "POST") {
+      const body = await readJson(request);
+      const username = normalizeUsername(body.username);
+      if (!validUsername(username)) return json({ error: "INVALID_USERNAME" }, 400);
+      const ip = request.headers.get("CF-Connecting-IP") || "unknown";
+      const rateKey = await sha256("admin-reset:" + ip + ":" + username);
+      if (await rateLimited(env, rateKey)) {
+        return json({ error: "TOO_MANY_ATTEMPTS", message: "Please wait before requesting another reset." }, 429);
+      }
+      const user = await env.DB.prepare(
+        "SELECT id,username FROM users WHERE username=? COLLATE NOCASE AND disabled_at IS NULL"
+      ).bind(username).first();
+      // Return the same public response whether or not the username exists.
+      const response = { ok: true, message: "If the account exists, an administrator will review the request." };
+      if (!user) return json(response, 202);
+      const recent = await env.DB.prepare(
+        "SELECT id FROM password_reset_requests WHERE user_id=? AND status IN ('pending','approved') AND created_at>?"
+      ).bind(user.id, Date.now() - 30 * 60 * 1000).first();
+      if (recent) return json(response, 202);
+      const id = crypto.randomUUID();
+      const requestSecret = randomToken(32);
+      const now = Date.now();
+      await env.DB.prepare(
+        "INSERT INTO password_reset_requests(id,user_id,request_secret_hash,status,created_at) VALUES(?,?,?,'pending',?)"
+      ).bind(id, user.id, await sha256(requestSecret), now).run();
+      await env.DB.prepare(
+        "INSERT INTO auth_audit_log(id,user_id,action,request_id,created_at) VALUES(?,?, 'password_reset_requested', ?, ?)"
+      ).bind(crypto.randomUUID(), user.id, id, now).run();
+      await notifyAdminTelegram(env,
+        "ReadyToFly password reset request\nUsername: " + user.username +
+        "\nRequest ID: " + id + "\nOpen the ReadyToFly Admin Panel to approve or reject.");
+      return json({ ...response, requestId: id, requestSecret }, 202);
+    }
+
+    if (path === "/api/auth/reset-status" && request.method === "POST") {
+      const body = await readJson(request);
+      if (typeof body.requestId !== "string" || typeof body.requestSecret !== "string") {
+        return json({ error: "INVALID_REQUEST" }, 400);
+      }
+      const row = await env.DB.prepare(
+        "SELECT id,status,expires_at FROM password_reset_requests WHERE id=? AND request_secret_hash=?"
+      ).bind(body.requestId, await sha256(body.requestSecret)).first();
+      if (!row) return json({ error: "REQUEST_NOT_FOUND" }, 404);
+      if (row.status === "approved" && row.expires_at && row.expires_at <= Date.now()) {
+        await env.DB.prepare("UPDATE password_reset_requests SET status='expired' WHERE id=? AND status='approved'")
+          .bind(row.id).run();
+        return json({ status: "expired" });
+      }
+      return json({ status: row.status, expiresAt: row.expires_at || null });
+    }
+
+    if (path === "/api/auth/complete-admin-reset" && request.method === "POST") {
+      const body = await readJson(request);
+      const { requestId, requestSecret, newPassword } = body;
+      if (typeof requestId !== "string" || typeof requestSecret !== "string" || !validPassword(newPassword)) {
+        return json({ error: "INVALID_RESET", message: "Enter a valid reset request and a password meeting the requirements." }, 400);
+      }
+      const row = await env.DB.prepare(
+        "SELECT r.id,r.user_id,r.status,r.expires_at,u.username FROM password_reset_requests r " +
+        "JOIN users u ON u.id=r.user_id WHERE r.id=? AND r.request_secret_hash=? AND u.disabled_at IS NULL"
+      ).bind(requestId, await sha256(requestSecret)).first();
+      if (!row || row.status !== "approved" || !row.expires_at || row.expires_at <= Date.now()) {
+        return json({ error: "RESET_NOT_APPROVED", message: "This reset has not been approved or has expired." }, 403);
+      }
+      const pw = await passwordHash(newPassword);
+      const now = Date.now();
+      const results = await env.DB.batch([
+        env.DB.prepare("UPDATE users SET password_hash=?,password_salt=?,updated_at=? WHERE id=?")
+          .bind(pw.hash, pw.salt, now, row.user_id),
+        env.DB.prepare("DELETE FROM sessions WHERE user_id=?").bind(row.user_id),
+        env.DB.prepare("UPDATE password_reset_requests SET status='completed',reviewed_at=? WHERE id=? AND status='approved' AND expires_at>?")
+          .bind(now, row.id, now),
+        env.DB.prepare("INSERT INTO auth_audit_log(id,user_id,action,request_id,created_at) VALUES(?,?, 'password_reset_completed', ?, ?)")
+          .bind(crypto.randomUUID(), row.user_id, row.id, now)
+      ]);
+      const changed = results[2] && results[2].meta ? results[2].meta.changes : 0;
+      if (!changed) return json({ error: "RESET_ALREADY_USED" }, 409);
+      return json({ ok: true, message: "Password updated. All previous sessions have been signed out. Please sign in again." });
+    }
+
+    if (path === "/api/admin/reset-requests" && request.method === "GET") {
+      const session = await currentSession(request, env);
+      if (!session || !await isAdminSession(session, env)) return json({ error: "ADMIN_ONLY" }, 403);
+      const rows = await env.DB.prepare(
+        "SELECT r.id,u.username,r.status,r.created_at,r.reviewed_at,r.expires_at " +
+        "FROM password_reset_requests r JOIN users u ON u.id=r.user_id " +
+        "WHERE r.status IN ('pending','approved') ORDER BY r.created_at DESC LIMIT 100"
+      ).all();
+      return json({ requests: rows.results || [] });
+    }
+
+    if (path === "/api/admin/reset-review" && request.method === "POST") {
+      const session = await currentSession(request, env);
+      if (!session || !await isAdminSession(session, env)) return json({ error: "ADMIN_ONLY" }, 403);
+      if (!await csrfValid(request, session)) return json({ error: "CSRF_CHECK_FAILED" }, 403);
+      const body = await readJson(request);
+      if (typeof body.id !== "string" || !["approve","reject"].includes(body.action)) {
+        return json({ error: "INVALID_REVIEW" }, 400);
+      }
+      const now = Date.now();
+      const status = body.action === "approve" ? "approved" : "rejected";
+      const expiry = body.action === "approve" ? now + 20 * 60 * 1000 : null;
+      const result = await env.DB.prepare(
+        "UPDATE password_reset_requests SET status=?,reviewed_at=?,reviewed_by=?,expires_at=? WHERE id=? AND status='pending'"
+      ).bind(status, now, session.username, expiry, body.id).run();
+      const changed = result.meta ? result.meta.changes : 0;
+      if (!changed) return json({ error: "REQUEST_ALREADY_REVIEWED" }, 409);
+      const row = await env.DB.prepare(
+        "SELECT r.user_id,u.username FROM password_reset_requests r JOIN users u ON u.id=r.user_id WHERE r.id=?"
+      ).bind(body.id).first();
+      await env.DB.prepare(
+        "INSERT INTO auth_audit_log(id,user_id,actor_username,action,request_id,created_at) VALUES(?,?,?,?,?,?)"
+      ).bind(crypto.randomUUID(), row?.user_id || null, session.username,
+        body.action === "approve" ? "password_reset_approved" : "password_reset_rejected", body.id, now).run();
+      return json({ ok: true, status, expiresAt: expiry });
+    }
+
     if (path === "/api/auth/me" && request.method === "GET") {
       const session = await currentSession(request, env);
       if (!session) {
@@ -292,7 +433,7 @@ async function handle(request, env) {
       }
       return json({
         authenticated: true,
-        user: { id: session.user_id, username: session.username, displayName: session.username },
+        user: { id: session.user_id, username: session.username, displayName: session.username, isAdmin: await isAdminSession(session, env) },
         csrfToken: cookieMap(request).rtf_csrf
       });
     }
