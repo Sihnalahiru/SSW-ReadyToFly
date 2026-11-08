@@ -1,0 +1,14 @@
+{
+  "id": "./",
+  "name": "SSW ReadyToFly — Ground Handling",
+  "short_name": "ReadyToFly",
+  "description": "Airport Ground Handling study platform for SSW learners.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f3f6fb",
+  "theme_color": "#101b2d",
+  "lang": "en",
+  "categories": ["education", "travel"]
+}
