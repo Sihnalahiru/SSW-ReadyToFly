@@ -1,0 +1,364 @@
+{
+  "audit_title": "AM Book 2 — Occupational Safety and Maintenance Quality PDF Image Audit",
+  "source_pdf": "AMtext_2.Occupational Safety and Maintenance Quality.pdf",
+  "uploaded_source_filename": "AMtext_2.Occupational Safety and Maintenance Quality(3).pdf",
+  "supplied_image_archive": "AMtext_2.Occupational Safety and Maintenance Quality - Images.zip",
+  "pdf_page_count": 20,
+  "extraction_summary": {
+    "archive_image_files": 45,
+    "jpg_files": 30,
+    "png_files": 15,
+    "unique_pdf_image_xrefs": 45,
+    "total_pdf_image_occurrences": 60,
+    "exact_pixel_matches": 38,
+    "pixel_equivalent_matches_with_max_1_rgb_level_rounding": 7,
+    "verified_assets": 45,
+    "unmatched_assets": 0,
+    "missing_assets_detected": 0
+  },
+  "verification_method": "Extracted each PDF image Xref with PyMuPDF; decoded PDF images and archive originals to RGBA and compared dimensions and pixel channels. 38 files match exactly. Seven differ only by a maximum of one RGB level from PDF decoder rounding; for six, over 99.97% of pixels are channel-exact; 43.jpg maps to Xref 105 with over 99.99% channel-exact pixels (Xref 104 is a different image). No resize or perceptual approximation used.",
+  "verified_assets": [
+    {
+      "file": "0.jpg",
+      "pdf_page": 1,
+      "pdf_xref": 178,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "1.jpg",
+      "pdf_page": 1,
+      "pdf_xref": 179,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "2.jpg",
+      "pdf_page": 1,
+      "pdf_xref": 180,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "3.jpg",
+      "pdf_page": [
+        3,
+        18
+      ],
+      "pdf_xref": 117,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "4.jpg",
+      "pdf_page": 6,
+      "pdf_xref": 23,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "5.png",
+      "pdf_page": 6,
+      "pdf_xref": 24,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "6.png",
+      "pdf_page": 6,
+      "pdf_xref": 25,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "7.png",
+      "pdf_page": 6,
+      "pdf_xref": 26,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "8.png",
+      "pdf_page": 6,
+      "pdf_xref": 27,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "9.png",
+      "pdf_page": 6,
+      "pdf_xref": 28,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "10.png",
+      "pdf_page": 7,
+      "pdf_xref": 37,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "11.png",
+      "pdf_page": 7,
+      "pdf_xref": 38,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "12.png",
+      "pdf_page": 7,
+      "pdf_xref": 39,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "13.png",
+      "pdf_page": 7,
+      "pdf_xref": 40,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "14.png",
+      "pdf_page": 7,
+      "pdf_xref": 41,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "15.jpg",
+      "pdf_page": 7,
+      "pdf_xref": 42,
+      "pixel_comparison": "ROUNDING_TOLERANCE_1_RGB_LEVEL",
+      "dimensions_verified": true
+    },
+    {
+      "file": "16.jpg",
+      "pdf_page": 8,
+      "pdf_xref": 46,
+      "pixel_comparison": "ROUNDING_TOLERANCE_1_RGB_LEVEL",
+      "dimensions_verified": true
+    },
+    {
+      "file": "17.jpg",
+      "pdf_page": 9,
+      "pdf_xref": 50,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "18.jpg",
+      "pdf_page": 9,
+      "pdf_xref": 51,
+      "pixel_comparison": "ROUNDING_TOLERANCE_1_RGB_LEVEL",
+      "dimensions_verified": true
+    },
+    {
+      "file": "19.jpg",
+      "pdf_page": 10,
+      "pdf_xref": 55,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "20.jpg",
+      "pdf_page": 10,
+      "pdf_xref": 56,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "21.jpg",
+      "pdf_page": 10,
+      "pdf_xref": 57,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "22.jpg",
+      "pdf_page": 10,
+      "pdf_xref": 58,
+      "pixel_comparison": "ROUNDING_TOLERANCE_1_RGB_LEVEL",
+      "dimensions_verified": true
+    },
+    {
+      "file": "23.jpg",
+      "pdf_page": 11,
+      "pdf_xref": 66,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "24.jpg",
+      "pdf_page": 11,
+      "pdf_xref": 67,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "25.jpg",
+      "pdf_page": 11,
+      "pdf_xref": 68,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "26.jpg",
+      "pdf_page": 11,
+      "pdf_xref": 69,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "27.jpg",
+      "pdf_page": 11,
+      "pdf_xref": 70,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "28.jpg",
+      "pdf_page": 11,
+      "pdf_xref": 71,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "29.png",
+      "pdf_page": 11,
+      "pdf_xref": 72,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "30.jpg",
+      "pdf_page": 11,
+      "pdf_xref": 73,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "31.png",
+      "pdf_page": 12,
+      "pdf_xref": 77,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "32.jpg",
+      "pdf_page": 12,
+      "pdf_xref": 78,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "33.jpg",
+      "pdf_page": 12,
+      "pdf_xref": 79,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "34.jpg",
+      "pdf_page": 12,
+      "pdf_xref": 80,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "35.jpg",
+      "pdf_page": 12,
+      "pdf_xref": 81,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "36.png",
+      "pdf_page": 13,
+      "pdf_xref": 86,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "37.png",
+      "pdf_page": 13,
+      "pdf_xref": 87,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "38.jpg",
+      "pdf_page": 14,
+      "pdf_xref": 91,
+      "pixel_comparison": "ROUNDING_TOLERANCE_1_RGB_LEVEL",
+      "dimensions_verified": true
+    },
+    {
+      "file": "39.jpg",
+      "pdf_page": 15,
+      "pdf_xref": 95,
+      "pixel_comparison": "ROUNDING_TOLERANCE_1_RGB_LEVEL",
+      "dimensions_verified": true
+    },
+    {
+      "file": "40.jpg",
+      "pdf_page": 16,
+      "pdf_xref": 99,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "41.jpg",
+      "pdf_page": 16,
+      "pdf_xref": 100,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "42.png",
+      "pdf_page": 17,
+      "pdf_xref": 104,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    },
+    {
+      "file": "43.jpg",
+      "pdf_page": 17,
+      "pdf_xref": 105,
+      "pixel_comparison": "ROUNDING_TOLERANCE_1_RGB_LEVEL",
+      "dimensions_verified": true
+    },
+    {
+      "file": "44.jpg",
+      "pdf_page": 20,
+      "pdf_xref": 115,
+      "pixel_comparison": "EXACT",
+      "dimensions_verified": true
+    }
+  ],
+  "repeated_asset_notes": [
+    {
+      "file": "3.jpg",
+      "pdf_pages": "3–18",
+      "pdf_xref": 117,
+      "note": "Repeated footer/logo page furniture."
+    }
+  ],
+  "conclusions": [
+    "All 45 image files in the supplied Book 2 ZIP are represented in the source PDF.",
+    "No image asset is missing from the PDF.",
+    "38 images are exact decoded-pixel matches; 7 show only minimal one-level RGB decoder rounding and are pixel-equivalent.",
+    "No filenames were renamed, files deleted, or assets overwritten."
+  ],
+  "pending_items": [
+    "Semantic image-to-topic/activity mapping remains PENDING until each page illustration is reviewed in its teaching context.",
+    "Image presence and page location do not by themselves prove an activity-level mapping."
+  ],
+  "handling_rules": [
+    "Preserve original filenames and folder structure.",
+    "Do not infer page order from numeric filenames.",
+    "Keep AM Book 2 separate from AM Books 1 and 3 and Airport Ground Handling.",
+    "Mark uncertain relationships PENDING."
+  ]
+}
