@@ -111,15 +111,65 @@ import { renderQuiz } from './app/quiz.js';
   const render=()=>{appRoot.innerHTML=current==='admin'?renderAdminPanel():renderers[current]();if(current==='admin')loadAdminRequests();window.scrollTo({top:0,behavior:'smooth'});if(loader)loader.hidden=true;};
   if(appRoot.innerHTML.trim()&&loader){loader.hidden=false;if(viewTransitionTimer)clearTimeout(viewTransitionTimer);viewTransitionTimer=setTimeout(render,650);}else render();
  }
+ let saveTimer=null,saveInFlight=false;
+ function queueStorageKey(){return currentUser?'readytofly-pending:'+currentUser.id:null;}
+ function readPendingQueue(){try{return queueStorageKey()?JSON.parse(localStorage.getItem(queueStorageKey())||'{}'):{};}catch{return {};}}
+ function writePendingQueue(queue){if(queueStorageKey())localStorage.setItem(queueStorageKey(),JSON.stringify(queue));}
+ function setSaveStatus(status){
+  const el=document.getElementById('footer-status');
+  if(el)el.textContent='Signed in · '+(currentUser?.username||'')+' · '+status;
+ }
  async function loadProgress(){
-  try{const result=await api('progress');progressData=Object.fromEntries((result.items||[]).map(x=>[x.key,x.data]));localStorage.setItem('readytofly-progress-cache',JSON.stringify({userId:currentUser.id,data:progressData}));}
-  catch(e){console.warn('Progress sync unavailable:',e.message);}
+  const cacheKey='readytofly-progress-cache:'+currentUser.id;
+  try{
+   const result=await api('progress');
+   progressData=Object.fromEntries((result.items||[]).map(x=>[x.key,x.data]));
+   const pending=readPendingQueue();
+   for(const [key,value] of Object.entries(pending))progressData[key]=value;
+   localStorage.setItem(cacheKey,JSON.stringify(progressData));
+   if(Object.keys(pending).length)await flushProgress();
+   else setSaveStatus('All changes saved');
+  }catch(e){
+   const pending=readPendingQueue();
+   try{progressData={...JSON.parse(localStorage.getItem(cacheKey)||'{}'),...pending};}catch{progressData={...pending};}
+   setSaveStatus(navigator.onLine?'Sync unavailable':'Offline · changes queued');
+   console.warn('Progress sync unavailable:',e.message);
+  }
+ }
+ async function flushProgress(){
+  if(!currentUser||!navigator.onLine||saveInFlight)return false;
+  const queue=readPendingQueue(),entries=Object.entries(queue);
+  if(!entries.length){setSaveStatus('All changes saved');return true;}
+  saveInFlight=true;setSaveStatus('Saving…');
+  try{
+   for(let i=0;i<entries.length;i+=50){
+    const batch=entries.slice(i,i+50);
+    await api('progress',{method:'PUT',body:JSON.stringify({items:batch.map(([key,data])=>({key,data}))})});
+    const latest=readPendingQueue();
+    for(const [key,value] of batch)if(JSON.stringify(latest[key])===JSON.stringify(value))delete latest[key];
+    writePendingQueue(latest);
+   }
+   localStorage.setItem('readytofly-progress-cache:'+currentUser.id,JSON.stringify(progressData));
+   setSaveStatus(Object.keys(readPendingQueue()).length?'Changes waiting to sync':'All changes saved');
+   return true;
+  }catch(e){
+   setSaveStatus(navigator.onLine?'Sync failed · retrying later':'Offline · changes queued');
+   console.warn('Progress save queued:',e.message);return false;
+  }finally{saveInFlight=false;}
+ }
+ function scheduleProgressSave(){
+  if(saveTimer)clearTimeout(saveTimer);
+  setSaveStatus(navigator.onLine?'Changes pending…':'Offline · changes queued');
+  saveTimer=setTimeout(()=>flushProgress(),850);
  }
  async function saveProgress(key,value){
   if(!/^[a-zA-Z0-9:_-]{1,120}$/.test(key))throw new Error('Invalid progress key');
+  if(!currentUser)throw new Error('Sign in before saving progress.');
   progressData[key]=value;
-  try{await api('progress',{method:'PUT',body:JSON.stringify({items:[{key,data:value}]})});localStorage.setItem('readytofly-progress-cache',JSON.stringify({userId:currentUser.id,data:progressData}));return true;}
-  catch(e){setMessage('Progress sync failed. Your latest change could not be confirmed by the server.',true);throw e;}
+  const queue=readPendingQueue();queue[key]=value;writePendingQueue(queue);
+  localStorage.setItem('readytofly-progress-cache:'+currentUser.id,JSON.stringify(progressData));
+  scheduleProgressSave();
+  return true;
  }
  window.ReadyToFlyProgress={get:()=>structuredClone(progressData),save:saveProgress,refresh:loadProgress};
  async function enterApp(user){
@@ -158,12 +208,13 @@ import { renderQuiz } from './app/quiz.js';
  document.addEventListener('click',event=>{const control=event.target.closest('[data-view]');if(control)showView(control.dataset.view);});
  document.getElementById('admin-panel').addEventListener('click',()=>showView('admin'));
  document.addEventListener('click',event=>{if(event.target.closest('[data-admin-refresh]'))loadAdminRequests();});
- document.getElementById('signout').addEventListener('click',async()=>{try{await api('auth/logout',{method:'POST',body:'{}'});}catch(e){console.warn(e);}progressData={};localStorage.removeItem('readytofly-progress-cache');currentUser=null;document.getElementById('admin-panel').hidden=true;showLogin();});
+ document.getElementById('signout').addEventListener('click',async()=>{await flushProgress();try{await api('auth/logout',{method:'POST',body:'{}'});}catch(e){console.warn(e);}progressData={};currentUser=null;document.getElementById('admin-panel').hidden=true;showLogin();});
  const themeButton=document.getElementById('theme-toggle');
  if(localStorage.getItem('readytofly-theme')==='light')document.body.classList.add('light');
  themeButton.addEventListener('click',()=>{document.body.classList.toggle('light');localStorage.setItem('readytofly-theme',document.body.classList.contains('light')?'light':'dark');});
  function updateConnection(){document.getElementById('connection-status').textContent=navigator.onLine?'Online':'Offline';}
- updateConnection();window.addEventListener('online',updateConnection);window.addEventListener('offline',updateConnection);
+ updateConnection();window.addEventListener('online',()=>{updateConnection();flushProgress();});window.addEventListener('offline',()=>{updateConnection();setSaveStatus('Offline · changes queued');});
+ window.addEventListener('pagehide',()=>{if(navigator.onLine)flushProgress();});
  if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(e=>console.warn('SW:',e)));
  (async()=>{
   setMode('login');
