@@ -17,16 +17,37 @@
     <main class="login-main">
       <section class="login-copy"><p class="eyebrow">YOUR JOURNEY STARTS HERE</p><h1>Prepare for take-off.<br><em>Build your future.</em></h1><p class="login-lead">A focused learning space for your Airport Ground Handling SSW journey — study, practise and track your progress in one place.</p><div class="login-points"><span>✦ Source-verified study material</span><span>✦ Practice and progress tracking</span><span>✦ Designed for mobile learning</span></div></section>
       <section class="login-card glass-panel" aria-labelledby="login-title">
-        <div class="login-card-head"><div class="login-symbol">✈</div><p class="eyebrow">WELCOME BACK</p><h2 id="login-title">Sign in to ReadyToFly</h2><p>Access your personal learning space.</p></div>
-        <form id="login-form" class="login-form">
+        <div class="login-card-head"><div class="login-symbol">✈</div><p class="eyebrow">YOUR LEARNING ACCOUNT</p><h2 id="login-title">Welcome to ReadyToFly</h2><p id="login-subtitle">Sign in to continue your journey.</p></div>
+        <div class="auth-tabs" role="tablist" aria-label="Account options">
+          <button class="auth-tab active" type="button" data-auth-view="login">Sign in</button>
+          <button class="auth-tab" type="button" data-auth-view="register">Create account</button>
+        </div>
+        <form id="login-form" class="login-form auth-form">
           <label for="login-email">Email address</label><input id="login-email" name="email" type="email" autocomplete="username" placeholder="you@example.com" required>
           <label for="login-password">Password</label><input id="login-password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required>
           <button class="primary-button login-submit" type="submit">Sign in <span>→</span></button>
-          <p id="login-message" class="login-message" role="status">Secure account sign-in will activate after the authentication service is connected.</p>
+          <button class="text-button" type="button" data-auth-view="forgot">Forgot password?</button>
         </form>
-        <div class="login-divider"><span>OR</span></div>
+        <form id="register-form" class="login-form auth-form" hidden>
+          <label for="register-name">Your name</label><input id="register-name" name="displayName" autocomplete="name" maxlength="80" placeholder="Full name" required>
+          <label for="register-email">Email address</label><input id="register-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+          <label for="register-password">Create password</label><input id="register-password" name="password" type="password" autocomplete="new-password" minlength="12" placeholder="At least 12 characters" required>
+          <p class="form-hint">Use at least 12 characters with uppercase, lowercase and a number.</p>
+          <button class="primary-button login-submit" type="submit">Create account <span>→</span></button>
+        </form>
+        <form id="forgot-form" class="login-form auth-form" hidden>
+          <label for="forgot-email">Account email</label><input id="forgot-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+          <button class="primary-button login-submit" type="submit">Send reset link <span>→</span></button>
+          <button class="text-button" type="button" data-auth-view="login">Back to sign in</button>
+        </form>
+        <form id="reset-form" class="login-form auth-form" hidden>
+          <label for="reset-password">New password</label><input id="reset-password" name="password" type="password" autocomplete="new-password" minlength="12" placeholder="At least 12 characters" required>
+          <button class="primary-button login-submit" type="submit">Update password <span>→</span></button>
+        </form>
+        <p id="login-message" class="login-message" role="status" aria-live="polite">Create an account and verify your email to securely sync your study progress.</p>
+        <div class="login-divider"><span>PREVIEW</span></div>
         <button id="guest-preview" class="secondary-button" type="button">Explore app preview <span>↗</span></button>
-        <p class="login-legal">Your study data stays separate from other ReadyToFly projects.</p>
+        <p class="login-legal">Your password is never stored in your browser. Account security is handled by the ReadyToFly Cloudflare service.</p>
       </section>
     </main>
     <footer class="login-footer">READYTOFLY <span>·</span> SSW GROUND HANDLING <span>·</span> SOURCE-LED LEARNING</footer>
