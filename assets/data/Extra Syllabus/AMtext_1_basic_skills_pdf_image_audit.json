@@ -1,0 +1,214 @@
+{
+  "audit_title": "AM Book 1 — Basic Skills PDF Image Extraction & Exact-Match Audit",
+  "source_pdf": "AMtext_1.basic skills.pdf",
+  "uploaded_source_filename": "AMtext_1.basic skills(3).pdf",
+  "pdf_page_count": 26,
+  "printed_page_range_observed": "Cover and front matter followed by printed pages 1–24",
+  "extraction_method": "PyMuPDF extract_image; exact GitHub Git-blob SHA-1 comparison against extracted PDF image bytes",
+  "extraction_summary": {
+    "total_image_occurrences_across_pages": 1244,
+    "unique_pdf_image_xrefs": 1223,
+    "unique_extracted_image_payloads": 1223,
+    "github_assets_in_book1_folder": 42,
+    "exact_byte_matched_github_assets": 23,
+    "unmatched_github_assets_pending": 19
+  },
+  "exact_asset_matches": {
+    "0.jpg": {
+      "pdf_page": 1,
+      "xref": 2695,
+      "size_bytes": 7908,
+      "width": 207,
+      "height": 142
+    },
+    "1.jpg": {
+      "pdf_page": 1,
+      "xref": 2696,
+      "size_bytes": 122748,
+      "width": 1379,
+      "height": 459
+    },
+    "2.jpg": {
+      "pdf_page": 1,
+      "xref": 2697,
+      "size_bytes": 78769,
+      "width": 1379,
+      "height": 458
+    },
+    "3.jpg": {
+      "pdf_pages": "3–24",
+      "xref": 1960,
+      "size_bytes": 3981,
+      "width": 118,
+      "height": 81,
+      "notes": "Repeated footer/logo asset"
+    },
+    "1191.jpg": {
+      "pdf_page": 11,
+      "xref": 1879,
+      "size_bytes": 43209,
+      "width": 1264,
+      "height": 239
+    },
+    "1195.jpg": {
+      "pdf_page": 14,
+      "xref": 1893,
+      "size_bytes": 17089,
+      "width": 745,
+      "height": 148
+    },
+    "1196.jpg": {
+      "pdf_page": 14,
+      "xref": 1894,
+      "size_bytes": 38294,
+      "width": 907,
+      "height": 277
+    },
+    "1199.jpg": {
+      "pdf_page": 14,
+      "xref": 1897,
+      "size_bytes": 2150,
+      "width": 273,
+      "height": 94
+    },
+    "1200.jpg": {
+      "pdf_page": 14,
+      "xref": 1898,
+      "size_bytes": 2735,
+      "width": 505,
+      "height": 110
+    },
+    "1201.jpg": {
+      "pdf_page": 14,
+      "xref": 1899,
+      "size_bytes": 1821,
+      "width": 272,
+      "height": 94
+    },
+    "1203.jpg": {
+      "pdf_page": 16,
+      "xref": 1908,
+      "size_bytes": 14154,
+      "width": 245,
+      "height": 205
+    },
+    "1204.jpg": {
+      "pdf_page": 17,
+      "xref": 1913,
+      "size_bytes": 38583,
+      "width": 696,
+      "height": 511
+    },
+    "1205.jpg": {
+      "pdf_page": 17,
+      "xref": 1914,
+      "size_bytes": 16715,
+      "width": 542,
+      "height": 164
+    },
+    "1207.jpg": {
+      "pdf_page": 17,
+      "xref": 1916,
+      "size_bytes": 7333,
+      "width": 292,
+      "height": 291
+    },
+    "1208.jpg": {
+      "pdf_page": 17,
+      "xref": 1917,
+      "size_bytes": 7241,
+      "width": 300,
+      "height": 301
+    },
+    "1212.jpg": {
+      "pdf_page": 18,
+      "xref": 1924,
+      "size_bytes": 26294,
+      "width": 523,
+      "height": 303
+    },
+    "1213.jpg": {
+      "pdf_page": 19,
+      "xref": 1928,
+      "size_bytes": 8340,
+      "width": 398,
+      "height": 142
+    },
+    "1214.jpg": {
+      "pdf_page": 19,
+      "xref": 1929,
+      "size_bytes": 32217,
+      "width": 988,
+      "height": 241
+    },
+    "1215.jpg": {
+      "pdf_page": 20,
+      "xref": 1933,
+      "size_bytes": 21585,
+      "width": 392,
+      "height": 373
+    },
+    "1216.jpg": {
+      "pdf_page": 21,
+      "xref": 1937,
+      "size_bytes": 17667,
+      "width": 442,
+      "height": 296
+    },
+    "1220.jpg": {
+      "pdf_page": 22,
+      "xref": 1944,
+      "size_bytes": 49803,
+      "width": 528,
+      "height": 592
+    },
+    "1221.jpg": {
+      "pdf_page": 22,
+      "xref": 1945,
+      "size_bytes": 87015,
+      "width": 745,
+      "height": 502
+    },
+    "1222.jpg": {
+      "pdf_page": 26,
+      "xref": 1958,
+      "size_bytes": 16078,
+      "width": 345,
+      "height": 236
+    }
+  },
+  "unmatched_assets_pending": [
+    "1190.png",
+    "1192.png",
+    "1193.png",
+    "1194.png",
+    "1197.png",
+    "1198.png",
+    "1202.png",
+    "1206.png",
+    "1209.png",
+    "1210.png",
+    "1211.png",
+    "1217.png",
+    "1218.png",
+    "1219.png",
+    "220.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+  ],
+  "limitations": [
+    "Unmatched assets are not declared missing; PNG re-encoding, masks, soft masks, transparency, or composite image construction may explain differences. They remain PENDING.",
+    "The PDF contains many repeated page-furniture and small image components; xref count is not a count of independent study illustrations.",
+    "Exact-byte matching proves presence in the PDF, not semantic teaching purpose.",
+    "No existing image filename was renamed, deleted, or overwritten."
+  ],
+  "handling_rules": [
+    "Preserve original image filenames and folder structure.",
+    "Do not infer page order from numeric filenames.",
+    "Do not classify unmatched assets as missing until visual and mask/composition checks are complete.",
+    "Keep AM Book 1 separate from AM Books 2 and 3 and Airport Ground Handling.",
+    "Mark uncertain relationships PENDING."
+  ]
+}
