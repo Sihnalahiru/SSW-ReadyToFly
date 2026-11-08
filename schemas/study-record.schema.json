@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sihnalahiru.github.io/SSW-ReadyToFly/schemas/study-record.schema.json",
+  "title": "ReadyToFly Study Record",
+  "type": "object",
+  "required": [
+    "id",
+    "syllabus_version",
+    "record_type",
+    "title",
+    "status",
+    "sources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "syllabus_version": {
+      "type": "string",
+      "enum": [
+        "legacy",
+        "revised"
+      ]
+    },
+    "record_type": {
+      "type": "string",
+      "enum": [
+        "lesson",
+        "topic",
+        "vocabulary",
+        "question",
+        "media_mapping"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "PENDING",
+        "SOURCE_VERIFIED",
+        "AUDITED",
+        "APPROVED"
+      ]
+    },
+    "content": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "document",
+          "locator"
+        ],
+        "properties": {
+          "document": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "page": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "quote_or_evidence": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}
