@@ -5,7 +5,6 @@ workers_dev = true
 
 [vars]
 APP_ORIGIN = "https://ssw-readytofly.madusanka-lahiru.workers.dev"
-MAIL_FROM = "ReadyToFly <noreply@REPLACE-WITH-YOUR-DOMAIN>"
 
 [[d1_databases]]
 binding = "DB"
@@ -13,8 +12,6 @@ database_name = "readytofly-db"
 database_id = "363d4ade-f519-4f67-8f17-66e8b5fd7293"
 migrations_dir = "migrations"
 
-[[send_email]]
-name = "EMAIL"
 
 [assets]
 directory = "./public"
