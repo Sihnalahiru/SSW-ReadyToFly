@@ -1,0 +1,301 @@
+{
+  "title": "AM Book 1 — Semantic Image-to-Topic Mapping Audit",
+  "source_pdf": "AMtext_1.basic skills.pdf",
+  "source_archive": "AMtext_1.basic skills  - Images.zip",
+  "source_presence": "42/42 exact decoded-pixel matches",
+  "scope": "Topic mapping is based on PDF page visuals, figure captions and labels. No Activity/Question/Answer relationship is inferred.",
+  "mappings": [
+    {
+      "files": [
+        "0.jpg",
+        "3.jpg",
+        "1222.jpg"
+      ],
+      "pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "topic": "Publisher logos / footer marks",
+      "status": "NON_INSTRUCTIONAL"
+    },
+    {
+      "files": [
+        "1.jpg",
+        "2.jpg"
+      ],
+      "pages": [
+        1
+      ],
+      "topic": "Cover photograph showing aircraft maintenance tools",
+      "status": "DIRECT_PAGE_VISUAL"
+    },
+    {
+      "files": [
+        "4.png"
+      ],
+      "pages": [
+        6
+      ],
+      "topic": "Figure 1 — bolt classification by head shape",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "5.png"
+      ],
+      "pages": [
+        7
+      ],
+      "topic": "Figure 2 — bolt parts and dimensions (D, H, G, T, L)",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "6.png"
+      ],
+      "pages": [
+        7
+      ],
+      "topic": "Figure 3 — shear-bolt grip length correct/incorrect comparison",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "7.png"
+      ],
+      "pages": [
+        8
+      ],
+      "topic": "Figure 4 — installation cautions for external/internal wrenching bolts",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "220.png"
+      ],
+      "pages": [
+        9
+      ],
+      "topic": "Figure 5 — plain castellated airframe nut (item d)",
+      "status": "DIRECT_LABEL"
+    },
+    {
+      "files": [
+        "1190.png"
+      ],
+      "pages": [
+        11
+      ],
+      "topic": "Figure 6 — screw head shape types",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "1191.jpg"
+      ],
+      "pages": [
+        11
+      ],
+      "topic": "Figure 7 — screw head drive-slot/recess shapes",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "1192.png"
+      ],
+      "pages": [
+        13
+      ],
+      "topic": "Figure 8 — plain washer front and side views",
+      "status": "DIRECT_LABEL"
+    },
+    {
+      "files": [
+        "1193.png",
+        "1194.png"
+      ],
+      "pages": [
+        13
+      ],
+      "topic": "Figure 8 — spring lock, internal/external toothed lock washers and tab washer",
+      "status": "DIRECT_FIGURE_GROUP"
+    },
+    {
+      "files": [
+        "1195.jpg",
+        "1196.jpg"
+      ],
+      "pages": [
+        14
+      ],
+      "topic": "Figure 9 — special washer types and installation examples",
+      "status": "DIRECT_FIGURE_GROUP"
+    },
+    {
+      "files": [
+        "1197.png",
+        "1198.png",
+        "1199.jpg",
+        "1200.jpg",
+        "1201.jpg"
+      ],
+      "pages": [
+        14
+      ],
+      "topic": "Figure 9 area — extracted image fragments; exact subfigure association not independently established",
+      "status": "PENDING_FRAGMENT"
+    },
+    {
+      "files": [
+        "1202.png"
+      ],
+      "pages": [
+        16
+      ],
+      "topic": "Safety wire section — exact subfigure placement pending",
+      "status": "PENDING_SUBFIGURE"
+    },
+    {
+      "files": [
+        "1203.jpg"
+      ],
+      "pages": [
+        16
+      ],
+      "topic": "Safety wire section — photograph of wire/pigtail example",
+      "status": "DIRECT_PAGE_VISUAL"
+    },
+    {
+      "files": [
+        "1204.jpg",
+        "1205.jpg",
+        "1206.png",
+        "1207.jpg",
+        "1208.jpg"
+      ],
+      "pages": [
+        17
+      ],
+      "topic": "Figure 11 — safety wire routing, angle and double-twist method diagrams",
+      "status": "DIRECT_PAGE_GROUP"
+    },
+    {
+      "files": [
+        "1209.png",
+        "1210.png",
+        "1211.png"
+      ],
+      "pages": [
+        17
+      ],
+      "topic": "Figure 11 area — extracted fragments; exact subfigure association pending",
+      "status": "PENDING_FRAGMENT"
+    },
+    {
+      "files": [
+        "1212.jpg"
+      ],
+      "pages": [
+        18
+      ],
+      "topic": "Figure 13 — single-wire safety wire method",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "1213.jpg"
+      ],
+      "pages": [
+        19
+      ],
+      "topic": "Figure 14 — cotter pin name/dimensions and part-number reference",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "1214.jpg"
+      ],
+      "pages": [
+        19
+      ],
+      "topic": "Figure 15 — cotter pin installation methods",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "1215.jpg",
+        "1216.jpg"
+      ],
+      "pages": [
+        20
+      ],
+      "topic": "Figure 16 — cotter pin installation; nut-slot and bolt-hole alignment",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "1217.png",
+        "1219.png"
+      ],
+      "pages": [
+        20,
+        21
+      ],
+      "topic": "Figure 17 — cotter pin installation sequence; exact numbered step association pending",
+      "status": "PENDING_STEP"
+    },
+    {
+      "files": [
+        "1218.png"
+      ],
+      "pages": [
+        20,
+        21
+      ],
+      "topic": "Figure 17 — cotter pin installation sequence; 45-degree bend detail visible",
+      "status": "DIRECT_PAGE_VISUAL"
+    },
+    {
+      "files": [
+        "1220.jpg",
+        "1221.jpg"
+      ],
+      "pages": [
+        22
+      ],
+      "topic": "Figure 18 — circuit tester; digital and analog tester views/probe use",
+      "status": "DIRECT_FIGURE_CAPTION"
+    }
+  ],
+  "pending_count": 9,
+  "rules": [
+    "Preserve filenames and original assets.",
+    "Use physical PDF page numbers as primary locators.",
+    "A page-level match does not prove a specific activity or lesson relationship.",
+    "Keep unresolved fragments and sequence-step associations PENDING.",
+    "Do not infer Activity, Question or Answer relationships.",
+    "Keep AM Book 1 separate from AM Books 2 and 3 and Airport Ground Handling."
+  ]
+}
