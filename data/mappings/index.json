@@ -1,0 +1,7 @@
+{
+  "collection": "media_mappings",
+  "status": "PENDING_EVIDENCE",
+  "record_count": 0,
+  "records": [],
+  "notes": "Do not infer lesson-to-image, audio, figure, activity or answer relationships from filenames or proximity. Add only evidence-backed mappings."
+}
