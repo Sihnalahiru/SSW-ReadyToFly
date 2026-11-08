@@ -112,7 +112,7 @@ async function handle(request,env) {
       if(pw.hash!==user.password_hash) return json({error:"INVALID_CREDENTIALS"},401);
       if(!user.email_verified) return json({error:"EMAIL_NOT_VERIFIED"},403);
       const session=await createSession(env,user,request);
-      return json({ok:true,user:session.user},{status:200,headers:{"Set-Cookie":[session.sessionCookie,session.csrfCookie].join(", ")}});
+      return json({ok:true,user:session.user},200,{"Set-Cookie":[session.sessionCookie,session.csrfCookie]});
     }
     if(path==="/api/auth/me" && request.method==="GET") {
       const session=await currentSession(request,env);
@@ -125,7 +125,7 @@ async function handle(request,env) {
         if(!await csrfValid(request,env,session)) return json({error:"CSRF_CHECK_FAILED"},403);
         await env.DB.prepare("DELETE FROM sessions WHERE id=?").bind(session.id).run();
       }
-      return json({ok:true},{status:200,headers:{"Set-Cookie":[clearCookie("rtf_session"),clearCookie("rtf_csrf",false)].join(", ")}});
+      return json({ok:true},200,{"Set-Cookie":[clearCookie("rtf_session"),clearCookie("rtf_csrf",false)]});
     }
     if(path==="/api/auth/forgot-password" && request.method==="POST") {
       const body=await readJson(request),email=String(body.email||"").trim().toLowerCase();
