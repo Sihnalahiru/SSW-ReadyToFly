@@ -46,7 +46,7 @@
     "vocabulary_records_with_romaji": 167,
     "vocabulary_records_missing_readings": 0,
     "unique_japanese_terms": 154,
-    "duplicate_term_groups": 13,
+    "duplicate_term_groups": 12,
     "duplicate_groups_with_inconsistent_readings": 0,
     "romaji_non_ascii_character_errors": 0,
     "reading_verification_status": "MACHINE_ASSISTED; NATIVE JAPANESE / AUTHORITATIVE SOURCE REVIEW PENDING",
@@ -59,7 +59,7 @@
     "empty_japanese_vocabulary_terms": 0,
     "fixes_applied": [
       "Filled furigana and romaji for all 167 vocabulary records across printed pages 4-22.",
-      "Audited 154 unique Japanese terms and 13 duplicate-term groups; repeated terms use consistent readings.",
+      "Audited 154 unique Japanese terms and 12 duplicate-term groups; repeated terms use consistent readings.",
       "Corrected romanization of 不安全状態 to Fuanzenshoutai.",
       "Normalized romanization to ASCII Latin characters."
     ],
@@ -68,7 +68,7 @@
       "section required fields",
       "Japanese glossary field presence",
       "all 167 vocabulary records have furigana and romaji",
-      "13 duplicate-term groups checked with 0 inconsistent readings",
+      "12 duplicate-term groups checked with 0 inconsistent readings",
       "no non-ASCII characters in romaji fields",
       "no incorrect 2.5 m narration",
       "no unsupported directional additions detected"
