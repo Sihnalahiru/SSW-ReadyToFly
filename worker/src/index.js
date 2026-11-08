@@ -25,6 +25,7 @@ function randomToken(bytes = 32) {
 }
 function hex(buffer) { return [...new Uint8Array(buffer)].map(x=>x.toString(16).padStart(2,"0")).join(""); }
 async function sha256(value) { return hex(await crypto.subtle.digest("SHA-256", encoder.encode(value))); }
+function constantTimeEqual(a,b) { if(typeof a!=="string"||typeof b!=="string"||a.length!==b.length)return false; let diff=0; for(let i=0;i<a.length;i++)diff|=a.charCodeAt(i)^b.charCodeAt(i); return diff===0; }
 async function passwordHash(password, saltHex) {
   const salt = saltHex ? Uint8Array.from(saltHex.match(/.{2}/g), b=>parseInt(b,16)) : crypto.getRandomValues(new Uint8Array(16));
   const key = await crypto.subtle.importKey("raw", encoder.encode(password), "PBKDF2", false, ["deriveBits"]);
@@ -109,7 +110,7 @@ async function handle(request,env) {
       const user=await env.DB.prepare("SELECT id,email,display_name,password_hash,password_salt,email_verified FROM users WHERE email=? AND disabled_at IS NULL").bind(email).first();
       if(!user) return json({error:"INVALID_CREDENTIALS"},401);
       const pw=await passwordHash(password,user.password_salt);
-      if(pw.hash!==user.password_hash) return json({error:"INVALID_CREDENTIALS"},401);
+      if(!constantTimeEqual(pw.hash,user.password_hash)) return json({error:"INVALID_CREDENTIALS"},401);
       if(!user.email_verified) return json({error:"EMAIL_NOT_VERIFIED"},403);
       const session=await createSession(env,user,request);
       return json({ok:true,user:session.user},200,{"Set-Cookie":[session.sessionCookie,session.csrfCookie]});
