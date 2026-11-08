@@ -5,7 +5,12 @@ const PBKDF2_ITERATIONS = 310000;
 const encoder = new TextEncoder();
 
 function json(data, status = 200, headers = {}) {
-  return new Response(JSON.stringify(data), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store", ...headers } });
+  const outputHeaders = new Headers({ "content-type": "application/json; charset=utf-8", "cache-control": "no-store" });
+  for (const [key, value] of Object.entries(headers)) {
+    if (key.toLowerCase() === "set-cookie" && Array.isArray(value)) value.forEach(cookieValue => outputHeaders.append("Set-Cookie", cookieValue));
+    else outputHeaders.set(key, value);
+  }
+  return new Response(JSON.stringify(data), { status, headers: outputHeaders });
 }
 function cookieMap(request) {
   return Object.fromEntries((request.headers.get("Cookie") || "").split(";").map(v => v.trim()).filter(Boolean).map(v => { const i=v.indexOf("="); return [v.slice(0,i), decodeURIComponent(v.slice(i+1))]; }));
