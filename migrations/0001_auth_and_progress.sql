@@ -43,3 +43,10 @@ CREATE TABLE IF NOT EXISTS study_progress (
   PRIMARY KEY(user_id,record_key)
 );
 CREATE INDEX IF NOT EXISTS idx_progress_updated ON study_progress(user_id,updated_at);
+
+CREATE TABLE IF NOT EXISTS auth_rate_limits (
+  bucket_key TEXT PRIMARY KEY,
+  attempts INTEGER NOT NULL DEFAULT 0,
+  window_started_at INTEGER NOT NULL,
+  blocked_until INTEGER
+);
