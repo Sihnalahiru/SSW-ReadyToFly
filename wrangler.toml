@@ -6,6 +6,7 @@ workers_dev = true
 [vars]
 APP_ORIGIN = "https://REPLACE-WITH-YOUR-APP-DOMAIN"
 MAIL_FROM = "ReadyToFly <noreply@REPLACE-WITH-YOUR-DOMAIN>"
+MAIL_FROM = "ReadyToFly <noreply@REPLACE-WITH-YOUR-DOMAIN>"
 
 [[d1_databases]]
 binding = "DB"
