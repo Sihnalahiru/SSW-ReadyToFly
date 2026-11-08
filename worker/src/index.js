@@ -29,7 +29,7 @@ function cookie(name, value, maxAge, httpOnly = true) {
 function clearCookie(name, httpOnly = true) { return cookie(name, "", 0, httpOnly); }
 function randomToken(bytes = 32) {
   const data = crypto.getRandomValues(new Uint8Array(bytes));
-  return btoa(String.fromCharCode(...data)).replace(/\\+/g, "-").replace(/\\//g, "_").replace(/=+$/, "");
+  return btoa(String.fromCharCode(...data)).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 }
 function hex(buffer) {
   return [...new Uint8Array(buffer)].map(x => x.toString(16).padStart(2, "0")).join("");
@@ -61,7 +61,7 @@ function validUsername(value) {
 }
 function validPassword(value) {
   return typeof value === "string" && value.length >= 12 && value.length <= 128 &&
-    /[a-z]/.test(value) && /[A-Z]/.test(value) && /\\d/.test(value);
+    /[a-z]/.test(value) && /[A-Z]/.test(value) && /\d/.test(value);
 }
 function generateRecoveryCode() {
   const raw = hex(crypto.getRandomValues(new Uint8Array(16))).toUpperCase();
@@ -72,7 +72,7 @@ function generateRecoveryCode() {
 }
 function normalizeRecoveryCode(value) {
   if (typeof value !== "string") return "";
-  const normalized = value.toUpperCase().replace(/[\\s-]/g, "");
+  const normalized = value.toUpperCase().replace(/[\s-]/g, "");
   return /^RTF[0-9A-F]{32}$/.test(normalized) ? normalized : "";
 }
 async function readJson(request, max = 12000) {
@@ -147,7 +147,7 @@ async function recordFailure(env, key) {
 }
 async function handle(request, env) {
   const url = new URL(request.url);
-  const path = url.pathname.replace(/\\/$/, "") || "/";
+  const path = url.pathname.replace(/\/$/, "") || "/";
   if (path.startsWith("/api/") && request.method === "OPTIONS") {
     return new Response(null, { status: 204, headers: { "Allow": "GET, POST, PUT, OPTIONS" } });
   }
