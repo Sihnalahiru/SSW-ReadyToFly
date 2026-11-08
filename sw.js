@@ -1,6 +1,6 @@
 'use strict';
-const CACHE_NAME='readytofly-shell-v3';
-const CORE_ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.json','./app/dashboard.js','./app/study.js','./app/exam.js','./app/progress.js','./app/auth.js'];
+const CACHE_NAME='readytofly-shell-v4';
+const CORE_ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.json','./app/dashboard.js','./app/study.js','./app/exam.js','./app/progress.js','./app/vocabulary.js','./app/quiz.js','./app/auth.js'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(CORE_ASSETS)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('readytofly-shell-')&&key!==CACHE_NAME).map(key=>caches.delete(key)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',event=>{
