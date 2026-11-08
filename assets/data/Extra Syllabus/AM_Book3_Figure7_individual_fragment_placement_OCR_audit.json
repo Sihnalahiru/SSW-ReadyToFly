@@ -1,1 +1,57 @@
-__CONTENT__
+{
+  "report_title": "AM Book 3 Figure 7 – Individual Image Fragment Placement and OCR Audit",
+  "source_pdf": "AMtext_3.Airplane General(3).pdf",
+  "source_zip": "AMtext_3.Airplane General - Images.zip",
+  "status": "PARTIAL AUDIT COMPLETE",
+  "summary": {
+    "figure_group_topic": "VERIFIED – Figure 7, Control Surface",
+    "assets_audited": 93,
+    "physical_pdf_page_distribution": {
+      "11": 22,
+      "12": 49,
+      "13": 22
+    },
+    "individual_label_or_arrow_association_verified": 0,
+    "individual_label_or_arrow_association_pending": 93
+  },
+  "method": [
+    "Each asset 9.jpg–101.jpg was matched to its embedded PDF image using decoded RGB pixel content and dimensions.",
+    "PDF Xref and placement bounding box were recorded for each asset.",
+    "OCR was run as an aid only; noisy or incomplete OCR is not authoritative.",
+    "No exact fragment-to-label or fragment-to-arrow association was inferred from proximity alone."
+  ],
+  "page_context": {
+    "physical_page_11_printed_9": "Figure 7 aircraft diagram with Rudder, Elevator, Horizontal Stabilizer and related labels.",
+    "physical_page_12_printed_10": "Figure 7 top-view aircraft diagram with Aileron, Elevator, Spoiler, Leading Edge Slat and Trailing Edge Flap labels.",
+    "physical_page_13_printed_11": "Figure 7 underside aircraft photograph with control-surface labels."
+  },
+  "records": [
+    {
+      "page": 11,
+      "printed_page": 9,
+      "assets": "9.jpg–30.jpg",
+      "count": 22,
+      "individual_label_or_arrow_association": "PENDING"
+    },
+    {
+      "page": 12,
+      "printed_page": 10,
+      "assets": "31.jpg–79.jpg",
+      "count": 49,
+      "individual_label_or_arrow_association": "PENDING"
+    },
+    {
+      "page": 13,
+      "printed_page": 11,
+      "assets": "80.png–101.jpg",
+      "count": 22,
+      "individual_label_or_arrow_association": "PENDING"
+    }
+  ],
+  "limitations": [
+    "Image Xref and bounding box prove PDF placement, not semantic identity of each cropped label or arrow.",
+    "Many files are cropped pieces; OCR output is incomplete or inaccurate.",
+    "All 93 fragments remain pending for individual label/arrow association."
+  ],
+  "detailed_local_report": "AM_Book3_Figure7_individual_fragment_placement_OCR_audit.json"
+}
