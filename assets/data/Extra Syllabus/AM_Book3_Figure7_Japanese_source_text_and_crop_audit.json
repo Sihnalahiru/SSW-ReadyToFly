@@ -1,0 +1,248 @@
+{
+  "report_title": "AM Book 3 Figure 7 – Japanese Source Text and Crop Audit",
+  "source_pdf": "AMtext_3.Airplane General(3).pdf",
+  "source_zip": "AMtext_3.Airplane General - Images.zip",
+  "scope": {
+    "physical_page_12_assets": "46.jpg–59.jpg",
+    "physical_page_13_assets": [
+      "80.png",
+      "81.png",
+      "82.jpg",
+      "89.png",
+      "90.png",
+      "91.jpg",
+      "92.png",
+      "93.jpg",
+      "94.png",
+      "95.jpg",
+      "96.png",
+      "97.jpg",
+      "98.jpg",
+      "99.jpg",
+      "100.jpg",
+      "101.jpg"
+    ],
+    "total_crop_assets": 30
+  },
+  "status": "SOURCE-PAGE JAPANESE TEXT TRANSCRIBED; INDIVIDUAL CROP-TO-GLYPH ASSOCIATION PARTLY PENDING",
+  "verified_source_page_text": {
+    "physical_page_11_printed_9": [
+      {
+        "term": "動翼",
+        "reading": "どうよく",
+        "meaning": "Control Surface"
+      },
+      {
+        "term": "主翼",
+        "reading": "しゅよく",
+        "meaning": "Main Wing"
+      },
+      {
+        "term": "水平安定板",
+        "reading": "すいへいあんていばん",
+        "meaning": "Horizontal Stabilizer"
+      },
+      {
+        "term": "垂直安定板",
+        "reading": "すいちょくあんていばん",
+        "meaning": "Vertical Stabilizer"
+      },
+      {
+        "term": "胴体",
+        "reading": "どうたい",
+        "meaning": "Fuselage"
+      },
+      {
+        "term": "機首",
+        "reading": "きしゅ",
+        "meaning": "Aircraft nose"
+      },
+      {
+        "term": "Elevator",
+        "reading": null,
+        "meaning": "English technical term used in source"
+      },
+      {
+        "term": "Rudder",
+        "reading": null,
+        "meaning": "English technical term used in source"
+      }
+    ],
+    "physical_page_12_printed_10": [
+      {
+        "term": "Aileron",
+        "reading": null,
+        "meaning": "English technical term used in source"
+      },
+      {
+        "term": "内側",
+        "reading": "うちがわ",
+        "meaning": "Inboard side"
+      },
+      {
+        "term": "外側",
+        "reading": "そとがわ",
+        "meaning": "Outboard side"
+      },
+      {
+        "term": "胴体側",
+        "reading": "どうたいがわ",
+        "meaning": "Fuselage side"
+      },
+      {
+        "term": "主翼先端側",
+        "reading": "しゅよくせんたんがわ",
+        "meaning": "Wingtip side"
+      },
+      {
+        "term": "左右",
+        "reading": "さゆう",
+        "meaning": "Left and right"
+      },
+      {
+        "term": "注意",
+        "reading": "ちゅうい",
+        "meaning": "Caution"
+      },
+      {
+        "term": "片側にだけ説明がありますが、右側も左側も同じです。",
+        "reading": null,
+        "meaning": "The explanation is shown on only one side, but the right and left sides are the same."
+      }
+    ],
+    "physical_page_13_printed_11": [
+      {
+        "term": "Spoiler",
+        "reading": null,
+        "meaning": "English technical term used in source"
+      },
+      {
+        "term": "左右",
+        "reading": "さゆう",
+        "meaning": "Left and right"
+      },
+      {
+        "term": "主翼",
+        "reading": "しゅよく",
+        "meaning": "Main Wing"
+      },
+      {
+        "term": "揚力",
+        "reading": "ようりょく",
+        "meaning": "Lift"
+      },
+      {
+        "term": "飛行中",
+        "reading": "ひこうちゅう",
+        "meaning": "During flight"
+      },
+      {
+        "term": "着陸",
+        "reading": "ちゃくりく",
+        "meaning": "Landing"
+      },
+      {
+        "term": "地上",
+        "reading": "ちじょう",
+        "meaning": "On the ground"
+      },
+      {
+        "term": "Leading Edge",
+        "reading": null,
+        "meaning": "English technical term used in source"
+      },
+      {
+        "term": "前部",
+        "reading": "ぜんぶ",
+        "meaning": "Front part"
+      },
+      {
+        "term": "Trailing Edge",
+        "reading": null,
+        "meaning": "English technical term used in source"
+      },
+      {
+        "term": "後部",
+        "reading": "こうぶ",
+        "meaning": "Rear part"
+      },
+      {
+        "term": "内側",
+        "reading": "うちがわ",
+        "meaning": "Inboard side"
+      },
+      {
+        "term": "外側",
+        "reading": "そとがわ",
+        "meaning": "Outboard side"
+      },
+      {
+        "term": "動く",
+        "reading": "うごく",
+        "meaning": "Move / operate"
+      },
+      {
+        "term": "装備",
+        "reading": "そうび",
+        "meaning": "Equipped / installed"
+      }
+    ]
+  },
+  "crop_audit": {
+    "page12": {
+      "assets": [
+        "46.jpg",
+        "47.jpg",
+        "48.jpg",
+        "49.jpg",
+        "50.jpg",
+        "51.jpg",
+        "52.jpg",
+        "53.jpg",
+        "54.jpg",
+        "55.jpg",
+        "56.jpg",
+        "57.jpg",
+        "58.jpg",
+        "59.jpg"
+      ],
+      "finding": "The 14 crops contain partial Japanese glyphs/furigana and label-background fragments. Several are incomplete overlays; OCR did not recover reliable full standalone strings.",
+      "status": "SOURCE TEXT VERIFIED FROM PDF PAGE; PER-CROP GLYPH ASSOCIATION PENDING"
+    },
+    "page13": {
+      "assets": [
+        "80.png",
+        "81.png",
+        "82.jpg",
+        "89.png",
+        "90.png",
+        "91.jpg",
+        "92.png",
+        "93.jpg",
+        "94.png",
+        "95.jpg",
+        "96.png",
+        "97.jpg",
+        "98.jpg",
+        "99.jpg",
+        "100.jpg",
+        "101.jpg"
+      ],
+      "finding": "The 16 crops contain partial Japanese glyphs/furigana and label-background fragments. OCR did not recover reliable full standalone strings.",
+      "status": "SOURCE TEXT VERIFIED FROM PDF PAGE; PER-CROP GLYPH ASSOCIATION PENDING"
+    }
+  },
+  "totals": {
+    "crops_reviewed": 30,
+    "source_page_japanese_terms_and_phrases_transcribed": 31,
+    "per_crop_full_japanese_transcription_verified": 0,
+    "per_crop_glyph_association_pending": 30,
+    "source_text_to_figure_context_verified": "Figure 7 – Control Surface names and side-identification note"
+  },
+  "evidence_and_limitations": [
+    "Japanese source text was taken from the PDF text layer for physical pages 11–13, not guessed from isolated image crops.",
+    "OCR on the isolated small image fragments was attempted at enlarged scale but was noisy and incomplete.",
+    "The Japanese text/reading inventory is source-page transcription and is not a claim that each individual crop contains one complete term.",
+    "All 30 individual crop-to-glyph associations remain PENDING until their exact crop coordinates are matched to the page text."
+  ]
+}
