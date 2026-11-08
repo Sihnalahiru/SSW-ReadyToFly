@@ -1,0 +1,53 @@
+{
+  "title": "Extra Syllabus AM Books 1–3 — Image-to-PDF Page Cross-Reference Audit",
+  "scope": "Verified source presence and physical PDF page placements. Semantic activity/question/answer mapping remains PENDING unless explicitly identified by the source PDF.",
+  "method": "Decoded original archive images were compared against embedded PDF image Xrefs. Matching Xrefs were traced to physical PDF pages and image placement rectangles. Page text is retained as context, not treated as proof of lesson/activity mapping.",
+  "totals": {
+    "archive_images": 196,
+    "exact_pixel_matches": 188,
+    "near_pixel_equivalent": 8,
+    "unmatched": 0,
+    "missing": 0
+  },
+  "books": [
+    {
+      "id": "AM1",
+      "source_pdf": "AMtext_1.basic skills.pdf",
+      "pdf_pages": 26,
+      "archive_images": 42,
+      "exact": 42,
+      "near": 0,
+      "pending": 0,
+      "physical_pages_with_assets": 24
+    },
+    {
+      "id": "AM2",
+      "source_pdf": "AMtext_2.Occupational Safety and Maintenance Quality.pdf",
+      "pdf_pages": 20,
+      "archive_images": 45,
+      "exact": 38,
+      "near": 7,
+      "pending": 0,
+      "physical_pages_with_assets": 18,
+      "near_match_rule": "max RGB channel difference <= 2 and mean RGB difference < 0.5"
+    },
+    {
+      "id": "AM3",
+      "source_pdf": "AMtext_3.Airplane General.pdf",
+      "pdf_pages": 24,
+      "archive_images": 109,
+      "exact": 108,
+      "near": 1,
+      "pending": 0,
+      "physical_pages_with_assets": 22,
+      "near_match_rule": "max RGB channel difference <= 2 and mean RGB difference < 0.5"
+    }
+  ],
+  "next_audit_stage": "Review page visuals and captions to establish defensible image-to-topic relationships. Do not infer activity/question/answer mappings from filenames or image order.",
+  "preservation": [
+    "Keep each AM book separate.",
+    "Preserve all original filenames.",
+    "Do not delete or rename duplicate assets.",
+    "Do not merge these assets with Airport Ground Handling."
+  ]
+}
