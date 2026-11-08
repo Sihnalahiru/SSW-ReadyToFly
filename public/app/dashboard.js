@@ -1,3 +1,61 @@
+const trackCard = (eyebrow, title, description, status, view = 'study') => `
+ <article class="track-card">
+  <div class="track-card-top"><span class="track-mark">✈</span><span class="status-pill">${status}</span></div>
+  <p class="eyebrow">${eyebrow}</p><h3>${title}</h3><p>${description}</p>
+  <button class="text-action" type="button" data-view="${view}">Open track <span aria-hidden="true">→</span></button>
+ </article>`;
+
 export function renderDashboard() {
- return `<section class="welcome"><p class="eyebrow">AIRPORT GROUND HANDLING</p><h1>Welcome aboard.</h1><p class="muted">Your learning workspace is ready. Verified study content will appear here as the source audit is completed.</p></section><section class="stats-grid"><article class="stat-card"><span>Study modules</span><strong>Pending</strong><small>Awaiting verified syllabus data</small></article><article class="stat-card"><span>Question bank</span><strong>Pending</strong><small>Awaiting source validation</small></article><article class="stat-card"><span>Your progress</span><strong>0%</strong><small>Progress tracking not enabled yet</small></article></section><section class="panel"><div class="panel-heading"><div><p class="eyebrow">GET STARTED</p><h2>Learning library</h2></div><span class="status-pill">Content audit in progress</span></div><p class="muted">Lessons, answers, audio and image mappings will only be added after source verification.</p><button class="primary-button" data-view="study" type="button">Open study library →</button></section>`;
+ return `
+ <section class="dashboard-hero">
+  <div class="hero-copy">
+   <p class="eyebrow">AIRPORT OPERATIONS · LEARNING COMMAND</p>
+   <h1>Your next skill<br><span>takes you further.</span></h1>
+   <p class="muted">A focused training workspace for your SSW Airport Ground Handling journey. Choose a learning track, practise, and build confidence step by step.</p>
+   <div class="hero-actions">
+    <button class="primary-button" type="button" data-view="study">Enter Study Center <span aria-hidden="true">→</span></button>
+    <button class="secondary-button" type="button" data-view="exam">Open CBT Practice</button>
+   </div>
+  </div>
+  <div class="hero-visual" aria-label="Airport ground operations illustration">
+   <div class="radar-ring radar-one"></div><div class="radar-ring radar-two"></div>
+   <div class="runway-line"></div><div class="plane-symbol">✈</div>
+   <div class="hero-coordinate">GROUND OPS<br><strong>READY / 01</strong></div>
+   <div class="hero-visual-caption">TRAIN · PRACTISE · PROGRESS</div>
+  </div>
+ </section>
+
+ <section class="dashboard-section">
+  <div class="section-heading"><div><p class="eyebrow">YOUR TRAINING OVERVIEW</p><h2>Learning tracks</h2></div><span class="section-note">Source versions kept separate</span></div>
+  <div class="track-grid">
+   ${trackCard('GROUND HANDLING · REV 1','Legacy syllabus','Original Ground Handling V1 and Safety & Quality V1 sources.','AUDIT IN PROGRESS')}
+   ${trackCard('GROUND HANDLING · REV 2','Revised syllabus','Revised Ground Handling 2.1 and Safety & Quality Rev 2 sources.','AUDIT IN PROGRESS')}
+   ${trackCard('AIRCRAFT MAINTENANCE','AM Books 1–3','A separate learning track for the three Aircraft Maintenance source books.','NOT ASSIGNED')}
+  </div>
+ </section>
+
+ <section class="dashboard-section dashboard-lower">
+  <article class="panel exam-overview">
+   <div class="section-heading"><div><p class="eyebrow">EXAM PREPARATION</p><h2>CBT practice center</h2></div><span class="status-pill">PRACTICE CONTENT</span></div>
+   <div class="exam-stats"><div><strong>14</strong><span>Practice papers</span></div><div><strong>654</strong><span>Question references</span></div><div><strong>50</strong><span>Target per paper</span></div></div>
+   <p class="muted">Existing repository manifest lists 14 unofficial practice papers. Official exam duration has not been verified, so no official timer is assumed.</p>
+   <button class="text-action" type="button" data-view="exam">Explore CBT practice <span aria-hidden="true">→</span></button>
+  </article>
+  <article class="panel daily-panel">
+   <p class="eyebrow">YOUR DAILY ROUTINE</p><h2>Build a steady study habit.</h2>
+   <p class="muted">Your daily target, streak, XP and learning statistics will appear here when real account activity is connected.</p>
+   <div class="pending-note"><span class="pending-dot"></span><span>Personal learning metrics are not connected yet.</span></div>
+   <button class="text-action" type="button" data-view="progress">View progress area <span aria-hidden="true">→</span></button>
+  </article>
+ </section>
+
+ <section class="dashboard-section quick-section">
+  <div class="section-heading"><div><p class="eyebrow">QUICK ACCESS</p><h2>Choose your next step</h2></div></div>
+  <div class="quick-grid">
+   <button class="quick-card" type="button" data-view="study"><span>▤</span><strong>Study Center</strong><small>Lessons and learning modes</small></button>
+   <button class="quick-card" type="button" data-view="vocabulary"><span>あ</span><strong>Vocabulary</strong><small>Technical terms and flashcards</small></button>
+   <button class="quick-card" type="button" data-view="quiz"><span>◇</span><strong>Quiz Center</strong><small>Topic practice and review</small></button>
+   <button class="quick-card" type="button" data-view="exam"><span>✓</span><strong>CBT Examination</strong><small>Fixed papers and random practice</small></button>
+  </div>
+ </section>`;
 }
