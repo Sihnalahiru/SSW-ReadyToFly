@@ -84,6 +84,21 @@ async function createSession(env,user,request) {
   await env.DB.prepare("INSERT INTO sessions(id,user_id,token_hash,csrf_hash,created_at,expires_at,last_seen_at) VALUES(?,?,?,?,?,?,?)").bind(crypto.randomUUID(),user.id,await sha256(token),await sha256(csrf),now,expires,now).run();
   return {sessionCookie:cookie("rtf_session",token,SESSION_DAYS*86400),csrfCookie:cookie("rtf_csrf",csrf,SESSION_DAYS*86400,false),user:{id:user.id,email:user.email,displayName:user.display_name,emailVerified:Boolean(user.email_verified)}};
 }
+async function loginRateLimited(env, key) {
+  const now=Date.now();
+  const row=await env.DB.prepare("SELECT attempts,window_started_at,blocked_until FROM auth_rate_limits WHERE bucket_key=?").bind(key).first();
+  if(!row || now-row.window_started_at>=15*60*1000) {
+    await env.DB.prepare("INSERT INTO auth_rate_limits(bucket_key,attempts,window_started_at,blocked_until) VALUES(?,0,?,NULL) ON CONFLICT(bucket_key) DO UPDATE SET attempts=0,window_started_at=excluded.window_started_at,blocked_until=NULL").bind(key,now).run();
+    return false;
+  }
+  return Boolean(row.blocked_until && row.blocked_until>now) || row.attempts>=8;
+}
+async function recordLoginFailure(env,key) {
+  const now=Date.now();
+  await env.DB.prepare("INSERT INTO auth_rate_limits(bucket_key,attempts,window_started_at,blocked_until) VALUES(?,1,?,NULL) ON CONFLICT(bucket_key) DO UPDATE SET attempts=attempts+1").bind(key,now).run();
+  const row=await env.DB.prepare("SELECT attempts,window_started_at FROM auth_rate_limits WHERE bucket_key=?").bind(key).first();
+  if(row && row.attempts>=8 && now-row.window_started_at<15*60*1000) await env.DB.prepare("UPDATE auth_rate_limits SET blocked_until=? WHERE bucket_key=?").bind(now+15*60*1000,key).run();
+}
 async function handle(request,env) {
   const url=new URL(request.url),path=url.pathname.replace(/\/$/,"")||"/";
   if(path.startsWith("/api/") && request.method==="OPTIONS") return new Response(null,{status:204,headers:{"Allow":"GET, POST, PUT, OPTIONS"}});
@@ -112,11 +127,14 @@ async function handle(request,env) {
     }
     if(path==="/api/auth/login" && request.method==="POST") {
       const body=await readJson(request),email=String(body.email||"").trim().toLowerCase(),password=String(body.password||"");
+      const ip=request.headers.get("CF-Connecting-IP")||"unknown",rateKey=await sha256("login:"+ip+":"+email);
+      if(await loginRateLimited(env,rateKey)) return json({error:"TOO_MANY_ATTEMPTS",message:"Too many sign-in attempts. Please wait 15 minutes and try again."},429);
       const user=await env.DB.prepare("SELECT id,email,display_name,password_hash,password_salt,email_verified FROM users WHERE email=? AND disabled_at IS NULL").bind(email).first();
-      if(!user) return json({error:"INVALID_CREDENTIALS"},401);
+      if(!user) { await recordLoginFailure(env,rateKey); return json({error:"INVALID_CREDENTIALS"},401); }
       const pw=await passwordHash(password,user.password_salt);
-      if(!constantTimeEqual(pw.hash,user.password_hash)) return json({error:"INVALID_CREDENTIALS"},401);
+      if(!constantTimeEqual(pw.hash,user.password_hash)) { await recordLoginFailure(env,rateKey); return json({error:"INVALID_CREDENTIALS"},401); }
       if(!user.email_verified) return json({error:"EMAIL_NOT_VERIFIED"},403);
+      await env.DB.prepare("DELETE FROM auth_rate_limits WHERE bucket_key=?").bind(rateKey).run();
       const session=await createSession(env,user,request);
       return json({ok:true,user:session.user},200,{"Set-Cookie":[session.sessionCookie,session.csrfCookie]});
     }
