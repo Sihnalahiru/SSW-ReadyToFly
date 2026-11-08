@@ -1,0 +1,235 @@
+{
+  "title": "AM Book 2 — Semantic Image-to-Topic Mapping Audit",
+  "source_pdf": "AMtext_2.Occupational Safety and Maintenance Quality.pdf",
+  "source_archive": "AMtext_2.Occupational Safety and Maintenance Quality - Images.zip",
+  "source_presence": "45/45 verified against PDF image Xrefs (38 exact, 7 near pixel-equivalent)",
+  "scope": "Topic mapping is based on page illustrations, figure captions and visible labels. Near pixel-equivalent assets are retained; no Activity/Question/Answer mapping is inferred.",
+  "mappings": [
+    {
+      "files": [
+        "0.jpg",
+        "3.jpg",
+        "44.jpg"
+      ],
+      "pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20
+      ],
+      "topic": "Publisher logo/footer marks",
+      "status": "NON_INSTRUCTIONAL"
+    },
+    {
+      "files": [
+        "1.jpg",
+        "2.jpg"
+      ],
+      "pages": [
+        1
+      ],
+      "topic": "Cover photograph — aircraft cockpit/windscreen exterior",
+      "status": "DIRECT_PAGE_VISUAL"
+    },
+    {
+      "files": [
+        "4.jpg",
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png",
+        "9.png"
+      ],
+      "pages": [
+        6
+      ],
+      "topic": "Safety and health definitions — safety, hygiene, health; diagram components extracted as separate colored/shadowed image layers",
+      "status": "DIRECT_PAGE_GROUP"
+    },
+    {
+      "files": [
+        "10.png",
+        "11.png",
+        "12.png",
+        "13.png",
+        "14.png"
+      ],
+      "pages": [
+        7
+      ],
+      "topic": "Accident causation — unsafe condition plus unsafe human action leading to accident/disaster; separate diagram layers",
+      "status": "DIRECT_PAGE_GROUP"
+    },
+    {
+      "files": [
+        "15.jpg"
+      ],
+      "pages": [
+        7
+      ],
+      "topic": "Self-check / health management — worker health and fitness illustration",
+      "status": "DIRECT_PAGE_VISUAL"
+    },
+    {
+      "files": [
+        "16.jpg"
+      ],
+      "pages": [
+        8
+      ],
+      "topic": "Personal protective equipment — full-body harness/fall-arrest equipment",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "17.jpg",
+        "18.jpg"
+      ],
+      "pages": [
+        9
+      ],
+      "topic": "5S / workplace organization — organized tool storage and tidy maintenance work area",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "19.jpg",
+        "20.jpg",
+        "21.jpg"
+      ],
+      "pages": [
+        10
+      ],
+      "topic": "Workplace lighting — examples of portable and fixed lighting equipment",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "22.jpg"
+      ],
+      "pages": [
+        10
+      ],
+      "topic": "Fire prevention — fire extinguisher and location/signage",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "23.jpg",
+        "24.jpg"
+      ],
+      "pages": [
+        11
+      ],
+      "topic": "Rotating machinery hazards — drill press and grinder examples",
+      "status": "DIRECT_PAGE_VISUAL"
+    },
+    {
+      "files": [
+        "25.jpg",
+        "26.jpg",
+        "27.jpg",
+        "28.jpg",
+        "29.png",
+        "30.jpg"
+      ],
+      "pages": [
+        11
+      ],
+      "topic": "Hearing protection — earplug-use sign; some assets are cropped text/image fragments",
+      "status": "DIRECT_PAGE_GROUP"
+    },
+    {
+      "files": [
+        "31.png",
+        "32.jpg",
+        "33.jpg",
+        "34.jpg",
+        "35.jpg"
+      ],
+      "pages": [
+        12
+      ],
+      "topic": "Maintenance quality — relationship between equipment quality, work quality and maintenance quality; extracted figure components",
+      "status": "DIRECT_FIGURE_GROUP"
+    },
+    {
+      "files": [
+        "36.png",
+        "37.png"
+      ],
+      "pages": [
+        13
+      ],
+      "topic": "Equipment quality indicators — reliability, punctuality, safety/airworthiness and comfort; figure components",
+      "status": "DIRECT_FIGURE_GROUP"
+    },
+    {
+      "files": [
+        "38.jpg"
+      ],
+      "pages": [
+        14
+      ],
+      "topic": "Reliability management — PDCA cycle (Plan-Do-Check-Action)",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "39.jpg"
+      ],
+      "pages": [
+        15
+      ],
+      "topic": "Human factors — m-SHELL model and interaction between Liveware, Software, Hardware, Environment and Management",
+      "status": "DIRECT_FIGURE_CAPTION"
+    },
+    {
+      "files": [
+        "40.jpg",
+        "41.jpg"
+      ],
+      "pages": [
+        16
+      ],
+      "topic": "Work quality indicators — nonconformity, prevention, workplace activity and commendation metrics",
+      "status": "DIRECT_FIGURE_GROUP"
+    },
+    {
+      "files": [
+        "42.png",
+        "43.jpg"
+      ],
+      "pages": [
+        17
+      ],
+      "topic": "Heinrich's law — accident/incident/near-miss pyramid and prevention principle",
+      "status": "DIRECT_FIGURE_GROUP"
+    }
+  ],
+  "pending": [
+    "The individual sub-layer roles for files 4.jpg–14.png are not separately established beyond their page-level diagram groups.",
+    "The cropped signage components files 26.jpg–30.jpg are associated with the earplug-use sign area, but exact crop-to-position reconstruction remains PENDING.",
+    "No individual Activity, question, answer or lesson relationship is established by this page-level evidence."
+  ],
+  "rules": [
+    "Preserve original filenames and all image assets.",
+    "Do not delete or merge image components that may form one composite diagram.",
+    "Use physical PDF page numbers as primary locators.",
+    "Keep AM Book 2 separate from AM Books 1 and 3 and Airport Ground Handling."
+  ]
+}
