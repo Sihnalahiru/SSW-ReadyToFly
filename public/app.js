@@ -35,7 +35,7 @@ import { renderQuiz } from './app/quiz.js';
   document.getElementById('auth-subtitle').textContent=subtitle;
   const username='<label for="auth-username">Username</label><input id="auth-username" name="username" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="Choose a username" required minlength="3" maxlength="32" pattern="[A-Za-z0-9._-]{3,32}">';
   const password='<label for="auth-password">Password</label><input id="auth-password" name="password" type="password" autocomplete="'+(mode==='login'?'current-password':'new-password')+'" placeholder="'+(mode==='login'?'Enter your password':'12+ characters, uppercase, lowercase and number')+'" required minlength="12" maxlength="128">';
-  if(mode==='login')form.innerHTML=username.replace('Choose a username','Your username')+password+'<button class="text-link" type="button" data-auth-mode="recover">Forgot password? Use recovery code</button><button class="primary-button login-submit" type="submit">Sign in <span>→</span></button>';
+  if(mode==='login')form.innerHTML=username.replace('Choose a username','Your username')+password+'<button class="text-link" type="button" data-auth-mode="recover">Forgot password? Request admin approval</button><button class="primary-button login-submit" type="submit">Sign in <span>→</span></button>';
   if(mode==='register')form.innerHTML=username+password+'<p class="auth-hint">Username: 3–32 letters, numbers, dot, underscore or hyphen. Password: at least 12 characters with uppercase, lowercase and a number.</p><button class="primary-button login-submit" type="submit">Create account <span>→</span></button>';
   if(mode==='recover')form.innerHTML=username.replace('Choose a username','Your username')+'<p class="auth-hint">Your request will be sent to the ReadyToFly administrator. Do not share your password with anyone.</p><button class="primary-button login-submit" type="submit">Request admin approval <span>→</span></button><button class="text-link" type="button" data-auth-mode="login">Back to sign in</button>';
   setMessage(mode==='login'?'Sign in to continue to your private study space.':'');
@@ -172,6 +172,7 @@ import { renderQuiz } from './app/quiz.js';
   return true;
  }
  window.ReadyToFlyProgress={get:()=>structuredClone(progressData),save:saveProgress,refresh:loadProgress};
+ window.addEventListener('readytofly:progress',event=>{const detail=event.detail||{};if(detail.key)saveProgress(detail.key,detail.value).catch(error=>console.warn('Progress event save:',error));});
  async function enterApp(user){
   currentUser=user;loginScreen.hidden=true;application.hidden=false;document.getElementById('admin-panel').hidden=!user.isAdmin;
   document.getElementById('footer-status').textContent='Signed in · '+user.username;
@@ -215,6 +216,7 @@ import { renderQuiz } from './app/quiz.js';
  function updateConnection(){document.getElementById('connection-status').textContent=navigator.onLine?'Online':'Offline';}
  updateConnection();window.addEventListener('online',()=>{updateConnection();flushProgress();});window.addEventListener('offline',()=>{updateConnection();setSaveStatus('Offline · changes queued');});
  window.addEventListener('pagehide',()=>{if(navigator.onLine)flushProgress();});
+ window.addEventListener('focus',()=>{if(navigator.onLine)flushProgress();});
  if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(e=>console.warn('SW:',e)));
  (async()=>{
   setMode('login');
