@@ -12,8 +12,8 @@
       "page_title_sinhala": "ටැක්සිවේ සහ රැම්ප් ප්‍රදේශයේ වාහන ධාවන නීති සහ වේග සීමා",
       "page_title_japanese": "11. 制限区域内における車両の通行ルールと速度制限の厳守",
       "mapped_images": [
-        "GHtext【2.Airport Ground Handling】- Images.REV2.1/021.jpg",
-        "GHtext【2.Airport Ground Handling】- Images.REV2.1/022.jpg"
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/40.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/41.jpg"
       ],
       "study_sections": [
         {
@@ -62,8 +62,9 @@
       "page_title_sinhala": "GSE (බිම් ආධාරක උපකරණ) මෙහෙයුමට පෙර සිදු කරන පරීක්ෂාව",
       "page_title_japanese": "12. 地上支援機材（GSE）の始業前点検と異常発見時の対応手順",
       "mapped_images": [
-        "GHtext【2.Airport Ground Handling】- Images.REV2.1/023.jpg",
-        "GHtext【2.Airport Ground Handling】- Images.REV2.1/024.jpg"
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/42.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/43.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/44.jpg"
       ],
       "study_sections": [
         {
@@ -112,8 +113,8 @@
       "page_title_sinhala": "අනතුරු සහ හදිසි අවස්ථා වාර්තා කිරීම සහ මුල් ප්‍රතිචාර",
       "page_title_japanese": "13. 事故・インシデント発生時の緊急連絡と現場の初期対応",
       "mapped_images": [
-        "GHtext【2.Airport Ground Handling】- Images.REV2.1/025.jpg",
-        "GHtext【2.Airport Ground Handling】- Images.REV2.1/026.jpg"
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/45.jpg",
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/46.jpg"
       ],
       "study_sections": [
         {
@@ -161,10 +162,7 @@
       "page_number": 14,
       "page_title_sinhala": "විදුලි හා කම්පන උපකරණ ආරක්ෂාව (GPU සම්බන්ධ කිරීම)",
       "page_title_japanese": "14. 航空機への電源供給（GPU）接続と電気系統の安全管理",
-      "mapped_images": [
-        "GHtext【2.Airport Ground Handling】- Images.REV2.1/027.jpg",
-        "GHtext【2.Airport Ground Handling】- Images.REV2.1/028.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "section_id": "GH_REV2_P14_S01",
@@ -212,8 +210,7 @@
       "page_title_sinhala": "වායු සමීකරණ (ACU) සහ ජල සැපයුම් සේවා මෙහෙයුම්",
       "page_title_japanese": "15. エアコン車（ACU）および給水・汚水車の安全運用ルール",
       "mapped_images": [
-        "GHtext【2.Airport Ground Handling】- Images.REV2.1/029.jpg",
-        "GHtext【2.Airport Ground Handling】- Images.REV2.1/030.jpg"
+        "GHtext【2.Airport Ground Handling】- Images.REV2.1/47.jpg"
       ],
       "study_sections": [
         {
