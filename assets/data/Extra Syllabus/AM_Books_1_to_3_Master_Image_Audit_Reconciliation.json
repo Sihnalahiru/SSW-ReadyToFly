@@ -1,0 +1,156 @@
+{
+  "report_title": "AM Books 1–3 Master Image Audit Reconciliation",
+  "repository": "Sihnalahiru/SSW-ReadyToFly",
+  "scope": "Extra Syllabus – AM Book 1 Basic Skills, AM Book 2 Occupational Safety and Maintenance Quality, AM Book 3 Airplane General",
+  "status": "SOURCE IMAGE RECONCILIATION VERIFIED; SEMANTIC MAPPING PARTLY VERIFIED; FIGURE 7 SUB-FRAGMENT ASSOCIATIONS PARTLY PENDING",
+  "master_totals": {
+    "books": 3,
+    "pdf_pages": 70,
+    "archive_image_files": 196,
+    "exact_decoded_pixel_matches": 188,
+    "near_pixel_equivalent_matches": 8,
+    "unmatched_assets": 0,
+    "missing_assets": 0
+  },
+  "per_book": [
+    {
+      "book": "AM Book 1 – Basic Skills",
+      "source_pdf": "AMtext_1.basic skills(3).pdf",
+      "pdf_pages": 26,
+      "archive_assets": 42,
+      "jpg": 23,
+      "png": 19,
+      "exact_pixel_matches": 42,
+      "near_pixel_equivalent": 0,
+      "unmatched": 0,
+      "missing": 0,
+      "physical_pages_with_assets": 24,
+      "semantic_topic_mapping": "PARTIAL – a separate semantic mapping artifact was not found at the previously referenced repository path during this reconciliation; retain any mappings only where independently documented and source-backed.",
+      "pixel_audit_path": "assets/data/Extra Syllabus/AMtext_1_basic_skills_pdf_image_audit.json",
+      "pixel_audit_blob_sha": "e6d2b91c2f0dc11090110a23073e0823f9feaa36"
+    },
+    {
+      "book": "AM Book 2 – Occupational Safety and Maintenance Quality",
+      "source_pdf": "AMtext_2.Occupational Safety and Maintenance Quality(3).pdf",
+      "pdf_pages": 20,
+      "archive_assets": 45,
+      "jpg": 30,
+      "png": 15,
+      "exact_pixel_matches": 38,
+      "near_pixel_equivalent": 7,
+      "unmatched": 0,
+      "missing": 0,
+      "physical_pages_with_assets": 18,
+      "near_match_detail": "7 assets differ only within the reported one-RGB-level decoder rounding tolerance; source audit notes >99.97% channel-exact pixels for six and >99.99% for 43.jpg.",
+      "semantic_topic_mapping": "PARTIAL – page/topic observations exist in prior audit notes, but a separate semantic mapping artifact was not found at the previously referenced repository path during this reconciliation. Do not elevate those notes to fully verified asset-level mappings.",
+      "pixel_audit_path": "assets/data/Extra Syllabus/AMtext_2_occupational_safety_quality_pdf_image_audit.json",
+      "pixel_audit_blob_sha": "b007fa08b791bd8ca4501787f151955218dda1ce"
+    },
+    {
+      "book": "AM Book 3 – Airplane General",
+      "source_pdf": "AMtext_3.Airplane General(3).pdf",
+      "pdf_pages": 24,
+      "archive_assets": 109,
+      "jpg": 93,
+      "png": 16,
+      "exact_pixel_matches": 108,
+      "near_pixel_equivalent": 1,
+      "unmatched": 0,
+      "missing": 0,
+      "physical_pages_with_assets": 22,
+      "near_match_detail": "6.jpg matches PDF Xref 26; maximum channel difference 1 and mean channel difference 0.0000008.",
+      "semantic_topic_mapping": "PARTIAL – section and figure-level mappings are separately documented; Figure 7 has page-level component mapping updates and unresolved isolated fragment associations.",
+      "pixel_audit_path": "assets/data/Extra Syllabus/AMtext_3_airplane_general_pdf_image_audit.json",
+      "pixel_audit_blob_sha": "4d8557eb3210a2d00af118b2cc9fdf69aff6a11e"
+    }
+  ],
+  "combined_page_cross_reference": {
+    "path": "assets/data/Extra Syllabus/extra_syllabus_am_books_image_page_cross_reference_audit.json",
+    "blob_sha": "85ddc3cfab3e40de778ba4e18b7ae6e84cfe9364",
+    "result": "196/196 archive images accounted for; 188 exact, 8 near-equivalent, 0 unmatched, 0 missing.",
+    "note": "This establishes source-image presence and physical PDF placement, not semantic topic/activity/question/answer relationships."
+  },
+  "figure7_reconciliation": {
+    "source_pdf": "AMtext_3.Airplane General(3).pdf",
+    "physical_pages": [
+      11,
+      12,
+      13
+    ],
+    "printed_pages": [
+      9,
+      10,
+      11
+    ],
+    "extracted_fragments": 93,
+    "page_distribution": {
+      "physical_page_11": 22,
+      "physical_page_12": 49,
+      "physical_page_13": 22
+    },
+    "page11": {
+      "report_path": "assets/data/Extra Syllabus/AM_Book3_Figure7_page11_verified_component_mapping.json",
+      "report_blob_sha": "ed264c266c054b8cc580c92495c7cf6f730b61f9",
+      "verified_component_groups": 4,
+      "verified_arrow_callouts_from_full_page": 2,
+      "groups": [
+        "Rudder",
+        "Elevator",
+        "Horizontal Stabilizer",
+        "Vertical Stabilizer"
+      ],
+      "caveat": "Page-level figure associations; 22 crop assets are not 22 independent callouts."
+    },
+    "page12_13": {
+      "report_path": "assets/data/Extra Syllabus/AM_Book3_Figure7_page12_13_verified_component_mapping.json",
+      "report_blob_sha": "6a9e1f38924c7bda272e5efb825f129956746993",
+      "verified_label_to_component_mappings": 14,
+      "individual_arrow_fragment_endpoint_mapping": "PARTIAL / PENDING",
+      "remaining_fragments_from_93": 79,
+      "caveat": "The 14 mappings are page-level label-to-component relationships; not proof of each arrow/line crop's exact endpoint."
+    },
+    "label_text": {
+      "report_path": "assets/data/Extra Syllabus/AM_Book3_Figure7_label_text_verification_update.json",
+      "report_blob_sha": "2ae3930ea2fd642cd80676894cb26600a4d15385",
+      "legible_label_text_assets": 19,
+      "remaining_label_text_or_fragment_identity_pending": 74,
+      "exact_arrow_endpoint_to_component_verified": 0,
+      "arrow_endpoint_mapping_pending": 93,
+      "reconciliation_note": "The 19 legible label crops overlap the page-level mappings and must not be added to the 14 mappings as a separate non-overlapping total."
+    },
+    "fragment_inventory": {
+      "report_path": "assets/data/Extra Syllabus/AM_Book3_Figure7_remaining_fragment_type_inventory.json",
+      "report_blob_sha": "9897777cfb79ea14a7b2558b2e3fbb0971c7978d",
+      "page12_page13_assets": 71,
+      "visually_grouped": 71,
+      "full_composite_images": 2,
+      "incomplete_japanese_text_fragments": 30,
+      "likely_line_arrow_geometry_fragments": 16,
+      "exact_arrow_endpoint_mappings_added": 0
+    },
+    "japanese_text": {
+      "report_path": "assets/data/Extra Syllabus/AM_Book3_Figure7_Japanese_source_text_and_crop_audit.json",
+      "report_blob_sha": "ef39b1b403e83e023b9a7e72ada5e5a69ac2cf7f",
+      "crops_reviewed": 30,
+      "source_page_terms_and_phrases_transcribed": 31,
+      "per_crop_transcription_verified": 0,
+      "crop_to_glyph_association_pending": 30,
+      "note": "The 31 terms/phrases were transcribed from the PDF page text/context; they are not claimed to map one-to-one to the 30 isolated image crops."
+    }
+  },
+  "reconciliation_rules": [
+    "Do not add overlapping counts across reports; Figure 7 label-text records, component mappings and fragment inventory refer to overlapping asset sets.",
+    "Exact/near pixel matching proves that the ZIP asset is present in the PDF, not that its semantic topic or aircraft target is identified.",
+    "Keep near-pixel matches distinct from exact matches.",
+    "Keep each AM book separate and preserve all original filenames.",
+    "Do not infer lesson/activity/question/answer mapping from numeric filenames or extraction order.",
+    "Keep uncertain image-to-topic, crop-to-label, and arrow-endpoint associations PENDING."
+  ],
+  "pending_work_priority": [
+    "Complete Figure 7 individual fragment-to-label/arrow endpoint mapping only where page geometry provides direct evidence.",
+    "Transcribe and validate complete Japanese technical labels directly from the PDF text/page image; map crops to glyphs only with positional evidence.",
+    "Continue asset-level semantic topic mapping for AM Books 1 and 2, with page captions and figure labels as evidence.",
+    "After semantic mapping, validate all JSON image paths and ensure app data references the original exact filenames."
+  ],
+  "validation_note": "This master report was assembled from the GitHub audit artifacts listed above and re-fetched from the repository. Previously mentioned Book 1/Book 2 semantic audit paths and the earlier AM Book 3 figure-topic update path were not found at those exact repository paths during this run; they are not treated as confirmed master inputs here."
+}
