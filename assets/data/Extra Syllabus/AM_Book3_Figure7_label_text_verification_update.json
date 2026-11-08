@@ -1,0 +1,116 @@
+{
+  "report_title": "AM Book 3 Figure 7 – Label Text Verification Update",
+  "source_pdf": "AMtext_3.Airplane General(3).pdf",
+  "source_assets": "AMtext_3.Airplane General - Images.zip",
+  "audit_scope": "Fragments 9.jpg–101.jpg across physical PDF pages 11–13",
+  "verified_label_text_assets": [
+    {
+      "asset": "11.jpg",
+      "page": 11,
+      "label": "B. Rudder"
+    },
+    {
+      "asset": "13.jpg",
+      "page": 11,
+      "label": "C. Elevator"
+    },
+    {
+      "asset": "15.jpg",
+      "page": 11,
+      "label": "B. 水平安定板 (Horizontal Stabilizer)"
+    },
+    {
+      "asset": "20.jpg",
+      "page": 11,
+      "label": "B. Horizontal Stabilizer"
+    },
+    {
+      "asset": "34.jpg",
+      "page": 12,
+      "label": "D. I/B Aileron"
+    },
+    {
+      "asset": "35.jpg",
+      "page": 12,
+      "label": "C. Elevator"
+    },
+    {
+      "asset": "36.jpg",
+      "page": 12,
+      "label": "H. O/B Trailing Edge Flap"
+    },
+    {
+      "asset": "37.jpg",
+      "page": 12,
+      "label": "G. O/B Leading Edge Slat"
+    },
+    {
+      "asset": "38.jpg",
+      "page": 12,
+      "label": "G. I/B Leading Edge Slat"
+    },
+    {
+      "asset": "39.jpg",
+      "page": 12,
+      "label": "F. Spoiler"
+    },
+    {
+      "asset": "43.jpg",
+      "page": 12,
+      "label": "H. I/B Trailing Edge Flap"
+    },
+    {
+      "asset": "44.jpg",
+      "page": 12,
+      "label": "D. O/B Aileron"
+    },
+    {
+      "asset": "45.jpg",
+      "page": 12,
+      "label": "G. I/B Leading Edge Slat"
+    },
+    {
+      "asset": "65.jpg",
+      "page": 12,
+      "label": "B. Horizontal Stabilizer"
+    },
+    {
+      "asset": "84.jpg",
+      "page": 13,
+      "label": "G. Leading Edge Slat"
+    },
+    {
+      "asset": "85.jpg",
+      "page": 13,
+      "label": "H. I/B Trailing Edge Flap"
+    },
+    {
+      "asset": "86.jpg",
+      "page": 13,
+      "label": "H. O/B Trailing Edge Flap"
+    },
+    {
+      "asset": "87.jpg",
+      "page": 13,
+      "label": "D. I/B Aileron"
+    },
+    {
+      "asset": "88.jpg",
+      "page": 13,
+      "label": "A. Main Wing"
+    }
+  ],
+  "totals": {
+    "fragments_in_scope": 93,
+    "legible_label_text_verified": 19,
+    "remaining_label_text_or_fragment_identity_pending": 74,
+    "exact_arrow_endpoint_to_aircraft_component_verified": 0,
+    "arrow_endpoint_mapping_pending": 93
+  },
+  "caution": "Label text recognition is not equivalent to confirming the arrow endpoint or the exact aircraft component indicated. All 93 arrow/target associations remain PENDING until individually confirmed from source-page geometry.",
+  "evidence_method": [
+    "Visually inspected a contact sheet of all Figure 7 extracted fragments.",
+    "Compared legible fragment text against the full source PDF page renders.",
+    "Kept uncertain OCR, Japanese note fragments, arrows, and cropped aircraft details pending."
+  ]
+}
