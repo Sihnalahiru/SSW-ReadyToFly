@@ -81,7 +81,7 @@ async function createSession(env,user,request) {
 async function handle(request,env) {
   const url=new URL(request.url),path=url.pathname.replace(/\/$/,"")||"/";
   if(path.startsWith("/api/") && request.method==="OPTIONS") return new Response(null,{status:204,headers:{"Allow":"GET, POST, PUT, OPTIONS"}});
-  if(!path.startsWith("/api/")) return json({service:"ReadyToFly Auth API",status:"ok"});
+  if(!path.startsWith("/api/")) { if (env.ASSETS) return env.ASSETS.fetch(request); return json({service:"ReadyToFly Auth API",status:"ok"}); }
   if(!env.DB) return json({error:"DATABASE_NOT_CONFIGURED"},503);
   if(!originAllowed(request,env)) return json({error:"ORIGIN_NOT_ALLOWED"},403);
   try {
