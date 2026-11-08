@@ -13,7 +13,7 @@
 | Study experience | Combined learning plus switchable separate study modes |
 | Accounts | Four separate user accounts; each account has isolated profile and progress |
 | Connectivity | Online-first. Do not promise full offline study; cache only app shell / safe static resources as designed |
-| CBT | Fixed existing 14 practice papers plus randomized practice |
+| CBT | Japanese-only official-style simulation + English-only international practice, fixed 14 existing practice papers + random practice |
 
 These decisions may only be changed with explicit project-owner approval.
 
@@ -81,8 +81,12 @@ Navigation behavior:
 - Topic/section quizzes and vocabulary practice.
 - Randomized practice from approved question records.
 - One-question-at-a-time option, answer feedback, explanations, review, bookmarks, wrong-answer review, and attempt history.
-- Japanese-only exam presentation rules must be respected where configured.
+- **Official-style CBT mode:** every question, answer option, correct answer, and answer review is Japanese-only. Japanese furigana/reading may be shown where source data supports it; do not show Sinhala, Romaji, or English translations in this mode.
+- **International practice mode:** questions, answer options, correct answers, and explanations are English-only. Do not mix Japanese or Sinhala into this mode.
+- Keep language mode explicit and visually labelled; never silently translate a question.
+- The two official exam sections (written and practical) must be scored separately. SSW No. 1 passing thresholds are written ≥65% (20/30) and practical ≥65% (10/15).
 - No invented questions or answers.
+- Official-style No. 1 simulation timing/structure: written 30 questions in 45 minutes; practical 15 questions in 30 minutes. Apply 20/30 and 10/15 pass thresholds independently. This is a training simulation; do not claim the app is the official examination.
 
 ## 8. CBT Examination
 
@@ -127,6 +131,10 @@ Navigation behavior:
 ## 13. Visual and interaction standards
 
 - Premium aviation visual language: deep navy, runway/flight-line cues, restrained cyan/blue accents, glass panels, clear typography.
+- Welcome/login main animation: exact existing asset `Airplane arrival at airport.lottie`.
+- Section transition/loading animation: exact existing asset `Passports in pink and blue.lottie`.
+- Dashboard achievement animation: exact existing asset `Trophy.lottie` only when a real achievement is earned.
+- Preserve original filenames. All Lottie assets must be served from the deployed `public/assets/animations/` path and tested in the actual browser.
 - Mobile-first responsive layout, portrait support, accessible touch targets, keyboard/focus states.
 - Dark and light themes.
 - Hybrid navigation with minimal primary destinations.
@@ -136,7 +144,7 @@ Navigation behavior:
 ## 14. Implementation sequence
 
 1. Repository/runtime audit and resolve root vs deployed `public/` source-of-truth.
-2. Shared application shell, hybrid navigation, responsive design tokens, theme and profile shell.
+2. Shared application shell, hybrid navigation, responsive design tokens, theme, profile shell, and working Lottie animations.
 3. Dashboard.
 4. Study Center.
 5. Vocabulary Center.
