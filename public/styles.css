@@ -66,3 +66,15 @@ body.light .login-message{color:#62758f}
 body.light .dashboard-hero{background:linear-gradient(115deg,#163d68,#1c5270);color:#fff}body.light .track-card,body.light .quick-card{background:rgba(255,255,255,.8);color:#182a43}body.light .track-card>p:not(.eyebrow),body.light .quick-card small{color:#63758e}
 @media(max-width:900px){.track-grid{grid-template-columns:1fr 1fr}.track-card:last-child{grid-column:span 2}}
 @media(max-width:680px){.dashboard-hero{grid-template-columns:1fr;padding:22px;border-radius:21px}.hero-visual{min-height:155px}.hero-copy h1{font-size:37px}.hero-actions{display:grid;grid-template-columns:1fr}.hero-actions .secondary-button{min-height:44px}.track-grid{grid-template-columns:1fr}.track-card:last-child{grid-column:auto}.track-card>p:not(.eyebrow){min-height:0}.dashboard-lower{grid-template-columns:1fr}.quick-grid{grid-template-columns:1fr 1fr}.section-note{display:none}.exam-stats strong{font-size:22px}}
+
+.mobile-nav{display:none}
+@media(max-width:680px){
+ .app-layout{display:block;padding:10px 10px calc(88px + env(safe-area-inset-bottom))}
+ .sidebar{display:none}
+ .main-content{padding:16px 8px 20px}
+ .mobile-nav{position:fixed;z-index:30;left:10px;right:10px;bottom:calc(9px + env(safe-area-inset-bottom));display:grid;grid-template-columns:repeat(5,1fr);gap:3px;padding:7px;border:1px solid rgba(166,205,255,.22);border-radius:19px;background:rgba(10,26,48,.92);backdrop-filter:blur(22px) saturate(150%);box-shadow:0 15px 40px rgba(0,0,0,.35)}
+ .mobile-nav-item{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:49px;border:1px solid transparent;border-radius:13px;background:transparent;color:#a9bdd7;cursor:pointer}
+ .mobile-nav-item span{font-size:18px;line-height:1.1}.mobile-nav-item small{font-size:9px;font-weight:700}
+ .mobile-nav-item.active{background:linear-gradient(145deg,rgba(69,145,222,.3),rgba(76,163,222,.1));border-color:rgba(121,190,255,.3);color:#e9f6ff}
+ body.light .mobile-nav{background:rgba(15,35,61,.96)}
+}
