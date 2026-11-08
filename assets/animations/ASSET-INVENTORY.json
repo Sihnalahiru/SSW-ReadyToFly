@@ -1,0 +1,54 @@
+{
+  "repository": "Sihnalahiru/SSW-ReadyToFly",
+  "branch": "main",
+  "audit_scope": "GitHub commit 54de88a9dcc93ae04cce9915cf0842fa19e6f5fd",
+  "audit_method": "Reviewed the exact file list returned by GitHub for the upload commit. This is a commit-scoped inventory, not a claim that every historical asset in the repository has been enumerated.",
+  "status": "PARTIAL_INVENTORY_VERIFIED",
+  "files": [
+    {
+      "path": "assets/animations/Airplane arrival at airport.lottie",
+      "filename": "Airplane arrival at airport.lottie",
+      "format": "Lottie animation",
+      "size_bytes": 19030,
+      "upload_commit": "54de88a9dcc93ae04cce9915cf0842fa19e6f5fd",
+      "status": "FILE_PRESENCE_VERIFIED",
+      "intended_use": "Welcome or profile-selection animation",
+      "semantic_mapping_status": "INTENDED_USE_ONLY_NOT_SOURCE_VERIFIED"
+    },
+    {
+      "path": "assets/animations/Passports in pink and blue.lottie",
+      "filename": "Passports in pink and blue.lottie",
+      "format": "Lottie animation",
+      "size_bytes": 18814,
+      "upload_commit": "54de88a9dcc93ae04cce9915cf0842fa19e6f5fd",
+      "status": "FILE_PRESENCE_VERIFIED",
+      "intended_use": "Section transition/loading animation",
+      "semantic_mapping_status": "INTENDED_USE_ONLY_NOT_SOURCE_VERIFIED"
+    },
+    {
+      "path": "assets/animations/Trophy.lottie",
+      "filename": "Trophy.lottie",
+      "format": "Lottie animation",
+      "size_bytes": 21113,
+      "upload_commit": "54de88a9dcc93ae04cce9915cf0842fa19e6f5fd",
+      "status": "FILE_PRESENCE_VERIFIED",
+      "intended_use": "Dashboard achievement decoration",
+      "semantic_mapping_status": "INTENDED_USE_ONLY_NOT_SOURCE_VERIFIED"
+    }
+  ],
+  "totals": {
+    "files_in_scoped_upload_commit": 3,
+    "total_size_bytes": 58957
+  },
+  "pending": [
+    "Enumerate all assets already present before the scoped upload commit.",
+    "Inspect animation contents and validate that each Lottie file opens and renders.",
+    "Inventory images, audio, PDFs, and other asset types in the complete repository.",
+    "Verify each animation's exact UI placement before marking semantic mapping as verified."
+  ],
+  "rules": [
+    "Do not rename or merge original files.",
+    "Do not infer content mappings from filenames alone.",
+    "Keep pending checks explicitly marked PENDING."
+  ]
+}
