@@ -3,51 +3,50 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#101b2d">
-  <meta name="description" content="SSW ReadyToFly — Airport Ground Handling study platform.">
-  <title>SSW ReadyToFly | Ground Handling</title>
+  <meta name="theme-color" content="#0b1730">
+  <meta name="description" content="ReadyToFly — premium SSW Airport Ground Handling learning app.">
+  <title>ReadyToFly | SSW Ground Handling</title>
   <link rel="manifest" href="./manifest.json">
-  <link rel="icon" href="./assets/icons/icon-192.png" type="image/png">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="topbar">
-    <a class="brand" href="./" aria-label="SSW ReadyToFly home">
-      <span class="brand-mark" aria-hidden="true">✈</span>
-      <span><strong>ReadyToFly</strong><small>SSW · Ground Handling</small></span>
-    </a>
-    <button id="theme-toggle" class="icon-button" type="button" aria-label="Toggle dark mode" title="Toggle theme">◐</button>
-  </header>
-  <div class="app-layout">
-    <aside class="sidebar" aria-label="Main navigation">
-      <p class="nav-label">LEARNING SPACE</p>
-      <button class="nav-item active" data-view="dashboard">⌂ <span>Dashboard</span></button>
-      <button class="nav-item" data-view="study">▤ <span>Study Library</span></button>
-      <button class="nav-item" data-view="exam">✓ <span>Practice Exam</span></button>
-      <button class="nav-item" data-view="progress">◷ <span>My Progress</span></button>
-      <div class="sidebar-note"><strong>Study with confidence</strong><p>Learn step by step. Track your progress.</p></div>
-    </aside>
-    <main id="main" class="main-content" tabindex="-1">
-      <div id="app" aria-live="polite">
-        <section class="welcome">
-          <p class="eyebrow">AIRPORT GROUND HANDLING</p>
-          <h1>Welcome aboard.</h1>
-          <p class="muted">Your learning workspace is ready. Verified study content will appear here as the source audit is completed.</p>
-        </section>
-        <section class="stats-grid" aria-label="Study status">
-          <article class="stat-card"><span>Study modules</span><strong>Pending</strong><small>Awaiting verified syllabus data</small></article>
-          <article class="stat-card"><span>Question bank</span><strong>Pending</strong><small>Awaiting source validation</small></article>
-          <article class="stat-card"><span>Your progress</span><strong>0%</strong><small>Progress starts when you study</small></article>
-        </section>
-        <section class="panel">
-          <div class="panel-heading"><div><p class="eyebrow">GET STARTED</p><h2>Learning library</h2></div><span class="status-pill">Content audit in progress</span></div>
-          <p class="muted">The app shell is connected. Lessons, answers, audio and image mappings will only be added after they are checked against the project sources.</p>
-          <button class="primary-button" data-view="study" type="button">Open study library <span aria-hidden="true">→</span></button>
-        </section>
-      </div>
-      <footer class="footer">SSW ReadyToFly <span>·</span> Ground Handling Study Platform <span>·</span> <span id="connection-status">Checking connection…</span></footer>
+  <div id="login-screen" class="login-screen">
+    <div class="login-backdrop" aria-hidden="true"><span class="orb orb-one"></span><span class="orb orb-two"></span><span class="orb orb-three"></span></div>
+    <header class="login-top"><a class="brand" href="./"><span class="brand-mark">✈</span><span><strong>ReadyToFly</strong><small>SSW · AIRPORT GROUND HANDLING</small></span></a><span class="secure-label"><i></i> LEARNING PORTAL</span></header>
+    <main class="login-main">
+      <section class="login-copy"><p class="eyebrow">YOUR JOURNEY STARTS HERE</p><h1>Prepare for take-off.<br><em>Build your future.</em></h1><p class="login-lead">A focused learning space for your Airport Ground Handling SSW journey — study, practise and track your progress in one place.</p><div class="login-points"><span>✦ Source-verified study material</span><span>✦ Practice and progress tracking</span><span>✦ Designed for mobile learning</span></div></section>
+      <section class="login-card glass-panel" aria-labelledby="login-title">
+        <div class="login-card-head"><div class="login-symbol">✈</div><p class="eyebrow">WELCOME BACK</p><h2 id="login-title">Sign in to ReadyToFly</h2><p>Access your personal learning space.</p></div>
+        <form id="login-form" class="login-form">
+          <label for="login-email">Email address</label><input id="login-email" name="email" type="email" autocomplete="username" placeholder="you@example.com" required>
+          <label for="login-password">Password</label><input id="login-password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required>
+          <button class="primary-button login-submit" type="submit">Sign in <span>→</span></button>
+          <p id="login-message" class="login-message" role="status">Secure account sign-in will activate after the authentication service is connected.</p>
+        </form>
+        <div class="login-divider"><span>OR</span></div>
+        <button id="guest-preview" class="secondary-button" type="button">Explore app preview <span>↗</span></button>
+        <p class="login-legal">Your study data stays separate from other ReadyToFly projects.</p>
+      </section>
     </main>
+    <footer class="login-footer">READYTOFLY <span>·</span> SSW GROUND HANDLING <span>·</span> SOURCE-LED LEARNING</footer>
+  </div>
+  <div id="application" hidden>
+    <header class="topbar glass-bar">
+      <a class="brand" href="./" aria-label="ReadyToFly home"><span class="brand-mark">✈</span><span><strong>ReadyToFly</strong><small>SSW · Ground Handling</small></span></a>
+      <div class="top-actions"><span class="top-status"><i></i><span id="connection-status">Checking…</span></span><button id="theme-toggle" class="icon-button" type="button" aria-label="Toggle theme">◐</button></div>
+    </header>
+    <div class="app-layout">
+      <aside class="sidebar glass-panel" aria-label="Main navigation">
+        <p class="nav-label">LEARNING SPACE</p>
+        <button class="nav-item active" data-view="dashboard"><span class="nav-icon">⌂</span><span>Home</span></button>
+        <button class="nav-item" data-view="study"><span class="nav-icon">▤</span><span>Study</span></button>
+        <button class="nav-item" data-view="exam"><span class="nav-icon">✓</span><span>Practice</span></button>
+        <button class="nav-item" data-view="progress"><span class="nav-icon">◷</span><span>Progress</span></button>
+        <div class="sidebar-bottom"><div class="sidebar-note"><strong>Ready for your next step?</strong><p>Small steps. Strong skills. A brighter future.</p></div><button id="signout-preview" class="nav-item signout-item" type="button"><span class="nav-icon">↪</span><span>Exit preview</span></button></div>
+      </aside>
+      <main id="main" class="main-content" tabindex="-1"><div id="app" aria-live="polite"></div><footer class="footer">SSW ReadyToFly <span>·</span> Ground Handling <span>·</span> <span id="footer-status">Preview mode</span></footer></main>
+    </div>
   </div>
   <script type="module" src="./app.js"></script>
 </body>
