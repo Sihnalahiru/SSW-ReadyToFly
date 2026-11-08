@@ -1,0 +1,3 @@
+export function renderVocabulary() {
+ return `<section class="welcome"><p class="eyebrow">JAPANESE TECHNICAL LANGUAGE</p><h1>Vocabulary Center</h1><p class="muted">Build recognition of airport ground handling terminology with Japanese readings and English/Sinhala meanings.</p></section><section class="panel"><div class="empty-state"><strong>Vocabulary data is awaiting its audit and import.</strong><br>The repository contains vocabulary resources, but terms and readings must be validated before they are presented as approved study records. Flashcards, search, favourites and spaced repetition will be connected after that validation.</div></section>`;
+}
