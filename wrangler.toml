@@ -17,6 +17,6 @@ migrations_dir = "migrations"
 # npx wrangler secret put MAIL_FROM
 
 [assets]
-directory = "."
+directory = "./public"
 binding = "ASSETS"
 not_found_handling = "single-page-application"
