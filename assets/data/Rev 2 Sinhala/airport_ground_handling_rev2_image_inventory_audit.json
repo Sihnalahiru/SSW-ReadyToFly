@@ -5,7 +5,7 @@
   "source_directory": "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/",
   "audit_date": "2026-11-08",
   "status": "FILENAME_INVENTORY_VERIFIED_VISUAL_REVIEW_PENDING",
-  "total_files": 85,
+  "total_files": 84,
   "files": [
     {
       "filename": "0.jpg",
@@ -481,14 +481,6 @@
     },
     {
       "filename": "49.jpg",
-      "page_mapping": "PENDING",
-      "visual_description": "PENDING",
-      "dimensions": "PENDING",
-      "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
-    },
-    {
-      "filename": "5.jpg",
       "page_mapping": "PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
