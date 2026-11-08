@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0b1730"><meta name="description" content="ReadyToFly — SSW Airport Ground Handling learning app.">
+<meta name="theme-color" content="#0b1730">
+<script type="module" src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"></script><meta name="description" content="ReadyToFly — SSW Airport Ground Handling learning app.">
 <title>ReadyToFly | SSW Ground Handling</title><link rel="manifest" href="./manifest.json"><link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -11,7 +12,7 @@
  <div class="login-backdrop" aria-hidden="true"><span class="orb orb-one"></span><span class="orb orb-two"></span><span class="orb orb-three"></span></div>
  <header class="login-top"><a class="brand" href="./"><span class="brand-mark">✈</span><span><strong>ReadyToFly</strong><small>SSW · AIRPORT GROUND HANDLING</small></span></a><span class="secure-label"><i></i> SECURE LEARNING PORTAL</span></header>
  <main class="login-main">
-  <section class="login-copy"><p class="eyebrow">YOUR JOURNEY STARTS HERE</p><h1>Prepare for take-off.<br><em>Build your future.</em></h1><p class="login-lead">A focused learning space for your Airport Ground Handling SSW journey — study, practise and track your progress in one place.</p><div class="login-points"><span>✦ Source-verified study material</span><span>✦ Practice and progress tracking</span><span>✦ Secure personal account</span></div></section>
+  <section class="login-copy"><p class="eyebrow">YOUR JOURNEY STARTS HERE</p><h1>Prepare for take-off.<br><em>Build your future.</em></h1><p class="login-lead">A focused learning space for your Airport Ground Handling SSW journey — study, practise and track your progress in one place.</p><div class="welcome-animation-wrap"><dotlottie-player class="welcome-animation" src="./assets/animations/Airplane%20arrival%20at%20airport.lottie" background="transparent" speed="1" autoplay loop></dotlottie-player><span>YOUR JOURNEY TO JAPAN STARTS HERE</span></div><div class="login-points"><span>✦ Source-verified study material</span><span>✦ Practice and progress tracking</span><span>✦ Secure personal account</span></div></section>
   <section class="login-card glass-panel" aria-labelledby="auth-title">
    <div class="login-card-head"><div class="login-symbol">✈</div><p class="eyebrow" id="auth-eyebrow">WELCOME BACK</p><h2 id="auth-title">Sign in to ReadyToFly</h2><p id="auth-subtitle">Access your personal learning space.</p></div>
    <div class="auth-tabs" id="auth-tabs"><button type="button" class="auth-tab active" data-auth-mode="login">Sign in</button><button type="button" class="auth-tab" data-auth-mode="register">Create account</button></div>
@@ -21,6 +22,7 @@
   </section>
  </main><footer class="login-footer">READYTOFLY <span>·</span> SSW GROUND HANDLING <span>·</span> CLOUD-SECURED LEARNING</footer>
 </div>
+<div id="section-loader" class="section-loader" hidden aria-live="polite" aria-label="Loading section"><dotlottie-player class="section-loader-animation" src="./assets/animations/Passports%20in%20pink%20and%20blue.lottie" background="transparent" speed="1" autoplay loop></dotlottie-player><p>Preparing your learning space…</p></div>
 <div id="application" hidden>
  <header class="topbar glass-bar"><a class="brand" href="./" aria-label="ReadyToFly home"><span class="brand-mark">✈</span><span><strong>ReadyToFly</strong><small>SSW · Ground Handling</small></span></a><div class="top-actions"><span class="top-status"><i></i><span id="connection-status">Checking…</span></span><button id="theme-toggle" class="icon-button" type="button" aria-label="Toggle theme">◐</button><button id="signout" class="icon-button" type="button" aria-label="Sign out">↪</button></div></header>
  <div class="app-layout"><aside class="sidebar" aria-label="Main navigation"><p class="nav-label">LEARNING SPACE</p><button class="nav-item active" data-view="dashboard"><span class="nav-icon">⌂</span><span>Home</span></button><button class="nav-item" data-view="study"><span class="nav-icon">▤</span><span>Study</span></button><button class="nav-item" data-view="vocabulary"><span class="nav-icon">あ</span><span>Vocabulary</span></button><button class="nav-item" data-view="quiz"><span class="nav-icon">◇</span><span>Quiz Center</span></button><button class="nav-item" data-view="exam"><span class="nav-icon">✓</span><span>Practice</span></button><button class="nav-item" data-view="progress"><span class="nav-icon">◷</span><span>Progress</span></button><div class="sidebar-bottom"><div class="sidebar-note"><strong>Ready for your next step?</strong><p>Small steps. Strong skills. A brighter future.</p></div></div></aside>
