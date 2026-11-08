@@ -9,7 +9,7 @@ import { renderQuiz } from './app/quiz.js';
  'use strict';
  const loginScreen=document.getElementById('login-screen'),application=document.getElementById('application'),form=document.getElementById('auth-form'),message=document.getElementById('auth-message');
  const renderers={dashboard:renderDashboard,study:renderStudy,vocabulary:renderVocabulary,quiz:renderQuiz,exam:renderExam,progress:renderProgress};
- let authMode='login',currentUser=null,progressData={},viewTransitionTimer=null,pendingRecoveryCode=null;
+ let authMode='login',currentUser=null,progressData={},viewTransitionTimer=null,pendingRecoveryCode=null,adminResetRequest=null;
  const cookieValue=name=>document.cookie.split('; ').find(v=>v.startsWith(name+'='))?.split('=').slice(1).join('=')||'';
  async function api(path,options={}) {
   const headers={'Content-Type':'application/json',...(options.headers||{})};
@@ -27,7 +27,7 @@ import { renderQuiz } from './app/quiz.js';
   const configs={
    login:['WELCOME BACK','Sign in to ReadyToFly','Access your personal learning space.'],
    register:['JOIN READYTOFLY','Create your account','Set up your private learning profile.'],
-   recover:['ACCOUNT RECOVERY','Recover your account','Use your username and your one-time recovery code.']
+   recover:['ACCOUNT RECOVERY','Request a password reset','An administrator will review your request. You will create your own new password after approval.']
   };
   const [eyebrow,title,subtitle]=configs[mode];
   document.getElementById('auth-eyebrow').textContent=eyebrow;
@@ -37,7 +37,7 @@ import { renderQuiz } from './app/quiz.js';
   const password='<label for="auth-password">Password</label><input id="auth-password" name="password" type="password" autocomplete="'+(mode==='login'?'current-password':'new-password')+'" placeholder="'+(mode==='login'?'Enter your password':'12+ characters, uppercase, lowercase and number')+'" required minlength="12" maxlength="128">';
   if(mode==='login')form.innerHTML=username.replace('Choose a username','Your username')+password+'<button class="text-link" type="button" data-auth-mode="recover">Forgot password? Use recovery code</button><button class="primary-button login-submit" type="submit">Sign in <span>→</span></button>';
   if(mode==='register')form.innerHTML=username+password+'<p class="auth-hint">Username: 3–32 letters, numbers, dot, underscore or hyphen. Password: at least 12 characters with uppercase, lowercase and a number.</p><button class="primary-button login-submit" type="submit">Create account <span>→</span></button>';
-  if(mode==='recover')form.innerHTML=username.replace('Choose a username','Your username')+'<label for="auth-recovery-code">Recovery code</label><input id="auth-recovery-code" name="recoveryCode" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="RTF-XXXX-XXXX-XXXX-XXXX-XXXX-XXXX-XXXX-XXXX" required maxlength="48"><label for="auth-password">New password</label><input id="auth-password" name="newPassword" type="password" autocomplete="new-password" placeholder="12+ characters, uppercase, lowercase and number" required minlength="12" maxlength="128"><button class="primary-button login-submit" type="submit">Reset password <span>→</span></button><button class="text-link" type="button" data-auth-mode="login">Back to sign in</button>';
+  if(mode==='recover')form.innerHTML=username.replace('Choose a username','Your username')+'<p class="auth-hint">Your request will be sent to the ReadyToFly administrator. Do not share your password with anyone.</p><button class="primary-button login-submit" type="submit">Request admin approval <span>→</span></button><button class="text-link" type="button" data-auth-mode="login">Back to sign in</button>';
   setMessage(mode==='login'?'Sign in to continue to your private study space.':'');
  }
  function showRecoveryCode(code,purpose){
@@ -50,6 +50,32 @@ import { renderQuiz } from './app/quiz.js';
   form.innerHTML='<div class="recovery-code-panel"><p class="recovery-warning">Keep this code private. Anyone with it and your username can reset your password.</p><code id="recovery-code-display" class="recovery-code-display"></code><button class="secondary-button" type="button" data-copy-recovery>Copy recovery code</button><p class="recovery-confirm">After saving it, continue to sign in.</p></div><button class="primary-button login-submit" type="button" data-recovery-done>I have saved my code <span>→</span></button>';
   document.getElementById('recovery-code-display').textContent=code;
   setMessage(purpose==='created'?'Your account is ready. Save this recovery code before continuing.':'Your password has been changed and all existing sessions were signed out. Save your new recovery code.',false);
+ }
+ function showAdminResetPending(){
+  authMode='admin-reset-pending';
+  document.getElementById('auth-tabs').hidden=true;
+  document.getElementById('auth-eyebrow').textContent='ADMIN REVIEW';
+  document.getElementById('auth-title').textContent='Request submitted';
+  document.getElementById('auth-subtitle').textContent='Wait for the administrator to review your password reset request.';
+  form.innerHTML='<p class="auth-hint">Once approved, you can create a new password here. Approval expires after 20 minutes.</p><button class="primary-button login-submit" type="button" data-reset-check>Check approval status</button><button class="text-link" type="button" data-auth-mode="login">Back to sign in</button>';
+  setMessage('Request submitted. Telegram notification sent to the administrator when configured.',false);
+ }
+ async function checkAdminResetStatus(){
+  const reset=adminResetRequest||JSON.parse(sessionStorage.getItem('rtf-admin-reset')||'null');
+  if(!reset){setMode('recover');setMessage('No pending reset request found. Please submit a new request.',true);return;}
+  try{
+   const result=await api('auth/reset-status',{method:'POST',body:JSON.stringify(reset)});
+   if(result.status==='approved'){
+    authMode='admin-reset-complete';
+    document.getElementById('auth-eyebrow').textContent='APPROVED';
+    document.getElementById('auth-title').textContent='Create a new password';
+    document.getElementById('auth-subtitle').textContent='Choose a password only you know. All old sessions will be signed out.';
+    form.innerHTML='<label for="auth-password">New password</label><input id="auth-password" name="newPassword" type="password" autocomplete="new-password" placeholder="12+ characters, uppercase, lowercase and number" required minlength="12" maxlength="128"><button class="primary-button login-submit" type="submit">Set new password <span>→</span></button>';
+    setMessage('Approved. This reset link is valid for 20 minutes.',false);
+   }else if(result.status==='rejected'||result.status==='expired'||result.status==='completed'){
+    sessionStorage.removeItem('rtf-admin-reset');adminResetRequest=null;setMode('recover');setMessage('This reset request is '+result.status+'. Please submit a new request if needed.',true);
+   }else setMessage('Still waiting for administrator approval. Please check again later.',false);
+  }catch(err){setMessage(err.message,true);}
  }
  function showView(name){
   const current=renderers[name]?name:'dashboard';
@@ -78,6 +104,7 @@ import { renderQuiz } from './app/quiz.js';
  form.addEventListener('click',async e=>{
   const modeButton=e.target.closest('[data-auth-mode]');
   if(modeButton){setMode(modeButton.dataset.authMode);return;}
+  if(e.target.closest('[data-reset-check]')){await checkAdminResetStatus();return;}
   if(e.target.closest('[data-copy-recovery]')){
    try{await navigator.clipboard.writeText(pendingRecoveryCode);setMessage('Recovery code copied. Store it somewhere private.',false);}
    catch(err){setMessage('Copy is unavailable here. Select the recovery code and copy it manually.',true);}
@@ -96,7 +123,8 @@ import { renderQuiz } from './app/quiz.js';
   try{
    if(authMode==='login'){const result=await api('auth/login',{method:'POST',body:JSON.stringify(payload)});await enterApp(result.user);}
    else if(authMode==='register'){const result=await api('auth/register',{method:'POST',body:JSON.stringify(payload)});showRecoveryCode(result.recoveryCode,'created');}
-   else if(authMode==='recover'){const result=await api('auth/recover-password',{method:'POST',body:JSON.stringify(payload)});showRecoveryCode(result.recoveryCode,'rotated');}
+   else if(authMode==='recover'){const result=await api('auth/reset-request',{method:'POST',body:JSON.stringify(payload)});if(result.requestId&&result.requestSecret){adminResetRequest={requestId:result.requestId,requestSecret:result.requestSecret};sessionStorage.setItem('rtf-admin-reset',JSON.stringify(adminResetRequest));showAdminResetPending();}else setMessage(result.message||'If the account exists, an administrator will review the request.',false);}
+   else if(authMode==='admin-reset-complete'){const reset=adminResetRequest||JSON.parse(sessionStorage.getItem('rtf-admin-reset')||'null');if(!reset)throw new Error('Reset request not found. Please start again.');const result=await api('auth/complete-admin-reset',{method:'POST',body:JSON.stringify({...reset,newPassword:payload.newPassword})});sessionStorage.removeItem('rtf-admin-reset');adminResetRequest=null;setMode('login');setMessage(result.message,false);}
   }catch(err){setMessage(err.message,true);}
   finally{const next=form.querySelector('button[type="submit"]');if(next){next.disabled=false;next.textContent=authMode==='recovery-display'?'I have saved my code →':(authMode==='register'?'Create account →':authMode==='recover'?'Reset password →':'Sign in →');}}
  });
