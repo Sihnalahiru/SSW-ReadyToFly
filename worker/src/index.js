@@ -63,9 +63,14 @@ async function currentSession(request, env) {
   return row||null;
 }
 async function sendEmail(env, to, subject, html) {
-  if(!env.RESEND_API_KEY || !env.MAIL_FROM) throw new Error("EMAIL_NOT_CONFIGURED");
-  const response=await fetch("https://api.resend.com/emails",{method:"POST",headers:{"Authorization":`Bearer ${env.RESEND_API_KEY}`,"Content-Type":"application/json"},body:JSON.stringify({from:env.MAIL_FROM,to:[to],subject,html})});
-  if(!response.ok) throw new Error("EMAIL_DELIVERY_FAILED");
+  if(!env.EMAIL || !env.MAIL_FROM) throw new Error("CLOUDFLARE_EMAIL_NOT_CONFIGURED");
+  await env.EMAIL.send({
+    to,
+    from: env.MAIL_FROM,
+    subject,
+    html,
+    text: html.replace(/<[^>]*>/g, " ").replace(/\\s+/g, " ").trim()
+  });
 }
 async function issueEmailToken(env, user, purpose, minutes, subject, buildHtml) {
   const token=randomToken(32), tokenHash=await sha256(token), expires=Date.now()+minutes*60*1000;
