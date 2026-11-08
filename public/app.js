@@ -105,7 +105,7 @@ import { renderQuiz } from './app/quiz.js';
   }catch(e){host.textContent=e.message;}
  }
  function showView(name){
-  const current=renderers[name]?name:'dashboard';
+  const current=(renderers[name]||name==='admin')?name:'dashboard';
   document.querySelectorAll('.nav-item[data-view],.mobile-nav-item[data-view]').forEach(el=>{const active=el.dataset.view===current;el.classList.toggle('active',active);if(active)el.setAttribute('aria-current','page');else el.removeAttribute('aria-current');});
   const appRoot=document.getElementById('app'),loader=document.getElementById('section-loader');
   const render=()=>{appRoot.innerHTML=current==='admin'?renderAdminPanel():renderers[current]();if(current==='admin')loadAdminRequests();window.scrollTo({top:0,behavior:'smooth'});if(loader)loader.hidden=true;};
