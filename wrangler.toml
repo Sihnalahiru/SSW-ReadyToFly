@@ -1,0 +1,17 @@
+name = "readytofly-auth"
+main = "worker/src/index.js"
+compatibility_date = "2026-11-08"
+workers_dev = true
+
+[vars]
+APP_ORIGIN = "https://REPLACE-WITH-YOUR-PAGES-DOMAIN"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "readytofly-auth"
+database_id = "REPLACE_AFTER_CREATING_D1"
+migrations_dir = "migrations"
+
+# Add secrets with Wrangler; never commit secret values:
+# npx wrangler secret put RESEND_API_KEY
+# npx wrangler secret put MAIL_FROM
