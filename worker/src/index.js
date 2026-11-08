@@ -374,15 +374,18 @@ async function handle(request, env) {
       const pw = await passwordHash(newPassword);
       const now = Date.now();
       const results = await env.DB.batch([
-        env.DB.prepare("UPDATE users SET password_hash=?,password_salt=?,updated_at=? WHERE id=?")
-          .bind(pw.hash, pw.salt, now, row.user_id),
-        env.DB.prepare("DELETE FROM sessions WHERE user_id=?").bind(row.user_id),
+        env.DB.prepare(
+          "UPDATE users SET password_hash=?,password_salt=?,updated_at=? WHERE id=(" +
+          "SELECT user_id FROM password_reset_requests WHERE id=? AND request_secret_hash=? AND status='approved' AND expires_at>?)"
+        ).bind(pw.hash, pw.salt, now, row.id, await sha256(requestSecret), now),
         env.DB.prepare("UPDATE password_reset_requests SET status='completed',reviewed_at=? WHERE id=? AND status='approved' AND expires_at>?")
           .bind(now, row.id, now),
+        env.DB.prepare("DELETE FROM sessions WHERE user_id=? AND EXISTS (SELECT 1 FROM password_reset_requests WHERE id=? AND status='completed')")
+          .bind(row.user_id, row.id),
         env.DB.prepare("INSERT INTO auth_audit_log(id,user_id,action,request_id,created_at) VALUES(?,?, 'password_reset_completed', ?, ?)")
           .bind(crypto.randomUUID(), row.user_id, row.id, now)
       ]);
-      const changed = results[2] && results[2].meta ? results[2].meta.changes : 0;
+      const changed = results[1] && results[1].meta ? results[1].meta.changes : 0;
       if (!changed) return json({ error: "RESET_ALREADY_USED" }, 409);
       return json({ ok: true, message: "Password updated. All previous sessions have been signed out. Please sign in again." });
     }
