@@ -91,6 +91,11 @@ import { ReadyToFlyAuth } from './app/auth.js';
   }else if(params.get('auth')==='reset'&&params.get('token')){setAuthView('reset');}
   else{setAuthView('login');}
   window.ReadyToFlyAuth=ReadyToFlyAuth;
+  window.addEventListener('readytofly:progress-save',async event=>{
+    if(!currentUser||!Array.isArray(event.detail?.items))return;
+    try{const result=await ReadyToFlyAuth.saveProgress(event.detail.items);window.dispatchEvent(new CustomEvent('readytofly:progress-saved',{detail:result}));}
+    catch(error){window.dispatchEvent(new CustomEvent('readytofly:progress-error',{detail:{code:error.code||'SYNC_FAILED'}}));}
+  });
   window.ReadyToFlySession=()=>currentUser;
   if('serviceWorker'in navigator&&location.protocol!=='file:')window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(error=>console.warn('Service worker registration failed:',error)));
   ReadyToFlyAuth.me().then(result=>{if(result.authenticated)enterApplication(result.user);}).catch(error=>console.warn('Session restore unavailable:',error.code||error.message));
