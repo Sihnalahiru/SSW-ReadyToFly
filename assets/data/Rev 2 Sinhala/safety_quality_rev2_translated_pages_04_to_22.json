@@ -16,10 +16,10 @@
     "image_mapping_status": "PARTIAL_VISUAL_ASSET_IDENTIFICATION; 141 FILES INVENTORIED; ONLY SEMANTICALLY IDENTIFIABLE ASSETS MAPPED; REMAINING EXTRACTION FRAGMENTS/DECORATIVE ASSETS NOT FORCED INTO PAGE MAPPINGS",
     "audio_status": "36_SINHALA_NARRATION_AND_JAPANESE_TTS_SCRIPTS_PRESENT; AUDIO_RENDERING_AND_PLAYBACK_TEST_PENDING",
     "note": "Translations are source-grounded study translations, not certified legal or aviation procedure translations. Follow employer/airport procedures and official notices for operations.",
-    "vocabulary_status": "167 ENTRIES; PAGES 04-13 HAVE FURIGANA/ROMAJI POPULATED; PAGES 14-22 STILL IN PROGRESS; ALL MACHINE-ASSISTED READINGS REQUIRE NATIVE JAPANESE REVIEW",
+    "vocabulary_status": "167 ENTRIES; FURIGANA AND ROMAJI POPULATED FOR ALL 167; MACHINE-ASSISTED READINGS REQUIRE NATIVE JAPANESE REVIEW; DUPLICATE CONSISTENCY AUDIT IN PROGRESS",
     "app_schema": "Aligned to existing V1 page schema: page-level vocabulary_highlights, page mapped_images, section-level japanese/english/sinhala/audio_narration",
     "japanese_source_text": "36 section-level Japanese source excerpts transcribed from the Rev 2 PDF; OCR-derived text should be checked against the page images for typographical accuracy.",
-    "reading_note": "Machine-assisted standard Japanese readings added for printed pages 4-13. They are not independently certified against an official furigana source; native Japanese review is required. Ambiguous readings should remain pending."
+    "reading_note": "Furigana and romaji are machine-assisted standard readings. They have not been independently certified against official furigana sources or by a native Japanese reviewer. Entries with context-dependent readings must be reviewed before final publication."
   },
   "pages": [
     {
@@ -1497,52 +1497,58 @@
           "english": "Straight",
           "japanese": "直進",
           "sinhala": "කෙළින් යාම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ちょくしん",
+          "romaji": "Chokushin",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "move left",
           "japanese": "左に寄れ",
           "sinhala": "වමට ගමන් කිරීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ひだりによれ",
+          "romaji": "Hidari ni yore",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "move right",
           "japanese": "右に寄れ",
           "sinhala": "දකුණට ගමන් කිරීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "みぎによれ",
+          "romaji": "Migi ni yore",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "stop",
           "japanese": "停止",
           "sinhala": "නැවැත්වීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ていし",
+          "romaji": "Teishi",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "emergency stop",
           "japanese": "急停止",
           "sinhala": "හදිසි නැවැත්වීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "きゅうていし",
+          "romaji": "Kyuuteishi",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "whistle signal",
           "japanese": "ホイッスル信号",
           "sinhala": "විසිල් සංඥාව",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ホイッスルしんごう",
+          "romaji": "Hoissuru shingou",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         }
       ],
-      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
+      "vocabulary_status": "READINGS_ADDED_PAGES_14_TO_22_NATIVE_REVIEW_REQUIRED",
       "image_mapping_status": "NO_IMAGE_ASSIGNED"
     },
     {
@@ -1597,68 +1603,76 @@
           "english": "Quality",
           "japanese": "品質",
           "sinhala": "ගුණාත්මකභාවය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ひんしつ",
+          "romaji": "Hinshitsu",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "safety",
           "japanese": "安全性",
           "sinhala": "ආරක්ෂාව",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "あんぜんせい",
+          "romaji": "Anzensei",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "punctuality",
           "japanese": "定時性",
           "sinhala": "වේලාවට ක්‍රියාත්මක වීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ていじせい",
+          "romaji": "Teijisei",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "comfort",
           "japanese": "快適性",
           "sinhala": "සුවපහසුව",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "かいてきせい",
+          "romaji": "Kaitekisei",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "Ground handling",
           "japanese": "グランドハンドリング",
           "sinhala": "ගුවන් තොටුපළ භූමි හැසිරවීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "グランドハンドリング",
+          "romaji": "Gurando handoringu",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "mishandling",
           "japanese": "取り扱い不具合",
           "sinhala": "වැරදි ලෙස හැසිරවීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "とりあつかいふぐあい",
+          "romaji": "Toriatsukai fuguai",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "misrouting",
           "japanese": "誤送",
           "sinhala": "වැරදි ගමනාන්තයට යොමු කිරීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ごそう",
+          "romaji": "Gosou",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "service quality",
           "japanese": "品質",
           "sinhala": "සේවා ගුණාත්මකභාවය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ひんしつ",
+          "romaji": "Hinshitsu",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         }
       ],
-      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
+      "vocabulary_status": "READINGS_ADDED_PAGES_14_TO_22_NATIVE_REVIEW_REQUIRED",
       "image_mapping_status": "NO_IMAGE_ASSIGNED"
     },
     {
@@ -1694,44 +1708,49 @@
           "english": "Occupational health and safety",
           "japanese": "安全衛生",
           "sinhala": "වෘත්තීය සෞඛ්‍ය හා ආරක්ෂාව",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "あんぜんえいせい",
+          "romaji": "Anzen eisei",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "posture",
           "japanese": "姿勢",
           "sinhala": "ශරීර ඉරියව්ව",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "しせい",
+          "romaji": "Shisei",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "guidance signal",
           "japanese": "誘導合図",
           "sinhala": "මඟපෙන්වීමේ සංඥාව",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ゆうどうあいず",
+          "romaji": "Yuudou aizu",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "horseplay",
           "japanese": "悪ふざけ",
           "sinhala": "අනවශ්‍ය විහිළු හැසිරීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "わるふざけ",
+          "romaji": "Warufuzake",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "objective check",
           "japanese": "客観的確認",
           "sinhala": "වස්තුනිෂ්ඨ පරීක්ෂාව",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "きゃっかんてきかくにん",
+          "romaji": "Kyakkanteki kakunin",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         }
       ],
-      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
+      "vocabulary_status": "READINGS_ADDED_PAGES_14_TO_22_NATIVE_REVIEW_REQUIRED",
       "image_mapping_status": "NO_IMAGE_ASSIGNED"
     },
     {
@@ -1786,76 +1805,85 @@
           "english": "Hiyari-Hatto",
           "japanese": "ヒヤリ・ハット",
           "sinhala": "අනතුරකට ආසන්න සිදුවීම වාර්තාව",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ヒヤリ・ハット",
+          "romaji": "Hiyari Hatto",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "near miss",
           "japanese": "ヒヤリ・ハット",
           "sinhala": "අනතුරකට ආසන්න සිදුවීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ヒヤリ・ハット",
+          "romaji": "Hiyari Hatto",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "incident",
           "japanese": "インシデント",
           "sinhala": "සිදුවීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "インシデント",
+          "romaji": "Inshidento",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "feedback",
           "japanese": "フィードバック",
           "sinhala": "ප්‍රතිචාර",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "フィードバック",
+          "romaji": "Fiidobakku",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "error reporting",
           "japanese": "エラー情報の報告",
           "sinhala": "දෝෂ වාර්තා කිරීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "エラーじょうほうのほうこく",
+          "romaji": "Eraa jouhou no houkoku",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "Shisa Koshou",
           "japanese": "指差呼称",
           "sinhala": "ඇඟිල්ල දිගු කර හඬ නගා තහවුරු කිරීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ゆびさしこしょう",
+          "romaji": "Yubisashi koshou",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "Yoshi",
           "japanese": "ヨーシ",
           "sinhala": "හරි / ආරක්ෂිතයි යන තහවුරු කිරීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ヨーシ",
+          "romaji": "Yooshi",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "hazard prediction",
           "japanese": "危険予知",
           "sinhala": "අනතුරු කල්තියා හඳුනාගැනීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "きけんよち",
+          "romaji": "Kiken yochi",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "unsafe condition",
           "japanese": "不安全状態",
           "sinhala": "අනාරක්ෂිත තත්ත්වය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ふあんぜんじょうたい",
+          "romaji": "Fuanzenshitai",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         }
       ],
-      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
+      "vocabulary_status": "READINGS_ADDED_PAGES_14_TO_22_NATIVE_REVIEW_REQUIRED",
       "image_mapping_status": "NO_IMAGE_ASSIGNED"
     },
     {
@@ -1898,44 +1926,49 @@
           "english": "Stop-line marking",
           "japanese": "停止線標示",
           "sinhala": "නැවතුම් රේඛා සලකුණ",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ていしせんひょうじ",
+          "romaji": "Teishisen hyouji",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "direction marking",
           "japanese": "進行方向標示",
           "sinhala": "ගමන් දිශා සලකුණ",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "しんこうほうこうひょうじ",
+          "romaji": "Shinkou houkou hyouji",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "pedestrian crossing",
           "japanese": "横断歩道あり標示",
           "sinhala": "පදික මාරුව",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "おうだんほどうありひょうじ",
+          "romaji": "Oudan hodou ari hyouji",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "service lane",
           "japanese": "サービスレーン",
           "sinhala": "සේවා මාර්ගය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "サービスレーン",
+          "romaji": "Saabisu reen",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "taxiway",
           "japanese": "誘導路",
           "sinhala": "ගුවන් යානා ගමන් මාර්ගය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ゆうどうろ",
+          "romaji": "Yuudouro",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         }
       ],
-      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
+      "vocabulary_status": "READINGS_ADDED_PAGES_14_TO_22_NATIVE_REVIEW_REQUIRED",
       "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     },
     {
@@ -1996,33 +2029,37 @@
           "english": "Equipment Restraint Area",
           "japanese": "機材制限区域",
           "sinhala": "උපකරණ ඇතුළුවීම සීමා කළ ප්‍රදේශය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "きざいせいげんくいき",
+          "romaji": "Kizai seigen kuiki",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "Equipment Staging Area",
           "japanese": "機材待機区域",
           "sinhala": "උපකරණ රැඳවුම් ප්‍රදේශය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "きざいたいきくいき",
+          "romaji": "Kizai taiki kuiki",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "stand-in",
           "japanese": "スポット・イン",
           "sinhala": "ගුවන් යානය stand ස්ථානයට ඇතුළුවීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "スポット・イン",
+          "romaji": "Supotto in",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "height restriction",
           "japanese": "高さ制限",
           "sinhala": "උස සීමාව",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "たかさせいげん",
+          "romaji": "Takasa seigen",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "25 m以下",
@@ -2030,23 +2067,26 @@
           "sinhala": "මීටර් 25ක් හෝ ඊට අඩු",
           "furigana": "にじゅうごメートルいか",
           "romaji": "Nijuu-go meetoru ika",
-          "translation_status": "TRANSLATED"
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "PBB operating area",
           "japanese": "PBB稼働区域",
           "sinhala": "PBB ක්‍රියාකාරී ප්‍රදේශය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ピービービーかどうくいき",
+          "romaji": "Pii bii bii kadou kuiki",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "PBB stand-by position",
           "japanese": "PBB待機位置",
           "sinhala": "PBB පොරොත්තු ස්ථානය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ピービービーたいきいち",
+          "romaji": "Pii bii bii taiki ichi",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "passenger boarding bridge",
@@ -2057,7 +2097,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
+      "vocabulary_status": "READINGS_ADDED_PAGES_14_TO_22_NATIVE_REVIEW_REQUIRED",
       "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     },
     {
@@ -2114,92 +2154,103 @@
           "english": "Dangerous goods",
           "japanese": "危険物",
           "sinhala": "අන්තරායකර භාණ්ඩ",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "きけんぶつ",
+          "romaji": "Kikenbutsu",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "Aviation Act",
           "japanese": "航空法",
           "sinhala": "ගුවන් සේවා පනත",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "こうくうほう",
+          "romaji": "Koukuuhou",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "aerosol can",
           "japanese": "スプレー缶",
           "sinhala": "ඒරොසෝල් කෑන්",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "スプレーかん",
+          "romaji": "Supuree kan",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "lithium-ion battery",
           "japanese": "リチウムイオンバッテリー",
           "sinhala": "ලිතියම්-අයන බැටරිය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "リチウムイオンバッテリー",
+          "romaji": "Richiumu ion batterii",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "fine",
           "japanese": "罰金",
           "sinhala": "දඩය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ばっきん",
+          "romaji": "Bakkin",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "Dangerous goods declaration",
           "japanese": "危険物申告書",
           "sinhala": "අන්තරායකර භාණ්ඩ ප්‍රකාශන පත්‍රය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "きけんぶつしんこくしょ",
+          "romaji": "Kikenbutsu shinkokusho",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "proper shipping name",
           "japanese": "品名",
           "sinhala": "නිවැරදි ප්‍රවාහන භාණ්ඩ නාමය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ひんめい",
+          "romaji": "Hinmei",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "label",
           "japanese": "ラベル",
           "sinhala": "ලේබලය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ラベル",
+          "romaji": "Raberu",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "packaging",
           "japanese": "梱包",
           "sinhala": "ඇසුරුම් කිරීම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "こんぽう",
+          "romaji": "Konpou",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "shipper",
           "japanese": "荷送人",
           "sinhala": "භාණ්ඩ යවන්නා",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "におくりにん",
+          "romaji": "Niokurinin",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "transport operator",
           "japanese": "運送事業者",
           "sinhala": "ප්‍රවාහන ක්‍රියාකරු",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "うんそうじぎょうしゃ",
+          "romaji": "Unsou jigyousha",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         }
       ],
-      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
+      "vocabulary_status": "READINGS_ADDED_PAGES_14_TO_22_NATIVE_REVIEW_REQUIRED",
       "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     },
     {
@@ -2245,68 +2296,76 @@
           "english": "Explosives",
           "japanese": "火薬類",
           "sinhala": "පුපුරන ද්‍රව්‍ය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "かやくるい",
+          "romaji": "Kayakurui",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "gases",
           "japanese": "高圧ガス類",
           "sinhala": "වායු",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "こうあつガスるい",
+          "romaji": "Kouatsu gasurui",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "flammable liquid",
           "japanese": "引火性液体",
           "sinhala": "ගිනි ඇවිළෙන ද්‍රව",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "いんかせいえきたい",
+          "romaji": "Inkasei ekitai",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "oxidizer",
           "japanese": "酸化性物質",
           "sinhala": "ඔක්සිකාරක ද්‍රව්‍ය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "さんかせいぶっしつ",
+          "romaji": "Sankasei busshitsu",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "toxic substance",
           "japanese": "毒物類",
           "sinhala": "විෂ ද්‍රව්‍ය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "どくぶつるい",
+          "romaji": "Dokubutsu rui",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "radioactive",
           "japanese": "放射性物質",
           "sinhala": "විකිරණශීලී ද්‍රව්‍ය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ほうしゃせいぶっしつ",
+          "romaji": "Houshasei busshitsu",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "corrosive",
           "japanese": "腐食性物質",
           "sinhala": "විඛාදක ද්‍රව්‍ය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ふしょくせいぶっしつ",
+          "romaji": "Fushokusei busshitsu",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "dry ice",
           "japanese": "ドライアイス",
           "sinhala": "වියළි අයිස්",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ドライアイス",
+          "romaji": "Dorai aisu",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         }
       ],
-      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
+      "vocabulary_status": "READINGS_ADDED_PAGES_14_TO_22_NATIVE_REVIEW_REQUIRED",
       "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     },
     {
@@ -2369,81 +2428,91 @@
           "english": "Hazard label",
           "japanese": "危険性を示すラベル",
           "sinhala": "අනතුරුදායකත්වය පෙන්වන ලේබලය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "きけんせいをしめすラベル",
+          "romaji": "Kikensei o shimesu raberu",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "Cargo Aircraft Only",
           "japanese": "貨物機専用",
           "sinhala": "භාණ්ඩ ප්‍රවාහන ගුවන් යානා සඳහා පමණි",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "かもつきせんよう",
+          "romaji": "Kamotsuki senyou",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "cryogenic liquid",
           "japanese": "極低温液体",
           "sinhala": "අතිශය අඩු උෂ්ණත්ව ද්‍රව",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ごくていおんえきたい",
+          "romaji": "Gokuteion ekitai",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "magnetized material",
           "japanese": "磁性物質",
           "sinhala": "චුම්බක ගුණ ඇති ද්‍රව්‍ය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "じせいぶっしつ",
+          "romaji": "Jisei busshitsu",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "lithium battery label",
           "japanese": "リチウム電池ラベル",
           "sinhala": "ලිතියම් බැටරි ලේබලය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "リチウムでんちラベル",
+          "romaji": "Richiumu denchi raberu",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "UN specification packaging",
           "japanese": "国連容器",
           "sinhala": "UN ප්‍රමිතියට අනුකූල ඇසුරුම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "こくれんようき",
+          "romaji": "Kokuren youki",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "jerrycan",
           "japanese": "ジェリカン",
           "sinhala": "ජෙරිකෑන් බහාලුම",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ジェリカン",
+          "romaji": "Jerikan",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "steel",
           "japanese": "鋼",
           "sinhala": "වානේ",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "はがね",
+          "romaji": "Hagane",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "fixed-top type",
           "japanese": "天板固定式",
           "sinhala": "ස්ථිර ඉහළ කොටස සහිත වර්ගය",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "てんばんこていしき",
+          "romaji": "Tenban koteishiki",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "gasoline",
           "japanese": "ガソリン",
           "sinhala": "ගැසොලින්",
-          "furigana": "",
-          "romaji": "",
-          "translation_status": "TRANSLATED"
+          "furigana": "ガソリン",
+          "romaji": "Gasorin",
+          "translation_status": "TRANSLATED",
+          "reading_status": "MACHINE_ASSISTED_READING_ADDED_NATIVE_REVIEW_REQUIRED"
         },
         {
           "english": "5 litres",
@@ -2454,7 +2523,7 @@
           "translation_status": "TRANSLATED"
         }
       ],
-      "vocabulary_status": "TRANSLATED_CORE_GLOSSARY_WITH_FURIGANA_AND_ROMAJI",
+      "vocabulary_status": "READINGS_ADDED_PAGES_14_TO_22_NATIVE_REVIEW_REQUIRED",
       "image_mapping_status": "VISUAL_CONTENT_IDENTIFIED_PAGE_MAPPING_REQUIRES_FINAL_PDF_PIXEL_COMPARISON"
     }
   ]
