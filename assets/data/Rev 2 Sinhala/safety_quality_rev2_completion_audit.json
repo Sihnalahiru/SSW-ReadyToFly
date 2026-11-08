@@ -3,13 +3,13 @@
     "project": "SSW-ReadyToFly",
     "module": "Safety and Quality",
     "revision": "Rev 2",
-    "updated": "2026-11-07",
+    "updated": "2026-11-08",
     "status": "CONTENT_TRANSLATION_DATASET_SAVED_IMAGE_MAPPING_PARTIAL_APP_RUNTIME_BLOCKED"
   },
   "completed": {
     "source_pdf_review": "26 physical PDF pages reviewed; printed study pages 1-22 indexed",
     "translated_content": "19 printed study pages (printed pages 4-22; physical PDF pages 6-24) represented as 36 sections. Each section now contains Japanese source excerpts, English translation and Sinhala translation.",
-    "glossary": "167 technical vocabulary entries with English and Sinhala meanings; Japanese source terms present where available. Furigana and romaji are still incomplete for most entries.",
+    "glossary": "167 technical vocabulary records have English/Sinhala meanings and Japanese terms; all 167 records now have furigana and romaji fields populated. Duplicate-term reading consistency audit passed (13 duplicate groups, 0 inconsistencies). Readings remain machine-assisted and require native Japanese/authoritative-source verification.",
     "narration": "36 Sinhala narration scripts included and schema-validated; final native-speaker/audio playback review remains pending.",
     "japanese_tts": "36 Japanese TTS text scripts included and schema-validated; audio rendering/playback remains pending.",
     "image_inventory": "141 repository image files inventoried",
@@ -17,7 +17,7 @@
   },
   "pending": {
     "front_matter": "Printed pages 1-3 (preface and contents) indexed in source manifest but not yet converted into full trilingual study-note pages.",
-    "glossary_readings": "167 vocabulary entries; furigana and romaji are complete for only a small subset. Continue source-backed reading verification.",
+    "glossary_readings": "Reading fields are populated for all 167 records, but native Japanese or authoritative furigana verification is still pending. Do not treat machine-assisted readings as certified.",
     "image_mapping": "Final pixel-level comparison of the 42 mapped assets against rendered PDF page crops is still required; 99 other files have not been semantically mapped.",
     "audio_rendering": "Scripts exist, but no audio files have been generated or played back.",
     "app_integration": "Blocked: repository contains only assets/data files and no HTML, JavaScript, CSS, app source or deployment configuration.",
@@ -36,12 +36,20 @@
     "The gasoline passenger-aircraft quantity example is 5 litres as shown in the source; the complete legal conditions must be checked in the official notice."
   ],
   "latest_validation": {
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "dataset": "safety_quality_rev2_translated_pages_04_to_22.json",
     "page_records": 19,
     "printed_page_range": "4-22",
     "sections": 36,
     "vocabulary_records": 167,
+    "vocabulary_records_with_furigana": 167,
+    "vocabulary_records_with_romaji": 167,
+    "vocabulary_records_missing_readings": 0,
+    "unique_japanese_terms": 154,
+    "duplicate_term_groups": 13,
+    "duplicate_groups_with_inconsistent_readings": 0,
+    "romaji_non_ascii_character_errors": 0,
+    "reading_verification_status": "MACHINE_ASSISTED; NATIVE JAPANESE / AUTHORITATIVE SOURCE REVIEW PENDING",
     "japanese_source_sections": 36,
     "english_sections": 36,
     "sinhala_sections": 36,
@@ -50,21 +58,24 @@
     "required_field_gaps": 0,
     "empty_japanese_vocabulary_terms": 0,
     "fixes_applied": [
-      "Filled two missing Japanese glossary terms: All Clear and near miss.",
-      "Removed unsupported directional details from the vehicle-guide section.",
-      "Removed unsupported equipment-storage exception and repeated timing condition from ERA/ESA section.",
-      "Corrected Sinhala narration height limit from 2.5 m to the source-supported 25 m."
+      "Filled furigana and romaji for all 167 vocabulary records across printed pages 4-22.",
+      "Audited 154 unique Japanese terms and 13 duplicate-term groups; repeated terms use consistent readings.",
+      "Corrected romanization of 不安全状態 to Fuanzenshoutai.",
+      "Normalized romanization to ASCII Latin characters."
     ],
     "checks_passed": [
       "JSON parse",
       "section required fields",
       "Japanese glossary field presence",
+      "all 167 vocabulary records have furigana and romaji",
+      "13 duplicate-term groups checked with 0 inconsistent readings",
+      "no non-ASCII characters in romaji fields",
       "no incorrect 2.5 m narration",
       "no unsupported directional additions detected"
     ],
     "limitations": [
-      "Japanese source transcription and all translations still require full visual page-by-page proofread against the original PDF.",
-      "Most vocabulary furigana and romaji remain incomplete.",
+      "Furigana and romaji are machine-assisted readings, not native-reviewed or independently certified against authoritative furigana sources.",
+      "Japanese source transcription and translations still require full visual page-by-page proofread against the original PDF.",
       "Audio files have not been generated or played back.",
       "Image mapping remains partial.",
       "App source is absent from this repository, so app integration/runtime tests remain blocked."
