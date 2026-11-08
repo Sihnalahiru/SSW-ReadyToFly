@@ -256,56 +256,8 @@ async function handle(request, env) {
     }
 
     if (path === "/api/auth/recover-password" && request.method === "POST") {
-      const body = await readJson(request);
-      const username = normalizeUsername(body.username);
-      const suppliedCode = normalizeRecoveryCode(body.recoveryCode);
-      const newPassword = body.newPassword;
-      if (!validUsername(username) || !validPassword(newPassword) || !suppliedCode) {
-        return json({
-          error: "INVALID_RECOVERY_REQUEST",
-          message: "Enter a valid username, recovery code and a password meeting the password requirements."
-        }, 400);
-      }
-      const ip = request.headers.get("CF-Connecting-IP") || "unknown";
-      const rateKey = await sha256("recovery:" + ip + ":" + username);
-      if (await rateLimited(env, rateKey)) {
-        return json({ error: "TOO_MANY_ATTEMPTS", message: "Too many recovery attempts. Please wait 15 minutes." }, 429);
-      }
-      const user = await env.DB.prepare(
-        "SELECT id,username,recovery_code_hash FROM users WHERE username=? COLLATE NOCASE AND disabled_at IS NULL"
-      ).bind(username).first();
-      const suppliedHash = await sha256(suppliedCode);
-      if (!user || !user.recovery_code_hash || !constantTimeEqual(suppliedHash, user.recovery_code_hash)) {
-        await recordFailure(env, rateKey);
-        return json({ error: "INVALID_RECOVERY", message: "Username or recovery code is incorrect." }, 401);
-      }
-      const replacement = generateRecoveryCode();
-      const replacementHash = await sha256(replacement.normalized);
-      const pw = await passwordHash(newPassword);
-      const now = Date.now();
-      const results = await env.DB.batch([
-        env.DB.prepare(
-          "UPDATE users SET password_hash=?,password_salt=?,recovery_code_hash=?,updated_at=? " +
-          "WHERE id=? AND recovery_code_hash=?"
-        ).bind(pw.hash, pw.salt, replacementHash, now, user.id, user.recovery_code_hash),
-        env.DB.prepare(
-          "DELETE FROM sessions WHERE user_id=? AND EXISTS " +
-          "(SELECT 1 FROM users WHERE id=? AND recovery_code_hash=?)"
-        ).bind(user.id, user.id, replacementHash),
-        env.DB.prepare("DELETE FROM auth_rate_limits WHERE bucket_key=?").bind(rateKey)
-      ]);
-      const changed = results[0] && results[0].meta ? results[0].meta.changes : 0;
-      if (!changed) {
-        return json({ error: "INVALID_RECOVERY", message: "This recovery code has already been used. Try your newest recovery code." }, 401);
-      }
-      return json({
-        ok: true,
-        username: user.username,
-        recoveryCode: replacement.display,
-        message: "Password updated. Your previous recovery code is now invalid. Save this new code securely."
-      });
+      return json({ error: "ADMIN_APPROVAL_REQUIRED", message: "Password reset now requires administrator approval." }, 410);
     }
-
 
     if (path === "/api/auth/reset-request" && request.method === "POST") {
       const body = await readJson(request);
@@ -316,12 +268,13 @@ async function handle(request, env) {
       if (await rateLimited(env, rateKey)) {
         return json({ error: "TOO_MANY_ATTEMPTS", message: "Please wait before requesting another reset." }, 429);
       }
+      await recordFailure(env, rateKey);
       const user = await env.DB.prepare(
         "SELECT id,username FROM users WHERE username=? COLLATE NOCASE AND disabled_at IS NULL"
       ).bind(username).first();
       // Return the same public response whether or not the username exists.
       const response = { ok: true, message: "If the account exists, an administrator will review the request." };
-      if (!user) return json(response, 202);
+      if (!user) return json({ ...response, requestId: randomToken(24), requestSecret: randomToken(32) }, 202);
       const recent = await env.DB.prepare(
         "SELECT id FROM password_reset_requests WHERE user_id=? AND status IN ('pending','approved') AND created_at>?"
       ).bind(user.id, Date.now() - 30 * 60 * 1000).first();
@@ -349,7 +302,7 @@ async function handle(request, env) {
       const row = await env.DB.prepare(
         "SELECT id,status,expires_at FROM password_reset_requests WHERE id=? AND request_secret_hash=?"
       ).bind(body.requestId, await sha256(body.requestSecret)).first();
-      if (!row) return json({ error: "REQUEST_NOT_FOUND" }, 404);
+      if (!row) return json({ status: "pending" });
       if (row.status === "approved" && row.expires_at && row.expires_at <= Date.now()) {
         await env.DB.prepare("UPDATE password_reset_requests SET status='expired' WHERE id=? AND status='approved'")
           .bind(row.id).run();
