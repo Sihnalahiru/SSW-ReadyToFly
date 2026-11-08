@@ -5,11 +5,12 @@ workers_dev = true
 
 [vars]
 APP_ORIGIN = "https://REPLACE-WITH-YOUR-APP-DOMAIN"
+MAIL_FROM = "ReadyToFly <noreply@REPLACE-WITH-YOUR-DOMAIN>"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "readytofly-auth"
-database_id = "REPLACE_AFTER_CREATING_D1"
+database_name = "readytofly-db"
+database_id = "363d4dae-f519-4f67-8f17-66e8b5fd7293"
 migrations_dir = "migrations"
 
 # Add secrets with Wrangler; never commit secret values:
