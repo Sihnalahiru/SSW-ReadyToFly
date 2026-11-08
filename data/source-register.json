@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0.0",
+  "project": "ReadyToFly — SSW Airport Ground Handling",
+  "status": "PARTIAL_SOURCE_REGISTER",
+  "rule": "This register contains only source files and audit artifacts explicitly confirmed in repository commits or fetched audit reports. It is not an exhaustive repository tree.",
+  "source_documents": [
+    {
+      "id": "am-book-1",
+      "title": "AM Book 1 – Basic Skills",
+      "filename": "AMtext_1.basic skills(3).pdf",
+      "physical_pdf_pages": 26,
+      "archive_image_assets": 42,
+      "source_presence": "REFERENCED_IN_VERIFIED_AUDIT_REPORT",
+      "image_audit": "assets/data/Extra Syllabus/AMtext_1_basic_skills_pdf_image_audit.json",
+      "semantic_mapping": "PARTIAL"
+    },
+    {
+      "id": "am-book-2",
+      "title": "AM Book 2 – Occupational Safety and Maintenance Quality",
+      "filename": "AMtext_2.Occupational Safety and Maintenance Quality(3).pdf",
+      "physical_pdf_pages": 20,
+      "archive_image_assets": 45,
+      "source_presence": "REFERENCED_IN_VERIFIED_AUDIT_REPORT",
+      "image_audit": "assets/data/Extra Syllabus/AMtext_2_occupational_safety_quality_pdf_image_audit.json",
+      "semantic_mapping": "PARTIAL"
+    },
+    {
+      "id": "am-book-3",
+      "title": "AM Book 3 – Airplane General",
+      "filename": "AMtext_3.Airplane General(3).pdf",
+      "physical_pdf_pages": 24,
+      "archive_image_assets": 109,
+      "source_presence": "REFERENCED_IN_VERIFIED_AUDIT_REPORT",
+      "image_audit": "assets/data/Extra Syllabus/AMtext_3_airplane_general_pdf_image_audit.json",
+      "semantic_mapping": "PARTIAL"
+    }
+  ],
+  "verified_audit_artifacts": [
+    {
+      "path": "assets/data/Extra Syllabus/AM_Books_1_to_3_Master_Image_Audit_Reconciliation.json",
+      "status": "FETCHED_AND_REVIEWED",
+      "scope": "3 AM books; 70 PDF pages; 196 archive images; 188 exact pixel matches; 8 near-equivalent matches; 0 unmatched; 0 missing."
+    },
+    {
+      "path": "assets/data/Extra Syllabus/AM_Book3_Figure7_Japanese_source_text_and_crop_audit.json",
+      "status": "FETCHED_AND_REVIEWED",
+      "scope": "30 crop assets; source-page Japanese text transcribed; per-crop glyph association pending."
+    },
+    {
+      "path": "assets/data/Extra Syllabus/AM_Book3_Figure7_remaining_fragment_type_inventory.json",
+      "status": "FETCHED_AND_REVIEWED",
+      "scope": "71 page 12–13 assets visually grouped; exact arrow endpoint mappings remain pending."
+    },
+    {
+      "path": "assets/animations/ASSET-INVENTORY.json",
+      "status": "FETCHED_AND_REVIEWED",
+      "scope": "3 Lottie files in one known upload commit only; not a complete historical asset inventory."
+    }
+  ],
+  "syllabus_versions": [
+    {
+      "id": "legacy",
+      "status": "PENDING_COMPLETE_SOURCE_INVENTORY",
+      "note": "Must be audited as a separate syllabus version."
+    },
+    {
+      "id": "revised",
+      "status": "PENDING_OFFICIAL_SOURCE_IDENTIFICATION",
+      "note": "Do not merge with legacy syllabus."
+    }
+  ],
+  "completeness": {
+    "repository_tree_enumerated": false,
+    "all_source_files_verified": false,
+    "all_media_files_verified": false,
+    "all_semantic_mappings_verified": false,
+    "all_study_records_loaded": false,
+    "missing_or_unverified_data_policy": "Record every discovered source; preserve original filenames; mark unavailable evidence PENDING; never silently omit or infer."
+  }
+}
