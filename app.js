@@ -9,7 +9,7 @@ import { renderQuiz } from './app/quiz.js';
  'use strict';
  const loginScreen=document.getElementById('login-screen'),application=document.getElementById('application'),form=document.getElementById('auth-form'),message=document.getElementById('auth-message');
  const renderers={dashboard:renderDashboard,study:renderStudy,vocabulary:renderVocabulary,quiz:renderQuiz,exam:renderExam,progress:renderProgress};
- let authMode='login', currentUser=null, progressData={};
+ let authMode='login', currentUser=null, progressData={}, viewTransitionTimer=null;
  const params=new URLSearchParams(location.search);
  const cookieValue=name=>document.cookie.split('; ').find(v=>v.startsWith(name+'='))?.split('=').slice(1).join('=')||'';
  async function api(path,options={}) {
@@ -44,8 +44,14 @@ import { renderQuiz } from './app/quiz.js';
  function showView(name){
   const current=renderers[name]?name:'dashboard';
   document.querySelectorAll('.nav-item[data-view],.mobile-nav-item[data-view]').forEach(el=>{const active=el.dataset.view===current;el.classList.toggle('active',active);if(active)el.setAttribute('aria-current','page');else el.removeAttribute('aria-current');});
-  document.getElementById('app').innerHTML=renderers[current]();
-  window.scrollTo({top:0,behavior:'smooth'});
+  const appRoot=document.getElementById('app');
+  const loader=document.getElementById('section-loader');
+  const render=()=>{appRoot.innerHTML=renderers[current]();window.scrollTo({top:0,behavior:'smooth'});if(loader)loader.hidden=true;};
+  if(appRoot.innerHTML.trim()&&loader){
+   loader.hidden=false;
+   if(viewTransitionTimer)clearTimeout(viewTransitionTimer);
+   viewTransitionTimer=setTimeout(render,650);
+  }else render();
  }
  async function loadProgress(){
   try{const result=await api('progress');progressData=Object.fromEntries((result.items||[]).map(x=>[x.key,x.data]));localStorage.setItem('readytofly-progress-cache',JSON.stringify({userId:currentUser.id,data:progressData}));}
