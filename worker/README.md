@@ -7,54 +7,56 @@ Cloudflare Worker authentication backend for the ReadyToFly SSW Ground Handling 
 - Worker entry: `worker/src/index.js`
 - Static PWA assets: `public/`
 - D1 database: `readytofly-db` (bind as `DB`)
-- Migration: `migrations/0001_auth_and_progress.sql`
-- Transactional email: Cloudflare Email Service binding `EMAIL`
+- Authentication migration: `migrations/0001_auth_and_progress.sql`
+- Username/recovery migration: `migrations/0003_username_recovery_auth.sql`
+- No email provider, sender domain, or email binding is required.
 
-## Implemented API
+## Authentication API
 
-- POST `/api/auth/register` — create an account and send email verification
-- POST `/api/auth/verify` — verify the single-use email token
-- POST `/api/auth/login` — sign in with email and password
-- GET `/api/auth/me` — restore the current session
-- POST `/api/auth/logout` — revoke the current session
-- POST `/api/auth/forgot-password` — request a password reset email
-- POST `/api/auth/reset-password` — set a new password; revoke all sessions
-- GET/PUT `/api/progress` — read/write private progress items scoped to the authenticated user
+- POST `/api/auth/register` — create a username/password account and return a one-time recovery code.
+- POST `/api/auth/login` — sign in with username and password.
+- POST `/api/auth/recover-password` — reset the password using username and recovery code; rotate the recovery code and revoke all active sessions.
+- GET `/api/auth/me` — restore the current session.
+- POST `/api/auth/logout` — revoke the current session.
+- GET/PUT `/api/progress` — read/write private progress items scoped to the authenticated user.
 
 ## Security design
 
 - Passwords use PBKDF2-HMAC-SHA-256 with 310,000 iterations and a per-user random salt.
-- Session tokens and email verification/reset tokens are random and stored only as SHA-256 hashes.
-- Session cookies are Secure, HttpOnly and SameSite=Lax; the CSRF cookie is readable by the client and validated against a hash stored in D1.
-- Email verification and reset tokens are purpose-bound, single-use and expire.
-- Password reset invalidates every active session for that user.
-- Progress records are always queried and written with the authenticated session's user id.
-- Login failures are throttled in D1; API responses use no-store caching.
-- Source learning data remains in GitHub. Only personal progress is stored in D1.
+- Recovery codes contain 128 bits of cryptographically secure randomness. Only a SHA-256 hash is stored in D1.
+- A recovery code is single-use: successful recovery rotates it and invalidates every active session.
+- Recovery codes are returned only at account creation and successful recovery. The UI displays each code once and does not store it in browser storage.
+- Session tokens are random and stored only as SHA-256 hashes. Session cookies are Secure, HttpOnly and SameSite=Lax.
+- CSRF tokens are validated against a hash stored in D1.
+- Login, registration and recovery attempts are rate-limited in D1.
+- API responses use no-store caching.
+- Source learning data remains in GitHub. Personal progress is stored in D1 and scoped to the authenticated user.
 
-## Cloudflare configuration
+## Existing D1 compatibility
 
-The repository config uses the existing D1 database id recorded for `readytofly-db`. Before deploying:
+The existing `users.email` column is NOT NULL in the deployed schema. Username-only accounts therefore receive a reserved `.invalid` internal address (for example, `student@accounts.readytofly.invalid`) solely to satisfy the legacy column. It is never used to send or receive email. The app exposes usernames, not this internal value.
 
-1. Confirm the D1 database exists in the same Cloudflare account and that its ID matches `wrangler.toml`.
-2. Onboard the email sending domain in Cloudflare Email Service and configure SPF, DKIM and DMARC.
-3. Replace `APP_ORIGIN` with the exact production app origin (scheme + hostname, no trailing slash).
-4. Replace `MAIL_FROM` with an authorized sender address on the onboarded domain.
-5. Apply the migration to the intended D1 environment.
-6. Deploy the Worker and test registration, verification, login, logout, password reset and two-user progress isolation.
+The live D1 users table was checked and contained zero accounts before this migration. The migration adds nullable username and recovery hash columns and unique indexes without deleting existing tables or progress data.
 
-Commands:
+## Deployment
+
+1. Confirm the `DB` binding points to `readytofly-db`.
+2. Apply `migrations/0003_username_recovery_auth.sql` to the remote D1 database.
+3. Deploy the Worker and PWA assets.
+4. Test account creation, sign-in, one-time recovery-code rotation, logout and two-user progress isolation.
+5. Remove any old `EMAIL` binding from the Worker dashboard; email is no longer used.
+
+Example Wrangler commands from the repository root:
 
 ```bash
 npx wrangler d1 migrations apply readytofly-db --remote
 npx wrangler deploy
 ```
 
-Do not deploy while the APP_ORIGIN or MAIL_FROM placeholders remain. Do not run the production migration until the database ID and target environment have been confirmed in the Cloudflare dashboard.
+Do not manually run the new migration in D1 Console and then run Wrangler migrations without first reconciling migration history. Use one migration application method consistently.
 
-## Current limitations
+## Limitations
 
-- Cloudflare resources are not changed by GitHub commits. D1 migration, Email Service domain onboarding, bindings and Worker deployment still require Cloudflare-side setup.
-- End-to-end tests against the live Cloudflare account have not yet been run.
-- Study modules and their verified content are still being audited; progress sync infrastructure is ready for stable lesson, vocabulary and exam keys, but the study UI must emit progress events when those learning interactions are implemented.
+- If a user loses both their password and their current recovery code, the account cannot be recovered through this self-service flow. Keep the recovery code offline and private.
+- End-to-end tests against the live Cloudflare account must be completed before public launch.
 - Configure Cloudflare WAF/rate limiting and monitor authentication endpoints before public launch.
