@@ -1,0 +1,107 @@
+{
+  "report_title": "AM Book 3 Figure 7 – Remaining Fragment Type Inventory",
+  "source_pdf": "AMtext_3.Airplane General(3).pdf",
+  "scope": "Figure 7 extracted assets 31.jpg–101.jpg on physical pages 12–13",
+  "status": "VISUAL TYPE CLASSIFICATION COMPLETE; INDIVIDUAL TARGET ASSOCIATIONS PENDING",
+  "method": "Compared contact sheet crops, recorded PDF placement bounding boxes and OCR excerpts, and grouped only by visible fragment type. No arrow endpoint or exact aircraft target is inferred from crop proximity.",
+  "page12": {
+    "physical_page": 12,
+    "printed_page": 10,
+    "groups": [
+      {
+        "assets": "31.jpg",
+        "count": 1,
+        "type": "full aircraft top-view diagram/model image",
+        "status": "FIGURE GROUP VERIFIED",
+        "notes": "Main composite/top-view image; not an individual label fragment."
+      },
+      {
+        "assets": "32.jpg–33.jpg",
+        "count": 2,
+        "type": "thin line/leader fragments",
+        "status": "PENDING",
+        "notes": "Line fragments; exact callout target not established."
+      },
+      {
+        "assets": "34.jpg–45.jpg",
+        "count": 12,
+        "type": "English label crops and adjacent diagram fragments",
+        "status": "TEXT PARTLY VERIFIED",
+        "notes": "Includes clear label crops for I/B Aileron, Elevator, O/B Trailing Edge Flap, O/B and I/B Leading Edge Slat, Spoiler, I/B Trailing Edge Flap, O/B Aileron. Other files are adjacent line/diagram fragments."
+      },
+      {
+        "assets": "46.jpg–59.jpg",
+        "count": 14,
+        "type": "small Japanese text/diagram crops from aircraft surface",
+        "status": "PENDING",
+        "notes": "Crops are incomplete; OCR does not support reliable full-term transcription or individual target association."
+      },
+      {
+        "assets": "60.jpg–65.jpg",
+        "count": 6,
+        "type": "Horizontal Stabilizer label/text and surface crops",
+        "status": "TEXT PARTLY VERIFIED",
+        "notes": "65.jpg visibly contains Horizontal Stabilizer; remaining crops are partial label/surface fragments."
+      },
+      {
+        "assets": "66.jpg–79.jpg",
+        "count": 14,
+        "type": "narrow vertical/diagonal line, arrow or leader fragments",
+        "status": "PENDING",
+        "notes": "Likely diagram callout geometry; exact arrow endpoints and target surfaces cannot be assigned from isolated crops."
+      }
+    ],
+    "total_assets": 49
+  },
+  "page13": {
+    "physical_page": 13,
+    "printed_page": 11,
+    "groups": [
+      {
+        "assets": "80.png–82.jpg",
+        "count": 3,
+        "type": "small Japanese text/label fragments",
+        "status": "PENDING",
+        "notes": "Cropped text is incomplete; exact term not reliably established."
+      },
+      {
+        "assets": "83.jpg",
+        "count": 1,
+        "type": "full aircraft underside photograph",
+        "status": "FIGURE GROUP VERIFIED",
+        "notes": "Composite aircraft image in Figure 7."
+      },
+      {
+        "assets": "84.jpg–88.jpg",
+        "count": 5,
+        "type": "English label crops",
+        "status": "TEXT PARTLY VERIFIED",
+        "notes": "Visible label text includes Leading Edge Slat, I/B Trailing Edge Flap, O/B Trailing Edge Flap, I/B Aileron and Main Wing."
+      },
+      {
+        "assets": "89.png–101.jpg",
+        "count": 13,
+        "type": "Japanese text crops / label fragments",
+        "status": "PENDING",
+        "notes": "Partial Japanese text and surface labels; no complete term or exact target is inferred where crop is incomplete."
+      }
+    ],
+    "total_assets": 22
+  },
+  "summary": {
+    "total_assets_in_scope": 71,
+    "assets_grouped_by_visual_type": 71,
+    "full_composite_images": 2,
+    "English_label_crop_groups": "identified; some label text already verified in separate label audit",
+    "Japanese_incomplete_text_fragments": 30,
+    "likely_line_arrow_geometry_fragments": 16,
+    "exact_arrow_endpoint_to_component_mappings_added": 0,
+    "individual_fragment_target_association_remaining": "PENDING"
+  },
+  "limitations": [
+    "Visual type classification does not establish semantic component identity.",
+    "The Japanese crops are not treated as complete terms unless the entire label is legible.",
+    "The line/arrow fragments need page-coordinate overlay or full diagram geometry to identify endpoints.",
+    "Previously verified page-level label-to-component mappings remain separate from this fragment inventory."
+  ]
+}
