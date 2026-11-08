@@ -1,0 +1,102 @@
+{
+  "project": "SSW-ReadyToFly",
+  "module": "Airport Ground Handling",
+  "revision": "Rev 2",
+  "audit_type": "STRUCTURAL_JSON_AUDIT_NOT_SOURCE_VERIFICATION",
+  "audit_date": "2026-11-08",
+  "source_files": [
+    "GHtext_2_Airport_Ground_Handling_REV2.1_Part1_Pages_1_to_5.json",
+    "GHtext_2_Airport_Ground_Handling_REV2.1_Part2_Pages_6_to_10.json",
+    "GHtext_2_Airport_Ground_Handling_REV2.1_Part3_Pages_11_to_15.json",
+    "GHtext_2_Airport_Ground_Handling_REV2.1_Part4_Pages_16_to_20.json",
+    "GHtext_2_Airport_Ground_Handling_REV2.1_Part5_Pages_21_to_25.json",
+    "GHtext_2_Airport_Ground_Handling_REV2.1_Part6_Pages_26_to_31_Final.json"
+  ],
+  "counts": {
+    "json_page_records": 31,
+    "study_sections": 31,
+    "vocabulary_records": 81,
+    "image_references": 62,
+    "actual_image_files": 84,
+    "existing_image_references": 0,
+    "missing_image_references": 62
+  },
+  "findings": [
+    {
+      "id": "AGH-R2-001",
+      "severity": "BLOCKER",
+      "status": "CONFIRMED_REPOSITORY_PATH_MISMATCH",
+      "finding": "All 62 image paths referenced by the six JSON batches use zero-padded filenames 001.jpg–062.jpg, but none of those names exists in the matching image directory. The directory contains 84 files with a different filename set.",
+      "action": "Do not silently rename or remap. Inspect the 84 actual files and establish page relationships from visual/source evidence."
+    },
+    {
+      "id": "AGH-R2-002",
+      "severity": "HIGH",
+      "status": "STRUCTURAL_INCOMPLETENESS",
+      "finding": "18 of 31 Japanese section records contain ellipses in furigana and/or romaji fields, indicating truncated readings.",
+      "affected_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        26
+      ],
+      "action": "Complete readings only after checking the exact Japanese source text and a reliable reading reference; otherwise mark PENDING."
+    },
+    {
+      "id": "AGH-R2-003",
+      "severity": "HIGH",
+      "status": "CHARACTER_SET_ERROR",
+      "finding": "Page 4 section romaji contains Japanese-script characters within a Latin romaji field.",
+      "affected_pages": [
+        4
+      ],
+      "action": "Correct only after verifying the Japanese source and intended transcription."
+    },
+    {
+      "id": "AGH-R2-004",
+      "severity": "PENDING",
+      "status": "SOURCE_COMPARISON_REQUIRED",
+      "finding": "The 31 page records, their one-section-per-page structure, translations, narration, and vocabulary have not been compared against the source PDF.",
+      "action": "Perform PDF page-by-page audit before accepting content."
+    },
+    {
+      "id": "AGH-R2-005",
+      "severity": "PENDING",
+      "status": "VISUAL_REVIEW_REQUIRED",
+      "finding": "84 image files have filename inventory only; dimensions, visual content, QR/code status, and page mappings are not yet visually reviewed.",
+      "action": "Inspect actual assets individually; map only with evidence."
+    },
+    {
+      "id": "AGH-R2-006",
+      "severity": "PENDING",
+      "status": "READING_REVIEW_REQUIRED",
+      "finding": "Vocabulary fields are structurally populated (81/81) but furigana and romaji accuracy has not been independently validated.",
+      "action": "Native Japanese or authoritative reading review remains required."
+    }
+  ],
+  "field_presence_check": {
+    "section_records_with_missing_required_fields": 0,
+    "vocabulary_records_with_missing_japanese_furigana_romaji_english_sinhala": 0
+  },
+  "limitations": [
+    "This is a structural audit of existing JSON and repository paths, not a verification of source accuracy.",
+    "The PDF binary has not yet been extracted for page-level comparison.",
+    "Do not treat populated fields as evidence of correctness.",
+    "Do not merge Rev 1 assets or data into this Rev 2 module."
+  ],
+  "overall_status": "BLOCKED_PENDING_SOURCE_PDF_AND_IMAGE_VISUAL_AUDIT"
+}
