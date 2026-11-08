@@ -1,213 +1,520 @@
 {
-  "audit_title": "AM Book 1 — Basic Skills PDF Image Extraction & Exact-Match Audit",
+  "audit_title": "AM Book 1 — Basic Skills PDF Image Extraction & Exact Pixel-Match Audit",
   "source_pdf": "AMtext_1.basic skills.pdf",
   "uploaded_source_filename": "AMtext_1.basic skills(3).pdf",
+  "supplied_image_archive": "AMtext_1.basic skills  - Images.zip",
   "pdf_page_count": 26,
-  "printed_page_range_observed": "Cover and front matter followed by printed pages 1–24",
-  "extraction_method": "PyMuPDF extract_image; exact GitHub Git-blob SHA-1 comparison against extracted PDF image bytes",
   "extraction_summary": {
-    "total_image_occurrences_across_pages": 1244,
+    "total_pdf_image_occurrences": 1244,
     "unique_pdf_image_xrefs": 1223,
-    "unique_extracted_image_payloads": 1223,
-    "github_assets_in_book1_folder": 42,
-    "exact_byte_matched_github_assets": 23,
-    "unmatched_github_assets_pending": 19
+    "github_image_folder_files": 42,
+    "archive_image_files": 42,
+    "jpg_files": 23,
+    "png_files": 19,
+    "exact_decoded_pixel_matches": 42,
+    "unmatched_assets": 0,
+    "missing_assets_detected": 0
   },
-  "exact_asset_matches": {
-    "0.jpg": {
-      "pdf_page": 1,
-      "xref": 2695,
+  "verification_method": "Extracted PDF image xrefs with PyMuPDF; decoded both PDF image payloads and ZIP originals to RGBA; compared dimensions and every pixel exactly. No resizing, threshold, or perceptual tolerance used.",
+  "verified_assets": [
+    {
+      "file": "0.jpg",
+      "pdf_pages": [
+        1
+      ],
+      "pdf_xref": 2695,
       "size_bytes": 7908,
       "width": 207,
-      "height": 142
+      "height": 142,
+      "decoded_pixel_match": "EXACT"
     },
-    "1.jpg": {
-      "pdf_page": 1,
-      "xref": 2696,
+    {
+      "file": "1.jpg",
+      "pdf_pages": [
+        1
+      ],
+      "pdf_xref": 2696,
       "size_bytes": 122748,
       "width": 1379,
-      "height": 459
+      "height": 459,
+      "decoded_pixel_match": "EXACT"
     },
-    "2.jpg": {
-      "pdf_page": 1,
-      "xref": 2697,
+    {
+      "file": "2.jpg",
+      "pdf_pages": [
+        1
+      ],
+      "pdf_xref": 2697,
       "size_bytes": 78769,
       "width": 1379,
-      "height": 458
+      "height": 458,
+      "decoded_pixel_match": "EXACT"
     },
-    "3.jpg": {
-      "pdf_pages": "3–24",
-      "xref": 1960,
+    {
+      "file": "3.jpg",
+      "pdf_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "pdf_xref": 1960,
       "size_bytes": 3981,
       "width": 118,
       "height": 81,
-      "notes": "Repeated footer/logo asset"
+      "decoded_pixel_match": "EXACT"
     },
-    "1191.jpg": {
-      "pdf_page": 11,
-      "xref": 1879,
+    {
+      "file": "4.png",
+      "pdf_pages": [
+        6
+      ],
+      "pdf_xref": 21,
+      "size_bytes": 256264,
+      "width": 859,
+      "height": 769,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "5.png",
+      "pdf_pages": [
+        7
+      ],
+      "pdf_xref": 25,
+      "size_bytes": 130731,
+      "width": 1096,
+      "height": 490,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "6.png",
+      "pdf_pages": [
+        7
+      ],
+      "pdf_xref": 26,
+      "size_bytes": 33607,
+      "width": 507,
+      "height": 224,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "7.png",
+      "pdf_pages": [
+        8
+      ],
+      "pdf_xref": 30,
+      "size_bytes": 54987,
+      "width": 1025,
+      "height": 232,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "220.png",
+      "pdf_pages": [
+        9
+      ],
+      "pdf_xref": 902,
+      "size_bytes": 10990,
+      "width": 142,
+      "height": 114,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1190.png",
+      "pdf_pages": [
+        11
+      ],
+      "pdf_xref": 1878,
+      "size_bytes": 122710,
+      "width": 911,
+      "height": 643,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1191.jpg",
+      "pdf_pages": [
+        11
+      ],
+      "pdf_xref": 1879,
       "size_bytes": 43209,
       "width": 1264,
-      "height": 239
+      "height": 239,
+      "decoded_pixel_match": "EXACT"
     },
-    "1195.jpg": {
-      "pdf_page": 14,
-      "xref": 1893,
+    {
+      "file": "1192.png",
+      "pdf_pages": [
+        13
+      ],
+      "pdf_xref": 1886,
+      "size_bytes": 10923,
+      "width": 261,
+      "height": 139,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1193.png",
+      "pdf_pages": [
+        13
+      ],
+      "pdf_xref": 1887,
+      "size_bytes": 23810,
+      "width": 516,
+      "height": 133,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1194.png",
+      "pdf_pages": [
+        13
+      ],
+      "pdf_xref": 1888,
+      "size_bytes": 18529,
+      "width": 494,
+      "height": 141,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1195.jpg",
+      "pdf_pages": [
+        14
+      ],
+      "pdf_xref": 1893,
       "size_bytes": 17089,
       "width": 745,
-      "height": 148
+      "height": 148,
+      "decoded_pixel_match": "EXACT"
     },
-    "1196.jpg": {
-      "pdf_page": 14,
-      "xref": 1894,
+    {
+      "file": "1196.jpg",
+      "pdf_pages": [
+        14
+      ],
+      "pdf_xref": 1894,
       "size_bytes": 38294,
       "width": 907,
-      "height": 277
+      "height": 277,
+      "decoded_pixel_match": "EXACT"
     },
-    "1199.jpg": {
-      "pdf_page": 14,
-      "xref": 1897,
+    {
+      "file": "1197.png",
+      "pdf_pages": [
+        14
+      ],
+      "pdf_xref": 1895,
+      "size_bytes": 325,
+      "width": 240,
+      "height": 110,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1198.png",
+      "pdf_pages": [
+        14
+      ],
+      "pdf_xref": 1896,
+      "size_bytes": 464,
+      "width": 271,
+      "height": 175,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1199.jpg",
+      "pdf_pages": [
+        14
+      ],
+      "pdf_xref": 1897,
       "size_bytes": 2150,
       "width": 273,
-      "height": 94
+      "height": 94,
+      "decoded_pixel_match": "EXACT"
     },
-    "1200.jpg": {
-      "pdf_page": 14,
-      "xref": 1898,
+    {
+      "file": "1200.jpg",
+      "pdf_pages": [
+        14
+      ],
+      "pdf_xref": 1898,
       "size_bytes": 2735,
       "width": 505,
-      "height": 110
+      "height": 110,
+      "decoded_pixel_match": "EXACT"
     },
-    "1201.jpg": {
-      "pdf_page": 14,
-      "xref": 1899,
+    {
+      "file": "1201.jpg",
+      "pdf_pages": [
+        14
+      ],
+      "pdf_xref": 1899,
       "size_bytes": 1821,
       "width": 272,
-      "height": 94
+      "height": 94,
+      "decoded_pixel_match": "EXACT"
     },
-    "1203.jpg": {
-      "pdf_page": 16,
-      "xref": 1908,
+    {
+      "file": "1202.png",
+      "pdf_pages": [
+        16
+      ],
+      "pdf_xref": 1907,
+      "size_bytes": 71834,
+      "width": 811,
+      "height": 227,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1203.jpg",
+      "pdf_pages": [
+        16
+      ],
+      "pdf_xref": 1908,
       "size_bytes": 14154,
       "width": 245,
-      "height": 205
+      "height": 205,
+      "decoded_pixel_match": "EXACT"
     },
-    "1204.jpg": {
-      "pdf_page": 17,
-      "xref": 1913,
+    {
+      "file": "1204.jpg",
+      "pdf_pages": [
+        17
+      ],
+      "pdf_xref": 1913,
       "size_bytes": 38583,
       "width": 696,
-      "height": 511
+      "height": 511,
+      "decoded_pixel_match": "EXACT"
     },
-    "1205.jpg": {
-      "pdf_page": 17,
-      "xref": 1914,
+    {
+      "file": "1205.jpg",
+      "pdf_pages": [
+        17
+      ],
+      "pdf_xref": 1914,
       "size_bytes": 16715,
       "width": 542,
-      "height": 164
+      "height": 164,
+      "decoded_pixel_match": "EXACT"
     },
-    "1207.jpg": {
-      "pdf_page": 17,
-      "xref": 1916,
+    {
+      "file": "1206.png",
+      "pdf_pages": [
+        17
+      ],
+      "pdf_xref": 1915,
+      "size_bytes": 32954,
+      "width": 245,
+      "height": 347,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1207.jpg",
+      "pdf_pages": [
+        17
+      ],
+      "pdf_xref": 1916,
       "size_bytes": 7333,
       "width": 292,
-      "height": 291
+      "height": 291,
+      "decoded_pixel_match": "EXACT"
     },
-    "1208.jpg": {
-      "pdf_page": 17,
-      "xref": 1917,
+    {
+      "file": "1208.jpg",
+      "pdf_pages": [
+        17
+      ],
+      "pdf_xref": 1917,
       "size_bytes": 7241,
       "width": 300,
-      "height": 301
+      "height": 301,
+      "decoded_pixel_match": "EXACT"
     },
-    "1212.jpg": {
-      "pdf_page": 18,
-      "xref": 1924,
+    {
+      "file": "1209.png",
+      "pdf_pages": [
+        17
+      ],
+      "pdf_xref": 1918,
+      "size_bytes": 157,
+      "width": 94,
+      "height": 38,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1210.png",
+      "pdf_pages": [
+        17
+      ],
+      "pdf_xref": 1919,
+      "size_bytes": 180,
+      "width": 94,
+      "height": 38,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1211.png",
+      "pdf_pages": [
+        17
+      ],
+      "pdf_xref": 1920,
+      "size_bytes": 161,
+      "width": 129,
+      "height": 38,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1212.jpg",
+      "pdf_pages": [
+        18
+      ],
+      "pdf_xref": 1924,
       "size_bytes": 26294,
       "width": 523,
-      "height": 303
+      "height": 303,
+      "decoded_pixel_match": "EXACT"
     },
-    "1213.jpg": {
-      "pdf_page": 19,
-      "xref": 1928,
+    {
+      "file": "1213.jpg",
+      "pdf_pages": [
+        19
+      ],
+      "pdf_xref": 1928,
       "size_bytes": 8340,
       "width": 398,
-      "height": 142
+      "height": 142,
+      "decoded_pixel_match": "EXACT"
     },
-    "1214.jpg": {
-      "pdf_page": 19,
-      "xref": 1929,
+    {
+      "file": "1214.jpg",
+      "pdf_pages": [
+        19
+      ],
+      "pdf_xref": 1929,
       "size_bytes": 32217,
       "width": 988,
-      "height": 241
+      "height": 241,
+      "decoded_pixel_match": "EXACT"
     },
-    "1215.jpg": {
-      "pdf_page": 20,
-      "xref": 1933,
+    {
+      "file": "1215.jpg",
+      "pdf_pages": [
+        20
+      ],
+      "pdf_xref": 1933,
       "size_bytes": 21585,
       "width": 392,
-      "height": 373
+      "height": 373,
+      "decoded_pixel_match": "EXACT"
     },
-    "1216.jpg": {
-      "pdf_page": 21,
-      "xref": 1937,
+    {
+      "file": "1216.jpg",
+      "pdf_pages": [
+        21
+      ],
+      "pdf_xref": 1937,
       "size_bytes": 17667,
       "width": 442,
-      "height": 296
+      "height": 296,
+      "decoded_pixel_match": "EXACT"
     },
-    "1220.jpg": {
-      "pdf_page": 22,
-      "xref": 1944,
+    {
+      "file": "1217.png",
+      "pdf_pages": [
+        21
+      ],
+      "pdf_xref": 1938,
+      "size_bytes": 47125,
+      "width": 398,
+      "height": 397,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1218.png",
+      "pdf_pages": [
+        21
+      ],
+      "pdf_xref": 1939,
+      "size_bytes": 47201,
+      "width": 399,
+      "height": 345,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1219.png",
+      "pdf_pages": [
+        21
+      ],
+      "pdf_xref": 1940,
+      "size_bytes": 33607,
+      "width": 347,
+      "height": 403,
+      "decoded_pixel_match": "EXACT"
+    },
+    {
+      "file": "1220.jpg",
+      "pdf_pages": [
+        22
+      ],
+      "pdf_xref": 1944,
       "size_bytes": 49803,
       "width": 528,
-      "height": 592
+      "height": 592,
+      "decoded_pixel_match": "EXACT"
     },
-    "1221.jpg": {
-      "pdf_page": 22,
-      "xref": 1945,
+    {
+      "file": "1221.jpg",
+      "pdf_pages": [
+        22
+      ],
+      "pdf_xref": 1945,
       "size_bytes": 87015,
       "width": 745,
-      "height": 502
+      "height": 502,
+      "decoded_pixel_match": "EXACT"
     },
-    "1222.jpg": {
-      "pdf_page": 26,
-      "xref": 1958,
+    {
+      "file": "1222.jpg",
+      "pdf_pages": [
+        26
+      ],
+      "pdf_xref": 1958,
       "size_bytes": 16078,
       "width": 345,
-      "height": 236
+      "height": 236,
+      "decoded_pixel_match": "EXACT"
     }
-  },
-  "unmatched_assets_pending": [
-    "1190.png",
-    "1192.png",
-    "1193.png",
-    "1194.png",
-    "1197.png",
-    "1198.png",
-    "1202.png",
-    "1206.png",
-    "1209.png",
-    "1210.png",
-    "1211.png",
-    "1217.png",
-    "1218.png",
-    "1219.png",
-    "220.png",
-    "4.png",
-    "5.png",
-    "6.png",
-    "7.png"
   ],
-  "limitations": [
-    "Unmatched assets are not declared missing; PNG re-encoding, masks, soft masks, transparency, or composite image construction may explain differences. They remain PENDING.",
-    "The PDF contains many repeated page-furniture and small image components; xref count is not a count of independent study illustrations.",
-    "Exact-byte matching proves presence in the PDF, not semantic teaching purpose.",
-    "No existing image filename was renamed, deleted, or overwritten."
+  "pending_items": [
+    "Semantic image-to-topic/activity mapping is not established by pixel matching and remains PENDING until page content and intended instructional context are reviewed.",
+    "Repeated footer/logo file 3.jpg occurs on physical PDF pages 3–24; treat as page furniture, not 22 separate teaching illustrations."
+  ],
+  "conclusions": [
+    "All 42 image files in the supplied Book 1 ZIP are present in the source PDF as exact decoded-pixel matches.",
+    "The 19 PNG files previously unmatched by byte-level SHA-1 checks are now verified by exact decoded-pixel comparison.",
+    "No Book 1 image file is missing from the supplied PDF.",
+    "No filenames were renamed, files deleted, or image assets overwritten."
   ],
   "handling_rules": [
     "Preserve original image filenames and folder structure.",
     "Do not infer page order from numeric filenames.",
-    "Do not classify unmatched assets as missing until visual and mask/composition checks are complete.",
+    "Do not treat exact source presence as proof of semantic topic/activity mapping.",
     "Keep AM Book 1 separate from AM Books 2 and 3 and Airport Ground Handling.",
     "Mark uncertain relationships PENDING."
   ]
