@@ -1,0 +1,132 @@
+{
+  "report_title": "AM Book 3 Figure 7 – Verified Page 12–13 Label-to-Component Mapping",
+  "source_pdf": "AMtext_3.Airplane General(3).pdf",
+  "source_zip": "AMtext_3.Airplane General - Images.zip",
+  "status": "PAGE-LEVEL MAPPING VERIFIED; INDIVIDUAL ARROW-FRAGMENT MAPPING PARTIAL",
+  "mapping_basis": "Visual comparison of extracted label crops with full rendered source PDF pages 12 and 13 (physical page numbers).",
+  "verified_mappings": [
+    {
+      "page": 12,
+      "printed_page": 10,
+      "asset": "34.jpg",
+      "label": "D. I/B Aileron",
+      "component": "Inboard Aileron",
+      "status": "VERIFIED"
+    },
+    {
+      "page": 12,
+      "printed_page": 10,
+      "asset": "44.jpg",
+      "label": "D. O/B Aileron",
+      "component": "Outboard Aileron",
+      "status": "VERIFIED"
+    },
+    {
+      "page": 12,
+      "printed_page": 10,
+      "asset": "39.jpg",
+      "label": "F. Spoiler",
+      "component": "Spoiler",
+      "status": "VERIFIED"
+    },
+    {
+      "page": 12,
+      "printed_page": 10,
+      "asset": "37.jpg",
+      "label": "G. O/B Leading Edge Slat",
+      "component": "Outboard Leading Edge Slat",
+      "status": "VERIFIED"
+    },
+    {
+      "page": 12,
+      "printed_page": 10,
+      "asset": "38.jpg",
+      "label": "G. I/B Leading Edge Slat",
+      "component": "Inboard Leading Edge Slat",
+      "status": "VERIFIED"
+    },
+    {
+      "page": 12,
+      "printed_page": 10,
+      "asset": "36.jpg",
+      "label": "H. O/B Trailing Edge Flap",
+      "component": "Outboard Trailing Edge Flap",
+      "status": "VERIFIED"
+    },
+    {
+      "page": 12,
+      "printed_page": 10,
+      "asset": "43.jpg",
+      "label": "H. I/B Trailing Edge Flap",
+      "component": "Inboard Trailing Edge Flap",
+      "status": "VERIFIED"
+    },
+    {
+      "page": 12,
+      "printed_page": 10,
+      "asset": "65.jpg",
+      "label": "B. Horizontal Stabilizer",
+      "component": "Horizontal Stabilizer",
+      "status": "VERIFIED"
+    },
+    {
+      "page": 12,
+      "printed_page": 10,
+      "asset": "35.jpg",
+      "label": "C. Elevator",
+      "component": "Elevator",
+      "status": "VERIFIED"
+    },
+    {
+      "page": 13,
+      "printed_page": 11,
+      "asset": "84.png",
+      "label": "G. Leading Edge Slat",
+      "component": "Leading Edge Slat",
+      "status": "VERIFIED"
+    },
+    {
+      "page": 13,
+      "printed_page": 11,
+      "asset": "85.jpg",
+      "label": "H. I/B Trailing Edge Flap",
+      "component": "Inboard Trailing Edge Flap",
+      "status": "VERIFIED"
+    },
+    {
+      "page": 13,
+      "printed_page": 11,
+      "asset": "86.jpg",
+      "label": "H. O/B Trailing Edge Flap",
+      "component": "Outboard Trailing Edge Flap",
+      "status": "VERIFIED"
+    },
+    {
+      "page": 13,
+      "printed_page": 11,
+      "asset": "87.jpg",
+      "label": "D. I/B Aileron",
+      "component": "Inboard Aileron",
+      "status": "VERIFIED"
+    },
+    {
+      "page": 13,
+      "printed_page": 11,
+      "asset": "88.jpg",
+      "label": "A. 主翼 (Main Wing)",
+      "component": "Main Wing",
+      "status": "VERIFIED"
+    }
+  ],
+  "counts": {
+    "page12_13_verified_label_to_component_mappings": 14,
+    "individual_fragment_arrow_only_identity": "NOT FULLY VERIFIED",
+    "remaining_fragments_from_93": 79,
+    "remaining_fragments_status": "PENDING / require crop-to-arrow geometric association"
+  },
+  "limitations": [
+    "The verified status applies to the visible label-to-component relationship in the complete page diagram.",
+    "It does not establish the identity of every separate cropped arrow/line fragment.",
+    "No mapping was inferred for cropped fragments that lack readable text or a unique visual anchor."
+  ]
+}
