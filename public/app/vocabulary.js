@@ -22,7 +22,7 @@ function renderVocabularyView(root) {
  const current = list[activeIndex];
  root.innerHTML = `
   <section class="welcome"><p class="eyebrow">JAPANESE TECHNICAL LANGUAGE</p><h1>Vocabulary Center</h1><p class="muted">Explore the existing Ground Handling vocabulary master with Japanese readings and English/Sinhala meanings.</p></section>
-  <section class="panel vocab-summary"><div><strong>${records.length}</strong><span>Source records</span></div><div><strong>${list.length}</strong><span>Matching terms</span></div><div><strong>${knownIds.size}</strong><span>Marked learned · this session</span></div></section>
+  <section class="panel vocab-summary"><div><strong>${records.length}</strong><span>Source records</span></div><div><strong>${list.length}</strong><span>Matching terms</span></div><div><strong>${knownIds.size}</strong><span>Marked learned · this account</span></div></section>
   <section class="panel vocab-search-panel">
    <label for="vocab-search">Search Japanese, reading, Romaji, English or Sinhala</label>
    <input id="vocab-search" type="search" placeholder="e.g. aircraft / 航空機 / ගුවන් යානය" value="${escapeHtml(query)}">
