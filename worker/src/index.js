@@ -211,6 +211,12 @@ async function handle(request, env) {
           message: "Username must be 3–32 characters using letters, numbers, dot, underscore or hyphen. Password must be 12–128 characters with uppercase, lowercase and a number."
         }, 400);
       }
+      // The administrator identity is provisioned separately. Never allow public
+      // self-registration to claim the username trusted by ADMIN_USERNAME.
+      const configuredAdmin = normalizeUsername(env.ADMIN_USERNAME);
+      if (configuredAdmin && username === configuredAdmin) {
+        return json({ error: "USERNAME_UNAVAILABLE", message: "That username is unavailable. Choose another one." }, 409);
+      }
       const ip = request.headers.get("CF-Connecting-IP") || "unknown";
       const rateKey = await sha256("register:" + ip);
       if (await rateLimited(env, rateKey)) {
