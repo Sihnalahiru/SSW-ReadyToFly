@@ -222,8 +222,6 @@ async function handle(request, env) {
         await recordFailure(env, rateKey);
         return json({ error: "USERNAME_UNAVAILABLE", message: "That username is unavailable. Choose another one." }, 409);
       }
-      const recovery = generateRecoveryCode();
-      const recoveryHash = await sha256(recovery.normalized);
       const pw = await passwordHash(password);
       const id = crypto.randomUUID();
       const now = Date.now();
@@ -232,9 +230,9 @@ async function handle(request, env) {
       const internalEmail = username + "@accounts.readytofly.invalid";
       try {
         await env.DB.prepare(
-          "INSERT INTO users(id,email,display_name,password_hash,password_salt,email_verified,created_at,updated_at,username,recovery_code_hash) " +
-          "VALUES(?,?,?,?,?,1,?,?,?,?)"
-        ).bind(id, internalEmail, username, pw.hash, pw.salt, now, now, username, recoveryHash).run();
+          "INSERT INTO users(id,email,display_name,password_hash,password_salt,email_verified,created_at,updated_at,username) " +
+          "VALUES(?,?,?,?,?,1,?,?,?)"
+        ).bind(id, internalEmail, username, pw.hash, pw.salt, now, now, username).run();
       } catch (error) {
         // A concurrent registration may win the unique username/email race.
         if (/UNIQUE constraint failed/i.test(error.message || "")) {
@@ -247,8 +245,7 @@ async function handle(request, env) {
       return json({
         ok: true,
         user: { id, username, displayName: username },
-        recoveryCode: recovery.display,
-        message: "Account created. Save your recovery code now; it will not be shown again."
+        message: "Account created. Sign in with your username and password. If you lose your password, request administrator approval to reset it."
       }, 201);
     }
 
