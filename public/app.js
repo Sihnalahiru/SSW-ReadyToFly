@@ -181,8 +181,15 @@ import { renderQuiz } from './app/quiz.js';
     console.warn('Progress save queued:',e.message);return false;
    }
   })();
-  savePromise=run.finally(()=>{if(savePromise===wrapped)savePromise=null;});
-  const wrapped=savePromise;
+  const wrapped=run.then(result=>{
+   // If newer edits arrived while this snapshot was uploading, queue another pass.
+   if(result&&currentUser?.id===userId&&navigator.onLine&&Object.keys(readPendingQueue(userId)).length){
+    if(saveTimer)clearTimeout(saveTimer);
+    saveTimer=setTimeout(()=>flushProgress(),850);
+   }
+   return result;
+  }).finally(()=>{if(savePromise===wrapped)savePromise=null;});
+  savePromise=wrapped;
   return wrapped;
  }
  function scheduleProgressSave(){
