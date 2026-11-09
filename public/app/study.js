@@ -36,6 +36,7 @@ function renderPage(page) {
   <article class="panel study-content-card">
    <div class="study-content-meta"><span>${escapeHtml(section.type || 'study note')}</span><span>Section ${index+1}</span></div>
    <h3>${escapeHtml(section.japanese || 'Japanese source text unavailable')}</h3>
+   ${section.japanese ? '<button type="button" class="secondary-button" data-study-speak="'+index+'">▶ Listen to Japanese · device voice</button><p class="muted" data-study-speech-status="'+index+'" aria-live="polite">Device-generated voice; not a source recording.</p>' : ''}
    ${section.furigana ? `<p class="study-reading"><strong>Reading:</strong> ${escapeHtml(section.furigana)}</p>` : ''}
    ${section.romaji ? `<p class="study-romaji">${escapeHtml(section.romaji)}</p>` : ''}
    <div class="study-language-block"><span>ENGLISH</span><p>${escapeHtml(section.english || 'English text pending')}</p></div>
@@ -74,6 +75,25 @@ function mountStudy(root) {
    <section class="study-page-content" aria-live="polite">${renderPage(active)}</section>
   </div>
  `;
+ root.querySelectorAll('[data-study-speak]').forEach(button=>button.addEventListener('click',()=>{
+  const index=Number(button.dataset.studySpeak),section=active?.study_sections?.[index],status=root.querySelector('[data-study-speech-status="'+index+'"]');
+  if(!section?.japanese)return;
+  if(!('speechSynthesis' in window)||typeof window.SpeechSynthesisUtterance!=='function'){
+   if(status)status.textContent='Japanese device speech is not supported in this browser.';
+   return;
+  }
+  try{
+   window.speechSynthesis.cancel();
+   const utterance=new window.SpeechSynthesisUtterance(section.japanese);
+   utterance.lang='ja-JP';
+   const voice=window.speechSynthesis.getVoices().find(item=>item.lang?.toLowerCase().startsWith('ja'));
+   if(voice)utterance.voice=voice;
+   utterance.onstart=()=>{if(status)status.textContent='Playing Japanese device pronunciation…';};
+   utterance.onend=()=>{if(status)status.textContent='Pronunciation finished.';};
+   utterance.onerror=()=>{if(status)status.textContent='Device voice could not play this section.';};
+   window.speechSynthesis.speak(utterance);
+  }catch(error){if(status)status.textContent='Device pronunciation is currently unavailable.';}
+ }));
  root.querySelectorAll('[data-study-track]').forEach(button => button.addEventListener('click', () => {
   activeTrack = button.dataset.studyTrack; activePageId = ''; searchTerm = ''; mountStudy(root);
  }));
