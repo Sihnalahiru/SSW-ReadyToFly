@@ -274,8 +274,9 @@ import { renderQuiz } from './app/quiz.js';
  document.addEventListener('click',event=>{if(event.target.closest('[data-admin-refresh]'))loadAdminRequests();});
  document.getElementById('signout').addEventListener('click',async()=>{await flushProgress();try{await api('auth/logout',{method:'POST',body:'{}'});}catch(e){console.warn(e);}progressData={};currentUser=null;document.getElementById('admin-panel').hidden=true;showLogin();});
  const themeButton=document.getElementById('theme-toggle');
- if(localStorage.getItem('readytofly-theme')==='light')document.body.classList.add('light');
- themeButton.addEventListener('click',()=>{document.body.classList.toggle('light');localStorage.setItem('readytofly-theme',document.body.classList.contains('light')?'light':'dark');});
+ const savedTheme=safeStorageGet('readytofly-theme');
+ if(savedTheme.ok&&savedTheme.value==='light')document.body.classList.add('light');
+ themeButton.addEventListener('click',()=>{document.body.classList.toggle('light');safeStorageSet('readytofly-theme',document.body.classList.contains('light')?'light':'dark');});
  function updateConnection(){document.getElementById('connection-status').textContent=navigator.onLine?'Online':'Offline';}
  updateConnection();window.addEventListener('online',()=>{updateConnection();flushProgress();});window.addEventListener('offline',()=>{updateConnection();setSaveStatus('Offline · changes queued');});
  window.addEventListener('pagehide',()=>{if(navigator.onLine)flushProgress();});
