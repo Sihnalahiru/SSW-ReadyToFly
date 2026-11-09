@@ -58,7 +58,7 @@ import { renderQuiz } from './app/quiz.js';
   document.getElementById('auth-title').textContent='Request submitted';
   document.getElementById('auth-subtitle').textContent='Wait for the administrator to review your password reset request.';
   form.innerHTML='<p class="auth-hint">Once approved, you can create a new password here. Approval expires after 20 minutes.</p><button class="primary-button login-submit" type="button" data-reset-check>Check approval status</button><button class="text-link" type="button" data-auth-mode="login">Back to sign in</button>';
-  setMessage('Request submitted. Telegram notification sent to the administrator when configured.',false);
+  setMessage('Your request has been submitted. The administrator will review it. Telegram notification is best-effort when configured.',false);
  }
  async function checkAdminResetStatus(){
   const reset=adminResetRequest||JSON.parse(sessionStorage.getItem('rtf-admin-reset')||'null');
@@ -128,7 +128,7 @@ import { renderQuiz } from './app/quiz.js';
    for(const [key,value] of Object.entries(pending))progressData[key]=value;
    localStorage.setItem(cacheKey,JSON.stringify(progressData));
    if(Object.keys(pending).length)await flushProgress();
-   else setSaveStatus('All changes saved');
+   else setSaveStatus('Sync ready · no pending changes');
   }catch(e){
    const pending=readPendingQueue();
    try{progressData={...JSON.parse(localStorage.getItem(cacheKey)||'{}'),...pending};}catch{progressData={...pending};}
@@ -204,7 +204,7 @@ import { renderQuiz } from './app/quiz.js';
    else if(authMode==='recover'){const result=await api('auth/reset-request',{method:'POST',body:JSON.stringify(payload)});if(result.requestId&&result.requestSecret){adminResetRequest={requestId:result.requestId,requestSecret:result.requestSecret};sessionStorage.setItem('rtf-admin-reset',JSON.stringify(adminResetRequest));showAdminResetPending();}else setMessage(result.message||'If the account exists, an administrator will review the request.',false);}
    else if(authMode==='admin-reset-complete'){const reset=adminResetRequest||JSON.parse(sessionStorage.getItem('rtf-admin-reset')||'null');if(!reset)throw new Error('Reset request not found. Please start again.');const result=await api('auth/complete-admin-reset',{method:'POST',body:JSON.stringify({...reset,newPassword:payload.newPassword})});sessionStorage.removeItem('rtf-admin-reset');adminResetRequest=null;setMode('login');setMessage(result.message,false);}
   }catch(err){setMessage(err.message,true);}
-  finally{const next=form.querySelector('button[type="submit"]');if(next){next.disabled=false;next.textContent=authMode==='recovery-display'?'I have saved my code →':(authMode==='register'?'Create account →':authMode==='recover'?'Reset password →':'Sign in →');}}
+  finally{const next=form.querySelector('button[type="submit"]');if(next){next.disabled=false;next.textContent=authMode==='recovery-display'?'I have saved my code →':(authMode==='register'?'Create account →':authMode==='recover'?'Request admin approval →':'Sign in →');}}
  });
  document.addEventListener('click',event=>{const control=event.target.closest('[data-view]');if(control)showView(control.dataset.view);});
  document.getElementById('admin-panel').addEventListener('click',()=>showView('admin'));
