@@ -120,13 +120,36 @@ import { renderQuiz } from './app/quiz.js';
   if(appRoot.innerHTML.trim()&&loader){loader.hidden=false;if(viewTransitionTimer)clearTimeout(viewTransitionTimer);viewTransitionTimer=setTimeout(render,650);}else render();
  }
  let saveTimer=null,savePromise=null;
+ const volatileQueues=Object.create(null),volatileQueueMode=Object.create(null);
  function queueStorageKey(userId=currentUser?.id){return userId?'readytofly-pending:'+userId:null;}
  function cacheStorageKey(userId){return 'readytofly-progress-cache:'+userId;}
+ function safeStorageGet(key){
+  try{return {ok:true,value:localStorage.getItem(key)};}catch(error){return {ok:false,error};}
+ }
+ function safeStorageSet(key,value){
+  try{localStorage.setItem(key,value);return true;}catch(error){console.warn('Browser storage unavailable:',error?.name||error);return false;}
+ }
  function readPendingQueue(userId=currentUser?.id){
-  try{const key=queueStorageKey(userId);return key?JSON.parse(localStorage.getItem(key)||'{}'):{};}catch{return {};}
+  if(!userId)return {};
+  if(volatileQueueMode[userId])return {...(volatileQueues[userId]||{})};
+  const key=queueStorageKey(userId),stored=safeStorageGet(key);
+  if(!stored.ok){volatileQueueMode[userId]=true;return {...(volatileQueues[userId]||{})};}
+  try{
+   const parsed=stored.value?JSON.parse(stored.value):{};
+   if(!parsed||typeof parsed!=='object'||Array.isArray(parsed))throw new Error('Invalid pending queue format');
+   return {...parsed,...(volatileQueues[userId]||{})};
+  }catch(error){
+   console.warn('Pending queue could not be read; keeping this session queue in memory:',error.message);
+   volatileQueueMode[userId]=true;return {...(volatileQueues[userId]||{})};
+  }
  }
  function writePendingQueue(queue,userId=currentUser?.id){
-  const key=queueStorageKey(userId);if(key)localStorage.setItem(key,JSON.stringify(queue));
+  if(!userId)return false;
+  volatileQueues[userId]={...queue};
+  if(volatileQueueMode[userId])return false;
+  const key=queueStorageKey(userId);
+  if(!safeStorageSet(key,JSON.stringify(queue))){volatileQueueMode[userId]=true;return false;}
+  return true;
  }
  function setSaveStatus(status){
   const el=document.getElementById('footer-status');
@@ -141,13 +164,13 @@ import { renderQuiz } from './app/quiz.js';
    progressData=Object.fromEntries((result.items||[]).map(x=>[x.key,x.data]));
    const pending=readPendingQueue(userId);
    for(const [key,value] of Object.entries(pending))progressData[key]=value;
-   localStorage.setItem(cacheKey,JSON.stringify(progressData));
+   safeStorageSet(cacheKey,JSON.stringify(progressData));
    if(Object.keys(pending).length)await flushProgress();
    else setSaveStatus('Sync ready · no pending changes');
   }catch(e){
    if(currentUser?.id!==userId)return;
    const pending=readPendingQueue(userId);
-   try{progressData={...JSON.parse(localStorage.getItem(cacheKey)||'{}'),...pending};}catch{progressData={...pending};}
+   const cached=safeStorageGet(cacheKey);\n   try{progressData={...(cached.ok&&cached.value?JSON.parse(cached.value):{}),...pending};}catch{progressData={...pending};}
    setSaveStatus(navigator.onLine?'Sync unavailable':'Offline · changes queued');
    console.warn('Progress sync unavailable:',e.message);
   }
@@ -173,7 +196,7 @@ import { renderQuiz } from './app/quiz.js';
      writePendingQueue(latest,userId);
     }
     if(currentUser?.id!==userId)return false;
-    localStorage.setItem(cacheStorageKey(userId),JSON.stringify(progressData));
+    safeStorageSet(cacheStorageKey(userId),JSON.stringify(progressData));
     setSaveStatus(Object.keys(readPendingQueue(userId)).length?'Changes waiting to sync':'All changes saved');
     return true;
    }catch(e){
