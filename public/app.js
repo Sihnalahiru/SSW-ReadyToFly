@@ -17,7 +17,7 @@ import { renderQuiz } from './app/quiz.js';
  };
  async function api(path,options={}) {
   const headers={'Content-Type':'application/json',...(options.headers||{})};
-  if(options.method&&options.method!=='GET'&&options.method!=='HEAD'){const csrf=cookieValue('rtf_csrf');if(csrf)headers['X-CSRF-Token']=decodeURIComponent(csrf);}
+  if(options.method&&options.method!=='GET'&&options.method!=='HEAD'){const csrf=cookieValue('rtf_csrf');if(csrf)headers['X-CSRF-Token']=csrf;}
   const response=await fetch('/api/'+path,{...options,headers,credentials:'same-origin',cache:'no-store'});
   const data=await response.json().catch(()=>({error:'SERVER_ERROR'}));
   if(!response.ok)throw new Error(data.message||data.error||'Request failed. Please try again.');
@@ -205,7 +205,13 @@ import { renderQuiz } from './app/quiz.js';
    if(authMode==='login'){const result=await api('auth/login',{method:'POST',body:JSON.stringify(payload)});await enterApp(result.user);}
    else if(authMode==='register'){await api('auth/register',{method:'POST',body:JSON.stringify(payload)});showRegistrationSuccess();}
    else if(authMode==='recover'){const result=await api('auth/reset-request',{method:'POST',body:JSON.stringify(payload)});if(result.requestId&&result.requestSecret){adminResetRequest={requestId:result.requestId,requestSecret:result.requestSecret};sessionStorage.setItem('rtf-admin-reset',JSON.stringify(adminResetRequest));showAdminResetPending();}else setMessage(result.message||'If the account exists, an administrator will review the request.',false);}
-   else if(authMode==='admin-reset-complete'){const reset=adminResetRequest||JSON.parse(sessionStorage.getItem('rtf-admin-reset')||'null');if(!reset)throw new Error('Reset request not found. Please start again.');const result=await api('auth/complete-admin-reset',{method:'POST',body:JSON.stringify({...reset,newPassword:payload.newPassword})});sessionStorage.removeItem('rtf-admin-reset');adminResetRequest=null;setMode('login');setMessage(result.message,false);}
+   else if(authMode==='admin-reset-complete'){
+    let reset=adminResetRequest;
+    if(!reset){try{reset=JSON.parse(sessionStorage.getItem('rtf-admin-reset')||'null');}catch{sessionStorage.removeItem('rtf-admin-reset');}}
+    if(!reset||typeof reset.requestId!=='string'||typeof reset.requestSecret!=='string')throw new Error('Reset request not found. Please start again.');
+    const result=await api('auth/complete-admin-reset',{method:'POST',body:JSON.stringify({...reset,newPassword:payload.newPassword})});
+    sessionStorage.removeItem('rtf-admin-reset');adminResetRequest=null;setMode('login');setMessage(result.message,false);
+   }
   }catch(err){setMessage(err.message,true);}
   finally{const next=form.querySelector('button[type="submit"]');if(next){next.disabled=false;next.textContent=authMode==='register'?'Create account →':authMode==='recover'?'Request admin approval →':authMode==='admin-reset-complete'?'Set new password →':'Sign in →';}}
  });
