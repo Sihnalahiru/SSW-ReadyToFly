@@ -87,6 +87,8 @@ export function renderVocabulary() {
     const data=await response.json();
     if(!Array.isArray(data.records))throw new Error('Vocabulary source format is not supported.');
     records=data.records;
+    const saved=window.ReadyToFlyProgress?.get?.()||{};
+    knownIds=new Set(Object.entries(saved).filter(([key,value])=>key.startsWith('vocabulary-known:')&&value?.known).map(([key])=>key.slice('vocabulary-known:'.length)));
    }catch(error){loadError=error.message||'Vocabulary could not be loaded. Please try again while online.';root.innerHTML=`<div class="empty-state">${escapeHtml(loadError)}</div>`;return;}
   }
   renderVocabularyView(root);
