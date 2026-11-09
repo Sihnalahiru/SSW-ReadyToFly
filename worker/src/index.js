@@ -230,10 +230,19 @@ async function handle(request, env) {
       // The legacy email column is NOT NULL in the existing D1 schema.
       // A reserved .invalid address keeps the schema compatible and is never used for messaging.
       const internalEmail = username + "@accounts.readytofly.invalid";
-      await env.DB.prepare(
-        "INSERT INTO users(id,email,display_name,password_hash,password_salt,email_verified,created_at,updated_at,username,recovery_code_hash) " +
-        "VALUES(?,?,?,?,?,1,?,?,?,?)"
-      ).bind(id, internalEmail, username, pw.hash, pw.salt, now, now, username, recoveryHash).run();
+      try {
+        await env.DB.prepare(
+          "INSERT INTO users(id,email,display_name,password_hash,password_salt,email_verified,created_at,updated_at,username,recovery_code_hash) " +
+          "VALUES(?,?,?,?,?,1,?,?,?,?)"
+        ).bind(id, internalEmail, username, pw.hash, pw.salt, now, now, username, recoveryHash).run();
+      } catch (error) {
+        // A concurrent registration may win the unique username/email race.
+        if (/UNIQUE constraint failed/i.test(error.message || "")) {
+          await recordFailure(env, rateKey);
+          return json({ error: "USERNAME_UNAVAILABLE", message: "That username is unavailable. Choose another one." }, 409);
+        }
+        throw error;
+      }
       await env.DB.prepare("DELETE FROM auth_rate_limits WHERE bucket_key=?").bind(rateKey).run();
       return json({
         ok: true,
@@ -246,13 +255,13 @@ async function handle(request, env) {
     if (path === "/api/auth/login" && request.method === "POST") {
       const body = await readJson(request);
       const username = normalizeUsername(body.username);
-      const password = String(body.password || "");
+      const password = typeof body.password === "string" ? body.password : "";
       const ip = request.headers.get("CF-Connecting-IP") || "unknown";
       const rateKey = await sha256("login:" + ip + ":" + username);
       if (await rateLimited(env, rateKey)) {
         return json({ error: "TOO_MANY_ATTEMPTS", message: "Too many sign-in attempts. Please wait 15 minutes." }, 429);
       }
-      const user = validUsername(username)
+      const user = validUsername(username) && password.length <= 128
         ? await env.DB.prepare(
             "SELECT id,username,password_hash,password_salt FROM users WHERE username=? COLLATE NOCASE AND disabled_at IS NULL"
           ).bind(username).first()
@@ -460,12 +469,16 @@ async function handle(request, env) {
       }
       if (!await csrfValid(request, session)) return json({ error: "CSRF_CHECK_FAILED" }, 403);
       const body = await readJson(request, 20000);
-      const items = Array.isArray(body.items) ? body.items : [];
+      if (!Array.isArray(body.items)) return json({ error: "INVALID_PROGRESS_ITEMS" }, 400);
+      const items = body.items;
       if (items.length > 100) return json({ error: "TOO_MANY_ITEMS" }, 400);
       const now = Date.now();
       const statements = [];
       for (const item of items) {
-        const key = String(item.key || "");
+        if (!item || typeof item !== "object" || Array.isArray(item)) {
+          return json({ error: "INVALID_PROGRESS_ITEM" }, 400);
+        }
+        const key = typeof item.key === "string" ? item.key : "";
         if (!/^[a-zA-Z0-9:_-]{1,120}$/.test(key)) return json({ error: "INVALID_PROGRESS_KEY" }, 400);
         const payload = JSON.stringify(item.data ?? null);
         if (payload.length > 8000) return json({ error: "PROGRESS_ITEM_TOO_LARGE" }, 400);
