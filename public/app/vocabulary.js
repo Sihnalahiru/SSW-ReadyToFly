@@ -14,6 +14,12 @@ let listMode = 'all';
 const DAY_MS = 86400000;
 function isDue(id){const item=srsRecords[id];return Boolean(item?.dueAt)&&Date.parse(item.dueAt)<=Date.now();}
 function saveSrs(id,value){srsRecords[id]=value;window.dispatchEvent(new CustomEvent('readytofly:progress',{detail:{key:'vocabulary-srs:'+id,value}}));}
+function syncAccountVocabularyState(){
+ const saved=window.ReadyToFlyProgress?.get?.()||{};
+ knownIds=new Set(Object.entries(saved).filter(([key,value])=>key.startsWith('vocabulary-known:')&&value?.known).map(([key])=>key.slice('vocabulary-known:'.length)));
+ favoriteIds=new Set(Object.entries(saved).filter(([key,value])=>key.startsWith('vocabulary-favorite:')&&value?.favorite).map(([key])=>key.slice('vocabulary-favorite:'.length)));
+ srsRecords=Object.fromEntries(Object.entries(saved).filter(([key,value])=>key.startsWith('vocabulary-srs:')&&value&&typeof value==='object').map(([key,value])=>[key.slice('vocabulary-srs:'.length),value]));
+}
 
 function filteredRecords() {
  const term = query.trim().toLocaleLowerCase();
@@ -27,6 +33,7 @@ function filteredRecords() {
  });
 }
 function renderVocabularyView(root) {
+ syncAccountVocabularyState();
  const list = filteredRecords();
  if (activeIndex >= list.length) activeIndex = 0;
  const current = list[activeIndex];
@@ -46,6 +53,8 @@ function renderVocabularyView(root) {
      <p class="vocab-japanese">${escapeHtml(current.japanese)}</p>
      <p class="vocab-reading">${escapeHtml(current.furigana || 'Reading not supplied')}</p>
      <p class="vocab-romaji">${escapeHtml(current.romaji || '')}</p>
+     <button type="button" class="secondary-button" data-vocab-speak>▶ Play Japanese pronunciation · device voice</button>
+     <p class="muted" data-vocab-speech-status aria-live="polite">Uses the Japanese voice available on this device; not a source recording.</p>
      ${showAnswer ? `
       <div class="vocab-answer">
        <div class="study-language-block"><span>ENGLISH</span><p>${escapeHtml(current.english || 'Not supplied')}</p></div>
@@ -69,6 +78,24 @@ function renderVocabularyView(root) {
     </button>`).join('')}
   </div>${list.length>100?'<p class="muted vocab-list-limit">Showing the first 100 matching terms. Use search to narrow the list.</p>':''}</section>
  `;
+ root.querySelector('[data-vocab-speak]')?.addEventListener('click',()=>{
+  const status=root.querySelector('[data-vocab-speech-status]');
+  if(!('speechSynthesis' in window)||typeof window.SpeechSynthesisUtterance!=='function'){
+   if(status)status.textContent='Japanese device speech is not supported in this browser.';
+   return;
+  }
+  try{
+   window.speechSynthesis.cancel();
+   const utterance=new window.SpeechSynthesisUtterance(current.japanese);
+   utterance.lang='ja-JP';
+   const voice=window.speechSynthesis.getVoices().find(item=>item.lang?.toLowerCase().startsWith('ja'));
+   if(voice)utterance.voice=voice;
+   utterance.onstart=()=>{if(status)status.textContent='Playing Japanese device pronunciation…';};
+   utterance.onend=()=>{if(status)status.textContent='Pronunciation finished.';};
+   utterance.onerror=()=>{if(status)status.textContent='Device voice could not play this term. Check browser sound settings.';};
+   window.speechSynthesis.speak(utterance);
+  }catch(error){if(status)status.textContent='Device pronunciation is currently unavailable.';}
+ });
  root.querySelectorAll('[data-vocab-mode]').forEach(button=>button.addEventListener('click',()=>{listMode=button.dataset.vocabMode;activeIndex=0;showAnswer=false;renderVocabularyView(root);}));
  root.querySelector('[data-vocab-favorite]')?.addEventListener('click',()=>{if(!current)return;if(favoriteIds.has(current.id))favoriteIds.delete(current.id);else favoriteIds.add(current.id);window.dispatchEvent(new CustomEvent('readytofly:progress',{detail:{key:'vocabulary-favorite:'+current.id,value:{favorite:favoriteIds.has(current.id),updatedAt:new Date().toISOString()}}}));renderVocabularyView(root);});
  root.querySelectorAll('[data-srs]').forEach(button=>button.addEventListener('click',()=>{if(!current)return;const rating=button.dataset.srs,previous=srsRecords[current.id]||{},intervals={again:0,good:({0:1,1:3,3:7,7:14,14:30,30:30}[Number(previous.intervalDays)||0]||1),easy:({0:3,1:7,3:14,7:30,14:60,30:90}[Number(previous.intervalDays)||0]||3)};const days=intervals[rating];const due=new Date(Date.now()+(days===0?10*60*1000:days*DAY_MS));saveSrs(current.id,{rating,intervalDays:days,lastReviewedAt:new Date().toISOString(),dueAt:due.toISOString(),reviewCount:(previous.reviewCount||0)+1});renderVocabularyView(root);}));
