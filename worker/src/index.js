@@ -275,10 +275,8 @@ async function handle(request, env) {
       // Return the same public response whether or not the username exists.
       const response = { ok: true, message: "If the account exists, an administrator will review the request." };
       if (!user) return json({ ...response, requestId: randomToken(24), requestSecret: randomToken(32) }, 202);
-      const recent = await env.DB.prepare(
-        "SELECT id FROM password_reset_requests WHERE user_id=? AND status IN ('pending','approved') AND created_at>?"
-      ).bind(user.id, Date.now() - 30 * 60 * 1000).first();
-      if (recent) return json(response, 202);
+      // Each allowed attempt gets a fresh secret. This keeps the public response
+      // shape consistent while the IP+username rate limit bounds duplicate requests.
       const id = crypto.randomUUID();
       const requestSecret = randomToken(32);
       const now = Date.now();
@@ -288,9 +286,21 @@ async function handle(request, env) {
       await env.DB.prepare(
         "INSERT INTO auth_audit_log(id,user_id,action,request_id,created_at) VALUES(?,?, 'password_reset_requested', ?, ?)"
       ).bind(crypto.randomUUID(), user.id, id, now).run();
-      await notifyAdminTelegram(env,
-        "ReadyToFly password reset request\nUsername: " + user.username +
-        "\nRequest ID: " + id + "\nOpen the ReadyToFly Admin Panel to approve or reject.");
+      try {
+        const notified = await notifyAdminTelegram(env,
+          "ReadyToFly password reset request\\nUsername: " + user.username +
+          "\\nRequest ID: " + id + "\\nOpen the ReadyToFly Admin Panel to approve or reject.");
+        if (!notified) {
+          await env.DB.prepare(
+            "INSERT INTO auth_audit_log(id,user_id,action,request_id,created_at,details_json) VALUES(?,?, 'password_reset_notification_failed', ?, ?, ?)"
+          ).bind(crypto.randomUUID(), user.id, id, now, JSON.stringify({ channel: "telegram" })).run();
+        }
+      } catch (notificationError) {
+        console.error("Telegram reset notification failed:", notificationError.message);
+        await env.DB.prepare(
+          "INSERT INTO auth_audit_log(id,user_id,action,request_id,created_at,details_json) VALUES(?,?, 'password_reset_notification_failed', ?, ?, ?)"
+        ).bind(crypto.randomUUID(), user.id, id, now, JSON.stringify({ channel: "telegram" })).run().catch(() => {});
+      }
       return json({ ...response, requestId: id, requestSecret }, 202);
     }
 
