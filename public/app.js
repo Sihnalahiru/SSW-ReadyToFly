@@ -119,51 +119,71 @@ import { renderQuiz } from './app/quiz.js';
   const render=()=>{appRoot.innerHTML=current==='admin'?renderAdminPanel():renderers[current]();if(current==='admin')loadAdminRequests();window.scrollTo({top:0,behavior:'smooth'});if(loader)loader.hidden=true;};
   if(appRoot.innerHTML.trim()&&loader){loader.hidden=false;if(viewTransitionTimer)clearTimeout(viewTransitionTimer);viewTransitionTimer=setTimeout(render,650);}else render();
  }
- let saveTimer=null,saveInFlight=false;
- function queueStorageKey(){return currentUser?'readytofly-pending:'+currentUser.id:null;}
- function readPendingQueue(){try{return queueStorageKey()?JSON.parse(localStorage.getItem(queueStorageKey())||'{}'):{};}catch{return {};}}
- function writePendingQueue(queue){if(queueStorageKey())localStorage.setItem(queueStorageKey(),JSON.stringify(queue));}
+ let saveTimer=null,savePromise=null;
+ function queueStorageKey(userId=currentUser?.id){return userId?'readytofly-pending:'+userId:null;}
+ function cacheStorageKey(userId){return 'readytofly-progress-cache:'+userId;}
+ function readPendingQueue(userId=currentUser?.id){
+  try{const key=queueStorageKey(userId);return key?JSON.parse(localStorage.getItem(key)||'{}'):{};}catch{return {};}
+ }
+ function writePendingQueue(queue,userId=currentUser?.id){
+  const key=queueStorageKey(userId);if(key)localStorage.setItem(key,JSON.stringify(queue));
+ }
  function setSaveStatus(status){
   const el=document.getElementById('footer-status');
   if(el)el.textContent='Signed in · '+(currentUser?.username||'')+' · '+status;
  }
  async function loadProgress(){
-  const cacheKey='readytofly-progress-cache:'+currentUser.id;
+  const userId=currentUser?.id;if(!userId)return;
+  const cacheKey=cacheStorageKey(userId);
   try{
    const result=await api('progress');
+   if(currentUser?.id!==userId)return;
    progressData=Object.fromEntries((result.items||[]).map(x=>[x.key,x.data]));
-   const pending=readPendingQueue();
+   const pending=readPendingQueue(userId);
    for(const [key,value] of Object.entries(pending))progressData[key]=value;
    localStorage.setItem(cacheKey,JSON.stringify(progressData));
    if(Object.keys(pending).length)await flushProgress();
    else setSaveStatus('Sync ready · no pending changes');
   }catch(e){
-   const pending=readPendingQueue();
+   if(currentUser?.id!==userId)return;
+   const pending=readPendingQueue(userId);
    try{progressData={...JSON.parse(localStorage.getItem(cacheKey)||'{}'),...pending};}catch{progressData={...pending};}
    setSaveStatus(navigator.onLine?'Sync unavailable':'Offline · changes queued');
    console.warn('Progress sync unavailable:',e.message);
   }
  }
- async function flushProgress(){
-  if(!currentUser||!navigator.onLine||saveInFlight)return false;
-  const queue=readPendingQueue(),entries=Object.entries(queue);
-  if(!entries.length){setSaveStatus('All changes saved');return true;}
-  saveInFlight=true;setSaveStatus('Saving…');
-  try{
-   for(let i=0;i<entries.length;i+=50){
-    const batch=entries.slice(i,i+50);
-    await api('progress',{method:'PUT',body:JSON.stringify({items:batch.map(([key,data])=>({key,data}))})});
-    const latest=readPendingQueue();
-    for(const [key,value] of batch)if(JSON.stringify(latest[key])===JSON.stringify(value))delete latest[key];
-    writePendingQueue(latest);
+ function flushProgress(){
+  if(!currentUser||!navigator.onLine)return Promise.resolve(false);
+  // Every caller, including sign-out, waits for the same in-flight flush.
+  if(savePromise)return savePromise;
+  const userId=currentUser.id;
+  const run=(async()=>{
+   const queue=readPendingQueue(userId),entries=Object.entries(queue);
+   if(!entries.length){if(currentUser?.id===userId)setSaveStatus('All changes saved');return true;}
+   setSaveStatus('Saving…');
+   try{
+    for(let i=0;i<entries.length;i+=50){
+     if(currentUser?.id!==userId)return false;
+     const batch=entries.slice(i,i+50);
+     await api('progress',{method:'PUT',body:JSON.stringify({items:batch.map(([key,data])=>({key,data}))})});
+     // Never read or mutate another account's queue after an asynchronous boundary.
+     if(currentUser?.id!==userId)return false;
+     const latest=readPendingQueue(userId);
+     for(const [key,value] of batch)if(JSON.stringify(latest[key])===JSON.stringify(value))delete latest[key];
+     writePendingQueue(latest,userId);
+    }
+    if(currentUser?.id!==userId)return false;
+    localStorage.setItem(cacheStorageKey(userId),JSON.stringify(progressData));
+    setSaveStatus(Object.keys(readPendingQueue(userId)).length?'Changes waiting to sync':'All changes saved');
+    return true;
+   }catch(e){
+    if(currentUser?.id===userId)setSaveStatus(navigator.onLine?'Sync failed · retrying later':'Offline · changes queued');
+    console.warn('Progress save queued:',e.message);return false;
    }
-   localStorage.setItem('readytofly-progress-cache:'+currentUser.id,JSON.stringify(progressData));
-   setSaveStatus(Object.keys(readPendingQueue()).length?'Changes waiting to sync':'All changes saved');
-   return true;
-  }catch(e){
-   setSaveStatus(navigator.onLine?'Sync failed · retrying later':'Offline · changes queued');
-   console.warn('Progress save queued:',e.message);return false;
-  }finally{saveInFlight=false;}
+  })();
+  savePromise=run.finally(()=>{if(savePromise===wrapped)savePromise=null;});
+  const wrapped=savePromise;
+  return wrapped;
  }
  function scheduleProgressSave(){
   if(saveTimer)clearTimeout(saveTimer);
@@ -173,9 +193,10 @@ import { renderQuiz } from './app/quiz.js';
  async function saveProgress(key,value){
   if(!/^[a-zA-Z0-9:_-]{1,120}$/.test(key))throw new Error('Invalid progress key');
   if(!currentUser)throw new Error('Sign in before saving progress.');
+  const userId=currentUser.id;
   progressData[key]=value;
-  const queue=readPendingQueue();queue[key]=value;writePendingQueue(queue);
-  localStorage.setItem('readytofly-progress-cache:'+currentUser.id,JSON.stringify(progressData));
+  const queue=readPendingQueue(userId);queue[key]=value;writePendingQueue(queue,userId);
+  localStorage.setItem(cacheStorageKey(userId),JSON.stringify(progressData));
   scheduleProgressSave();
   return true;
  }
