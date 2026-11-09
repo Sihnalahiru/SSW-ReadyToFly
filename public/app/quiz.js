@@ -1,7 +1,7 @@
 const DATA_URL='../assets/data/vocabulary_master.json';
 const CONFIG_URL='../assets/data/quiz_config.json';
 const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-let records=[],config=null,loadError='',session=[],position=0,selected=null,score=0,wrong=[],activeSet=1;
+let records=[],config=null,loadError='',session=[],position=0,selected=null,score=0,wrong=[],activeSet=1,reviewMode=false;
 const shuffle=items=>{const copy=[...items];for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}return copy;};
 function buildSession(setNumber=activeSet){
  const sizes=config?.sets?.question_counts||[50,50,50,50,50,50,50,50,50,50,50,50,23];
@@ -24,18 +24,38 @@ function buildSession(setNumber=activeSet){
  });
  position=0;selected=null;score=0;wrong=[];
 }
+function buildReviewSession(){
+ reviewMode=true;
+ const saved=window.ReadyToFlyProgress?.get?.()||{};
+ const missedIds=[...new Set(Object.entries(saved)
+  .filter(([key,value])=>key.startsWith('wrong-answer:')&&value?.wrong)
+  .map(([key,value])=>value.question_id||key.slice('wrong-answer:'.length)))];
+ const byId=new Map(records.map(item=>[item.id,item]));
+ const missed=missedIds.map(id=>byId.get(id)).filter(item=>item?.japanese&&item?.english);
+ const uniqueMeanings=[...new Map(records.filter(item=>item.english).map(item=>[String(item.english).trim().toLocaleLowerCase(),item])).values()];
+ session=shuffle(missed).map(item=>{
+  const answer=String(item.english).trim();
+  const alternatives=shuffle(uniqueMeanings.filter(other=>other.id!==item.id&&String(other.english).trim().toLocaleLowerCase()!==answer.toLocaleLowerCase())).slice(0,3);
+  return {...item,choices:shuffle([item,...alternatives]).map(option=>({id:option.id,text:String(option.english).trim()}))};
+ });
+ position=0;selected=null;score=0;wrong=[];
+}
 function renderQuizView(root){
  const item=session[position];
  if(!item){
+  const saved=window.ReadyToFlyProgress?.get?.()||{};
+  const missedCount=Object.entries(saved).filter(([key,value])=>key.startsWith('wrong-answer:')&&value?.wrong).length;
   root.innerHTML=`
-   <section class="welcome"><p class="eyebrow">VOCABULARY RECOGNITION PRACTICE</p><h1>Quiz complete</h1><p class="muted">This practice set is generated from the existing vocabulary workbook, not an official CBT paper. Sets use fixed, non-overlapping source-record ranges; question order is shuffled within each set.</p></section>
-   <section class="panel quiz-result"><strong class="quiz-result-score">${score} / ${session.length}</strong><p>Correct answers</p><p class="muted">${wrong.length} questions added to your wrong-answer review.</p><button class="primary-button" type="button" data-quiz-restart>Practise another set</button></section>`;
-  root.querySelector('[data-quiz-restart]')?.addEventListener('click',()=>{activeSet=activeSet>=(config?.sets?.set_count||13)?1:activeSet+1;buildSession(activeSet);renderQuizView(root);});return;
+   <section class="welcome"><p class="eyebrow">${reviewMode?'WRONG-ANSWER REVIEW':'VOCABULARY RECOGNITION PRACTICE'}</p><h1>${reviewMode?'Review complete':'Quiz complete'}</h1><p class="muted">${reviewMode?'Retry the terms you previously answered incorrectly. They remain in your review list until you clear them.':'This practice set is generated from the existing vocabulary workbook, not an official CBT paper. Sets use fixed, non-overlapping source-record ranges; question order is shuffled within each set.'}</p></section>
+   <section class="panel quiz-result">${session.length?'<strong class="quiz-result-score">'+score+' / '+session.length+'</strong><p>Correct answers</p>':'<p>No saved wrong answers to review.</p>'}<p class="muted">${missedCount} terms remain in your wrong-answer list.</p><button class="primary-button" type="button" data-quiz-return>${reviewMode?'Back to practice':'Practise another set'}</button>${reviewMode&&missedCount?'<button class="secondary-button" type="button" data-quiz-clear>Clear wrong-answer list</button>':''}</section>`;
+  root.querySelector('[data-quiz-return]')?.addEventListener('click',()=>{if(reviewMode){reviewMode=false;buildSession(activeSet);}else{activeSet=activeSet>=(config?.sets?.set_count||13)?1:activeSet+1;buildSession(activeSet);}renderQuizView(root);});
+  root.querySelector('[data-quiz-clear]')?.addEventListener('click',()=>{Object.entries(saved).filter(([key,value])=>key.startsWith('wrong-answer:')&&value?.wrong).forEach(([key,value])=>window.dispatchEvent(new CustomEvent('readytofly:progress',{detail:{key,value:{...value,wrong:false,clearedAt:new Date().toISOString()}}})));renderQuizView(root);});
+  return;
  }
  const answered=selected!==null,correct=answered&&selected===item.id;
  root.innerHTML=`
   <section class="welcome"><p class="eyebrow">KNOWLEDGE CHECK · VOCABULARY</p><h1>Quiz Center</h1><p class="muted">Choose the correct English meaning for each Japanese ground-handling term.</p></section>
-  <section class="panel quiz-toolbar"><div><strong>Practice Set ${activeSet} of ${config?.sets?.set_count||13}</strong><span>Workbook-based practice · ${session.length} terms · Not official CBT</span></div><div class="quiz-score-strip"><span>Correct <b>${score}</b></span><span>Wrong <b>${wrong.length}</b></span><span>Remaining <b>${session.length-position}</b></span></div><div class="quiz-progress-track"><span style="width:${((position+(answered?1:0))/session.length)*100}%"></span></div><small>Question ${position+1} of ${session.length}</small></section>
+  <section class="panel quiz-toolbar"><div><strong>${reviewMode?'Wrong-answer review':`Practice Set ${activeSet} of ${config?.sets?.set_count||13}`}</strong><span>${reviewMode?'Previously missed workbook terms':'Workbook-based practice · '+session.length+' terms · Not official CBT'}</span></div><button type="button" class="secondary-button" data-quiz-review>${reviewMode?'Exit review':'Review missed terms'}</button><div class="quiz-score-strip"><span>Correct <b>${score}</b></span><span>Wrong <b>${wrong.length}</b></span><span>Remaining <b>${session.length-position}</b></span></div><div class="quiz-progress-track"><span style="width:${((position+(answered?1:0))/session.length)*100}%"></span></div><small>Question ${position+1} of ${session.length}</small></section>
   <section class="panel quiz-question-card">
    <div class="study-content-meta"><span>${escapeHtml(item.id)}</span><span>日本語 → English</span></div>
    <h2>${escapeHtml(item.japanese)}</h2>
@@ -52,6 +72,7 @@ function renderQuizView(root){
   </section>
   <p class="quiz-source-note">Question and answer text are drawn from the current vocabulary master. Distractors are other English meanings from that same master. Each configured set uses its own fixed source-record range. This is learning practice, not an official examination.</p>
  `;
+ root.querySelector('[data-quiz-review]')?.addEventListener('click',()=>{if(reviewMode){reviewMode=false;buildSession(activeSet);}else buildReviewSession();renderQuizView(root);});
  root.querySelectorAll('[data-quiz-choice]').forEach(button=>button.addEventListener('click',()=>{
   if(selected!==null)return;
   selected=button.dataset.quizChoice;
