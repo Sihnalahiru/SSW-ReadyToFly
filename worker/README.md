@@ -15,7 +15,11 @@ Cloudflare Worker authentication backend for the ReadyToFly SSW Ground Handling 
 
 - POST `/api/auth/register` — create a username/password account and return a one-time recovery code.
 - POST `/api/auth/login` — sign in with username and password.
-- POST `/api/auth/recover-password` — reset the password using username and recovery code; rotate the recovery code and revoke all active sessions.
+- POST `/api/auth/reset-request` — submit a username-based password-reset request.
+- POST `/api/auth/reset-status` — check a request using its browser-held request secret.
+- POST `/api/auth/complete-admin-reset` — set a new password after administrator approval.
+- GET `/api/admin/reset-requests` — list pending and approved requests for the administrator.
+- POST `/api/admin/reset-review` — approve or reject a request with CSRF validation.
 - GET `/api/auth/me` — restore the current session.
 - POST `/api/auth/logout` — revoke the current session.
 - GET/PUT `/api/progress` — read/write private progress items scoped to the authenticated user.
@@ -23,12 +27,11 @@ Cloudflare Worker authentication backend for the ReadyToFly SSW Ground Handling 
 ## Security design
 
 - Passwords use PBKDF2-HMAC-SHA-256 with 310,000 iterations and a per-user random salt.
-- Recovery codes contain 128 bits of cryptographically secure randomness. Only a SHA-256 hash is stored in D1.
-- A recovery code is single-use: successful recovery rotates it and invalidates every active session.
-- Recovery codes are returned only at account creation and successful recovery. The UI displays each code once and does not store it in browser storage.
 - Session tokens are random and stored only as SHA-256 hashes. Session cookies are Secure, HttpOnly and SameSite=Lax.
 - CSRF tokens are validated against a hash stored in D1.
-- Login, registration and recovery attempts are rate-limited in D1.
+- Login, registration and password-reset request attempts are rate-limited in D1.
+- Password reset requires administrator approval, expires after 20 minutes, and revokes all existing sessions after completion.
+- Reset request notifications use Telegram on a best-effort basis; notification failure does not expose account existence or block request creation.
 - API responses use no-store caching.
 - Source learning data remains in GitHub. Personal progress is stored in D1 and scoped to the authenticated user.
 
@@ -41,10 +44,12 @@ The live D1 users table was checked and contained zero accounts before this migr
 ## Deployment
 
 1. Confirm the `DB` binding points to `readytofly-db`.
-2. Apply `migrations/0003_username_recovery_auth.sql` to the remote D1 database.
-3. Deploy the Worker and PWA assets.
-4. Test account creation, sign-in, one-time recovery-code rotation, logout and two-user progress isolation.
-5. Remove any old `EMAIL` binding from the Worker dashboard; email is no longer used.
+2. Reconcile the live D1 migration history and schema before applying migrations. Do not assume migrations 0001–0003 are unapplied simply because a table or column is absent.
+3. Apply only the verified outstanding migrations using one consistent Wrangler migration workflow.
+4. Configure the `ADMIN_USERNAME` Worker secret and optional Telegram secrets.
+5. Deploy the Worker and PWA assets only after review and tests.
+6. Test registration, sign-in, administrator approval, reset expiry, session revocation, logout and two-user progress isolation.
+7. Remove any old `EMAIL` binding from the Worker dashboard only if it is no longer used by any deployed code.
 
 Example Wrangler commands from the repository root:
 
@@ -57,7 +62,7 @@ Do not manually run the new migration in D1 Console and then run Wrangler migrat
 
 ## Limitations
 
-- If a user loses both their password and their current recovery code, the account cannot be recovered through this self-service flow. Keep the recovery code offline and private.
+- If the administrator account is unavailable, password-reset requests cannot be approved until administrator access is restored.
 - End-to-end tests against the live Cloudflare account must be completed before public launch.
 - Configure Cloudflare WAF/rate limiting and monitor authentication endpoints before public launch.
 
