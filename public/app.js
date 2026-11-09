@@ -9,7 +9,7 @@ import { renderQuiz } from './app/quiz.js';
  'use strict';
  const loginScreen=document.getElementById('login-screen'),application=document.getElementById('application'),form=document.getElementById('auth-form'),message=document.getElementById('auth-message');
  const renderers={dashboard:renderDashboard,study:renderStudy,vocabulary:renderVocabulary,quiz:renderQuiz,exam:renderExam,progress:renderProgress};
- let authMode='login',currentUser=null,progressData={},viewTransitionTimer=null,pendingRecoveryCode=null,adminResetRequest=null;
+ let authMode='login',currentUser=null,progressData={},viewTransitionTimer=null,adminResetRequest=null;
  const cookieValue=name=>document.cookie.split('; ').find(v=>v.startsWith(name+'='))?.split('=').slice(1).join('=')||'';
  async function api(path,options={}) {
   const headers={'Content-Type':'application/json',...(options.headers||{})};
@@ -40,16 +40,14 @@ import { renderQuiz } from './app/quiz.js';
   if(mode==='recover')form.innerHTML=username.replace('Choose a username','Your username')+'<p class="auth-hint">Your request will be sent to the ReadyToFly administrator. Do not share your password with anyone.</p><button class="primary-button login-submit" type="submit">Request admin approval <span>→</span></button><button class="text-link" type="button" data-auth-mode="login">Back to sign in</button>';
   setMessage(mode==='login'?'Sign in to continue to your private study space.':'');
  }
- function showRecoveryCode(code,purpose){
-  pendingRecoveryCode=code;
-  authMode='recovery-display';
+ function showRegistrationSuccess(){
+  authMode='registration-success';
   document.getElementById('auth-tabs').hidden=true;
-  document.getElementById('auth-eyebrow').textContent=purpose==='created'?'ACCOUNT CREATED':'RECOVERY CODE REPLACED';
-  document.getElementById('auth-title').textContent='Save your recovery code';
-  document.getElementById('auth-subtitle').textContent='This code is shown only once. Store it somewhere private and safe.';
-  form.innerHTML='<div class="recovery-code-panel"><p class="recovery-warning">Keep this code private. Anyone with it and your username can reset your password.</p><code id="recovery-code-display" class="recovery-code-display"></code><button class="secondary-button" type="button" data-copy-recovery>Copy recovery code</button><p class="recovery-confirm">After saving it, continue to sign in.</p></div><button class="primary-button login-submit" type="button" data-recovery-done>I have saved my code <span>→</span></button>';
-  document.getElementById('recovery-code-display').textContent=code;
-  setMessage(purpose==='created'?'Your account is ready. Save this recovery code before continuing.':'Your password has been changed and all existing sessions were signed out. Save your new recovery code.',false);
+  document.getElementById('auth-eyebrow').textContent='ACCOUNT CREATED';
+  document.getElementById('auth-title').textContent='Welcome to ReadyToFly';
+  document.getElementById('auth-subtitle').textContent='Your account has been created successfully.';
+  form.innerHTML='<p class="auth-hint">You can now sign in with your username and password. If you forget your password, use “Forgot password?” to request administrator approval.</p><button class="primary-button login-submit" type="button" data-registration-done>Continue to sign in <span>→</span></button>';
+  setMessage('Account created successfully. Your password reset option is administrator approval.',false);
  }
  function showAdminResetPending(){
   authMode='admin-reset-pending';
@@ -183,13 +181,8 @@ import { renderQuiz } from './app/quiz.js';
   const modeButton=e.target.closest('[data-auth-mode]');
   if(modeButton){setMode(modeButton.dataset.authMode);return;}
   if(e.target.closest('[data-reset-check]')){await checkAdminResetStatus();return;}
-  if(e.target.closest('[data-copy-recovery]')){
-   try{await navigator.clipboard.writeText(pendingRecoveryCode);setMessage('Recovery code copied. Store it somewhere private.',false);}
-   catch(err){setMessage('Copy is unavailable here. Select the recovery code and copy it manually.',true);}
-   return;
-  }
-  if(e.target.closest('[data-recovery-done]')){
-   pendingRecoveryCode=null;setMode('login');setMessage('Recovery code saved. Sign in with your username and password.',false);
+  if(e.target.closest('[data-registration-done]')){
+   setMode('login');setMessage('Your account is ready. Sign in with your username and password.',false);return;
   }
  });
  document.getElementById('auth-tabs').addEventListener('click',e=>{const b=e.target.closest('[data-auth-mode]');if(b)setMode(b.dataset.authMode);});
@@ -200,7 +193,7 @@ import { renderQuiz } from './app/quiz.js';
   if(submit){submit.disabled=true;submit.textContent='Please wait…';}
   try{
    if(authMode==='login'){const result=await api('auth/login',{method:'POST',body:JSON.stringify(payload)});await enterApp(result.user);}
-   else if(authMode==='register'){const result=await api('auth/register',{method:'POST',body:JSON.stringify(payload)});showRecoveryCode(result.recoveryCode,'created');}
+   else if(authMode==='register'){await api('auth/register',{method:'POST',body:JSON.stringify(payload)});showRegistrationSuccess();}
    else if(authMode==='recover'){const result=await api('auth/reset-request',{method:'POST',body:JSON.stringify(payload)});if(result.requestId&&result.requestSecret){adminResetRequest={requestId:result.requestId,requestSecret:result.requestSecret};sessionStorage.setItem('rtf-admin-reset',JSON.stringify(adminResetRequest));showAdminResetPending();}else setMessage(result.message||'If the account exists, an administrator will review the request.',false);}
    else if(authMode==='admin-reset-complete'){const reset=adminResetRequest||JSON.parse(sessionStorage.getItem('rtf-admin-reset')||'null');if(!reset)throw new Error('Reset request not found. Please start again.');const result=await api('auth/complete-admin-reset',{method:'POST',body:JSON.stringify({...reset,newPassword:payload.newPassword})});sessionStorage.removeItem('rtf-admin-reset');adminResetRequest=null;setMode('login');setMessage(result.message,false);}
   }catch(err){setMessage(err.message,true);}
