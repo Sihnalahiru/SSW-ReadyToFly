@@ -1,9 +1,10 @@
 const DATA_URL='../assets/data/vocabulary_master.json';
 const CONFIG_URL='../assets/data/quiz_config.json';
 const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-let records=[],config=null,loadError='',session=[],position=0,selected=null,score=0,wrong=[];
+let records=[],config=null,loadError='',session=[],position=0,selected=null,score=0,wrong=[],activeSet=1;
 const shuffle=items=>{const copy=[...items];for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}return copy;};
-function buildSession(setNumber=1){
+function buildSession(setNumber=activeSet){
+ activeSet=setNumber;
  const sizes=config?.sets?.question_counts||[50,50,50,50,50,50,50,50,50,50,50,50,23];
  const size=sizes[setNumber-1]||sizes[0]||50;
  const source=shuffle(records.filter(item=>item.japanese&&item.english)).slice(0,size);
@@ -20,12 +21,12 @@ function renderQuizView(root){
   root.innerHTML=`
    <section class="welcome"><p class="eyebrow">VOCABULARY RECOGNITION PRACTICE</p><h1>Quiz complete</h1><p class="muted">This practice set is generated from the existing vocabulary workbook, not an official CBT paper.</p></section>
    <section class="panel quiz-result"><strong class="quiz-result-score">${score} / ${session.length}</strong><p>Correct answers</p><p class="muted">${wrong.length} questions added to your wrong-answer review.</p><button class="primary-button" type="button" data-quiz-restart>Practise another set</button></section>`;
-  root.querySelector('[data-quiz-restart]')?.addEventListener('click',()=>{buildSession();renderQuizView(root);});return;
+  root.querySelector('[data-quiz-restart]')?.addEventListener('click',()=>{activeSet=activeSet>=(config?.sets?.set_count||13)?1:activeSet+1;buildSession(activeSet);renderQuizView(root);});return;
  }
  const answered=selected!==null,correct=answered&&selected===item.id;
  root.innerHTML=`
   <section class="welcome"><p class="eyebrow">KNOWLEDGE CHECK · VOCABULARY</p><h1>Quiz Center</h1><p class="muted">Choose the correct English meaning for each Japanese ground-handling term.</p></section>
-  <section class="panel quiz-toolbar"><div><strong>Practice Set 1–13</strong><span>Workbook-based practice · Not official CBT</span></div><div class="quiz-score-strip"><span>Correct <b>${score}</b></span><span>Wrong <b>${wrong.length}</b></span><span>Remaining <b>${session.length-position}</b></span></div><div class="quiz-progress-track"><span style="width:${((position+(answered?1:0))/session.length)*100}%"></span></div><small>Question ${position+1} of ${session.length}</small></section>
+  <section class="panel quiz-toolbar"><div><strong>Practice Set ${activeSet} of ${config?.sets?.set_count||13}</strong><span>Workbook-based practice · Not official CBT</span></div><div class="quiz-score-strip"><span>Correct <b>${score}</b></span><span>Wrong <b>${wrong.length}</b></span><span>Remaining <b>${session.length-position}</b></span></div><div class="quiz-progress-track"><span style="width:${((position+(answered?1:0))/session.length)*100}%"></span></div><small>Question ${position+1} of ${session.length}</small></section>
   <section class="panel quiz-question-card">
    <div class="study-content-meta"><span>${escapeHtml(item.id)}</span><span>日本語 → English</span></div>
    <h2>${escapeHtml(item.japanese)}</h2>
