@@ -225,8 +225,10 @@ import { renderQuiz } from './app/quiz.js';
   if(!currentUser)throw new Error('Sign in before saving progress.');
   const userId=currentUser.id;
   progressData[key]=value;
-  const queue=readPendingQueue(userId);queue[key]=value;writePendingQueue(queue,userId);
-  localStorage.setItem(cacheStorageKey(userId),JSON.stringify(progressData));
+  const queue=readPendingQueue(userId);queue[key]=value;
+  const queuePersisted=writePendingQueue(queue,userId);
+  const cachePersisted=safeStorageSet(cacheStorageKey(userId),JSON.stringify(progressData));
+  if(!queuePersisted||!cachePersisted)setSaveStatus('Session-only backup · browser storage unavailable');
   scheduleProgressSave();
   return true;
  }
