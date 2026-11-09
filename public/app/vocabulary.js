@@ -12,7 +12,7 @@ let favoriteIds = new Set();
 let srsRecords = {};
 let listMode = 'all';
 const DAY_MS = 86400000;
-function isDue(id){const item=srsRecords[id];return !item?.dueAt||Date.parse(item.dueAt)<=Date.now();}
+function isDue(id){const item=srsRecords[id];return Boolean(item?.dueAt)&&Date.parse(item.dueAt)<=Date.now();}
 function saveSrs(id,value){srsRecords[id]=value;window.dispatchEvent(new CustomEvent('readytofly:progress',{detail:{key:'vocabulary-srs:'+id,value}}));}
 
 function filteredRecords() {
