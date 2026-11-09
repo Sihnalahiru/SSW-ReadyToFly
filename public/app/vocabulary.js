@@ -8,13 +8,23 @@ let query = '';
 let activeIndex = 0;
 let showAnswer = false;
 let knownIds = new Set();
+let favoriteIds = new Set();
+let srsRecords = {};
+let listMode = 'all';
+const DAY_MS = 86400000;
+function isDue(id){const item=srsRecords[id];return !item?.dueAt||Date.parse(item.dueAt)<=Date.now();}
+function saveSrs(id,value){srsRecords[id]=value;window.dispatchEvent(new CustomEvent('readytofly:progress',{detail:{key:'vocabulary-srs:'+id,value}}));}
 
 function filteredRecords() {
  const term = query.trim().toLocaleLowerCase();
- if (!term) return records;
- return records.filter(item => [
+ return records.filter(item => {
+  if(listMode==='favorites'&&!favoriteIds.has(item.id))return false;
+  if(listMode==='due'&&!isDue(item.id))return false;
+  if(!term)return true;
+  return [
   item.id,item.japanese,item.furigana,item.romaji,item.english,item.sinhala
- ].some(value => String(value || '').toLocaleLowerCase().includes(term)));
+ ].some(value => String(value || '').toLocaleLowerCase().includes(term));
+ });
 }
 function renderVocabularyView(root) {
  const list = filteredRecords();
@@ -24,6 +34,7 @@ function renderVocabularyView(root) {
   <section class="welcome"><p class="eyebrow">JAPANESE TECHNICAL LANGUAGE</p><h1>Vocabulary Center</h1><p class="muted">Explore the existing Ground Handling vocabulary master with Japanese readings and English/Sinhala meanings.</p></section>
   <section class="panel vocab-summary"><div><strong>${records.length}</strong><span>Source records</span></div><div><strong>${list.length}</strong><span>Matching terms</span></div><div><strong>${knownIds.size}</strong><span>Marked learned · this account</span></div></section>
   <section class="panel vocab-search-panel">
+   <div class="study-track-tabs"><button type="button" data-vocab-mode="all" class="${listMode==='all'?'active':''}">All terms</button><button type="button" data-vocab-mode="due" class="${listMode==='due'?'active':''}">Due for review</button><button type="button" data-vocab-mode="favorites" class="${listMode==='favorites'?'active':''}">Favourites</button></div>
    <label for="vocab-search">Search Japanese, reading, Romaji, English or Sinhala</label>
    <input id="vocab-search" type="search" placeholder="e.g. aircraft / 航空機 / ගුවන් යානය" value="${escapeHtml(query)}">
    <p class="study-source-notice">Source note: entries are displayed from the existing workbook extraction. Structural presence does not certify every reading or translation. Known reading anomalies remain unchanged pending source verification.</p>
@@ -43,6 +54,8 @@ function renderVocabularyView(root) {
      ` : '<p class="muted vocab-reveal-hint">Think of the meaning, then reveal the answer.</p>'}
      <button type="button" class="primary-button vocab-reveal" data-vocab-reveal>${showAnswer ? 'Hide meaning' : 'Reveal English + Sinhala'}</button>
      <button type="button" class="secondary-button vocab-known" data-vocab-known>${knownIds.has(current.id) ? 'Learned ✓' : 'Mark as learned'}</button>
+     <button type="button" class="secondary-button" data-vocab-favorite>${favoriteIds.has(current.id)?'★ Saved favourite':'☆ Add favourite'}</button>
+     ${showAnswer?`<div class="vocab-srs-controls"><p class="muted">Spaced repetition · choose how well you remembered this term</p><div class="vocab-card-navigation"><button type="button" class="secondary-button" data-srs="again">Again</button><button type="button" class="secondary-button" data-srs="good">Good</button><button type="button" class="secondary-button" data-srs="easy">Easy</button></div></div>`:''}
      <div class="vocab-card-navigation"><button type="button" class="secondary-button" data-vocab-prev ${activeIndex===0?'disabled':''}>← Previous</button><button type="button" class="secondary-button" data-vocab-next ${activeIndex>=list.length-1?'disabled':''}>Next →</button></div>
     </article>
    ` : '<div class="panel empty-state">No matching vocabulary. Try another search.</div>'}
@@ -56,6 +69,9 @@ function renderVocabularyView(root) {
     </button>`).join('')}
   </div>${list.length>100?'<p class="muted vocab-list-limit">Showing the first 100 matching terms. Use search to narrow the list.</p>':''}</section>
  `;
+ root.querySelectorAll('[data-vocab-mode]').forEach(button=>button.addEventListener('click',()=>{listMode=button.dataset.vocabMode;activeIndex=0;showAnswer=false;renderVocabularyView(root);}));
+ root.querySelector('[data-vocab-favorite]')?.addEventListener('click',()=>{if(!current)return;if(favoriteIds.has(current.id))favoriteIds.delete(current.id);else favoriteIds.add(current.id);window.dispatchEvent(new CustomEvent('readytofly:progress',{detail:{key:'vocabulary-favorite:'+current.id,value:{favorite:favoriteIds.has(current.id),updatedAt:new Date().toISOString()}}}));renderVocabularyView(root);});
+ root.querySelectorAll('[data-srs]').forEach(button=>button.addEventListener('click',()=>{if(!current)return;const rating=button.dataset.srs,previous=srsRecords[current.id]||{},intervals={again:0,good:({0:1,1:3,3:7,7:14,14:30,30:30}[Number(previous.intervalDays)||0]||1),easy:({0:3,1:7,3:14,7:30,14:60,30:90}[Number(previous.intervalDays)||0]||3)};const days=intervals[rating];const due=new Date(Date.now()+(days===0?10*60*1000:days*DAY_MS));saveSrs(current.id,{rating,intervalDays:days,lastReviewedAt:new Date().toISOString(),dueAt:due.toISOString(),reviewCount:(previous.reviewCount||0)+1});renderVocabularyView(root);}));
  root.querySelector('#vocab-search')?.addEventListener('input',event=>{
   query=event.target.value;activeIndex=0;showAnswer=false;
   const cursor=query.length;renderVocabularyView(root);
@@ -89,6 +105,8 @@ export function renderVocabulary() {
     records=data.records;
     const saved=window.ReadyToFlyProgress?.get?.()||{};
     knownIds=new Set(Object.entries(saved).filter(([key,value])=>key.startsWith('vocabulary-known:')&&value?.known).map(([key])=>key.slice('vocabulary-known:'.length)));
+    favoriteIds=new Set(Object.entries(saved).filter(([key,value])=>key.startsWith('vocabulary-favorite:')&&value?.favorite).map(([key])=>key.slice('vocabulary-favorite:'.length)));
+    srsRecords=Object.fromEntries(Object.entries(saved).filter(([key,value])=>key.startsWith('vocabulary-srs:')&&value&&typeof value==='object').map(([key,value])=>[key.slice('vocabulary-srs:'.length),value]));
    }catch(error){loadError=error.message||'Vocabulary could not be loaded. Please try again while online.';root.innerHTML=`<div class="empty-state">${escapeHtml(loadError)}</div>`;return;}
   }
   renderVocabularyView(root);
