@@ -20,8 +20,8 @@ export function renderProgress(){
   <section class="panel progress-detail-panel">
    <div class="section-heading"><div><p class="eyebrow">ACTIVITY SUMMARY</p><h2>Learning activity</h2></div><span class="section-note">${total} recorded actions</span></div>
    <div class="progress-bars">
-    <div><span>Study pages</span><b>${reviewed.length}</b><i><em style="width:${Math.min(100,reviewed.length/Math.max(1,reviewed.length)*100)}%"></em></i></div>
-    <div><span>Vocabulary</span><b>${learned.length}</b><i><em style="width:${Math.min(100,learned.length/Math.max(1,learned.length)*100)}%"></em></i></div>
+    <div><span>Study pages</span><b>${reviewed.length}</b><i><em style="width:${Math.min(100,reviewed.length/139*100)}%"></em></i></div>
+    <div><span>Vocabulary</span><b>${learned.length}</b><i><em style="width:${Math.min(100,learned.length/623*100)}%"></em></i></div>
     <div><span>Quiz accuracy</span><b>${attempts.length?Math.round(correct/attempts.length*100):0}%</b><i><em style="width:${attempts.length?correct/attempts.length*100:0}%"></em></i></div>
    </div>
    <p class="progress-data-note">Only activity recorded by the current app modules is counted. No estimated XP, streaks, study time or achievements are generated. Data is account-scoped through the existing progress service.</p>
