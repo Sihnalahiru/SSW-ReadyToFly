@@ -13,7 +13,7 @@ Cloudflare Worker authentication backend for the ReadyToFly SSW Ground Handling 
 
 ## Authentication API
 
-- POST `/api/auth/register` — create a username/password account and return a one-time recovery code.
+- POST `/api/auth/register` — create a username/password account. Password resets use the administrator-approved flow below.
 - POST `/api/auth/login` — sign in with username and password.
 - POST `/api/auth/reset-request` — submit a username-based password-reset request.
 - POST `/api/auth/reset-status` — check a request using its browser-held request secret.
