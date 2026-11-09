@@ -235,10 +235,18 @@ async function handle(request, env) {
       // A reserved .invalid address keeps the schema compatible and is never used for messaging.
       const internalEmail = username + "@accounts.readytofly.invalid";
       try {
-        await env.DB.prepare(
+        // Enforce the frozen four-account project limit inside the INSERT itself.
+        // This is atomic at the database statement level, unlike a count-then-insert check.
+        const created = await env.DB.prepare(
           "INSERT INTO users(id,email,display_name,password_hash,password_salt,email_verified,created_at,updated_at,username) " +
-          "VALUES(?,?,?,?,?,1,?,?,?)"
-        ).bind(id, internalEmail, username, pw.hash, pw.salt, now, now, username).run();
+          "SELECT ?,?,?,?,?,1,?,?,? WHERE (SELECT COUNT(*) FROM users) < 4 RETURNING id"
+        ).bind(id, internalEmail, username, pw.hash, pw.salt, now, now, username).first();
+        if (!created) {
+          return json({
+            error: "ACCOUNT_LIMIT_REACHED",
+            message: "The ReadyToFly account limit has been reached. Contact the project administrator."
+          }, 409);
+        }
       } catch (error) {
         // A concurrent registration may win the unique username/email race.
         if (/UNIQUE constraint failed/i.test(error.message || "")) {
