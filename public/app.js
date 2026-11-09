@@ -65,8 +65,8 @@ import { renderQuiz } from './app/quiz.js';
  async function checkAdminResetStatus(){
   let reset=adminResetRequest;
   if(!reset){
-   try{reset=JSON.parse(sessionStorage.getItem('rtf-admin-reset')||'null');}
-   catch{sessionStorage.removeItem('rtf-admin-reset');}
+   try{reset=JSON.parse(safeSessionStorageGet('rtf-admin-reset')||'null');}
+   catch{safeSessionStorageRemove('rtf-admin-reset');}
   }
   if(!reset||typeof reset.requestId!=='string'||typeof reset.requestSecret!=='string'){
    setMode('recover');setMessage('No valid pending reset request found. Please submit a new request.',true);return;
@@ -81,7 +81,7 @@ import { renderQuiz } from './app/quiz.js';
     form.innerHTML='<label for="auth-password">New password</label><input id="auth-password" name="newPassword" type="password" autocomplete="new-password" placeholder="12+ characters, uppercase, lowercase and number" required minlength="12" maxlength="128"><button class="primary-button login-submit" type="submit">Set new password <span>→</span></button>';
     setMessage('Approved. This reset link is valid for 20 minutes.',false);
    }else if(result.status==='rejected'||result.status==='expired'||result.status==='completed'){
-    sessionStorage.removeItem('rtf-admin-reset');adminResetRequest=null;setMode('recover');setMessage('This reset request is '+result.status+'. Please submit a new request if needed.',true);
+    safeSessionStorageRemove('rtf-admin-reset');adminResetRequest=null;setMode('recover');setMessage('This reset request is '+result.status+'. Please submit a new request if needed.',true);
    }else setMessage('Still waiting for administrator approval. Please check again later.',false);
   }catch(err){setMessage(err.message,true);}
  }
@@ -128,6 +128,15 @@ import { renderQuiz } from './app/quiz.js';
  }
  function safeStorageSet(key,value){
   try{localStorage.setItem(key,value);return true;}catch(error){console.warn('Browser storage unavailable:',error?.name||error);return false;}
+ }
+  function safeSessionStorageGet(key){
+  try{return sessionStorage.getItem(key);}catch(error){console.warn('Session storage unavailable:',error?.name||error);return null;}
+ }
+ function safeSessionStorageSet(key,value){
+  try{sessionStorage.setItem(key,value);return true;}catch(error){console.warn('Session storage unavailable:',error?.name||error);return false;}
+ }
+ function safeSessionStorageRemove(key){
+  try{sessionStorage.removeItem(key);return true;}catch(error){console.warn('Session storage unavailable:',error?.name||error);return false;}
  }
  function readPendingQueue(userId=currentUser?.id){
   if(!userId)return {};
@@ -258,13 +267,13 @@ import { renderQuiz } from './app/quiz.js';
   try{
    if(authMode==='login'){const result=await api('auth/login',{method:'POST',body:JSON.stringify(payload)});await enterApp(result.user);}
    else if(authMode==='register'){await api('auth/register',{method:'POST',body:JSON.stringify(payload)});showRegistrationSuccess();}
-   else if(authMode==='recover'){const result=await api('auth/reset-request',{method:'POST',body:JSON.stringify(payload)});if(result.requestId&&result.requestSecret){adminResetRequest={requestId:result.requestId,requestSecret:result.requestSecret};sessionStorage.setItem('rtf-admin-reset',JSON.stringify(adminResetRequest));showAdminResetPending();}else setMessage(result.message||'If the account exists, an administrator will review the request.',false);}
+   else if(authMode==='recover'){const result=await api('auth/reset-request',{method:'POST',body:JSON.stringify(payload)});if(result.requestId&&result.requestSecret){adminResetRequest={requestId:result.requestId,requestSecret:result.requestSecret};safeSessionStorageSet('rtf-admin-reset',JSON.stringify(adminResetRequest));showAdminResetPending();}else setMessage(result.message||'If the account exists, an administrator will review the request.',false);}
    else if(authMode==='admin-reset-complete'){
     let reset=adminResetRequest;
-    if(!reset){try{reset=JSON.parse(sessionStorage.getItem('rtf-admin-reset')||'null');}catch{sessionStorage.removeItem('rtf-admin-reset');}}
+    if(!reset){try{reset=JSON.parse(safeSessionStorageGet('rtf-admin-reset')||'null');}catch{safeSessionStorageRemove('rtf-admin-reset');}}
     if(!reset||typeof reset.requestId!=='string'||typeof reset.requestSecret!=='string')throw new Error('Reset request not found. Please start again.');
     const result=await api('auth/complete-admin-reset',{method:'POST',body:JSON.stringify({...reset,newPassword:payload.newPassword})});
-    sessionStorage.removeItem('rtf-admin-reset');adminResetRequest=null;setMode('login');setMessage(result.message,false);
+    safeSessionStorageRemove('rtf-admin-reset');adminResetRequest=null;setMode('login');setMessage(result.message,false);
    }
   }catch(err){setMessage(err.message,true);}
   finally{const next=form.querySelector('button[type="submit"]');if(next){next.disabled=false;next.textContent=authMode==='register'?'Create account →':authMode==='recover'?'Request admin approval →':authMode==='admin-reset-complete'?'Set new password →':'Sign in →';}}
