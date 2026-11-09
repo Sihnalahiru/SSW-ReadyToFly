@@ -229,8 +229,8 @@ import { renderQuiz } from './app/quiz.js';
   const queue=readPendingQueue(userId);queue[key]=value;
   const queuePersisted=writePendingQueue(queue,userId);
   const cachePersisted=safeStorageSet(cacheStorageKey(userId),JSON.stringify(progressData));
-  if(!queuePersisted||!cachePersisted)setSaveStatus('Session-only backup · browser storage unavailable');
   scheduleProgressSave();
+  if(!queuePersisted||!cachePersisted)setSaveStatus('Session-only backup · browser storage unavailable');
   return true;
  }
  window.ReadyToFlyProgress={get:()=>structuredClone(progressData),save:saveProgress,refresh:loadProgress};
