@@ -10,7 +10,11 @@ import { renderQuiz } from './app/quiz.js';
  const loginScreen=document.getElementById('login-screen'),application=document.getElementById('application'),form=document.getElementById('auth-form'),message=document.getElementById('auth-message');
  const renderers={dashboard:renderDashboard,study:renderStudy,vocabulary:renderVocabulary,quiz:renderQuiz,exam:renderExam,progress:renderProgress};
  let authMode='login',currentUser=null,progressData={},viewTransitionTimer=null,adminResetRequest=null;
- const cookieValue=name=>document.cookie.split('; ').find(v=>v.startsWith(name+'='))?.split('=').slice(1).join('=')||'';
+ const cookieValue=name=>{
+  const entry=document.cookie.split('; ').find(v=>v.trim().startsWith(name+'='));
+  if(!entry)return '';
+  try{return decodeURIComponent(entry.trim().slice(name.length+1));}catch{return '';}
+ };
  async function api(path,options={}) {
   const headers={'Content-Type':'application/json',...(options.headers||{})};
   if(options.method&&options.method!=='GET'&&options.method!=='HEAD'){const csrf=cookieValue('rtf_csrf');if(csrf)headers['X-CSRF-Token']=decodeURIComponent(csrf);}
@@ -59,8 +63,14 @@ import { renderQuiz } from './app/quiz.js';
   setMessage('Your request has been submitted. The administrator will review it. Telegram notification is best-effort when configured.',false);
  }
  async function checkAdminResetStatus(){
-  const reset=adminResetRequest||JSON.parse(sessionStorage.getItem('rtf-admin-reset')||'null');
-  if(!reset){setMode('recover');setMessage('No pending reset request found. Please submit a new request.',true);return;}
+  let reset=adminResetRequest;
+  if(!reset){
+   try{reset=JSON.parse(sessionStorage.getItem('rtf-admin-reset')||'null');}
+   catch{sessionStorage.removeItem('rtf-admin-reset');}
+  }
+  if(!reset||typeof reset.requestId!=='string'||typeof reset.requestSecret!=='string'){
+   setMode('recover');setMessage('No valid pending reset request found. Please submit a new request.',true);return;
+  }
   try{
    const result=await api('auth/reset-status',{method:'POST',body:JSON.stringify(reset)});
    if(result.status==='approved'){
