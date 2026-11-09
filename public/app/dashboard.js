@@ -53,7 +53,7 @@ export function renderDashboard() {
    <p class="eyebrow">YOUR LEARNING ACTIVITY</p><h2>${activity ? 'Your progress is taking shape.' : 'Start with one small step.'}</h2>
    <div class="exam-stats"><div><strong>${reviewed}</strong><span>Pages reviewed</span></div><div><strong>${learned}</strong><span>Words learned</span></div><div><strong>${accuracy===null?'—':accuracy+'%'}</strong><span>Quiz accuracy</span></div></div>
    <p class="muted">${attempts.length ? attempts.length+' saved quiz attempts · '+correct+' correct answers.' : 'Quiz accuracy will appear after your first saved quiz attempt.'} These figures use activity saved to this account; no streak or study time is estimated.</p>
-   <button class="text-action" type="button" data-view="progress">View full progress <span aria-hidden="true">→</span></button>`
+   <button class="text-action" type="button" data-view="progress">View full progress <span aria-hidden="true">→</span></button>
   </article>
  </section>
 
