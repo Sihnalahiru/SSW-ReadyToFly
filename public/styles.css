@@ -221,3 +221,22 @@ body.light .vocab-list-row,body.light .quiz-option{background:#fff}
  .vocab-list-id{display:none}
  .quiz-score-strip{gap:10px}
 }
+
+/* Account learning progress */
+.progress-stat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px;margin-bottom:14px}
+.progress-stat{display:grid;gap:7px;padding:17px}
+.progress-stat span{font-size:10px;color:var(--muted)}
+.progress-stat strong{font:800 27px Manrope;color:#9ed0ff}
+.progress-stat small{font-size:9px;color:var(--muted)}
+.progress-detail-panel{margin-top:13px}
+.progress-bars{display:grid;gap:16px;margin-top:17px}
+.progress-bars>div{display:grid;grid-template-columns:1fr auto;gap:7px 12px;align-items:center}
+.progress-bars span{font-size:11px;color:var(--muted)}
+.progress-bars b{font:800 11px Manrope;color:var(--ink)}
+.progress-bars i{grid-column:1/-1;display:block;height:7px;border-radius:10px;background:#ffffff16;overflow:hidden}
+.progress-bars em{display:block;height:100%;border-radius:10px;background:linear-gradient(90deg,#50b8c7,#7dbdff)}
+.progress-data-note{font-size:10px;line-height:1.7;color:var(--muted);margin:18px 0 0}
+.progress-wrong-row{display:grid;gap:5px;padding:11px 0;border-bottom:1px solid var(--line)}
+.progress-wrong-row:last-child{border-bottom:0}
+.progress-wrong-row strong{font-size:12px}.progress-wrong-row span{font-size:10px;color:var(--muted)}
+@media(max-width:760px){.progress-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.progress-stat{padding:14px}.progress-stat strong{font-size:23px}}
