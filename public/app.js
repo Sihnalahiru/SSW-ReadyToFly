@@ -242,12 +242,14 @@ import { renderQuiz } from './app/quiz.js';
   if(!queuePersisted||!cachePersisted)setSaveStatus('Session-only backup · browser storage unavailable');
   return true;
  }
- window.ReadyToFlyProgress={get:()=>structuredClone(progressData),save:saveProgress,refresh:loadProgress};
+ window.ReadyToFlyProgress={get:()=>typeof structuredClone==='function'?structuredClone(progressData):JSON.parse(JSON.stringify(progressData)),save:saveProgress,refresh:loadProgress};
  window.addEventListener('readytofly:progress',event=>{const detail=event.detail||{};if(detail.key)saveProgress(detail.key,detail.value).catch(error=>console.warn('Progress event save:',error));});
  async function enterApp(user){
-  currentUser=user;loginScreen.hidden=true;application.hidden=false;document.getElementById('admin-panel').hidden=!user.isAdmin;
+  currentUser=user;progressData={};loginScreen.hidden=true;application.hidden=false;document.getElementById('admin-panel').hidden=!user.isAdmin;
   document.getElementById('footer-status').textContent='Signed in · '+user.username;
-  await loadProgress();showView('dashboard');
+  await loadProgress();
+  window.dispatchEvent(new CustomEvent('readytofly:account-changed',{detail:{userId:user.id}}));
+  showView('dashboard');
  }
  function showLogin(){application.hidden=true;loginScreen.hidden=false;setMode('login');}
  form.addEventListener('click',async e=>{
