@@ -170,7 +170,8 @@ import { renderQuiz } from './app/quiz.js';
   }catch(e){
    if(currentUser?.id!==userId)return;
    const pending=readPendingQueue(userId);
-   const cached=safeStorageGet(cacheKey);\n   try{progressData={...(cached.ok&&cached.value?JSON.parse(cached.value):{}),...pending};}catch{progressData={...pending};}
+   const cached=safeStorageGet(cacheKey);
+   try{progressData={...(cached.ok&&cached.value?JSON.parse(cached.value):{}),...pending};}catch{progressData={...pending};}
    setSaveStatus(navigator.onLine?'Sync unavailable':'Offline · changes queued');
    console.warn('Progress sync unavailable:',e.message);
   }
