@@ -16,11 +16,21 @@ function json(data, status = 200, headers = {}) {
 }
 
 function cookieMap(request) {
-  return Object.fromEntries((request.headers.get("Cookie") || "").split(";")
-    .map(v => v.trim()).filter(Boolean).map(v => {
-      const i = v.indexOf("=");
-      return [v.slice(0, i), decodeURIComponent(v.slice(i + 1))];
-    }));
+  const cookies = {};
+  for (const part of (request.headers.get("Cookie") || "").split(";")) {
+    const value = part.trim();
+    if (!value) continue;
+    const i = value.indexOf("=");
+    if (i <= 0) continue;
+    const name = value.slice(0, i);
+    try {
+      cookies[name] = decodeURIComponent(value.slice(i + 1));
+    } catch {
+      // Ignore malformed cookie values; an invalid session/CSRF cookie
+      // must not turn an otherwise safe API request into a 500 response.
+    }
+  }
+  return cookies;
 }
 function cookie(name, value, maxAge, httpOnly = true) {
   return name + "=" + encodeURIComponent(value) + "; Path=/; Max-Age=" + maxAge +
@@ -80,7 +90,16 @@ async function readJson(request, max = 12000) {
   if (length > max) throw new Error("REQUEST_TOO_LARGE");
   const text = await request.text();
   if (text.length > max) throw new Error("REQUEST_TOO_LARGE");
-  return JSON.parse(text);
+  try {
+    const value = JSON.parse(text);
+    if (!value || typeof value !== "object" || Array.isArray(value)) {
+      throw new Error("INVALID_JSON_BODY");
+    }
+    return value;
+  } catch (error) {
+    if (error.message === "INVALID_JSON_BODY") throw error;
+    throw new Error("INVALID_JSON");
+  }
 }
 function originAllowed(request, env) {
   const origin = request.headers.get("Origin");
@@ -336,17 +355,25 @@ async function handle(request, env) {
       }
       const pw = await passwordHash(newPassword);
       const now = Date.now();
+      const requestSecretHash = await sha256(requestSecret);
       const results = await env.DB.batch([
         env.DB.prepare(
           "UPDATE users SET password_hash=?,password_salt=?,updated_at=? WHERE id=(" +
           "SELECT user_id FROM password_reset_requests WHERE id=? AND request_secret_hash=? AND status='approved' AND expires_at>?)"
-        ).bind(pw.hash, pw.salt, now, row.id, await sha256(requestSecret), now),
-        env.DB.prepare("UPDATE password_reset_requests SET status='completed',reviewed_at=? WHERE id=? AND status='approved' AND expires_at>?")
-          .bind(now, row.id, now),
-        env.DB.prepare("DELETE FROM sessions WHERE user_id=? AND EXISTS (SELECT 1 FROM password_reset_requests WHERE id=? AND status='completed')")
-          .bind(row.user_id, row.id),
-        env.DB.prepare("INSERT INTO auth_audit_log(id,user_id,action,request_id,created_at) VALUES(?,?, 'password_reset_completed', ?, ?)")
-          .bind(crypto.randomUUID(), row.user_id, row.id, now)
+        ).bind(pw.hash, pw.salt, now, row.id, requestSecretHash, now),
+        env.DB.prepare(
+          "UPDATE password_reset_requests SET status='completed',reviewed_at=? " +
+          "WHERE id=? AND request_secret_hash=? AND status='approved' AND expires_at>?"
+        ).bind(now, row.id, requestSecretHash, now),
+        env.DB.prepare(
+          "DELETE FROM sessions WHERE user_id=? AND EXISTS (" +
+          "SELECT 1 FROM password_reset_requests WHERE id=? AND status='completed' AND reviewed_at=?)"
+        ).bind(row.user_id, row.id, now),
+        env.DB.prepare(
+          "INSERT INTO auth_audit_log(id,user_id,action,request_id,created_at) " +
+          "SELECT ?,?,?,?,? WHERE EXISTS (" +
+          "SELECT 1 FROM password_reset_requests WHERE id=? AND status='completed' AND reviewed_at=?)"
+        ).bind(crypto.randomUUID(), row.user_id, "password_reset_completed", row.id, now, row.id, now)
       ]);
       const changed = results[1] && results[1].meta ? results[1].meta.changes : 0;
       if (!changed) return json({ error: "RESET_ALREADY_USED" }, 409);
@@ -375,18 +402,21 @@ async function handle(request, env) {
       const now = Date.now();
       const status = body.action === "approve" ? "approved" : "rejected";
       const expiry = body.action === "approve" ? now + 20 * 60 * 1000 : null;
-      const result = await env.DB.prepare(
-        "UPDATE password_reset_requests SET status=?,reviewed_at=?,reviewed_by=?,expires_at=? WHERE id=? AND status='pending'"
-      ).bind(status, now, session.username, expiry, body.id).run();
-      const changed = result.meta ? result.meta.changes : 0;
+      const reviewAction = body.action === "approve" ? "password_reset_approved" : "password_reset_rejected";
+      const results = await env.DB.batch([
+        env.DB.prepare(
+          "UPDATE password_reset_requests SET status=?,reviewed_at=?,reviewed_by=?,expires_at=? " +
+          "WHERE id=? AND status='pending'"
+        ).bind(status, now, session.username, expiry, body.id),
+        env.DB.prepare(
+          "INSERT INTO auth_audit_log(id,user_id,actor_username,action,request_id,created_at) " +
+          "SELECT ?,user_id,?,?,?,? FROM password_reset_requests " +
+          "WHERE id=? AND status=? AND reviewed_at=? AND reviewed_by=?"
+        ).bind(crypto.randomUUID(), session.username, reviewAction, body.id, now,
+          body.id, status, now, session.username)
+      ]);
+      const changed = results[0] && results[0].meta ? results[0].meta.changes : 0;
       if (!changed) return json({ error: "REQUEST_ALREADY_REVIEWED" }, 409);
-      const row = await env.DB.prepare(
-        "SELECT r.user_id,u.username FROM password_reset_requests r JOIN users u ON u.id=r.user_id WHERE r.id=?"
-      ).bind(body.id).first();
-      await env.DB.prepare(
-        "INSERT INTO auth_audit_log(id,user_id,actor_username,action,request_id,created_at) VALUES(?,?,?,?,?,?)"
-      ).bind(crypto.randomUUID(), row?.user_id || null, session.username,
-        body.action === "approve" ? "password_reset_approved" : "password_reset_rejected", body.id, now).run();
       return json({ ok: true, status, expiresAt: expiry });
     }
 
@@ -451,8 +481,11 @@ async function handle(request, env) {
     return json({ error: "NOT_FOUND" }, 404);
   } catch (error) {
     console.error("ReadyToFly API error:", error.message);
-    const status = error.message === "REQUEST_TOO_LARGE" ? 413 : 500;
-    return json({ error: status === 413 ? "REQUEST_TOO_LARGE" : "INTERNAL_ERROR" }, status);
+    const status = error.message === "REQUEST_TOO_LARGE" ? 413 :
+      (error.message === "INVALID_JSON" || error.message === "INVALID_JSON_BODY") ? 400 : 500;
+    const code = status === 413 ? "REQUEST_TOO_LARGE" :
+      status === 400 ? "INVALID_JSON" : "INTERNAL_ERROR";
+    return json({ error: code, ...(status === 400 ? { message: "Request body must be a valid JSON object." } : {}) }, status);
   }
 }
 
