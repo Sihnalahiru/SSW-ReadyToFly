@@ -30,6 +30,8 @@ function currentPages() {
 
 function renderPage(page) {
  if (!page) return '<div class="empty-state">No matching study pages. Try another search.</div>';
+ const savedProgress = window.ReadyToFlyProgress?.get?.() || {};
+ const alreadyReviewed = Boolean(savedProgress['study-page:'+page.id]?.reviewed);
  const sections = (page.study_sections || []).map((section,index) => `
   <article class="panel study-content-card">
    <div class="study-content-meta"><span>${escapeHtml(section.type || 'study note')}</span><span>Section ${index+1}</span></div>
@@ -41,7 +43,7 @@ function renderPage(page) {
   </article>
  `).join('');
  return `
-  <div class="study-page-heading"><div><p class="eyebrow">SOURCE PAGE ${escapeHtml(page.page_number)}</p><h2>${escapeHtml(page.title_japanese || page.title_sinhala || 'Study page')}</h2><p class="muted">${escapeHtml(page.title_sinhala || '')}</p></div><button class="secondary-button" type="button" data-study-complete="${escapeHtml(page.id)}">Mark page reviewed</button></div>
+  <div class="study-page-heading"><div><p class="eyebrow">SOURCE PAGE ${escapeHtml(page.page_number)}</p><h2>${escapeHtml(page.title_japanese || page.title_sinhala || 'Study page')}</h2><p class="muted">${escapeHtml(page.title_sinhala || '')}</p></div><button class="secondary-button" type="button" data-study-complete="${escapeHtml(page.id)}" ${alreadyReviewed ? "disabled" : ""}>${alreadyReviewed ? "Reviewed ✓" : "Mark page reviewed"}</button></div>
   ${sections || '<div class="empty-state">No study sections are recorded for this source page.</div>'}
  `;
 }
