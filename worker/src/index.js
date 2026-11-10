@@ -215,7 +215,7 @@ async function handle(request, env) {
       return new Response("Not found", { status: 404 });
     }
     const rawPath = segments.map(segment => encodeURIComponent(segment)).join("/");
-    const assetResponse = await fetch("https://raw.githubusercontent.com/Sihnalahiru/SSW-ReadyToFly/e4a41fa2866510125de8e2b8c2454f634ca1c4c7/" + rawPath, {
+    const assetResponse = await fetch("https://raw.githubusercontent.com/Sihnalahiru/SSW-ReadyToFly/6fc4ee4d564a0c38b41e04994a9bea50003485bd/" + rawPath, {
       method: request.method,
       headers: { "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" },
       cf: { cacheTtl: 86400, cacheEverything: true }
