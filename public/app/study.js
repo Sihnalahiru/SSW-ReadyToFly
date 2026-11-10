@@ -38,10 +38,18 @@ function renderPage(page) {
   <section class="panel study-image-gallery" aria-label="Verified source images">
    <div class="study-image-gallery-heading"><strong>Source illustrations</strong><span>${verifiedImages.length} verified image(s)</span></div>
    <div class="study-image-grid">${verifiedImages.map((path,index)=>`
-    <figure><img src="/source-assets/${path.split('/').map(encodeURIComponent).join('/')}" alt="Verified source illustration ${index+1}" loading="lazy" decoding="async"><figcaption>Source illustration ${index+1}</figcaption></figure>
+    <figure><img data-study-image data-filename="${escapeHtml(path.split('/').pop())}" src="/source-assets/${path.split('/').map(encodeURIComponent).join('/')}" alt="Verified source illustration ${index+1}" loading="lazy" decoding="async"><figcaption>Source illustration ${index+1}</figcaption></figure>
    `).join('')}</div>
   </section>` : mappedImages.length ? `
   <section class="study-image-pending" role="note">Source images are linked to this page, but visual and QR/code exclusion checks are still pending. They will appear here after verification.</section>` : '';
+ root.querySelectorAll('[data-study-image]').forEach(img=>img.addEventListener('error',()=>{
+  const figure=img.closest('figure');
+  if(!figure)return;
+  const caption=figure.querySelector('figcaption');
+  if(caption)caption.textContent='Image unavailable · '+(img.dataset.filename||'source image');
+  img.remove();
+  figure.classList.add('image-load-error');
+ }));
  const sections = (page.study_sections || []).map((section,index) => `
   <article class="panel study-content-card">
    <div class="study-content-meta"><span>${escapeHtml(section.type || 'study note')}</span><span>Section ${index+1}</span></div>
