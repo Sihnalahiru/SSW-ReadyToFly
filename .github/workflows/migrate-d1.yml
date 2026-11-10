@@ -1,0 +1,59 @@
+name: ReadyToFly D1 migrations
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: readytofly-production-d1-migrations
+  cancel-in-progress: false
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout migration branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/zero-cost-auth-autosave-v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Verify existing D1 schema and safely baseline migrations 0001-0002
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: node validation/prepare-d1-migrations.mjs
+
+      - name: Apply only outstanding migrations through Wrangler
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npx wrangler@4 d1 migrations apply readytofly-db --remote
+
+      - name: Verify username and password-reset schema
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          node --input-type=module <<'NODE'
+          const endpoint = `https://api.cloudflare.com/client/v4/accounts/${process.env.CLOUDFLARE_ACCOUNT_ID}/d1/database/363d4ade-f519-4f67-8f17-66e8b5fd7293/query`;
+          async function q(sql) {
+            const r = await fetch(endpoint, { method: "POST", headers: { Authorization: `Bearer ${process.env.CLOUDFLARE_API_TOKEN}`, "Content-Type": "application/json" }, body: JSON.stringify({ sql }) });
+            const j = await r.json();
+            if (!r.ok || !j.success) throw new Error(JSON.stringify(j.errors ?? j));
+            return j.result?.[0]?.results ?? [];
+          }
+          const users = new Set((await q('PRAGMA table_info("users")')).map(x => x.name));
+          for (const c of ["username", "recovery_code_hash"]) if (!users.has(c)) throw new Error(`Missing users.${c}`);
+          for (const t of ["password_reset_requests", "auth_audit_log"]) {
+            if (!(await q("SELECT name FROM sqlite_master WHERE type='table' AND name='" + t + "'")).length) throw new Error(`Missing table ${t}`);
+          }
+          const migrations = await q("SELECT name FROM d1_migrations ORDER BY id");
+          console.log("D1 migration verification PASS:", migrations.map(x => x.name).join(", "));
+          NODE
