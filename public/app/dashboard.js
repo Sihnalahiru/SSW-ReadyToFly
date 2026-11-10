@@ -5,7 +5,11 @@ const trackCard = (eyebrow, title, description, status, view = 'study') => `
   <button class="text-action" type="button" data-view="${view}">Open track <span aria-hidden="true">→</span></button>
  </article>`;
 
-export function renderDashboard() {
+export function renderDashboard(user = {}) {
+ const username = String(user.username || 'Pilot');
+ const safeUsername = username.replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+ const initials = username.split(/[._-]+/).filter(Boolean).slice(0,2).map(part=>part.charAt(0).toUpperCase()).join('') || 'P';
+ const firstName = username.split(/[._-]+/).filter(Boolean)[0] || 'Pilot';
  const progress = window.ReadyToFlyProgress?.get?.() || {};
  const entries = Object.entries(progress);
  const reviewed = entries.filter(([key,value]) => key.startsWith('study-page:') && value?.reviewed).length;
@@ -15,6 +19,11 @@ export function renderDashboard() {
  const accuracy = attempts.length ? Math.round(correct / attempts.length * 100) : null;
  const activity = reviewed + learned + attempts.length;
  return `
+ <section class="dashboard-profile-bar">
+  <div class="dashboard-avatar" role="img" aria-label="Avatar for ${safeUsername}"><span>${initials}</span><i>✈</i></div>
+  <div class="dashboard-profile-copy"><p class="eyebrow">PERSONAL LEARNING SPACE</p><h2>Welcome back, ${safeUsername}</h2><p>Your Ground Handling journey is ready when you are.</p></div>
+  <div class="dashboard-profile-status"><span class="profile-online-dot"></span><span>ACCOUNT ACTIVE</span></div>
+ </section>
  <section class="dashboard-hero">
   <div class="hero-copy">
    <p class="eyebrow">AIRPORT OPERATIONS · LEARNING COMMAND</p>
