@@ -6,7 +6,7 @@ const study = await readJson('public/assets/data/study_note_visual_map.json');
 const vocab = await readJson('public/assets/data/vocabulary_master.json');
 const studyUi = await readFile('public/app/study.js', 'utf8');
 const serviceWorker = await readFile('public/sw.js', 'utf8');
-if (!/readytofly-shell-v\\d+/.test(serviceWorker) || serviceWorker.includes('readytofly-shell-v13')) {
+if (!/readytofly-shell-v\d+/.test(serviceWorker) || serviceWorker.includes('readytofly-shell-v13')) {
   throw new Error('Service worker shell cache version must be bumped after Study Center code changes.');
 }
 if (!serviceWorker.includes("'./assets/data/study_note_visual_map.json'")) {
