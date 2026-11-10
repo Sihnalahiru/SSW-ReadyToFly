@@ -11,6 +11,9 @@ let knownIds = new Set();
 let favoriteIds = new Set();
 let srsRecords = {};
 let listMode = 'all';
+let activeSet = 0;
+const VOCAB_SET_SIZE = 50;
+const VOCAB_SETS = Array.from({length:Math.ceil(623/VOCAB_SET_SIZE)},(_,index)=>({number:index+1,start:index*VOCAB_SET_SIZE+1,end:Math.min((index+1)*VOCAB_SET_SIZE,623),count:Math.min(VOCAB_SET_SIZE,623-index*VOCAB_SET_SIZE)}));
 const DAY_MS = 86400000;
 function isDue(id){const item=srsRecords[id];return Boolean(item?.dueAt)&&Date.parse(item.dueAt)<=Date.now();}
 function saveSrs(id,value){srsRecords[id]=value;window.dispatchEvent(new CustomEvent('readytofly:progress',{detail:{key:'vocabulary-srs:'+id,value}}));}
@@ -24,6 +27,8 @@ function syncAccountVocabularyState(){
 function filteredRecords() {
  const term = query.trim().toLocaleLowerCase();
  return records.filter(item => {
+  const recordNumber=Number(String(item.id).replace(/\D/g,''));
+  if(activeSet && (recordNumber<VOCAB_SETS[activeSet-1].start || recordNumber>VOCAB_SETS[activeSet-1].end))return false;
   if(listMode==='favorites'&&!favoriteIds.has(item.id))return false;
   if(listMode==='due'&&!isDue(item.id))return false;
   if(!term)return true;
@@ -40,6 +45,13 @@ function renderVocabularyView(root) {
  root.innerHTML = `
   <section class="welcome"><p class="eyebrow">JAPANESE TECHNICAL LANGUAGE</p><h1>Vocabulary Center</h1><p class="muted">Explore the existing Ground Handling vocabulary master with Japanese readings and English/Sinhala meanings.</p></section>
   <section class="panel vocab-summary"><div><strong>${records.length}</strong><span>Source records</span></div><div><strong>${list.length}</strong><span>Matching terms</span></div><div><strong>${knownIds.size}</strong><span>Marked learned · this account</span></div></section>
+  <section class="panel vocab-set-panel">
+   <div class="section-heading"><div><p class="eyebrow">MASTER VOCABULARY</p><h2>Choose a vocabulary set</h2></div><span class="section-note">623 words · 13 sets</span></div>
+   <div class="vocab-set-grid">
+    <button type="button" class="vocab-set-chip ${activeSet===0?'active':''}" data-vocab-set="0"><strong>ALL SETS</strong><span>623 words</span><small>Complete master list</small></button>
+    ${VOCAB_SETS.map(set=>'<button type="button" class="vocab-set-chip '+(activeSet===set.number?'active':'')+'" data-vocab-set="'+set.number+'"><strong>SET '+String(set.number).padStart(2,'0')+'</strong><span>'+set.count+' words</span><small>#'+String(set.start).padStart(4,'0')+'–#'+String(set.end).padStart(4,'0')+'</small></button>').join('')}
+   </div>
+  </section>
   <section class="panel vocab-search-panel">
    <div class="study-track-tabs"><button type="button" data-vocab-mode="all" class="${listMode==='all'?'active':''}">All terms</button><button type="button" data-vocab-mode="due" class="${listMode==='due'?'active':''}">Due for review</button><button type="button" data-vocab-mode="favorites" class="${listMode==='favorites'?'active':''}">Favourites</button></div>
    <label for="vocab-search">Search Japanese, reading, Romaji, English or Sinhala</label>
@@ -96,6 +108,7 @@ function renderVocabularyView(root) {
    window.speechSynthesis.speak(utterance);
   }catch(error){if(status)status.textContent='Device pronunciation is currently unavailable.';}
  });
+ root.querySelectorAll('[data-vocab-set]').forEach(button=>button.addEventListener('click',()=>{activeSet=Number(button.dataset.vocabSet)||0;activeIndex=0;showAnswer=false;renderVocabularyView(root);}));
  root.querySelectorAll('[data-vocab-mode]').forEach(button=>button.addEventListener('click',()=>{listMode=button.dataset.vocabMode;activeIndex=0;showAnswer=false;renderVocabularyView(root);}));
  root.querySelector('[data-vocab-favorite]')?.addEventListener('click',()=>{if(!current)return;if(favoriteIds.has(current.id))favoriteIds.delete(current.id);else favoriteIds.add(current.id);window.dispatchEvent(new CustomEvent('readytofly:progress',{detail:{key:'vocabulary-favorite:'+current.id,value:{favorite:favoriteIds.has(current.id),updatedAt:new Date().toISOString()}}}));renderVocabularyView(root);});
  root.querySelectorAll('[data-srs]').forEach(button=>button.addEventListener('click',()=>{if(!current)return;const rating=button.dataset.srs,previous=srsRecords[current.id]||{},intervals={again:0,good:({0:1,1:3,3:7,7:14,14:30,30:30}[Number(previous.intervalDays)||0]||1),easy:({0:3,1:7,3:14,7:30,14:60,30:90}[Number(previous.intervalDays)||0]||3)};const days=intervals[rating];const due=new Date(Date.now()+(days===0?10*60*1000:days*DAY_MS));saveSrs(current.id,{rating,intervalDays:days,lastReviewedAt:new Date().toISOString(),dueAt:due.toISOString(),reviewCount:(previous.reviewCount||0)+1});renderVocabularyView(root);}));
