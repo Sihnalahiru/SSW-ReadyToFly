@@ -1,5 +1,5 @@
 'use strict';
-const CACHE_NAME='readytofly-shell-v14';
+const CACHE_NAME='readytofly-shell-v15';
 const CORE_ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.json','./app/dashboard.js','./app/study.js','./app/exam.js','./app/progress.js','./app/vocabulary.js','./app/quiz.js','./app/auth.js','./assets/data/study_note_visual_map.json','./assets/animations/Airplane%20arrival%20at%20airport.lottie','./assets/animations/Passports%20in%20pink%20and%20blue.lottie','./assets/animations/Trophy.lottie'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(CORE_ASSETS)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('readytofly-shell-')&&key!==CACHE_NAME).map(key=>caches.delete(key)))).then(()=>self.clients.claim()))});
