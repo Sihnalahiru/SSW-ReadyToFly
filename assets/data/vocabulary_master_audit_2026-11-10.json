@@ -1,0 +1,547 @@
+{
+  "audit_version": "1.0.0",
+  "source_file": "assets/data/vocabulary_master.json",
+  "source_sha": "f005e131c1eb01050b2f697ca03a403f5cb85cfe",
+  "audited_at": "2026-11-10",
+  "status": "INITIAL_FIELD_AND_DUPLICATE_AUDIT",
+  "totals": {
+    "records": 623,
+    "missing_core_fields": {
+      "japanese": 0,
+      "furigana": 0,
+      "romaji": 0,
+      "english": 0,
+      "sinhala": 0
+    }
+  },
+  "duplicate_checks": {
+    "exact_japanese": [],
+    "exact_english": [
+      {
+        "value": "passenger",
+        "ids": [
+          "GHV0005",
+          "GHV0012",
+          "GHV0405"
+        ]
+      },
+      {
+        "value": "unloading",
+        "ids": [
+          "GHV0009",
+          "GHV0101"
+        ]
+      },
+      {
+        "value": "cargo",
+        "ids": [
+          "GHV0011",
+          "GHV0308"
+        ]
+      },
+      {
+        "value": "destination",
+        "ids": [
+          "GHV0014",
+          "GHV0150"
+        ]
+      },
+      {
+        "value": "load weight",
+        "ids": [
+          "GHV0016",
+          "GHV0140"
+        ]
+      },
+      {
+        "value": "damage",
+        "ids": [
+          "GHV0017",
+          "GHV0205",
+          "GHV0475"
+        ]
+      },
+      {
+        "value": "cargo compartment",
+        "ids": [
+          "GHV0063",
+          "GHV0104"
+        ]
+      },
+      {
+        "value": "explosives",
+        "ids": [
+          "GHV0075",
+          "GHV0338",
+          "GHV0471"
+        ]
+      },
+      {
+        "value": "strictly",
+        "ids": [
+          "GHV0079",
+          "GHV0497"
+        ]
+      },
+      {
+        "value": "outside",
+        "ids": [
+          "GHV0084",
+          "GHV0161"
+        ]
+      },
+      {
+        "value": "regulations",
+        "ids": [
+          "GHV0087",
+          "GHV0360"
+        ]
+      },
+      {
+        "value": "signal",
+        "ids": [
+          "GHV0107",
+          "GHV0531"
+        ]
+      },
+      {
+        "value": "safety",
+        "ids": [
+          "GHV0114",
+          "GHV0404",
+          "GHV0549"
+        ]
+      },
+      {
+        "value": "physical",
+        "ids": [
+          "GHV0118",
+          "GHV0417"
+        ]
+      },
+      {
+        "value": "flammable",
+        "ids": [
+          "GHV0132",
+          "GHV0612"
+        ]
+      },
+      {
+        "value": "important",
+        "ids": [
+          "GHV0139",
+          "GHV0408"
+        ]
+      },
+      {
+        "value": "crew",
+        "ids": [
+          "GHV0144",
+          "GHV0281"
+        ]
+      },
+      {
+        "value": "transfer",
+        "ids": [
+          "GHV0152",
+          "GHV0242"
+        ]
+      },
+      {
+        "value": "work",
+        "ids": [
+          "GHV0178",
+          "GHV0393"
+        ]
+      },
+      {
+        "value": "carefully",
+        "ids": [
+          "GHV0201",
+          "GHV0520"
+        ]
+      },
+      {
+        "value": "moving cargo",
+        "ids": [
+          "GHV0252",
+          "GHV0303"
+        ]
+      },
+      {
+        "value": "international flight",
+        "ids": [
+          "GHV0265",
+          "GHV0266"
+        ]
+      },
+      {
+        "value": "radioactive",
+        "ids": [
+          "GHV0349",
+          "GHV0617"
+        ]
+      },
+      {
+        "value": "always",
+        "ids": [
+          "GHV0367",
+          "GHV0436"
+        ]
+      },
+      {
+        "value": "cockpit",
+        "ids": [
+          "GHV0381",
+          "GHV0442"
+        ]
+      },
+      {
+        "value": "error",
+        "ids": [
+          "GHV0383",
+          "GHV0568"
+        ]
+      },
+      {
+        "value": "appropriate",
+        "ids": [
+          "GHV0384",
+          "GHV0450"
+        ]
+      },
+      {
+        "value": "prevention",
+        "ids": [
+          "GHV0389",
+          "GHV0566"
+        ]
+      },
+      {
+        "value": "touch",
+        "ids": [
+          "GHV0394",
+          "GHV0559"
+        ]
+      },
+      {
+        "value": "running",
+        "ids": [
+          "GHV0400",
+          "GHV0449"
+        ]
+      },
+      {
+        "value": "compensation",
+        "ids": [
+          "GHV0424",
+          "GHV0426"
+        ]
+      },
+      {
+        "value": "flammability",
+        "ids": [
+          "GHV0473",
+          "GHV0614"
+        ]
+      },
+      {
+        "value": "in advance",
+        "ids": [
+          "GHV0493",
+          "GHV0551"
+        ]
+      },
+      {
+        "value": "degree",
+        "ids": [
+          "GHV0546",
+          "GHV0547"
+        ]
+      }
+    ],
+    "exact_furigana": [
+      {
+        "value": "ていしいち",
+        "ids": [
+          "GHV0034",
+          "GHV0537"
+        ]
+      },
+      {
+        "value": "そくど",
+        "ids": [
+          "GHV0102",
+          "GHV0467"
+        ]
+      },
+      {
+        "value": "しんりてき",
+        "ids": [
+          "GHV0117",
+          "GHV0418"
+        ]
+      },
+      {
+        "value": "しんたいてき",
+        "ids": [
+          "GHV0118",
+          "GHV0417"
+        ]
+      },
+      {
+        "value": "しどう",
+        "ids": [
+          "GHV0125",
+          "GHV0462"
+        ]
+      },
+      {
+        "value": "いんか",
+        "ids": [
+          "GHV0132",
+          "GHV0473"
+        ]
+      },
+      {
+        "value": "あらかじめ",
+        "ids": [
+          "GHV0186",
+          "GHV0551"
+        ]
+      },
+      {
+        "value": "かんかく",
+        "ids": [
+          "GHV0197",
+          "GHV0571"
+        ]
+      },
+      {
+        "value": "ひっこしかもつ",
+        "ids": [
+          "GHV0252",
+          "GHV0303"
+        ]
+      },
+      {
+        "value": "ぼうせいざい",
+        "ids": [
+          "GHV0325",
+          "GHV0603"
+        ]
+      },
+      {
+        "value": "しんこくしょ",
+        "ids": [
+          "GHV0333",
+          "GHV0606"
+        ]
+      },
+      {
+        "value": "つねに",
+        "ids": [
+          "GHV0367",
+          "GHV0436"
+        ]
+      },
+      {
+        "value": "ぼうし",
+        "ids": [
+          "GHV0389",
+          "GHV0390"
+        ]
+      }
+    ],
+    "note": "Repeated English glosses and furigana are not automatically errors; different Japanese terms or context may legitimately share a gloss/reading. Preserve records until source comparison."
+  },
+  "high_priority_field_anomalies": [
+    {
+      "id": "GHV0029",
+      "source_row": 30,
+      "japanese": "地上支援機材",
+      "furigana": "ちじょうしえんきざい",
+      "romaji": "chijoushienkizai",
+      "english": "Ground support",
+      "sinhala": "ගුවන් තොටුපළ භූමි සහායක උපකරණ (GSE)",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    },
+    {
+      "id": "GHV0040",
+      "source_row": 41,
+      "japanese": "牽引車",
+      "furigana": "けんいんしゃ",
+      "romaji": "keninsha",
+      "english": "tow car",
+      "sinhala": "ගුවන් යානය හෝ උපකරණ ඇදගෙන යන ට්‍රැක්ටරය (Tow tractor)",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    },
+    {
+      "id": "GHV0044",
+      "source_row": 45,
+      "japanese": "時刻表到着",
+      "furigana": "じこくひょう",
+      "romaji": "jikokuhyou",
+      "english": "timetable for arrival (STA)",
+      "sinhala": "නියමිත පැමිණීමේ වේලාව (STA)",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    },
+    {
+      "id": "GHV0045",
+      "source_row": 46,
+      "japanese": "出発時刻",
+      "furigana": "しゅっぱつじこく",
+      "romaji": "shuppatsujikoku",
+      "english": "departure time (STD)",
+      "sinhala": "නියමිත පිටත්වීමේ වේලාව (STD)",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    },
+    {
+      "id": "GHV0304",
+      "source_row": 305,
+      "japanese": "子育運送状",
+      "furigana": "こうくううんそうじょう",
+      "romaji": "koukuuunsoujou",
+      "english": "master air way bill",
+      "sinhala": "ප්‍රධාන ගුවන් භාණ්ඩ ප්‍රවාහන පත්‍රය (MAWB)",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    },
+    {
+      "id": "GHV0326",
+      "source_row": 327,
+      "japanese": "消炎鎮痛剤",
+      "furigana": "しょうえんつうざい",
+      "romaji": "shouentsuuzai",
+      "english": "flame retardant",
+      "sinhala": "ප්‍රදාහය අඩු කරන සහ වේදනා නාශක ඖෂධ (English gloss එක වැරදියි)",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    },
+    {
+      "id": "GHV0459",
+      "source_row": 460,
+      "japanese": "出発発見",
+      "furigana": "しゅっぱつはっけん",
+      "romaji": "shuppatsuhakken",
+      "english": "බැලීම departure discovery යුතු",
+      "sinhala": "පිටත් වීදම්දි දසායා අවධානය දයාමු කල",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    },
+    {
+      "id": "GHV0463",
+      "source_row": 464,
+      "japanese": "グランドパワー車 エア・スタータ車",
+      "furigana": "グランドパワーしゃ・エア・スタータしゃ",
+      "romaji": "gurandopawa-sha・ea・suta-tasha",
+      "english": "රථය grand power car රථය air starter car",
+      "sinhala": "ග්‍රවුන්් පවර් දමෝටර් එයර් ස්ටාර්් දමෝටර්",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    },
+    {
+      "id": "GHV0464",
+      "source_row": 465,
+      "japanese": "航空機牽引車",
+      "furigana": "こうくうきけんいんしゃ",
+      "romaji": "koukuukikeninsha",
+      "english": "aircraft towing vehicle",
+      "sinhala": "ගුවන් යානය ඇදගෙන යන වාහනය (Aircraft tug)",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    },
+    {
+      "id": "GHV0508",
+      "source_row": 509,
+      "japanese": "人身事故",
+      "furigana": "じんしんじこ",
+      "romaji": "jinshinjiko",
+      "english": "හානි personal injury accident",
+      "sinhala": "පුද්ගල තුවාල හෝ ජීවිත හානි සිදු වූ අනතුර",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    },
+    {
+      "id": "GHV0567",
+      "source_row": 568,
+      "japanese": "インシデント",
+      "furigana": "インシデント",
+      "romaji": "inshidento",
+      "english": "incident",
+      "sinhala": "සිදුවීම (Incident)",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    },
+    {
+      "id": "GHV0585",
+      "source_row": 586,
+      "japanese": "エプロン",
+      "furigana": "エプロン",
+      "romaji": "epuron",
+      "english": "apron",
+      "sinhala": "ගුවන් යානා නැවතුම් හා සේවා සැපයුම් ප්‍රදේශය (Apron)",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    },
+    {
+      "id": "GHV0586",
+      "source_row": 587,
+      "japanese": "誘導路",
+      "furigana": "ゆうどうろ",
+      "romaji": "yuudouro",
+      "english": "taxiway",
+      "sinhala": "ගුවන් යානා ධාවන පථයට සම්බන්ධ මඟ (Taxiway)",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    },
+    {
+      "id": "GHV0589",
+      "source_row": 590,
+      "japanese": "スポット",
+      "furigana": "スポット",
+      "romaji": "supotto",
+      "english": "spot",
+      "sinhala": "ගුවන් යානා නැවතුම් ස්ථානය (Stand)",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    },
+    {
+      "id": "GHV0601",
+      "source_row": 602,
+      "japanese": "モバイルバッテリー",
+      "furigana": "モバイルバッテリー",
+      "romaji": "mobairubatteri-",
+      "english": "mobile battery",
+      "sinhala": "අතේ ගෙන යා හැකි බාහිර බැටරිය (Power bank)",
+      "issue": "Mixed-language/script contamination detected; verify against original workbook/source before correction."
+    }
+  ],
+  "confirmed_observations": [
+    {
+      "id": "GHV0034",
+      "issue": "Japanese reading appears inconsistent with stop-position term; verify original source."
+    },
+    {
+      "id": "GHV0044",
+      "issue": "Japanese compound 時刻表到着 and furigana 時刻表 reading appear incomplete/unnatural; verify source."
+    },
+    {
+      "id": "GHV0304",
+      "issue": "Japanese term 子育運送状 appears likely corrupted OCR/transcription; verify original source."
+    },
+    {
+      "id": "GHV0326",
+      "issue": "消炎鎮痛剤 means anti-inflammatory/analgesic medicine; English gloss 'flame retardant' is semantically inconsistent."
+    },
+    {
+      "id": "GHV0463",
+      "issue": "Furigana field contains katakana rather than kana reading; romaji/English/Sinhala mixed-script contamination."
+    },
+    {
+      "id": "GHV0535",
+      "issue": "Japanese term 左に倚れ may be uncommon/possibly incorrect signal wording; verify official source."
+    },
+    {
+      "id": "GHV0536",
+      "issue": "Japanese term 右に倚れ may be uncommon/possibly incorrect signal wording; verify official source."
+    }
+  ],
+  "rules": [
+    "Do not delete repeated words automatically.",
+    "Do not rewrite Japanese, furigana, romaji, English or Sinhala without source evidence.",
+    "Keep all existing IDs and source row references stable.",
+    "Use PENDING where original source evidence is insufficient.",
+    "Do not claim semantic validation complete; this audit is an initial automated field/duplicate scan."
+  ]
+}
