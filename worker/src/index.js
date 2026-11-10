@@ -528,7 +528,16 @@ async function handle(request, env) {
       (error.message === "INVALID_JSON" || error.message === "INVALID_JSON_BODY") ? 400 : 500;
     const code = status === 413 ? "REQUEST_TOO_LARGE" :
       status === 400 ? "INVALID_JSON" : "INTERNAL_ERROR";
-    return json({ error: code, ...(status === 400 ? { message: "Request body must be a valid JSON object." } : {}) }, status);
+    // Temporary, preview-only diagnostics. Never expose backend details on production.
+    const previewHost = "feature-zero-cost-auth-autosave-v2-ssw-readytofly.madusanka-lahiru.workers.dev";
+    const previewDiagnostic = new URL(request.url).hostname === previewHost && status === 500
+      ? { diagnostic: String(error && error.message || "Unknown backend error").slice(0, 240) }
+      : {};
+    return json({
+      error: code,
+      ...(status === 400 ? { message: "Request body must be a valid JSON object." } : {}),
+      ...previewDiagnostic
+    }, status);
   }
 }
 
