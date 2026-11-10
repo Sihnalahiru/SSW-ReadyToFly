@@ -32,6 +32,16 @@ function renderPage(page) {
  if (!page) return '<div class="empty-state">No matching study pages. Try another search.</div>';
  const savedProgress = window.ReadyToFlyProgress?.get?.() || {};
  const alreadyReviewed = Boolean(savedProgress['study-page:'+page.id]?.reviewed);
+ const verifiedImages = Array.isArray(page.verified_non_qr_images) ? page.verified_non_qr_images : [];
+ const mappedImages = Array.isArray(page.mapped_images) ? page.mapped_images : [];
+ const imagePanel = verifiedImages.length ? `
+  <section class="panel study-image-gallery" aria-label="Verified source images">
+   <div class="study-image-gallery-heading"><strong>Source illustrations</strong><span>${verifiedImages.length} verified image(s)</span></div>
+   <div class="study-image-grid">${verifiedImages.map((path,index)=>`
+    <figure><img src="/source-assets/${path.split('/').map(encodeURIComponent).join('/')}" alt="Verified source illustration ${index+1}" loading="lazy" decoding="async"><figcaption>Source illustration ${index+1}</figcaption></figure>
+   `).join('')}</div>
+  </section>` : mappedImages.length ? `
+  <section class="study-image-pending" role="note">Source images are linked to this page, but visual and QR/code exclusion checks are still pending. They will appear here after verification.</section>` : '';
  const sections = (page.study_sections || []).map((section,index) => `
   <article class="panel study-content-card">
    <div class="study-content-meta"><span>${escapeHtml(section.type || 'study note')}</span><span>Section ${index+1}</span></div>
@@ -45,6 +55,7 @@ function renderPage(page) {
  `).join('');
  return `
   <div class="study-page-heading"><div><p class="eyebrow">SOURCE PAGE ${escapeHtml(page.page_number)}</p><h2>${escapeHtml(page.title_japanese || page.title_sinhala || 'Study page')}</h2><p class="muted">${escapeHtml(page.title_sinhala || '')}</p></div><button class="secondary-button" type="button" data-study-complete="${escapeHtml(page.id)}" ${alreadyReviewed ? "disabled" : ""}>${alreadyReviewed ? "Reviewed ✓" : "Mark page reviewed"}</button></div>
+  ${imagePanel}
   ${sections || '<div class="empty-state">No study sections are recorded for this source page.</div>'}
  `;
 }
