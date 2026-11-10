@@ -1,0 +1,114 @@
+{
+  "project": "SSW-ReadyToFly",
+  "module": "Airport Ground Handling",
+  "source_authority": "Japan Ministry of Land, Infrastructure, Transport and Tourism (MLIT) / Japan Aeronautical Engineers' Association",
+  "source_title": "航空分野（空港グランドハンドリング）特定技能評価試験実施要領",
+  "source_url": "https://www.mlit.go.jp/koku/content/002001685.pdf",
+  "published_date": "2026-04-07",
+  "effective_date": "2026-08-01",
+  "audited_date": "2026-11-10",
+  "status": "OFFICIAL_SPEC_VERIFIED",
+  "language": {
+    "exam_language": "Japanese",
+    "kanji_support": "Furigana/Ruby is attached to kanji",
+    "foreign_language_annotations": "May be added for technical terms",
+    "app_policy": "Japanese-first exam simulation; English and Sinhala explanations belong to learning/review mode, not as a replacement for the Japanese exam interface."
+  },
+  "grade_1": {
+    "academic": {
+      "duration_minutes": 45,
+      "questions": 30,
+      "format": "Multiple choice",
+      "pass_mark": 20,
+      "total_marks": 30
+    },
+    "practical": {
+      "duration_minutes": 30,
+      "questions": 15,
+      "format": [
+        "Judgement test",
+        "Planning/work-planning test"
+      ],
+      "pass_mark": 10,
+      "total_marks": 15
+    },
+    "pass_rule": "At least 65% correct separately in both academic and practical sections."
+  },
+  "grade_2": {
+    "academic": {
+      "duration_minutes": 60,
+      "questions": 45,
+      "format": "Multiple choice",
+      "pass_mark": 30,
+      "total_marks": 45
+    },
+    "practical": {
+      "duration_minutes": 40,
+      "questions": 20,
+      "format": [
+        "Judgement test",
+        "Planning/work-planning test"
+      ],
+      "pass_mark": 13,
+      "total_marks": 20
+    },
+    "pass_rule": "At least 65% correct separately in both academic and practical sections."
+  },
+  "grade_1_subjects": {
+    "academic": [
+      "Aircraft safety: aircraft priority, danger zones, dangerous goods transport, weight and balance, aviation security",
+      "Work safety: compliance with rules, weather, worker clothing/PPE, vehicle operation",
+      "Air transport quality: safety and quality of work, basic work concepts",
+      "Prevention: near-miss reports, pointing-and-calling, hazard prediction"
+    ],
+    "practical": [
+      "Collect and understand information from work instructions",
+      "Understand cargo/load information and prepare accordingly",
+      "Aircraft ground movement support",
+      "Baggage and cargo handling",
+      "Aircraft loading and unloading",
+      "Aircraft interior and exterior cleaning/maintenance",
+      "Passenger handling",
+      "In-flight meal transport/loading/unloading",
+      "Aviation fuel handling"
+    ]
+  },
+  "grade_2_additional_emphasis": {
+    "academic": [
+      "Human error",
+      "Advanced work concepts",
+      "Advanced knowledge across the Grade 1 subject domains"
+    ],
+    "practical": [
+      "Team-leader coordination",
+      "Prioritization and task instruction",
+      "Recognize and correct procedure non-compliance"
+    ]
+  },
+  "official_exam_delivery": "Paper-based test; academic and practical tests are conducted on paper. Practical assessment uses judgement and planning/work-planning tasks.",
+  "public_materials": "MLIT guideline states that the exam body publishes the implementation guideline, study text, and sample questions free of charge on its dedicated website.",
+  "app_implementation_rules": [
+    "Do not label the existing 14 practice papers as official exams.",
+    "Do not assume the current 654 question references match the 2026 specification until question-level audit is completed.",
+    "Build Grade 1 simulator to 30 academic questions/45 minutes and 15 practical questions/30 minutes only for practice alignment.",
+    "Keep Grade 2 as a separate syllabus and assessment profile.",
+    "Keep exact Japanese question wording in Japanese Exam mode; display furigana when available.",
+    "Show English and Sinhala explanations after answering or in Learning mode.",
+    "Use the official 65% pass threshold separately for academic and practical results.",
+    "Do not represent the app's web CBT interface as the official paper examination."
+  ],
+  "references": [
+    {
+      "title": "MLIT 2026 implementation guideline",
+      "url": "https://www.mlit.go.jp/koku/content/002001685.pdf"
+    },
+    {
+      "title": "JAEA Airport Ground Handling support and sample questions",
+      "url": "https://exam.jaea.or.jp/?page_id=356"
+    },
+    {
+      "title": "JAEA sample questions PDF (legacy sample)",
+      "url": "https://exam.jaea.or.jp/wp-content/uploads/2022/09/GH_Sample%20Questions.pdf"
+    }
+  ]
+}
