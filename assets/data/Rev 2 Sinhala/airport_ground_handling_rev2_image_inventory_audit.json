@@ -4,7 +4,7 @@
   "revision": "Rev 2",
   "source_directory": "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/",
   "audit_date": "2026-11-08",
-  "status": "FILENAME_INVENTORY_VERIFIED_VISUAL_REVIEW_PENDING",
+  "status": "ALL_84_FILES_VISUALLY_REVIEWED_NO_QR; 51_PAGE_MAPPED_IMAGES_APPROVED; LOGO_AND_FRAGMENTS_EXCLUDED",
   "total_files": 84,
   "files": [
     {
@@ -13,7 +13,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VISUALLY_CHECKED_NOT_MAPPED_TO_DISPLAYED_STUDY_PAGE"
     },
     {
       "filename": "1.jpg",
@@ -21,7 +22,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VISUALLY_CHECKED_NOT_MAPPED_TO_DISPLAYED_STUDY_PAGE"
     },
     {
       "filename": "100.jpg",
@@ -29,7 +31,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "101.jpg",
@@ -37,7 +40,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "108.jpg",
@@ -45,7 +49,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "109.jpg",
@@ -53,7 +58,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "110.jpg",
@@ -61,7 +67,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "112.jpg",
@@ -69,7 +76,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "114.jpg",
@@ -77,7 +85,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "116.jpg",
@@ -85,7 +94,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "118.jpg",
@@ -93,7 +103,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "119.jpg",
@@ -101,7 +112,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "120.jpg",
@@ -109,7 +121,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "121.jpg",
@@ -117,7 +130,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "122.jpg",
@@ -125,7 +139,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VISUALLY_CHECKED_NOT_MAPPED_TO_DISPLAYED_STUDY_PAGE"
     },
     {
       "filename": "123.jpg",
@@ -133,7 +148,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VISUALLY_CHECKED_NOT_MAPPED_TO_DISPLAYED_STUDY_PAGE"
     },
     {
       "filename": "124.jpg",
@@ -141,7 +157,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VISUALLY_CHECKED_NOT_MAPPED_TO_DISPLAYED_STUDY_PAGE"
     },
     {
       "filename": "125.jpg",
@@ -149,7 +166,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VISUALLY_CHECKED_NOT_MAPPED_TO_DISPLAYED_STUDY_PAGE"
     },
     {
       "filename": "126.jpg",
@@ -157,7 +175,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VISUALLY_CHECKED_NOT_MAPPED_TO_DISPLAYED_STUDY_PAGE"
     },
     {
       "filename": "127.jpg",
@@ -165,7 +184,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VISUALLY_CHECKED_NOT_MAPPED_TO_DISPLAYED_STUDY_PAGE"
     },
     {
       "filename": "128.jpg",
@@ -173,7 +193,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VISUALLY_CHECKED_NOT_MAPPED_TO_DISPLAYED_STUDY_PAGE"
     },
     {
       "filename": "129.jpg",
@@ -181,7 +202,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VISUALLY_CHECKED_NOT_MAPPED_TO_DISPLAYED_STUDY_PAGE"
     },
     {
       "filename": "13.jpg",
@@ -189,7 +211,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "130.jpg",
@@ -197,7 +220,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VISUALLY_CHECKED_NOT_MAPPED_TO_DISPLAYED_STUDY_PAGE"
     },
     {
       "filename": "131.jpg",
@@ -205,7 +229,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VISUALLY_CHECKED_NOT_MAPPED_TO_DISPLAYED_STUDY_PAGE"
     },
     {
       "filename": "132.jpg",
@@ -213,7 +238,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VISUALLY_CHECKED_NOT_MAPPED_TO_DISPLAYED_STUDY_PAGE"
     },
     {
       "filename": "133.jpg",
@@ -221,7 +247,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "134.jpg",
@@ -229,7 +256,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VISUALLY_CHECKED_NOT_MAPPED_TO_DISPLAYED_STUDY_PAGE"
     },
     {
       "filename": "14.jpg",
@@ -237,7 +265,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "15.jpg",
@@ -245,7 +274,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "16.jpg",
@@ -253,7 +283,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "2.jpg",
@@ -261,7 +292,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_REPEATED_JAEA_FOOTER_LOGO"
     },
     {
       "filename": "24.jpg",
@@ -269,7 +301,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "25.jpg",
@@ -277,7 +310,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "26.jpg",
@@ -285,7 +319,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "27.jpg",
@@ -293,7 +328,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "28.jpg",
@@ -301,7 +337,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "29.jpg",
@@ -309,7 +346,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "3.jpg",
@@ -317,7 +355,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "30.jpg",
@@ -325,7 +364,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "31.jpg",
@@ -333,7 +373,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "32.jpg",
@@ -341,7 +382,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "33.jpg",
@@ -349,7 +391,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "34.jpg",
@@ -357,7 +400,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "35.jpg",
@@ -365,7 +409,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "36.jpg",
@@ -373,7 +418,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "37.jpg",
@@ -381,7 +427,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "38.jpg",
@@ -389,7 +436,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "39.jpg",
@@ -397,7 +445,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COLOUR_LAYER"
     },
     {
       "filename": "4.jpg",
@@ -405,7 +454,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "40.jpg",
@@ -413,7 +463,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "41.jpg",
@@ -421,7 +472,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "42.jpg",
@@ -429,7 +481,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "43.jpg",
@@ -437,7 +490,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "44.jpg",
@@ -445,7 +499,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "45.jpg",
@@ -453,7 +508,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "46.jpg",
@@ -461,7 +517,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "47.jpg",
@@ -469,7 +526,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "48.jpg",
@@ -477,7 +535,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "49.jpg",
@@ -485,7 +544,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "50.jpg",
@@ -493,7 +553,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "51.jpg",
@@ -501,7 +562,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "52.jpg",
@@ -509,7 +571,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "53.jpg",
@@ -517,7 +580,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "54.jpg",
@@ -525,7 +589,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "55.jpg",
@@ -533,7 +598,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "56.jpg",
@@ -541,7 +607,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "57.jpg",
@@ -549,7 +616,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "58.jpg",
@@ -557,7 +625,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "59.jpg",
@@ -565,7 +634,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "60.jpg",
@@ -573,7 +643,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "61.jpg",
@@ -581,7 +652,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "62.jpg",
@@ -589,7 +661,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "63.jpg",
@@ -597,7 +670,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "68.jpg",
@@ -605,7 +679,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "69.jpg",
@@ -613,7 +688,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "74.jpg",
@@ -621,7 +697,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "75.jpg",
@@ -629,7 +706,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "78.jpg",
@@ -637,7 +715,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "85.jpg",
@@ -645,7 +724,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "89.jpg",
@@ -653,7 +733,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "91.jpg",
@@ -661,7 +742,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "97.jpg",
@@ -669,7 +751,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     },
     {
       "filename": "98.jpg",
@@ -677,7 +760,8 @@
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
-      "qr_or_code_check": "PENDING"
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_MAPPED_TO_STUDY_PAGE"
     }
   ],
   "cross_check": {
@@ -756,5 +840,16 @@
     "Visually classify content and identify duplicate/fragments",
     "Compare candidate images against source PDF pages",
     "Confirm exact page mappings only where evidence is clear"
-  ]
+  ],
+  "visual_review": {
+    "date": "2026-11-10",
+    "files_reviewed": 84,
+    "qr_codes_found": 0,
+    "approved_non_qr_images": 51,
+    "excluded_repeated_logo": 1,
+    "excluded_fragments": 18,
+    "other_unmapped_files": 14,
+    "mapping_source": "pdf_image_source_map_rev2_1.json",
+    "note": "Only exact PDF-mapped, visually complete non-QR images are enabled in Study Center. Repeated JAEA footer logo and extracted fragments/colour strips are not rendered."
+  }
 }
