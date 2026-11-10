@@ -2204,10 +2204,7 @@
       "title_sinhala": "ආරක්ෂාව සහ ගුණාත්මකභාවය හැඳින්වීම (Safety and Quality Overview)",
       "title_japanese": "01. 安全と品質の基本概念と重要性",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part1_Pages_1_to_10.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/1.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/2.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P01_S01",
@@ -2218,7 +2215,9 @@
           "english": "Ensuring safety and quality in the aviation industry is the foundation of all operations, and the most critical factor for maintaining customer trust and pre-emptively preventing accidents.",
           "sinhala": "ගුවන් සේවා කර්මාන්තය තුළ ආරක්ෂාව සහ ගුණාත්මකභාවය තහවුරු කිරීම සියලුම මෙහෙයුම්වල මූලික පදනම වන අතර, මගීන්ගේ විශ්වාසය රැක ගැනීමට සහ අනතුරු වළක්වා ගැනීමට ඇති අතිශය වැදගත් සාධකය වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p002-d9250",
@@ -2226,10 +2225,7 @@
       "title_sinhala": "मानव त्रुटि (Human Error) සහ එය වැළැක්වීමේ මූලධර්ම",
       "title_japanese": "02. ヒューマンエラーのメカニズムと発生要因",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part1_Pages_1_to_10.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/3.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/4.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P02_S01",
@@ -2240,7 +2236,9 @@
           "english": "Many aviation accidents are attributed to human errors such as judgment or operational mistakes. To prevent errors, it is necessary to review not only individual attention but also systems and rules.",
           "sinhala": "බොහෝ ගුවන් අනතුරු මිනිසුන්ගේ වැරදි තීරණ හෝ මෙහෙයුම් දෝෂ වැනි මානව දෝෂ (Human errors) නිසා සිදුවේ. මෙම දෝෂ වැළැක්වීම සඳහා පුද්ගල අවධානයට පමණක් සීමා නොවී පද්ධති සහ නීති රීති නැවත පරීක්ෂා කිරීම අවශ්‍ය වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p003-d9250",
@@ -2248,10 +2246,7 @@
       "title_sinhala": "ආරක්ෂක සංස්කෘතිය සහ වගකීම් සහගත වැඩ පරිසරය (Safety Culture)",
       "title_japanese": "03. 安全文化（セーフティ・カルチャー）の醸成とオープンな職場",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part1_Pages_1_to_10.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/5.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/6.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P03_S01",
@@ -2262,7 +2257,9 @@
           "english": "To maintain a safe workplace environment, an open and bright atmosphere (Just Culture) where errors and near-misses can be reported without concealment is indispensable.",
           "sinhala": "ආරක්ෂිත සේවා පරිසරයක් පවත්වාගෙන යාම සඳහා වැරදි හෝ හියාරි-හට්ටෝ (Near-miss) වසන් නොකර විවෘතව වාර්තා කළ හැකි සුහදශීලී පරිසරයක් (Just Culture) අත්‍යවශ්‍ය වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p004-d9250",
@@ -2270,10 +2267,7 @@
       "title_sinhala": "හියාරි-හට්ටෝ (Near-Miss) වාර්තාකරණයේ වැදගත්කම",
       "title_japanese": "04. ヒヤリ・ハット・レポートの活用と事故の未然防止",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part1_Pages_1_to_10.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/7.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/8.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P04_S01",
@@ -2284,7 +2278,9 @@
           "english": "Behind major accidents, there are numerous near-misses (close calls). By collecting and analyzing these, measures can be taken to prevent accidents pre-emptively.",
           "sinhala": "ප්‍රධාන අනතුරක් සිදුවීමට පසුබිමින්, හියාරි-හට්ටෝ (අනූනමයෙන් බේරුණු අවස්ථා) බොහෝමයක් පවතී. ඒවා එකතු කර විශ්ලේෂණය කිරීම මඟින් අනතුරු කල්තියා වළක්වා ගැනීමට ක්‍රියාමාර්ග ගත හැක."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p005-d9250",
@@ -2292,10 +2288,7 @@
       "title_sinhala": "ශිසා කොෂෝ (Pointing and Calling) සහ ආරක්ෂක තහවුරු කිරීම",
       "title_japanese": "05. 指差呼称および危険予知活動（KY）の実践",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part1_Pages_1_to_10.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/9.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/10.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P05_S01",
@@ -2306,7 +2299,9 @@
           "english": "By pointing at confirmation targets and calling out 'Yoshi!', concentration is sharpened, enabling instant detection of errors or unsafe conditions. Thoroughly practice this along with Hazard Prediction (KY) activities.",
           "sinhala": "අදාළ ස්ථානයට ඇඟිල්ල දිගු කර 'යෝෂි!' කියා හඬ නගා තහවුරු කිරීම මඟින් අවධානය කේන්ද්‍රගත වී අත්වැරදීම් හෝ අනාරක්ෂිත තත්ත්වයන් ක්ෂණිකව හඳුනාගත හැක. අනතුරු කල්තියා හඳුනාගැනීමේ (KY) ක්‍රියාකාරකම් සමඟ මෙය එකතු කර ක්‍රියාත්මක කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p006-d9250",
@@ -2314,10 +2309,7 @@
       "title_sinhala": "ගුවන් තොටුපළ බිම් සලකුණු සහ වාහන මාර්ග රෙගුලාසි",
       "title_japanese": "06. ランプ内における車両通路の指示標示と交通ルールの遵守",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part1_Pages_1_to_10.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/11.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/12.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P06_S01",
@@ -2328,7 +2320,9 @@
           "english": "Ramp roadways feature stop lines, directional arrows, pedestrian crossings (diamond marks), and forward yield markings. Drivers must obey the aircraft priority principle and drive safely.",
           "sinhala": "රැම්ප් මාර්ග තුළ නැවැත්වීමේ රේඛා, ධාවන දිශා, පදික මාරු (ඩයමන්ඩ් සලකුණ) සහ ඉදිරිපස ප්‍රමුඛතා සලකුණු පිහිටුවා ඇත. ගුවන් යානා ප්‍රමුඛතා මූලධර්මය අකුරටම රකිමින් ආරක්ෂිතව රිය පැදවිය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p007-d9250",
@@ -2337,8 +2331,7 @@
       "title_japanese": "07. 機材制限区域（ERA）と機材待機区域（ESA）の定義と運用",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part1_Pages_1_to_10.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/014.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/15.jpg"
       ],
       "study_sections": [
         {
@@ -2350,7 +2343,11 @@
           "english": "No vehicles may enter the ERA (Equipment Restraint Area) while an aircraft is moving. The ESA (Equipment Staging Area) can be used 30 minutes prior to spot-in and must be evacuated promptly after service completion.",
           "sinhala": "ගුවන් යානයක් චලනය වන විට කිසිදු වාහනයක් ERA (උපකරණ සීමා කළ කලාපය) වෙත ඇතුළු වීම සපුරා තහනම්ය. ESA (උපකරණ පොරොත්තු කලාපය) ගුවන් යානය පැමිණීමට විනාඩි 30 කට පෙර භාවිතා කළ හැකි අතර වැඩ අවසන් වූ වහාම ඉවත් විය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/15.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SEMANTIC_MAPPING"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p008-d9250",
@@ -2359,8 +2356,7 @@
       "title_japanese": "08. PBB稼働区域とPBB待機位置（Stand-by Position）のルール",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part1_Pages_1_to_10.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/15.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/016.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/95.jpg"
       ],
       "study_sections": [
         {
@@ -2372,7 +2368,11 @@
           "english": "Parking vehicles within the PBB operating range or around its stand-by position is strictly prohibited. Also, the PBB must not be moved until the aircraft comes to a complete stop.",
           "sinhala": "මගී පාලම (PBB) ක්‍රියාත්මක වන සීමාව තුළ හෝ එහි පොරොත්තු ස්ථානය අසල වාහන නැවැත්වීම සම්පූර්ණයෙන්ම තහනම් වේ. එසේම ගුවන් යානය සම්පූර්ණයෙන්ම නවත්වා නිශ්චල වන තුරු PBB පාලම ක්‍රියාත්මක නොකළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/95.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SEMANTIC_MAPPING"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p009-d9250",
@@ -2381,8 +2381,7 @@
       "title_japanese": "09. 危険物の航空輸送に関する法規制と違反時の罰則（50万円以下の罰金）",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part1_Pages_1_to_10.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/17.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/18.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/98.jpg"
       ],
       "study_sections": [
         {
@@ -2394,7 +2393,11 @@
           "english": "Aviation law stipulates regulations for transporting dangerous goods such as explosives and flammables, and violations are subject to fines up to 500,000 yen. Both shippers and carriers have an obligation to comply.",
           "sinhala": "පුපුරන ද්‍රව්‍ය සහ ගිනිගන්නා ද්‍රව්‍ය වැනි අන්තරායකර භාණ්ඩ ප්‍රවාහනය කිරීමේ නීති සිවිල් ගුවන් සේවා නීතිය මඟින් පනවා ඇති අතර, නීති කඩ කරමින් නීතිවිරෝධී ලෙස ප්‍රවාහනය කළහොත් යෙන් 500,000 ක දඩයකට යටත් වේ. භාණ්ඩ එවන්නා මෙන්ම ප්‍රවාහකයාද මෙම නීති රකිමින් කටයුතු කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/98.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SEMANTIC_MAPPING"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p010-d9250",
@@ -2402,10 +2405,7 @@
       "title_sinhala": "DGR ප්‍රවාහනයේ මූලධර්ම 3 සහ අන්තරායකර භාණ්ඩ පන්ති 9",
       "title_japanese": "10. 危険物輸送の3原則（申告・ラベル・梱包）と第1類〜第9類の分類",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part1_Pages_1_to_10.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/19.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/20.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P10_S01",
@@ -2416,7 +2416,9 @@
           "english": "The three principles of dangerous goods transport are 'Shipper's Declaration', 'Hazard Labelling', and 'Compliant Packaging'. Furthermore, dangerous goods are classified into 9 classes from Class 1 (explosives) to Class 9 (lithium batteries, etc.).",
           "sinhala": "අන්තරායකර භාණ්ඩ ප්‍රවාහනයේ මූලධර්ම 3 වන්නේ 'ප්‍රකාශන පත්‍රය සකස් කිරීම', 'ලේබල් ඇලවීම' සහ 'නිවැරදි ඇසුරුම්කරණය' වේ. මීට අමතරව, අන්තරායකර භාණ්ඩ පුපුරන ද්‍රව්‍යවල සිට ලිතියම් බැටරි දක්වා පන්ති 1 සිට 9 දක්වා වර්ග කර ඇත."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p011-c71c6",
@@ -2425,8 +2427,10 @@
       "title_japanese": "11. 危険物ラベル（クラス分類標示）と輸送方法を示すハンドリング・ラベル",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part2_Pages_11_to_20.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/21.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/22.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/99.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/101.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/102.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/103.jpg"
       ],
       "study_sections": [
         {
@@ -2438,7 +2442,14 @@
           "english": "Packages transporting dangerous goods must properly display class hazard labels (Classes 1-9) as well as handling marks such as Cargo Aircraft Only (CAO), Keep Away From Heat, and Lithium Battery marks.",
           "sinhala": "අන්තරායකර භාණ්ඩ අඩංගු ඇසුරුම් මත 1 සිට 9 දක්වා පන්ති ලේබල් වලට අමතරව, මගී යානාවල පැටවීම තහනම් කාගෝ යානාවලට පමණක් වන (CAO), තාපයෙන් ඈත් කර තබන සහ ලිතියම් බැටරි සලකුණු වැනි නිසි හැසිරවීමේ ලේබල් ඇලවිය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/99.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/101.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/102.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/103.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SEMANTIC_MAPPING"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p012-c71c6",
@@ -2447,8 +2458,8 @@
       "title_japanese": "12. 国連規格容器（UN Packaging）およびジェリカンの正しい選定と使用",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part2_Pages_11_to_20.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/23.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/24.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/104.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/105.jpg"
       ],
       "study_sections": [
         {
@@ -2460,7 +2471,12 @@
           "english": "To prevent accidents caused by liquid leaks or container breakage, select UN specification packaging and jerrycans suited to the properties of the dangerous goods, packing them securely according to regulations.",
           "sinhala": "දියර කාන්දු වීම් හෝ බහාලුම් බිඳ වැටීම් නිසා සිදුවන අනතුරු වැළැක්වීම සඳහා අන්තරායකර භාණ්ඩවල ස්වභාවයට ගැළපෙන එක්සත් ජාතීන්ගේ ප්‍රමිතිගත බහාලුම් (UN Packaging) සහ ජෙරිකන් (Jerrycans) තෝරාගෙන නීතිරීතිවලට අනුව නිසි ලෙස ඇසුරුම් කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/104.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/105.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SEMANTIC_MAPPING"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p013-c71c6",
@@ -2469,8 +2485,11 @@
       "title_japanese": "13. グランドハンドリングにおける品質管理（Quality Control）と顧客満足",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part2_Pages_11_to_20.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/25.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/26.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/106.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/122.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/123.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/124.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/125.jpg"
       ],
       "study_sections": [
         {
@@ -2482,7 +2501,15 @@
           "english": "Alongside ensuring safe operations, providing high-quality ground handling services such as careful handling of checked baggage and maintaining on-time performance directly enhances airline trust and reputation.",
           "sinhala": "ආරක්ෂිත මෙහෙයුම් තහවුරු කිරීමට අමතරව, මගීන්ගේ ගමන් මලු ඉතා පරිස්සමින් හැසිරවීම සහ නියමිත වේලාවට මෙහෙයුම් නිම කිරීම (On-time performance) වැනි උසස් තත්ත්වයේ සේවාවන් සැපයීම ගුවන් සේවා සමාගමේ විශ්වාසය ඉහළ නැංවීමට සෘජුවම බලපායි."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/106.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/122.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/123.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/124.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/125.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SEMANTIC_MAPPING"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p014-c71c6",
@@ -2490,10 +2517,7 @@
       "title_sinhala": "GSE (භිම් ආධාරක උපකරණ) ආරක්ෂිත මෙහෙයුම් සහ නඩත්තුව",
       "title_japanese": "14. 地上支援機材（GSE）の安全な運用と定期点検の重要性",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part2_Pages_11_to_20.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/27.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/28.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P14_S01",
@@ -2504,7 +2528,9 @@
           "english": "When operating GSE (tugs, loaders, etc.), strictly adhere to designated operation procedures and conduct reliable pre-operation checks and regular maintenance to prevent work delays and major accidents caused by mechanical failure.",
           "sinhala": "GSE උපකරණ (ටග්, ලෝඩර් ආදී) ක්‍රියාත්මක කිරීමේදී නියමිත මෙහෙයුම් ක්‍රමවේද අකුරටම පිළිපැදිය යුතු අතර, මෙහෙයුමට පෙර කරන පරීක්ෂා (Pre-operation checks) සහ නිත්‍ය නඩත්තුව මඟින් යන්ත්‍ර දෝෂ නිසා සිදුවන ප්‍රමාදයන් සහ බරපතල අනතුරු වළක්වා ගත යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p015-c71c6",
@@ -2512,10 +2538,7 @@
       "title_sinhala": "වැඩබිමේ සන්නිවේදනය සහ කණ්ඩායම් සම්බන්ධීකරණය",
       "title_japanese": "15. 現場における確実な情報共有とチームワークの強化",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part2_Pages_11_to_20.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/29.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/30.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P15_S01",
@@ -2526,7 +2549,9 @@
           "english": "Since each stage of ground handling is carried out through close cooperation among numerous staff members, maintaining tight information sharing during handovers and radio communications strengthens teamwork and prevents errors.",
           "sinhala": "බිම් හැසිරවීමේ සෑම අදියරක්ම කාර්ය මණ්ඩලයේ සමීප එකඟතාවයෙන් සිදු වන බැවින්, මාරුවීම් භාරදීමේදී (Handovers) සහ රේඩියෝ සන්නිවේදනයේදී තොරතුරු නිවැරදිව හුවමාරු කර ගැනීමෙන් කණ්ඩායම් ක්‍රියාකාරීත්වය දියුණු කර වැරදි මඟහරවා ගත හැක."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p016-c71c6",
@@ -2534,10 +2559,7 @@
       "title_sinhala": "අනතුරු ඇඟවීම් සහ හදිසි තත්ත්වයන්හිදී ක්‍රියාකිරීමේ විධිවිධාන",
       "title_japanese": "16. 非常事態（緊急事態）発生時の対応フローと連絡体制",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part2_Pages_11_to_20.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/31.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/32.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P16_S01",
@@ -2548,7 +2570,9 @@
           "english": "In the event of emergencies such as fires, vehicle collisions, or sudden illness, avoid panicking and follow designated emergency contact protocols to promptly notify relevant departments and execute proper initial responses.",
           "sinhala": "ගින්ගක්, වාහන ගැටීමක් හෝ හදිසි අසනීප තත්ත්වයක් වැනි හදිසි අවස්ථාවකදී බිය නොවී නියමිත හදිසි සම්බන්ධතා ජාලයට (Emergency contact network) අනුව අදාළ අංශ වෙත ඉක්මනින් දැනුම් දී මුල් අවස්ථාවේදී ගත යුතු ක්‍රියාමාර්ග ගත යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p017-c71c6",
@@ -2556,10 +2580,7 @@
       "title_sinhala": "ආරක්ෂක විගණනය සහ තත්ත්ව වැඩිදියුණු කිරීම (Safety Audit)",
       "title_japanese": "17. 安全監査（セーフティ・オーディット）と継続的改善（PDCAサイクル）",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part2_Pages_11_to_20.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/33.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/34.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P17_S01",
@@ -2570,7 +2591,9 @@
           "english": "To maintain and improve operational safety and quality, conduct regular safety audits and apply the PDCA cycle (Plan-Do-Check-Act) to address identified issues for continuous improvement.",
           "sinhala": "මෙහෙයුම්වල ආරක්ෂාව සහ ගුණාත්මකභාවය පවත්වා ගැනීමට සහ දියුණු කිරීමට කාලීන ආරක්ෂක විගණන (Safety audits) පවත්වන අතර, හඳුනාගත් ගැටලු සඳහා PDCA චක්‍රය ( සැලසුම්-ක්‍රියාත්මක-පරීක්ෂා-දියුණු කිරීම) ක්‍රියාත්මක කරමින් අඛණ්ඩ වර්ධනයක් ලබා ගත යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p018-c71c6",
@@ -2579,8 +2602,12 @@
       "title_japanese": "18. 作業スタッフの教育訓練と資格・ライセンス管理の重要性",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part2_Pages_11_to_20.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/35.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/36.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/127.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/128.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/129.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/130.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/131.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/132.jpg"
       ],
       "study_sections": [
         {
@@ -2592,7 +2619,16 @@
           "english": "To perform operations safely within the airport, staff must complete required training and hold appropriate qualifications or internal licenses. Operating equipment without qualifications is strictly prohibited.",
           "sinhala": "ගුවන් තොටුපළ තුළ සියලුම මෙහෙයුම් ආරක්ෂිතව ඉටු කිරීම සඳහා කාර්ය මණ්ඩලය අදාළ පුහුණු පාඨමාලා සාර්ථකව අවසන් කර නිසි සුදුසුකම් හෝ අභ්‍යන්තර බලපත්‍ර (Licenses) ලබා තිබිය යුතුය. සුදුසුකම් නොමැතිව උපකරණ ක්‍රියාත්මක කිරීම සපුරා තහනම් වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/127.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/128.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/129.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/130.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/131.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/132.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SEMANTIC_MAPPING"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p019-c71c6",
@@ -2601,8 +2637,11 @@
       "title_japanese": "19. ランプ内における環境保全と廃棄物・排水の適正処理",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part2_Pages_11_to_20.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/37.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/38.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/133.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/134.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/135.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/136.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/137.jpg"
       ],
       "study_sections": [
         {
@@ -2614,7 +2653,15 @@
           "english": "During ramp operations, oil leaks or abandoned waste can cause environmental pollution; therefore, chemical substances and waste must be properly collected and disposed of in accordance with regulations.",
           "sinhala": "රැම්ප් ප්‍රදේශයේ මෙහෙයුම්වලදී තෙල් කාන්දු වීම් හෝ කුණු කසළ අතහැර දැමීම මඟින් පරිසර දූෂණය සිදුවිය හැකි බැවින්, රසායනික ද්‍රව්‍ය සහ අපද්‍රව්‍ය නීතිරීතිවලට අනුව නිසි ලෙස එකතු කර ඉවත් කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/133.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/134.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/135.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/136.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/137.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SEMANTIC_MAPPING"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p020-c71c6",
@@ -2623,8 +2670,7 @@
       "title_japanese": "20. 安全と品質（Safety and Quality）教本の総まとめとプロの心構え",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part2_Pages_11_to_20.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/39.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/40.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/138.jpg"
       ],
       "study_sections": [
         {
@@ -2636,7 +2682,11 @@
           "english": "Put into practice the spirit of Safety First, compliance with regulations, prevention of human error, and the delivery of high-quality service learned through this manual, contributing as a professional who safeguards the trust of aviation transport.",
           "sinhala": "මෙම අත්පොත හරහා ඉගෙනගත් ආරක්ෂාවට මුල්තැන දීමේ හරය, නීතිරීති පිළිපැදීම, මානව දෝෂ වළක්වා ගැනීම සහ උසස් තත්ත්වයේ සේවාවක් සැපයීම යන සියල්ල ක්‍රියාවට නංවමින් ගුවන් ප්‍රවාහනයේ විශ්වාසය රැකදෙන සැබෑ වෘත්තීයවේදියෙකු ලෙස දායක වෙමු!"
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/138.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SEMANTIC_MAPPING"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p021-6b002",
@@ -2645,8 +2695,15 @@
       "title_japanese": "21. 予防：ヒヤリ・ハット情報の共有化と組織的フィードバック",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part3_Pages_21_to_31_Final.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/41.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/42.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/139.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/147.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/148.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/149.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/150.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/151.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/152.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/153.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/154.jpg"
       ],
       "study_sections": [
         {
@@ -2658,7 +2715,19 @@
           "english": "Sharing reported near-miss information across the entire workplace, providing sufficient feedback on errors, and promptly implementing improvement measures are extremely important organizational strategies to pre-emptively prevent accidents.",
           "sinhala": "වාර්තා වූ හියාරි-හට්ටෝ තොරතුරු සම්පූර්ණ සේවා ස්ථානය තුළම හුවමාරු කර ගැනීම, වැරදි පිළිබඳව ප්‍රමාණවත් ප්‍රතිචාර (Feedback) ලබා දීම සහ කඩිනමින් දියුණු කිරීමේ ක්‍රියාමාර්ග ගැනීම අනතුරු වළක්වා ගැනීමට ඇති අත්‍යවශ්‍ය සංවිධානාත්මක ක්‍රමවේදයකි."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/139.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/147.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/148.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/149.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/150.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/151.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/152.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/153.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/154.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SEMANTIC_MAPPING"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p022-6b002",
@@ -2667,8 +2736,13 @@
       "title_japanese": "22. 指差呼称による意識集中と不安全状態の瞬時察知",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part3_Pages_21_to_31_Final.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/43.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/44.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/140.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/141.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/142.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/143.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/144.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/145.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/146.jpg"
       ],
       "study_sections": [
         {
@@ -2680,7 +2754,17 @@
           "english": "Not merely pointing, but calling out audibly activates the brain's neural systems, dramatically improving the accuracy of verification work and enabling instant detection of unsafe conditions.",
           "sinhala": "නිකම්ම ඇඟිල්ල දිගු කිරීම පමණක් නොව, හඬ නගා 'යෝෂි!' කීම මඟින් මොළයේ ස්නායු පද්ධතිය සක්‍රීය වී, පරීක්ෂා කිරීමේ නිරවද්‍යතාව විශාල ලෙස ඉහළ නංවන අතර අනාරක්ෂිත තත්ත්වයන් ක්ෂණිකව හඳුනා ගැනීමට හැකි වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/140.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/141.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/142.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/143.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/144.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/145.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/146.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SEMANTIC_MAPPING"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p023-6b002",
@@ -2688,10 +2772,7 @@
       "title_sinhala": "රැම්ප් ප්‍රදේශයේ වාහන මංතීරුවල නීතිරීති සහ පියවර",
       "title_japanese": "23. 制限区域内における道路標示と横断歩道の正しい通行手順",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part3_Pages_21_to_31_Final.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/45.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/46.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P23_S01",
@@ -2702,7 +2783,9 @@
           "english": "At diamond marks (pedestrian crossing ahead) and before stop lines on roadways, always slow down and come to a temporary stop, ensuring the movement of pedestrians and other vehicles is verified before proceeding.",
           "sinhala": "පාරේ ඇති දියමන්ති සලකුණ (පදික මාරු සලකුණ) සහ නැවැත්වීමේ රේඛා අසලදී අනිවාර්යයෙන්ම වේගය අඩු කර තාවකාලිකව නැවැත්විය යුතු අතර, පදිකයින්ගේ සහ අනෙකුත් වාහනවල ගමනාගමනය හොඳින් පරීක්ෂා කර බලා ගමන් කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p024-6b002",
@@ -2710,10 +2793,7 @@
       "title_sinhala": "PBB Stand-by Position සහ ආරක්ෂක වටපිටාව",
       "title_japanese": "24. PBB待機位置周辺における機材放置の禁止と安全マージン",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part3_Pages_21_to_31_Final.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/47.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/48.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P24_S01",
@@ -2724,7 +2804,9 @@
           "english": "Never leave equipment such as carts or tugs around the PBB stand-by position or operating range. Since this causes collision accidents during bridge rotation, always maintain proper clearance.",
           "sinhala": "මගී පාලම (PBB) පොරොත්තු ස්ථානය අසල හෝ ක්‍රියාත්මක වන සීමාව තුළ කිසිදු විටෙක කාර්ට් හෝ ටග් වාහන අත්හැර දමා යාම නොකළ යුතුය. පාලම හැරවීමේදී ගැටීම් ඇති වීමට එය හේතු වන බැවින් සැමවිටම ආරක්ෂිත ඉඩක් (Clearance) තබා ගත යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p025-6b002",
@@ -2732,10 +2814,7 @@
       "title_sinhala": "DGR නීති උල්ලංඝනය කිරීමේ ප්‍රතිවිපාක සහ වගකීම",
       "title_japanese": "25. 危険物輸送ルールの違反に対する法的責任と事業者・個人の義務",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part3_Pages_21_to_31_Final.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/49.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/50.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P25_S01",
@@ -2746,7 +2825,9 @@
           "english": "Illegal air transport of dangerous goods directly leads to major aviation accidents, and severe penalties such as fines up to 500,000 yen are imposed based on aviation law. All staff involved in transport have a responsibility to correctly understand and comply with regulations.",
           "sinhala": "අන්තරායකර භාණ්ඩ නීතිවිරෝධී ලෙස ගුවන් මඟින් ප්‍රවාහනය කිරීම බරපතල ගුවන් අනතුරුවලට මුල් වන බැවින්, ගුවන් සේවා නීතියට අනුව උපරිම යෙන් 500,000 ක් දක්වා දඩ මුදල් පැනවේ. ප්‍රවාහන කටයුතුවල නියැලෙන සියලුම සේවකයින් මෙම නීති නිවැරදිව වටහාගෙන පිළිපැදීමට බැඳී සිටී."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p026-6b002",
@@ -2754,10 +2835,7 @@
       "title_sinhala": "ලිතිਅම් බැටරි සහ ඉලෙක්ට්‍රොනික උපාංග ප්‍රවාහන මාර්ගෝපදේශ",
       "title_japanese": "26. リチウムイオン電池および電子機器類を航空輸送する際の特別規定",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part3_Pages_21_to_31_Final.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/51.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/52.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P26_S01",
@@ -2768,7 +2846,9 @@
           "english": "Because lithium-ion batteries and mobile power banks carry a high risk of ignition, placing them in checked baggage is restricted, and strict transport standards corresponding to their watt-hour ratings apply.",
           "sinhala": "ලිතියම් අයන බැටරි සහ පවර් බෑන්ක් වල ගිනිගැනීමේ අවදානම ඉහළ මට්ටමක පවතින බැවින්, ඒවා චෙක්-ඉන් ලගේජ් (Checked baggage) තුළ දැමීම දැඩි ලෙස සීමා කර ඇති අතර ඒවායේ වොට්-පැය අගය (Wh rating) මත පදනම් වූ දැඩි ප්‍රවාහන ප්‍රමිතීන් ක්‍රියාත්මක වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p027-6b002",
@@ -2776,10 +2856,7 @@
       "title_sinhala": "ස්ප්‍රේ කෑන් සහ විලවුන් වර්ග ප්‍රවාහන සීමා",
       "title_japanese": "27. スプレー缶および引火性化粧品類の機内持ち込み・預け入れ基準",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part3_Pages_21_to_31_Final.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/53.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/54.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P27_S01",
@@ -2790,7 +2867,9 @@
           "english": "Flammable liquids and spray products such as hairsprays, body sprays, and nail polish have detailed regulations regarding whether they can be carried on or checked in based on capacity and container structure, requiring prior verification.",
           "sinhala": "කෙස් අලංකරණ ස්ප්‍රේ (Hairspray), ඩියෝඩ්‍රන්ට් සහ නිය ආලේපන (Manicure) වැනි පහසුවෙන් ගිනිගන්නා ද්‍රව්‍ය සහ ස්ප්‍රේ නිෂ්පාදනවල ධාරිතාව සහ බහාලුම් ව්‍යුහය මත ගෙන යා හැකිද නැද්ද යන්න දැඩි ලෙස නීතිගත කර ඇති බැවින් කල්තියා පරීක්ෂා කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p028-6b002",
@@ -2798,10 +2877,7 @@
       "title_sinhala": "ගුවන් යානා හැසිරවීමේදී කාලගුණික බලපෑම් සහ පූර්වාරක්ෂාවන්",
       "title_japanese": "28. 悪天候時（強風・大雪・雷）におけるグランドハンドリング業務の中断基準",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part3_Pages_21_to_31_Final.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/55.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/56.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P28_S01",
@@ -2812,7 +2888,9 @@
           "english": "During severe weather conditions such as typhoons, gales, heavy snow, or the threat of lightning, temporarily suspend or halt high-altitude work, refueling, and PBB operations, making staff safety the absolute top priority.",
           "sinhala": "සුළි කුණාටු, තද සුළං, අධික හිම පතනය හෝ අකුණු ගැසීමේ අවදානමක් ඇති අයහපත් කාලගුණික අවස්ථාවන්හිදී උස් ස්ථානවල සිදු කරන වැඩ, ඉන්ධන පිරවීම සහ PBB මෙහෙයුම් තාවකාලිකව නතර කර හෝ අත්හැර දමා කාර්ය මණ්ඩලයේ ආරක්ෂාවට මුල් තැන දී කටයුතු කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p029-6b002",
@@ -2820,10 +2898,7 @@
       "title_sinhala": "ගුවන් තොටුපළ බිම් හැසිරවීමේ විධිමත් වාර්තා තැබීම සහ ලේඛනගත කිරීම",
       "title_japanese": "29. 業務記録の正確な記載と点検シート・チェックリストの運用管理",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part3_Pages_21_to_31_Final.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/57.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/58.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P29_S01",
@@ -2834,7 +2909,9 @@
           "english": "Execution records for various inspections and handling operations must be accurately recorded without omission using checklists, ensuring they are securely stored and managed as reference data for traceability and quality control during troubles.",
           "sinhala": "විවිධ පරීක්ෂා කිරීම් සහ හැසිරවීමේ මෙහෙයුම්වල වාර්තා චෙක්ලිස්ට් (Checklists) භාවිතයෙන් කිසිදු මඟහැරීමකින් තොරව නිවැරදිව සටහන් කළ යුතු අතර, ගැටළුවක් ඇති වූ විට පරීක්ෂා කිරීමට සහ තත්ත්ව පාලනය සඳහා ඒවා සුරක්ෂිතව ගබඩා කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p030-6b002",
@@ -2842,10 +2919,7 @@
       "title_sinhala": "ආරක්ෂක විඥානය සහ වෘත්තීය ආචාරධර්ම (Safety Awareness)",
       "title_japanese": "30. プロフェッショナルとしての安全意識の維持とモラルの向上",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part3_Pages_21_to_31_Final.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/59.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/60.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P30_S01",
@@ -2856,7 +2930,9 @@
           "english": "Guarding against complacency such as thinking 'I'll be fine' and the erosion of rule enforcement, all staff approaching daily operations with constant vigilance and high ethical standards forms the greatest defense against accidents.",
           "sinhala": "'මහ ලොකු දෙයක් වෙන්නේ නැහැ, මට නම් ප්‍රශ්නයක් නැහැ' යන අසංවර අදහස් සහ නීති නිකම් නමස්කාරයට පමණක් සීමා වීමෙන් වැළකී, සෑම සේවකයෙක්ම නිරන්තර විමසිල්ලෙන් සහ ඉහළ සදාචාරාත්මක ප්‍රමිතියකින් යුතුව දෛනික මෙහෙයුම්වල නියැලීම අනතුරුවලින් ආරක්ෂා වීමට ඇති ප්‍රධානම පලිහ වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p031-6b002",
@@ -2864,10 +2940,7 @@
       "title_sinhala": "ආරක්ෂාව සහ ගුණාත්මකභාවය පුහුණු අත්පොතේ පූර්ණ අවසානය",
       "title_japanese": "31. 安全と品質（Safety and Quality）教本 全文の終了と今後の決意",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_1_Safety_and_Quality_REV2_Part3_Pages_21_to_31_Final.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/61.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/62.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "SQ_REV2_P31_S01",
@@ -2878,7 +2951,9 @@
           "english": "Deeply engraving the principles of ensuring safety, human error countermeasures, and regulatory knowledge learned through this manual into your heart, we pledge to safeguard the safety and quality of aviation transport into the future through practical application on the ramp.",
           "sinhala": "මෙම පුහුණු අත්පොතෙන් ඉගෙනගත් ආරක්ෂාව තහවුරු කිරීමේ මූලධර්ම, මානව දෝෂ වැළැක්වීමේ ක්‍රම සහ නීතිමය දැනුම සදාකාලයෙන්ම සිත්හි දරා ගනිමින්, බිම් මට්ටමින් ඒවා ක්‍රියාත්මක කරමින් ගුවන් ප්‍රවාහනයේ ආරක්ෂාව සහ ගුණාත්මකභාවය අනාගතය වෙනුවෙන් සුරක්ෂිත කරන බවට ප්‍රතිඥා දෙමු!"
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_SEMANTIC_IMAGE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p001-1bcc4",
@@ -2886,10 +2961,7 @@
       "title_sinhala": "ගුවන් තොටුපළ බිම් හැසිරවීමේ හැඳින්වීම සහ මූලික මෙහෙයුම්",
       "title_japanese": "01. 空港グランドハンドリングの概要と基本業務",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part1_Pages_1_to_5.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/001.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/002.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "GH_REV2_P01_S01",
@@ -2900,7 +2972,9 @@
           "english": "Airport Ground Handling operations encompass a wide variety of ground services performed from the time an aircraft arrives at the airport until its departure, serving as a critical foundation supporting aviation safety and on-time performance.",
           "sinhala": "ගුවන් තොටුපළ බිම් හැසිරවීමේ සේවා යනු ගුවන් යානයක් ගුවන් තොටුපළට පැමිණි මොහොතේ සිට පිටත්ව යන තෙක් බිම් මට්ටමින් සිදු කරනු ලබන විවිධ මෙහෙයුම්වල එකතුවකි. මෙය ගුවන් ප්‍රවාහනයේ ආරක්ෂාව සහ නියමිත වේලාවට ගුවන්ගත වීම තහවුරු කරන අතිශය වැදගත් පදනමකි."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p002-1bcc4",
@@ -2908,10 +2982,7 @@
       "title_sinhala": "රැම්ප් ආරක්ෂාව සහ පාලන ප්‍රදේශ (Ramp Safety & Controlled Areas)",
       "title_japanese": "02. ランプ内における安全管理と制限区域",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part1_Pages_1_to_5.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/003.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/004.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "GH_REV2_P02_S01",
@@ -2922,7 +2993,9 @@
           "english": "Working within restricted areas involves heavy movement of aircraft taxi routes and GSE (Ground Support Equipment), requiring every worker to maintain high safety awareness and strictly adhere to rules.",
           "sinhala": "සීමිත ප්‍රදේශ (Restricted Areas) තුළ වැඩ කිරීමේදී ගුවන් යානා ගමන් කරන මාර්ග සහ GSE (බිම් ආධාරක උපකරණ) ධාවනය අධික වන බැවින්, සෑම සේවකයෙක්ම දැඩි ආරක්ෂක දැනුවත්භාවයකින් යුතුව නීති පිළිපැදිය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p003-1bcc4",
@@ -2930,10 +3003,7 @@
       "title_sinhala": "ගුවන් යානා පැමිණීම සහ පිළිගැනීමේ මෙහෙයුම් (Aircraft Arrival & Marshalling)",
       "title_japanese": "03. 航空機の到着誘導とスポットイン業務",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part1_Pages_1_to_5.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/005.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/006.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "GH_REV2_P03_S01",
@@ -2944,7 +3014,9 @@
           "english": "When an aircraft enters the parking spot, it must be guided to the exact stopping position by a marshaller or using a VDGS (Visual Docking Guidance System).",
           "sinhala": "ගුවන් යානයක් පාකින් ස්පොට් එකට ඇතුළු වන විට, මාර්ෂලර්වරයාගේ (Marshaller) සංඥා මඟින් හෝ VDGS (දෘශ්‍ය ඩොකිං මාර්ගෝපදේශ පද්ධතිය) මඟින් නියමිත නැවතුම් ස්ථානයට නිවැරදිව මඟ පෙන්විය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p004-1bcc4",
@@ -2952,10 +3024,7 @@
       "title_sinhala": "චොක්ස් දැමීම සහ ආරක්ෂක අගුළු දැමීම (Chocks & Safety Securing)",
       "title_japanese": "04. 輪止め（チョックス）の装着と機体の固定",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part1_Pages_1_to_5.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/007.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/008.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "GH_REV2_P04_S01",
@@ -2966,7 +3035,9 @@
           "english": "Immediately after the aircraft comes to a complete stop, chocks must be securely placed around the main landing gear to prevent unintended movement.",
           "sinhala": "ගුවන් යානය සම්පූර්ණයෙන්ම නැවැත්වූ වහාම, යානය ඉදිරියට හෝ පසුපසට ස්වයංක්‍රීයව ගමන් කිරීම වැළැක්වීම සඳහා ප්‍රධාන රෝද (Main Gear) ඉදිරියෙන් හා පසුපසින් චොක්ස් (Chocks) දැඩි ලෙස සවි කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p005-1bcc4",
@@ -2974,10 +3045,7 @@
       "title_sinhala": "මගී පාලම සම්බන්ධ කිරීම (PBB Docking Operations)",
       "title_japanese": "05. パッセンジャー・ボーディング・ブリッジ（PBB）の操作と接続",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part1_Pages_1_to_5.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/009.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/010.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "GH_REV2_P05_S01",
@@ -2988,7 +3056,9 @@
           "english": "After confirmation of chock placement and engine shutdown, the operator carefully operates the PBB (Passenger Boarding Bridge) to connect it safely to the aircraft door.",
           "sinhala": "චොක්ස් සවි කර එන්ජින් ක්‍රියා විරහිත කර ඇති බව තහවුරු වූ පසු, ක්‍රියාකරු විසින් මගී පාලම (PBB) ඉතා පරිස්සමින් ක්‍රියාත්මක කර ගුවන් යානා දොරටුවට ආරක්ෂිතව සම්බන්ධ කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p006-8eecf",
@@ -2997,8 +3067,7 @@
       "title_japanese": "06. 手荷物および貨物の降ろし作業（アンロード）と重量バランスの管理",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part2_Pages_6_to_10.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/011.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/012.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/3.jpg"
       ],
       "study_sections": [
         {
@@ -3010,7 +3079,11 @@
           "english": "During bulk cargo or container unloading operations, attention must be paid to cargo compartment structures and weight balance, handling items carefully to prevent damage. Furthermore, operations must be conducted while verifying shipping items to check for hazardous or special cargo.",
           "sinhala": "බල්ක් කාගෝ හෝ කන්ටේනර් බෑමේදී, කාගෝ මැදිරියේ ව්‍යුහය සහ බර සමතුලිතතාවය පිළිබඳව දැඩි අවධානයක් යොමු කළ යුතු අතර, භාණ්ඩ හෝ ගමන් මලු වලට කිසිදු හානියක් නොවන පරිදි ඉතා පරිස්සමින් හැසිරවිය යුතුය. මීට අමතරව, අන්තරායකර භාණ්ඩ හෝ විශේෂ භාණ්ඩ අඩංගු දැයි පරීක්ෂා කරමින් මෙම මෙහෙයුම් සිදු කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/3.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p007-8eecf",
@@ -3019,8 +3092,7 @@
       "title_japanese": "07. 航空機への給油作業と安全上の注意事項（火気厳禁・アース接続）",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part2_Pages_6_to_10.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/014.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/4.jpg"
       ],
       "study_sections": [
         {
@@ -3032,7 +3104,11 @@
           "english": "Refueling operations require strict no-open-flames policies, and grounding (earth) cables must be securely connected to prevent static electricity fires. Regulations regarding passenger boarding during refueling and emergency response procedures for fuel spills must also be strictly observed.",
           "sinhala": "ඉන්ධන පිරවීමේදී ගිනි ගැනීම් දැඩි ලෙස තහනම් වන අතර, ස්ථිතික විදුලිය මඟින් ඇති විය හැකි ගිනි අවදානම් වැළැක්වීම සඳහා අース (Earthing) ලණුව නිසි ලෙස සම්බන්ධ කළ යුතුය. එසේම ඉන්ධන පිරවීමේදී මගීන් නංවාලීම/බැස්වීම පිළිබඳ නීති සහ හදිසි තෙල් කාන්දුවකදී ගත යුතු ක්‍රියාමාර්ග දැඩි ලෙස පිළිපැදිය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/4.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p008-8eecf",
@@ -3040,10 +3116,7 @@
       "title_sinhala": "කැටරින් සහ කැබින් පිරිසිදු කිරීමේ සේවා (Catering & Cabin Cleaning)",
       "title_japanese": "08. 機内食（ケータリング）の積み込みと客室清掃業務の連携",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part2_Pages_6_to_10.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/015.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/016.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "GH_REV2_P08_S01",
@@ -3054,7 +3127,9 @@
           "english": "During catering truck (high-lift loader) loading operations, approach the aircraft carefully to avoid contact, working closely with the cabin cleaning team for rapid turnaround. Also, ensure proper sorting and collection of in-flight waste.",
           "sinhala": "කැටරින් ට්‍රක් රථය (High-lift loader) මඟින් ආහාර ලබා දීමේදී ගුවන් යානාවල ගැටීමෙන් තොරව ඉතා පරිස්සමින් ළං විය යුතු අතර, කැබින් පිරිසිදු කිරීමේ කණ්ඩායම සමඟ එකඟතාවයෙන් ඉක්මනින් වැඩ අවසන් කළ යුතුය. මීට අමතරව, ගුවන් යානා තුළ ඉතිරි වන අපද්‍රව්‍ය නිසි ලෙස වර්ග කර එකතු කිරීම තහවුරු කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p009-8eecf",
@@ -3063,8 +3138,9 @@
       "title_japanese": "09. 出発前の最終点検とウォークアラウンド（機体周辺の安全確認）",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part2_Pages_6_to_10.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/017.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/018.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/13.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/14.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/16.jpg"
       ],
       "study_sections": [
         {
@@ -3076,7 +3152,13 @@
           "english": "Before aircraft pushback, ground staff and flight crew jointly perform a walk-around safety inspection to confirm that all doors, hatches, and panels are fully closed and locked.",
           "sinhala": "පුෂ්බෑක් (Pushback) කිරීමට පෙර බිම් කාර්ය මණ්ඩලය සහ ගුවන් නියමුවන් එක්ව ගුවන් යානය වටා ගොස් (Walk-around) සියලුම දොරවල්, හැච් (Hatches) සහ පැනල් හොඳින් වැසී අගුළු දමා ඇති බවට ආරක්ෂාව තහවුරු කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/13.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/14.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/16.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p010-8eecf",
@@ -3084,10 +3166,7 @@
       "title_sinhala": "පුෂ්බෑක් සහ ටෝවින් රථ ක්‍රියාපටිපාටිය (Pushback & Towing Operations)",
       "title_japanese": "10. プッシュバックとトーイングカーの操作手順および無線交信",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part2_Pages_6_to_10.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/019.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/020.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "GH_REV2_P10_S01",
@@ -3098,7 +3177,9 @@
           "english": "During pushback operations using a tow tractor, operators must continuously verify towbar connection status, pin insertion, and surrounding clearance via radio communication, proceeding carefully in accordance with pilot instructions.",
           "sinhala": "ටෝවින් කාර් එක (Towing car) භාවිතයෙන් ගුවන් යානය ස්පොට් එකෙන් පිටතට තල්ලු කිරීමේදී (Pushback), ටෝබාර් (Towbar) සම්බන්ධතාවය, පින් (Pin) නිසි ලෙස ඇතුළත් කර තිබේද යන්න සහ අවට ආරක්ෂාව රේඩියෝ මඟින් නිරන්තරයෙන් තහවුරු කර ගනිමින් නියමුවාගේ උපදෙස් අනුව ඉතා පරිස්සමින් සිදු කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p011-32fc2",
@@ -3107,8 +3188,8 @@
       "title_japanese": "11. 制限区域内における車両の通行ルールと速度制限の厳守",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part3_Pages_11_to_15.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/021.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/022.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/40.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/41.jpg"
       ],
       "study_sections": [
         {
@@ -3120,7 +3201,12 @@
           "english": "All vehicles operating within restricted areas must strictly adhere to designated speed limits (typically 15 km/h to 20 km/h, varying by area) and give absolute right-of-way to aircraft and pedestrians. Furthermore, drivers have an obligation to come to a complete stop at designated stop signs and obey all directional markings.",
           "sinhala": "සීමිත ප්‍රදේශ තුළ ධාවනය වන සියලුම වාහන නියමිත වේග සීමාවන් (සාමාන්‍යයෙන් පැයට කිලෝමීටර් 15ත් 20ත් අතර, ප්‍රදේශය අනුව වෙනස් විය හැක) දැඩි ලෙස පිළිපැදිය යුතු අතර, ගුවන් යානා සහ පදිකයින්ට පූර්ණ ප්‍රමුඛතාව ලබා දිය යුතුය. එසේම නියමිත නැවතුම් ස්ථානවල සම්පූර්ණයෙන්ම නැවැත්වීම සහ මාර්ග සංඥා පිළිපැදීම අනිවාර්ය වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/40.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/41.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p012-32fc2",
@@ -3129,8 +3215,9 @@
       "title_japanese": "12. 地上支援機材（GSE）の始業前点検と異常発見時の対応手順",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part3_Pages_11_to_15.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/023.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/024.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/42.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/43.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/44.jpg"
       ],
       "study_sections": [
         {
@@ -3142,7 +3229,13 @@
           "english": "Before operating any GSE (tugs, loaders, belt loaders, etc.), pre-operation checks for brakes, tire wear, light operation, and fluid/oil leaks must be conducted. If any abnormality is found, report immediately to supervisors and suspend use.",
           "sinhala": "ඕනෑම GSE උපකරණයක් (ටග්, ලෝඩර්, බෙල්ට් ලෝඩර් ආදී) ක්‍රියාත්මක කිරීමට පෙර බ්‍රේක්, ටයර් ගෙවී ඇත්දැයි බැලීම, ලයිට් ක්‍රියාකාරීත්වය සහ තෙල් කාන්දු වීම් (Oil leaks) ආදී දෑ පරීක්ෂා කළ යුතු අතර, කිසියම් දෝෂයක් ඇත්නම් වහාම උසස් නිලධාරීන්ට දැනුම් දී භාවිතය නතර කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/42.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/43.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/44.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p013-32fc2",
@@ -3151,8 +3244,8 @@
       "title_japanese": "13. 事故・インシデント発生時の緊急連絡と現場の初期対応",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part3_Pages_11_to_15.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/025.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/026.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/45.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/46.jpg"
       ],
       "study_sections": [
         {
@@ -3164,7 +3257,12 @@
           "english": "In the event of an accident such as a vehicle collision or personal injury incident, victim rescue is the absolute top priority. Promptly notify relevant departments and air traffic control, and preserve the scene evidence.",
           "sinhala": "ප්‍රවාහන වාහන ගැටීමක් හෝ පුද්ගල අනතුරක් වැනි හදිසි තත්ත්වයක් ඇති වුවහොත්, තුවාල ලැබූවන් බේරා ගැනීමට මුල් තැන දිය යුතු අතර, වහාම අදාළ අංශ වෙත සහ පාලක මධ්‍යස්ථානයට දැනුම් දී ස්ථානයේ සාක්ෂි සහ තත්ත්වය ආරක්ෂා කර ගත යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/45.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/46.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p014-32fc2",
@@ -3172,10 +3270,7 @@
       "title_sinhala": "විදුලි හා කම්පන උපකරණ ආරක්ෂාව (GPU සම්බන්ධ කිරීම)",
       "title_japanese": "14. 航空機への電源供給（GPU）接続と電気系統の安全管理",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part3_Pages_11_to_15.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/027.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/028.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "GH_REV2_P14_S01",
@@ -3186,7 +3281,9 @@
           "english": "When connecting a GPU (Ground Power Unit) to an aircraft, check for cable damage or bent pins, and perform connection procedures strictly according to guidelines to prevent electrical shock or short circuits. Plugging or unplugging while energized is strictly prohibited.",
           "sinhala": "GPU (භූමිය මඟින් විදුලිබලය සපයන යන්ත්‍රය) ගුවන් යානයට සම්බන්ධ කිරීමේදී කේබල් වල හානි හෝ පින් වල නැමීම් ඇත්දැයි බැලිය යුතු අතර, විදුලි සැර වැදීම් හෝ කෙටි පරිපථ වැළැක්වීම සඳහා නියමිත ක්‍රමවේදයට අනුව සම්බන්ධ කළ යුතුය. විදුලිය සක්‍රීයව පවතිද්දී ප්ලග් එක ගැලවීම හෝ සවි කිරීම දැඩි ලෙස තහනම් වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p015-32fc2",
@@ -3195,8 +3292,7 @@
       "title_japanese": "15. エアコン車（ACU）および給水・汚水車の安全運用ルール",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part3_Pages_11_to_15.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/029.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/030.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/47.jpg"
       ],
       "study_sections": [
         {
@@ -3208,7 +3304,11 @@
           "english": "During operations involving ACU (Air Conditioning Unit) connection or water/lavatory servicing trucks, wear designated protective gear and work carefully to prevent hose misconnection or sewage splashing. Especially during sewage treatment, maintain strict sanitary management.",
           "sinhala": "ගුවන් යානයේ අභ්‍යන්තර උෂ්ණත්වය පාලනය කරන ACU යන්ත්‍ර සහ පානීය ජලය / වැසිකිළි අපද්‍රව්‍ය ඉවත් කරන ට්‍රක් රථ සම්බන්ධ කිරීමේදී හෝස් වැරදි ලෙස සම්බන්ධ වීම හෝ අපද්‍රව්‍ය කාන්දු වීම වැළැක්වීම සඳහා විශේෂ ආරක්ෂක ආවරණ පැළඳිය යුතුය. විශේෂයෙන් වැසිකිළි අපද්‍රව්‍ය හැසිරවීමේදී සනීපාරක්ෂාව දැඩි ලෙස ආරක්ෂා කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/47.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p016-49d56",
@@ -3217,8 +3317,7 @@
       "title_japanese": "16. 冬期運用における除氷・防氷作業（ディアイシング）の運用規定",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part4_Pages_16_to_20.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/031.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/032.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/48.jpg"
       ],
       "study_sections": [
         {
@@ -3230,7 +3329,11 @@
           "english": "During winter low temperatures and snowfall, de-icing (removing ice/snow from wings and fuselage) and anti-icing (preventing re-freezing) operations must be conducted in accordance with regulations, utilizing specialized fluids while considering environmental impact.",
           "sinhala": "ශීත සෘතුවේදී අඩු උෂ්ණත්වය හෝ හිම පතනය ඇති විට, ගුවන් යානා පියාපත්වල සහ බඳෙහි තැන්පත් වන හිම ඉවත් කිරීමේ De-icing සහ නැවත හිම තැන්පත් වීම වැළැක්වීමේ Anti-icing මෙහෙයුම් නීති රීතිවලට අනුව සිදු කළ යුතුය. මෙහිදී විශේෂ තරල (Fluids) භාවිත කරන අතර පරිසර ආරක්ෂාව පිළිබඳවත් සැලකිලිමත් විය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/48.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p017-49d56",
@@ -3238,10 +3341,7 @@
       "title_sinhala": "භාණ්ඩ ලේබල් සහ භයානක ද්‍රව්‍ය පරීක්ෂාව (Dangerous Goods Ramp Handling)",
       "title_japanese": "17. ランプ内における危険物（DGR）の取り扱いと保管・積載の注意点",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part4_Pages_16_to_20.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/033.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/034.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "GH_REV2_P17_S01",
@@ -3252,7 +3352,9 @@
           "english": "When handling cargo with dangerous goods marks or labels on the ramp, exercise utmost care to avoid impacts or heat sources, securing them firmly in designated loading positions. In case of abnormalities, contact specialized departments immediately.",
           "sinhala": "රැම්ප් ප්‍රදේශය තුළ අන්තරායකර භාණ්ඩ ලේබල් සහිත භාණ්ඩ හැසිරවීමේදී කම්පන ඇති වීමෙන් හෝ තාප ප්‍රභවයන්ට ළං වීමෙන් දැඩි ලෙස වැළකී, නියමිත ස්ථානවල අචලව සවි කළ යුතුය. කිසියම් අසාමාන්‍යතාවක් දුටුවහොත් වහාම විශේෂඥ අංශ වෙත දැනුම් දිය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p018-49d56",
@@ -3260,10 +3362,7 @@
       "title_sinhala": "FOD (විදේශීය වස්තු) වැළැක්වීම සහ රැම්ප් පවිත්‍රතාව (FOD Prevention)",
       "title_japanese": "18. FOD（異物）の発生防止とランプ内の清掃・点検の徹底",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part4_Pages_16_to_20.json",
-      "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/035.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/036.jpg"
-      ],
+      "mapped_images": [],
       "study_sections": [
         {
           "id": "GH_REV2_P18_S01",
@@ -3274,7 +3373,9 @@
           "english": "FOD (Foreign Object Debris) such as bolts, plastic pieces, or paper scraps dropped on the ramp can cause jet engine ingestion or tire punctures, and must be collected and disposed of immediately upon discovery. Daily housekeeping activities are essential.",
           "sinhala": "රැම්ප් ප්‍රදේශයට වැටෙන බෝල්ට්, ප්ලාස්ටික් කැබලි හෝ කඩදාසි වැනි FOD (විදේශීය වස්තු) මඟින් ජෙට් එන්ජින්වලට හානි වීම හෝ ටයර් පැච් යාම සිදු විය හැකි බැවින්, දුටු වහාම එකතු කර ඉවත් කළ යුතුය. දෛනිකව පිරිසිදුව තබා ගැනීම අත්‍යවශ්‍ය වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p019-49d56",
@@ -3283,8 +3384,9 @@
       "title_japanese": "19. 無線交信のルールとチーム間における確実な意思疎通",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part4_Pages_16_to_20.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/037.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/038.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/49.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/50.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/51.jpg"
       ],
       "study_sections": [
         {
@@ -3296,7 +3398,13 @@
           "english": "When communicating via radio, strive for precise and concise phrasing, and perform read-backs to prevent misunderstandings of instructions, ensuring solid team communication. Clear speaking is required even under noisy conditions.",
           "sinhala": "රේඩියෝ සංචාරක උපකරණ භාවිතයෙන් කරන සන්නිවේදනයේදී නිවැරදි හා කෙටි වචන භාවිත කළ යුතු අතර, උපදෙස් වැරදි ලෙස වටහා ගැනීම වැළැක්වීම සඳහා නැවත ප්‍රකාශ කිරීම (Read-back) මඟින් තහවුරු කරගත යුතුය. අධික ශබ්ද සහිත පරිසරයක වුවද පැහැදිලිව කතා කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/49.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/50.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/51.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p020-49d56",
@@ -3305,8 +3413,7 @@
       "title_japanese": "20. グランドハンドリング業務における安全管理の総括と事故ゼロの達成",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part4_Pages_16_to_20.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/039.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/040.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/52.jpg"
       ],
       "study_sections": [
         {
@@ -3318,7 +3425,11 @@
           "english": "The foundation of ground handling operations is 'Safety First'. By having all workers comply with regulations, report near-misses, and rigorously practice pointing-and-calling, we continuously protect safe aircraft operations and achieve zero accidents.",
           "sinhala": "බිම් හැසිරවීමේ මෙහෙයුම්වල මූලික පදනම වන්නේ 'ආරක්ෂාවට මුල්තැන' (Safety First) දීමයි. සියලුම සේවකයින් නීතිරීති අකුරටම පිළිපැදීමෙන්, හියාරි-හට්ටෝ වාර්තා කිරීමෙන් සහ ශිසා කොෂෝ ක්‍රියාත්මක කිරීමෙන් ගුවන් යානා ආරක්ෂිතව මෙහෙයවීම සහ අනතුරු රහිත සේවා පරිසරයක් අඛණ්ඩව පවත්වා ගත හැක."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/52.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p021-d25bb",
@@ -3327,8 +3438,7 @@
       "title_japanese": "21. パッセンジャー・ボーディング・ブリッジ（PBB）の安全操作と緊急停止手順",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part5_Pages_21_to_25.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/041.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/042.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/53.jpg"
       ],
       "study_sections": [
         {
@@ -3340,7 +3450,11 @@
           "english": "When operating the PBB (Passenger Boarding Bridge) to dock or undock from the aircraft, constantly verify that there are no obstacles between the bridge and the aircraft body. If any unusual noise or anomaly is detected, immediately press the emergency stop button to suspend operation.",
           "sinhala": "මගී පාලම (PBB) ගුවන් යානයට සම්බන්ධ කිරීමේදී (Docking) හෝ ඉවත් කිරීමේදී පාලම සහ ගුවන් යානය අතර කිසිදු බාධකයක් නොමැති බව නිරන්තරයෙන් පරීක්ෂා කළ යුතුය. කිසියම් අසාමාන්‍ය ශබ්දයක් හෝ දෝෂයක් හැඟුනහොත් වහාම හදිසි නැවතුම් බොත්තම (Emergency stop button) ඔබා මෙහෙයුම නතර කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/53.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p022-d25bb",
@@ -3349,8 +3463,8 @@
       "title_japanese": "22. 航空機ドアの開閉時における安全確認と地上スタッフの役割",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part5_Pages_21_to_25.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/043.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/044.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/54.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/55.jpg"
       ],
       "study_sections": [
         {
@@ -3362,7 +3476,12 @@
           "english": "When operating aircraft doors, cabin crew and ground staff must mutually confirm signals and proceed with extreme caution, paying full attention to whether evacuation slides are armed.",
           "sinhala": "ගුවන් යානා දොරවල් විවෘත කිරීමේදී හෝ වැසීමේදී කැබින් කාර්ය මණ්ඩලය සහ බිම් කාර්ය මණ්ඩලය ಪರස්පර සංඥා හුවමාරු කර ගනිමින්, හදිසි ඉවත් වීමේ სლაයිඩ් එක (Evacuation slide) සක්‍රීය වී ඇත්දැයි බැලීම ඇතුළු දැඩි සැලකිල්ලකින් යුතුව කටයුතු කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/54.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/55.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p023-d25bb",
@@ -3371,8 +3490,7 @@
       "title_japanese": "23. 航空コンテナ（ULD）およびパレットの正しい取り扱いと固定",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part5_Pages_21_to_25.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/045.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/046.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/56.jpg"
       ],
       "study_sections": [
         {
@@ -3384,7 +3502,11 @@
           "english": "When handling aviation containers and pallets (ULDs), inspect for damage or deformation, and ensure that locking mechanisms (latches) inside the cargo compartment operate securely to prevent shifting.",
           "sinhala": "ගුවන් කන්ටේනර් හෝ පැලට් (ULD) හැසිරවීමේදී ඒවායේ හානි හෝ විකෘති වීම් ඇත්දැයි පරීක්ෂා කළ යුතු අතර, කාගෝ මැදිරිය තුළ ඇති අගුළු දැමීමේ ක්‍රියාරම්භක (Latches) මඟින් ඒවා නොසැලෙන ලෙස අචලව සවි වී ඇති බවට තහවුරු කර ගත යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/56.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p024-d25bb",
@@ -3393,8 +3515,11 @@
       "title_japanese": "24. 夜間作業および視界不良時（霧・大雨）におけるランプ内安全対策",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part5_Pages_21_to_25.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/047.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/048.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/57.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/58.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/59.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/60.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/61.jpg"
       ],
       "study_sections": [
         {
@@ -3406,7 +3531,15 @@
           "english": "During night operations, heavy fog, or heavy rain leading to low visibility, turn on working lights in addition to standard illumination, and always wear high-visibility reflective vests to clearly signal your presence to surrounding vehicles.",
           "sinhala": "රාත්‍රී කාලයේදී, ඝන මීදුමේදී හෝ අධික වර්ෂාව වැනි දෘශ්‍යතාව අඩු අවස්ථාවන්හිදී, සාමාන්‍ය ආලෝකයට අමතරව වැඩ කරන ලයිට් (Working lights) පාවිච්චි කළ යුතු අතර, අවට වාහනවලට තමන් සිටින බව පැහැදිලිව පෙනීම සඳහා පරාවර්තක (Reflective) ආරක්ෂක ඇඳුම් හෝ ජැකට් අනිවාර්යයෙන්ම පැළඳිය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/57.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/58.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/59.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/60.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/61.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p025-d25bb",
@@ -3415,8 +3548,9 @@
       "title_japanese": "25. グランドハンドリング業務テキストの総まとめと安全確認の徹底",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part5_Pages_21_to_25.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/049.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/050.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/62.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/63.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/68.jpg"
       ],
       "study_sections": [
         {
@@ -3428,7 +3562,13 @@
           "english": "Thoroughly apply the fundamentals of airport ground handling, ramp safety management, GSE operation procedures, dangerous goods handling, and the practice of near-miss reporting and pointing-and-calling learned in this manual, working together to achieve zero accidents.",
           "sinhala": "මෙම පුහුණු අත්පොතෙන් ඉගෙනගත් ගුවන් තොටුපළ බිම් හැසිරවීමේ මූලධර්ම, රැම්ප් ආරක්ෂක කළමනාකරණය, විවිධ GSE උපකරණ මෙහෙයවීම, අන්තරායකර භාණ්ඩ හැසිරවීම මෙන්ම හියාරි-හට්ටෝ වාර්තා කිරීම සහ ශිසා කොෂෝ ක්‍රියාත්මක කිරීම යන සියල්ල රැම්ප් බිම් මට්ටමින් අකුරටම ක්‍රියාත්මක කරමින් සියලු දෙනා එකතු වී අනතුරු රහිත සේවා පරිසරයක් (Zero Accidents) තහවුරු කරමු."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/62.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/63.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/68.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p026-7ba1d",
@@ -3437,8 +3577,14 @@
       "title_japanese": "26. 特殊車両の運用と機体周辺でのクリアランス確保",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part6_Pages_26_to_31_Final.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/051.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/052.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/69.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/74.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/75.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/78.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/85.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/89.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/91.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/97.jpg"
       ],
       "study_sections": [
         {
@@ -3450,7 +3596,18 @@
           "english": "When operating special vehicles such as high-lift loaders or refueling trucks around the aircraft, always maintain clearance (safe distance) from the aircraft body, and reduce working speed to guide and stop them cautiously during strong winds or poor visibility.",
           "sinhala": "ගුවන් යානය වටා හයි-ලිෆ්ට් ලෝඩර් හෝ ඉන්ධන බවුසර් වැනි විශේෂ වාහන ක්‍රියාත්මක කිරීමේදී සෑම විටම ගුවන් යානය සමඟ ආරක්ෂිත පරතරයක් (Clearance) පවත්වා ගත යුතු අතර, තද සුළං හෝ දෘශ්‍යතාව අඩු අවස්ථාවන්හිදී මෙහෙයුම් වේගය අඩු කර ඉතා පරිස්සමින් මඟ පෙන්වා නැවැත්විය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/69.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/74.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/75.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/78.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/85.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/89.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/91.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/97.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p027-7ba1d",
@@ -3459,8 +3616,7 @@
       "title_japanese": "27. ランプ作業員における個人用保護具（PPE）の着用義務と健康管理",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part6_Pages_26_to_31_Final.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/053.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/054.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/98.jpg"
       ],
       "study_sections": [
         {
@@ -3472,7 +3628,11 @@
           "english": "All staff working on the ramp must properly wear Personal Protective Equipment (PPE) such as safety helmets, safety shoes, earplugs (ear protectors), and high-visibility safety vests in accordance with regulations, while paying close attention to personal health management.",
           "sinhala": "රැම්ප් ප්‍රදේශය තුළ වැඩ කරන සියලුම කාර්ය මණ්ඩලය ආරක්ෂක හිස්වැස්ම (Helmet), ආරක්ෂක සපත්තු, කන් ආවරණ (Earplugs) සහ අධික දෘශ්‍යතාවකින් යුත් පරාවර්තක ආරක්ෂක ජැකට් ආදී පෞද්ගලික ආරක්ෂක උපකරණ (PPE) නීතිරීතිවලට අනුව පැළඳිය යුතු අතර, තමන්ගේ සෞඛ්‍ය තත්ත්වය ගැනත් හොඳින් සැලකිලිමත් විය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/98.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p028-7ba1d",
@@ -3481,8 +3641,8 @@
       "title_japanese": "28. ジェット・ブラスト（後方噴流）およびプロペラ後流の危険性と退避",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part6_Pages_26_to_31_Final.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/055.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/056.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/100.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/101.jpg"
       ],
       "study_sections": [
         {
@@ -3494,7 +3654,12 @@
           "english": "The powerful exhaust airflow (Jet Blast) or propeller slipstream generated behind aircraft when jet engines are running are extremely hazardous phenomena capable of blowing away vehicles and workers; thus, entering designated caution zones is strictly prohibited.",
           "sinhala": "ජෙට් එන්ජින් ක්‍රියාත්මක වන විට පිටුපසට නිකුත් වන ප්‍රබල වායු ධාරාව (Jet Blast) හෝ ප්‍රචාරක වායු ප්‍රවාහය නිසා වාහන සහ සේවකයින් විසි වී යා හැකි අතිශය භයානක තත්ත්වයක් වන බැවින්, නියමිත ආරක්ෂක කලාපවලට ඇතුළු වීම සපුරා තහනම් වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/100.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/101.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p029-7ba1d",
@@ -3503,8 +3668,13 @@
       "title_japanese": "29. ランプ内における防火管理と消火器の設置・取り扱い方法",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part6_Pages_26_to_31_Final.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/057.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/058.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/108.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/109.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/110.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/112.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/114.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/116.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/118.jpg"
       ],
       "study_sections": [
         {
@@ -3516,7 +3686,17 @@
           "english": "In preparation for potential fires on the ramp, ensure that fire extinguishers are positioned in designated spots near refueling operations and vehicles, and all staff must be thoroughly familiar with the procedures and locations for initial firefighting in an emergency.",
           "sinhala": "රැම්ප් ප්‍රදේශයේ ඇති විය හැකි ගිනි ගැනීම් සඳහා සූදානම් වීමට, ඉන්ධන පිරවීමේදී සහ වාහන අසල ගිනි නිවන උපකරණ (Fire extinguishers) නියමිත ස්ථානවල පිහිටුවා ඇති බව තහවුරු කළ යුතු අතර, හදිසි අවස්ථාවකදී මුල් අවස්ථාවේදී ගින්න නිවා ගැනීමට අවශ්‍ය ක්‍රමවේද සහ ස්ථාන සියලුම සේවකයින් දැන සිටිය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/108.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/109.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/110.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/112.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/114.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/116.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/118.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p030-7ba1d",
@@ -3525,8 +3705,7 @@
       "title_japanese": "30. 出発最終段階における無線確認と機体プッシュバックの完了手順",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part6_Pages_26_to_31_Final.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/059.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/060.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/119.jpg"
       ],
       "study_sections": [
         {
@@ -3538,7 +3717,11 @@
           "english": "After pushback completion, clearly communicate to the pilot via headset that tow brake release, towbar disconnection, and bypass pin retrieval are finished, confirming detachment with visual hand signals.",
           "sinhala": "පුෂ්බෑක් මෙහෙයුම අවසන් වූ පසු, ටෝ බ්‍රේක් නිදහස් කිරීම, ටෝබාර් එක ඉවත් කිරීම සහ බයිපාස් පින් එක (Bypass pin) එකතු කර ගැනීම අවසන් බව හෙඩ්සෙට් එක මඟින් නියමුවාට පැහැදිලිව දැන්විය යුතු අතර, දෘශ්‍ය අතින් දෙන සංඥා (Hand signals) මඟින් එකිනෙකා තහවුරු කරගත යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/119.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p031-7ba1d",
@@ -3547,8 +3730,8 @@
       "title_japanese": "31. 空港グランドハンドリング教本 全文の終了と安全運航への誓い",
       "source_json": "assets/data/Rev 2 Sinhala/GHtext_2_Airport_Ground_Handling_REV2.1_Part6_Pages_26_to_31_Final.json",
       "mapped_images": [
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/061.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/062.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/120.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/121.jpg"
       ],
       "study_sections": [
         {
@@ -3560,7 +3743,12 @@
           "english": "Keeping the safety rules, regulations, equipment handling guidelines, and the spirit of near-miss reporting and pointing-and-calling explained throughout this manual deeply in your heart, execute professional, safe, and reliable ground handling operations to continuously support the safety and quality of aviation transport.",
           "sinhala": "මෙම පුහුණු අත්පොතේ මුල සිට අග දක්වා විස්තර කළ ආරක්ෂක නීති, රෙගුලාසි, උපකරණ හැසිරවීමේ ක්‍රමවේද සහ හියාරි-හට්ටෝ මෙන්ම ශිසා කොෂෝ හි හරය සදාකාලයෙන්ම සිත්හි දරා ගනිමින්, සැබෑ වෘත්තීයවේදියෙකු ලෙස ආරක්ෂිත සහ විශ්වාසනීය බිම් හැසිරවීමේ මෙහෙයුම් අකුරටම ඉටු කරමින් ජපානයේ ගුවන් ප්‍රවාහනයේ ආරක්ෂාව සහ ගුණාත්මකභාවය අඛණ්ඩව ඉදිරියට ගෙන යමු!"
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/120.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/121.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_EXACT_PDF_MAP"
     }
   ]
 }
