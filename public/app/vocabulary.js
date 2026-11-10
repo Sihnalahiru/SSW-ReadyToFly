@@ -51,7 +51,8 @@ function bindEvents(){
  const root=document.getElementById('vocabulary-root');if(!root||root.dataset.bound)return;root.dataset.bound='1';
  root.addEventListener('input',e=>{if(e.target.id==='vocab-search'){query=e.target.value;renderContent();}});
  root.addEventListener('change',e=>{if(e.target.id==='vocab-part'){part=Number(e.target.value)||1;flipped.clear();renderContent();}});
- root.addEventListener('click',async e=>{\n  if(e.target.closest('[data-vocab-retry]')){loadingPromise=null;root.innerHTML='<div class="empty-state">Retrying vocabulary load…</div>';loadVocabulary().then(renderContent).catch(err=>{root.innerHTML='<div class="empty-state"><strong>Vocabulary could not be loaded.</strong><br>'+esc(err.message)+'<br><button type="button" data-vocab-retry>Retry</button></div>';});return;}
+ root.addEventListener('click',async e=>{
+  if(e.target.closest('[data-vocab-retry]')){loadingPromise=null;root.innerHTML='<div class="empty-state">Retrying vocabulary load…</div>';loadVocabulary().then(renderContent).catch(err=>{root.innerHTML='<div class="empty-state"><strong>Vocabulary could not be loaded.</strong><br>'+esc(err.message)+'<br><button type="button" data-vocab-retry>Retry</button></div>';});return;}
   const flip=e.target.closest('[data-vocab-flip]');if(flip){const id=flip.dataset.vocabFlip;flipped.has(id)?flipped.delete(id):flipped.add(id);renderContent();return;}
   const fav=e.target.closest('[data-vocab-fav]');if(fav){const id=fav.dataset.vocabFav;favourites.has(id)?favourites.delete(id):favourites.add(id);renderContent();try{await window.ReadyToFlyProgress?.save?.('vocabulary:favourites',[...favourites]);}catch(err){console.warn('Favourite sync failed',err);}return;}
   const set=e.target.closest('[data-vocab-set]');if(set){part=Number(set.dataset.vocabSet)||1;query='';flipped.clear();renderContent();return;}
