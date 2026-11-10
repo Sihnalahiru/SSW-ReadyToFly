@@ -4,11 +4,12 @@ import { renderExam } from './app/exam.js';
 import { renderProgress } from './app/progress.js';
 import { renderVocabulary } from './app/vocabulary.js';
 import { renderQuiz } from './app/quiz.js';
+import { renderHistory } from './app/history.js';
 
 (() => {
  'use strict';
  const loginScreen=document.getElementById('login-screen'),application=document.getElementById('application'),form=document.getElementById('auth-form'),message=document.getElementById('auth-message');
- const renderers={dashboard:renderDashboard,study:renderStudy,vocabulary:renderVocabulary,quiz:renderQuiz,exam:renderExam,progress:renderProgress};
+ const renderers={dashboard:renderDashboard,study:renderStudy,vocabulary:renderVocabulary,quiz:renderQuiz,exam:renderExam,progress:renderProgress,history:renderHistory};
  let authMode='login',currentUser=null,progressData={},viewTransitionTimer=null,pendingRecoveryCode=null;
  const cookieValue=name=>document.cookie.split('; ').find(v=>v.startsWith(name+'='))?.split('=').slice(1).join('=')||'';
  async function api(path,options={}) {
@@ -100,7 +101,7 @@ import { renderQuiz } from './app/quiz.js';
   }catch(err){setMessage(err.message,true);}
   finally{const next=form.querySelector('button[type="submit"]');if(next){next.disabled=false;next.textContent=authMode==='recovery-display'?'I have saved my code →':(authMode==='register'?'Create account →':authMode==='recover'?'Reset password →':'Sign in →');}}
  });
- document.addEventListener('click',event=>{const control=event.target.closest('[data-view]');if(control)showView(control.dataset.view);});
+ document.addEventListener('click',async event=>{const reset=event.target.closest('[data-dashboard-reset]');if(reset){if(!window.confirm('Reset dashboard-only preferences and summaries? Your examination history, completed papers, marks, books and account will remain safe.'))return;try{await saveProgress('dashboard:preferences',{resetAt:Date.now(),version:1});await saveProgress('dashboard:summary',{});showView('dashboard');}catch(err){console.warn('Dashboard reset failed:',err.message);alert('Dashboard reset could not be saved. Please try again.');}return;}const control=event.target.closest('[data-view]');if(control)showView(control.dataset.view);});
  document.getElementById('signout').addEventListener('click',async()=>{try{await api('auth/logout',{method:'POST',body:'{}'});}catch(e){console.warn(e);}progressData={};localStorage.removeItem('readytofly-progress-cache');currentUser=null;showLogin();});
  const themeButton=document.getElementById('theme-toggle');
  if(localStorage.getItem('readytofly-theme')==='light')document.body.classList.add('light');
