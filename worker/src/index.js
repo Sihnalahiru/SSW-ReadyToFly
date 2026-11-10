@@ -210,7 +210,7 @@ async function handle(request, env) {
     catch { return new Response("Invalid asset path", { status: 400 }); }
     const segments = relativePath.split("/");
     if (!relativePath.startsWith("assets/data/") ||
-        segments.some(segment => !segment || segment === "." || segment === ".." || segment.includes("\\\\")) ||
+        segments.some(segment => !segment || segment === "." || segment === ".." || segment.includes("\\")) ||
         !/\\.(?:jpe?g|png|webp|gif)$/i.test(relativePath)) {
       return new Response("Not found", { status: 404 });
     }
