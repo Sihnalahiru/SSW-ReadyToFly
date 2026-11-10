@@ -3,13 +3,13 @@
   "module": "Airport Ground Handling",
   "revision": "Rev 2",
   "source_directory": "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/",
-  "audit_date": "2026-11-08",
-  "status": "FILENAME_INVENTORY_VERIFIED_VISUAL_REVIEW_PENDING",
+  "audit_date": "2026-11-10",
+  "status": "FILENAME_AND_SOURCE_BINARY_MATCH_VERIFIED_VISUAL_REVIEW_PENDING",
   "total_files": 84,
   "files": [
     {
       "filename": "0.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -17,7 +17,7 @@
     },
     {
       "filename": "1.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -25,7 +25,7 @@
     },
     {
       "filename": "100.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -33,7 +33,7 @@
     },
     {
       "filename": "101.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -41,7 +41,7 @@
     },
     {
       "filename": "108.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -49,7 +49,7 @@
     },
     {
       "filename": "109.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -57,7 +57,7 @@
     },
     {
       "filename": "110.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -65,7 +65,7 @@
     },
     {
       "filename": "112.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -73,7 +73,7 @@
     },
     {
       "filename": "114.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -81,7 +81,7 @@
     },
     {
       "filename": "116.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -89,7 +89,7 @@
     },
     {
       "filename": "118.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -97,7 +97,7 @@
     },
     {
       "filename": "119.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -105,7 +105,7 @@
     },
     {
       "filename": "120.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -113,7 +113,7 @@
     },
     {
       "filename": "121.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -121,7 +121,7 @@
     },
     {
       "filename": "122.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -129,7 +129,7 @@
     },
     {
       "filename": "123.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -137,7 +137,7 @@
     },
     {
       "filename": "124.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -145,7 +145,7 @@
     },
     {
       "filename": "125.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -153,7 +153,7 @@
     },
     {
       "filename": "126.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -161,7 +161,7 @@
     },
     {
       "filename": "127.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -169,7 +169,7 @@
     },
     {
       "filename": "128.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -177,7 +177,7 @@
     },
     {
       "filename": "129.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -185,7 +185,7 @@
     },
     {
       "filename": "13.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -193,7 +193,7 @@
     },
     {
       "filename": "130.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -201,7 +201,7 @@
     },
     {
       "filename": "131.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -209,7 +209,7 @@
     },
     {
       "filename": "132.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -217,7 +217,7 @@
     },
     {
       "filename": "133.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -225,7 +225,7 @@
     },
     {
       "filename": "134.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -233,7 +233,7 @@
     },
     {
       "filename": "14.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -241,7 +241,7 @@
     },
     {
       "filename": "15.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -249,7 +249,7 @@
     },
     {
       "filename": "16.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -257,7 +257,7 @@
     },
     {
       "filename": "2.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -265,7 +265,7 @@
     },
     {
       "filename": "24.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -273,7 +273,7 @@
     },
     {
       "filename": "25.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -281,7 +281,7 @@
     },
     {
       "filename": "26.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -289,7 +289,7 @@
     },
     {
       "filename": "27.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -297,7 +297,7 @@
     },
     {
       "filename": "28.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -305,7 +305,7 @@
     },
     {
       "filename": "29.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -313,7 +313,7 @@
     },
     {
       "filename": "3.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -321,7 +321,7 @@
     },
     {
       "filename": "30.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -329,7 +329,7 @@
     },
     {
       "filename": "31.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -337,7 +337,7 @@
     },
     {
       "filename": "32.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -345,7 +345,7 @@
     },
     {
       "filename": "33.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -353,7 +353,7 @@
     },
     {
       "filename": "34.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -361,7 +361,7 @@
     },
     {
       "filename": "35.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -369,7 +369,7 @@
     },
     {
       "filename": "36.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -377,7 +377,7 @@
     },
     {
       "filename": "37.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -385,7 +385,7 @@
     },
     {
       "filename": "38.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -393,7 +393,7 @@
     },
     {
       "filename": "39.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -401,7 +401,7 @@
     },
     {
       "filename": "4.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -409,7 +409,7 @@
     },
     {
       "filename": "40.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -417,7 +417,7 @@
     },
     {
       "filename": "41.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -425,7 +425,7 @@
     },
     {
       "filename": "42.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -433,7 +433,7 @@
     },
     {
       "filename": "43.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -441,7 +441,7 @@
     },
     {
       "filename": "44.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -449,7 +449,7 @@
     },
     {
       "filename": "45.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -457,7 +457,7 @@
     },
     {
       "filename": "46.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -465,7 +465,7 @@
     },
     {
       "filename": "47.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -473,7 +473,7 @@
     },
     {
       "filename": "48.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -481,7 +481,7 @@
     },
     {
       "filename": "49.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -489,7 +489,7 @@
     },
     {
       "filename": "50.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -497,7 +497,7 @@
     },
     {
       "filename": "51.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -505,7 +505,7 @@
     },
     {
       "filename": "52.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -513,7 +513,7 @@
     },
     {
       "filename": "53.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -521,7 +521,7 @@
     },
     {
       "filename": "54.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -529,7 +529,7 @@
     },
     {
       "filename": "55.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -537,7 +537,7 @@
     },
     {
       "filename": "56.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -545,7 +545,7 @@
     },
     {
       "filename": "57.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -553,7 +553,7 @@
     },
     {
       "filename": "58.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -561,7 +561,7 @@
     },
     {
       "filename": "59.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -569,7 +569,7 @@
     },
     {
       "filename": "60.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -577,7 +577,7 @@
     },
     {
       "filename": "61.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -585,7 +585,7 @@
     },
     {
       "filename": "62.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -593,7 +593,7 @@
     },
     {
       "filename": "63.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -601,7 +601,7 @@
     },
     {
       "filename": "68.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -609,7 +609,7 @@
     },
     {
       "filename": "69.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -617,7 +617,7 @@
     },
     {
       "filename": "74.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -625,7 +625,7 @@
     },
     {
       "filename": "75.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -633,7 +633,7 @@
     },
     {
       "filename": "78.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -641,7 +641,7 @@
     },
     {
       "filename": "85.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -649,7 +649,7 @@
     },
     {
       "filename": "89.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -657,7 +657,7 @@
     },
     {
       "filename": "91.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -665,7 +665,7 @@
     },
     {
       "filename": "97.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -673,7 +673,7 @@
     },
     {
       "filename": "98.jpg",
-      "page_mapping": "PENDING",
+      "page_mapping": "SOURCE_MAP_ASSOCIATION_AVAILABLE_VISUAL_CONFIRMATION_PENDING",
       "visual_description": "PENDING",
       "dimensions": "PENDING",
       "relevance": "PENDING",
@@ -756,5 +756,13 @@
     "Visually classify content and identify duplicate/fragments",
     "Compare candidate images against source PDF pages",
     "Confirm exact page mappings only where evidence is clear"
-  ]
+  ],
+  "source_pdf_image_map": {
+    "path": "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/pdf_image_source_map_rev2_1.json",
+    "reported_pdf_pages": 52,
+    "original_archive_jpgs": 84,
+    "exact_pdf_pixel_matches": 84,
+    "exact_github_git_blob_matches": 84,
+    "page_mapping_basis": "Physical PDF page to extracted JPG association in source map; semantic visual review remains pending."
+  }
 }
