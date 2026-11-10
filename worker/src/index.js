@@ -215,7 +215,7 @@ async function handle(request, env) {
       return new Response("Not found", { status: 404 });
     }
     const rawPath = segments.map(segment => encodeURIComponent(segment)).join("/");
-    const assetResponse = await fetch("https://raw.githubusercontent.com/Sihnalahiru/SSW-ReadyToFly/feature/zero-cost-auth-autosave-v2/" + rawPath, {
+    const assetResponse = await fetch("https://raw.githubusercontent.com/Sihnalahiru/SSW-ReadyToFly/4f7ed43c5bae0ec69032bb30755593b6f6561a0a/" + rawPath, {
       method: request.method,
       headers: { "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" },
       cf: { cacheTtl: 86400, cacheEverything: true }
