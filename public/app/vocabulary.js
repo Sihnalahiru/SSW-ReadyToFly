@@ -37,7 +37,7 @@ function bindEvents(){
  const root=document.getElementById('vocabulary-root');if(!root||root.dataset.bound)return;root.dataset.bound='1';
  root.addEventListener('input',e=>{if(e.target.id==='vocab-search'){query=e.target.value;renderContent();}});
  root.addEventListener('change',e=>{if(e.target.id==='vocab-part'){part=Number(e.target.value)||1;flipped.clear();renderContent();}});
- root.addEventListener('click',async e=>{
+ root.addEventListener('click',async e=>{\n  if(e.target.closest('[data-vocab-retry]')){loadingPromise=null;root.innerHTML='<div class="empty-state">Retrying vocabulary load…</div>';loadVocabulary().then(renderContent).catch(err=>{root.innerHTML='<div class="empty-state"><strong>Vocabulary could not be loaded.</strong><br>'+esc(err.message)+'<br><button type="button" data-vocab-retry>Retry</button></div>';});return;}
   const flip=e.target.closest('[data-vocab-flip]');if(flip){const id=flip.dataset.vocabFlip;flipped.has(id)?flipped.delete(id):flipped.add(id);renderContent();return;}
   const fav=e.target.closest('[data-vocab-fav]');if(fav){const id=fav.dataset.vocabFav;favourites.has(id)?favourites.delete(id):favourites.add(id);renderContent();try{await window.ReadyToFlyProgress?.save?.('vocabulary:favourites',[...favourites]);}catch(err){console.warn('Favourite sync failed',err);}return;}
   if(e.target.closest('[data-vocab-prev]')){part=Math.max(1,part-1);flipped.clear();renderContent();}
@@ -45,5 +45,5 @@ function bindEvents(){
  });
 }
 export function renderVocabulary(){
- return '<section class="welcome"><p class="eyebrow">JAPANESE TECHNICAL LANGUAGE</p><h1>Vocabulary Center</h1><p class="muted">623 source records · Japanese, Furigana, Romaji, English and Sinhala</p></section><section class="panel vocabulary-panel"><div id="vocabulary-root"><div class="empty-state">Loading all 623 vocabulary records…</div></div></section><script></script>'.replace('<script></script>','')+(typeof document!=='undefined'?(queueMicrotask(()=>{bindEvents();loadVocabulary().then(()=>{bindEvents();renderContent();}).catch(err=>{const root=document.getElementById('vocabulary-root');if(root)root.innerHTML='<div class="empty-state"><strong>Vocabulary could not be loaded.</strong><br>'+esc(err.message)+'<br><button type="button" data-vocab-retry>Retry</button></div>';});}), ''):'');
+ return '<section class="welcome"><p class="eyebrow">JAPANESE TECHNICAL LANGUAGE</p><h1>Vocabulary Center</h1><p class="muted">623 source records · Japanese, Furigana, Romaji, English and Sinhala</p></section><section class="panel vocabulary-panel"><div id="vocabulary-root"><div class="empty-state">Loading all 623 vocabulary records…</div></div></section><script></script>'.replace('<script></script>','')+(typeof document!=='undefined'?(queueMicrotask(()=>{bindEvents();loadVocabulary().then(()=>{bindEvents();renderContent();}).catch(err=>{loadingPromise=null;const root=document.getElementById('vocabulary-root');if(root)root.innerHTML='<div class="empty-state"><strong>Vocabulary could not be loaded.</strong><br>'+esc(err.message)+'<br><button type="button" data-vocab-retry>Retry</button></div>';});}), ''):'');
 }
