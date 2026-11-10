@@ -211,7 +211,7 @@ async function handle(request, env) {
     const segments = relativePath.split("/");
     if (!relativePath.startsWith("assets/data/") ||
         segments.some(segment => !segment || segment === "." || segment === ".." || segment.includes("\\")) ||
-        !/\\.(?:jpe?g|png|webp|gif)$/i.test(relativePath)) {
+        !/\.(?:jpe?g|png|webp|gif)$/i.test(relativePath)) {
       return new Response("Not found", { status: 404 });
     }
     const rawPath = segments.map(segment => encodeURIComponent(segment)).join("/");
