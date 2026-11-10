@@ -5,6 +5,15 @@ const exists = async path => { try { await access(path); return true; } catch { 
 const study = await readJson('public/assets/data/study_note_visual_map.json');
 const vocab = await readJson('public/assets/data/vocabulary_master.json');
 const studyUi = await readFile('public/app/study.js', 'utf8');
+if (!studyUi.includes("const DATA_URL = '/assets/data/study_note_visual_map.json';")) {
+  throw new Error('Study data must use an origin-root absolute URL.');
+}
+if (!studyUi.includes(' setTimeout(async () => {')) {
+  throw new Error('Study data loading must start after the router inserts the Study Center root.');
+}
+if (!studyUi.includes('15000') || !studyUi.includes("error.name === 'AbortError'")) {
+  throw new Error('Study source fetch must have a visible timeout failure state.');
+}
 if (!studyUi.includes("root.addEventListener('error'") || !studyUi.includes("img.matches('[data-study-image]')")) {
   throw new Error('Study image load-error handler must use delegated capture on the persistent root.');
 }
