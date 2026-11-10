@@ -3,7 +3,7 @@
   "module": "Airport Ground Handling",
   "revision": "Rev 2",
   "audit_type": "STRUCTURAL_JSON_AUDIT_NOT_SOURCE_VERIFICATION",
-  "audit_date": "2026-11-08",
+  "audit_date": "2026-11-10",
   "source_files": [
     "GHtext_2_Airport_Ground_Handling_REV2.1_Part1_Pages_1_to_5.json",
     "GHtext_2_Airport_Ground_Handling_REV2.1_Part2_Pages_6_to_10.json",
@@ -16,18 +16,18 @@
     "json_page_records": 31,
     "study_sections": 31,
     "vocabulary_records": 81,
-    "image_references": 62,
+    "image_references": 68,
     "actual_image_files": 84,
-    "existing_image_references": 0,
-    "missing_image_references": 62
+    "existing_image_references": 68,
+    "missing_image_references": 0
   },
   "findings": [
     {
       "id": "AGH-R2-001",
-      "severity": "BLOCKER",
-      "status": "CONFIRMED_REPOSITORY_PATH_MISMATCH",
-      "finding": "All 62 image paths referenced by the six JSON batches use zero-padded filenames 001.jpg–062.jpg, but none of those names exists in the matching image directory. The directory contains 84 files with a different filename set.",
-      "action": "Do not silently rename or remap. Inspect the 84 actual files and establish page relationships from visual/source evidence."
+      "severity": "RESOLVED_FILENAME_RECONCILIATION",
+      "status": "FILENAME_MATCH_CONFIRMED_RUNTIME_PATH_PENDING",
+      "finding": "The earlier zero-padded filename mismatch finding was stale/incorrect. Rechecking all six current JSON batches found 68 image references across 31 pages; all 68 referenced basenames exist among the 84 files in the correct Rev 2.1 image directory. The PDF source map independently reports exact pixel matches and Git blob matches for all 84 archived JPGs.",
+      "action": "Do not rename or re-upload images. Confirm runtime URL resolution and visually inspect image relevance before marking integration complete."
     },
     {
       "id": "AGH-R2-002",
@@ -76,9 +76,9 @@
     {
       "id": "AGH-R2-005",
       "severity": "PENDING",
-      "status": "VISUAL_REVIEW_REQUIRED",
-      "finding": "84 image files have filename inventory only; dimensions, visual content, QR/code status, and page mappings are not yet visually reviewed.",
-      "action": "Inspect actual assets individually; map only with evidence."
+      "status": "SOURCE_PAGE_ASSOCIATION_VERIFIED_VISUAL_REVIEW_PENDING",
+      "finding": "The 84 image files have filename inventory and a PDF image-source map reporting exact pixel matches to embedded PDF images and exact Git blob matches. The JSON page references resolve to 68 existing filenames. Visual descriptions, dimensions review, QR/code screening, and semantic relevance review remain pending.",
+      "action": "Inspect the 84 original files; retain source-map physical PDF page associations, and only mark semantic relevance after visual review."
     },
     {
       "id": "AGH-R2-006",
@@ -98,5 +98,5 @@
     "Do not treat populated fields as evidence of correctness.",
     "Do not merge Rev 1 assets or data into this Rev 2 module."
   ],
-  "overall_status": "BLOCKED_PENDING_SOURCE_PDF_AND_IMAGE_VISUAL_AUDIT"
+  "overall_status": "BLOCKED_PENDING_SOURCE_PDF_CONTENT_AND_VISUAL_REVIEW"
 }
