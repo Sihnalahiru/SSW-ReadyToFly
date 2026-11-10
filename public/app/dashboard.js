@@ -11,6 +11,18 @@ export function renderDashboard(user = {}) {
  const initials = username.split(/[._-]+/).filter(Boolean).slice(0,2).map(part=>part.charAt(0).toUpperCase()).join('') || 'P';
  const firstName = username.split(/[._-]+/).filter(Boolean)[0] || 'Pilot';
  const progress = window.ReadyToFlyProgress?.get?.() || {};
+ const avatarOptions = [
+  {id:'pilot',icon:'👨‍✈️',label:'Pilot'},
+  {id:'pilot-f',icon:'👩‍✈️',label:'Pilot'},
+  {id:'crew',icon:'🧑‍✈️',label:'Crew'},
+  {id:'ground',icon:'🦺',label:'Ground crew'},
+  {id:'engineer',icon:'🧑‍🔧',label:'Engineer'},
+  {id:'operations',icon:'🎧',label:'Operations'},
+  {id:'traveller',icon:'🧑‍💼',label:'Airport staff'},
+  {id:'aircraft',icon:'✈️',label:'Aircraft'}
+ ];
+ const selectedAvatar = progress['profile-avatar']?.id || 'pilot';
+ const avatarMarkup = avatarOptions.map(option => `<button type="button" class="avatar-choice ${selectedAvatar===option.id?'selected':''}" data-avatar-choice="${option.id}" aria-label="Choose ${option.label} avatar" aria-pressed="${selectedAvatar===option.id}"><span>${option.icon}</span><small>${option.label}</small></button>`).join('');
  const entries = Object.entries(progress);
  const reviewed = entries.filter(([key,value]) => key.startsWith('study-page:') && value?.reviewed).length;
  const learned = entries.filter(([key,value]) => key.startsWith('vocabulary-known:') && value?.known).length;
@@ -20,9 +32,10 @@ export function renderDashboard(user = {}) {
  const activity = reviewed + learned + attempts.length;
  return `
  <section class="dashboard-profile-bar">
-  <div class="dashboard-avatar" role="img" aria-label="Avatar for ${safeUsername}"><span>${initials}</span><i>✈</i></div>
+  <div class="dashboard-avatar" role="img" aria-label="Selected avatar for ${safeUsername}"><span>${avatarOptions.find(option=>option.id===selectedAvatar)?.icon || initials}</span></div>
   <div class="dashboard-profile-copy"><p class="eyebrow">PERSONAL LEARNING SPACE</p><h2>Welcome back, ${safeUsername}</h2><p>Your Ground Handling journey is ready when you are.</p></div>
   <div class="dashboard-profile-status"><span class="profile-online-dot"></span><span>ACCOUNT ACTIVE</span></div>
+  <div class="avatar-picker"><p class="eyebrow">CHOOSE YOUR AVATAR</p><div class="avatar-choice-grid">${avatarMarkup}</div></div>
  </section>
  <section class="dashboard-hero">
   <div class="hero-copy">
