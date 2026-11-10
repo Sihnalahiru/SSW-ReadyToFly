@@ -1,0 +1,1220 @@
+{
+  "project": "SSW-ReadyToFly",
+  "revision": "Rev 1",
+  "audit_date": "2026-11-10",
+  "status": "ALL_106_REFERENCED_IMAGES_VISUALLY_REVIEWED; 89_NON_QR_IMAGES_ENABLED; 18_FRAGMENTS_EXCLUDED",
+  "totals": {
+    "unique_referenced_images": 107,
+    "visually_reviewed": 107,
+    "qr_codes_found": 0,
+    "display_enabled": 89,
+    "excluded_fragments": 18
+  },
+  "excluded_filenames": [
+    "3.png",
+    "4.jpg",
+    "5.png",
+    "7.png",
+    "8.png",
+    "9.png",
+    "10.png",
+    "11.png",
+    "12.png",
+    "13.png",
+    "14.jpg",
+    "15.png",
+    "16.png",
+    "90.png",
+    "105.png",
+    "109.png",
+    "128.png"
+  ],
+  "policy": "Only complete source-mapped non-QR images are displayed. Extracted arrows, cropped fragments, and colour-only components are retained in source files but excluded from the Study Center gallery.",
+  "files": [
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/0.jpg",
+      "referenced_by": [
+        {
+          "page_number": 1,
+          "page_id": "ground-handling-p001-8cd4e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/6.jpg",
+      "referenced_by": [
+        {
+          "page_number": 3,
+          "page_id": "ground-handling-p003-8cd4e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/7.jpg",
+      "referenced_by": [
+        {
+          "page_number": 3,
+          "page_id": "ground-handling-p003-8cd4e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/8.jpg",
+      "referenced_by": [
+        {
+          "page_number": 3,
+          "page_id": "ground-handling-p003-8cd4e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/10.jpg",
+      "referenced_by": [
+        {
+          "page_number": 4,
+          "page_id": "ground-handling-p004-8cd4e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/11.jpg",
+      "referenced_by": [
+        {
+          "page_number": 4,
+          "page_id": "ground-handling-p004-8cd4e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/12.jpg",
+      "referenced_by": [
+        {
+          "page_number": 6,
+          "page_id": "ground-handling-p006-c1b3f"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/18.jpg",
+      "referenced_by": [
+        {
+          "page_number": 7,
+          "page_id": "ground-handling-p007-c1b3f"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/45.jpg",
+      "referenced_by": [
+        {
+          "page_number": 10,
+          "page_id": "ground-handling-p010-c1b3f"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/46.jpg",
+      "referenced_by": [
+        {
+          "page_number": 10,
+          "page_id": "ground-handling-p010-c1b3f"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/47.jpg",
+      "referenced_by": [
+        {
+          "page_number": 10,
+          "page_id": "ground-handling-p010-c1b3f"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/91.jpg",
+      "referenced_by": [
+        {
+          "page_number": 13,
+          "page_id": "ground-handling-p013-383c5"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/92.jpg",
+      "referenced_by": [
+        {
+          "page_number": 13,
+          "page_id": "ground-handling-p013-383c5"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/93.jpg",
+      "referenced_by": [
+        {
+          "page_number": 14,
+          "page_id": "ground-handling-p014-383c5"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/94.jpg",
+      "referenced_by": [
+        {
+          "page_number": 14,
+          "page_id": "ground-handling-p014-383c5"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/95.jpg",
+      "referenced_by": [
+        {
+          "page_number": 15,
+          "page_id": "ground-handling-p015-383c5"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/96.jpg",
+      "referenced_by": [
+        {
+          "page_number": 15,
+          "page_id": "ground-handling-p015-383c5"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/97.jpg",
+      "referenced_by": [
+        {
+          "page_number": 15,
+          "page_id": "ground-handling-p015-383c5"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/107.jpg",
+      "referenced_by": [
+        {
+          "page_number": 18,
+          "page_id": "ground-handling-p018-4bba4"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/112.jpg",
+      "referenced_by": [
+        {
+          "page_number": 19,
+          "page_id": "ground-handling-p019-4bba4"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/113.png",
+      "referenced_by": [
+        {
+          "page_number": 20,
+          "page_id": "ground-handling-p020-4bba4"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/117.jpg",
+      "referenced_by": [
+        {
+          "page_number": 22,
+          "page_id": "ground-handling-p022-a57dc"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/122.jpg",
+      "referenced_by": [
+        {
+          "page_number": 22,
+          "page_id": "ground-handling-p022-a57dc"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/123.jpg",
+      "referenced_by": [
+        {
+          "page_number": 23,
+          "page_id": "ground-handling-p023-a57dc"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/124.jpg",
+      "referenced_by": [
+        {
+          "page_number": 23,
+          "page_id": "ground-handling-p023-a57dc"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/125.jpg",
+      "referenced_by": [
+        {
+          "page_number": 24,
+          "page_id": "ground-handling-p024-a57dc"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/126.jpg",
+      "referenced_by": [
+        {
+          "page_number": 24,
+          "page_id": "ground-handling-p024-a57dc"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/127.jpg",
+      "referenced_by": [
+        {
+          "page_number": 25,
+          "page_id": "ground-handling-p025-a57dc"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/128.jpg",
+      "referenced_by": [
+        {
+          "page_number": 26,
+          "page_id": "ground-handling-p026-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/139.jpg",
+      "referenced_by": [
+        {
+          "page_number": 26,
+          "page_id": "ground-handling-p026-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/151.jpg",
+      "referenced_by": [
+        {
+          "page_number": 27,
+          "page_id": "ground-handling-p027-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/152.jpg",
+      "referenced_by": [
+        {
+          "page_number": 27,
+          "page_id": "ground-handling-p027-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/156.jpg",
+      "referenced_by": [
+        {
+          "page_number": 27,
+          "page_id": "ground-handling-p027-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/157.jpg",
+      "referenced_by": [
+        {
+          "page_number": 27,
+          "page_id": "ground-handling-p027-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/163.jpg",
+      "referenced_by": [
+        {
+          "page_number": 27,
+          "page_id": "ground-handling-p027-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/169.jpg",
+      "referenced_by": [
+        {
+          "page_number": 27,
+          "page_id": "ground-handling-p027-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/171.jpg",
+      "referenced_by": [
+        {
+          "page_number": 27,
+          "page_id": "ground-handling-p027-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/183.jpg",
+      "referenced_by": [
+        {
+          "page_number": 27,
+          "page_id": "ground-handling-p027-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/184.jpg",
+      "referenced_by": [
+        {
+          "page_number": 28,
+          "page_id": "ground-handling-p028-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/185.jpg",
+      "referenced_by": [
+        {
+          "page_number": 29,
+          "page_id": "ground-handling-p029-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/190.jpg",
+      "referenced_by": [
+        {
+          "page_number": 30,
+          "page_id": "ground-handling-p030-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/202.jpg",
+      "referenced_by": [
+        {
+          "page_number": 30,
+          "page_id": "ground-handling-p030-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/205.jpg",
+      "referenced_by": [
+        {
+          "page_number": 30,
+          "page_id": "ground-handling-p030-ba285"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/227.jpg",
+      "referenced_by": [
+        {
+          "page_number": 31,
+          "page_id": "ground-handling-p031-afe1e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/224.jpg",
+      "referenced_by": [
+        {
+          "page_number": 31,
+          "page_id": "ground-handling-p031-afe1e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/226.jpg",
+      "referenced_by": [
+        {
+          "page_number": 31,
+          "page_id": "ground-handling-p031-afe1e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/214.jpg",
+      "referenced_by": [
+        {
+          "page_number": 31,
+          "page_id": "ground-handling-p031-afe1e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/218.jpg",
+      "referenced_by": [
+        {
+          "page_number": 31,
+          "page_id": "ground-handling-p031-afe1e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/231.jpg",
+      "referenced_by": [
+        {
+          "page_number": 32,
+          "page_id": "ground-handling-p032-afe1e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/232.jpg",
+      "referenced_by": [
+        {
+          "page_number": 34,
+          "page_id": "ground-handling-p034-afe1e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/238.jpg",
+      "referenced_by": [
+        {
+          "page_number": 35,
+          "page_id": "ground-handling-p035-afe1e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/239.jpg",
+      "referenced_by": [
+        {
+          "page_number": 35,
+          "page_id": "ground-handling-p035-afe1e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/240.jpg",
+      "referenced_by": [
+        {
+          "page_number": 35,
+          "page_id": "ground-handling-p035-afe1e"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/244.jpg",
+      "referenced_by": [
+        {
+          "page_number": 36,
+          "page_id": "ground-handling-p036-02fe8"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Ground handling - Images V1/251.jpg",
+      "referenced_by": [
+        {
+          "page_number": 39,
+          "page_id": "ground-handling-p039-02fe8"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/95.jpg",
+      "referenced_by": [
+        {
+          "page_number": 11,
+          "page_id": "safety-quality-p011-24b6c"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/96.jpg",
+      "referenced_by": [
+        {
+          "page_number": 12,
+          "page_id": "safety-quality-p012-24b6c"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/97.jpg",
+      "referenced_by": [
+        {
+          "page_number": 13,
+          "page_id": "safety-quality-p013-24b6c"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/98.jpg",
+      "referenced_by": [
+        {
+          "page_number": 14,
+          "page_id": "safety-quality-p014-24b6c"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/99.jpg",
+      "referenced_by": [
+        {
+          "page_number": 16,
+          "page_id": "safety-quality-p016-2870b"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/15.png",
+      "referenced_by": [
+        {
+          "page_number": 17,
+          "page_id": "safety-quality-p017-2870b"
+        },
+        {
+          "page_number": 5,
+          "page_id": "safety-quality-p005-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/90.png",
+      "referenced_by": [
+        {
+          "page_number": 17,
+          "page_id": "safety-quality-p017-2870b"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/105.png",
+      "referenced_by": [
+        {
+          "page_number": 17,
+          "page_id": "safety-quality-p017-2870b"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/109.png",
+      "referenced_by": [
+        {
+          "page_number": 17,
+          "page_id": "safety-quality-p017-2870b"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/120.png",
+      "referenced_by": [
+        {
+          "page_number": 17,
+          "page_id": "safety-quality-p017-2870b"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/128.png",
+      "referenced_by": [
+        {
+          "page_number": 17,
+          "page_id": "safety-quality-p017-2870b"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/134.jpg",
+      "referenced_by": [
+        {
+          "page_number": 18,
+          "page_id": "safety-quality-p018-2870b"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/135.jpg",
+      "referenced_by": [
+        {
+          "page_number": 18,
+          "page_id": "safety-quality-p018-2870b"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/136.jpg",
+      "referenced_by": [
+        {
+          "page_number": 19,
+          "page_id": "safety-quality-p019-2870b"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/137.jpg",
+      "referenced_by": [
+        {
+          "page_number": 20,
+          "page_id": "safety-quality-p020-2870b"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/0.jpg",
+      "referenced_by": [
+        {
+          "page_number": 1,
+          "page_id": "safety-quality-p001-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/1.jpg",
+      "referenced_by": [
+        {
+          "page_number": 2,
+          "page_id": "safety-quality-p002-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/15.png",
+      "referenced_by": [
+        {
+          "page_number": 17,
+          "page_id": "safety-quality-p017-2870b"
+        },
+        {
+          "page_number": 5,
+          "page_id": "safety-quality-p005-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/3.png",
+      "referenced_by": [
+        {
+          "page_number": 5,
+          "page_id": "safety-quality-p005-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/4.jpg",
+      "referenced_by": [
+        {
+          "page_number": 5,
+          "page_id": "safety-quality-p005-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/5.png",
+      "referenced_by": [
+        {
+          "page_number": 5,
+          "page_id": "safety-quality-p005-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/7.png",
+      "referenced_by": [
+        {
+          "page_number": 5,
+          "page_id": "safety-quality-p005-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/8.png",
+      "referenced_by": [
+        {
+          "page_number": 5,
+          "page_id": "safety-quality-p005-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/9.png",
+      "referenced_by": [
+        {
+          "page_number": 5,
+          "page_id": "safety-quality-p005-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/10.png",
+      "referenced_by": [
+        {
+          "page_number": 5,
+          "page_id": "safety-quality-p005-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/11.png",
+      "referenced_by": [
+        {
+          "page_number": 5,
+          "page_id": "safety-quality-p005-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/12.png",
+      "referenced_by": [
+        {
+          "page_number": 5,
+          "page_id": "safety-quality-p005-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/13.png",
+      "referenced_by": [
+        {
+          "page_number": 5,
+          "page_id": "safety-quality-p005-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/14.jpg",
+      "referenced_by": [
+        {
+          "page_number": 5,
+          "page_id": "safety-quality-p005-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/16.png",
+      "referenced_by": [
+        {
+          "page_number": 5,
+          "page_id": "safety-quality-p005-b39c3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+      "referenced_by": [
+        {
+          "page_number": 21,
+          "page_id": "safety-quality-p021-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg",
+      "referenced_by": [
+        {
+          "page_number": 21,
+          "page_id": "safety-quality-p021-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/140.jpg",
+      "referenced_by": [
+        {
+          "page_number": 22,
+          "page_id": "safety-quality-p022-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/141.jpg",
+      "referenced_by": [
+        {
+          "page_number": 22,
+          "page_id": "safety-quality-p022-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+      "referenced_by": [
+        {
+          "page_number": 23,
+          "page_id": "safety-quality-p023-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+      "referenced_by": [
+        {
+          "page_number": 23,
+          "page_id": "safety-quality-p023-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+      "referenced_by": [
+        {
+          "page_number": 23,
+          "page_id": "safety-quality-p023-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+      "referenced_by": [
+        {
+          "page_number": 23,
+          "page_id": "safety-quality-p023-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+      "referenced_by": [
+        {
+          "page_number": 23,
+          "page_id": "safety-quality-p023-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg",
+      "referenced_by": [
+        {
+          "page_number": 23,
+          "page_id": "safety-quality-p023-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/149.jpg",
+      "referenced_by": [
+        {
+          "page_number": 24,
+          "page_id": "safety-quality-p024-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/150.jpg",
+      "referenced_by": [
+        {
+          "page_number": 24,
+          "page_id": "safety-quality-p024-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/151.jpg",
+      "referenced_by": [
+        {
+          "page_number": 24,
+          "page_id": "safety-quality-p024-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/152.jpg",
+      "referenced_by": [
+        {
+          "page_number": 24,
+          "page_id": "safety-quality-p024-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/153.jpg",
+      "referenced_by": [
+        {
+          "page_number": 25,
+          "page_id": "safety-quality-p025-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/154.jpg",
+      "referenced_by": [
+        {
+          "page_number": 25,
+          "page_id": "safety-quality-p025-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/156.jpg",
+      "referenced_by": [
+        {
+          "page_number": 26,
+          "page_id": "safety-quality-p026-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/157.jpg",
+      "referenced_by": [
+        {
+          "page_number": 29,
+          "page_id": "safety-quality-p029-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/158.jpg",
+      "referenced_by": [
+        {
+          "page_number": 29,
+          "page_id": "safety-quality-p029-ef2d3"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/24.jpg",
+      "referenced_by": [
+        {
+          "page_number": 6,
+          "page_id": "safety-quality-p006-3c62f"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/93.jpg",
+      "referenced_by": [
+        {
+          "page_number": 9,
+          "page_id": "safety-quality-p009-3c62f"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    },
+    {
+      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/94.jpg",
+      "referenced_by": [
+        {
+          "page_number": 10,
+          "page_id": "safety-quality-p010-3c62f"
+        }
+      ],
+      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
+      "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
+    }
+  ]
+}
