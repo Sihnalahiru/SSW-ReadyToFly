@@ -6,9 +6,11 @@
     "image_folder": "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/",
     "total_files": 141,
     "inventory_status": "ALL_FILES_INVENTORIED",
-    "visual_mapping_status": "PARTIAL",
+    "visual_mapping_status": "PARTIAL_42_SEMANTIC_IMAGES_REVIEWED; 99_UNMAPPED_OR_FRAGMENT_ASSETS_NOT_DISPLAYED",
     "mapped_semantic_assets": 42,
-    "unmapped_or_fragment_assets": 99
+    "unmapped_or_fragment_assets": 99,
+    "qr_or_code_review_status": "42_SEMANTICALLY_MAPPED_IMAGES_VISUALLY_REVIEWED_NO_QR",
+    "visual_review_date": "2026-11-10"
   },
   "mappings": [
     {
@@ -236,7 +238,8 @@
     "The directory contains 141 files. File existence is verified from the GitHub repository tree.",
     "Many files in the 20-94 range render as magenta/white checkerboard or narrow colour strips and appear to be transparency masks, clipping fragments or split vector components rather than complete standalone illustrations.",
     "These fragments have not been assigned to lesson pages by filename order. Mapping them by sequence would be an unsupported inference.",
-    "The semantic mappings above are visual identifications from the image files, but exact one-to-one comparison against rendered source PDF page crops is still required before final certification."
+    "The semantic mappings above are visual identifications from the image files, but exact one-to-one comparison against rendered source PDF page crops is still required before final certification.",
+    "Visual review completed for all 42 semantically mapped assets: no QR codes found. Only these 42 mapped assets are eligible for Study Center display; the remaining 99 unmapped or fragment assets remain excluded/pending."
   ],
   "excluded_from_mapping": [
     "0.jpg",
