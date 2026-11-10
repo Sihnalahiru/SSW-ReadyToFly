@@ -1,0 +1,27 @@
+name: ReadyToFly Preview D1 migrations
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  migrate-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout isolated Preview configuration
+        uses: actions/checkout@v4
+        with:
+          ref: feature/zero-cost-auth-autosave-v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Apply migrations to isolated Preview D1 only
+        run: npx --yes wrangler@4 d1 migrations apply PREVIEW_DB --remote --config wrangler.preview-migrations.toml
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
