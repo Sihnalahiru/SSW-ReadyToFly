@@ -2,6 +2,14 @@ name: ReadyToFly D1 migrations
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - feature/zero-cost-auth-autosave-v2
+    paths:
+      - ".github/workflows/migrate-d1.yml"
+      - "validation/prepare-d1-migrations.mjs"
+      - "migrations/0003_username_recovery_auth.sql"
+      - "migrations/0004_admin_password_reset.sql"
 
 permissions:
   contents: read
