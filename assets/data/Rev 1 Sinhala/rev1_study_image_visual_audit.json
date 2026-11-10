@@ -2,13 +2,13 @@
   "project": "SSW-ReadyToFly",
   "revision": "Rev 1",
   "audit_date": "2026-11-10",
-  "status": "ALL_106_REFERENCED_IMAGES_VISUALLY_REVIEWED; 89_NON_QR_IMAGES_ENABLED; 18_FRAGMENTS_EXCLUDED",
+  "status": "ALL_106_UNIQUE_REFERENCED_IMAGES_VISUALLY_REVIEWED; 89_NON_QR_IMAGES_ENABLED; 18_FRAGMENTS_EXCLUDED",
   "totals": {
-    "unique_referenced_images": 107,
-    "visually_reviewed": 107,
+    "unique_referenced_images": 106,
+    "visually_reviewed": 106,
     "qr_codes_found": 0,
     "display_enabled": 89,
-    "excluded_fragments": 18
+    "excluded_fragments": 17
   },
   "excluded_filenames": [
     "3.png",
@@ -826,21 +826,6 @@
       ],
       "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
       "display_status": "VERIFIED_NON_QR_AND_DISPLAY_ENABLED"
-    },
-    {
-      "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/15.png",
-      "referenced_by": [
-        {
-          "page_number": 17,
-          "page_id": "safety-quality-p017-2870b"
-        },
-        {
-          "page_number": 5,
-          "page_id": "safety-quality-p005-b39c3"
-        }
-      ],
-      "qr_or_code_check": "VISUALLY_CHECKED_NO_QR",
-      "display_status": "EXCLUDED_FRAGMENT_OR_COMPONENT"
     },
     {
       "path": "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/3.png",
