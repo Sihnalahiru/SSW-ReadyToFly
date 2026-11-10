@@ -240,3 +240,14 @@ body.light .vocab-list-row,body.light .quiz-option{background:#fff}
 .progress-wrong-row:last-child{border-bottom:0}
 .progress-wrong-row strong{font-size:12px}.progress-wrong-row span{font-size:10px;color:var(--muted)}
 @media(max-width:760px){.progress-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.progress-stat{padding:14px}.progress-stat strong{font-size:23px}}
+
+/* Selectable vocabulary practice-set grid */
+.quiz-set-picker{padding:clamp(16px,3vw,26px)}
+.quiz-set-picker-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+.quiz-set-picker-heading>div{display:grid;gap:5px}.quiz-set-picker-heading strong{font:800 16px Manrope}.quiz-set-picker-heading span{font-size:11px;color:var(--muted)}
+.quiz-set-label{font:800 9px Manrope;letter-spacing:1.2px;color:var(--muted)}
+.quiz-set-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:12px}
+.quiz-set-card{display:grid;gap:10px;min-height:142px;padding:16px;text-align:left;color:var(--ink);background:linear-gradient(145deg,#ffffff0c,#ffffff04);border:1px solid var(--line);border-radius:15px;cursor:pointer;transition:transform .18s ease,border-color .18s ease,background .18s ease}
+.quiz-set-card:hover,.quiz-set-card:focus-visible{transform:translateY(-2px);border-color:#68b8f0;background:#398bd326;outline:none}
+.quiz-set-number{font:800 10px Manrope;letter-spacing:1px;color:#79c9e2}.quiz-set-card strong{font:800 16px Manrope}.quiz-set-card small{font-size:10px;color:var(--muted)}.quiz-set-action{font:700 10px Manrope;color:#a9d6ff;margin-top:auto}
+@media(max-width:600px){.quiz-set-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.quiz-set-card{min-height:128px;padding:12px}.quiz-set-card strong{font-size:14px}}
