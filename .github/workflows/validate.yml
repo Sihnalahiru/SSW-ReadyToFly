@@ -1,0 +1,27 @@
+name: ReadyToFly validation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - feature/zero-cost-auth-autosave-v2
+
+permissions:
+  contents: read
+
+jobs:
+  static-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate app and Worker JavaScript plus runtime JSON
+        run: node validation/validate-static.mjs
+      - name: Validate study data index structure
+        run: node validation/validate-data.mjs
+      - name: Validate authentication and password-reset contracts
+        run: node validation/validate-auth-contract.mjs

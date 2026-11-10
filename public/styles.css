@@ -112,3 +112,131 @@ body.light .exam-mode-card{background:rgba(255,255,255,.84)}body.light .exam-mod
 .login-form .text-link:hover{text-decoration:underline}
 .login-form .secondary-button{cursor:pointer}
 .login-form button:disabled{opacity:.65;cursor:wait}
+
+
+/* Zero-cost V2 admin and save-state UI */
+.admin-reset-list{display:grid;gap:12px;margin-top:16px}
+.admin-request-card{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:15px;border:1px solid var(--line);border-radius:14px;background:#ffffff08}
+.admin-request-card strong{font:750 14px Manrope;min-width:100px}
+.admin-request-card .muted{flex:1;min-width:180px;margin:0;font-size:10px}
+.admin-request-card button{min-width:82px;min-height:36px}
+#admin-panel[hidden]{display:none!important}
+@media(max-width:680px){.admin-request-card{align-items:flex-start}.admin-request-card .muted{flex-basis:100%}.admin-request-card button{flex:1}}
+
+/* Source-based study reader */
+.study-toolbar{display:grid;gap:12px;margin-bottom:14px}
+.study-track-tabs{display:flex;gap:8px;flex-wrap:wrap}
+.study-track-tabs button{border:1px solid var(--line);background:#ffffff08;color:var(--muted);border-radius:11px;padding:10px 14px;font:700 11px Manrope;cursor:pointer}
+.study-track-tabs button.active{background:#398bd32b;border-color:#79b9f0;color:var(--ink)}
+.study-search-label{font-size:10px;color:var(--muted);font-weight:700}
+.study-toolbar input{width:100%;min-height:44px;border:1px solid var(--line);border-radius:12px;background:#ffffff08;color:var(--ink);padding:10px 13px;font:500 12px Manrope;outline:none}
+.study-toolbar input:focus{border-color:#77b8ed;box-shadow:0 0 0 3px #5aa5e51c}
+.study-source-notice{font-size:10px;line-height:1.65;color:#e7c98d;background:#a9781b13;border:1px solid #d5a84d35;border-radius:10px;padding:10px 12px;margin:0}
+.study-source-count{font-size:10px;color:var(--muted)}
+.study-reader-layout{display:grid;grid-template-columns:minmax(190px,250px) minmax(0,1fr);gap:14px;align-items:start}
+.study-page-list{display:grid;gap:6px;max-height:70vh;overflow:auto;position:sticky;top:14px;padding:5px}
+.study-page-link{display:grid;gap:4px;text-align:left;padding:11px 12px;border:1px solid var(--line);border-radius:11px;background:#ffffff06;color:var(--ink);cursor:pointer}
+.study-page-link span{font:750 10px Manrope;color:#91c8fa}
+.study-page-link small{font-size:10px;line-height:1.5;color:var(--muted)}
+.study-page-link.active{border-color:#72b6ed;background:#398bd326}
+.study-page-content{display:grid;gap:12px;min-width:0}
+.study-page-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:5px 2px 8px}
+.study-page-heading h2{font:800 20px/1.35 Manrope;margin:0 0 5px;overflow-wrap:anywhere}
+.study-page-heading .muted{font-size:11px;margin:0}
+.study-content-card{padding:17px;min-width:0}
+.study-content-meta{display:flex;justify-content:space-between;gap:10px;text-transform:uppercase;letter-spacing:.08em;font:700 9px Manrope;color:#8fc4f5;margin-bottom:12px}
+.study-content-card h3{font:700 16px/1.75 Manrope;margin:0 0 10px;overflow-wrap:anywhere}
+.study-reading,.study-romaji{font-size:11px;line-height:1.8;color:var(--muted);overflow-wrap:anywhere;margin:5px 0}
+.study-language-block{border-top:1px solid var(--line);padding-top:11px;margin-top:12px}
+.study-language-block>span{font:800 9px Manrope;letter-spacing:.12em;color:#8fc4f5}
+.study-language-block p{font-size:12px;line-height:1.8;margin:6px 0 0;overflow-wrap:anywhere}
+.study-sinhala p{font-size:13px;line-height:1.9}
+body.light .study-track-tabs button{background:#f5f8fc}
+body.light .study-track-tabs button.active,body.light .study-page-link.active{background:#e8f3ff;color:#163d65}
+body.light .study-toolbar input{background:#fff}
+body.light .study-source-notice{color:#785719;background:#fff8e8}
+body.light .study-page-link{background:#fff}
+@media(max-width:760px){
+ .study-reader-layout{grid-template-columns:1fr}
+ .study-page-list{position:static;display:flex;overflow-x:auto;max-height:none;padding:2px 1px 9px;scroll-snap-type:x mandatory}
+ .study-page-link{min-width:145px;max-width:190px;scroll-snap-align:start}
+ .study-page-heading{align-items:flex-start;flex-direction:column}
+ .study-page-heading .secondary-button{width:100%}
+ .study-content-card{padding:14px}
+}
+
+/* Vocabulary and practice quiz */
+.vocab-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:13px}
+.vocab-summary>div{display:grid;gap:4px}.vocab-summary strong{font:800 22px Manrope;color:#9ed0ff}.vocab-summary span{font-size:10px;color:var(--muted)}
+.vocab-search-panel{display:grid;gap:9px;margin-bottom:13px}
+.vocab-search-panel label{font-size:10px;color:var(--muted);font-weight:700}
+.vocab-search-panel input{width:100%;min-height:44px;border:1px solid var(--line);border-radius:12px;background:#ffffff08;color:var(--ink);padding:10px 13px;font:500 12px Manrope}
+.vocab-flashcard-wrap{margin-bottom:14px}
+.vocab-flashcard{max-width:760px;margin:0 auto;padding:clamp(18px,4vw,30px);text-align:center}
+.vocab-flashcard .study-content-meta{text-align:left}
+.vocab-japanese{font:800 clamp(32px,7vw,52px)/1.4 Manrope;margin:18px 0 5px;overflow-wrap:anywhere}
+.vocab-reading{font-size:15px;color:#9bcfff;margin:0 0 6px}
+.vocab-romaji{font-size:11px;color:var(--muted);margin:0 0 20px}
+.vocab-reveal-hint{font-size:11px;margin:20px 0}
+.vocab-answer{text-align:left;margin:15px 0}
+.vocab-flashcard .vocab-reveal,.vocab-flashcard .vocab-known{width:100%;margin-top:9px}
+.vocab-card-navigation{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:13px}
+.vocab-list{display:grid;gap:5px}
+.vocab-list-row{display:grid;grid-template-columns:minmax(100px,.8fr) minmax(120px,1.2fr) auto;align-items:center;gap:12px;text-align:left;padding:11px;border:1px solid var(--line);border-radius:10px;background:#ffffff05;color:var(--ink);cursor:pointer}
+.vocab-list-row.active{border-color:#72b6ed;background:#398bd326}
+.vocab-list-jp,.vocab-list-meaning{font-size:12px;font-weight:700;overflow-wrap:anywhere}
+.vocab-list-jp small,.vocab-list-meaning small{display:block;font-size:10px;font-weight:400;color:var(--muted);line-height:1.5;margin-top:3px}
+.vocab-list-id{font-size:9px;color:var(--muted)}
+.vocab-list-limit{font-size:10px;text-align:center;padding:12px}
+.quiz-toolbar{display:grid;gap:12px;margin-bottom:13px}
+.quiz-toolbar>div:first-child{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.quiz-toolbar>div:first-child strong{font:800 14px Manrope}.quiz-toolbar>div:first-child span{font-size:10px;color:var(--muted)}
+.quiz-score-strip{display:flex;gap:16px;flex-wrap:wrap}.quiz-score-strip span{font-size:10px;color:var(--muted)}.quiz-score-strip b{color:var(--ink);margin-left:4px}
+.quiz-progress-track{height:6px;background:#ffffff16;border-radius:10px;overflow:hidden}.quiz-progress-track span{display:block;height:100%;background:linear-gradient(90deg,#50b8c7,#7dbdff);border-radius:10px}
+.quiz-toolbar>small{font-size:10px;color:var(--muted)}
+.quiz-question-card{max-width:800px;margin:0 auto;padding:clamp(18px,4vw,28px)}
+.quiz-question-card h2{font:800 clamp(28px,6vw,42px) Manrope;text-align:center;margin:22px 0 5px}
+.quiz-reading,.quiz-romaji{text-align:center;color:var(--muted);font-size:12px;margin:5px}
+.quiz-instruction{text-align:center;font-size:12px;margin:22px 0 13px}
+.quiz-options{display:grid;gap:9px}
+.quiz-option{display:flex;align-items:center;gap:12px;width:100%;min-height:52px;padding:11px 13px;border:1px solid var(--line);border-radius:12px;background:#ffffff06;color:var(--ink);text-align:left;cursor:pointer}
+.quiz-option>span{width:27px;height:27px;display:grid;place-items:center;border-radius:8px;background:#398bd326;color:#a9d6ff;font:800 11px Manrope;flex:none}
+.quiz-option strong{font-size:12px;line-height:1.5}
+.quiz-option:disabled{cursor:default;opacity:1}
+.quiz-option.correct{border-color:#4eb58b;background:#1d8b5b20}
+.quiz-option.incorrect{border-color:#e17c7c;background:#b9414118}
+.quiz-feedback{margin:15px 0;padding:13px;border-radius:12px;font-size:12px;line-height:1.7}
+.quiz-feedback p{margin:5px 0 0}.quiz-feedback.is-correct{background:#208b5b20;border:1px solid #4eb58b55}.quiz-feedback.is-wrong{background:#b9414118;border:1px solid #e17c7c55}
+.quiz-next{width:100%;margin-top:10px}
+.quiz-source-note{max-width:800px;margin:12px auto;font-size:10px;color:var(--muted);line-height:1.7}
+.quiz-result{text-align:center;max-width:520px;margin:20px auto;padding:30px}
+.quiz-result-score{font:800 42px Manrope;color:#9ed0ff}
+.quiz-result p{font-size:12px;color:var(--muted)}
+.quiz-result .primary-button{margin-top:12px}
+body.light .vocab-search-panel input{background:#fff}
+body.light .vocab-list-row,body.light .quiz-option{background:#fff}
+@media(max-width:600px){
+ .vocab-summary{gap:6px}.vocab-summary strong{font-size:19px}
+ .vocab-list-row{grid-template-columns:1fr;gap:5px}
+ .vocab-list-id{display:none}
+ .quiz-score-strip{gap:10px}
+}
+
+/* Account learning progress */
+.progress-stat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px;margin-bottom:14px}
+.progress-stat{display:grid;gap:7px;padding:17px}
+.progress-stat span{font-size:10px;color:var(--muted)}
+.progress-stat strong{font:800 27px Manrope;color:#9ed0ff}
+.progress-stat small{font-size:9px;color:var(--muted)}
+.progress-detail-panel{margin-top:13px}
+.progress-bars{display:grid;gap:16px;margin-top:17px}
+.progress-bars>div{display:grid;grid-template-columns:1fr auto;gap:7px 12px;align-items:center}
+.progress-bars span{font-size:11px;color:var(--muted)}
+.progress-bars b{font:800 11px Manrope;color:var(--ink)}
+.progress-bars i{grid-column:1/-1;display:block;height:7px;border-radius:10px;background:#ffffff16;overflow:hidden}
+.progress-bars em{display:block;height:100%;border-radius:10px;background:linear-gradient(90deg,#50b8c7,#7dbdff)}
+.progress-data-note{font-size:10px;line-height:1.7;color:var(--muted);margin:18px 0 0}
+.progress-wrong-row{display:grid;gap:5px;padding:11px 0;border-bottom:1px solid var(--line)}
+.progress-wrong-row:last-child{border-bottom:0}
+.progress-wrong-row strong{font-size:12px}.progress-wrong-row span{font-size:10px;color:var(--muted)}
+@media(max-width:760px){.progress-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.progress-stat{padding:14px}.progress-stat strong{font-size:23px}}

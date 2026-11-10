@@ -6,6 +6,14 @@ const trackCard = (eyebrow, title, description, status, view = 'study') => `
  </article>`;
 
 export function renderDashboard() {
+ const progress = window.ReadyToFlyProgress?.get?.() || {};
+ const entries = Object.entries(progress);
+ const reviewed = entries.filter(([key,value]) => key.startsWith('study-page:') && value?.reviewed).length;
+ const learned = entries.filter(([key,value]) => key.startsWith('vocabulary-known:') && value?.known).length;
+ const attempts = entries.filter(([key,value]) => key.startsWith('quiz-attempt:') && value && typeof value.correct === 'boolean');
+ const correct = attempts.filter(([,value]) => value.correct).length;
+ const accuracy = attempts.length ? Math.round(correct / attempts.length * 100) : null;
+ const activity = reviewed + learned + attempts.length;
  return `
  <section class="dashboard-hero">
   <div class="hero-copy">
@@ -42,10 +50,10 @@ export function renderDashboard() {
    <button class="text-action" type="button" data-view="exam">Explore CBT practice <span aria-hidden="true">→</span></button>
   </article>
   <article class="panel daily-panel">
-   <p class="eyebrow">YOUR DAILY ROUTINE</p><h2>Build a steady study habit.</h2>
-   <p class="muted">Your daily target, streak, XP and learning statistics will appear here when real account activity is connected.</p>
-   <div class="pending-note"><span class="pending-dot"></span><span>Personal learning metrics are not connected yet.</span></div>
-   <button class="text-action" type="button" data-view="progress">View progress area <span aria-hidden="true">→</span></button>
+   <p class="eyebrow">YOUR LEARNING ACTIVITY</p><h2>${activity ? 'Your progress is taking shape.' : 'Start with one small step.'}</h2>
+   <div class="exam-stats"><div><strong>${reviewed}</strong><span>Pages reviewed</span></div><div><strong>${learned}</strong><span>Words learned</span></div><div><strong>${accuracy===null?'—':accuracy+'%'}</strong><span>Quiz accuracy</span></div></div>
+   <p class="muted">${attempts.length ? attempts.length+' saved quiz attempts · '+correct+' correct answers.' : 'Quiz accuracy will appear after your first saved quiz attempt.'} These figures use activity saved to this account; no streak or study time is estimated.</p>
+   <button class="text-action" type="button" data-view="progress">View full progress <span aria-hidden="true">→</span></button>
   </article>
  </section>
 

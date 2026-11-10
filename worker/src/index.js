@@ -16,11 +16,21 @@ function json(data, status = 200, headers = {}) {
 }
 
 function cookieMap(request) {
-  return Object.fromEntries((request.headers.get("Cookie") || "").split(";")
-    .map(v => v.trim()).filter(Boolean).map(v => {
-      const i = v.indexOf("=");
-      return [v.slice(0, i), decodeURIComponent(v.slice(i + 1))];
-    }));
+  const cookies = {};
+  for (const part of (request.headers.get("Cookie") || "").split(";")) {
+    const value = part.trim();
+    if (!value) continue;
+    const i = value.indexOf("=");
+    if (i <= 0) continue;
+    const name = value.slice(0, i);
+    try {
+      cookies[name] = decodeURIComponent(value.slice(i + 1));
+    } catch {
+      // Ignore malformed cookie values; an invalid session/CSRF cookie
+      // must not turn an otherwise safe API request into a 500 response.
+    }
+  }
+  return cookies;
 }
 function cookie(name, value, maxAge, httpOnly = true) {
   return name + "=" + encodeURIComponent(value) + "; Path=/; Max-Age=" + maxAge +
@@ -80,7 +90,16 @@ async function readJson(request, max = 12000) {
   if (length > max) throw new Error("REQUEST_TOO_LARGE");
   const text = await request.text();
   if (text.length > max) throw new Error("REQUEST_TOO_LARGE");
-  return JSON.parse(text);
+  try {
+    const value = JSON.parse(text);
+    if (!value || typeof value !== "object" || Array.isArray(value)) {
+      throw new Error("INVALID_JSON_BODY");
+    }
+    return value;
+  } catch (error) {
+    if (error.message === "INVALID_JSON_BODY") throw error;
+    throw new Error("INVALID_JSON");
+  }
 }
 function originAllowed(request, env) {
   const origin = request.headers.get("Origin");
@@ -114,10 +133,10 @@ async function createSession(env, user) {
   return {
     sessionCookie: cookie("rtf_session", token, SESSION_DAYS * 86400),
     csrfCookie: cookie("rtf_csrf", csrf, SESSION_DAYS * 86400, false),
-    user: { id: user.id, username: user.username, displayName: user.username }
+    user: { id: user.id, username: user.username, displayName: user.username, isAdmin: Boolean(env.ADMIN_USERNAME && user.username.toLowerCase() === String(env.ADMIN_USERNAME).trim().toLowerCase()) }
   };
 }
-async function rateLimited(env, key) {
+async function rateLimited(env, key, maxAttempts = 8) {
   const now = Date.now();
   const row = await env.DB.prepare(
     "SELECT attempts,window_started_at,blocked_until FROM auth_rate_limits WHERE bucket_key=?"
@@ -129,9 +148,9 @@ async function rateLimited(env, key) {
     ).bind(key, now).run();
     return false;
   }
-  return Boolean(row.blocked_until && row.blocked_until > now) || row.attempts >= 8;
+  return Boolean(row.blocked_until && row.blocked_until > now) || row.attempts >= maxAttempts;
 }
-async function recordFailure(env, key) {
+async function recordFailure(env, key, maxAttempts = 8) {
   const now = Date.now();
   await env.DB.prepare(
     "INSERT INTO auth_rate_limits(bucket_key,attempts,window_started_at,blocked_until) VALUES(?,1,?,NULL) " +
@@ -140,11 +159,41 @@ async function recordFailure(env, key) {
   const row = await env.DB.prepare(
     "SELECT attempts,window_started_at FROM auth_rate_limits WHERE bucket_key=?"
   ).bind(key).first();
-  if (row && row.attempts >= 8 && now - row.window_started_at < 15 * 60 * 1000) {
+  if (row && row.attempts >= maxAttempts && now - row.window_started_at < 15 * 60 * 1000) {
     await env.DB.prepare("UPDATE auth_rate_limits SET blocked_until=? WHERE bucket_key=?")
       .bind(now + 15 * 60 * 1000, key).run();
   }
 }
+
+async function isAdminSession(session, env) {
+  return Boolean(session && env.ADMIN_USERNAME &&
+    session.username.toLowerCase() === String(env.ADMIN_USERNAME).trim().toLowerCase());
+}
+async function notifyAdminTelegram(env, message) {
+  if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_ADMIN_CHAT_ID) {
+    console.warn("Telegram notification skipped: secrets are not configured.");
+    return false;
+  }
+  const response = await fetch("https://api.telegram.org/bot" + env.TELEGRAM_BOT_TOKEN + "/sendMessage", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({
+      chat_id: env.TELEGRAM_ADMIN_CHAT_ID,
+      text: message,
+      disable_web_page_preview: true
+    })
+  });
+  const telegramResult = await response.json().catch(() => null);
+  const delivered = response.ok && telegramResult && telegramResult.ok === true;
+  if (!delivered) {
+    console.error("Telegram notification failed:", response.status,
+      telegramResult && typeof telegramResult.description === "string"
+        ? telegramResult.description.slice(0, 200)
+        : "Telegram returned an invalid or unsuccessful response.");
+  }
+  return Boolean(delivered);
+}
+
 async function handle(request, env) {
   const url = new URL(request.url);
   const path = url.pathname.replace(/\/$/, "") || "/";
@@ -169,6 +218,12 @@ async function handle(request, env) {
           message: "Username must be 3–32 characters using letters, numbers, dot, underscore or hyphen. Password must be 12–128 characters with uppercase, lowercase and a number."
         }, 400);
       }
+      // The administrator identity is provisioned separately. Never allow public
+      // self-registration to claim the username trusted by ADMIN_USERNAME.
+      const configuredAdmin = normalizeUsername(env.ADMIN_USERNAME);
+      if (configuredAdmin && username === configuredAdmin) {
+        return json({ error: "USERNAME_UNAVAILABLE", message: "That username is unavailable. Choose another one." }, 409);
+      }
       const ip = request.headers.get("CF-Connecting-IP") || "unknown";
       const rateKey = await sha256("register:" + ip);
       if (await rateLimited(env, rateKey)) {
@@ -180,37 +235,51 @@ async function handle(request, env) {
         await recordFailure(env, rateKey);
         return json({ error: "USERNAME_UNAVAILABLE", message: "That username is unavailable. Choose another one." }, 409);
       }
-      const recovery = generateRecoveryCode();
-      const recoveryHash = await sha256(recovery.normalized);
       const pw = await passwordHash(password);
       const id = crypto.randomUUID();
       const now = Date.now();
       // The legacy email column is NOT NULL in the existing D1 schema.
       // A reserved .invalid address keeps the schema compatible and is never used for messaging.
       const internalEmail = username + "@accounts.readytofly.invalid";
-      await env.DB.prepare(
-        "INSERT INTO users(id,email,display_name,password_hash,password_salt,email_verified,created_at,updated_at,username,recovery_code_hash) " +
-        "VALUES(?,?,?,?,?,1,?,?,?,?)"
-      ).bind(id, internalEmail, username, pw.hash, pw.salt, now, now, username, recoveryHash).run();
+      try {
+        // Enforce the frozen four-account project limit inside the INSERT itself.
+        // This is atomic at the database statement level, unlike a count-then-insert check.
+        const created = await env.DB.prepare(
+          "INSERT INTO users(id,email,display_name,password_hash,password_salt,email_verified,created_at,updated_at,username) " +
+          "SELECT ?,?,?,?,?,1,?,?,? WHERE (SELECT COUNT(*) FROM users) < 4 RETURNING id"
+        ).bind(id, internalEmail, username, pw.hash, pw.salt, now, now, username).first();
+        if (!created) {
+          return json({
+            error: "ACCOUNT_LIMIT_REACHED",
+            message: "The ReadyToFly account limit has been reached. Contact the project administrator."
+          }, 409);
+        }
+      } catch (error) {
+        // A concurrent registration may win the unique username/email race.
+        if (/UNIQUE constraint failed/i.test(error.message || "")) {
+          await recordFailure(env, rateKey);
+          return json({ error: "USERNAME_UNAVAILABLE", message: "That username is unavailable. Choose another one." }, 409);
+        }
+        throw error;
+      }
       await env.DB.prepare("DELETE FROM auth_rate_limits WHERE bucket_key=?").bind(rateKey).run();
       return json({
         ok: true,
         user: { id, username, displayName: username },
-        recoveryCode: recovery.display,
-        message: "Account created. Save your recovery code now; it will not be shown again."
+        message: "Account created. Sign in with your username and password. If you lose your password, request administrator approval to reset it."
       }, 201);
     }
 
     if (path === "/api/auth/login" && request.method === "POST") {
       const body = await readJson(request);
       const username = normalizeUsername(body.username);
-      const password = String(body.password || "");
+      const password = typeof body.password === "string" ? body.password : "";
       const ip = request.headers.get("CF-Connecting-IP") || "unknown";
       const rateKey = await sha256("login:" + ip + ":" + username);
       if (await rateLimited(env, rateKey)) {
         return json({ error: "TOO_MANY_ATTEMPTS", message: "Too many sign-in attempts. Please wait 15 minutes." }, 429);
       }
-      const user = validUsername(username)
+      const user = validUsername(username) && password.length <= 128
         ? await env.DB.prepare(
             "SELECT id,username,password_hash,password_salt FROM users WHERE username=? COLLATE NOCASE AND disabled_at IS NULL"
           ).bind(username).first()
@@ -233,54 +302,161 @@ async function handle(request, env) {
     }
 
     if (path === "/api/auth/recover-password" && request.method === "POST") {
+      return json({ error: "ADMIN_APPROVAL_REQUIRED", message: "Password reset now requires administrator approval." }, 410);
+    }
+
+    if (path === "/api/auth/reset-request" && request.method === "POST") {
       const body = await readJson(request);
       const username = normalizeUsername(body.username);
-      const suppliedCode = normalizeRecoveryCode(body.recoveryCode);
-      const newPassword = body.newPassword;
-      if (!validUsername(username) || !validPassword(newPassword) || !suppliedCode) {
-        return json({
-          error: "INVALID_RECOVERY_REQUEST",
-          message: "Enter a valid username, recovery code and a password meeting the password requirements."
-        }, 400);
-      }
+      if (!validUsername(username)) return json({ error: "INVALID_USERNAME" }, 400);
       const ip = request.headers.get("CF-Connecting-IP") || "unknown";
-      const rateKey = await sha256("recovery:" + ip + ":" + username);
+      const rateKey = await sha256("admin-reset:" + ip + ":" + username);
       if (await rateLimited(env, rateKey)) {
-        return json({ error: "TOO_MANY_ATTEMPTS", message: "Too many recovery attempts. Please wait 15 minutes." }, 429);
+        return json({ error: "TOO_MANY_ATTEMPTS", message: "Please wait before requesting another reset." }, 429);
       }
+      await recordFailure(env, rateKey);
       const user = await env.DB.prepare(
-        "SELECT id,username,recovery_code_hash FROM users WHERE username=? COLLATE NOCASE AND disabled_at IS NULL"
+        "SELECT id,username FROM users WHERE username=? COLLATE NOCASE AND disabled_at IS NULL"
       ).bind(username).first();
-      const suppliedHash = await sha256(suppliedCode);
-      if (!user || !user.recovery_code_hash || !constantTimeEqual(suppliedHash, user.recovery_code_hash)) {
-        await recordFailure(env, rateKey);
-        return json({ error: "INVALID_RECOVERY", message: "Username or recovery code is incorrect." }, 401);
+      // Return the same public response whether or not the username exists.
+      const response = { ok: true, message: "If the account exists, an administrator will review the request." };
+      if (!user) return json({ ...response, requestId: randomToken(24), requestSecret: randomToken(32) }, 202);
+      // Each allowed attempt gets a fresh secret. This keeps the public response
+      // shape consistent while the IP+username rate limit bounds duplicate requests.
+      const id = crypto.randomUUID();
+      const requestSecret = randomToken(32);
+      const now = Date.now();
+      await env.DB.prepare(
+        "INSERT INTO password_reset_requests(id,user_id,request_secret_hash,status,created_at) VALUES(?,?,?,'pending',?)"
+      ).bind(id, user.id, await sha256(requestSecret), now).run();
+      await env.DB.prepare(
+        "INSERT INTO auth_audit_log(id,user_id,action,request_id,created_at) VALUES(?,?, 'password_reset_requested', ?, ?)"
+      ).bind(crypto.randomUUID(), user.id, id, now).run();
+      try {
+        const notified = await notifyAdminTelegram(env,
+          "ReadyToFly password reset request\\nUsername: " + user.username +
+          "\\nRequest ID: " + id + "\\nOpen the ReadyToFly Admin Panel to approve or reject.");
+        if (!notified) {
+          await env.DB.prepare(
+            "INSERT INTO auth_audit_log(id,user_id,action,request_id,created_at,details_json) VALUES(?,?, 'password_reset_notification_failed', ?, ?, ?)"
+          ).bind(crypto.randomUUID(), user.id, id, now, JSON.stringify({ channel: "telegram" })).run();
+        }
+      } catch (notificationError) {
+        console.error("Telegram reset notification failed:", notificationError.message);
+        await env.DB.prepare(
+          "INSERT INTO auth_audit_log(id,user_id,action,request_id,created_at,details_json) VALUES(?,?, 'password_reset_notification_failed', ?, ?, ?)"
+        ).bind(crypto.randomUUID(), user.id, id, now, JSON.stringify({ channel: "telegram" })).run().catch(() => {});
       }
-      const replacement = generateRecoveryCode();
-      const replacementHash = await sha256(replacement.normalized);
+      return json({ ...response, requestId: id, requestSecret }, 202);
+    }
+
+    if (path === "/api/auth/reset-status" && request.method === "POST") {
+      const ip = request.headers.get("CF-Connecting-IP") || "unknown";
+      const rateKey = await sha256("reset-status:" + ip);
+      if (await rateLimited(env, rateKey, 60)) {
+        return json({ error: "TOO_MANY_ATTEMPTS", message: "Please wait before checking reset status again." }, 429);
+      }
+      await recordFailure(env, rateKey, 60);
+      const body = await readJson(request);
+      if (typeof body.requestId !== "string" || typeof body.requestSecret !== "string") {
+        return json({ error: "INVALID_REQUEST" }, 400);
+      }
+      const row = await env.DB.prepare(
+        "SELECT id,status,expires_at FROM password_reset_requests WHERE id=? AND request_secret_hash=?"
+      ).bind(body.requestId, await sha256(body.requestSecret)).first();
+      if (!row) return json({ status: "pending" });
+      if (row.status === "approved" && row.expires_at && row.expires_at <= Date.now()) {
+        await env.DB.prepare("UPDATE password_reset_requests SET status='expired' WHERE id=? AND status='approved'")
+          .bind(row.id).run();
+        return json({ status: "expired" });
+      }
+      return json({ status: row.status, expiresAt: row.expires_at || null });
+    }
+
+    if (path === "/api/auth/complete-admin-reset" && request.method === "POST") {
+      const ip = request.headers.get("CF-Connecting-IP") || "unknown";
+      const rateKey = await sha256("complete-reset:" + ip);
+      if (await rateLimited(env, rateKey, 8)) {
+        return json({ error: "TOO_MANY_ATTEMPTS", message: "Please wait before attempting another password reset." }, 429);
+      }
+      await recordFailure(env, rateKey, 8);
+      const body = await readJson(request);
+      const { requestId, requestSecret, newPassword } = body;
+      if (typeof requestId !== "string" || typeof requestSecret !== "string" || !validPassword(newPassword)) {
+        return json({ error: "INVALID_RESET", message: "Enter a valid reset request and a password meeting the requirements." }, 400);
+      }
+      const row = await env.DB.prepare(
+        "SELECT r.id,r.user_id,r.status,r.expires_at,u.username FROM password_reset_requests r " +
+        "JOIN users u ON u.id=r.user_id WHERE r.id=? AND r.request_secret_hash=? AND u.disabled_at IS NULL"
+      ).bind(requestId, await sha256(requestSecret)).first();
+      if (!row || row.status !== "approved" || !row.expires_at || row.expires_at <= Date.now()) {
+        return json({ error: "RESET_NOT_APPROVED", message: "This reset has not been approved or has expired." }, 403);
+      }
       const pw = await passwordHash(newPassword);
       const now = Date.now();
+      const requestSecretHash = await sha256(requestSecret);
       const results = await env.DB.batch([
         env.DB.prepare(
-          "UPDATE users SET password_hash=?,password_salt=?,recovery_code_hash=?,updated_at=? " +
-          "WHERE id=? AND recovery_code_hash=?"
-        ).bind(pw.hash, pw.salt, replacementHash, now, user.id, user.recovery_code_hash),
+          "UPDATE users SET password_hash=?,password_salt=?,updated_at=? WHERE id=(" +
+          "SELECT user_id FROM password_reset_requests WHERE id=? AND request_secret_hash=? AND status='approved' AND expires_at>?)"
+        ).bind(pw.hash, pw.salt, now, row.id, requestSecretHash, now),
         env.DB.prepare(
-          "DELETE FROM sessions WHERE user_id=? AND EXISTS " +
-          "(SELECT 1 FROM users WHERE id=? AND recovery_code_hash=?)"
-        ).bind(user.id, user.id, replacementHash),
-        env.DB.prepare("DELETE FROM auth_rate_limits WHERE bucket_key=?").bind(rateKey)
+          "UPDATE password_reset_requests SET status='completed',reviewed_at=? " +
+          "WHERE id=? AND request_secret_hash=? AND status='approved' AND expires_at>?"
+        ).bind(now, row.id, requestSecretHash, now),
+        env.DB.prepare(
+          "DELETE FROM sessions WHERE user_id=? AND EXISTS (" +
+          "SELECT 1 FROM password_reset_requests WHERE id=? AND status='completed' AND reviewed_at=?)"
+        ).bind(row.user_id, row.id, now),
+        env.DB.prepare(
+          "INSERT INTO auth_audit_log(id,user_id,action,request_id,created_at) " +
+          "SELECT ?,?,?,?,? WHERE EXISTS (" +
+          "SELECT 1 FROM password_reset_requests WHERE id=? AND status='completed' AND reviewed_at=?)"
+        ).bind(crypto.randomUUID(), row.user_id, "password_reset_completed", row.id, now, row.id, now)
+      ]);
+      const changed = results[1] && results[1].meta ? results[1].meta.changes : 0;
+      if (!changed) return json({ error: "RESET_ALREADY_USED" }, 409);
+      return json({ ok: true, message: "Password updated. All previous sessions have been signed out. Please sign in again." });
+    }
+
+    if (path === "/api/admin/reset-requests" && request.method === "GET") {
+      const session = await currentSession(request, env);
+      if (!session || !await isAdminSession(session, env)) return json({ error: "ADMIN_ONLY" }, 403);
+      const rows = await env.DB.prepare(
+        "SELECT r.id,u.username,r.status,r.created_at,r.reviewed_at,r.expires_at " +
+        "FROM password_reset_requests r JOIN users u ON u.id=r.user_id " +
+        "WHERE r.status IN ('pending','approved') ORDER BY r.created_at DESC LIMIT 100"
+      ).all();
+      return json({ requests: rows.results || [] });
+    }
+
+    if (path === "/api/admin/reset-review" && request.method === "POST") {
+      const session = await currentSession(request, env);
+      if (!session || !await isAdminSession(session, env)) return json({ error: "ADMIN_ONLY" }, 403);
+      if (!await csrfValid(request, session)) return json({ error: "CSRF_CHECK_FAILED" }, 403);
+      const body = await readJson(request);
+      if (typeof body.id !== "string" || !["approve","reject"].includes(body.action)) {
+        return json({ error: "INVALID_REVIEW" }, 400);
+      }
+      const now = Date.now();
+      const status = body.action === "approve" ? "approved" : "rejected";
+      const expiry = body.action === "approve" ? now + 20 * 60 * 1000 : null;
+      const reviewAction = body.action === "approve" ? "password_reset_approved" : "password_reset_rejected";
+      const results = await env.DB.batch([
+        env.DB.prepare(
+          "UPDATE password_reset_requests SET status=?,reviewed_at=?,reviewed_by=?,expires_at=? " +
+          "WHERE id=? AND status='pending'"
+        ).bind(status, now, session.username, expiry, body.id),
+        env.DB.prepare(
+          "INSERT INTO auth_audit_log(id,user_id,actor_username,action,request_id,created_at) " +
+          "SELECT ?,user_id,?,?,?,? FROM password_reset_requests " +
+          "WHERE id=? AND status=? AND reviewed_at=? AND reviewed_by=?"
+        ).bind(crypto.randomUUID(), session.username, reviewAction, body.id, now,
+          body.id, status, now, session.username)
       ]);
       const changed = results[0] && results[0].meta ? results[0].meta.changes : 0;
-      if (!changed) {
-        return json({ error: "INVALID_RECOVERY", message: "This recovery code has already been used. Try your newest recovery code." }, 401);
-      }
-      return json({
-        ok: true,
-        username: user.username,
-        recoveryCode: replacement.display,
-        message: "Password updated. Your previous recovery code is now invalid. Save this new code securely."
-      });
+      if (!changed) return json({ error: "REQUEST_ALREADY_REVIEWED" }, 409);
+      return json({ ok: true, status, expiresAt: expiry });
     }
 
     if (path === "/api/auth/me" && request.method === "GET") {
@@ -292,7 +468,7 @@ async function handle(request, env) {
       }
       return json({
         authenticated: true,
-        user: { id: session.user_id, username: session.username, displayName: session.username },
+        user: { id: session.user_id, username: session.username, displayName: session.username, isAdmin: await isAdminSession(session, env) },
         csrfToken: cookieMap(request).rtf_csrf
       });
     }
@@ -323,12 +499,16 @@ async function handle(request, env) {
       }
       if (!await csrfValid(request, session)) return json({ error: "CSRF_CHECK_FAILED" }, 403);
       const body = await readJson(request, 20000);
-      const items = Array.isArray(body.items) ? body.items : [];
+      if (!Array.isArray(body.items)) return json({ error: "INVALID_PROGRESS_ITEMS" }, 400);
+      const items = body.items;
       if (items.length > 100) return json({ error: "TOO_MANY_ITEMS" }, 400);
       const now = Date.now();
       const statements = [];
       for (const item of items) {
-        const key = String(item.key || "");
+        if (!item || typeof item !== "object" || Array.isArray(item)) {
+          return json({ error: "INVALID_PROGRESS_ITEM" }, 400);
+        }
+        const key = typeof item.key === "string" ? item.key : "";
         if (!/^[a-zA-Z0-9:_-]{1,120}$/.test(key)) return json({ error: "INVALID_PROGRESS_KEY" }, 400);
         const payload = JSON.stringify(item.data ?? null);
         if (payload.length > 8000) return json({ error: "PROGRESS_ITEM_TOO_LARGE" }, 400);
@@ -344,8 +524,11 @@ async function handle(request, env) {
     return json({ error: "NOT_FOUND" }, 404);
   } catch (error) {
     console.error("ReadyToFly API error:", error.message);
-    const status = error.message === "REQUEST_TOO_LARGE" ? 413 : 500;
-    return json({ error: status === 413 ? "REQUEST_TOO_LARGE" : "INTERNAL_ERROR" }, status);
+    const status = error.message === "REQUEST_TOO_LARGE" ? 413 :
+      (error.message === "INVALID_JSON" || error.message === "INVALID_JSON_BODY") ? 400 : 500;
+    const code = status === 413 ? "REQUEST_TOO_LARGE" :
+      status === 400 ? "INVALID_JSON" : "INTERNAL_ERROR";
+    return json({ error: code, ...(status === 400 ? { message: "Request body must be a valid JSON object." } : {}) }, status);
   }
 }
 
