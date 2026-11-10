@@ -23,3 +23,5 @@ jobs:
         run: node validation/validate-static.mjs
       - name: Validate study data index structure
         run: node validation/validate-data.mjs
+      - name: Validate authentication and password-reset contracts
+        run: node validation/validate-auth-contract.mjs
