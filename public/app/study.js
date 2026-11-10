@@ -7,8 +7,8 @@ const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
 const trackOf = page => page.source_json?.includes('Rev 1 Sinhala') ? 'rev1' : 'rev2';
 const trackLabel = track => track === 'rev1' ? 'Legacy · Revision 1' : 'Revised · Revision 2';
 const trackNotice = track => track === 'rev1'
- ? 'Extracted from the Revision 1 working study JSON. PDF page-by-page alignment and translations still require final source review.'
- : 'Extracted from the Revision 2 working study JSON. PDF page alignment, image mapping and language review are still pending.';
+ ? 'Legacy Revision 1 source pages. Displayed illustrations have passed the current visual and QR exclusion audit; page alignment and translations remain under review.'
+ : 'Revised Revision 2 source pages. Displayed illustrations have passed the current visual and QR exclusion audit; page alignment and translations remain under review.';
 
 let pages = [];
 let activeTrack = 'rev1';
@@ -42,14 +42,21 @@ function renderPage(page) {
    `).join('')}</div>
   </section>` : mappedImages.length ? `
   <section class="study-image-pending" role="note">Source images are linked to this page, but visual and QR/code exclusion checks are still pending. They will appear here after verification.</section>` : '';
- root.querySelectorAll('[data-study-image]').forEach(img=>img.addEventListener('error',()=>{
-  const figure=img.closest('figure');
-  if(!figure)return;
-  const caption=figure.querySelector('figcaption');
-  if(caption)caption.textContent='Image unavailable · '+(img.dataset.filename||'source image');
-  img.remove();
-  figure.classList.add('image-load-error');
- }));
+ // Image errors must be delegated from the persistent root: renderPage() runs
+ // before root.innerHTML is replaced, so querying for the new images here is too early.
+ if(root.dataset.studyImageErrorHandler !== 'true'){
+  root.addEventListener('error',event=>{
+   const img=event.target;
+   if(!(img instanceof HTMLImageElement) || !img.matches('[data-study-image]'))return;
+   const figure=img.closest('figure');
+   if(!figure)return;
+   const caption=figure.querySelector('figcaption');
+   if(caption)caption.textContent='Image unavailable · '+(img.dataset.filename||'source image');
+   img.remove();
+   figure.classList.add('image-load-error');
+  },true);
+  root.dataset.studyImageErrorHandler='true';
+ }
  const sections = (page.study_sections || []).map((section,index) => `
   <article class="panel study-content-card">
    <div class="study-content-meta"><span>${escapeHtml(section.type || 'study note')}</span><span>Section ${index+1}</span></div>
