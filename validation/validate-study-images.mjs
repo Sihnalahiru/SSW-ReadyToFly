@@ -6,7 +6,8 @@ const study = await readJson('public/assets/data/study_note_visual_map.json');
 const vocab = await readJson('public/assets/data/vocabulary_master.json');
 const studyUi = await readFile('public/app/study.js', 'utf8');
 const serviceWorker = await readFile('public/sw.js', 'utf8');
-const cacheVersion = Number(serviceWorker.match(/readytofly-shell-v(\\d+)/)?.[1] || 0);
+const cacheMatch = serviceWorker.match(/readytofly-shell-v([0-9]+)/);
+const cacheVersion = Number(cacheMatch?.[1] || 0);
 if (cacheVersion < 14) {
   throw new Error('Service worker shell cache version must be v14 or newer after Study Center code changes.');
 }
