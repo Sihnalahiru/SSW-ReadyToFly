@@ -136,7 +136,7 @@ async function createSession(env, user) {
     user: { id: user.id, username: user.username, displayName: user.username, isAdmin: Boolean(env.ADMIN_USERNAME && user.username.toLowerCase() === String(env.ADMIN_USERNAME).trim().toLowerCase()) }
   };
 }
-async function rateLimited(env, key) {
+async function rateLimited(env, key, maxAttempts = 8) {
   const now = Date.now();
   const row = await env.DB.prepare(
     "SELECT attempts,window_started_at,blocked_until FROM auth_rate_limits WHERE bucket_key=?"
@@ -148,9 +148,9 @@ async function rateLimited(env, key) {
     ).bind(key, now).run();
     return false;
   }
-  return Boolean(row.blocked_until && row.blocked_until > now) || row.attempts >= 8;
+  return Boolean(row.blocked_until && row.blocked_until > now) || row.attempts >= maxAttempts;
 }
-async function recordFailure(env, key) {
+async function recordFailure(env, key, maxAttempts = 8) {
   const now = Date.now();
   await env.DB.prepare(
     "INSERT INTO auth_rate_limits(bucket_key,attempts,window_started_at,blocked_until) VALUES(?,1,?,NULL) " +
@@ -159,7 +159,7 @@ async function recordFailure(env, key) {
   const row = await env.DB.prepare(
     "SELECT attempts,window_started_at FROM auth_rate_limits WHERE bucket_key=?"
   ).bind(key).first();
-  if (row && row.attempts >= 8 && now - row.window_started_at < 15 * 60 * 1000) {
+  if (row && row.attempts >= maxAttempts && now - row.window_started_at < 15 * 60 * 1000) {
     await env.DB.prepare("UPDATE auth_rate_limits SET blocked_until=? WHERE bucket_key=?")
       .bind(now + 15 * 60 * 1000, key).run();
   }
@@ -183,8 +183,15 @@ async function notifyAdminTelegram(env, message) {
       disable_web_page_preview: true
     })
   });
-  if (!response.ok) console.error("Telegram notification failed:", response.status);
-  return response.ok;
+  const telegramResult = await response.json().catch(() => null);
+  const delivered = response.ok && telegramResult && telegramResult.ok === true;
+  if (!delivered) {
+    console.error("Telegram notification failed:", response.status,
+      telegramResult && typeof telegramResult.description === "string"
+        ? telegramResult.description.slice(0, 200)
+        : "Telegram returned an invalid or unsuccessful response.");
+  }
+  return Boolean(delivered);
 }
 
 async function handle(request, env) {
@@ -344,6 +351,12 @@ async function handle(request, env) {
     }
 
     if (path === "/api/auth/reset-status" && request.method === "POST") {
+      const ip = request.headers.get("CF-Connecting-IP") || "unknown";
+      const rateKey = await sha256("reset-status:" + ip);
+      if (await rateLimited(env, rateKey, 60)) {
+        return json({ error: "TOO_MANY_ATTEMPTS", message: "Please wait before checking reset status again." }, 429);
+      }
+      await recordFailure(env, rateKey, 60);
       const body = await readJson(request);
       if (typeof body.requestId !== "string" || typeof body.requestSecret !== "string") {
         return json({ error: "INVALID_REQUEST" }, 400);
@@ -361,6 +374,12 @@ async function handle(request, env) {
     }
 
     if (path === "/api/auth/complete-admin-reset" && request.method === "POST") {
+      const ip = request.headers.get("CF-Connecting-IP") || "unknown";
+      const rateKey = await sha256("complete-reset:" + ip);
+      if (await rateLimited(env, rateKey, 8)) {
+        return json({ error: "TOO_MANY_ATTEMPTS", message: "Please wait before attempting another password reset." }, 429);
+      }
+      await recordFailure(env, rateKey, 8);
       const body = await readJson(request);
       const { requestId, requestSecret, newPassword } = body;
       if (typeof requestId !== "string" || typeof requestSecret !== "string" || !validPassword(newPassword)) {
