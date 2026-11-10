@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "feature_id": "ground-handling-quiz-practice",
+  "source_basis": [
+    "Rev 1 Sinhala study JSON batches",
+    "Rev 2 Sinhala study JSON batches",
+    "Ground_Handling_Master_Vocabulary_Sinhala_Final_v8(1).xlsx"
+  ],
+  "sets": {
+    "strategy": "50 questions per set where source-backed items are available",
+    "set_count": 13,
+    "question_counts": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      23
+    ],
+    "last_set_partial": true,
+    "note": "Vocabulary recognition practice generated from the supplied vocabulary workbook. These are not represented as official exam questions."
+  },
+  "question_display": {
+    "japanese": true,
+    "furigana": true,
+    "romaji": true,
+    "english": true,
+    "sinhala": true,
+    "foreign_loanwords": "For katakana/loanword entries, retain the Japanese term and show the English equivalent prominently."
+  },
+  "study_note": {
+    "show_during_practice": true,
+    "load_linked_images": true,
+    "load_linked_study_sections": true,
+    "image_source": "Existing PDF-extracted image assets only; no guessed image mapping.",
+    "fallback": "If no verified image mapping exists, show study-note text without an unrelated image."
+  },
+  "behavior": {
+    "auto_advance_after_answer": true,
+    "show_correct_wrong_remaining_counts": true,
+    "allow_explanation_before_advance": true,
+    "save_attempts": true,
+    "wrong_answer_review": "Persist wrong answers to review_wrong_answers.json; allow retry and clear only after user action."
+  }
+}
