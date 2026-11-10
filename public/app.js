@@ -116,7 +116,7 @@ import { renderQuiz } from './app/quiz.js';
   const current=(renderers[name]||name==='admin')?name:'dashboard';
   document.querySelectorAll('.nav-item[data-view],.mobile-nav-item[data-view]').forEach(el=>{const active=el.dataset.view===current;el.classList.toggle('active',active);if(active)el.setAttribute('aria-current','page');else el.removeAttribute('aria-current');});
   const appRoot=document.getElementById('app'),loader=document.getElementById('section-loader');
-  const render=()=>{appRoot.innerHTML=current==='admin'?renderAdminPanel():renderers[current]();if(current==='admin')loadAdminRequests();if(current==='exam')initExam();window.scrollTo({top:0,behavior:'smooth'});if(loader)loader.hidden=true;};
+  const render=()=>{appRoot.innerHTML=current==='admin'?renderAdminPanel():renderers[current](currentUser);if(current==='admin')loadAdminRequests();if(current==='exam')initExam();window.scrollTo({top:0,behavior:'smooth'});if(loader)loader.hidden=true;};
   if(appRoot.innerHTML.trim()&&loader){loader.hidden=false;if(viewTransitionTimer)clearTimeout(viewTransitionTimer);viewTransitionTimer=setTimeout(render,650);}else render();
  }
  let saveTimer=null,savePromise=null;
