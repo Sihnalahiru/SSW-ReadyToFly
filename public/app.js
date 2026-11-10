@@ -281,6 +281,15 @@ import { renderQuiz } from './app/quiz.js';
   finally{const next=form.querySelector('button[type="submit"]');if(next){next.disabled=false;next.textContent=authMode==='register'?'Create account →':authMode==='recover'?'Request admin approval →':authMode==='admin-reset-complete'?'Set new password →':'Sign in →';}}
  });
  document.addEventListener('click',event=>{const control=event.target.closest('[data-view]');if(control)showView(control.dataset.view);});
+ document.addEventListener('click',async event=>{
+  const choice=event.target.closest('[data-avatar-choice]');
+  if(!choice)return;
+  const avatarIds=['pilot','pilot-f','crew','ground','engineer','operations','traveller','aircraft'];
+  const id=choice.dataset.avatarChoice;
+  if(!avatarIds.includes(id))return;
+  try{await saveProgress('profile-avatar',{id});showView('dashboard');}
+  catch(error){setSaveStatus('Avatar could not be saved');console.warn('Avatar save:',error);}
+ });
  document.getElementById('admin-panel').addEventListener('click',()=>showView('admin'));
  document.addEventListener('click',event=>{if(event.target.closest('[data-admin-refresh]'))loadAdminRequests();});
  document.getElementById('signout').addEventListener('click',async()=>{await flushProgress();try{await api('auth/logout',{method:'POST',body:'{}'});}catch(e){console.warn(e);}progressData={};currentUser=null;document.getElementById('admin-panel').hidden=true;showLogin();});
