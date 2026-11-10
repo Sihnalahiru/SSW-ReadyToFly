@@ -1,61 +1,9 @@
-const trackCard = (eyebrow, title, description, status, view = 'study') => `
- <article class="track-card">
-  <div class="track-card-top"><span class="track-mark">✈</span><span class="status-pill">${status}</span></div>
-  <p class="eyebrow">${eyebrow}</p><h3>${title}</h3><p>${description}</p>
-  <button class="text-action" type="button" data-view="${view}">Open track <span aria-hidden="true">→</span></button>
- </article>`;
-
-export function renderDashboard() {
- return `
- <section class="dashboard-hero">
-  <div class="hero-copy">
-   <p class="eyebrow">AIRPORT OPERATIONS · LEARNING COMMAND</p>
-   <h1>Your next skill<br><span>takes you further.</span></h1>
-   <p class="muted">A focused training workspace for your SSW Airport Ground Handling journey. Choose a learning track, practise, and build confidence step by step.</p>
-   <div class="hero-actions">
-    <button class="primary-button" type="button" data-view="study">Enter Study Center <span aria-hidden="true">→</span></button>
-    <button class="secondary-button" type="button" data-view="exam">Open CBT Practice</button>
-   </div>
-  </div>
-  <div class="hero-visual" aria-label="Airport ground operations illustration">
-   <div class="radar-ring radar-one"></div><div class="radar-ring radar-two"></div>
-   <div class="runway-line"></div><div class="plane-symbol">✈</div>
-   <div class="hero-coordinate">GROUND OPS<br><strong>READY / 01</strong></div>
-   <div class="hero-visual-caption">TRAIN · PRACTISE · PROGRESS</div>
-  </div>
- </section>
-
- <section class="dashboard-section">
-  <div class="section-heading"><div><p class="eyebrow">YOUR TRAINING OVERVIEW</p><h2>Learning tracks</h2></div><span class="section-note">Source versions kept separate</span></div>
-  <div class="track-grid">
-   ${trackCard('GROUND HANDLING · REV 1','Legacy syllabus','Original Ground Handling V1 and Safety & Quality V1 sources.','AUDIT IN PROGRESS')}
-   ${trackCard('GROUND HANDLING · REV 2','Revised syllabus','Revised Ground Handling 2.1 and Safety & Quality Rev 2 sources.','AUDIT IN PROGRESS')}
-   ${trackCard('AIRCRAFT MAINTENANCE','AM Books 1–3','A separate learning track for the three Aircraft Maintenance source books.','NOT ASSIGNED')}
-  </div>
- </section>
-
- <section class="dashboard-section dashboard-lower">
-  <article class="panel exam-overview">
-   <div class="section-heading"><div><p class="eyebrow">EXAM PREPARATION</p><h2>CBT practice center</h2></div><span class="status-pill">PRACTICE CONTENT</span></div>
-   <div class="exam-stats"><div><strong>14</strong><span>Practice papers</span></div><div><strong>654</strong><span>Question references</span></div><div><strong>50</strong><span>Target per paper</span></div></div>
-   <p class="muted">Existing repository manifest lists 14 unofficial practice papers. Official exam duration has not been verified, so no official timer is assumed.</p>
-   <button class="text-action" type="button" data-view="exam">Explore CBT practice <span aria-hidden="true">→</span></button>
-  </article>
-  <article class="panel daily-panel">
-   <p class="eyebrow">YOUR DAILY ROUTINE</p><h2>Build a steady study habit.</h2>
-   <p class="muted">Your daily target, streak, XP and learning statistics will appear here when real account activity is connected.</p>
-   <div class="pending-note"><span class="pending-dot"></span><span>Personal learning metrics are not connected yet.</span></div>
-   <button class="text-action" type="button" data-view="progress">View progress area <span aria-hidden="true">→</span></button>
-  </article>
- </section>
-
- <section class="dashboard-section quick-section">
-  <div class="section-heading"><div><p class="eyebrow">QUICK ACCESS</p><h2>Choose your next step</h2></div></div>
-  <div class="quick-grid">
-   <button class="quick-card" type="button" data-view="study"><span>▤</span><strong>Study Center</strong><small>Lessons and learning modes</small></button>
-   <button class="quick-card" type="button" data-view="vocabulary"><span>あ</span><strong>Vocabulary</strong><small>Technical terms and flashcards</small></button>
-   <button class="quick-card" type="button" data-view="quiz"><span>◇</span><strong>Quiz Center</strong><small>Topic practice and review</small></button>
-   <button class="quick-card" type="button" data-view="exam"><span>✓</span><strong>CBT Examination</strong><small>Fixed papers and random practice</small></button>
-  </div>
- </section>`;
-}
+const getData=()=>{try{return window.ReadyToFlyProgress?.get?.()||{}}catch{return {}}};
+const esc=v=>String(v??'').replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',\"'\":'&#39;'}[c]));
+const historyOf=d=>Array.isArray(d['exam:history'])?d['exam:history']:(d['exam:history']?.attempts||[]);
+export function renderDashboard(){const d=getData(),h=historyOf(d),scores=h.map(x=>Number(x.score??x.percentage)).filter(Number.isFinite),avg=scores.length?Math.round(scores.reduce((a,b)=>a+b,0)/scores.length):null,best=scores.length?Math.max(...scores):null,passes=h.filter(x=>x.passed===true||x.status==='pass').length;const recent=h.slice().sort((a,b)=>new Date(b.completedAt||b.date||0)-new Date(a.completedAt||a.date||0)).slice(0,4);return '<section class=\"dashboard-hero dashboard-hero-v2\"><div class=\"hero-copy\"><p class=\"eyebrow\">AIRPORT OPERATIONS · LEARNING COMMAND</p><h1>Welcome back.<br><span>Your next skill takes you further.</span></h1><p class=\"muted\">Your personal Ground Handling learning and examination command centre.</p><div class=\"hero-actions\"><button class=\"primary-button\" data-view=\"study\">Continue studying →</button><button class=\"secondary-button\" data-view=\"exam\">Open CBT practice</button></div></div><div class=\"hero-visual\"><div class=\"radar-ring radar-one\"></div><div class=\"radar-ring radar-two\"></div><div class=\"runway-line\"></div><div class=\"plane-symbol\">✈</div><div class=\"hero-coordinate\">GROUND OPS<br><strong>READY / 01</strong></div><div class=\"hero-visual-caption\">TRAIN · PRACTISE · PROGRESS</div></div></section>'+
+'<section class=\"dashboard-section\"><div class=\"section-heading\"><div><p class=\"eyebrow\">PERSONAL PERFORMANCE</p><h2>Your dashboard at a glance</h2></div><button class=\"dashboard-reset\" data-dashboard-reset>↻ Reset dashboard</button></div><div class=\"dashboard-metric-grid\">'+
+[['▤','Papers attempted',h.length,'Saved examination attempts'],['◉','Average score',avg===null?'—':avg+'%','Across scored attempts'],['★','Best score',best===null?'—':best+'%','Personal best'],['✓','Passes',passes,'Based on saved attempt status']].map(x=>'<article class=\"dashboard-metric\"><span class=\"metric-icon\">'+x[0]+'</span><span class=\"metric-label\">'+x[1]+'</span><strong>'+x[2]+'</strong><small>'+x[3]+'</small></article>').join('')+'</div></section>'+
+'<section class=\"dashboard-section dashboard-lower\"><article class=\"panel exam-overview\"><p class=\"eyebrow\">EXAM PREPARATION</p><h2>CBT practice center</h2><div class=\"exam-stats\"><div><strong>14</strong><span>Practice papers</span></div><div><strong>654</strong><span>Question references</span></div><div><strong>'+h.length+'</strong><span>Attempts saved</span></div></div><p class=\"muted\">Practice papers and your saved examination attempts in one place.</p><button class=\"text-action\" data-view=\"exam\">Explore CBT practice →</button></article><article class=\"panel daily-panel\"><p class=\"eyebrow\">QUICK ACCESS</p><h2>Keep your momentum.</h2><div class=\"dashboard-shortcuts\"><button data-view=\"study\">Study Center →</button><button data-view=\"vocabulary\">Vocabulary →</button><button data-view=\"quiz\">Quiz Center →</button><button data-view=\"history\">Exam History →</button></div></article></section>'+
+'<section class=\"dashboard-section panel dashboard-history-preview\"><div class=\"section-heading\"><div><p class=\"eyebrow\">YOUR EXAM RECORD</p><h2>Recent examination history</h2></div><button class=\"text-action\" data-view=\"history\">View all history →</button></div>'+(recent.length?'<div class=\"dashboard-recent-list\">'+recent.map(x=>'<div class=\"dashboard-recent-row\"><span class=\"recent-paper-icon\">▤</span><div class=\"recent-paper-info\"><strong>'+esc(x.paperTitle||x.paperName||x.paperId||'Practice paper')+'</strong><small>'+esc(x.completedAt||x.date||'Attempt saved')+'</small></div><strong class=\"recent-score\">'+(Number(x.score??x.percentage)||0)+'%</strong></div>').join('')+'</div>':'<div class=\"dashboard-empty\"><span>◷</span><strong>No examination attempts yet</strong><p>Completed papers, dates and marks will appear here. Dashboard reset will never delete this history.</p><button class=\"secondary-button\" data-view=\"exam\">Start practice</button></div>')+'</section>'+ 
+'<section class=\"dashboard-section\"><div class=\"section-heading\"><div><p class=\"eyebrow\">TRAINING LIBRARY</p><h2>Learning tracks</h2></div><span class=\"section-note\">Source versions kept separate</span></div><div class=\"track-grid\"><article class=\"track-card\"><p class=\"eyebrow\">GROUND HANDLING · REV 1</p><h3>Legacy syllabus</h3><p>Original Ground Handling V1 and Safety & Quality V1 sources.</p><button class=\"text-action\" data-view=\"study\">Open track →</button></article><article class=\"track-card\"><p class=\"eyebrow\">GROUND HANDLING · REV 2</p><h3>Revised syllabus</h3><p>Revised Ground Handling 2.1 and Safety & Quality Rev 2 sources.</p><button class=\"text-action\" data-view=\"study\">Open track →</button></article><article class=\"track-card\"><p class=\"eyebrow\">AIRCRAFT MAINTENANCE</p><h3>AM Books 1–3</h3><p>A separate learning track for Aircraft Maintenance.</p><button class=\"text-action\" data-view=\"study\">Open track →</button></article></div></section>';}
