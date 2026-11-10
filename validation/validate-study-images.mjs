@@ -36,7 +36,7 @@ for (const record of vocab.records || []) {
 }
 
 if (study.pages?.length !== 139) failures.push(`Unexpected study page count: ${study.pages?.length}`);
-if (verifiedImages !== 93) failures.push(`Expected 93 visually reviewed non-QR study images, found ${verifiedImages}`);
+if (verifiedImages !== 182) failures.push(`Expected 182 visually reviewed non-QR study images, found ${verifiedImages}`);
 if (studyRefs !== 200) failures.push(`Expected 200 exact study image mappings, found ${studyRefs}`);
 
 console.log(`Study pages: ${study.pages.length}; exact image references: ${studyRefs}; visually reviewed non-QR images: ${verifiedImages}`);
