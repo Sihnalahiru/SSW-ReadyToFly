@@ -12,7 +12,7 @@ const checks = [
   ['duplicate username protection', /UNIQUE constraint failed/.test(worker) && /COLLATE NOCASE/.test(worker)],
   ['four-account database-level cap', /SELECT COUNT\(\*\) FROM users\) < 4/.test(worker)],
   ['admin username reserved', /configuredAdmin && username === configuredAdmin/.test(worker)],
-  ['PBKDF2 password hashing', /PBKDF2/.test(worker) && /310000/.test(worker)],
+  ['PBKDF2 password hashing', /PBKDF2/.test(worker) && /PBKDF2_ITERATIONS = 100000/.test(worker)],
   ['secure session cookie flags', /Secure; SameSite=Lax/.test(worker) && /HttpOnly/.test(worker)],
   ['reset request route', /path === "\/api\/auth\/reset-request"/.test(worker)],
   ['reset status route', /path === "\/api\/auth\/reset-status"/.test(worker)],
