@@ -4,6 +4,13 @@ const readJson = async path => JSON.parse(await readFile(path, 'utf8'));
 const exists = async path => { try { await access(path); return true; } catch { return false; } };
 const study = await readJson('public/assets/data/study_note_visual_map.json');
 const vocab = await readJson('public/assets/data/vocabulary_master.json');
+const studyUi = await readFile('public/app/study.js', 'utf8');
+if (!studyUi.includes("root.addEventListener('error'") || !studyUi.includes("img.matches('[data-study-image]')")) {
+  throw new Error('Study image load-error handler must use delegated capture on the persistent root.');
+}
+if (studyUi.includes("root.querySelectorAll('[data-study-image]').forEach")) {
+  throw new Error('Study image error handler must not query images before root.innerHTML is rendered.');
+}
 const failures = [];
 let studyRefs = 0, verifiedImages = 0, vocabularyRefs = 0, pendingRefs = 0;
 
