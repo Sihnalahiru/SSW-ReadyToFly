@@ -153,3 +153,37 @@ body.light .daily-task-row{background:#f6f9fe}
 .daily-reward-row>div>span{font-size:16px}
 .daily-reward-row strong{font:800 16px Manrope;color:var(--ink)}
 .daily-reward-row small{font-size:10px;color:var(--muted)}
+
+/* Vocabulary Center — 623 source records */
+.vocabulary-panel{padding:clamp(15px,2.5vw,24px)}
+.vocab-toolbar{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-bottom:16px}
+.vocab-search-wrap{display:flex;align-items:center;gap:9px;flex:1;min-width:180px;padding:0 13px;border:1px solid var(--line);border-radius:12px;background:var(--surface-2)}
+.vocab-search-wrap>span{font-size:22px;color:var(--muted)}
+.vocab-search-wrap input{width:100%;min-width:0;padding:13px 0;border:0;outline:0;background:transparent;color:var(--ink);font:inherit;font-size:12px}
+.vocab-part-label{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:9px;font-weight:800;letter-spacing:1px}
+.vocab-part-label select{max-width:190px;padding:11px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--ink);font:inherit;font-size:11px}
+.vocab-summary{display:flex;align-items:center;gap:12px;margin:0 0 14px;color:var(--muted);font-size:10px}
+.vocab-summary strong{color:var(--ink);font-size:12px}
+.vocab-total{margin-left:auto;padding:5px 9px;border:1px solid var(--line);border-radius:20px;color:var(--cyan);font-weight:800;letter-spacing:.6px}
+.vocab-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.vocab-card{position:relative;min-width:0;min-height:180px;display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--line);border-radius:15px;background:linear-gradient(145deg,rgba(38,67,103,.52),rgba(17,34,59,.58))}
+.vocab-flip{display:flex;flex:1;flex-direction:column;align-items:center;justify-content:center;gap:9px;width:100%;min-height:143px;padding:14px 12px 8px;border:0;background:transparent;color:var(--ink);cursor:pointer;text-align:center}
+.vocab-card-top{display:flex;align-items:center;justify-content:space-between;width:100%;position:absolute;top:10px;left:0;padding:0 12px}
+.vocab-id{font:700 9px ui-monospace,monospace;color:var(--muted)}
+.vocab-fav{font-size:14px;color:var(--muted)}
+.vocab-fav.active{color:#f6c65b}
+.vocab-japanese{font-size:clamp(23px,3vw,31px);font-weight:800;line-height:1.3}
+.vocab-furigana{font-size:12px;color:var(--cyan)}
+.vocab-hint{margin-top:5px;font-size:9px;color:var(--muted)}
+.vocab-english{font-size:18px;font-weight:800;text-transform:capitalize}
+.vocab-sinhala{font-size:13px;line-height:1.5;color:var(--cyan)}
+.vocab-romaji{font-size:10px;color:var(--muted)}
+.vocab-favourite{align-self:flex-end;margin:0 10px 9px;padding:5px 8px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--muted);font-size:9px;cursor:pointer}
+.vocab-pagination{display:flex;align-items:center;justify-content:center;gap:18px;margin:20px 0 8px}
+.vocab-pagination button{padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--ink);font-size:11px;font-weight:700;cursor:pointer}
+.vocab-pagination button:disabled{opacity:.35;cursor:not-allowed}
+.vocab-pagination span{font-size:10px;color:var(--muted)}
+.vocab-footnote{margin:15px 0 0;text-align:center;color:var(--muted);font-size:10px;line-height:1.6}
+body.light .vocab-card{background:linear-gradient(145deg,#fff,#f0f6ff)}
+@media(max-width:850px){.vocab-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.vocab-toolbar{align-items:stretch;flex-direction:column}.vocab-part-label{justify-content:space-between}.vocab-part-label select{flex:1;max-width:none}.vocab-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.vocab-card{min-height:164px}.vocab-flip{min-height:130px;padding:13px 8px 7px}.vocab-japanese{font-size:23px}.vocab-english{font-size:15px}.vocab-sinhala{font-size:11px}.vocab-summary{gap:7px;flex-wrap:wrap}}
