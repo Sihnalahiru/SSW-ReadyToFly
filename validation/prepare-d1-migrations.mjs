@@ -23,6 +23,19 @@ async function query(sql, params = []) {
   return payload.result?.[0]?.results ?? [];
 }
 
+const expectedIndexes = [
+  "idx_sessions_user", "idx_sessions_expiry",
+  "idx_email_tokens_user_purpose", "idx_email_tokens_expiry",
+  "idx_progress_updated",
+  "idx_source_documents_version", "idx_source_documents_audit",
+  "idx_source_pages_document", "idx_study_lessons_version",
+  "idx_vocabulary_version_term", "idx_vocabulary_lesson",
+  "idx_exam_questions_version", "idx_exam_questions_lesson",
+  "idx_media_assets_source", "idx_media_assets_hash",
+  "idx_evidence_mappings_target", "idx_evidence_mappings_media",
+  "idx_evidence_mappings_status",
+];
+
 const expected = {
   users: ["id", "email", "display_name", "password_hash", "password_salt", "email_verified", "disabled_at", "created_at", "updated_at"],
   sessions: ["id", "user_id", "token_hash", "csrf_hash", "created_at", "expires_at", "last_seen_at"],
@@ -52,8 +65,10 @@ async function assertSchema() {
     const actual = new Set((await query(`PRAGMA table_info("${table}")`)).map(row => row.name));
     for (const column of columns) if (!actual.has(column)) missingColumns.push(`${table}.${column}`);
   }
-  if (missingTables.length || missingColumns.length) {
-    throw new Error(`Schema preflight stopped safely. Missing tables: ${missingTables.join(", ") || "none"}. Missing columns: ${missingColumns.join(", ") || "none"}. No migration history or schema was changed.`);
+  const indexes = new Set((await query("SELECT name FROM sqlite_master WHERE type='index'")).map(row => row.name));
+  const missingIndexes = expectedIndexes.filter(name => !indexes.has(name));
+  if (missingTables.length || missingColumns.length || missingIndexes.length) {
+    throw new Error(`Schema preflight stopped safely. Missing tables: ${missingTables.join(", ") || "none"}. Missing columns: ${missingColumns.join(", ") || "none"}. Missing indexes: ${missingIndexes.join(", ") || "none"}. No migration history or schema was changed.`);
   }
 }
 
