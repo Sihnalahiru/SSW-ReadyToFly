@@ -1,5 +1,7 @@
 const SESSION_DAYS = 7;
-const PBKDF2_ITERATIONS = 310000;
+// Cloudflare Workers WebCrypto rejects PBKDF2 requests above 100,000 iterations.
+// Keep registration and login on the same platform-supported work factor.
+const PBKDF2_ITERATIONS = 100000;
 const encoder = new TextEncoder();
 
 function json(data, status = 200, headers = {}) {
