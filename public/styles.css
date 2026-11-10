@@ -190,3 +190,15 @@ body.light .vocab-card{background:linear-gradient(145deg,#fff,#f0f6ff)}
 
 
 .study-plan-section .plan-phase{font-weight:750;color:var(--text-primary,#fff);margin:18px 0 6px}.plan-target-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:18px 0}.plan-target-grid>div{padding:12px;border:1px solid var(--border-color,rgba(255,255,255,.12));border-radius:14px;display:flex;flex-direction:column;gap:5px}.plan-target-grid strong{font-size:1.05rem}.plan-target-grid small,.plan-remaining{color:var(--text-muted,#9ca3af)}.plan-track-label{display:block;font-weight:700;margin:18px 0 8px}.study-plan-section select{width:100%;padding:13px;border-radius:12px;border:1px solid var(--border-color,rgba(255,255,255,.2));background:var(--panel-bg,#151b28);color:inherit;margin-bottom:14px}.study-plan-section [data-plan-start]{width:100%}.plan-remaining{margin:14px 0 8px;font-size:.9rem}@media(max-width:560px){.plan-target-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Master vocabulary set overview */
+.vocab-master-overview{padding:16px;margin-bottom:16px;border:1px solid var(--line);border-radius:15px;background:var(--surface-2)}
+.vocab-master-overview>div:first-child{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
+.vocab-master-overview>div:first-child strong{font-size:12px;letter-spacing:.8px;color:var(--ink)}
+.vocab-master-overview>div:first-child span{font-size:10px;color:var(--muted)}
+.vocab-set-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:7px}
+.vocab-set-chip{display:flex;flex-direction:column;align-items:flex-start;gap:3px;min-width:0;padding:9px 8px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);text-align:left;cursor:pointer}
+.vocab-set-chip strong{font-size:9px;letter-spacing:.5px}.vocab-set-chip span{font-size:10px;font-weight:750;color:var(--cyan)}.vocab-set-chip small{font-size:8px;color:var(--muted)}
+.vocab-set-chip.active{border-color:var(--cyan);background:color-mix(in srgb,var(--cyan) 12%,var(--surface))}
+@media(max-width:850px){.vocab-set-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:520px){.vocab-master-overview{padding:11px}.vocab-master-overview>div:first-child{align-items:flex-start;flex-direction:column;gap:4px}.vocab-set-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.vocab-set-chip{padding:8px 6px}}
