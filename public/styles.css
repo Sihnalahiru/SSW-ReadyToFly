@@ -317,3 +317,18 @@ body.light .vocab-set-chip.active{background:#e9f4ff;border-color:#398bd3}
  .vocab-set-chip{min-height:100px;padding:11px;border-radius:12px}
  .vocab-set-chip span{font-size:13px}
 }
+
+/* Personal account identity on the learning dashboard */
+.dashboard-profile-bar{display:flex;align-items:center;gap:15px;margin:0 0 16px;padding:15px 18px;border:1px solid var(--line);border-radius:19px;background:linear-gradient(110deg,rgba(40,91,145,.34),rgba(255,255,255,.035));box-shadow:0 12px 35px rgba(0,0,0,.12)}
+.dashboard-avatar{position:relative;display:grid;place-items:center;flex:0 0 58px;width:58px;height:58px;border-radius:19px;background:linear-gradient(145deg,#6bc8e8,#347bd5 58%,#263f82);border:2px solid rgba(196,231,255,.65);box-shadow:0 7px 20px rgba(34,112,190,.3);color:#fff;font:800 19px Manrope;letter-spacing:.5px}
+.dashboard-avatar:before{content:"";position:absolute;inset:4px;border:1px solid rgba(255,255,255,.28);border-radius:14px}
+.dashboard-avatar i{position:absolute;right:-5px;bottom:-5px;display:grid;place-items:center;width:23px;height:23px;border:2px solid #102544;border-radius:50%;background:#8bd9e8;color:#12375a;font-size:11px;font-style:normal}
+.dashboard-profile-copy{min-width:0;flex:1}
+.dashboard-profile-copy .eyebrow{margin:0 0 3px;font-size:9px;letter-spacing:1.6px;color:#83d5e7}
+.dashboard-profile-copy h2{margin:0;font:800 clamp(17px,2.4vw,22px)/1.25 Manrope;overflow-wrap:anywhere}
+.dashboard-profile-copy p:last-child{margin:4px 0 0;color:var(--muted);font-size:11px}
+.dashboard-profile-status{display:flex;align-items:center;gap:7px;padding:8px 11px;border:1px solid rgba(104,205,163,.25);border-radius:99px;background:rgba(40,157,111,.1);color:#8ee0bd;font:800 9px Manrope;letter-spacing:.8px;white-space:nowrap}
+.profile-online-dot{width:7px;height:7px;border-radius:50%;background:#5dd6a2;box-shadow:0 0 10px #5dd6a2}
+body.light .dashboard-profile-bar{background:linear-gradient(110deg,#e6f2ff,#fff)}
+body.light .dashboard-avatar i{border-color:#fff}
+@media(max-width:600px){.dashboard-profile-bar{gap:11px;padding:12px}.dashboard-avatar{width:50px;height:50px;flex-basis:50px;border-radius:16px;font-size:16px}.dashboard-profile-status{font-size:8px;padding:7px 8px}.dashboard-profile-copy p:last-child{font-size:10px}}
