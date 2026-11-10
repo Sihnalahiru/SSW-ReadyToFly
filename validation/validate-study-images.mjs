@@ -5,6 +5,13 @@ const exists = async path => { try { await access(path); return true; } catch { 
 const study = await readJson('public/assets/data/study_note_visual_map.json');
 const vocab = await readJson('public/assets/data/vocabulary_master.json');
 const studyUi = await readFile('public/app/study.js', 'utf8');
+const serviceWorker = await readFile('public/sw.js', 'utf8');
+if (!/readytofly-shell-v\\d+/.test(serviceWorker) || serviceWorker.includes('readytofly-shell-v13')) {
+  throw new Error('Service worker shell cache version must be bumped after Study Center code changes.');
+}
+if (!serviceWorker.includes("'./assets/data/study_note_visual_map.json'")) {
+  throw new Error('Study source JSON must be included in the service worker core assets.');
+}
 if (!studyUi.includes("const DATA_URL = '/assets/data/study_note_visual_map.json';")) {
   throw new Error('Study data must use an origin-root absolute URL.');
 }
