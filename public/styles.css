@@ -146,3 +146,10 @@ body.light .exam-mode-card{background:rgba(255,255,255,.84)}body.light .exam-mod
 .revision-empty{margin-top:15px;padding:12px;border:1px dashed var(--line);border-radius:12px}
 body.light .daily-task-row{background:#f6f9fe}
 @media(max-width:680px){.daily-task-list{grid-template-columns:1fr}.daily-task-row{padding:12px}.daily-task-state{margin-left:auto}.daily-task-panel{padding:15px}}
+
+
+.daily-reward-row{display:flex;gap:10px;margin-bottom:17px}
+.daily-reward-row>div{display:flex;align-items:center;gap:8px;padding:9px 13px;border:1px solid var(--line);border-radius:12px;background:#ffffff07}
+.daily-reward-row>div>span{font-size:16px}
+.daily-reward-row strong{font:800 16px Manrope;color:var(--ink)}
+.daily-reward-row small{font-size:10px;color:var(--muted)}
