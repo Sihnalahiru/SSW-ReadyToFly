@@ -20,7 +20,7 @@ import { renderQuiz } from './app/quiz.js';
   if(options.method&&options.method!=='GET'&&options.method!=='HEAD'){const csrf=cookieValue('rtf_csrf');if(csrf)headers['X-CSRF-Token']=csrf;}
   const response=await fetch('/api/'+path,{...options,headers,credentials:'same-origin',cache:'no-store'});
   const data=await response.json().catch(()=>({error:'SERVER_ERROR'}));
-  if(!response.ok)throw new Error(data.message||data.error||'Request failed. Please try again.');
+  if(!response.ok){const detail=typeof data.diagnostic==='string'?' · '+data.diagnostic:'';throw new Error((data.message||data.error||'Request failed. Please try again.')+detail);}
   return data;
  }
  function setMessage(text,isError=false){message.textContent=text;message.classList.toggle('error',isError);}
