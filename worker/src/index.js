@@ -199,6 +199,34 @@ async function notifyAdminTelegram(env, message) {
 async function handle(request, env) {
   const url = new URL(request.url);
   const path = url.pathname.replace(/\/$/, "") || "/";
+  // Public, read-only proxy for source-linked study images stored outside /public.
+  // Restrict the route to image files under assets/data; never expose PDFs or source JSON.
+  if (path.startsWith("/source-assets/")) {
+    if (request.method !== "GET" && request.method !== "HEAD") {
+      return new Response("Method not allowed", { status: 405, headers: { "Allow": "GET, HEAD" } });
+    }
+    let relativePath;
+    try { relativePath = decodeURIComponent(path.slice("/source-assets/".length)); }
+    catch { return new Response("Invalid asset path", { status: 400 }); }
+    const segments = relativePath.split("/");
+    if (!relativePath.startsWith("assets/data/") ||
+        segments.some(segment => !segment || segment === "." || segment === ".." || segment.includes("\\\\")) ||
+        !/\\.(?:jpe?g|png|webp|gif)$/i.test(relativePath)) {
+      return new Response("Not found", { status: 404 });
+    }
+    const rawPath = segments.map(segment => encodeURIComponent(segment)).join("/");
+    const assetResponse = await fetch("https://raw.githubusercontent.com/Sihnalahiru/SSW-ReadyToFly/main/" + rawPath, {
+      method: request.method,
+      headers: { "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" },
+      cf: { cacheTtl: 86400, cacheEverything: true }
+    });
+    if (!assetResponse.ok) return new Response("Image not found", { status: assetResponse.status === 404 ? 404 : 502 });
+    const headers = new Headers(assetResponse.headers);
+    headers.set("Cache-Control", "public, max-age=86400, s-maxage=604800");
+    headers.set("X-Content-Type-Options", "nosniff");
+    return new Response(request.method === "HEAD" ? null : assetResponse.body, { status: 200, headers });
+  }
+
   if (path.startsWith("/api/") && request.method === "OPTIONS") {
     return new Response(null, { status: 204, headers: { "Allow": "GET, POST, PUT, OPTIONS" } });
   }
