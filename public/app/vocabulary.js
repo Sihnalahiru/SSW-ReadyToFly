@@ -1,6 +1,19 @@
 const DATA_URL='./data/vocabulary_master.json';
 const PAGE_SIZE=50;
-const SET_LABELS=Array.from({length:13},(_,i)=>({number:i+1,start:i*PAGE_SIZE+1,end:Math.min((i+1)*PAGE_SIZE,623),count:Math.min(PAGE_SIZE,623-i*PAGE_SIZE)}));
+const SECTIONS=[
+ {number:1,title:'Aircraft & Flight Basics',start:1,end:50},
+ {number:2,title:'Ground Handling & Work Allocation',start:51,end:100},
+ {number:3,title:'Ramp Safety & Cargo Handling',start:101,end:167},
+ {number:4,title:'Operational Procedures & Airport Services',start:168,end:240},
+ {number:5,title:'Passenger, Baggage & Cargo Services',start:241,end:315},
+ {number:6,title:'Dangerous Goods – Classes & Regulations',start:316,end:360},
+ {number:7,title:'Aircraft Movement & Ramp Safety',start:361,end:405},
+ {number:8,title:'Passenger Handling & Work Coordination',start:406,end:460},
+ {number:9,title:'Ground Equipment, Weather & Load Control',start:461,end:500},
+ {number:10,title:'Weather, PPE & Vehicle Operations',start:501,end:538},
+ {number:11,title:'Service Quality, Communication & Safety Culture',start:539,end:600},
+ {number:12,title:'Dangerous Goods – Examples & Items',start:601,end:623}
+].map(s=>({...s,count:s.end-s.start+1}));
 let records=[];
 let part=1;
 let query='';
@@ -21,7 +34,7 @@ function loadVocabulary(){
 }
 function currentRows(){
  const q=query.trim().toLocaleLowerCase();
- const filtered=q?records.filter(r=>[r.japanese,r.furigana,r.romaji,r.english,r.sinhala].some(v=>String(v||'').toLocaleLowerCase().includes(q))):records.slice((part-1)*PAGE_SIZE,part*PAGE_SIZE);
+ const filtered=q?records.filter(r=>[r.japanese,r.furigana,r.romaji,r.english,r.sinhala].some(v=>String(v||'').toLocaleLowerCase().includes(q))):records.filter(r=>{const s=SECTIONS[part-1];const n=Number(r.id.slice(3));return n>=s.start&&n<=s.end;});
  return filtered;
 }
 function card(r){
@@ -30,8 +43,8 @@ function card(r){
 }
 function renderContent(){
  const root=document.getElementById('vocabulary-root');if(!root)return;
- const rows=currentRows(),searching=!!query.trim(),totalParts=Math.ceil(records.length/PAGE_SIZE);
- root.innerHTML='<div class="vocab-master-overview"><div><strong>MASTER VOCABULARY</strong><span>All 623 verified source entries · 13 study sets</span></div><div class="vocab-set-grid">'+SET_LABELS.map(s=>'<button type="button" class="vocab-set-chip '+(part===s.number&&!searching?'active':'')+'" data-vocab-set="'+s.number+'"><strong>SET '+String(s.number).padStart(2,'0')+'</strong><span>'+s.count+' words</span><small>#'+s.start+'–'+s.end+'</small></button>').join('')+'</div></div><div class="vocab-toolbar"><div class="vocab-search-wrap"><span>⌕</span><input id="vocab-search" type="search" placeholder="Search Japanese, English, Romaji or Sinhala…" value="'+esc(query)+'" autocomplete="off"></div><label class="vocab-part-label">STUDY SET <select id="vocab-part" '+(searching?'disabled':'')+'>'+Array.from({length:totalParts},(_,i)=>{const n=i+1,count=Math.min(PAGE_SIZE,records.length-i*PAGE_SIZE);return '<option value="'+n+'" '+(part===n?'selected':'')+'>Part '+n+' · '+count+' words</option>'}).join('')+'</select></label></div><div class="vocab-summary"><strong>'+(searching?rows.length+' results':'SET '+String(part).padStart(2,'0')+' / '+totalParts)+'</strong><span>'+(searching?'Search across all 623 words':'Showing '+(rows.length?((part-1)*PAGE_SIZE+1):0)+'–'+Math.min(part*PAGE_SIZE,records.length)+' of '+records.length+' words')+'</span><span class="vocab-total">'+records.length+' TOTAL</span></div><div class="vocab-grid">'+(rows.length?rows.map(card).join(''):'<div class="empty-state">No matching vocabulary found.</div>')+'</div>'+(searching?'':'<div class="vocab-pagination"><button type="button" data-vocab-prev '+(part===1?'disabled':'')+'>← Previous</button><span>Part '+part+' / '+totalParts+'</span><button type="button" data-vocab-next '+(part===totalParts?'disabled':'')+'>Next →</button></div>')+'<p class="vocab-footnote">Japanese and furigana appear first. Tap a card to reveal Romaji, English and Sinhala meanings.</p>';
+ const rows=currentRows(),searching=!!query.trim(),totalParts=SECTIONS.length,section=SECTIONS[part-1];
+ root.innerHTML='<div class="vocab-master-overview"><div><strong>MASTER VOCABULARY</strong><span>All 623 master words · 12 topic sections · preliminary grouping</span></div><div class="vocab-set-grid">'+SECTIONS.map(s=>'<button type="button" class="vocab-set-chip '+(part===s.number&&!searching?'active':'')+'" data-vocab-set="'+s.number+'"><strong>SET '+String(s.number).padStart(2,'0')+'</strong><span>'+s.count+' words</span><small>#'+String(s.start).padStart(4,'0')+'–'+String(s.end).padStart(4,'0')+'</small></button>').join('')+'</div></div><div class="vocab-toolbar"><div class="vocab-search-wrap"><span>⌕</span><input id="vocab-search" type="search" placeholder="Search Japanese, English, Romaji or Sinhala…" value="'+esc(query)+'" autocomplete="off"></div><label class="vocab-part-label">STUDY SET <select id="vocab-part" '+(searching?'disabled':'')+'>'+Array.from({length:totalParts},(_,i)=>{const n=i+1,count=Math.min(PAGE_SIZE,records.length-i*PAGE_SIZE);return '<option value="'+n+'" '+(part===n?'selected':'')+'>Part '+n+' · '+count+' words</option>'}).join('')+'</select></label></div><div class="vocab-summary"><strong>'+(searching?rows.length+' results':'SECTION '+String(part).padStart(2,'0')+' / '+totalParts)+'</strong><span>'+(searching?'Search across all 623 words':'Showing '+section.count+' words · '+section.title)+'</span><span class="vocab-total">'+records.length+' TOTAL</span></div><div class="vocab-grid">'+(rows.length?rows.map(card).join(''):'<div class="empty-state">No matching vocabulary found.</div>')+'</div>'+(searching?'':'<div class="vocab-pagination"><button type="button" data-vocab-prev '+(part===1?'disabled':'')+'>← Previous</button><span>Part '+part+' / '+totalParts+'</span><button type="button" data-vocab-next '+(part===totalParts?'disabled':'')+'>Next →</button></div>')+'<p class="vocab-footnote">Japanese and furigana appear first. Tap a card to reveal Romaji, English and Sinhala meanings.</p>';
  const input=document.getElementById('vocab-search');if(input){input.focus({preventScroll:true});input.setSelectionRange(query.length,query.length);}
 }
 function bindEvents(){
@@ -47,5 +60,5 @@ function bindEvents(){
  });
 }
 export function renderVocabulary(){
- return '<section class="welcome"><p class="eyebrow">JAPANESE TECHNICAL LANGUAGE</p><h1>Vocabulary Center</h1><p class="muted">623 words · 13 study sets · Japanese, Furigana, Romaji, English and Sinhala</p></section><section class="panel vocabulary-panel"><div id="vocabulary-root"><div class="empty-state">Loading all 623 vocabulary records…</div></div></section><script></script>'.replace('<script></script>','')+(typeof document!=='undefined'?(queueMicrotask(()=>{bindEvents();loadVocabulary().then(()=>{bindEvents();renderContent();}).catch(err=>{loadingPromise=null;const root=document.getElementById('vocabulary-root');if(root)root.innerHTML='<div class="empty-state"><strong>Vocabulary could not be loaded.</strong><br>'+esc(err.message)+'<br><button type="button" data-vocab-retry>Retry</button></div>';});}), ''):'');
+ return '<section class="welcome"><p class="eyebrow">JAPANESE TECHNICAL LANGUAGE</p><h1>Vocabulary Center</h1><p class="muted">623 master words · 12 topic sections · Japanese, Furigana, Romaji, English and Sinhala</p></section><section class="panel vocabulary-panel"><div id="vocabulary-root"><div class="empty-state">Loading all 623 vocabulary records…</div></div></section><script></script>'.replace('<script></script>','')+(typeof document!=='undefined'?(queueMicrotask(()=>{bindEvents();loadVocabulary().then(()=>{bindEvents();renderContent();}).catch(err=>{loadingPromise=null;const root=document.getElementById('vocabulary-root');if(root)root.innerHTML='<div class="empty-state"><strong>Vocabulary could not be loaded.</strong><br>'+esc(err.message)+'<br><button type="button" data-vocab-retry>Retry</button></div>';});}), ''):'');
 }
