@@ -49,6 +49,7 @@ export async function initExam() {
   if(paperButton){openPaper(Number(paperButton.dataset.openPaper));return;}
   if(event.target.closest('[data-exam-back]')){showPaperList();return;}
   if(event.target.closest('[data-exam-submit]')){submitAnswer();return;}
+  if(event.target.closest('[data-exam-unscored]')){recordUnscored();return;}
   if(event.target.closest('[data-exam-next]')){nextQuestion();return;}
   if(event.target.closest('[data-exam-finish]')){showSummary();return;}
   if(event.target.closest('[data-exam-restart]')){openPaper(examState.current);return;}
@@ -85,16 +86,21 @@ function renderQuestion(){
    <p class="exam-question-text">${esc(item.question||item.question_text||'')}</p>
    ${item.japanese?'<p class="exam-question-japanese" lang="ja">'+esc(item.japanese)+'</p>':''}
    ${item.furigana?'<p class="exam-question-reading">'+esc(item.furigana)+'</p>':''}
-   ${options.length?'<div class="exam-answer-options">'+options.map((option,i)=>'<label class="exam-answer-option"><input type="radio" name="exam-answer" value="'+esc(option.value)+'" '+(state.answers[id]===String(option.value)?'checked':'')+' '+(isAnswered?'disabled':'')+'><span class="exam-option-letter">'+String.fromCharCode(65+i)+'</span><span>'+esc(option.label)+'</span></label>').join('')+'</div>':'<p class="muted">This source record has no selectable options. It will be recorded as unscored until its question format is verified.</p>'}
+   ${options.length?'<div class="exam-answer-options">'+options.map((option,i)=>'<label class="exam-answer-option"><input type="radio" name="exam-answer" value="'+esc(option.value)+'" '+(state.answers[id]===String(option.value)?'checked':'')+' '+(isAnswered?'disabled':'')+'><span class="exam-option-letter">'+String.fromCharCode(65+i)+'</span><span>'+esc(option.label)+'</span></label>').join('')+'</div>':'<p class="muted">This source record has no selectable options. Continue without scoring this item.</p>'}
    <div class="exam-answer-feedback" data-answer-feedback>${isAnswered?(state.answers[id]===null?'Unscored source record.':'Answer recorded.')+(keyValid?'':' · Answer key is not validated; this item will not affect the score.')+(item.explanation?'<p>'+esc(item.explanation)+'</p>':''):''}</div>
    <div class="exam-action-row">
-    ${!isAnswered?'<button type="button" class="primary-button" data-exam-submit '+(!options.length?'disabled':'')+'>Submit answer</button>':'<button type="button" class="primary-button" data-exam-next>'+(state.index===paper.questions.length-1?'Finish paper':'Next question →')+'</button>'}
+    ${!isAnswered?(options.length?'<button type="button" class="primary-button" data-exam-submit>Submit answer</button>':'<button type="button" class="primary-button" data-exam-unscored>Continue · unscored</button>'):'<button type="button" class="primary-button" data-exam-next>'+(state.index===paper.questions.length-1?'Finish paper':'Next question →')+'</button>'}
    </div>
   </article>
   <p class="muted">No timer is applied because the official duration has not been verified. Source wording and English technical terms are preserved.</p>`;
  if(isAnswered)state.submitted=true;
 }
 
+function recordUnscored(){
+ const state=examState,paper=state.papers.papers[state.current],id=paper.questions[state.index];
+ state.answers[id]=null;state.unscored++;renderQuestion();
+ const feedback=document.querySelector('[data-answer-feedback]');if(feedback)feedback.innerHTML='<strong>Not scored.</strong> This source record has no verified selectable options.';
+}
 function submitAnswer(){
  const state=examState,paper=state.papers.papers[state.current],id=paper.questions[state.index],item=state.byId.get(id);
  const selected=document.querySelector('input[name="exam-answer"]:checked');
