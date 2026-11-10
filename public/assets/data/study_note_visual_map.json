@@ -31,7 +31,11 @@
           "english": "Aviation Field: Airport Ground Handling Textbook",
           "sinhala": "ගුවන් සේවා ක්ෂේත්‍රය: ගුවන් තොටුපළ බිම් මෙහෙයුම් හැසිරවීමේ පාඨමාලා පොත"
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/0.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p002-8cd4e",
@@ -86,7 +90,9 @@
           "english": "Regarding punctuality, reliably carry out scheduled preparations within the allotted time. Regarding comfort, conduct cleaning to maintain an excellent cabin environment.",
           "sinhala": "නියමිත වේලාව සම්බන්ධයෙන්: නියමිත කාලය තුළ සූදානම් කිරීමේ කාර්යයන් නිසි ලෙස සිදු කරන්න. සුවපහසුව සම්බන්ධයෙන්: යානය තුළ හොඳ පරිසරයක් පවත්වා ගැනීම සඳහා පිරිසිදු කිරීම් සිදු කරන්න."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p003-8cd4e",
@@ -118,7 +124,13 @@
           "english": "Meanwhile, the International Air Transport Association (IATA) establishes standards for contracts (Airport Handling Manual) when contracting ground handling services to other airlines or handlers at foreign airports.",
           "sinhala": "ජාත්‍යන්තර ගුවන් ප්‍රවාහන සංගමය (IATA) විසින් විදේශ ගුවන් තොටුපළවලදී වෙනත් ගුවන් සමාගම් වෙත ගොඩබිම් සේවා පවරන විට භාවිතයට සේවා විස්තර සඳහා ප්‍රමිතීන් (Airport Handling Manual) සකස් කර ඇත."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/6.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/7.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/8.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p004-8cd4e",
@@ -167,7 +179,12 @@
           "english": "1. Aircraft mechanic 2. Passenger guide staff 3. Marshaller 4. Cargo hold unloading staff 5. Passenger Boarding Bridge (PBB) operator 6. Cabin cleaning crew",
           "sinhala": "1. නඩත්තු කාර්මිකයා 2. මගීන්ට මඟපෙන්වන නිලධාරියා 3. මාෂලර් (සංඥාකරු) 4. කාගෝ බහාලුම් බාන සේවකයින් 5. මගී පාලම (PBB) හසුරුවන නිලධාරියා 6. යානය පිරිසිදු කරන සේවකයින්"
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/10.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/11.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p005-8cd4e",
@@ -204,7 +221,9 @@
           "english": "1. PBB is docked and cabin doors opened. 2. Cargo doors open and container unloading starts. 3. Cleaning truck docks at aft door. 4. Water truck refills water; lavatory truck drains waste. 5. Outbound containers are loaded. 6. Pushback tractor attaches to nose gear.",
           "sinhala": "1. මගී පාලම (PBB) සවි කර දොර අරියි. 2. භාණ්ඩ මැදිරියේ දොර විවෘත කර කන්ටේනර් බෑම අරඹයි. 3. පිටුපස දොරට ට්‍රක් රථය සවි කර යානය පිරිසිදු කිරීමට සැරසෙයි. 4. පානීය ජල රථයෙන් ජලය පුරවා වැසිකිලි සේවා රථයෙන් අපද්‍රව්‍ය ඉවත් කරයි. 5. පිටත්වන ගුවන් ගමනේ බහාලුම් පටවනු ලබයි. 6. යානය තල්ලු කිරීමට ට්‍රැක්ටරය ඉදිරිපස රෝදයට සවි කරයි."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p006-c1b3f",
@@ -243,7 +262,11 @@
           "english": "Note: Airports and airlines are represented by alphabetical 3-letter codes and 2-letter codes.",
           "sinhala": "වැදගත්: ගුවන් තොටුපළවල් අකුරු 3 කේතවලින්ද (3-Letter Code), ගුවන් සමාගම් අකුරු 2 කේතවලින්ද (2-Letter Code) නිරූපණය කෙරේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/12.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p007-c1b3f",
@@ -282,7 +305,11 @@
           "english": "Loading Information: 1. Outbound loading plan information is issued to handlers by the controller via an Instruction Sheet (Figure 2).",
           "sinhala": "පැටවීමේ තොරතුරු: 1. පිටත්වන ගුවන් යානයට භාණ්ඩ පැටවීමේ සැලැස්ම පිළිබඳ තොරතුරු, පාලකවරයා විසින් උපදෙස් පත්‍රිකාවක් හෙවත් Instruction Sheet (රූපය 18) මගින් භාරකරුට ලබාදෙයි."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/18.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p008-c1b3f",
@@ -319,7 +346,9 @@
           "english": "Irregular Operations: When pre-planned loading quantities (such as water supply) or finalized loading plans are changed due to weather, passenger numbers, or maintenance, the controller issues revision orders. Follow procedures strictly.",
           "sinhala": "අසාමාන්‍ය (හදිසි) අවස්ථාවල යෙදෙන වැඩ: කාලගුණය, මගීන් සංඛ්‍යාව හෝ නඩත්තු ගැටළු නිසා කලින් තීරණය කළ ජල ප්‍රමාණයන් හෝ පැටවුම් සැලසුම් හදිසියේ වෙනස් කිරීමට පාලකවරයා උපදෙස් දෙන අවස්ථා ඇත. එවැනි විටකදී නියමිත රෙගුලාසි අනුව කටයුතු කරන්න."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p009-c1b3f",
@@ -338,7 +367,9 @@
           "english": "Representative configurations and physical base dimensions of aircraft ULD containers.",
           "sinhala": "ගුවන් යානා සඳහා භාවිත කරන ප්‍රධාන බහාලුම්වල (ULD) හැඩතල සහ මානයන් පිළිබඳ විස්තරය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p010-c1b3f",
@@ -379,7 +410,13 @@
           "english": "3. DQP (LD-4): Base size 60.4\" × 96\". Compatible Aircraft: Boeing B767, B777, B787.",
           "sinhala": "3. DQP (LD-4): පතුලේ ප්‍රමාණය අඟල් 60.4 × 96 වේ. පැටවිය හැකි ගුවන් යානා: Boeing B767, B777, B787."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/45.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/46.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/47.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p011-383c5",
@@ -398,7 +435,9 @@
           "english": "Figure 4: Airplane Servicing Arrangement - Typical Turnaround Layout (Model Boeing 777-300)",
           "sinhala": "රූපය 4: ගුවන් යානයක් නැවතුම් අංගනයේ ඇති විට සිදුකරන සේවා උපකරණ සැකැස්ම - සාමාන්‍ය හැසිරවීම (Model Boeing 777-300)"
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p012-383c5",
@@ -435,7 +474,9 @@
           "english": "When transporting baggage, cargo, and mail in containers to the aircraft, wheeled platforms called container dollies are used. When transported as bulk, standard trucks or dedicated wheeled carts called bulk carts are used.",
           "sinhala": "ගමන් මලු, භාණ්ඩ සහ තැපැල් කන්ටේනර් මඟින් ගුවන් යානය අසලට ප්‍රවාහනය කිරීම සඳහා 'කන්ටේනර් ඩොලි' (Container Dolly) භාවිත කරයි. තොග (Bulk) වශයෙන් පටවන විට සාමාන්‍ය ට්‍රක් රථ හෝ බල්ක් කරත්ත (Bulk Cart) භාවිත කරයි."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p013-383c5",
@@ -475,7 +516,12 @@
           "english": "(2) Truck: Vehicles used to transport loose baggage and bulk cargo to the aircraft, including standard flatbed trucks, tailgate-lift trucks, and truck beds equipped with built-in conveyors.",
           "sinhala": "(2) ට්‍රක් රථ (රූපය 92): යානයට පටවන තනි ගමන් මලු සහ භාණ්ඩ ප්‍රවාහනය කරන රථ වේ. සාමාන්‍ය ට්‍රක්, හයිඩ්‍රොලික් ටේල්ගේට් සහිත ට්‍රක් සහ බඳ තුළ කන්වේයර් පටි සහිත ට්‍රක් රථ මේ අතර වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/91.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/92.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p014-383c5",
@@ -506,7 +552,12 @@
           "english": "2. Pallet Dolly (Figure 94): Unpowered trailer towed by a Towing Tractor to carry cargo pallets up to 96\" × 125\". Decks feature transfer rollers, casters, or ball bearings, available in longitudinal or lateral feed types. Equipped with pallet stops and lock latches.",
           "sinhala": "2. පැලට් ඩොලි (රූපය 94): උපරිම වශයෙන් අඟල් 96 × 125 ප්‍රමාණයේ විශාල පැලට් ප්‍රවාහනය කරන, ට්‍රැක්ටරයකින් අදින රථයකි. මෙහි මතුපිට රෝලර්, කැස්ටර් හෝ බෝල බෙයාරිං ඇති අතර දිග අතට (සිරස්) හෝ හරස් අතට පැටවිය හැකි වර්ග තිබේ. පැලට් පෙරළීම වැළැක්වීමට නැවතුම් අගුල් (Stoppers) සවි කර ඇත."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/93.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/94.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p015-383c5",
@@ -547,7 +598,13 @@
           "english": "5. Belt Loader (Figure 97): Motorized vehicle operating an adjustable-height hydraulic conveyor belt to move loose baggage and cargo into the bulk hold. Some units feature a protective roof canopy to prevent rain damage.",
           "sinhala": "5. බෙල්ට් ලෝඩරය (රූපය 97): හයිඩ්‍රොලික් මෝටරයකින් ක්‍රියාත්මක වන කන්වේයර් පටියක් ආධාරයෙන් තනි ගමන් මලු යානයේ බල්ක් මැදිරියට පටවන රථයයි. වැසි දිනවල බඩු තෙමීම වැළැක්වීමට ආවරණයක් (Canopy) සහිත මාදිලිද ඇත."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/95.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/96.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/97.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p016-4bba4",
@@ -584,7 +641,9 @@
           "english": "(3) Staged GSE must be parked in locations that do not obstruct the aircraft taxiing into the spot. (4) All preparations must be completely finished 10 to 5 minutes before the arrival flight touches in, and personnel must standby at the spot. For departure flights, cargo/baggage must be transported out to meet scheduled start times.",
           "sinhala": "(3) සූදානම් කරගත් උපකරණ යානය අංගනයට ඇතුළු වීමට බාධා නොවන ස්ථානයක තැබිය යුතුය. (4) යානය පැමිණීමට මිනිත්තු 10 සිට 5 දක්වා පෙර සියලු සූදානම් කිරීම් අවසන් කර Spot එකේ සූදානම්ව (Standby) සිටිය යුතුය. පිටත්වන ගුවන් ගමන් සඳහා නියමිත වේලාවට භාණ්ඩ රැගෙන යාම සිදු කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p017-4bba4",
@@ -612,7 +671,9 @@
           "english": "(4) Verify the ULD number and position against the Instruction Sheet. (5) Rotate the container on the dolly turntable to align with the aircraft cargo hold contour, then disengage the travel stopper. 1. Inspect the ULD exterior and dolly for abnormalities. 2. When rotating ULDs on dollies, confirm surrounding personnel clearance. 3. Coordinate multi-person tasks through mutual callouts. 4. Transfer ULDs manually on the dolly rollers. Caution: Heavy pallets must be pushed by 2 or more workers with coordinated voice callouts.",
           "sinhala": "(4) උපදෙස් පත්‍රිකාවේ (Instruction Sheet) ඇති ULD අංකය සහ පටවන ස්ථානය (POS) පරීක්ෂා කරන්න. (5) කන්ටේනරය යානයේ බඳෙහි හැඩයට ගැලපෙන පරිදි ඩොලිය මත කරකවා, ගමන් දිශාවේ ඇති Stopper අගුල ඉවත් කරන්න. 1. ULD පිටත පෘෂ්ඨයේ හානි තිබේදැයි පරීක්ෂා කරන්න. 2. ඩොලිය මත කරකවන විට අවට සේවකයින්ගේ ආරක්ෂාව බලන්න. 3. එකිනෙකාට කතා කරමින් සහයෝගයෙන් වැඩ කරන්න. 4. ඩොලිය මත ULD අතින් තල්ලු කර මාරු කරන්න. අවවාදයයි: අධික බරැති පැලට් සේවකයින් දෙදෙනෙකු හෝ ඊට වැඩි පිරිසක් එක්ව කතාබස් කරමින් තල්ලු කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p018-4bba4",
@@ -651,7 +712,11 @@
           "english": "(8) Driving under aircraft wings is strictly prohibited (Yokuka tsuuka soukou wa shinai). However, if passing under the wing is unavoidable when handling aft cargo holds, observe these strict rules: 1. Before moving, check behind to confirm what vehicle you are driving and what you are towing. 2. Check left, right, and look up to visually confirm wing tip clearance, driving at an extremely slow crawl. 3. All verifications must be executed using Point and Call (Shisa Koushou).",
           "sinhala": "(8) ගුවන් යානයේ පියාපත් යටින් රිය ධාවනය කිරීම තරයේම තහනම්ය (翼下通過走行はしない)! කෙසේ වෙතත්, පසුපස කාගෝ මැදිරියෙන් බඩු බෑමේදී නොවැළැක්විය හැකි හේතුවක් නිසා පියාපත් යටින් යාමට සිදුවුවහොත්, පහත නීති අනිවාර්යයෙන් පිළිපදින්න: 1. පිටත්වීමට පෙර පිටුපස බලා තමන් පදවන්නේ මොන වාහනයද, පිටුපසින් ඇදගෙන යන්නේ මොනවාදැයි නැවත තහවුරු කරන්න. 2. වම දකුණ පරීක්ෂා කරනවාට අමතරව පියාපත දෙස හොඳින් බලා ඉතාමත්ම සෙමින් ධාවනය කරන්න. 3. ඉහත සියලු තහවුරු කිරීම් 'Point and Call' (ඇඟිල්ල දිගු කර ශබ්ද නගා තහවුරු කිරීම) මගින් සිදු කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/107.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p019-4bba4",
@@ -681,7 +746,11 @@
           "english": "1. When placing items on the belt, maintain approximately 50 cm spacing between items so the receiver inside the hold can grab them safely. 2. Consider item shape, size, and destination unload order to facilitate neat stacking inside the hold. 3. Team-lift heavy items; once placed on the belt, clearly signal the receiving operator inside the hold that a heavy item is coming. 4. In high winds, hand-carry light cargo like envelopes into the hold so they do not blow away.",
           "sinhala": "1. පටිය මත බඩු තැබීමේදී උඩ සිටින සේවකයාට පහසුවෙන් ගැනීමට හැකි වන සේ භාණ්ඩ අතර සෙන්ටිමීටර 50ක (50 cm) පරතරයක් තබන්න. 2. උඩ සිටින සේවකයාට අසුරා තැබීමට පහසු වන සේ බඩු වර්ගය, හැඩය සහ බෑමේ අනුපිළිවෙල සලකා බලා පටියට තබන්න. 3. බර භාණ්ඩ කිහිප දෙනෙකු එක්ව උස්සා තැබිය යුතු අතර, එය පටියට දැමූ විගස උඩ ඉන්න සේවකයාට 'බර එකක් එනවා' කියා සංඥා කළ යුතුය. 4. තද සුළං ඇති විට, ලියකියවිලි වැනි සැහැල්ලු දේ සුළඟට ගසාගෙන යා හැකි බැවින් පටියට නොදා අතින්ම ගෙන ගොස් භාර දෙන්න."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/112.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p020-4bba4",
@@ -720,7 +789,11 @@
           "english": "(6) When work is finished, inspect the cargo hold, Belt Loader surroundings, and inside ULDs/bulk carts to verify no leftover bags using Point and Call ('Yoshi!'). 1. Do not close ULD and bulk cart doors immediately; leave them open until multiple operators have cross-checked. 2. Handle special cargo according to each airline's specific manual.",
           "sinhala": "(6) වැඩ අවසන් වූ පසු, භාණ්ඩ මැදිරිය ඇතුළත, බෙල්ට් ලෝඩරය වටා සහ ULD හෝ කරත්ත ඇතුළත කිසිදු බෑගයක් ඉතිරි වී නැති බව (Tsuminokoshi) 'Point and Call' (指差呼称 - Yoshi!) මගින් තහවුරු කරන්න. 1. බෑග් ඉතිරිව නැති බව කිහිප දෙනෙකු පරීක්ෂා කරන තුරු ULD හෝ කරත්තයේ දොර වහාම වසා නොදමන්න. 2. විශේෂ භාණ්ඩ අදාළ ගුවන් සමාගමේ උපදෙස් අනුව භාර දෙන්න."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/113.png"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p021-a57dc",
@@ -748,7 +821,9 @@
           "english": "(6) Do not load items into any compartment other than the designated location. (7) When transporting items, take proper measures to prevent falls or tipping over; post a safety monitor when required. (8) In foul weather like rain or strong wind, always apply waterproof tarping to keep rainwater out. (9) Special loads must be restrained according to prescribed procedures. (10) At operation completion, inspect surrounding equipment to ensure no garbage or debris (FOD) is left behind.",
           "sinhala": "(6) නියමිත ස්ථානය හැර වෙනත් තැනක භාණ්ඩ පටවා නොගත යුතුය. (7) භාණ්ඩ ප්‍රවාහනය කිරීමේදී ඒවා බිමට වැටීම හෝ පෙරළීම වැළැක්වීමට නිසි පියවර ගත යුතු අතර අවශ්‍ය විටක නිරීක්ෂකයෙකු (Monitor) යෙදවිය යුතුය. (8) වැසි හෝ තද සුළං ඇති විට, භාණ්ඩ තුළට ජලය කාන්දු නොවන ලෙස ජල ආරක්ෂිත ආවරණ (Waterproof sheets) යොදන්න. (9) විශේෂ භාණ්ඩ නියමිත නීතිරීති අනුවම පැටවිය යුතුය. (10) වැඩ අවසන් වූ විට උපකරණ අවට කුණු කසළ (FOD) නොමැති බව පරීක්ෂා කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p022-a57dc",
@@ -788,7 +863,12 @@
           "english": "1. Water Truck (Figure 122): Self-propelled vehicle used to supply potable water, equipped with a water tank (approx. 4,000 liters), supply/drain hoses, and a water pumping system operating at a maximum pressure of 3.0 kg/cm².",
           "sinhala": "1. පානීය ජල රථය (Water Car - රූපය 122): ගුවන් යානාවලට පානීය ජලය සැපයීම සඳහා වන ස්වයං ධාවන රථයකි. ලීටර් 4,000ක පමණ ජල ටැංකියක්, හෝස් සහ උපරිම පීඩනය 3.0 kg/cm² වන ජල පොම්ප පද්ධතියකින් සමන්විතය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/117.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/122.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p023-a57dc",
@@ -819,7 +899,12 @@
           "english": "B. Lavatory Service (Figure 124): Toilet counts and waste tank volumes vary by aircraft size and flight distance. Waste accumulated during flight in dedicated tanks is serviced post-landing. The procedure: 1. Drain waste to the Lavatory Truck. 2. Flush and clean the tank interior with rinse water. 3. Recharge with a pre-set amount of flush water and chemical disinfectant/deodorizer.",
           "sinhala": "B. වැසිකිලි සේවාව (Lavatory Service - රූපය 124): ගුවන් යානාවල වැසිකිලි ගණන සහ අපද්‍රව්‍ය ටැංකියේ ප්‍රමාණය යානා මාදිලිය හා පියාසර දුර අනුව වෙනස් වේ. පියාසර අතරතුර ටැංකියේ එකතු වන අපද්‍රව්‍ය ගොඩබෑමෙන් පසු ඉවත් කරනු ලැබේ. පියවර 3: 1. අපද්‍රව්‍ය එළියට ඇද ඉවත් කිරීම 2. ටැංකිය වතුරෙන් සෝදා පිරිසිදු කිරීම 3. නියමිත ප්‍රමාණයට ජලය සහ විෂබීජ නාශක දුගඳ නසන රසායනික දියර (Deodorant/Disinfectant) පිරවීම."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/123.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/124.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p024-a57dc",
@@ -850,7 +935,12 @@
           "english": "C. Cabin Air Conditioning Service - Low Pressure Air / PCA (Figure 126): Ground conditioned air supply systems are built under the apron pavement; use the air outlet receptacle pit embedded at the spot (Air Conditioning Pit). Pull the large-diameter air duct hose completely out, untwist all kinks, and move it near the aircraft fuselage coupling panel. Caution! If the duct hose is twisted when connected, insufficient airflow will be delivered or the aircraft fuselage coupling connector may be damaged.",
           "sinhala": "C. කැබින් වායුසමීකරණ සේවාව (අඩු පීඩන වාතය - රූපය 126): ඇප්‍රන් පදික වේදිකාව යට භූගත වායුසමීකරණ පද්ධතියක් ඇති අතර, නැවතුම් අංගනයේ ඇති වායුසමීකරණ වළ (Air Conditioning Pit) මඟින් වාතය ලබාගනී. හෝස් එක සම්පූර්ණයෙන්ම පිටතට ඇද, එහි ඇති ඇඹරුම් (Nejire) සම්පූර්ණයෙන්ම දිගහැර කෙළින් කර යානයේ කප්ලිං එක අසලට ගෙන යන්න. අවවාදයයි! හෝස් එක ඇඹරී තිබියදී සවි කළහොත් ප්‍රමාණවත් වාතය නොලැබී යාම හෝ යානයේ කප්ලිං එකට හානි සිදුවිය හැක."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/125.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/126.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p025-a57dc",
@@ -880,7 +970,11 @@
           "english": "1. Ground Air Conditioning Supply Equipment (Figure 127): Chilled water (summer) or steam (winter) produced by airport central thermal energy plants is piped to each spot. Heat exchangers and blowers under the apron pavement cool or heat the ambient air, sending conditioned air through the pit hose into the aircraft.",
           "sinhala": "1. භූගත වායුසමීකරණ සැපයුම් උපකරණ (රූපය 127): ගුවන් තොටුපළ ගොඩනැගිල්ලේ ශක්ති සැපයුම් මධ්‍යස්ථානය මඟින් නිපදවන ශීත කළ ජලය (ගිම්හානයේදී) හෝ වාෂ්ප (ශීත ඍතුවේදී) එක් එක් අංගනයට (Spot) යවයි. ඇප්‍රන් පදික වේදිකාවට යටින් ඇති තාප හුවමාරු යන්ත්‍ර මඟින් සකසන සිසිල් හෝ උණුසුම් වාතය, වායුසමීකරණ වළ (Air conditioning pit) හරහා හෝස් එක දිගේ යානයට සපයයි."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/127.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p026-ba285",
@@ -911,7 +1005,12 @@
           "english": "Claim Tag Data Elements: Destination (Airport 3-Letter Code, e.g., LHR = London Heathrow) and Flight Number (e.g., NH211).",
           "sinhala": "ක්ලේම් ටැගයේ අඩංගු මූලික කරුණු: ගමනාන්තය (අකුරු 3 ගුවන් තොටුපළ කේතය, උදා: LHR = ලන්ඩන් හීත්‍රෝ) සහ ගුවන් ගමන් අංකය (උදා: NH211)."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/128.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/139.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p027-ba285",
@@ -948,7 +1047,18 @@
           "english": "Report the exact number of bags loaded into each container to the Weight and Balance controller (Figure 183). Based on this data, the Weight & Balance officer determines container positions and issues the Instruction Sheet. Ramp-side handlers load the containers into aircraft holds strictly according to this sheet. As departure time approaches, swift, accurate decisions and instructions are critically required to ensure on-time performance.",
           "sinhala": "කන්ටේනරයට පටවන ලද බෑග් ගණන Weight & Balance (බර සහ තුලනය) භාර නිලධාරියාට දැනුම් දෙන්න (රූපය 183). එම තොරතුරු මත පදනම්ව, Weight & Balance නිලධාරියා යානය තුළ කන්ටේනරය තැබිය යුතු ස්ථානය තීරණය කර උපදෙස් පත්‍රිකාව (Instruction Sheet) සාදයි. යානය අසල සේවකයින් මෙම පත්‍රිකාවට අනුව කන්ටේනර් පටවයි. පිටත්වීමේ වේලාව ළං වී ඇති බැවින්, වෙලාවට වැඩ අවසන් කිරීමට ඉක්මන් හා නිවැරදි තීරණ අතිශය වැදගත් වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/151.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/152.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/156.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/157.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/163.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/169.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/171.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/183.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p028-ba285",
@@ -978,7 +1088,11 @@
           "english": "Caution! Many operators are constantly moving around the arrival baggage conveyor area. When setting GSE in motion, the driver and nearby personnel must loudly alert surrounding workers that the vehicle is moving.",
           "sinhala": "අවවාදයයි! පැමිණීමේ ගමන් මලු බෙල්ට් එක අවට බොහෝ සේවකයින් එහා මෙහා ගමන් කරති. එබැවින් GSE වාහනයක් පණගන්වා ධාවනය කිරීමට පෙර, රියදුරු හෝ අසල සිටින සේවකයින් විසින් වාහනය චලනය වීමට සූදානම් වන බව අවට සිටින අනෙකුත් සේවකයින්ට හඬනගා දැනුම් දිය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/184.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p029-ba285",
@@ -1008,7 +1122,11 @@
           "english": "Cargo Sortation Workflow: Sortation starts from acceptance (loose small shipments or agent containers), issuing destination tags (Figure 6) per route. Fragile or sensitive items are identified via special cargo tags and care marks (Figure 7), packed into ULD containers or bulk carts, and staged for aircraft loading. Air cargo carriage is governed by Conditions of Carriage ('Kamotsu Unsou Yakkan') published by airlines. A legal transport contract is established when the shipper agrees to these terms upon booking.",
           "sinhala": "භාණ්ඩ වර්ග කිරීමේ ක්‍රියාවලිය: භාණ්ඩ භාරගැනීමෙන් (කුඩා තොග හෝ නියෝජිත කන්ටේනර්) පසු ගමනාන්තය අනුව ටැග් (රූපය 6) නිකුත් කර වර්ග කරයි. ප්‍රවේශමෙන් හැසිරවිය යුතු භාණ්ඩ විශේෂ ටැග් සහ ආරක්ෂිත සලකුණු (Care marks - රූපය 7) මඟින් හඳුනාගෙන කන්ටේනර් හෝ කරත්තවලට පටවා යානය වෙත යවයි. ගුවන් භාණ්ඩ ප්‍රවාහනය පාලනය වන්නේ ගුවන් සමාගම් විසින් ප්‍රකාශිත 'භාණ්ඩ ප්‍රවාහන ගිවිසුම' (Kamotsu Unsou Yakkan) මඟින් වන අතර, පාරිභෝගිකයා (යවන්නා) එම නියමයන් පිළිගත් විට ප්‍රවාහන කොන්ත්‍රාත්තුව ස්ථාපිත වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/185.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p030-ba285",
@@ -1040,7 +1158,13 @@
           "english": "Figure 7 Special Cargo Labels: 1. Perishable Goods (Figure 205): Fresh food, meat, fish, and cut flowers that spoil easily; watch for water/ice leakage during loading. 2. Live Animals (Figure 202 - LIVE ANIMALS): Living animals. Store in well-ventilated shade. Loading methods vary strictly by animal species.",
           "sinhala": "රූපය 7 විශේෂ භාණ්ඩ ටැග්: 1. නරක්වන ද්‍රව්‍ය (PERISHABLE - රූපය 205): නැවුම් මාළු, මස්, එළවළු සහ මල් වැනි පහසුවෙන් නරක් වන ද්‍රව්‍ය වේ. පැටවීමේදී අයිස් දියවී ජලය කාන්දු වීම ගැන දැඩිව විමසිලිමත් වන්න. 2. සජීවී සතුන් (LIVE ANIMALS - රූපය 202): පණ ඇති සතුන්. හොඳින් වාතාශ්‍රය ඇති සෙවණ සහිත තැනක තබන්න. සත්ව විශේෂය අනුව පැටවීමේ ක්‍රමය වෙනස් වන බව මතක තබාගන්න."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/190.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/202.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/205.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p031-afe1e",
@@ -1065,7 +1189,15 @@
           "english": "Care Marks on Air Cargo: 1. Handle with Care (Hands holding box - Figure 227): Do not subject to shock/impact (e.g., precision machinery). 2. Fragile (Wine glass - Figure 224): Fragile goods; handle gently (e.g., glassware, ceramics). 3. Keep Dry (Umbrella - Figure 226): Protect strictly from water/rain (e.g., electronic parts). 4. This Way Up (Two upward arrows - Figure 214): Never invert or stack sideways. 5. Stacking Limit (Number 6 over double bars - Figure 218): Maximum number of tiers allowed to be stacked (e.g., home appliances, up to 6 tiers).",
           "sinhala": "භාණ්ඩ ආරක්ෂිත සලකුණු (Care Marks): 1. Handle with Care / 取扱注意 (අත් දෙකෙන් පෙට්ටිය අල්ලා ඇති සලකුණ - රූපය 227): ගැටීම් හා කම්පන ඇති නොකරන්න; ප්‍රවේශමෙන් හසුරුවන්න (උදා: සියුම් ඉලෙක්ට්‍රොනික හා කාර්මික මෙවලම්). 2. Fragile / こわれもの (වීදුරු කෝප්පය - රූපය 224): බිඳෙනසුලුයි; ඉතා පරිස්සමෙන් පරිහරණය කරන්න (උදා: වීදුරු හා මැටි භාණ්ඩ). 3. Keep Dry / 水濡れ厳禁 (කුඩය - රූපය 226): ජලයෙන් සහ වැස්සෙන් ආරක්ෂා කරන්න (උදා: ඉලෙක්ට්‍රොනික උපාංග). 4. This Way Up / 天地無用 (ඉහළට යොමු වූ ඊතල දෙක - රූපය 214): උඩු අතට පමණක් තබන්න; යටිකුරු කිරීම හෝ පැත්තට පෙරළා තැබීම සපුරා තහනම්ය. 5. Stacking Limit / 上積み制限 (ඉලක්කම් 6 සහිත සලකුණ - රූපය 218): උඩට ඇසිරිය හැකි උපරිම තට්ටු ගණන පෙන්වයි (උදා: ගෘහ විදුලි උපකරණ, තට්ටු 6ක් දක්වා පමණි)."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/227.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/224.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/226.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/214.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/218.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p032-afe1e",
@@ -1095,7 +1227,11 @@
           "english": "Customs Clearance (Tsuukan): International air cargo requires statutory customs inspection and clearance procedures (Tsuukan), making operations more complex than domestic cargo. International cargo (Foreign Cargo) is defined as: (1) Domestic items manufactured locally that have been officially cleared for export (Export-cleared cargo). (2) Inbound items arrived from abroad that have not yet been granted import clearance (Uncleared import cargo).",
           "sinhala": "රේගු නිෂ්කාශනය (通関 - Tsuukan): ජාත්‍යන්තර ගුවන් භාණ්ඩ සඳහා රේගුවේ (Customs) පරීක්ෂාවට ලක්වීමේ ක්‍රියාවලිය (රේගු නිෂ්කාශනය) අනිවාර්ය වන බැවින්, දේශීය භාණ්ඩවලට වඩා ක්‍රියා පටිපාටිය සංකීර්ණ වේ. ජාත්‍යන්තර භාණ්ඩ (විදේශීය භාණ්ඩ) යනු: (1) දේශීයව නිපදවා අපනයන රේගු නිෂ්කාශනය ලබා ඇති භාණ්ඩ (Yushutsu tsuukan-zumi). (2) විදේශයකින් පැමිණ තවමත් ආනයන අවසරය ලබා නොමැති නිෂ්කාශනය නොවූ භාණ්ඩ (Yunyuu mitsuukan)."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/231.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p033-afe1e",
@@ -1114,7 +1250,9 @@
           "english": "(3) Bonded Transportation (Hozei Unsou): Cargo transported under customs bond between designated bonded areas before final import tax assessment. (4) Shipments landed and held temporarily in a bonded zone to be transshipped directly onto another international flight (Kari Rikuage Kamotsu - Transshipment Cargo under bond).",
           "sinhala": "(3) බන්ධිත ප්‍රවාහනය (保税運送 - Hozei Unsou): රේගු බදු ගෙවා අවසන් වන තුරු රට තුළ ඇති වෙනත් බන්ධිත ගබඩා ප්‍රදේශ අතර භාණ්ඩ ප්‍රවාහනය කිරීම. (4) තාවකාලික ගොඩබෑමේ භාණ්ඩ (仮陸揚げ貨物 - Kari Rikuage Kamotsu): එක් ජාත්‍යන්තර යානයකින් තවත් ජාත්‍යන්තර යානයකට මාරු කරන තෙක් තාවකාලිකව බන්ධිත ප්‍රදේශයක ගබඩා කර තබන භාණ්ඩ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p034-afe1e",
@@ -1135,7 +1273,11 @@
           "english": "Cabin Cleaning (Figure 232): Work scopes differ by destination, aircraft model, and date, requiring prior flight info check. Cleaning maintains cabin aesthetics and hygiene, divided into 4 main categories: (1) Inter-flight cleaning (Hikoukan sagyou): Performed in the short turnaround between domestic arrival and departure. (2) Post-flight cleaning (Hikougo sagyou): Deep-cleaning performed mainly at night after all daily flights finish. (3) International cleaning (Kokusaisen sagyou): Dedicated international turnaround servicing. (4) Special cleaning (Tokubetsu sagyou): Coinciding with scheduled heavy aircraft maintenance checks.",
           "sinhala": "ගුවන් යානා කැබින් පිරිසිදු කිරීම (රූපය 232): ගමනාන්තය සහ ගුවන් යානා වර්ගය අනුව පිරිසිදු කිරීම් වෙනස් වන බැවින් මූලික තොරතුරු කලින් පරීක්ෂා කළ යුතුය. පිරිසිදු කිරීමේ ප්‍රධාන වර්ග 4කි: (1) පියාසැරි අතර පිරිසිදු කිරීම (飛行間作業 - Hikoukan Sagyou): දේශීය ගුවන් වාර දෙකක් අතර ඇති සීමිත කාලය තුළ කරන ඉක්මන් පිරිසිදු කිරීම. (2) පියාසැරියෙන් පසු පිරිසිදු කිරීම (飛行後作業 - Hikougo Sagyou): දවසේ පියාසැරි සියල්ල අවසන් වූ පසු ප්‍රධාන වශයෙන් රාත්‍රී කාලයේ කරන සම්පූර්ණ පිරිසිදු කිරීම. (3) ජාත්‍යන්තර ගුවන් ගමන් පිරිසිදු කිරීම (国際線作業 - Kokusaisen Sagyou): ජාත්‍යන්තර යානා පැමිණීම සහ පිටවීම අතර කරන පිරිසිදු කිරීම. (4) විශේෂ පිරිසිදු කිරීම (特別作業 - Tokubetsu Sagyou): නියමිත ගුවන් යානා නඩත්තු (Maintenance) කාලවලදී කරන විශේෂිත පිරිසිදු කිරීම."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/232.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p035-afe1e",
@@ -1167,7 +1309,13 @@
           "english": "B. Inter-flight Cleaning (Figure 239): Fast-paced cleaning carried out strictly within the limited turnaround window between arrival and next departure. Cleaning locations comprise: passenger seats, galleys, lavatories, and general cabin zones (including flight deck and cabin door entryways).",
           "sinhala": "B. පියාසැරි අතර පිරිසිදු කිරීම (රූපය 239): පෙර ගුවන් යානය පැමිණි මොහොතේ සිට ඊළඟ ගුවන් ගමන පිටත්වන තෙක් ඇති සීමිත කාලය තුළ සිදුකරන ඉක්මන් පිරිසිදු කිරීමයි. පිරිසිදු කරන ස්ථාන: මගී ආසන (Seats), ගැලි (Galleys), වැසිකිලි (Lavatories), නියමු කුටිය (Cockpit/Flight deck) සහ පිවිසුම් දොරටු අසල ප්‍රදේශය වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/238.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/239.jpg",
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/240.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p036-02fe8",
@@ -1197,7 +1345,11 @@
           "english": "Galley Cleaning (Figure 244): 1. Remove and dispose of waste bins from the galley carts. After re-stowing trash bins, ensure access doors are securely latched. 2. Wipe down counters and folding service tables. 3. If galley floors are sticky from spilled drinks, wet-mop with water and rags.",
           "sinhala": "ගැලිය (Galley - ආහාර පිළියෙල කරන කොටස - රූපය 244): 1. ගැලි කුණු කූඩ එළියට ගෙන කුණු බැහැර කරන්න. කුණු කූඩය ආපසු දැමූ පසු දොරවල් තදින් ලොක් (Lock) කරන්න. 2. කවුන්ටරය සහ නැමිය හැකි මේස පිසදමන්න. 3. බීම හැලී බිම ඇලෙන සුළු නම්, මොප් එකකින් හෝ රෙදි කඩකින් (Wess) තෙත මාත්තු කර පිසදමන්න."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/244.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p037-02fe8",
@@ -1234,7 +1386,9 @@
           "english": "C. Post-flight Cleaning (Hikougo Sagyou): Conducted once daily during overnight parking after all scheduled domestic flights finish. Follows the same scope as inter-flight cleaning, but conducted unhurriedly and thoroughly across the entire aircraft, applying disinfectant solution where mandated.",
           "sinhala": "C. පියාසැරියෙන් පසු මෙහෙයුම් (Hikougo Sagyou): දවසේ ගුවන් ගමන් සියල්ල අවසන් වූ පසු රාත්‍රී කාලයේ දිනකට එක් වරක් (1日1回) සිදු කරනු ලබයි. මූලික පියවර ගුවන් වාර අතර පිරිසිදු කිරීමට සමාන වුවද, වැඩි කාලයක් වැය කරමින් සම්පූර්ණ යානයම ඉතා සූක්ෂමව පිරිසිදු කරන අතර නියමිත ස්ථානවල විෂබීජ නාශක දියර (Shoudokueki) භාවිත කරයි."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p038-02fe8",
@@ -1262,7 +1416,9 @@
           "english": "Strict Cleaning Mandates: 1. Safety Leaflet (Anzen no Shiori) matching that exact aircraft model must be present at every seat. 2. Safety leaflet title must face outward/forward so passengers can clearly see it. 3. Lost Property: If passenger items are found under seats or in pockets, report through official channels to the supervisor immediately. For valuables (wallets, phones, passports), report urgently, specifying the exact seat location where found. 4. Suspicious Objects: Report immediately to supervisor without touching.",
           "sinhala": "පිරිසිදු කිරීමේ දැඩි නීති: 1. ආරක්ෂිත උපදෙස් පත්‍රිකාව (Anzen no shiori) අදාළ යානා මාදිලියට ගැළපෙන එකක් බව තහවුරු කර සියලුම ආසනවල අනිවාර්යයෙන් තිබිය යුතුය. 2. ආරක්ෂිත පත්‍රිකාවේ මාතෘකාව මගීන්ට පැහැදිලිව පෙනෙන පරිදි සාක්කුවේ ඉදිරියෙන්ම තැබිය යුතුය. 3. අමතක වූ බඩු (Lost property): ආසන යට හෝ සාක්කුවේ තිබී මගීන්ගේ බඩු හමු වූ විට, වහාම ප්‍රධානියා මාර්ගයෙන් නියමිත පණිවිඩ මාර්ගයෙන් වාර්තා කරන්න. විශේෂයෙන් මුදල් පසුම්බි, ජංගම දුරකථන සහ විදේශ ගමන් බලපත්‍ර (Passports) හමු වූ විට එය හමුවූ නිශ්චිත ආසන අංකය සහිතව වහාම වාර්තා කිරීම අතිශය වැදගත් වේ. 4. සැකකටයුතු යමක් (Fushinbutsu) දුටුවහොත් අත නොතබා වහාම ප්‍රධානියාට දන්වන්න."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p039-02fe8",
@@ -1292,7 +1448,11 @@
           "english": "Warehouse Operations (Konai Sagyou): Supplies delivered by external vendors are sorted by category in large warehouse holding facilities. Because loading standards vary by aircraft model, route, and seat configuration, handlers verify item types and piece counts, pack supplies into sealed plastic packs or kits, and stage them onto carts designated per flight. Most of this preparation is manual labor, staffed by large teams during peak departure banks.",
           "sinhala": "ගබඩා අභ්‍යන්තර මෙහෙයුම් (庫内作業 - Konai Sagyou): බාහිර සැපයුම්කරුවන්ගෙන් ලැබෙන ගුවන් සේවා ද්‍රව්‍ය වර්ග අනුව විශාල ගබඩා තුළ වර්ග කර තබයි. ගුවන් යානා මාදිලිය, ගමන් මාර්ගය සහ ආසන ගණන අනුව අවශ්‍ය ද්‍රව්‍ය ප්‍රමාණය වෙනස් වන බැවින්, නිසි ගණන තහවුරු කර පොලිතීන් ඇසුරුම්වල හෝ විශේෂ කට්ටලවල බහා, එක් එක් ගුවන් වාරය සඳහා වෙන් කළ කරත්තවලට අසුරයි. මෙම කටයුතු බොහෝ දුරට අතින්ම (Manual) සිදු කරන අතර, ගුවන් ගමන් වැඩි කාර්යබහුල වේලාවන්හිදී විශාල සේවක පිරිසක් යොදවයි."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/251.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ground-handling-p040-02fe8",
@@ -1311,7 +1471,9 @@
           "english": "Summary of Warehouse Operations: Due to the high volume and variety of supplies delivered from outside vendors, they are sorted in spacious warehouses and pre-kitted onto flight-specific carts. During peak departure periods with tight turnarounds, large teams perform this manual preparation collaboratively.",
           "sinhala": "ගබඩා මෙහෙයුම් සාරාංශය: බාහිර සැපයුම්කරුවන්ගෙන් විශාල වශයෙන් සැපයුම් ලැබෙන බැවින්, ඒවා ගබඩා තුළ වර්ග කර එක් එක් ගුවන් ගමනට අදාළව කරත්තවලට ඇසුරුම් කෙරේ. ගුවන් වාර ගණන වැඩි කාර්යබහුල වේලාවන්හිදී විශාල පිරිසක් අතින්ම මෙම කටයුතු සිදු කරති."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p041-14cc7",
@@ -1330,7 +1492,9 @@
           "english": "Major overseas airport 3-letter IATA codes served by flights from Japan (Part 1).",
           "sinhala": "ජපානයේ සිට සෘජු ගුවන් ගමන් ක්‍රියාත්මක වන ලෝකයේ ප්‍රධාන ජාත්‍යන්තර ගුවන් තොටුපළ අකුරු 3 කේත (IATA 3-Letter Codes) - 1 කොටස."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p042-14cc7",
@@ -1349,7 +1513,9 @@
           "english": "Major overseas airport 3-letter IATA codes (Part 2: SIN to ZRH).",
           "sinhala": "ප්‍රධාන ජාත්‍යන්තර ගුවන් තොටුපළ අකුරු 3 කේත (ඉතිරි කොටස: SIN සිට ZRH දක්වා)."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p043-14cc7",
@@ -1368,7 +1534,9 @@
           "english": "Major Japanese domestic airport 3-letter IATA codes.",
           "sinhala": "ජපානයේ සියලුම ප්‍රධාන ගුවන් තොටුපළ අකුරු 3 කේත (Japanese Airport Codes)."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p044-14cc7",
@@ -1387,7 +1555,9 @@
           "english": "Major global airline IATA/ICAO 2-letter, 3-letter, and 3-digit AWB Prefix codes.",
           "sinhala": "ලෝකයේ ප්‍රධාන ගුවන් සමාගම්වල 2-Letter, 3-Letter සහ Air Waybill (AWB) Prefix ඉලක්කම් 3 කේත."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p045-14cc7",
@@ -1406,7 +1576,9 @@
           "english": "Major Japanese domestic airline codes (2-Letter, 3-Letter, and AWB Prefix codes).",
           "sinhala": "ජපානයේ ප්‍රධාන ගුවන් සමාගම් කේත (2-Letter, 3-Letter සහ Prefix අංක)."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "ground-handling-p046-14cc7",
@@ -1425,7 +1597,9 @@
           "english": "Ground Handling Rev 1 Textbook Complete: Comprehensive coverage of pages 1 to 46.",
           "sinhala": "විශේෂිත නිපුණතා (SSW) ගුවන් තොටුපළ බිම් මෙහෙයුම් හැසිරවීමේ Rev 1 විෂය නිර්දේශයේ පිටු 46 ම සම්පූර්ණ විය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "safety-quality-p011-24b6c",
@@ -1446,7 +1620,11 @@
           "english": "Standard Airport ID Card Management & Display (Figure 95): Airport ID cards must be strictly safeguarded. 1. Forbidden to use outside authorized zones or for non-official purposes. 2. Absolutely never lend, transfer, or borrow ID passes. When entering airport restricted security areas, the ID card must be visibly worn on the outermost garment at all times and immediately presented upon security officer inspection.",
           "sinhala": "සම්මත ගුවන් තොටුපළ හැඳුනුම්පත් (ID Card) කළමනාකරණය සහ පැළඳීම (රූපය 95): ගුවන් තොටුපළ හැඳුනුම්පත අතිශය දැඩිව හා සුරක්ෂිතව තබාගත යුතුය. 1. තමන්ට අවසර ලත් කලාපයෙන් පිටත හෝ අනවශ්‍ය කටයුතු සඳහා භාවිත කිරීම සපුරා තහනම්ය. 2. කිසිම හේතුවක් මත අන් අයට ණයට දීම (Lending) හෝ පැවරීම (Transferring) නොකළ යුතුය. ආරක්ෂිත සීමා සහිත කලාපවලට (Restricted Area) ඇතුළු වන විට හැඳුනුම්පත පිටතට පැහැදිලිව පෙනෙන සේ පැළඳ සිටිය යුතු අතර ආරක්ෂක නිලධාරියෙකු ඉල්ලා සිටි ඕනෑම මොහොතක එය පරීක්ෂාවට ඉදිරිපත් කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/95.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p012-24b6c",
@@ -1476,7 +1654,11 @@
           "english": "Protective Hardhat/Helmet Regulations: All personnel engaged in cargo/baggage loading and unloading operations must wear a protective safety helmet. The helmet chin strap (Agohimo) must be securely fastened under the chin at all times to prevent falling off during operations.",
           "sinhala": "සේවක ඇඳුම් පැළඳුම් - ආරක්ෂිත හිස්වැසුම් (Helmet) පැළඳීම: භාණ්ඩ හා ගමන් මලු පැටවීමේ (Loading) සහ බෑමේ (Unloading) නිරත වන සියලුම සේවකයින් ආරක්ෂිත හිස්වැස්මක් (Hogobou / Helmet) අනිවාර්යයෙන්ම පැළඳිය යුතුය. හිස්වැස්ම ගැලවී නොයන ලෙස නිකට පටිය (あご紐 - Agohimo) අනිවාර්යයෙන්ම නිවැරදිව සිර කර බැඳගත යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/96.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p013-24b6c",
@@ -1506,7 +1688,11 @@
           "english": "Work Uniform Safety Rules: Ground personnel must fasten all jacket buttons, zip up zippers completely, and securely tie safety boot laces. Loose fabric or untied laces risk getting snagged in conveyor belt rollers (Makikomi) or hooked onto moving vehicle levers and protrusions.",
           "sinhala": "වැඩ ඇඳුම් (Work Uniform) විනය: සේවකයින් තමන්ගේ නිල ඇඳුමේ බොත්තම්, සිපර් (Fastener) සහ සපත්තු ලේස් නිවැරදිව තද කර බැඳ තබාගත යුතුය. ඇඳුම් බුරුල්ව තිබුණහොත් හෝ ලේස් ලිහී තිබුණහොත් බෙල්ට් කන්වේයර්වලට සිරවීම (Makikomi) හෝ වාහනවල නෙරා ඇති කොටස්වල පැටලී බරපතල අනතුරු සිදුවිය හැක."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/97.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p014-24b6c",
@@ -1536,7 +1722,11 @@
           "english": "Rules for Driving Under Aircraft: Ground vehicles and GSE must NEVER drive under or be left unattended beneath an aircraft's fuselage or wings as a general principle. In strictly authorized exceptions, extreme clearance vigilance is mandatory. Critical Loading Warning: When docking GSE to aircraft doors, always anticipate the aircraft settling down (Kakou) during loading or rising up (Joushou) during unloading to prevent crushing equipment against the aircraft fuselage.",
           "sinhala": "ගුවන් යානය යටින් ධාවනය කිරීමේ නීති: ප්‍රතිපත්තියක් ලෙස කිසිදු වාහනයක් හෝ GSE උපකරණයක් ගුවන් යානය යටින් ධාවනය කිරීම හෝ යානය යට නවතා තැබීම සපුරා තහනම්ය. විශේෂ අවසර ලත් වාහනයක් ගමන් කරන්නේ නම් කිසිසේත් යානයේ නොගැටෙන සේ දැඩි අවධානයෙන් ධාවනය කළ යුතුය. අතිශය වැදගත් කරුණ: ගුවන් යානයට උපකරණ සවි කිරීමේදී, බඩු පටවන විට යානය පහත් වීමද (Kakou) බඩු බාන විට යානය ඉහළට එසවීමද (Joushou) සිදුවන බැවින් යානයේ බඳෙහි උපකරණ නොහැපෙන සේ නිරන්තර පරීක්ෂාවෙන් සිටිය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/98.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p015-24b6c",
@@ -1564,7 +1754,9 @@
           "english": "Vehicle Guiding and Marshalling Procedures: When a driver's visibility is limited, an external marshaller/guide (Yuudousha) must be assigned. Marshaller Positioning Rules: (a) Stand where the driver can clearly see both the travel path, stopping marks, and hand signals. NEVER stand directly behind a reversing vehicle (Maushiro kinshi) due to crush/blind spot hazards. (b) The guide must always maintain a safe position with an unobstructed emergency escape route.",
           "sinhala": "වාහන මාර්ගෝපදේශකයාගේ (Guide / Marshaller) රාජකාරි සහ පිහිටීම: රියදුරුට පමණක් අවට බාධා නොපෙනෙන විට පිටතින් මාර්ගෝපදේශකයෙකු (Yuudousha) යෙදවිය යුතුය. මාර්ගෝපදේශකයා සිටිය යුතු නිවැරදි ස්ථානය: (a) රියදුරුට ගමන් මාර්ගය, නැවතුම් ස්ථානය සහ මාර්ගෝපදේශකයාගේ හස්ත සංඥා ඉතා පැහැදිලිව පෙනෙන ස්ථානයක සිටිය යුතුය. වාහනය රිවර්ස් කරන විට කිසිසේත්ම වාහනයට කෙළින්ම පිටුපසින් (真後ろ - Maushiro) නොසිටිය යුතුය. (b) යම් හදිසි අනතුරක් වුවහොත් තමන්ට ක්ෂණිකව ඉවතට පැන දිවි බේරාගත හැකි (Hinan dekiru basho) ආරක්ෂිත ස්ථානයක සිටිය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "safety-quality-p016-2870b",
@@ -1594,7 +1786,11 @@
           "english": "Guiding Procedure & Mandatory Narrow-Body Engine Clearance: The marshaller must guide using synchronized two-handed signals combined with vocal callouts. Critical Rules: 1. Master all official signals thoroughly. 2. If the slightest danger is perceived, halt the vehicle immediately. 3. Narrow-Body Aircraft Rule: When guiding vehicles (e.g. Belt Loaders) to forward lower cargo doors, ALWAYS maintain at least 1.0 meter of clearance between the vehicle and propeller blades or jet engine nacelles!",
           "sinhala": "මාර්ගෝපදේශන ක්‍රමවේදය සහ පටු බඳ යානාවල මීටර් 1 ක පරතර නීතිය: ආරක්ෂාව තහවුරු කිරීමෙන් පසු අත් දෙකෙන්ම ලබාදෙන හස්ත සංඥා සහ හඬ සංඥා මඟින් රියදුරුට පැහැදිලිව පෙනෙන සේ වාහනය මෙහෙයවිය යුතුය[cite: 363, 391]. දැඩි අවවාදයයි: 1. සංඥා සහ ක්‍රමවේද නිවැරදිව දැන සිටිය යුතුය[cite: 363, 391]. 2. කිසියම් හෝ අනතුරක් දැනුණහොත් ක්ෂණිකව වාහනය නැවැත්විය යුතුය[cite: 363, 391]. 3. Narrow-body (පටු බඳ සහිත) යානාවල ඉදිරිපස කාගෝ දොරටුව අසලට වාහන මෙහෙයවීමේදී, එන්ජිම හෝ ප්‍රචාලකය (Propeller) සහ වාහනය අතර අවම වශයෙන් මීටර් 1 ක (1m ijou) පරතරයක් අනිවාර්යයෙන්ම තබාගත යුතුය[cite: 363, 391]."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/99.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p017-2870b",
@@ -1620,7 +1816,11 @@
           "english": "Figure 6 Vehicle Guiding Hand & Whistle Signals: 1. Move Straight Ahead (Chokushin seyo): Both arms bent at elbows, beckoning backward; Whistle: 'Peep-peep'. 2. Steer Left (as seen from driver): Right arm extended horizontally, left arm beckoning; Whistle: 'Peep-peep'. 3. Steer Right (as seen from driver): Left arm extended horizontally, right arm beckoning; Whistle: 'Peep-peep'. 4. Normal Stop (Teishi): Arms crossed overhead; Whistle: 'Peeeep, peep!'. 5. Emergency Stop (Kyuuteishi): Rapid repeated arm crossing overhead; Whistle: 'Peep! Peep! Peep!'[cite: 364, 392].",
           "sinhala": "රූපය 6 වාහන මෙහෙයවීමේ හස්ත සංඥා සහ විසිල් සංඥා (Figure 6): 1. කෙළින්ම ඉදිරියට එන්න (直進せよ - Chokushin seyo): අත් දෙකම වැලමිටෙන් නවා තමන් දෙසට වනමින් සංඥා කිරීම; විසිල් හඬ: 'පීප්-පීප්' (Pi-pi)[cite: 364, 392]. 2. වමට හරවන්න (රියදුරුගේ පැත්තෙන්): දකුණු අත තිරස්ව දිගු කර වම් අතින් හරවන ලෙස සංඥා කිරීම; විසිල් හඬ: 'පීප්-පීප්' (Pi-pi)[cite: 364, 392]. 3. දකුණට හරවන්න (රියදුරුගේ පැත්තෙන්): වම් අත තිරස්ව දිගු කර දකුණු අතින් හරවන ලෙස සංඥා කිරීම; විසිල් හඬ: 'පීප්-පීප්' (Pi-pi)[cite: 364, 392]. 4. සාමාන්‍ය නැවැත්වීම (停止 - Teishi): අත් දෙක හිසට ඉහළින් කතිර හැඩයට තබා ගැනීම; විසිල් හඬ: 'පීඊඊඊ... පීප්!' (Piiii, Pi!)[cite: 364, 392]. 5. ක්ෂණික හදිසි නැවැත්වීම (急停止 - Kyuuteishi): අත් දෙක හිසට ඉහළින් වේගයෙන් කතිර හැඩයට මාරු කරමින් වනමින් සංඥා කිරීම; විසිල් හඬ: ක්ෂණික කෙටි විසිල් තුනක් 'පීප්! පීප්! පීප්!' (Pi! Pi! Pi!)[cite: 364, 392]."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/120.png"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p018-2870b",
@@ -1642,7 +1842,12 @@
           "english": "Quality in Aviation Transport - The Three Core Pillars: Aviation quality is defined by how perfectly airport ground services meet benchmark expectations. Industry-wide, quality is evaluated against 3 indispensable pillars: 1. Safety (Anzensei): Operating flights without accidents is the absolute cornerstone of aviation. 2. Punctuality (Teijisei): Operating strictly on scheduled flight timetables without avoidable delays. 3. Passenger Comfort (Kaitekisei): Providing spotless, pleasant cabins and serene flight experiences.",
           "sinhala": "ගුවන් ප්‍රවාහනයේ ගුණාත්මකභාවය - ප්‍රධාන කුළුණු 3: ගුවන් සේවා ක්ෂේත්‍රයේ ගුණාත්මකභාවය (Quality) මනිනු ලබන්නේ පාරිභෝගික සේවාවන් සම්මත ප්‍රමිතීන්ට කොතරම් අනුකූලද යන්න මතය. ගුවන් ලෝකයේ ගුණාත්මකභාවය මනින ප්‍රධාන නිර්ණායක 3 කි: 1. ආරක්ෂාව (安全性 - Anzensei): ගුවන් යානා කිසිදු අනතුරකින් තොරව ආරක්ෂිතව පියාසර කරවීම ගුවන් ක්ෂේත්‍රයේ අංක එකේ වගකීමයි. 2. වේලාවට වැඩ කිරීම (定時性 - Teijisei): කලින් සැලසුම් කළ කාලසටහනට (Timetable) අනුව කිසිදු ප්‍රමාදයකින් තොරව යානය නියමිත වේලාවට පිටත් කරවීමයි. 3. සුවපහසුව (快適性 - Kaitekisei): මගීන්ට ප්‍රියජනක ගමනක් සඳහා පිරිසිදු, නිස්කලංක කැබින් පරිසරයක් සහ සුහද සේවාවක් ලබාදීමයි."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/134.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/135.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p019-2870b",
@@ -1663,7 +1868,11 @@
           "english": "Workplace Safety Direct Connection to Quality: Ground handling involves heavy outdoor machinery and vehicle driving executed against strict flight departure deadlines. A moment of carelessness triggers serious failures: worker injuries, aircraft strikes, GSE collisions, cargo/baggage damage, or misrouting (Gosou). Damaged aircraft require unscheduled repairs and injured staff cause operational delays that cascade into delayed takeoffs[cite: 365, 394]. Therefore, improving quality fundamentally means: executing procedures flawlessly, zero damage to aircraft and equipment, and keeping every worker healthy and unharmed[cite: 365, 394]!",
           "sinhala": "කාර්යයන්හි ආරක්ෂාව සහ ගුණාත්මකභාවය අතර සබඳතාව: ග්‍රවුන්ඩ් හැන්ඩ්ලින් මෙහෙයුම් යනු එළිමහනේ වාහන හා බර උපකරණ උපයෝගී කරගනිමින්, ගුවන් යානය පිටත්වීමේ දැඩි කාල සීමාව තුළ නිම කළ යුතු කාර්යයන්ය[cite: 365, 394]. සුළු හෝ නොසැලකිලිමත්කමක් (Yudan) සිදුවුවහොත් සේවක අනතුරු (Jinshin Saigai), යානාවලට හානි වීම, වාහන ගැටීම්, බඩු බාහිරාදියට හානි වීම හෝ වැරදි ගමනාන්තවලට යැවීම (誤送 - Gosou) වැනි බරපතල දෝෂ හටගනී[cite: 365, 394]. ගුවන් යානයකට හානි වුවහොත් අලුත්වැඩියාවන්ට කාලය ගතවීමෙන් සහ සේවකයෙකු තුවාල ලැබුවහොත් ගුවන් ගමන් ප්‍රමාද වේ[cite: 365, 394]. එබැවින් ගුණාත්මකභාවය (Quality) ඉහළ නැංවීම යනු: කාර්යයන් නිවැරදිව ඉටු කිරීම, ගුවන් යානා හෝ වාහනවලට හානි නොකිරීම සහ සේවකයින් නිරෝගීව හා ආරක්ෂිතව සිටීමම වේ[cite: 365, 394]."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/136.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p020-2870b",
@@ -1684,7 +1893,11 @@
           "english": "Eight Cardinal Principles of Ground Handling Work: All ramp duties must be executed quickly, accurately, and politely (Jinsoku, Kakujitsu, Teinei). Passengers constantly watch ground crews from boarding gates and cabin windows! The 8 Golden Rules: 1. Always prioritize occupational health and safety for yourself and co-workers. 2. Strict adherence to professional dress code and manners[cite: 366, 395]. 3. Maintain correct posture and precise body movements[cite: 366, 395]. 4. Deliver crystal-clear vehicle marshalling and communications[cite: 366, 395]. 5. In view of passengers, mind your language; never shout loudly, handle baggage roughly, or engage in horseplay/pranks (Warufuzake kinshi)[cite: 366, 395]! 6. Never touch aircraft surfaces, cargo, or equipment unless strictly necessary for your job[cite: 366, 395]. 7. Constantly monitor moving aircraft and ramp traffic[cite: 366, 395]. 8. Objectively inspect and verify your completed work[cite: 366, 395]. 'All aviation work is a continuous accumulation of verifications[cite: 366, 395]!'",
           "sinhala": "භූමි සේවක මූලික ආචාරධර්ම සහ දෛනික ආරක්ෂක විනය (රීති 8): භූමි මෙහෙයුම් කඩිනමින්, නිවැරදිව හා ගෞරවාන්විතව (Jinsoku, Kakujitsu, Teinei) ඉටු කළ යුතුය[cite: 366, 395]. මගීන් බෝඩිං ලවුන්ජ් එකේ සිට සහ ගුවන් යානයේ ජනේලවලින් ඔබ වැඩ කරන ආකාරය බලා සිටින බව තරයේ මතක තබාගන්න[cite: 366, 395]! රන් රීති 8: 1. තමන්ගේ සහ සගයන්ගේ සෞඛ්‍යාරක්ෂාව ගැන නිරන්තරයෙන් සැලකිලිමත් වන්න[cite: 366, 395]. 2. නිල ඇඳුම සහ විනය දැඩිව ආරක්ෂා කරන්න[cite: 366, 395]. 3. නිවැරදි ඉරියව් සහ නිරවුල් චලනයන් පවත්වා ගන්න[cite: 366, 395]. 4. වාහන මෙහෙයවීම්, හස්ත සංඥා සහ සන්නිවේදනය ඉතා පැහැදිලිව කරන්න[cite: 366, 395]. 5. මගීන් ඉදිරියේ ශබ්ද නගා කෑගැසීමෙන් වළකින්න; ගමන් මලුවලට නොසැලකිලිමත් ලෙස සැලකීම හෝ විහිළු සෙල්ලම් (Warufuzake kinshi) සපුරා තහනම්ය[cite: 366, 395]! 6. රාජකාරි අවශ්‍යතාවයකට හැර ගුවන් යානය, බඩු හෝ උපකරණ අනවශ්‍ය ලෙස ස්පර්ශ නොකරන්න[cite: 366, 395]. 7. රැම්ප් එකේදී සැමවිටම ගමන් කරන ගුවන් යානා සහ වාහන ගමනාගමනය ගැන දැඩි අවධානයෙන් සිටින්න[cite: 366, 395]. 8. වැඩ නිම වූ පසු තමන් කළ කාර්යය ස්වාධීනව නැවත පරීක්ෂා කරන්න[cite: 366, 395]. 'ගුවන් සේවා ක්ෂේත්‍රයේ සියලු කාර්යයන් යනු තහවුරු කිරීම් මතම ගොඩනැගුණු ක්‍රියාවලියකි[cite: 366, 395]!'"
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/137.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p001-b39c3",
@@ -1705,7 +1918,11 @@
           "english": "Specified Skilled Worker Evaluation Test (Aviation Field: Airport Ground Handling) - Safety & Quality",
           "sinhala": "විශේෂිත නිපුණතා ඇගයීම් විභාගය (ගුවන් සේවා ක්ෂේත්‍රය: ගුවන් තොටුපළ බිම් මෙහෙයුම් හැසිරවීම) - ආරක්ෂාව සහ ගුණාත්මකභාවය"
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/0.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p002-b39c3",
@@ -1735,7 +1952,11 @@
           "english": "While airlines earn revenue from passenger fares, unlike other industries, they bear the grave responsibility of being entrusted with passengers' lives ('Joukyaku no inochi wo azukaru'). Everyone working in aviation must continually reflect on safety and human lives in every action.",
           "sinhala": "ගුවන් සමාගම් මගී ගාස්තු මඟින් ආදායම උපයන නමුත්, වෙනත් කර්මාන්තවලට වඩා වෙනස්ව 'මගීන්ගේ වටිනා ජීවිත භාරගැනීම' (乗客の命を預かる - Joukyaku no inochi wo azukaru) නම් වූ අතිශය බැරෑරුම් වගකීමක් ඔවුන් වෙත පැවරී ඇත. ගුවන් සේවාවට සම්බන්ධ වැඩ කරන සෑම පුද්ගලයෙකුම නිරන්තරයෙන් මෙම 'ආරක්ෂාව' සහ 'මගී ජීවිත' පිළිබඳව සිතා කටයුතු කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/1.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p003-b39c3",
@@ -1754,7 +1975,9 @@
           "english": "If an aircraft accident occurs, the following catastrophic consequences arise: 1. Irreplaceable loss of human lives; large crashes are fatal. 2. Total loss of social trust, leading to an immediate collapse in passenger bookings. 3. Enormous accident settlement and compensation expenses, plunging the airline into financial insolvency. 4. Physical loss of aircraft, crippling flight schedules and fleet capacity.",
           "sinhala": "ගුවන් අනතුරක් සිදුවූ විට පහත දැක්වෙන බරපතල ගැටලු 4 මතු වේ: 1. කිසිදු දෙයකින් ආදේශ කළ නොහැකි මිනිස් ජීවිත අහිමි වීම. 2. සමාජීය විශ්වාසය බිඳවැටීම නිසා මගීන් සංඛ්‍යාව දැඩි ලෙස පහත වැටීම. 3. වන්දි ගෙවීම් (Hoshou), නීතිමය වියදම් සහ අනතුරු ස්ථාන පිරිසිදු කිරීමට දැවැන්ත මුදලක් වැයවීමෙන් සමාගම බංකොලොත් වීමේ අවදානම. 4. ගුවන් යානය විනාශ වීම නිසා නියමිත කාලසටහන් බිඳවැටී ආර්ථික පාඩු සිදුවීම."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "safety-quality-p004-b39c3",
@@ -1773,7 +1996,9 @@
           "english": "Within airport restricted security areas, aircraft operations always have absolute right-of-way (Saiyuusen); no vehicle or person may obstruct an aircraft. Reasons include: 1. Due to their immense size and structure, aircraft cannot stop or turn agilely. 2. The flight crew cockpit field of vision is very narrow, leaving vast blind spots around the fuselage.",
           "sinhala": "ගුවන් තොටුපළේ සීමා කළ ආරක්ෂිත කලාපය (Restricted Area) තුළ, සැමවිටම ගුවන් යානාවලට උපරිම ප්‍රමුඛතාවය (航空機最優先 - Koukuuki Saiyuusen) හිමිවන අතර, කිසිදු වාහනයක් ගුවන් යානයක ගමනට බාධා නොකළ යුතුය. ඊට හේතු: 1. යානයේ ව්‍යුහාත්මක විශාලත්වය නිසා එකවර හැරවීමට හෝ නැවැත්වීමට නොහැකි වීම (කඩිසර නොවීම). 2. නියමු කුටියේ (Cockpit) සිට බලන විට නියමුවාගේ දෘෂ්ටි කෝණය සීමිත වීම සහ විශාල අන්ධ කලාප (Blind spots) පැවතීම."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "safety-quality-p005-b39c3",
@@ -1815,7 +2040,9 @@
           "english": "5. Forward 40-Meter Buffer Rule: When an aircraft is taxiing on the ground without a marshaller guiding it, no vehicles or obstacles are permitted within 40 meters directly in front of the aircraft.",
           "sinhala": "5. ඉදිරිපස මීටර් 40 ආරක්ෂක සීමාව: බිම ධාවනය වන (Taxiing) ගුවන් යානයක් ඉදිරිපිට මාෂලර් කෙනෙකුගේ සංඥා මඟපෙන්වීමක් නොමැති නම්, යානය ඉදිරිපස **මීටර් 40ක් ඇතුළත (40m inai)** කිසිදු වාහනයක් හෝ බාධකයක් නොතිබිය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "safety-quality-p021-ef2d3",
@@ -1846,7 +2073,12 @@
           "english": "Shisa Koshou (Pointing and Calling) & Hazard Prediction: Ramp personnel frequently point toward the front and rear shouting 'Yoshi!'. This is not merely mechanical pointing; physically pointing while simultaneously calling out loudly sharpens neurological focus.",
           "sinhala": "ශිසා කොෂෝ සහ අනතුරු අනාවැකි: රැම්ප් එකේදී ඉදිරියට හා පසුපසට ඇඟිල්ල දිගු කරමින් 'යෝෂි!' කියා හඬ නගන අයුරු නිතර දක්නට ලැබේ. මනසේ අවධානය උපරිමයෙන් කේන්ද්‍රගත කර, ඇස් දෙකෙන්ම බලා අනාරක්ෂිත තත්ත්වයක් නැති බව තහවුරු කර ගැනීමකි."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p022-ef2d3",
@@ -1868,7 +2100,12 @@
           "english": "Practical Execution of Pointing and Calling: Proven to cut operational human errors by up to 85% in aviation and rail environments, instantly detecting unsafe conditions.",
           "sinhala": "ශිසා කොෂෝ ප්‍රායෝගිකව ක්‍රියාත්මක කිරීම: ගුවන් තොටුපළවල් සහ දුම්රිය සේවාවන්හි සේවක අත්වැරදීම් ප්‍රතිශතය විශාල ලෙස අවම කරන අතර අනාරක්ෂිත තත්ත්වයන් ක්ෂණිකව හඳුනා ගැනීමට උපකාරී වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/140.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/141.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p023-ef2d3",
@@ -1894,7 +2131,16 @@
           "english": "Reference-1 Ramp Roadway Markings Definition: Stop Line, Directional Arrows, Pedestrian Crossing Ahead (Diamond mark), Ahead Aircraft Priority (STOP / Dashed Line with absolute right-of-way for aircraft), Service Lane (Zigzag lines), and Taxiway Crossing Holding Area.",
           "sinhala": "යොමු-1 රැම්ප් මාර්ග සංඥා සහ සලකුණු: නැවැත්වීමේ රේඛාව (Stop Line), ධාවන දිශා ඊතලය, පදික මාරු සලකුණ (ඩයමන්ඩ් හැඩය ◇), ඉදිරිපස ගුවන් යානාවලට ප්‍රමුඛතාව (Zenpou Yuusen - ගුවන් යානයට පූර්ණ ප්‍රමුඛතාව), සර්විස් ලේන් (Zigzag ඉරි) සහ ටැක්සිවේ හරහා යාමට පොරොත්තු වන කලාපය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p024-ef2d3",
@@ -1918,7 +2164,14 @@
           "english": "Apron Safety Boundary Definitions: ERA (Equipment Restraint Area - absolute exclusion zone during aircraft movement), ESA (Equipment Staging Area - staging zone allowed 30 minutes prior to spot-in), Height-Restricted Staging Area (under 2.5m), PBB Operating Area (No Parking), and PBB Stand-by Position.",
           "sinhala": "රැම්ප් ආරක්ෂිත කලාප අර්ථ දැක්වීම්: ERA (උපකරණ සීමා කළ කලාපය - යානය එද්දී ඇතුළු වීම තහනම්), ESA (උපකරණ පොරොත්තු කලාපය - යානය පැමිණීමට විනාඩි 30 කට පෙර භාවිතා කළ හැකි අතර වැඩ අවසන් වූ වහාම ඉවත් විය යුතුය), උස සීමා සහිත කලාපය (මීටර් 2.5 ට අඩු), PBB ක්‍රියාකාරී කලාපය (නැවැත්වීම තහනම්) සහ PBB පොරොත්තු ස්ථානය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/149.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/150.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/151.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/152.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p025-ef2d3",
@@ -1940,7 +2193,12 @@
           "english": "PBB Stand-by Position: The passenger boarding bridge must remain parked at this stand-by mark until the incoming aircraft comes to a dead stop and engines are shut down. Absolutely no vehicles or equipment may be left inside this perimeter.",
           "sinhala": "PBB පොරොත්තු ස්ථානය: ගුවන් යානය සම්පූර්ණයෙන්ම නවතා එන්ජින් ක්‍රියා විරහිත කර All Clear සංඥාව ලැබෙන තුරු මගී පාලම මෙම නියමිත පොරොත්තු සලකුණ මත නවතා තැබිය යුතුය. මෙම සීමාව තුළ කිසිදු වාහනයක් හෝ උපකරණයක් අත්හැර දමා යාම සපුරා තහනම් වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/153.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/154.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p026-ef2d3",
@@ -1961,7 +2219,11 @@
           "english": "Reference-2 Dangerous Goods Regulations (DGR) & Heavy Penalties: Violating DGR transport rules is punishable by fines up to 500,000 YEN! Common illegal transport examples include lithium power banks, aerosol spray cans, hoverboards, and flammable cosmetics.",
           "sinhala": "යොමු-2 අන්තරායකර භාණ්ඩ (DGR) නීති සහ යෙන් 500,000 ක දඩය: අන්තරායකර භාණ්ඩ ප්‍රවාහන නීති කඩ කළහොත් යෙන් 500,000 ක් දක්වා (50-man'en) අධික දඩයකට යටත් වේ! උදාහරණ: 1. මොබයිල් පවර් බෑන්ක්, 2. ස්ප්‍රේ කෑන්, 3. හෝවර් බෝඩ්, 4. ගිනි ඇවිළෙන ආලේපන (නිය ආලේපන ආදී විලවුන්)."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/156.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p027-ef2d3",
@@ -1980,7 +2242,9 @@
           "english": "Three Pillars of DGR Transport & Mandatory Stakeholder Roles: 1. Shipper's Declaration, 2. Hazard Labelling, 3. Compliant Packaging. Shippers bear legal responsibility, while airlines and handlers must inspect waybills and physical packages.",
           "sinhala": "අන්තරායකර භාණ්ඩ ප්‍රවාහනයේ ප්‍රධාන නීති 3 සහ පාර්ශවයන්ගේ වගකීම: 1. DGR ප්‍රකාශන පත්‍රය (Declaration) සකස් කිරීම, 2. අනතුරු ඇඟවීමේ ලේබල් ඇලවීම (Labelling), 3. නියමිත ඇසුරුම්කරණය (Packing). වගකීම් බෙදී යාම: භාණ්ඩ යවන්නා (Niokurinin) නිවැරදිව ප්‍රකාශ කර ඇසුරුම් කළ යුතු අතර, ප්‍රවාහන ආයතනය (Aviation company) මාර්ග බිල්පත පරීක්ෂා කර නොගැලපීම් ඇත්නම් තහවුරු කළ යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "safety-quality-p028-ef2d3",
@@ -1999,7 +2263,9 @@
           "english": "Official Nine Classes of Dangerous Goods (IATA/ICAO Classes 1 to 9): Class 1 Explosives, Class 2 Gases, Class 3 Flammable Liquids, Class 4 Flammable Solids, Class 5 Oxidizers, Class 6 Toxics, Class 7 Radioactive, Class 8 Corrosives, Class 9 Miscellaneous (Lithium batteries, Dry ice).",
           "sinhala": "අන්තරායකර භාණ්ඩ නිල පන්ති 9 (DGR Classes 1 to 9): 1. පුපුරන ද්‍රව්‍ය, 2. සම්පීඩිත වායු, 3. ගිනි ඇවිළෙන ද්‍රව (සෙල්සියස් 60 ට අඩු), 4. ගිනි ඇවිළෙන ඝන ද්‍රව්‍ය, 5. ඔක්සිකාරක ද්‍රව්‍ය, 6. විෂ සහ ආසාදන ද්‍රව්‍ය, 7. විකිරණශීලී ද්‍රව්‍ය, 8. විඛාදන ද්‍රව්‍ය, 9. විවිධ අන්තරායකර භාණ්ඩ (ලිතියම් බැටරි, ඩ්‍රයි අයිස්)."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "safety-quality-p029-ef2d3",
@@ -2021,7 +2287,12 @@
           "english": "Hazard Warning Labels & Special Handling Marks: Every dangerous cargo piece must display both its Class Diamond Hazard Label (Classes 1-9) and required Handling Marks such as Cargo Aircraft Only (CAO - forbidden on passenger flights), Cryogenic Liquid, and Lithium Battery Marks.",
           "sinhala": "අන්තරායකර ලේබල් සහ විශේෂ හැසිරවීමේ සලකුණු: 1-9 පන්ති ලේබල් මෙන්ම මගී යානාවල පැටවීම තහනම් වන කාගෝ යානාවලට පමණක් වන ලේබලය (Cargo Aircraft Only - CAO), අතිශය අඩු උෂ්ණත්ව දියර සහ ලිතියම් බැටරි සලකුණු අත්‍යවශ්‍ය වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/157.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/158.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p030-ef2d3",
@@ -2040,7 +2311,9 @@
           "english": "Selection of Proper Containers: Must use UN certified packaging and jerrycans suited to the chemical properties of the dangerous goods to prevent leaks and structural failures during transit.",
           "sinhala": "නිවැරදි බහාලුම් තෝරා ගැනීම: අන්තරායකර භාණ්ඩවල ස්වභාවයට ගැළපෙන පරිදි එක්සත් ජාතීන්ගේ ප්‍රමිතීන්ට අනුකූල බහාලුම් (UN Certified Packaging / Jerrycan) භාවිත කර කාන්දු වීම් හා බිඳ වැටීම් සම්පූර්ණයෙන්ම වැළැක්විය යුතුය."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "safety-quality-p031-ef2d3",
@@ -2059,7 +2332,9 @@
           "english": "Final Summary: Achieve zero accidents across all handling operations by maintaining near-miss sharing, rigorously practicing pointing-and-calling, and strictly verifying dangerous goods compliance.",
           "sinhala": "සාරාංශය - ආරක්ෂක තහවුරු කිරීම සහ අවසාන තත්ත්ව පරීක්ෂාව: සියලුම හැසිරවීම් කටයුතුවලදී හියාරි-හට්ටෝ වාර්තා හුවමාරු කර ගැනීම, ශිසා කොෂෝ ක්‍රියාත්මක කිරීම සහ අන්තරායකර භාණ්ඩ දැඩි ලෙස පරීක්ෂා කිරීම මඟින් අනතුරු රහිත සේවා පරිසරයක් (Zero Accidents) තහවුරු කරන්න."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "safety-quality-p006-3c62f",
@@ -2089,7 +2364,11 @@
           "english": "Departure Cue Checklist & Lighting Identification (Figure 3 / 24.jpg): 1. Flashing Red Anti-Collision Lights (top & belly beacons active) 2. Navigation Lights (Right wingtip: GREEN, Left wingtip: RED, Tail: WHITE) 3. Engine start initiated 4. PBB bridge detached 5. Towing tractor amber beacon flashing 6. Wheel chocks removed 7. Watchman signals All Clear.",
           "sinhala": "ගුවන් යානය පිටත්වීමට සූදානම් බව හඳුනාගැනීමේ කරුණු සහ විදුලි පහන් (රූපය 3 / 24.jpg): 1. ගැටුම් නාශක රතු ආලෝකය (Anti-Collision Light - උඩ සහ යට රතු ලයිට් දැල්වීම) 2. පියාපත් කෙළවර ලයිට් (දකුණු පස: කොළ පැහැය, වම් පස: රතු පැහැය) සහ පසුපස ලයිට් (සුදු) 3. එන්ජින් පණගැන්වීම 4. මගී පාලම (PBB) ඈත් කිරීම 5. ට්‍රැක්ටරයේ කහ කැරකෙන ලයිට් එක දැල්වීම 6. රෝද කුට්ටි (Wheel Chocks) ඉවත් කිරීම 7. වොච්මන් All Clear සංඥාව ලබාදීම."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/24.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p007-3c62f",
@@ -2108,7 +2387,9 @@
           "english": "Engine Hazard Zones (Figure 4): When aircraft engines operate on the ground, extreme hazard zones exist at the exhaust blast (rear) and inlet intake (front). Exhaust Blast Hazards: Threat arises from extreme heat and supersonic velocity. The blast is completely invisible; wind speeds of 25 m/s equal a severe typhoon, capable of blowing ground workers and heavy equipment away.",
           "sinhala": "එන්ජින් අවදානම් කලාප (Figure 4): ගුවන් යානයේ එන්ජින් ක්‍රියාත්මක වන විට පිටුපස පිටාර පිපිරුම (Jet Blast) සහ ඉදිරිපස වාතය උරාගැනීම (Intake) නිසා දැඩි අනතුරුදායක කලාප නිර්මාණය වේ. පිටාර පිපිරුමේ (Exhaust) අනතුර: ජෙට් එන්ජිම පිටුපසින් නිකුත් වන අධික උෂ්ණත්වය සහ සුළං වේගය මිනිස් සිරුරට මාරාන්තික හානි පමුණුවයි. මෙම පිපිරුම් සුළඟ ඇසට නොපෙනෙන අතර, තත්පරයට මීටර් 25ක (25 m/s) සුළං වේගය ප්‍රචණ්ඩ සුළි කුණාටුවකට (Typhoon) සමාන වන බැවින් සේවකයින් සහ උපකරණ ඈතට විසිවී යාමේ බරපතල අනතුරක් ඇත."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "safety-quality-p008-3c62f",
@@ -2136,7 +2417,9 @@
           "english": "Dangerous Goods Regulations (DGR): Loading explosives, flammable substances, and weapons onto aircraft is strictly forbidden by aviation law, except under rigid legal exemptions, as they risk aircraft destruction or structural damage. Mandatory countermeasures include prohibiting unaccompanied baggage, requiring X-ray security screenings, and enforcing verified shipper declarations.",
           "sinhala": "අන්තරායකර භාණ්ඩ ප්‍රවාහනය (DGR): පුපුරන ද්‍රව්‍ය, පහසුවෙන් ගිනිගන්නා ද්‍රව්‍ය, තුවක්කු සහ කඩු වැනි ආයුධ ගුවන් යානාවල පැටවීම නීතියෙන් සපුරා තහනම්ය. ඊට හේතුව යානය පුපුරා යාමට හෝ දැඩි හානි සිදුවීමට ඉඩ ඇති බැවිනි. මගියා නොමැතිව ගමන් මලු පමණක් යැවීම තහනම් කිරීම, X-Ray ආරක්ෂක පරීක්ෂාවන් සිදු කිරීම සහ භාණ්ඩ යවන්නාගෙන් නිල ප්‍රකාශන ලබාගැනීම අනිවාර්ය කර ඇත."
         }
-      ]
+      ],
+      "verified_non_qr_images": [],
+      "image_audit_status": "NO_STANDALONE_NON_QR_IMAGE_ON_SOURCE_PAGE"
     },
     {
       "id": "safety-quality-p009-3c62f",
@@ -2166,7 +2449,11 @@
           "english": "When flying through severe weather or heavy headwinds, extra contingency fuel must be uplifted. In such conditions, maximum payload must be shed—potentially requiring reductions in cargo, mail, or even passenger numbers. Accurately reporting passenger counts, baggage pieces, cargo weight, and potable water quantity to flight operations is therefore critical.",
           "sinhala": "තද සුළං හෝ අයහපත් කාලගුණය ඇති විට යානයට අමතර ඉන්ධන (Extra fuel) පැටවීමට සිදුවේ. එවැනි විටක යානයේ මුළු බර සීමාව ඉක්මවා නොයෑමට භාණ්ඩ, තැපැල් හෝ මගීන් සංඛ්‍යාව පවා අඩු කිරීමට සිදු විය හැක. එබැවින් මගීන් ගණන, බෑග් ගණන, භාණ්ඩ බර සහ පටවන ලද ජල ප්‍රමාණය නියමිත පරිදි පාලක අංශයට නිවැරදිව වාර්තා කිරීම අතිශය වැදගත් වේ."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/93.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "safety-quality-p010-3c62f",
@@ -2196,7 +2483,11 @@
           "english": "Aviation Security Screening (Figure 94): Passengers and all baggage undergo strict security checks to prevent unlawful acts such as hijackings and sabotage. Critical Discrepancy Rule: If there is any mismatch between checked-in passenger counts and actual boarded passengers (Fuicchi), flights cannot depart until mandatory reconciliation procedures are completed. Explosives may enter as loose chemical precursors; if cabin cleaning crews find unverified items, immediately notify supervisors. Report any unauthorized or suspicious person on the ramp instantly.",
           "sinhala": "ගුවන් සේවා ආරක්ෂාව (රූපය 94): ගුවන් යානා පැහැරගැනීම් (Hijacking) හෝ බෝම්බ පිපිරවීම් වැනි නීතිවිරෝධී ක්‍රියා වැළැක්වීමට මගීන් සහ සියලු ගමන් මලු දැඩි ආරක්ෂක පරීක්ෂාවකට ලක් කරයි. අතිශය වැදගත් රීතිය: චෙක්-ඉන් කළ මගීන් ගණන සහ යානයට ඇතුළු වූ මගීන් ගණන අතර එක මගියෙකුගේ හෝ වෙනසක් (不一致 - Fuicchi) ඇත්නම්, නියමිත රෙගුලාසි අනුව පරීක්ෂා කර අවසන් වන තුරු යානය පිටත් කළ නොහැක. පුපුරන ද්‍රව්‍ය රසායනික හෝ අමතර කොටස් ලෙස ගෙන ආ හැකි බැවින්, කැබින් පිරිසිදු කරද්දී එවැනි සැකකටයුතු යමක් දුටුවහොත් වහාම ප්‍රධානියාට දන්වා යානයෙන් ඉවත් කළ යුතුය. යානය අසල සැකකටයුතු පුද්ගලයෙකු (不審者 - Fushinsha) දුටුවහොත් වහාම වාර්තා කරන්න."
         }
-      ]
+      ],
+      "verified_non_qr_images": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/94.jpg"
+      ],
+      "image_audit_status": "VISUALLY_REVIEWED_NO_QR_SOURCE_MAPPED"
     },
     {
       "id": "ssw-readytofly-main-assets-data-rev-2-si-p001-d9250",
