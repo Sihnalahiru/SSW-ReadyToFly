@@ -2,7 +2,7 @@
   "project": "SSW-ReadyToFly",
   "module": "Airport Ground Handling",
   "revision": "Rev 2",
-  "status": "PRELIMINARY_SOURCE_INVENTORY_ONLY",
+  "status": "SOURCE_BINARY_AND_IMAGE_ASSOCIATION_PARTIALLY_VERIFIED",
   "source_pdf": {
     "path": "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】.REV2.1.pdf",
     "filename": "GHtext【2.Airport Ground Handling】.REV2.1.pdf",
@@ -102,7 +102,10 @@
       "134.jpg"
     ],
     "dimensions_and_visual_review": "PENDING",
-    "page_mapping": "PENDING"
+    "page_mapping": "PDF_IMAGE_SOURCE_MAP_AVAILABLE",
+    "source_map_path": "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/pdf_image_source_map_rev2_1.json",
+    "exact_pixel_matches": 84,
+    "exact_git_blob_matches": 84
   },
   "revision_separation": {
     "rule": "Use only the exact Rev 2 PDF and its matching Rev 2 image directory listed above. Do not import Rev 1 content, images, translations, or audit records."
@@ -111,10 +114,10 @@
     "Extract and verify PDF page count",
     "Record printed page numbering versus physical PDF page indices",
     "Extract the complete table of contents, headings, sections, tables, and diagram references",
-    "Inspect all 84 image files and record dimensions and visual descriptions",
     "Map images to exact source pages only when evidence supports the relationship",
-    "Complete source-page audit before translation or study-data authoring"
+    "Complete source-page audit before translation or study-data authoring",
+    "Visually inspect all 84 images for content, dimensions, QR/code content, and semantic relevance; preserve source-map page associations."
   ],
   "audit_policy": "Source-faithful. Do not infer missing content or relationships; mark unsupported items PENDING.",
-  "last_updated": "2026-11-08"
+  "last_updated": "2026-11-10"
 }
