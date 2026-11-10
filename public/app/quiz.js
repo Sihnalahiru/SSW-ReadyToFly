@@ -1,7 +1,7 @@
 const DATA_URL='../assets/data/vocabulary_master.json';
 const CONFIG_URL='../assets/data/quiz_config.json';
 const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-let records=[],config=null,loadError='',session=[],position=0,selected=null,score=0,wrong=[],activeSet=1,reviewMode=false;
+let records=[],config=null,loadError='',session=[],position=0,selected=null,score=0,wrong=[],activeSet=1,reviewMode=false,hasStarted=false;
 const shuffle=items=>{const copy=[...items];for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}return copy;};
 function buildSession(setNumber=activeSet){
  const sizes=config?.sets?.question_counts||[50,50,50,50,50,50,50,50,50,50,50,50,23];
@@ -40,7 +40,34 @@ function buildReviewSession(){
  });
  position=0;selected=null;score=0;wrong=[];
 }
+function renderSetPicker(root){
+ const sizes=config?.sets?.question_counts||[];
+ const saved=window.ReadyToFlyProgress?.get?.()||{};
+ const cards=sizes.map((count,index)=>{
+  const setNumber=index+1;
+  const start=sizes.slice(0,index).reduce((sum,value)=>sum+Number(value||0),0);
+  const ids=new Set(records.filter(item=>item.japanese&&item.english).slice(start,start+Number(count||0)).map(item=>item.id));
+  const completed=Object.entries(saved).filter(([key,value])=>key.startsWith('quiz-attempt:')&&ids.has(value?.question_id)).length;
+  return `<button type="button" class="quiz-set-card" data-quiz-set="${setNumber}">
+   <span class="quiz-set-number">SET ${String(setNumber).padStart(2,'0')}</span>
+   <strong>${Number(count||0)} Questions</strong>
+   <small>${completed?Math.min(completed,Number(count||0))+' attempts saved':'Ready to practise'}</small>
+   <span class="quiz-set-action">Choose set →</span>
+  </button>`;
+ }).join('');
+ root.innerHTML=`
+  <section class="welcome"><p class="eyebrow">KNOWLEDGE CHECK · VOCABULARY</p><h1>Quiz Center</h1><p class="muted">Choose a practice set. Each set contains its own questions and can be opened separately.</p></section>
+  <section class="panel quiz-set-picker">
+   <div class="quiz-set-picker-heading"><div><strong>Vocabulary practice papers</strong><span>${sizes.length} separate sets · ${sizes.reduce((a,b)=>a+Number(b||0),0)} terms</span></div><span class="quiz-set-label">SELECT A SET</span></div>
+   <div class="quiz-set-grid">${cards}</div>
+   <p class="quiz-source-note">Workbook-based vocabulary practice. These sets are not official CBT examination papers. Question order is shuffled within the selected set.</p>
+  </section>`;
+ root.querySelectorAll('[data-quiz-set]').forEach(button=>button.addEventListener('click',()=>{
+  activeSet=Number(button.dataset.quizSet);reviewMode=false;hasStarted=true;buildSession(activeSet);renderQuizView(root);
+ }));
+}
 function renderQuizView(root){
+ if(!reviewMode&&!hasStarted){renderSetPicker(root);return;}
  const item=session[position];
  if(!item){
   const saved=window.ReadyToFlyProgress?.get?.()||{};
@@ -48,7 +75,7 @@ function renderQuizView(root){
   root.innerHTML=`
    <section class="welcome"><p class="eyebrow">${reviewMode?'WRONG-ANSWER REVIEW':'VOCABULARY RECOGNITION PRACTICE'}</p><h1>${reviewMode?'Review complete':'Quiz complete'}</h1><p class="muted">${reviewMode?'Retry the terms you previously answered incorrectly. They remain in your review list until you clear them.':'This practice set is generated from the existing vocabulary workbook, not an official CBT paper. Sets use fixed, non-overlapping source-record ranges; question order is shuffled within each set.'}</p></section>
    <section class="panel quiz-result">${session.length?'<strong class="quiz-result-score">'+score+' / '+session.length+'</strong><p>Correct answers</p>':'<p>No saved wrong answers to review.</p>'}<p class="muted">${missedCount} terms remain in your wrong-answer list.</p><button class="primary-button" type="button" data-quiz-return>${reviewMode?'Back to practice':'Practise another set'}</button>${reviewMode&&missedCount?'<button class="secondary-button" type="button" data-quiz-clear>Clear wrong-answer list</button>':''}</section>`;
-  root.querySelector('[data-quiz-return]')?.addEventListener('click',()=>{if(reviewMode){reviewMode=false;buildSession(activeSet);}else{activeSet=activeSet>=(config?.sets?.set_count||13)?1:activeSet+1;buildSession(activeSet);}renderQuizView(root);});
+  root.querySelector('[data-quiz-return]')?.addEventListener('click',()=>{if(reviewMode){reviewMode=false;hasStarted=true;buildSession(activeSet);renderQuizView(root);}else{hasStarted=false;session=[];renderSetPicker(root);}});
   root.querySelector('[data-quiz-clear]')?.addEventListener('click',()=>{Object.entries(saved).filter(([key,value])=>key.startsWith('wrong-answer:')&&value?.wrong).forEach(([key,value])=>window.dispatchEvent(new CustomEvent('readytofly:progress',{detail:{key,value:{...value,wrong:false,clearedAt:new Date().toISOString()}}})));renderQuizView(root);});
   return;
  }
@@ -94,7 +121,7 @@ export function renderQuiz(){
     if(!dataResponse.ok||!configResponse.ok)throw new Error('Quiz resources could not be loaded.');
     const [data,settings]=await Promise.all([dataResponse.json(),configResponse.json()]);
     if(!Array.isArray(data.records))throw new Error('Vocabulary practice data is not supported.');
-    records=data.records;config=settings;buildSession();
+    records=data.records;config=settings;hasStarted=false;session=[];
    }catch(error){loadError=error.message||'Quiz resources could not be loaded.';root.innerHTML=`<div class="empty-state">${escapeHtml(loadError)}</div>`;return;}
   }
   renderQuizView(root);
