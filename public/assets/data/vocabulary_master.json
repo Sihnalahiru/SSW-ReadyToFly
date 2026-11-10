@@ -93,7 +93,22 @@
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/43.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/44.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/55.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/56.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/56.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/149.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/150.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/151.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/152.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/153.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/154.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/13.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/14.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/16.png"
       ],
       "study_page_refs": [
         "ground-handling-p002-8cd4e",
@@ -163,21 +178,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/142.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/143.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/144.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/145.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/146.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/147.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/149.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/150.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/151.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/152.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/153.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/154.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/014.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/016.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/005.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/006.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/007.jpg",
@@ -608,7 +608,9 @@
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/33.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/34.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/45.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/46.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/46.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/157.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/158.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p004-8cd4e",
@@ -645,8 +647,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/157.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/158.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/011.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/012.jpg"
       ]
@@ -1273,7 +1273,15 @@
       },
       "image_refs": [
         "assets/data/Rev 1 Sinhala/Ground handling - Images V1/10.jpg",
-        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/11.jpg"
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/11.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/149.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/150.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/151.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/152.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/153.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/154.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/13.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/14.png"
       ],
       "study_page_refs": [
         "ground-handling-p004-8cd4e",
@@ -1290,14 +1298,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/149.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/150.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/151.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/152.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/153.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/154.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/014.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/005.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/006.jpg"
       ]
@@ -1362,7 +1362,15 @@
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/3.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/4.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/61.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/62.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/62.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/149.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/150.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/151.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/152.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/153.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/154.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/13.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/14.png"
       ],
       "study_page_refs": [
         "ground-handling-p004-8cd4e",
@@ -1390,17 +1398,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/149.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/150.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/151.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/152.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/153.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/154.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/014.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0033",
@@ -2398,7 +2396,9 @@
       },
       "image_refs": [
         "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/137.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/24.jpg"
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/24.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/140.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/141.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p020-2870b",
@@ -2411,11 +2411,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/140.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/141.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0066",
@@ -2883,7 +2879,13 @@
         "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/95.jpg",
         "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/98.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/3.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/4.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/4.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/149.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/150.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/151.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/152.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/13.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/14.png"
       ],
       "study_page_refs": [
         "safety-quality-p011-24b6c",
@@ -2902,12 +2904,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/149.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/150.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/151.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/152.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/014.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/021.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/022.jpg"
       ]
@@ -3183,7 +3179,18 @@
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/55.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/56.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/57.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/58.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/58.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/153.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/154.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/13.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/14.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/16.png"
       ],
       "study_page_refs": [
         "ground-handling-p012-383c5",
@@ -3226,17 +3233,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/142.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/143.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/144.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/145.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/146.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/147.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/153.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/154.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/014.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/016.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/021.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/022.jpg"
       ]
@@ -3805,7 +3801,9 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/58.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/24.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/31.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/32.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/32.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p002-8cd4e",
@@ -3836,8 +3834,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/023.jpg"
       ]
     },
@@ -4136,7 +4132,13 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/55.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/56.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/25.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/26.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/26.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p028-ba285",
@@ -4155,12 +4157,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/142.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/143.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/144.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/145.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/146.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/147.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/021.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/022.jpg"
       ]
@@ -4653,7 +4649,9 @@
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/1.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/2.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/35.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/36.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/36.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p022-a57dc",
@@ -4674,11 +4672,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0140",
@@ -5366,7 +5360,9 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/7.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/8.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/55.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/56.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/56.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p033-afe1e",
@@ -5382,11 +5378,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0164",
@@ -6111,7 +6103,13 @@
       },
       "image_refs": [
         "assets/data/Rev 1 Sinhala/Ground handling - Images V1/112.jpg",
-        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/184.jpg"
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/184.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/149.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/150.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/151.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/152.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/13.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/14.png"
       ],
       "study_page_refs": [
         "ground-handling-p017-4bba4",
@@ -6126,15 +6124,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/149.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/150.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/151.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/152.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/014.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0189",
@@ -6902,7 +6892,10 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/47.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/48.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/51.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/52.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/52.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/153.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/154.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/16.png"
       ],
       "study_page_refs": [
         "ground-handling-p020-4bba4",
@@ -6921,9 +6914,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/153.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/154.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/016.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/017.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/018.jpg"
       ]
@@ -8059,7 +8049,9 @@
         "assets/data/Rev 1 Sinhala/Ground handling - Images V1/239.jpg",
         "assets/data/Rev 1 Sinhala/Ground handling - Images V1/240.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/55.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/56.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/56.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p012-383c5",
@@ -8075,11 +8067,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0255",
@@ -8774,7 +8762,9 @@
       },
       "image_refs": [
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/25.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/26.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/26.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/13.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/14.png"
       ],
       "study_page_refs": [
         "ground-handling-p038-02fe8",
@@ -8787,11 +8777,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/014.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0281",
@@ -9626,7 +9612,8 @@
       "image_refs": [
         "assets/data/Rev 1 Sinhala/Ground handling - Images V1/185.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/17.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/18.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/18.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/156.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p029-ba285",
@@ -9641,10 +9628,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/156.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0311",
@@ -9973,7 +9957,8 @@
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/3.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/4.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/13.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/14.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/14.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/156.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p038-02fe8",
@@ -9992,7 +9977,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/156.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/021.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/022.jpg"
       ]
@@ -10014,7 +9998,8 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/17.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/18.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/49.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/50.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/50.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/156.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p026-ef2d3",
@@ -10028,10 +10013,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/156.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0325",
@@ -10089,7 +10071,9 @@
         "sheet": "Master Vocabulary",
         "row": 328
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/156.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p026-ef2d3"
       ],
@@ -10099,10 +10083,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/156.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0328",
@@ -10370,7 +10351,8 @@
       "image_refs": [
         "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/94.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/17.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/18.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/18.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/156.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p026-ef2d3",
@@ -10383,10 +10365,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/156.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0339",
@@ -10760,7 +10739,9 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/19.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/20.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/21.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/22.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/22.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/157.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/158.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p028-ef2d3",
@@ -10774,11 +10755,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/157.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/158.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0356",
@@ -10985,7 +10962,13 @@
         "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/14.jpg",
         "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/16.png",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/51.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/52.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/52.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p005-8cd4e",
@@ -11006,12 +10989,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/142.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/143.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/144.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/145.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/146.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/147.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/005.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/006.jpg"
       ]
@@ -11433,7 +11410,8 @@
         "assets/data/Rev 1 Sinhala/Ground handling - Images V1/185.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/15.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/47.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/48.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/48.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/16.png"
       ],
       "study_page_refs": [
         "ground-handling-p029-ba285",
@@ -11446,10 +11424,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/016.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0378",
@@ -11865,7 +11840,9 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/39.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/40.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/45.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/46.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/46.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p013-383c5",
@@ -11888,11 +11865,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0390",
@@ -11962,7 +11935,9 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/31.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/32.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/13.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/14.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/14.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p013-24b6c",
@@ -11976,11 +11951,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0393",
@@ -12143,7 +12114,9 @@
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/45.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/46.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/61.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/62.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/62.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/140.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/141.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p002-8cd4e",
@@ -12173,8 +12146,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/140.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/141.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/007.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/008.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/021.jpg",
@@ -12468,7 +12439,23 @@
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/55.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/56.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/61.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/62.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/62.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/149.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/150.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/151.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/152.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/153.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/154.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/156.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/13.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/14.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/16.png"
       ],
       "study_page_refs": [
         "ground-handling-p001-8cd4e",
@@ -12559,22 +12546,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/142.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/143.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/144.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/145.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/146.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/147.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/149.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/150.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/151.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/152.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/153.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/154.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/156.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/014.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/016.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/005.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/006.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/007.jpg",
@@ -12653,7 +12624,15 @@
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/53.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/54.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/61.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/62.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/62.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/140.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/141.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/149.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/150.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/151.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/152.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p002-8cd4e",
@@ -12709,14 +12688,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/140.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/141.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/149.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/150.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/151.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/152.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/009.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/010.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/017.jpg",
@@ -13576,7 +13547,12 @@
         "sheet": "Master Vocabulary",
         "row": 438
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/153.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/154.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/13.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/14.png"
+      ],
       "study_page_refs": [
         "safety-quality-p004-b39c3",
         "safety-quality-p025-ef2d3",
@@ -13588,13 +13564,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/153.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/154.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/014.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0438",
@@ -13837,7 +13807,15 @@
         "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/14.jpg",
         "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/16.png",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/11.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/12.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/12.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p012-383c5",
@@ -13854,17 +13832,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/142.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/143.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/144.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/145.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/146.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/147.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0447",
@@ -15656,7 +15624,9 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/7.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/8.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/41.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/42.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/42.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p013-24b6c",
@@ -15672,11 +15642,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0510",
@@ -15997,7 +15963,9 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/37.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/38.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/47.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/48.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/48.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/153.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/154.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p014-24b6c",
@@ -16011,11 +15979,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/153.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/154.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0522",
@@ -16455,7 +16419,16 @@
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/41.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/42.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/51.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/52.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/52.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/153.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/154.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/16.png"
       ],
       "study_page_refs": [
         "ground-handling-p005-8cd4e",
@@ -16483,15 +16456,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/142.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/143.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/144.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/145.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/146.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/147.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/153.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/154.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/016.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/005.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/006.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/007.jpg",
@@ -16581,7 +16545,8 @@
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/1.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/2.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/61.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/62.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/62.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/156.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p018-2870b",
@@ -16598,10 +16563,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/156.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0541",
@@ -17345,7 +17307,10 @@
         "sheet": "Master Vocabulary",
         "row": 567
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p021-ef2d3"
       ],
@@ -17355,11 +17320,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0567",
@@ -17375,7 +17336,9 @@
       },
       "image_refs": [
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/25.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/26.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/26.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p021-ef2d3",
@@ -17387,11 +17350,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0568",
@@ -17417,7 +17376,11 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/41.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/42.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/61.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/62.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/62.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/140.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/141.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p021-ef2d3",
@@ -17435,13 +17398,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/140.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/141.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0569",
@@ -17464,7 +17421,9 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/42.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/24.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/39.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/40.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/40.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p021-a57dc",
@@ -17485,8 +17444,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/023.jpg"
       ]
     },
@@ -17504,7 +17461,9 @@
       },
       "image_refs": [
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/7.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/8.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/8.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p021-ef2d3",
@@ -17516,11 +17475,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0571",
@@ -17534,7 +17489,10 @@
         "sheet": "Master Vocabulary",
         "row": 572
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p021-ef2d3"
       ],
@@ -17544,11 +17502,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0572",
@@ -17562,7 +17516,10 @@
         "sheet": "Master Vocabulary",
         "row": 573
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p021-ef2d3"
       ],
@@ -17572,11 +17529,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0573",
@@ -17590,7 +17543,10 @@
         "sheet": "Master Vocabulary",
         "row": 574
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p021-ef2d3"
       ],
@@ -17600,11 +17556,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0574",
@@ -17618,7 +17570,10 @@
         "sheet": "Master Vocabulary",
         "row": 575
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p021-ef2d3"
       ],
@@ -17628,11 +17583,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0575",
@@ -17648,7 +17599,9 @@
       },
       "image_refs": [
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/5.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/6.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/6.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p021-ef2d3",
@@ -17660,11 +17613,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0576",
@@ -17680,7 +17629,9 @@
       },
       "image_refs": [
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/9.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/10.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/10.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p021-ef2d3",
@@ -17692,11 +17643,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0577",
@@ -17714,7 +17661,11 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/9.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/10.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/43.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/44.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/44.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/140.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/141.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p021-ef2d3",
@@ -17728,13 +17679,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/140.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/141.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0578",
@@ -17748,7 +17693,10 @@
         "sheet": "Master Vocabulary",
         "row": 579
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p021-ef2d3"
       ],
@@ -17758,11 +17706,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0579",
@@ -17778,7 +17722,9 @@
       },
       "image_refs": [
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/9.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/10.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/10.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/138.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/139.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p021-ef2d3",
@@ -17790,11 +17736,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/138.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/139.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0580",
@@ -17810,7 +17752,13 @@
       },
       "image_refs": [
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/11.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/12.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/12.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p023-ef2d3",
@@ -17822,15 +17770,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/142.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/143.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/144.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/145.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/146.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/147.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0581",
@@ -17866,7 +17806,18 @@
         "sheet": "Master Vocabulary",
         "row": 583
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/149.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/150.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/151.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/152.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p023-ef2d3",
         "safety-quality-p024-ef2d3"
@@ -17877,19 +17828,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/142.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/143.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/144.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/145.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/146.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/147.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/149.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/150.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/151.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/152.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0583",
@@ -17905,7 +17844,13 @@
       },
       "image_refs": [
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/11.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/12.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/12.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p017-4bba4",
@@ -17918,15 +17863,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/142.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/143.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/144.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/145.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/146.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/147.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0584",
@@ -17944,7 +17881,13 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/11.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/12.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/45.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/46.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/46.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p023-ef2d3",
@@ -17957,15 +17900,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/142.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/143.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/144.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/145.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/146.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/147.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0585",
@@ -17982,7 +17917,11 @@
       "image_refs": [
         "assets/data/Rev 1 Sinhala/Ground handling - Images V1/125.jpg",
         "assets/data/Rev 1 Sinhala/Ground handling - Images V1/126.jpg",
-        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/127.jpg"
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/127.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/149.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/150.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/151.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/152.jpg"
       ],
       "study_page_refs": [
         "ground-handling-p024-a57dc",
@@ -17995,13 +17934,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/149.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/150.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/151.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/152.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0586",
@@ -18015,7 +17948,14 @@
         "sheet": "Master Vocabulary",
         "row": 587
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p023-ef2d3"
       ],
@@ -18025,15 +17965,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/142.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/143.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/144.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/145.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/146.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/147.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0587",
@@ -18052,7 +17984,22 @@
         "assets/data/Rev 1 Sinhala/Ground handling - Images V1/11.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/15.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/47.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/48.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/48.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/142.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/143.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/144.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/145.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/146.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/147.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/149.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/150.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/151.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/152.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/153.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/154.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/13.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/14.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/16.png"
       ],
       "study_page_refs": [
         "ground-handling-p004-8cd4e",
@@ -18070,24 +18017,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/142.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/143.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/144.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/145.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/146.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/147.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/149.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/150.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/151.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/152.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/153.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/154.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/014.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/016.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0588",
@@ -18112,7 +18042,13 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/51.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/52.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/3.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/4.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/4.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/149.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/150.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/151.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/152.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/13.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/14.png"
       ],
       "study_page_refs": [
         "ground-handling-p031-afe1e",
@@ -18133,12 +18069,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/149.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/150.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/151.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/152.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/014.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/021.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/022.jpg"
       ]
@@ -18162,7 +18092,15 @@
         "assets/data/Rev 1 Sinhala/Ground handling - Images V1/12.jpg",
         "assets/data/Rev 1 Sinhala/Ground handling - Images V1/125.jpg",
         "assets/data/Rev 1 Sinhala/Ground handling - Images V1/126.jpg",
-        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/127.jpg"
+        "assets/data/Rev 1 Sinhala/Ground handling - Images V1/127.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/149.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/150.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/151.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/152.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/153.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/154.jpg",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/13.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/14.png"
       ],
       "study_page_refs": [
         "ground-handling-p003-8cd4e",
@@ -18184,14 +18122,6 @@
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
       },
       "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/149.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/150.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/151.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/152.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/153.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/154.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/014.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/005.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/006.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/019.jpg",
@@ -18368,7 +18298,10 @@
         "sheet": "Master Vocabulary",
         "row": 598
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/13.png",
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/14.png"
+      ],
       "study_page_refs": [
         "ssw-readytofly-main-assets-data-rev-2-si-p007-d9250"
       ],
@@ -18378,11 +18311,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/013.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/014.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0598",
@@ -18396,7 +18325,9 @@
         "sheet": "Master Vocabulary",
         "row": 599
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/156.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p026-ef2d3"
       ],
@@ -18406,10 +18337,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/156.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0599",
@@ -18458,7 +18386,8 @@
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/17.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/18.jpg",
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/49.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/50.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/50.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/156.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p026-ef2d3",
@@ -18471,10 +18400,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/156.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0601",
@@ -18490,7 +18416,8 @@
       },
       "image_refs": [
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/51.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/52.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/52.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/156.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p026-ef2d3",
@@ -18502,10 +18429,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/156.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0602",
@@ -18519,7 +18443,9 @@
         "sheet": "Master Vocabulary",
         "row": 603
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/156.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p026-ef2d3"
       ],
@@ -18529,10 +18455,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/156.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0603",
@@ -18806,7 +18729,9 @@
       },
       "image_refs": [
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/53.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/54.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/54.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/157.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/158.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p028-ef2d3",
@@ -18819,11 +18744,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/157.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/158.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0614",
@@ -18885,7 +18806,10 @@
         "sheet": "Master Vocabulary",
         "row": 617
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/157.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/158.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p028-ef2d3",
         "safety-quality-p029-ef2d3"
@@ -18896,11 +18820,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/157.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/158.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0617",
@@ -18964,7 +18884,9 @@
       },
       "image_refs": [
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/21.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/22.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/22.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/157.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/158.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p029-ef2d3",
@@ -18976,11 +18898,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/157.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/158.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0620",
@@ -18994,7 +18912,10 @@
         "sheet": "Master Vocabulary",
         "row": 621
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/157.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/158.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p029-ef2d3"
       ],
@@ -19004,11 +18925,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/157.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/158.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0621",
@@ -19024,7 +18941,9 @@
       },
       "image_refs": [
         "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/21.jpg",
-        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/22.jpg"
+        "assets/data/Rev 2 Sinhala/GHtext【1.Safety and Quality】- Images .REV2/22.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/157.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/158.jpg"
       ],
       "study_page_refs": [
         "safety-quality-p029-ef2d3",
@@ -19036,11 +18955,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/157.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/158.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0622",
@@ -19054,7 +18969,10 @@
         "sheet": "Master Vocabulary",
         "row": 623
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/157.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/158.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p029-ef2d3"
       ],
@@ -19064,11 +18982,7 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/157.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/158.jpg"
-      ]
+      }
     },
     {
       "id": "GHV0623",
@@ -19082,7 +18996,10 @@
         "sheet": "Master Vocabulary",
         "row": 624
       },
-      "image_refs": [],
+      "image_refs": [
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/157.jpg",
+        "assets/data/Rev 1 Sinhala/Safety and quality  - Images V1/158.jpg"
+      ],
       "study_page_refs": [
         "safety-quality-p029-ef2d3"
       ],
@@ -19092,19 +19009,32 @@
         "show_english": true,
         "show_sinhala": true,
         "foreign_word_note": "Show English alongside Japanese loanword when the Japanese term is written in katakana."
-      },
-      "image_refs_pending": [
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/157.jpg",
-        "assets/data/Rev 1 Sinhala/Safety and quality - Images V1/158.jpg"
-      ]
+      }
     }
   ],
   "image_reference_audit": {
-    "status": "PATHS_RECONCILED; SEMANTIC_AND_QR_REVIEW_NOT_CERTIFIED",
+    "status": "PATHS_RECONCILED; 18_UNIQUE_SOURCE_REFERENCES_STILL_MISSING",
     "original_reference_count": 2579,
     "exact_paths": 1484,
-    "corrected_paths": 703,
-    "unresolved_paths": 392,
+    "corrected_paths": 969,
+    "unresolved_paths": 126,
+    "unresolved_unique_paths": [
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/005.jpg",
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/006.jpg",
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/007.jpg",
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/008.jpg",
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/009.jpg",
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/010.jpg",
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/017.jpg",
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/018.jpg",
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/019.jpg",
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/020.jpg",
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/021.jpg",
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/022.jpg",
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/011.jpg",
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/012.jpg",
+      "assets/data/Rev 2 Sinhala/GHtext【2.Airport Ground Handling】- Images.REV2.1/023.jpg"
+    ],
     "policy": "Only paths confirmed in the repository tree are retained in image_refs. Unresolved source references are preserved in image_refs_pending. No image is rendered from vocabulary references without a verified semantic mapping."
   }
 }
