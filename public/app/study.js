@@ -1,4 +1,4 @@
-const DATA_URL = '../assets/data/study_note_visual_map.json';
+const DATA_URL = '/assets/data/study_note_visual_map.json';
 
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
  '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
@@ -141,20 +141,24 @@ function mountStudy(root) {
 }
 
 export function renderStudy() {
- queueMicrotask(async () => {
+ setTimeout(async () => {
   const root = document.getElementById('study-root');
   if (!root) return;
   if (loadError) { root.innerHTML = `<div class="empty-state">${escapeHtml(loadError)}</div>`; return; }
   if (!pages.length) {
    root.innerHTML = '<div class="panel"><p class="muted">Loading study source…</p></div>';
    try {
-    const response = await fetch(DATA_URL,{cache:'no-store'});
-    if (!response.ok) throw new Error('Study source could not be loaded.');
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 15000);
+    let response;
+    try { response = await fetch(DATA_URL,{cache:'no-store',signal:controller.signal}); }
+    finally { clearTimeout(timeout); }
+    if (!response.ok) throw new Error('Study source could not be loaded (HTTP '+response.status+').');
     const data = await response.json();
     if (!Array.isArray(data.pages)) throw new Error('Study source format is not supported.');
     pages = data.pages;
    } catch (error) {
-    loadError = error.message || 'Study source could not be loaded. Please try again while online.';
+    loadError = error.name === 'AbortError' ? 'Study source request timed out. Please refresh and try again.' : (error.message || 'Study source could not be loaded. Please try again while online.');
     root.innerHTML = `<div class="empty-state">${escapeHtml(loadError)}</div>`;
     return;
    }
