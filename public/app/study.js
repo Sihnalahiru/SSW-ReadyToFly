@@ -28,7 +28,7 @@ function currentPages() {
  ));
 }
 
-function renderPage(page) {
+function renderPage(page, root) {
  if (!page) return '<div class="empty-state">No matching study pages. Try another search.</div>';
  const savedProgress = window.ReadyToFlyProgress?.get?.() || {};
  const alreadyReviewed = Boolean(savedProgress['study-page:'+page.id]?.reviewed);
@@ -98,7 +98,7 @@ function mountStudy(root) {
   </section>
   <div class="study-reader-layout">
    <aside class="study-page-list" aria-label="Study pages">${nav || '<p class="muted">No pages found.</p>'}</aside>
-   <section class="study-page-content" aria-live="polite">${renderPage(active)}</section>
+   <section class="study-page-content" aria-live="polite">${renderPage(active, root)}</section>
   </div>
  `;
  root.querySelectorAll('[data-study-speak]').forEach(button=>button.addEventListener('click',()=>{
