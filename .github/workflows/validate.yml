@@ -27,3 +27,15 @@ jobs:
         run: node validation/validate-study-images.mjs
       - name: Validate authentication and password-reset contracts
         run: node validation/validate-auth-contract.mjs
+      - name: Validate consolidated data-to-UI invariants
+        run: node validation/validate-data-to-ui.mjs
+      - name: Install Chromium for browser regression tests
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Start static app server
+        run: |
+          python3 -m http.server 4173 --directory public > /tmp/readytofly-http.log 2>&1 &
+          for i in $(seq 1 30); do curl -fsS http://127.0.0.1:4173/ >/dev/null && break; sleep 1; done
+      - name: Run desktop/mobile browser regression and account-progress persistence contract
+        run: node validation/e2e-readytofly.mjs

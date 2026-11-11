@@ -11,6 +11,7 @@ export function renderProgress(){
  const correct=attempts.filter(([,value])=>value?.correct).length;
  const wrong=attempts.length-correct;
  const wrongAnswers=entries.filter(([key,value])=>key.startsWith('wrong-answer:')&&value?.wrong);
+ const examResults=entries.filter(([key,value])=>key.startsWith('exam-result:')&&value?.completed_at).sort((a,b)=>Date.parse(b[1].completed_at)-Date.parse(a[1].completed_at));
  const total=reviewed.length+learned.length+attempts.length+favorites.length+srs.length;
  return `
   <section class="welcome"><p class="eyebrow">YOUR LEARNING JOURNEY</p><h1>My progress</h1><p class="muted">A live summary of the study, vocabulary and quiz activity saved to this account.</p></section>
@@ -30,6 +31,10 @@ export function renderProgress(){
     <div><span>Quiz accuracy</span><b>${attempts.length?Math.round(correct/attempts.length*100):0}%</b><i><em style="width:${attempts.length?correct/attempts.length*100:0}%"></em></i></div>
    </div>
    <p class="progress-data-note">Spaced-repetition due counts include terms with a saved review date only. Only activity recorded by the current app modules is counted. No estimated XP, streaks, study time or achievements are generated. Data is account-scoped through the existing progress service.</p>
+  </section>
+  <section class="panel progress-detail-panel">
+   <div class="section-heading"><div><p class="eyebrow">EXAM HISTORY</p><h2>Completed practice papers</h2></div><span class="section-note">${examResults.length} results</span></div>
+   ${examResults.length?examResults.slice(0,20).map(([key,value])=>`<div class="progress-wrong-row"><strong>${escapeHtml(value.title||value.paper_id)} · ${value.score_percentage===null?'Unscored':escapeHtml(value.score_percentage)+'%'}</strong><span>${escapeHtml(value.correct)} correct · ${escapeHtml(value.wrong)} incorrect · ${escapeHtml(value.unscored)} unscored · ${escapeHtml(new Date(value.completed_at).toLocaleString())}</span></div>`).join(''):'<p class="muted">No completed practice papers saved yet.</p>'}
   </section>
   <section class="panel progress-detail-panel">
    <div class="section-heading"><div><p class="eyebrow">REVIEW NEXT</p><h2>Wrong-answer list</h2></div><span class="section-note">${wrongAnswers.length} items</span></div>

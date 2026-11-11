@@ -29,7 +29,7 @@ export async function initExam() {
   if(!paperResponse.ok || !bankResponse.ok)throw new Error('Exam data could not be loaded ('+paperResponse.status+'/'+bankResponse.status+').');
   const papers=await paperResponse.json(),bank=await bankResponse.json();
   const byId=new Map((bank.items||[]).map(item=>[item.id,item]));
-  examState={papers,byId,answers:{},index:0,current:null,correct:0,wrong:0,unscored:0,submitted:false};
+  examState={papers,byId,answers:{},index:0,current:null,correct:0,wrong:0,unscored:0,submitted:false,completedAt:null};
   status.textContent='Choose one of the existing source-based papers. Question order and source records are preserved.';
   grid.innerHTML=(papers.papers||[]).map((paper,index)=>`
    <button type="button" class="panel exam-paper-card" data-open-paper="${index}">
@@ -65,7 +65,7 @@ function showPaperList(){
 
 function openPaper(index){
  const paper=examState?.papers.papers[index];if(!paper)return;
- examState.current=index;examState.index=0;examState.answers={};examState.correct=0;examState.wrong=0;examState.unscored=0;examState.submitted=false;
+ examState.current=index;examState.index=0;examState.answers={};examState.correct=0;examState.wrong=0;examState.unscored=0;examState.submitted=false;examState.completedAt=null;
  renderQuestion();
 }
 
@@ -123,5 +123,11 @@ function nextQuestion(){
 function showSummary(){
  const host=document.getElementById('exam-paper-host'),state=examState,paper=state.papers.papers[state.current];
  const answered=Object.keys(state.answers).length,scoreable=state.correct+state.wrong;
- host.innerHTML='<p class="eyebrow">PAPER COMPLETED</p><h2>'+esc(paper.title)+'</h2><div class="official-metrics"><div><strong>'+answered+'</strong><small>Answered</small></div><div><strong>'+state.correct+'</strong><small>Correct</small></div><div><strong>'+state.wrong+'</strong><small>Incorrect</small></div><div><strong>'+state.unscored+'</strong><small>Unscored</small></div></div><p class="muted">Score: '+(scoreable?Math.round(state.correct/scoreable*100)+'% of scored questions':'Not available')+'. Items with unverified answer keys are excluded from scoring.</p><div class="exam-action-row"><button type="button" class="primary-button" data-exam-restart>Retry this paper</button><button type="button" class="secondary-button" data-exam-back>Choose another paper</button></div>';
+ const percentage=scoreable?Math.round(state.correct/scoreable*100):null;
+ if(!state.completedAt){
+  state.completedAt=new Date().toISOString();
+  const result={paper_id:paper.paper_id,title:paper.title,total_questions:paper.questions.length,answered,correct:state.correct,wrong:state.wrong,unscored:state.unscored,score_percentage:percentage,answers:{...state.answers},completed_at:state.completedAt};
+  window.dispatchEvent(new CustomEvent('readytofly:progress',{detail:{key:'exam-result:'+paper.paper_id+':'+Date.now(),value:result}}));
+ }
+ host.innerHTML='<p class="eyebrow">PAPER COMPLETED</p><h2>'+esc(paper.title)+'</h2><div class="official-metrics"><div><strong>'+answered+'</strong><small>Answered</small></div><div><strong>'+state.correct+'</strong><small>Correct</small></div><div><strong>'+state.wrong+'</strong><small>Incorrect</small></div><div><strong>'+state.unscored+'</strong><small>Unscored</small></div></div><p class="muted">Score: '+(percentage===null?'Not available':percentage+'% of scored questions')+'. Items with unverified answer keys are excluded from scoring.</p><p class="muted" role="status">Exam result saved to your account progress. It will sync when a connection is available.</p><div class="exam-action-row"><button type="button" class="primary-button" data-exam-restart>Retry this paper</button><button type="button" class="secondary-button" data-exam-back>Choose another paper</button></div>';
 }

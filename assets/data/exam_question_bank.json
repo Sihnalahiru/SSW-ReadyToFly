@@ -11347,7 +11347,7 @@
           "label": "Ticket sales and passport issuance only"
         }
       ],
-      "correct_answer": "Aircraft movements, ground handling, fueling and maintenance",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 1",
       "explanation": "The source defines airside operations as operational activities including aircraft movements, ground handling, fueling and maintenance.",
       "visual_ref": null,
@@ -12314,7 +12314,7 @@
           "label": "Aircraft stand"
         }
       ],
-      "correct_answer": "Passenger terminal",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 1",
       "explanation": "Passenger terminals are listed among landside components.",
       "visual_ref": null,
@@ -13278,7 +13278,7 @@
           "label": "Issuing parking tickets"
         }
       ],
-      "correct_answer": "Managing aircraft takeoffs and landings",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 1",
       "explanation": "ATC responsibilities include managing aircraft takeoffs and landings.",
       "visual_ref": null,
@@ -14231,7 +14231,7 @@
           "label": "Baggage sorting"
         }
       ],
-      "correct_answer": "Runway lighting and marking upkeep",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 1",
       "explanation": "The notes list runway lighting and marking upkeep.",
       "visual_ref": null,
@@ -15205,7 +15205,7 @@
           "label": "Runway construction"
         }
       ],
-      "correct_answer": "Baggage handling",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 1",
       "explanation": "Baggage handling is listed as a basic ground handling function.",
       "visual_ref": null,
@@ -16135,7 +16135,7 @@
           "label": "Runway lighting and passenger boarding"
         }
       ],
-      "correct_answer": "Noise control and waste management",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 1",
       "explanation": "The source identifies noise control and waste management.",
       "visual_ref": null,
@@ -17048,7 +17048,7 @@
           "label": "Eliminating baggage screening"
         }
       ],
-      "correct_answer": "Smooth passenger flow",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 1",
       "explanation": "The notes state that terminal design aims to ensure smooth passenger flow.",
       "visual_ref": null,
@@ -17906,7 +17906,7 @@
           "label": "Passenger boarding bridge"
         }
       ],
-      "correct_answer": "Bus or shuttle",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 1",
       "explanation": "Buses and shuttles are listed as airport ground transport systems.",
       "visual_ref": null,
@@ -18988,7 +18988,7 @@
           "label": "Issuing ramp passes"
         }
       ],
-      "correct_answer": "Assigning gates to arriving and departing flights",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 1",
       "explanation": "Gate management assigns gates to arriving and departing flights.",
       "visual_ref": null,
@@ -20058,7 +20058,7 @@
           "label": "Cleaning passenger seating"
         }
       ],
-      "correct_answer": "Moving checked baggage from check-in to the aircraft",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 1",
       "explanation": "The source describes this baggage movement function.",
       "visual_ref": null,
@@ -21331,7 +21331,7 @@
           "label": "Access road"
         }
       ],
-      "correct_answer": "Apron",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 2",
       "explanation": "The apron is the aircraft parking and servicing area.",
       "visual_ref": null,
@@ -22239,7 +22239,7 @@
           "label": "Parking unrelated vehicles beside the fuel hose"
         }
       ],
-      "correct_answer": "Proper aircraft grounding",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 2",
       "explanation": "The notes specify grounding to avoid sparks.",
       "visual_ref": null,
@@ -23249,7 +23249,7 @@
           "label": "Baggage handlers"
         }
       ],
-      "correct_answer": "Air Traffic Control",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 3",
       "explanation": "The described parking process begins with ATC clearance.",
       "visual_ref": null,
@@ -24169,7 +24169,7 @@
           "label": "Lost property office"
         }
       ],
-      "correct_answer": "Apron control",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 3",
       "explanation": "Apron control coordinates movement in the parking area.",
       "visual_ref": null,
@@ -25139,7 +25139,7 @@
           "label": "Passenger information display"
         }
       ],
-      "correct_answer": "Marshaller or VDGS",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 3",
       "explanation": "The source describes marshallers and Visual Docking Guidance Systems.",
       "visual_ref": null,
@@ -26110,7 +26110,7 @@
           "label": "Passenger doors are opened before securing"
         }
       ],
-      "correct_answer": "Wheel chocks are placed",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 3",
       "explanation": "The parking procedure includes placing wheel chocks.",
       "visual_ref": null,
@@ -27122,7 +27122,7 @@
           "label": "Security screening, aircraft refueling, check-in, boarding"
         }
       ],
-      "correct_answer": "Check-in, security screening, immigration/customs when applicable, gate waiting, boarding",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, pages 5–6",
       "explanation": "This follows the passenger handling flow described in the source.",
       "visual_ref": null,
@@ -28101,7 +28101,7 @@
           "label": "Planning terminal retail space"
         }
       ],
-      "correct_answer": "Detecting foreign objects, cracks, lighting faults and surface damage",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 6",
       "explanation": "The notes identify these hazards as inspection targets.",
       "visual_ref": null,
@@ -29115,7 +29115,7 @@
           "label": "Moves aircraft from runway to hangar under flight power"
         }
       ],
-      "correct_answer": "Moves an aircraft away from the gate using a tug",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 7",
       "explanation": "The source defines pushback as moving the aircraft away from the gate using a tug.",
       "visual_ref": null,
@@ -30135,7 +30135,7 @@
           "label": "A system for sorting cargo"
         }
       ],
-      "correct_answer": "A direct sheltered path between terminal and aircraft",
+      "correct_answer": "A",
       "source": "Notes-on-Airport-Operations.pdf, page 7",
       "explanation": "The notes describe a direct, sheltered passenger path.",
       "visual_ref": null,
