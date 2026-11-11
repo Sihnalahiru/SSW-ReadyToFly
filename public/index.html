@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0b1730">
-<script type="module" src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"></script><meta name="description" content="ReadyToFly — SSW Airport Ground Handling learning app.">
+<meta name="theme-color" content="#102b50">
+<meta name="description" content="ReadyToFly — SSW Airport Ground Handling learning app.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="ReadyToFly">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="./icons/readytofly.svg">
+<link rel="icon" type="image/svg+xml" href="./icons/readytofly.svg">
+<script type="module" src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"></script>
 <title>ReadyToFly | SSW Ground Handling</title><link rel="manifest" href="./manifest.json"><link rel="stylesheet" href="./styles.css">
+<style>
+#pwa-install-card{position:fixed;z-index:10000;left:16px;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));max-width:440px;margin:auto;padding:16px 18px;border:1px solid rgba(255,255,255,.18);border-radius:18px;background:#102b50;color:#fff;box-shadow:0 16px 48px rgba(0,0,0,.28);font:14px/1.45 system-ui,-apple-system,sans-serif}
+#pwa-install-card[hidden],#pwa-install-help[hidden]{display:none}
+#pwa-install-card strong{display:block;font-size:16px;margin-bottom:4px}
+#pwa-install-card p{margin:0 28px 12px 0;color:#e4edf8}
+#pwa-install-actions{display:flex;gap:10px;align-items:center}
+#pwa-install-button{border:0;border-radius:999px;padding:10px 16px;background:#f1c36d;color:#17243a;font-weight:700}
+#pwa-install-close{position:absolute;right:12px;top:10px;border:0;background:transparent;color:#fff;font-size:22px;padding:4px 8px}
+#pwa-install-help{margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.2)}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -22,10 +38,34 @@
   </section>
  </main><footer class="login-footer">READYTOFLY <span>·</span> SSW GROUND HANDLING <span>·</span> CLOUD-SECURED LEARNING</footer>
 </div>
+<section id="pwa-install-card" hidden aria-label="Install ReadyToFly">
+ <button id="pwa-install-close" type="button" aria-label="Dismiss install instructions">×</button>
+ <strong>Install ReadyToFly</strong>
+ <p id="pwa-install-copy">Add ReadyToFly to your device for a full-screen app experience.</p>
+ <div id="pwa-install-actions"><button id="pwa-install-button" type="button">Install app</button></div>
+ <div id="pwa-install-help" hidden>In Safari, tap the <b>Share</b> button, choose <b>Add to Home Screen</b>, then tap <b>Add</b>.</div>
+</section>
 <div id="section-loader" class="section-loader" hidden aria-live="polite" aria-label="Loading section"><dotlottie-player class="section-loader-animation" src="./assets/animations/Passports%20in%20pink%20and%20blue.lottie" background="transparent" speed="1" autoplay loop></dotlottie-player><p>Preparing your learning space…</p></div>
 <div id="application" hidden>
  <header class="topbar glass-bar"><a class="brand" href="./" aria-label="ReadyToFly home"><span class="brand-mark">✈</span><span><strong>ReadyToFly</strong><small>SSW · Ground Handling</small></span></a><div class="top-actions"><span class="top-status"><i></i><span id="connection-status">Checking…</span></span><button id="theme-toggle" class="icon-button" type="button" aria-label="Toggle theme">◐</button><button id="signout" class="icon-button" type="button" aria-label="Sign out">↪</button></div></header>
  <div class="app-layout"><aside class="sidebar" aria-label="Main navigation"><p class="nav-label">LEARNING SPACE</p><button class="nav-item active" data-view="dashboard"><span class="nav-icon">⌂</span><span>Home</span></button><button class="nav-item" data-view="study"><span class="nav-icon">▤</span><span>Study</span></button><button class="nav-item" data-view="vocabulary"><span class="nav-icon">あ</span><span>Vocabulary</span></button><button class="nav-item" data-view="quiz"><span class="nav-icon">◇</span><span>Quiz Center</span></button><button class="nav-item" data-view="exam"><span class="nav-icon">✓</span><span>Practice</span></button><button class="nav-item" data-view="progress"><span class="nav-icon">◷</span><span>Progress</span></button><button class="nav-item" data-view="history"><span class="nav-icon">▣</span><span>Exam History</span></button><div class="sidebar-bottom"><div class="sidebar-note"><strong>Ready for your next step?</strong><p>Small steps. Strong skills. A brighter future.</p></div></div></aside>
  <main id="main" class="main-content" tabindex="-1"><div id="app" aria-live="polite"></div><footer class="footer">SSW ReadyToFly <span>·</span> Ground Handling <span>·</span> <span id="footer-status">Signed in</span></footer></main></div><nav class="mobile-nav" aria-label="Mobile navigation"><button class="mobile-nav-item active" type="button" data-view="dashboard"><span>⌂</span><small>Home</small></button><button class="mobile-nav-item" type="button" data-view="study"><span>▤</span><small>Study</small></button><button class="mobile-nav-item" type="button" data-view="vocabulary"><span>あ</span><small>Words</small></button><button class="mobile-nav-item" type="button" data-view="quiz"><span>◇</span><small>Quiz</small></button><button class="mobile-nav-item" type="button" data-view="exam"><span>✓</span><small>CBT</small></button><button class="mobile-nav-item" type="button" data-view="history"><span>▣</span><small>History</small></button></nav>
-</div><script type="module" src="./app.js"></script>
+</div>
+<script>
+(()=>{'use strict';
+const card=document.getElementById('pwa-install-card'),button=document.getElementById('pwa-install-button'),copy=document.getElementById('pwa-install-copy'),help=document.getElementById('pwa-install-help');
+let installEvent=null;
+const standalone=()=>window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
+const ios=/iphone|ipad|ipod/i.test(navigator.userAgent)&&!window.MSStream;
+if(!standalone()){
+ if(ios){copy.textContent='Install this app on your iPhone or iPad for quick, full-screen access.';button.textContent='How to install';card.hidden=false;}
+ else if(/android/i.test(navigator.userAgent)){copy.textContent='Install ReadyToFly on your Android device for an app-like experience.';}
+}
+window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();installEvent=event;if(!standalone()){copy.textContent='Install ReadyToFly on this device for quick, full-screen access.';button.textContent='Install app';card.hidden=false;}});
+button.addEventListener('click',async()=>{if(ios){help.hidden=!help.hidden;return;}if(!installEvent){copy.textContent='Open your browser menu and choose “Install app” or “Add to Home screen”.';return;}installEvent.prompt();await installEvent.userChoice;installEvent=null;card.hidden=true;});
+document.getElementById('pwa-install-close').addEventListener('click',()=>{card.hidden=true;});
+window.addEventListener('appinstalled',()=>{card.hidden=true;installEvent=null;});
+})();
+</script>
+<script type="module" src="./app.js"></script>
 </body></html>
