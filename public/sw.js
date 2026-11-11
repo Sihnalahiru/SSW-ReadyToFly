@@ -1,6 +1,6 @@
 'use strict';
 const CACHE_NAME='readytofly-shell-v13';
-const CORE_ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.json','./sw.js','./icons/readytofly.svg','./app/dashboard.js','./app/daily.js','./app/study.js','./app/exam.js','./app/progress.js','./app/vocabulary.js','./app/quiz.js','./app/history.js','./app/auth.js','./data/vocabulary_master.json','./assets/animations/Airplane%20arrival%20at%20airport.lottie','./assets/animations/Passports%20in%20pink%20and%20blue.lottie','./assets/animations/Trophy.lottie'];
+const CORE_ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.json','./sw.js','./icons/readytofly.svg','./icons/apple-touch-icon-180.png','./icons/icon-192.png','./icons/icon-512.png','./app/dashboard.js','./app/daily.js','./app/study.js','./app/exam.js','./app/progress.js','./app/vocabulary.js','./app/quiz.js','./app/history.js','./app/auth.js','./data/vocabulary_master.json','./assets/animations/Airplane%20arrival%20at%20airport.lottie','./assets/animations/Passports%20in%20pink%20and%20blue.lottie','./assets/animations/Trophy.lottie'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(CORE_ASSETS)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('readytofly-shell-')&&key!==CACHE_NAME).map(key=>caches.delete(key)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',event=>{
